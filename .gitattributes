@@ -1,0 +1,5 @@
+# Treating MD files (and others) in docs folder as text (enforcing LFs to be used) 
+docs/**/*.{md,css,txt,html,yaml,yml,js} text eol=lf
+
+# Treating images and icons as binary in docs folder
+docs/**/*.{png,jpg,jpeg,gif,woff,ttf,eot,pptx} binary
