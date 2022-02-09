@@ -1,6 +1,6 @@
-# Contribute to the Setup and Admin Guide for SAP Cloud ALM
-
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/cloud-alm-setup-admin-guide)](https://api.reuse.software/info/github.com/SAP-docs/cloud-alm-setup-admin-guide)
+
+# Contribute to the Setup and Admin Guide for SAP Cloud ALM
 
 Found a mistake in our documentation? Always wanted to add a step in one of our procedures that could save many others much time? Then you're at the right place! All contributions made to the Markdown files in the [docs](docs) directory are reviewed, and if deemed valuable be added to our [official documentation on SAP Help Portal](https://help.sap.com/viewer/08879d094f3b4de3ac67832f4a56a6de/latest/en-US). The easiest way is to start there, and choose _Edit_ to find the right Markdown file to contribute to.
 
@@ -28,7 +28,7 @@ Adhere to the [SAP Open Source Code of Conduct](https://github.com/SAP-docs/.git
 
 ## Licensing
 
-See our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP-docs/cloud-alm-setup-admin-guide).
+See our [LICENSE](LICENSE) for copyright and license information.
 
 
 

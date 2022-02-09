@@ -171,6 +171,24 @@ Refer to SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
 <tr>
 <td valign="top">
 
+You want to use a different Identity Authentication in SAP Cloud ALM than the one you're using for your managed system.
+
+
+
+</td>
+<td valign="top">
+
+Creating multiple productive Identity Authentication tenants splits the user base and requires an individual administrator for each tenant. This means that users that are maintained in the Identity Authentication tenant of your managed system also need to be created in the Identity Authentication tenant that is used for SAP Cloud ALM, if they need to work in both solutions.
+
+If the Identity Authentication tenant of your managed system existed before SAP Cloud ALM was created, it was automatically reused as the identity provider for SAP Cloud ALM. If you want to change this assignment, refer to SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Your Identity Authentication tenant was created in a different data center than SAP Cloud ALM.
 
 
@@ -341,7 +359,7 @@ There is no support for SAP Solution Manager in SAP Cloud ALM.
 <tr>
 <td valign="top">
 
-A syntax error occurs after the ST-PI upgrade and short dumps occur after the configuration of SAP Cloud ALM
+A syntax error occurs after the ST-PI upgrade and short dumps occur after the configuration of SAP Cloud ALM.
 
 
 
@@ -368,7 +386,7 @@ You want to change the language settings in SAP Cloud ALM.
 
 The default display language of the solution is based on the language that is maintained in your browser settings.
 
-You can change the language either by changing it in your browser settings or by clicking on your user profile at the top right corner of the SAP Cloud ALM launchpad and choosing *Settings* \> *Language & Region*.
+You can change the language either by changing it in your browser settings or by clicking on your user profile at the top-right corner of the SAP Cloud ALM launchpad and choosing *Settings* \> *Language & Region*.
 
 
 
@@ -400,7 +418,7 @@ You want to decommission SAP Cloud ALM.
 </td>
 <td valign="top">
 
-Official decommission of SAP Cloud ALM is not yet available. However, you can use a housekeeping job to delete cloud services from the *Landscape Management* app.
+Official decommission of SAP Cloud ALM isn't yet available. However, you can use a housekeeping job to delete cloud services from the *Landscape Management* app.
 
 
 
@@ -414,7 +432,7 @@ Official decommission of SAP Cloud ALM is not yet available. However, you can us
 
 ## Further Support
 
-If you encounter issues that are not listed here or you're unable to perform the described resolutions yourself, raise an incident on the following components:
+If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, raise an incident on the following components:
 
 
 <table>

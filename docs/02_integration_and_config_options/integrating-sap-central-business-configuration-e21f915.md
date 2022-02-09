@@ -4,11 +4,11 @@
 
 By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be executed, and allows you to navigate directly to SAP Central Business Configuration as needed.
 
-SAP Central Business Configuration is a solution that allows you to configure business processes that span across various SAP products from one central place.
+SAP Central Business Configuration is a solution that supports the configuration of SAP S/4HANA Cloud.
 
 While an SAP Cloud ALM project applies the SAP Activate methodology to provide end-to-end procedural guidance on how to start and execute an implementation project, an SAP Central Business Configuration project shows the project and configuration activities focused on your specific business configuration.
 
-To use SAP Central Business Configuration in SAP Cloud ALM, you first need to perform the following setup procedure.
+To use SAP Central Business Configuration in SAP Cloud ALM, you first need to carry out the following setup procedure.
 
 
 
