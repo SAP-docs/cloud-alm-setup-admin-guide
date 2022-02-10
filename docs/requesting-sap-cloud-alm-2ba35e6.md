@@ -55,7 +55,12 @@ You can request SAP Cloud ALM in the *SAP Cloud ALM Access Management* app in SA
 
 5.  If you agree to the terms and conditions, choose *Agree*.
 
-6.  Select a region and enter a unique subdomain name.
+6.  Select a region.
+
+    > ### Note:  
+    > Europe \(Netherlands\) is currently the only available region.
+
+7.  Enter a unique subdomain name.
 
      ![Choose a Region and a Subdomain](images/Onboarding_-_Account_Details_598c25f.png) 
 
@@ -79,7 +84,7 @@ You can request SAP Cloud ALM in the *SAP Cloud ALM Access Management* app in SA
 
     For more detailed information about how to choose a subdomain and about the onboarding process in the *SAP Cloud ALM Access Management* app in general, refer to the in-app help.
 
-7.  When you choose *OK*, the app automatically prepares SAP Cloud ALM and creates the following entities \(see also graphic below\):
+8.  When you choose *OK*, the app automatically prepares SAP Cloud ALM and creates the following entities \(see also graphic below\):
 
     -   A global account that contains your SAP Cloud ALM entitlement, with the name “SAP Cloud ALM”
 
@@ -105,7 +110,7 @@ You can request SAP Cloud ALM in the *SAP Cloud ALM Access Management* app in SA
          ![Entities Created by SAP Cloud ALM Access Management](images/SAP_Cloud_ALM_Big_Picture_e2b1d2a.png) 
 
 
-8.  You receive the following emails containing logon information, configuration instructions, and links to support resources:
+9.  You receive the following emails containing logon information, configuration instructions, and links to support resources:
 
     -   *Access Information for SAP Cloud ALM* from *SAP No Reply Provisioning*
 

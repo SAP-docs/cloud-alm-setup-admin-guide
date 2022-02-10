@@ -98,8 +98,6 @@ Process Management
 </td>
 <td valign="top">
 
--   SAP Intelligent Enterprise Suite
-
 -   SAP SFSF Compensation
 
 -   SAP SFSF Employee Experience
@@ -413,7 +411,7 @@ Deployment Management
 </td>
 <td valign="top">
 
-More under [Enabling Transport Management for SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/enabling-transport-management-for-sap-s-4hana-cloud-private-edition-and-on-premise-system-5aa24f0.md).
+More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
 
 
 
@@ -443,7 +441,7 @@ Deployment Management
 </td>
 <td valign="top">
 
-More under [Enabling Transport Management for SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/enabling-transport-management-for-sap-s-4hana-cloud-private-edition-and-on-premise-system-5aa24f0.md).
+More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
 
 
 

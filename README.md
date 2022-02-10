@@ -28,7 +28,7 @@ Adhere to the [SAP Open Source Code of Conduct](https://github.com/SAP-docs/.git
 
 ## Licensing
 
-See our [LICENSE](LICENSE) for copyright and license information.
+See our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP-docs/cloud-alm-setup-admin-guide).
 
 
 

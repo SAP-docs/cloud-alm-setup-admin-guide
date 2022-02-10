@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Enabling Transport Management for SAP S/4HANA Cloud, Private Edition and On-Premise Systems
+# SAP S/4HANA Cloud, Private Edition and On-Premise Systems
 
 By enabling the transport management for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
 
