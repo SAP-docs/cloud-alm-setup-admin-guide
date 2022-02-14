@@ -36,8 +36,8 @@ In addition to manual test cases, you can also integrate automated test cases fr
 		described below, and connect your SAP cloud services to your SAP Cloud ALM
 		instance.")**  
 To use the monitoring capabilities of some SAP Cloud ALM applications, you need to enable the monitoring of your cloud services. To do this, retrieve your service key as described below, and connect your SAP cloud services to your SAP Cloud ALM instance.
--   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By integrating the SAP Audit Log Viewer service, you can view the audit logs for your
-		Cloud Foundry account, produced by SAP applications and services you’ve subscribed
+-   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By integrating the SAP Audit Log Viewer service for SAP BTP, you can view the audit logs
+		for your Cloud Foundry account, produced by SAP applications and services you’ve subscribed
 		to.")**  
-By integrating the SAP Audit Log Viewer service, you can view the audit logs for your Cloud Foundry account, produced by SAP applications and services you’ve subscribed to.
+By integrating the SAP Audit Log Viewer service for SAP BTP, you can view the audit logs for your Cloud Foundry account, produced by SAP applications and services you’ve subscribed to.
 
