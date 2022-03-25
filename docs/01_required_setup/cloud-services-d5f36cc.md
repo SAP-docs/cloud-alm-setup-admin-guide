@@ -8,7 +8,7 @@
 
 Cloud service information is imported or created as follows:
 
--   Automatic import by SAP \(preferred option\)
+-   Automatic import by SAP \(preferred option, for SAP Ariba Cloud Integration Gateway refer to https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-ariba.html\)
 
 -   Automatic creation by means of the service registration \(available for push-enabled cloud services\)
 
