@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API
 
-To use the monitoring capabilities of some SAP Cloud ALM applications, you need to enable the monitoring of your cloud services. To do this, retrieve your service key as described below, and connect your SAP cloud services to your SAP Cloud ALM instance.
+To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve your service key and connect your SAP services and systems to your SAP Cloud ALM instance.
 
 
 
@@ -46,11 +46,13 @@ Carry out the following steps to enable SAP Cloud ALM API:
 
 4.  Choose *Cloud Foundry* \> *Spaces*.
 
-5.  Choose *Create Space*.
+5.  If you already have a space with the required authorizations, proceed to the **Configure Entitlements** section.
+
+    If you don't have a space yet, choose *Create Space*.
 
      ![Create a Space](images/Enabling_APIs_-_Create_Space_f46e85f.png) 
 
-6.  Enter a space name, such as ***sap\_cloud\_alm\_space***, and select the roles that you want to assign to your user for this space. To perform the following steps, your user needs at least *Space Developer* authorizations.
+6.  Enter a space name and select the roles that you want to assign to your user for this space. To perform the following steps, your user needs at least *Space Developer* authorizations.
 
 7.  Choose *Create*.
 
@@ -75,47 +77,126 @@ An entitlement is your right to provision and consume a resource.
 
     3.  Choose *Add 1 Service Plan*.
 
-         ![Select Service Plan for SAP Cloud ALM APIs](images/Enabling_APIs_-_Add_Service_Plan_f2a4ae2.png) 
+         ![Select a Service Plan for SAP Cloud ALM APIs](images/Enabling_APIs_-_Add_Service_Plan_f2a4ae2.png) 
 
 
 4.  Choose *Save*.
 
 
-> ### Note:  
-> You can increase your global quota, that is, your maximum allowed consumption of this service plan, in the control center.
 
 
-
-### Create a New Instance
+### Maintain an Instance
 
 1.  Choose *Cloud Foundry* \> *Spaces*.
 
-2.  Select the created space.
+2.  Select your space.
 
-3.  Choose *Services* \> *Service Marketplace*.
+3.  Choose *Services* \> *Instances*.
 
-4.  Select the service *SAP Cloud ALM API*.
+4.  If you already have an instance, choose <span class="SAP-icons"></span> \(Actions\) and select *Update*. Then proceed to step 6.
 
-     ![Select SAP Cloud ALM API](images/Enabling_APIs_-_Service_Marketplace_16f6163.png) 
+    If you don't have an instance yet, click on the *Create* dropdown and select *Service Instance*.
 
-5.  Choose *Create*.
+     ![](images/Create_Service_Instance_f00749a.png) 
 
-     ![Create Service Instance](images/Enabling_APIs_-_Create_Instance_b728ac5.png) 
-
-6.  Under *Basic Info*, provide the following details:
+5.  Under *Basic Info*, provide the following details:
 
     -   *Service*: ***SAP Cloud ALM API***
 
     -   *Plan*: ***standard***
 
-    -   *Instance Name*: Enter a meaningful instance name, such as ***sap\_cloud\_alm\_api***.
+    -   *Instance Name*: Enter a meaningful instance name.
 
          ![Choose Service Plan](images/Enabling_APIs_-_Standard_Service_Plan_b9cfbff.png) 
 
 
-7.  Choose *Create*.
+6.  Choose *Next*.
 
-8.  When your instance has been created, choose *View Instance* in the message popup.
+7.  If you're setting up your SAP Cloud ALM for Operations applications, proceed to step 9.
+
+    If you're creating the instance to enable transport management, paste the following JSON code into the text editor\(depending on your use case\):
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Integration Use Case
+
+
+    
+    </th>
+    <th valign="top">
+
+    Scopes
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    SAP S/4HANA Cloud, Private Edition and On-Premise Systems
+
+
+    
+    </td>
+    <td valign="top">
+
+    ```
+    {
+        "xs-security": {
+            "xsappname": "<Your Instance Name>",
+            "authorities": [
+            	"$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
+            ]
+        }
+    }
+    
+    ```
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    SAP Cloud Transport Management Service
+
+
+    
+    </td>
+    <td valign="top">
+
+    ```
+    {
+        "xs-security": {
+            "xsappname": "<Your Instance Name>",
+            "authorities": [
+    			"$XSMASTERAPPNAME.imp-cdm-feature-display-ui",
+    			"$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
+            ]
+        }
+    }
+    
+    ```
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+    > ### Caution:  
+    > If you later want to update your instance with new parameters, repeat the authorities you've already added.
+
+8.  Replace `<Your Instance Name>` with your instance name.
+
+9.  Choose *Create*.
+
+10. When your instance has been created or updated, choose *View Instance* in the message popup.
 
      ![](images/SUI-ViewInstance_d96e211.png) 
 
@@ -130,7 +211,7 @@ Service keys allow you to configure an external application so that it can conne
 
      ![Create a Service Key](images/Enabling_APIs_-_Create_Service_Key_515c433.png) 
 
-2.  Enter a name for your service key, such as ***sap\_cloud\_alm\_key***.
+2.  Enter a name for your service key.
 
 3.  Choose *Create*.
 
@@ -152,14 +233,6 @@ Service keys allow you to configure an external application so that it can conne
 
 > ### Caution:  
 > Outside of the SAP BTP cockpit, service keys must be stored securely. If you need a service key, create the service key directly in the SAP BTP cockpit, and access it from there whenever you need it.
-
-
-
-<a name="loio704b5dc854f549888a238f94015e1eac__section_vn5_q42_3mb"/>
-
-## Further Steps
-
-You can use the created service key to set up the connection between the destination service of your managed system and individual SAP Cloud ALM applications as described in the *Details* sections in [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) on SAP Support Portal.
 
 **Related Information**  
 

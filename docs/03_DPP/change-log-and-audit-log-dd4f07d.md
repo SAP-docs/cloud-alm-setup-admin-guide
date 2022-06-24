@@ -20,11 +20,11 @@ Change logging in SAP Cloud ALM is implemented on application level and reflects
 
 The SAP Audit Log Viewer service records the following information:
 
--   **Security event log:**: Security events in SAP Cloud ALM applications
+-   **Security event log**: Security events in SAP Cloud ALM applications
 
--   **Changes to personal data:**: All changes to the user master data
+-   **Changes to personal data**: All changes to the user master data
 
--   **Read access to sensitive personal data: No application in SAP Cloud ALM stores sensitive personal data.**
+-   **Read access to sensitive personal data**: No application in SAP Cloud ALM stores sensitive personal data.
 
 -   **Configuration changes**: For some applications, configuration changes are registered in SAP Audit Log Viewer service. For example, changes to project teams in *Projects* are registered.
 

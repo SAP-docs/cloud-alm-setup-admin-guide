@@ -60,14 +60,14 @@ Cross
 </td>
 <td valign="top">
 
-Global Administrator
+ *Global Administrator* 
 
 
 
 </td>
 <td valign="top">
 
-Create and manage all SAP Cloud ALM objects, except personal or sensitive data
+Create and manage all SAP Cloud ALM objects, except for personal or sensitive data
 
 > ### Caution:  
 > This role provides the complete set of authorizations. We recommend configuring suitable roles for your users.
@@ -95,7 +95,7 @@ Cross Global Administrator
 <tr>
 <td valign="top">
 
-Global Auditor
+ *Global Auditor* 
 
 
 
@@ -134,7 +134,7 @@ User & Access Management
 </td>
 <td valign="top">
 
-User Administrator
+ *User Administrator* 
 
 
 
@@ -166,7 +166,7 @@ User & Access Management Administrator
 <tr>
 <td valign="top">
 
-User Viewer
+ *User Viewer* 
 
 
 
@@ -209,7 +209,7 @@ Test Management
 </td>
 <td valign="top">
 
-Project Administrator
+ *Project Administrator* 
 
 
 
@@ -239,7 +239,7 @@ Project & Task Management Administrator
 <tr>
 <td valign="top">
 
-Project Lead
+ *Project Lead* 
 
 
 
@@ -269,7 +269,7 @@ Project & Task Management Project Lead
 <tr>
 <td valign="top">
 
-Project Member
+ *Project Member* 
 
 
 
@@ -299,7 +299,7 @@ Project & Task Management Project Member
 <tr>
 <td valign="top">
 
-Project Viewer
+ *Project Viewer* 
 
 
 
@@ -336,14 +336,14 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Process Monitoring Administrator
+ *Process Monitoring Administrator* 
 
 
 
 </td>
 <td valign="top">
 
-Maintain global and specific configurations, consume KPIs and the respective process content, and process alerts
+Maintain global and specific configurations, consume KPIs and the respective process content \(including sensitive data\), and process alerts
 
 
 
@@ -366,14 +366,14 @@ Business Process Monitoring Administrator
 <tr>
 <td valign="top">
 
-Process Manager
+ *Process Manager* 
 
 
 
 </td>
 <td valign="top">
 
-Consume KPIs and the respective process content, process alerts, and maintain specific configurations
+Consume KPIs and the respective process content \(including sensitive data\), process alerts, and maintain specific configurations
 
 
 
@@ -396,14 +396,14 @@ Business Process Monitoring Process Manager
 <tr>
 <td valign="top">
 
-Process Executor
+ *Process Executor* 
 
 
 
 </td>
 <td valign="top">
 
-Consume KPIs and the respective process content, and process alerts
+Consume KPIs and the respective process content \(including sensitive data\), and process alerts
 
 
 
@@ -426,14 +426,14 @@ Business Process Monitoring Process Executor
 <tr>
 <td valign="top">
 
-Process Monitoring Consumer
+ *Process Monitoring Consumer* 
 
 
 
 </td>
 <td valign="top">
 
-Consume KPIs and the respective process content, and view alerts
+Consume KPIs and the respective process content \(including sensitive data\), and view alerts
 
 
 
@@ -456,7 +456,7 @@ Business Process Monitoring Consumer
 <tr>
 <td valign="top">
 
-Process Monitoring Viewer
+ *Process Monitoring Viewer* 
 
 
 
@@ -493,7 +493,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-Integration Architect
+ *Integration Architect* 
 
 
 
@@ -523,7 +523,7 @@ Integration Monitoring Integration Architect
 <tr>
 <td valign="top">
 
-Integration Owner
+ *Integration Owner* 
 
 
 
@@ -553,7 +553,7 @@ Integration Monitoring Integration Owner
 <tr>
 <td valign="top">
 
-Integration Owner Sensitive
+ *Integration Owner Sensitive* 
 
 
 
@@ -590,7 +590,7 @@ Job & Automation Monitoring
 </td>
 <td valign="top">
 
-Job Monitoring Administrator
+ *Job Monitoring Administrator* 
 
 
 
@@ -620,7 +620,7 @@ Job Monitoring Administrator
 <tr>
 <td valign="top">
 
-Job Monitoring Consumer
+ *Job Monitoring Consumer* 
 
 
 
@@ -657,7 +657,7 @@ Real User Monitoring
 </td>
 <td valign="top">
 
-Real User Analyst Administrator
+ *Real User Analyst Administrator* 
 
 
 
@@ -687,7 +687,7 @@ Real User Monitoring Analyst Administrator
 <tr>
 <td valign="top">
 
-Real User Analyst
+ *Real User Analyst* 
 
 
 
@@ -717,7 +717,7 @@ Real User Monitoring Analyst
 <tr>
 <td valign="top">
 
-Real User Analyst Sensitive
+ *Real User Analyst Sensitive* 
 
 
 
@@ -754,7 +754,7 @@ Health Monitoring
 </td>
 <td valign="top">
 
-Health Monitoring Administrator
+ *Health Monitoring Administrator* 
 
 
 
@@ -784,7 +784,7 @@ Health Monitoring Administrator
 <tr>
 <td valign="top">
 
-Health Monitoring Viewer
+ *Health Monitoring Viewer* 
 
 
 
@@ -821,7 +821,7 @@ Business Service Management
 </td>
 <td valign="top">
 
-Business Service Management Administrator
+ *Business Service Management Administrator* 
 
 
 
@@ -851,7 +851,7 @@ Business Service Management Administrator
 <tr>
 <td valign="top">
 
-Business Service Management Viewer
+ *Business Service Management Viewer* 
 
 
 
@@ -888,7 +888,7 @@ Service Collaboration
 </td>
 <td valign="top">
 
-Services Administrator
+ *Services Administrator* 
 
 
 
@@ -918,7 +918,7 @@ Service Collaboration Administrator
 <tr>
 <td valign="top">
 
-Services Expert
+ *Services Expert* 
 
 
 
@@ -948,7 +948,7 @@ Service Collaboration Expert
 <tr>
 <td valign="top">
 
-Services Viewer
+ *Services Viewer* 
 
 
 

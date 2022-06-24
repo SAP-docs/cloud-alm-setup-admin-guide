@@ -82,7 +82,7 @@ After you've requested SAP Cloud ALM, there are additional mandatory configurati
 > </tr>
 > </table>
 
-On this image, you can see all mandatory setup steps for SAP Cloud ALM at a glance.
+On this image, you can see all mandatory setup steps for SAP Cloud ALM at a glance:
 
 
 
@@ -104,8 +104,8 @@ Before you can use SAP Cloud ALM, you need to create or import users in the Iden
 -   **[Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md "After onboarding your users to the Identity Authentication tenant, you need to add them
 		to SAP Cloud ALM and assign roles to them.")**  
 After onboarding your users to the Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.
--   **[Step 3: Set Up Landscape Management](step-3-set-up-landscape-management-23f1c49.md "As the last step of the required setup, cloud services and on-premise systems (technical
-		systems) need to be set up in the Landscape Management app in SAP
-		Cloud ALM.")**  
-As the last step of the required setup, cloud services and on-premise systems \(technical systems\) need to be set up in the *Landscape Management* app in SAP Cloud ALM.
+-   **[Step 3: Set Up Landscape Management](step-3-set-up-landscape-management-23f1c49.md "As the last step of the required setup, services and systems (technical systems) need to
+		be set up in the Landscape Management app in SAP Cloud
+		ALM.")**  
+As the last step of the required setup, services and systems \(technical systems\) need to be set up in the *Landscape Management* app in SAP Cloud ALM.
 

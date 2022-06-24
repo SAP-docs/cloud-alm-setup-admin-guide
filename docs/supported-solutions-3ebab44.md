@@ -4,7 +4,7 @@
 
 The following table shows in which way your SAP product is supported by SAP Cloud ALM.
 
-You can find the latest additions to the scope in [What&apos;s New in SAP Cloud ALM](https://help.sap.com/viewer/604f6e2484984622a01ac1e5aa9415a1/latest/en-US/09237fab92354984ad3519ee17453f5e.html "Find out about new features in SAP Cloud ALM.") :arrow_upper_right:. For a complete list of SAP Cloud ALM features, refer to [SAP Cloud ALM Feature Scope Description](https://help.sap.com/viewer/3e03c08c64a148f9b84dae6c8076971b/latest/en-US/7cc336f63a764f32b527d769f8ed4379.html "") :arrow_upper_right:.
+You can find the latest additions to the scope in [What's New for SAP Cloud ALM](https://help.sap.com/whats-new/0cb91c1ef73b400f881823f8d5fd2dea). For a complete list of SAP Cloud ALM features, refer to [SAP Cloud ALM Feature Scope Description](https://help.sap.com/docs/CloudALM/3e03c08c64a148f9b84dae6c8076971b/7cc336f63a764f32b527d769f8ed4379.html).
 
 SAP makes no warranty, either expressed or implied, for the information provided here. Due to short-term software updates, completeness can't be guaranteed. The features in the list are subject to change.
 
@@ -68,7 +68,7 @@ Process Management
 
 [SAP Best Practices for SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_CLD_ENTPR) 
 
-More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/business-process-content.html) \(Expert Portal\).
+More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
 
 
@@ -123,7 +123,7 @@ Process Management
 -   SAP SFSF Time and Attendance Management
 
 
-More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\) and [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/business-process-content.html) \(Expert Portal\).
+More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\) and [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
 
 
@@ -450,6 +450,102 @@ More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integr
 <tr>
 <td valign="top">
 
+SAP Integration Suite
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Deployment Management
+
+
+
+</td>
+<td valign="top">
+
+This includes the capabilities *Cloud Integration* and *API Management*.
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Cloud Foundry environment
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Deployment Management
+
+
+
+</td>
+<td valign="top">
+
+Mainly development content and some selected services.
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Neo environment
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Deployment Management
+
+
+
+</td>
+<td valign="top">
+
+Mainly development content and some selected services.
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 
@@ -752,6 +848,36 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Marketing Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+[SAP Best Practices for SAP Marketing Cloud](https://rapid.sap.com/bp/#/browse/categories/lines_of_business/areas/marketing/packageversions/BP_CLD_MKT)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Concur
 
 
@@ -902,7 +1028,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Integration Suite
+SAP Integration Suite – Cloud Integration
 
 
 
@@ -1173,6 +1299,36 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <td valign="top">
 
 SAP SuccessFactors Employee Central Payroll
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
 
 
@@ -1522,7 +1678,37 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Integration Suite
+SAP Integration Suite – API Management
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integration Suite – Cloud Integration
 
 
 
@@ -1664,6 +1850,36 @@ Health Monitoring
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP HANA Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
 
 
 
@@ -1972,6 +2188,66 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
+SAP Cloud for Customer
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Neo environment
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite
 
 
@@ -2122,7 +2398,37 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Sales Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Services Cloud
 
 
 

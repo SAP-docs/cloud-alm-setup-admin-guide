@@ -25,14 +25,37 @@ Resolution
 <tr>
 <td valign="top">
 
-When you request SAP Cloud ALM, you get the error message *Error - Provisioning cannot be started, system Unavailable*.
+When you request SAP Cloud ALM on SAP for Me, your Identity Authentication tenant isn't available for selection.
 
 
 
 </td>
 <td valign="top">
 
-Refer to SAP Note [3076993](https://launchpad.support.sap.com/#/notes/3076993).
+Your Identity Authentication tenant may not show up for the following reasons:
+
+-   It may not be a **productive** tenant.
+
+-   It may be assigned to a different customer ID.
+
+
+You can find all Identity Authentication tenants assigned to your customer ID and their type at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You can't find your subaccount for SAP Cloud ALM in the SAP BTP cockpit.
+
+
+
+</td>
+<td valign="top">
+
+Refer to [this question](https://answers.sap.com/questions/13606769/sap-cloud-alm-subaccount-not-appear-in-btp-cockpit.html) on SAP Community.
 
 
 
@@ -171,6 +194,22 @@ Refer to SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
 <tr>
 <td valign="top">
 
+You want to connect SAP Cloud ALM to a non-production Identity Authentication tenant.
+
+
+
+</td>
+<td valign="top">
+
+We don't recommend connecting SAP Cloud ALM to a non-production Identity Authentication tenant because there's no way to migrate users from a test Identity Authentication tenant to a production Identity Authentication tenant. This could cause issues in your landscape if you later decide to use SAP Cloud ALM in a productive manner.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to use a different Identity Authentication in SAP Cloud ALM than the one you're using for your managed system.
 
 
@@ -221,7 +260,7 @@ Refer to SAP Note [3070306](https://launchpad.support.sap.com/#/notes/3070306).
 <tr>
 <td valign="top">
 
-You want to find out which Identity Authentication tenants are assigned to your customer ID.
+You want to find out which Identity Authentication tenants are assigned to your customer ID and who the administrator is.
 
 
 
@@ -229,6 +268,22 @@ You want to find out which Identity Authentication tenants are assigned to your 
 <td valign="top">
 
 Refer to [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to create a large number of users for SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+There is no limit to the number of users that can be created for an SAP Cloud ALM system.
 
 
 
@@ -438,7 +493,7 @@ You want to decommission SAP Cloud ALM.
 </td>
 <td valign="top">
 
-Official decommission of SAP Cloud ALM isn't yet available. However, you can use a housekeeping job to delete cloud services from the *Landscape Management* app.
+Official decommission of SAP Cloud ALM isn't yet available. However, you can use a housekeeping job to delete services from the *Landscape Management* app.
 
 
 

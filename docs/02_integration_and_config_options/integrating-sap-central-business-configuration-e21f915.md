@@ -24,9 +24,9 @@ Create a cloud service and an endpoint for SAP Central Business Configuration by
 
 1.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-2.  On the *Cloud Services* page, check whether the SAP Central Business Configuration cloud service has already been imported. If so, proceed directly to step 5.
+2.  On the *Services* page, check whether the SAP Central Business Configuration service has already been imported. If so, proceed directly to step 5.
 
-3.  If the SAP Central Business Configuration cloud service hasn't been imported yet, choose *Add* and enter the following parameters:
+3.  If the SAP Central Business Configuration service hasn't been imported yet, choose *Add* and enter the following parameters:
 
     -   *Name*: Enter a name that is unique to your customer account, such as ***Central Business Configuration Tenant***.
 
@@ -34,7 +34,7 @@ Create a cloud service and an endpoint for SAP Central Business Configuration by
 
     -   *Tenant ID*: Enter your SAP Central Business Configuration tenant ID.
 
-    -   *Cloud Service Type*: Select ***SAP Central Business Configuration***.
+    -   *Service Type*: Select ***SAP Central Business Configuration***.
 
     -   *Tenant Type*: Select the SAP Central Business Configuration tenant type.
 
@@ -49,7 +49,7 @@ Create a cloud service and an endpoint for SAP Central Business Configuration by
 
 4.  Save the new cloud service. You can now see it in the list.
 
-5.  To create a new endpoint, select the SAP Central Business Configuration cloud service.
+5.  To create a new endpoint, select the SAP Central Business Configuration service.
 
 6.  Under *Endpoints*, choose *Create Endpoint Automatically*.
 
@@ -91,7 +91,7 @@ Create a cloud service and an endpoint for SAP Central Business Configuration by
 7.  Save the new endpoint.
 
 
-Please note that you can maintain only one cloud service and one endpoint for the integration of SAP Central Business Configuration.
+Please note that you can maintain only one service and one endpoint for the integration of SAP Central Business Configuration.
 
 
 

@@ -1,16 +1,15 @@
 <!-- loio5aa24f076e3b4b47839f762baa7d089a -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # SAP S/4HANA Cloud, Private Edition and On-Premise Systems
 
 By enabling the transport management for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
 
-In order to use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the `Change and Transport System (CTS)`. This guide explains all steps that are needed to setup this connection.
+In order to use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the `Change and Transport System (CTS)`. This guide explains all steps that are needed to set up this connection.
 
 SAP Cloud ALM supports the integration of `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise.
 
-Please be aware that transport-related data will be pushed to SAP Cloud ALM from your managed systems by setting up the integration.
+> ### Caution:  
+> Please be aware that transport-related data will be pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner.
 
 
 
@@ -29,6 +28,8 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
     > ### Posting Instructions:  
     > For the profile parameter check you can use the transaction `RZ11` in the managed system.
+
+-   Check that profile parameter ssl/client\_ciphersuites is set as described in section 7 of note [510007](https://launchpad.support.sap.com/#/notes/510007) Additional considerations for setting up SSL on Application Server ABAP.
 
 -   Check that[DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in `STRUST` under `SSL Client (Anonymous)` and`SSL Client (Standard)`.
 
@@ -61,111 +62,13 @@ You need to consider two users in the managed ABAP system for the setup. Please 
 
 ### Create a Space and Configure Entitlements
 
-As a first step, you need to create a space and configure your entitlements in the subaccount containing your SAP Cloud ALM subscription.
-
-To do this, perform the steps described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) until you reach the section **Create a New Instance**. Then, carry out the following steps:
-
-**Create a New Instance**:
-
-1.  Choose *Cloud Foundry* \> *Spaces*.
-
-2.  Select the created space. You now see the application list of your created space.
-
-3.  Choose *Services* \> *Instances*.
-
-     ![](images/Service_Instance_de8eaec.png) 
-
-4.  Choose the *Create* dropdown and click on *Service Instance*.
-
-     ![](images/Create_Service_Instance_f00749a.png) 
-
-5.  Under *Basic Info* provide the following details:
-
-    -   *Service*: SAP Cloud ALM API
-
-    -   *Plan*: standard
-
-    -   *Instance Name*: Enter a meaningful name, for example ***CALMFeatureDeployment***.
-
-     ![](images/New_Instance_8e752d7.png) 
-
-6.  Choose *Next*.
-
-7.  When creating a service instance for feature deployment, the following configuration in json format is needed in order to assign the required scopes to the service instance.
-
-    Paste the following json code into the text editor:
-
-    > ### Source Code:  
-    > ```
-    > {
-    >     "xs-security": {
-    >         "xsappname": "CALMFeatureDeployment",
-    >         "authorities": [
-    >             "$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
-    >         ]
-    >     }
-    > }
-    > 
-    > ```
-
-    In the text editor it should look like this:
-
-     ![](images/New_Instance_JSON_Shape_912c400.png) 
-
-    -   You can choose your own ***xsappname***. Make sure it’s not already used in another service instance and doesn’t contain spaces or special characters.
-
-    -   Authorities: Make sure to use exactly the string provided above.
-
-
-8.  Choose *Create*.
-
-9.  When your instance has been created, it's added to the instance list. To show the details of the instance click on the newly created instance.
-
-
-In the next chapter, you will be guided through the steps for creating a service key, which is later needed to maintain the `HTTP` destination.
-
-
-
-### Create a Service Key
-
-The service key allows you to configure the transport management in the managed system so that it can connect to an SAP Cloud ALM API service instance.
-
-1.  Choose <span class="SAP-icons"></span> \(Actions\) and select *Create Service Key*.
-
-     ![Create a Service Key](images/Enabling_APIs_-_Create_Service_Key_515c433.png) 
-
-2.  Enter a name for your service key, such as ***sap\_cloud\_alm\_key***.
-
-3.  Choose *Create*.
-
-4.  Next to your newly created service key, choose <span class="SAP-icons"></span> \(Actions\) and select *View*.
-
-     ![](images/SUI-ViewServiceKey_7add56b.png) 
-
-5.  You can now see your service key in JSON format.
-
-    The service key is structured in the following way:
-
-    -   Endpoints: e.g.,`eu20.alm.cloud.sap`.
-
-    -   OAuth URL: Service Key parameter.
-
-    -   Client ID: Service key parameter `clientid`.
-
-    -   Client secret: Service key parameter `clientsecret`.
-
-
-
-Copy this newly created service key in JSON format to the clipboard because it's needed later in the **Maintain HTTP Destination** section of this guide.
-
-> ### Caution:  
-> Outside of the SAP BTP cockpit, service keys must be stored securely. If you need a service key, create the service key directly in the SAP BTP cockpit, and access it from there whenever you need it.
+As a first step, you need to create a space and configure your entitlements in the subaccount containing your SAP Cloud ALM subscription. To do this, perform the steps described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
 
 
 ### Configuration of the PUSH Data Provider
 
-The configuration of the Push Data Provider is needed to enable the processing of batch jobs. These batch jobs are then scheduled to send and receive data as well as tasks that are needed for the processing of transport jobs.
+The configuration of the push data provider is needed to enable the processing of batch jobs. These batch jobs are then scheduled to send and receive data as well as tasks that are needed for the processing of transport jobs.
 
 1.  Log on to `ABAP system client 000`.
 
@@ -193,7 +96,7 @@ The configuration of the Push Data Provider is needed to enable the processing o
 
     1.  Choose *Update Destination*.
 
-    2.  Copy the content of the JSON file you've created by following the steps in the **Create a Service Key** section of this guide. Choose *Paste Service Keys* and paste it into the text field popup.
+    2.  Copy the content of the JSON file you've created in the **Create a Service Key** section. Choose *Paste Service Keys* and paste it into the text field popup.
 
         Alternatively, you can enter the required fields for SAP Cloud ALM manually:
 
@@ -241,11 +144,11 @@ The configuration of the Push Data Provider is needed to enable the processing o
 
 6.  Select the use cases you want to collect and push data for. The push mechanism supports the following use-cases:
 
-    -   For development systems: `CALM_CDM_TMS`
+    -   For development systems: `Feature Deployment: Manage Transports`
 
-    -   For a domain controller system: CALM\_CDM\_TMS\_LNDSCP
+    -   For a domain controller system: Feature Deployment: Read Landscape
 
-    -   All other systems \(test or production\): `CALM_CDM_TMS_IMPORT` 
+    -   All other systems \(test or production\): `Feature Deployment: Import Transports` 
 
         After you've selected the use case, choose *Continue*.
 
@@ -253,7 +156,7 @@ The configuration of the Push Data Provider is needed to enable the processing o
     > ### Note:  
     > Further information about activating use cases:
     > 
-    > **`CALM_CDM_TMS_LNDSCP CDM TMS` Integration Transport Landscape**
+    > **Feature Deployment: Read Landscape**
     > 
     > -   Reports the `STMS` landscape configuration to SAP Cloud ALM.
     > 
@@ -269,21 +172,33 @@ The configuration of the Push Data Provider is needed to enable the processing o
     > 
     > 
     > 
-    > **`CALM_CDM_TMS CDM TMS` Integration Transport Assignment:**
+    > **Feature Deployment: Manage Transports**
     > 
-    > -   `CALM_CDM_TMS CDM TMS` Integration Transport Assignment reports transport requests to SAP Cloud ALM for assignment to features.
+    > -   Feature Deployment: Manage Transports reports transport requests to SAP Cloud ALM for assignment to features.
     > 
     > -   It’s only necessary to set up on source systems, specifically `DEV` systems.
     > 
     > 
-    > **`CALM_CDM_TMS_IMPORT CDM TMS` Integration Import Task**
+    > **Feature Deployment: Import Transports**
     > 
     > -   This task queries to-be-imported requests from SAP Cloud ALM and triggers the import job.
     > 
     > -   It's only necessary to set up on consolidation and target systems for import \(that is, `QA` and `PRD`\)
 
+    > ### Note:  
+    > Commonly, authorization-checks are performed in the system in which a change happens.
+    > 
+    > In case of the *Features* app, this app takes over the authorization-checkfor importing transports in the SAP Cloud ALM environment instead of the managed system.
+    > 
+    > In the managed system, the user you specified as background user for the data collection performs the transport actions.
+    > 
+    > Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
+
 7.  If everything is set up correctly, it should look like this:
 
      ![](images/Enabling_Transport_Management_Result_cc9fec4.png) 
 
+
+> ### Caution:  
+> If you want to change the transport configuration in the Transport Management System, please make sure that all current changes are completed and deployed to the production system. Additionally, the transport buffers should be empty. Otherwise the respective transport buffers need to be adjusted manually by you.
 

@@ -8,18 +8,6 @@ For more detailed information, refer to the corresponding documentation under [R
 
 
 
-<a name="loiocd38b1f8e2494707b6a1368b39cc8767__section_kpl_gfx_gqb"/>
-
-## Requesting SAP Cloud ALM
-
-Find out how to request SAP Cloud ALM on SAP ONE Support Launchpad.
-
-Corresponding documentation: [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md)
-
-
-
-
-
 <a name="loiocd38b1f8e2494707b6a1368b39cc8767__section_jx4_gfx_gqb"/>
 
 ## Onboarding Users in Your Identity Authentication Service
