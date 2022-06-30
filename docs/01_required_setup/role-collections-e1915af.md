@@ -745,6 +745,103 @@ Real User Monitoring Analyst Sensitive
 </td>
 </tr>
 <tr>
+<td valign="top" rowspan="3">
+
+Synthetic User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ *Scenario Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+Create, edit, delete, manage configurations and manage global application settings. View performance and availability of scenario executions
+
+
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring Administrator
+
+
+
+</td>
+<td valign="top">
+
+ `ops_sum_SyntheticUserMonitoringAdministrator` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ *Scenario Expert* 
+
+
+
+</td>
+<td valign="top">
+
+Create, edit, delete, and manage configuration settings. View performance and availability of scenario executions
+
+
+
+</td>
+<td valign="top">
+
+Synthethic User Monitoring Scenario Expert
+
+
+
+</td>
+<td valign="top">
+
+ `ops_sum_SyntheticUserMonitoringExpert` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ *Scenario Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+View performance and availability of scenario executions
+
+
+
+</td>
+<td valign="top">
+
+Synthethic User Monitoring Scenario Viewer
+
+
+
+</td>
+<td valign="top">
+
+ `ops_sum_SyntheticUserMonitoringViewer` 
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="2">
 
 Health Monitoring

@@ -29,7 +29,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
     > ### Posting Instructions:  
     > For the profile parameter check you can use the transaction `RZ11` in the managed system.
 
--   Check that profile parameter `ssl/client\_ciphersuites` is set as described in section 7 of SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007) Additional considerations for setting up SSL on Application Server ABAP.
+-   Check that profile parameter `ssl/client_ciphersuites` is set as described in section 7 of SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007) Additional considerations for setting up SSL on Application Server ABAP.
 
 -   Check that[DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in `STRUST` under `SSL Client (Anonymous)` and`SSL Client (Standard)`.
 

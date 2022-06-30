@@ -86,7 +86,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
         A global account is the realization of a contract you made with SAP. It's region-independent, and it's used to manage subaccounts, members, entitlements, and quotas.
 
-    -   A subaccount that contains your SAP Cloud ALM subscription, with the name “SAP Cloud ALM”.
+    -   A subaccount that contains your SAP Cloud ALM subscription, with the name “SAP Cloud ALM”, and subscriptions to the [Cloud Integration Automation service](https://help.sap.com/docs/Cloud%20Integration%20Automation%20Service) and the [SAP Cloud Transport Management service](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/5fef9d6b1cb047b2b18d9eb57aa15352.html).
 
         Subaccounts let you structure a global account according to your organization's and project's requirements with regard to members, authorizations, and entitlements.
 
