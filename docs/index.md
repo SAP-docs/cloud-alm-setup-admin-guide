@@ -23,6 +23,7 @@
     -   [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md)
 -   [Application Configuration](application-configuration-ce08e9d.md)
 -   [Finding Help](finding-help-341b819.md)
+-   [Accessibility](accessibility-5cdbb82.md)
 -   [Data Protection and Privacy](03_DPP/data-protection-and-privacy-2fdc2f0.md)
     -   [User Data from SAP Cloud ALM](03_DPP/user-data-from-sap-cloud-alm-65c98de.md)
     -   [User Data from Managed Systems](03_DPP/user-data-from-managed-systems-3ef5218.md)

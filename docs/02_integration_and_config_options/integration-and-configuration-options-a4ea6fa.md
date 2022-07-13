@@ -26,9 +26,10 @@ On this image, you can see all optional setup steps for SAP Cloud ALM at a glanc
 		systems to your SAP Cloud ALM instance.")**  
 To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve your service key and connect your SAP services and systems to your SAP Cloud ALM instance.
 -   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By integrating the SAP Audit Log Viewer service for SAP BTP, you can view the audit logs
-		for your SAP Cloud ALM tenant. Audit logs represent security-relevant chronological records
-		that provide documentary evidence for an event or activity.")**  
-By integrating the SAP Audit Log Viewer service for SAP BTP, you can view the audit logs for your SAP Cloud ALM tenant. Audit logs represent security-relevant chronological records that provide documentary evidence for an event or activity.
+		for your SAP Cloud ALM tenant to track the end user activity in SAP Cloud ALM. Audit logs
+		represent security-relevant chronological records that provide documentary evidence for an
+		event or activity.")**  
+By integrating the SAP Audit Log Viewer service for SAP BTP, you can view the audit logs for your SAP Cloud ALM tenant to track the end user activity in SAP Cloud ALM. Audit logs represent security-relevant chronological records that provide documentary evidence for an event or activity.
 -   **[Integrating SAP Central Business Configuration](integrating-sap-central-business-configuration-e21f915.md "By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import
 		roadmap content into the Tasks app. This helps you understand the
 		order in which the tasks need to be executed, and allows you to navigate directly to SAP

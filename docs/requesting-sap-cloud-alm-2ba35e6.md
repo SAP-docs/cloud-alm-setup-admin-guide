@@ -53,9 +53,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
     -   We strongly recommend using the suffix ***\-cloudalm*** at the end of the subdomain name, for example, `company-cloudalm`.
 
-    -   Allowed characters for the name are lowercase letters, digits, and hyphens.
-
-    -   The length of the selected name must not exceed 65 characters.
+    -   Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the selected name must not exceed 56 characters.
 
 
     > ### Caution:  
