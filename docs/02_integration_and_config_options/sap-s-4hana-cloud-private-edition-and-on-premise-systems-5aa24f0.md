@@ -23,11 +23,12 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   Install ST-PI 7.40 SP17 or higher. Additionally, please install [3133333 - Collective corrections as of ST-PI 7.40 SP17 for SAP Cloud ALM.](https://launchpad.support.sap.com/#/notes/3133333).
 
+-   To enable the support of complex landscapes, please install the following note, depending on which service pack you use. For SP18 and SP19 please follow SAP Note [3221589 that](https://launchpad.support.sap.com/#/notes/3221589 that) contains SAP Note [3201146](https://launchpad.support.sap.com/#/notes/3201146). If you already use SP20, SAP Note [3221589](https://launchpad.support.sap.com/#/notes/3221589) is already included and doesn't have to be installed..
 
 -   Check that the profile parameter`icm/HTTPS/client_sni_enabled` is set to ***TRUE***. For more information, refer to SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007).
 
     > ### Posting Instructions:  
-    > For the profile parameter check you can use the transaction `RZ11` in the managed system.
+    > For the profile parameter check, you can use the transaction `RZ11` in the managed system.
 
 -   Check that profile parameter `ssl/client_ciphersuites` is set as described in section 7 of SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007) Additional considerations for setting up SSL on Application Server ABAP.
 
@@ -170,6 +171,7 @@ The configuration of the push data provider is needed to enable the processing o
     > 
     >     -   Landscapes with client-specific transport routes or by using the `Central Technical Configuration (CTC)`. Using CTC is optional.
     > 
+    >     -   Support of several transport groups.
     > 
     > 
     > **Feature Deployment: Manage Transports**

@@ -104,14 +104,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
     If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, refer to [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
 
-11. You receive the following emails containing logon information, configuration instructions, and links to support resources:
-
-    -   *Access Information for SAP Cloud ALM* from *SAP No Reply Provisioning*
-
-    -   *Activate Your Account for Identity Authentication Service* from *notification@sapnetworkmail.com*
-
-        \(This email is only sent to you if a new Identity Authentication tenant has been created for you. If you already had an Identity Authentication when you requested SAP Cloud ALM, you won't receive a new email.\)
-
+11. You receive emails containing logon information, configuration instructions, and links to support resources.
 
 
 > ### Note:  

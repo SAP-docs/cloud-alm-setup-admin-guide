@@ -7,7 +7,7 @@ By enabling the transport management for the SAP Cloud Transport Management serv
 To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP Cloud Transport Management service, you have to establish a connection between SAP Cloud ALM and the SAP Cloud Transport Management service.
 
 > ### Note:  
-> SAP Cloud ALM currently only supports linear deployment routes modeled in the SAP Cloud Transport Management service.
+> SAP Cloud ALM supports parallel delivery of several nodes at once.
 > 
 > Before you can use the deployment functionality in SAP Cloud ALM, you have to configure the nodes in the SAP Cloud Transport Management service.
 
@@ -17,7 +17,7 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
 ## Prerequisites
 
--   Set up the product \(for example, SAP Integration Suite\) with which you want to integrate the SAP Cloud Transport Management service for SAP Cloud ALM before you start with the following steps. For more information about the general setup, refer to [Initial Setup of SAP Cloud Integration in the Cloud Foundry Environment](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/IAT/en-US/302b47b11e1749c3aa9478f4123fc216.html).
+-   Set up the product \(for example, SAP Integration Suite\) with which you want to integrate the SAP Cloud Transport Management service for SAP Cloud ALM before you start with the following steps. For more information about the general setup, refer to [Initial Setup of SAP Cloud Integration in the Cloud Foundry Environment.](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/302b47b11e1749c3aa9478f4123fc216.html).
 
 -   To perform the steps described in this guide, familiarize yourself with how to use the [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/BTP/Cloud/en-US?task=discover_task) cockpit. Especially the section [Account Administration](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/5d62ec89de39442f8f31d527855cbced.html) is important.
 
@@ -60,14 +60,14 @@ To use the SAP Cloud Transport Management service in SAP Cloud ALM, you have to 
 
 10. You're now subscribed to the SAP Cloud Transport Management service.
 
-11. Now, you can assign members of your team to roles. Usually, the two roles you need are `TMS_Viewer_RC` and `TMS_LandscapeOperator_RC`.
+11. Now, you can assign members of your team to roles. Usually, the two roles you need are*Transport Management Viewer* and *Transport Management Operator.*.
 
     You can assign the roles in the *User Management* app in SAP Cloud ALM.
 
-     ![](images/Assign_Users_UAM_fd5966e.png) 
+     ![](images/User_Roles_07d0fb0.png) 
 
     > ### Note:  
-    > For more information, refer to [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/viewer/DRAFT/a003932b20284f3c8c457793a5169bc5/DEV/en-US/7304b17f3aac4ebaa24c5c6a3a8e236e.html).
+    > For more information, refer to [Assign Roles to Users in SAP Cloud ALM.](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html?q=Assign%20Roles%20to%20Users%20in%20SAP%20Cloud%20ALM).
 
 12. Now, you can access the Cloud Transport Management service from within your subaccount in the SAP BTP cockpit by choosing *Go to Application*.
 
@@ -105,7 +105,7 @@ After you've subscribed to the SAP Cloud Transport Management service, perform t
 
     In the SAP BTP subaccount where your source product tenant is hosted, create a destination targeted at the SAP Cloud Transport Management service.
 
-    For how to set up the HTTP destination, refer to the following documentation [Creating HTTP Destinations and Transport Route](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/IAT/en-US/270f353a5b69472696617d91ceb58c93.html). Choose the blue *Cloud Transport Management* tab.
+    For how to set up the HTTP destination, refer to the following documentation [Creating HTTP Destinations and Transport Route](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/270f353a5b69472696617d91ceb58c93.html). Choose the blue *Cloud Transport Management* tab.
 
     In the URL section for the endpoint, enter the URL of your SAP Cloud ALM API instance that follows a pattern like this: ***https://eu10.alm.cloud.sap/api/imp-cdm-transport-management-api/v1***. The first part of the URL until `/api` depends on your company account and is variable.
 

@@ -119,7 +119,7 @@ You can't find or didn't receive your activation email for your Identity Authent
 </td>
 <td valign="top">
 
-Search for an email from **notification@sapnetworkmail.com** with the subject **Activate Your Account for...** Don't forget to also check your spam folder.
+Search for an email with the subject **Activate Your Account for...** Don't forget to also check your spam folder.
 
 If you still can't find it, create an incident on component SV-CLM-INF-ONB to have the activation email resent to you.
 
@@ -139,18 +139,18 @@ You want to find the welcome emails and activation emails that were sent to you 
 
 **Welcome Emails from SAP Cloud ALM**
 
--   If you requested SAP Cloud ALM, you've received a welcome email from **SAP No Reply Provisioning** with the subject **Access information for SAP Cloud ALM**.
+-   If you requested SAP Cloud ALM, you've received a welcome email with the subject **Access information for SAP Cloud ALM**.
 
--   If someone else requested SAP Cloud ALM and added you to the system, you've received a welcome email from **SAP Cloud ALM Notifications** with the subject **Welcome to SAP Cloud ALM**.
+-   If someone else requested SAP Cloud ALM and added you to the system, you've received a welcome email with the subject **Welcome to SAP Cloud ALM**.
 
 
 **Activation Emails from the Identity Authentication Service**
 
--   If you didn't have a productive Identity Authentication tenant when you requested SAP Cloud ALM, a new Identity Authentication tenant was created for you. You've received an email from **notification@sapnetworkmail.com** with the subject **Activate Your Account for Identity Authentication Service**.
+-   If you didn't have a productive Identity Authentication tenant when you requested SAP Cloud ALM, a new Identity Authentication tenant was created for you. You've received an email with the subject **Activate Your Account for Identity Authentication Service**.
 
--   If someone added your user to a productive Identity Authentication tenant, you've received an email from **notification@sapnetworkmail.com** with the subject **Activate Your Account for User Profile**.
+-   If someone added your user to a productive Identity Authentication tenant, you've received an email with the subject **Activate Your Account for User Profile**.
 
--   If someone added your user to a productive Identity Authentication tenant as an administrator, you've received an email from **notification@sapnetworkmail.com** with the subject **Activate Your Account for Administration Console**.
+-   If someone added your user to a productive Identity Authentication tenant as an administrator, you've received an email with the subject **Activate Your Account for Administration Console**.
 
 
 

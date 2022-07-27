@@ -1358,6 +1358,66 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Batch Release Hub for Life Sciences
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Integration Hub for Life Sciences
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 

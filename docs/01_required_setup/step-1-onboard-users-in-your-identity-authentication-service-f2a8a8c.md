@@ -42,7 +42,7 @@ When you requested SAP Cloud ALM, SAP automatically established the mutual trust
 
 -   Your Identity Authentication tenant has been activated.
 
-    If your Identity Authentication tenant was newly created when you requested SAP Cloud ALM, you've received an email from **notification@sapnetworkmail.com** with the subject **Activate Your Account for Identity Authentication Service**. Follow the instructions to activate the account and create a user profile for yourself.
+    If your Identity Authentication tenant was newly created when you requested SAP Cloud ALM, you've received an email with the subject **Activate Your Account for Identity Authentication Service**. Follow the instructions to activate the account and create a user profile for yourself.
 
 -   In your Identity Authentication tenant, you have a user with the role *Manage Users*.
 

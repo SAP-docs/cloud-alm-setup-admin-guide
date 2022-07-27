@@ -33,7 +33,7 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
 
 2.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-3.  On the *Services* page, choose the column header *Service Type* and filter by *Test Automation*.
+3.  On the *Services* page, choose <span class="SAP-icons"></span> \(Cloud Service Filter\) and filter by the service type *Test Automation*.
 
     The list displays all available services that have been defined for the test automation.
 
@@ -66,13 +66,9 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
 
 7.  To create an endpoint, select the created *Test Automation* service.
 
-8.  Under *Endpoints*, choose the column header *Use Case* and filter by *Test Management*.
+8.  Under *Endpoints*, check whether there's an existing endpoint with the destination name `SAPS4_TAT`. If so, you can update it by choosing <span class="SAP-icons"></span> \(Edit\).
 
-    The list displays all available endpoints that have been defined for test management for the selected service.
-
-9.  Check whether there's an existing endpoint with the destination name `SAPS4_TAT`. If so, you can update it by choosing <span class="SAP-icons"></span> \(Edit\).
-
-10. If no endpoint exists for the *Test Management* use case, choose *Add* and enter the following parameters:
+9.  If no endpoint exists for the *Test Management* use case, choose *Add* and enter the following parameters:
 
     -   *Endpoint Name*: Enter ***SAPS4\_TAT***.
 
@@ -95,7 +91,7 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
     -   *Password*: Enter the password for the created communication user.
 
 
-11. Save the new endpoint.
+10. Save the new endpoint.
 
 
 Please note that you can maintain only one service and one endpoint for the integration of the test automation tool for SAP S/4HANA Cloud.
