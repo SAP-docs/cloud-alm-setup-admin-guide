@@ -38,9 +38,6 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
 4.  Select the geographical region in which you would like to provision SAP Cloud ALM.
 
-    > ### Note:  
-    > ***Europe \(Netherlands\)*** is currently the only available region.
-
 5.  Enter a unique subdomain name.
 
     The subdomain name is used for the creation of an SAP Cloud ALM-specific subaccount in the SAP Cloud ALM-specific global account on SAP BTP. It's also part of the URL that is used to access SAP Cloud ALM, as in`https://<subdomain>.<region>.alm.cloud.sap`. Therefore, the subdomain name needs to be unique.
