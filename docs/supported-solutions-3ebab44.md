@@ -1238,6 +1238,49 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 <tr>
 <td valign="top">
 
+SAP Ariba
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+-   SAP Ariba Buy & Receive
+
+-   SAP Ariba Contract
+
+-   SAP Ariba Invoice
+
+-   SAP Ariba Sourcing
+
+-   SAP Ariba Spend Analysis
+
+-   SAP Ariba Supplier Management
+
+
+More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Master Data Integration
 
 

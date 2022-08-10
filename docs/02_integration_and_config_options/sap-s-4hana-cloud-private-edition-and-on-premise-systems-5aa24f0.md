@@ -28,7 +28,16 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
     -   For SP18 and SP19 please follow SAP Note [3221589](https://launchpad.support.sap.com/#/notes/3221589). [3201146](https://launchpad.support.sap.com/#/notes/3201146) is already included in SAP Note [3221589 that](https://launchpad.support.sap.com/#/notes/3221589 that).
 
-    -   If you already use SP20, SAP Note [3221589](https://launchpad.support.sap.com/#/notes/3221589) is already included and doesn't have to be installed.
+    -   With the release of SP20, SAP Note [3221589](https://launchpad.support.sap.com/#/notes/3221589) will be already included and doesn't have to be installed.
+
+
+-   To enable the release of transports within a feature, the following prerequisites are required:
+
+    -   ST-PI 740 SP18 or higher
+
+    -   For SP18 and SP19 please follow SAP Note [3228978](https://launchpad.support.sap.com/#/notes/3228978)
+
+    -   With the release of SP20, SAP Note [3228978](https://launchpad.support.sap.com/#/notes/3228978) will be already included and doesn't have to be installed.
 
 
 
@@ -210,4 +219,41 @@ The configuration of the push data provider is needed to enable the processing o
 
 > ### Caution:  
 > If you want to change the transport configuration in the Transport Management System, please make sure that all current changes are completed and deployed to the production system. Additionally, the transport buffers should be empty. Otherwise the respective transport buffers need to be adjusted manually by you.
+
+
+
+<a name="loio5aa24f076e3b4b47839f762baa7d089a__section_amq_jvv_k5b"/>
+
+## Configuration of Client Dependent Use Cases
+
+To enable the release of transports within an SAP Cloud ALM feature, you have to execute the following setup in each development client you are using.
+
+1.  Log on to the respective ABAP system client and start transaction `/n/SDF/ALM_SETUP`.
+
+2.  You can reuse the SAP Cloud ALM destination from your PUSH data configuration.
+
+    At the start of the process, the transaction looks like this:
+
+     ![](images/Setup_Integration_1_438f734.png) 
+
+3.  In the *Maintain HTTP Destination* section, choose *Update Destination* and paste the JSON file you've already created in the *Create a Service Key* part of the *Configuration of the PUSH Data Provider* section of this guide.
+
+4.  Choose *Unregister* in the *Enter Background User and Register System* section.
+
+5.  Enter the background user you've created to perform the data collection. Then, choose *Register* to call SAP Cloud ALM and register the system. Confirm the scheduling of the respective jobs.
+
+     ![](images/Register_System_3b7cbb0.png) 
+
+    If it’s successful, an `LMS ID` is retrieved and is displayed.
+
+6.  Select the use case you want to activate:
+
+    -   Feature Deployment: Manage Transport per Client
+    -   This task queries to-be-released transport requests from SAP Cloud ALM and triggers the release job.
+    -   It's necessary to execute this setup on all development clients you use for customizing activities.
+
+7.  If everything is set up correctly it should look like this:
+
+     ![](images/Result_Setup_a02ee52.png) 
+
 
