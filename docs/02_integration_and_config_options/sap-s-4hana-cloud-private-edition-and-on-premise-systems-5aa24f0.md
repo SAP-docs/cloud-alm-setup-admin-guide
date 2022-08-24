@@ -228,6 +228,9 @@ The configuration of the push data provider is needed to enable the processing o
 
 To enable the release of transports within an SAP Cloud ALM feature, you have to execute the following setup in each development client you are using.
 
+> ### Note:  
+> Before you can start implementing the *Release* functionality, please refer to the [Technical Prerequisites for the ABAP System](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/5aa24f076e3b4b47839f762baa7d089a.html#technical-prerequisites-for-the-abap-system) section of this guide.
+
 1.  Log on to the respective ABAP system client and start transaction `/n/SDF/ALM_SETUP`.
 
 2.  You can reuse the SAP Cloud ALM destination from your PUSH data configuration.

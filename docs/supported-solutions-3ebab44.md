@@ -1271,6 +1271,8 @@ Process Management
 
 -   SAP Ariba Supplier Management
 
+-   SAP Ariba Supply Chain Collaboration
+
 
 More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
