@@ -29,5 +29,6 @@
     -   [User Data from Managed Systems](03_DPP/user-data-from-managed-systems-3ef5218.md)
     -   [Change Log and Audit Log](03_DPP/change-log-and-audit-log-dd4f07d.md)
 -   [Security](security-fb75b4c.md)
+-   [Account Termination](account-termination-219d7d0.md)
 -   [Troubleshooting and FAQ](troubleshooting-and-faq-737bcf7.md)
 

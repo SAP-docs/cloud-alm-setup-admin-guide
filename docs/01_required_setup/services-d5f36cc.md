@@ -14,7 +14,7 @@ Depending on your subscribed service, there are different ways of importing or c
 
 For many subscribed services, related service information is imported automatically on a daily basis by the System Landscape Information service.
 
-To display the current status in the *Landscape Management* app, open the *Configuration* \(<span class="SAP-icons"></span>\), expand the section *Import of Subscribed SAP Services*, and click on the first icon after *Status of imports*. If you don't want to wait for the daily import, you can import your services on demand in the *Status of Imports* popover by choosing *Import My Subscribed SAP Services*.
+To display the current status in the *Landscape Management* app, open the *Configuration* \(:gear:\), expand the section *Import of Subscribed SAP Services*, and click on the first icon after *Status of imports*. If you don't want to wait for the daily import, you can import your services on demand in the *Status of Imports* popover by choosing *Import My Subscribed SAP Services*.
 
 If your service hasn't been imported automatically, you may need to create the service information manually by following the steps described in the section *Manual Creation \(Only If Required\)*.
 
@@ -25,7 +25,7 @@ If your service hasn't been imported automatically, you may need to create the s
 > 
 > The S-user must not be a **technical** S-user but a standard **dialog** S-user with CCC Group authorizations. For more information on how to create such an S-user, refer to SAP Note [3070306](https://launchpad.support.sap.com/#/notes/3070306).
 > 
-> To add the S-user, open the *Landscape Management* app and choose <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Configuration\). Under *Import of Subscribed SAP Services*, choose <span class="SAP-icons"></span> \(Add S-User\) and enter the credentials of the S-user.
+> To add the S-user, open the *Landscape Management* app and choose <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Configuration\). Under *Import of Subscribed SAP Services*, choose :heavy_plus_sign: and enter the credentials of the S-user.
 
 
 

@@ -82,17 +82,15 @@ After you've requested SAP Cloud ALM, there are additional mandatory configurati
 > </tr>
 > </table>
 
+
+
+<a name="loio80b2c30a8d194ae8aff496bcff057cf0__section_hjw_gmt_r5b"/>
+
+## Procedure
+
 On this image, you can see all mandatory setup steps for SAP Cloud ALM at a glance:
 
-
-
 ![](images/Image_Map_Required_Setup_for_SAP_Cloud_ALM_d4f9ce5.png)
-
--   [Requesting SAP Cloud ALM](../requesting-sap-cloud-alm-2ba35e6.md)
--   [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md)
--   [Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md)
--   [Step 3: Set Up Landscape Management](step-3-set-up-landscape-management-23f1c49.md)
--   [Integration and Configuration Options](../02_integration_and_config_options/integration-and-configuration-options-a4ea6fa.md)
 
 
 

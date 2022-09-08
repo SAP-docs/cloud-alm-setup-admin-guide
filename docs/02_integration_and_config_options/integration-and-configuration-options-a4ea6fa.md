@@ -12,15 +12,6 @@ On this image, you can see all optional setup steps for SAP Cloud ALM at a glanc
 
 ![](images/Image_Map_Integration_Configuration_Options_b3dd8a6.png)
 
--   [Requesting SAP Cloud ALM](../requesting-sap-cloud-alm-2ba35e6.md)
--   [Required Setup for SAP Cloud ALM](../01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
--   [Integrating SAP Central Business Configuration](integrating-sap-central-business-configuration-e21f915.md)
--   [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md)
--   [Integrating the Test Automation Tool for SAP S/4HANA Cloud](integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md)
--   [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md)
--   [Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md)
--   [https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html)
-
 -   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "To set up the connection between your managed systems and individual SAP Cloud ALM
 		applications, you need to retrieve your service key and connect your SAP services and
 		systems to your SAP Cloud ALM instance.")**  

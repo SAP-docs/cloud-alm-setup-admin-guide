@@ -66,7 +66,7 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
 
 7.  To create an endpoint, select the created *Test Automation* service.
 
-8.  Under *Endpoints*, check whether there's an existing endpoint with the destination name `SAPS4_TAT`. If so, you can update it by choosing <span class="SAP-icons"></span> \(Edit\).
+8.  Under *Endpoints*, check whether there's an existing endpoint with the destination name `SAPS4_TAT`. If so, you can update it by choosing :pencil2:.
 
 9.  If no endpoint exists for the *Test Management* use case, choose *Add* and enter the following parameters:
 
