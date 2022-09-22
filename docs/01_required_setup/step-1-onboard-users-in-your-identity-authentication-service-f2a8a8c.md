@@ -6,6 +6,84 @@ Before you can use SAP Cloud ALM, you need to create or import users in the Iden
 
 
 
+> ### Caution:  
+> Please note that the onboarding of users consists of two steps that take place in **two different applications**:
+> 
+> 
+> <table>
+> <tr>
+> <th valign="top">
+> 
+> Step
+> 
+> 
+> 
+> </th>
+> <th valign="top">
+> 
+> Application
+> 
+> 
+> 
+> </th>
+> <th valign="top">
+> 
+> Purpose
+> 
+> 
+> 
+> </th>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+>  [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md) 
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> Identity Authentication service \(IAS\), *User Management*
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> Create or import users in your Identity Authentication tenant
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+>  [Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md) 
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> SAP Cloud ALM, *User Management*
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> Add users maintained in your Identity Authentication tenant to SAP Cloud ALM and assign roles to them
+> 
+> 
+> 
+> </td>
+> </tr>
+> </table>
+
+
+
 In SAP Cloud ALM, the Identity Authentication service assumes the role of the identity provider. This means that business users log on to SAP Cloud ALM with the mechanisms and credentials defined in the Identity Authentication tenant.
 
 For information about the Identity Authentication service \(IAS\), including multi-factor-authentication, please refer to [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
@@ -42,7 +120,7 @@ When you requested SAP Cloud ALM, SAP automatically established the mutual trust
 
 -   Your Identity Authentication tenant has been activated.
 
-    If your Identity Authentication tenant was newly created when you requested SAP Cloud ALM, you've received an email with the subject **Activate Your Account for Identity Authentication Service**. Follow the instructions to activate the account and create a user profile for yourself.
+    If your Identity Authentication tenant was newly created when you requested SAP Cloud ALM, you've received an email with the subject **Activate Your Account for Identity Authentication Service**. Follow the guidance to activate the account and create a user profile for yourself.
 
 -   In your Identity Authentication tenant, you have a user with the role *Manage Users*.
 

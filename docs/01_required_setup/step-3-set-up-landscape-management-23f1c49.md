@@ -13,7 +13,7 @@ To import your services or register your systems in SAP Cloud ALM, follow the st
 -   [Systems](systems-d9d672a.md)
 
 
-For use-case specific setup instructions for your solution, refer to [Set Up Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the SAP Cloud ALM for Operations Expert Portal.
+For use-case specific setup guidance for your solution, refer to [Set Up Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the SAP Cloud ALM for Operations Expert Portal.
 
 -   **[Services](services-d5f36cc.md "Depending on your subscribed service, there are different ways of importing or creating
 		service information in the Landscape Management app.")**  

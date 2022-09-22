@@ -6,7 +6,7 @@ There are additional integration and configuration options that help you take ad
 
 
 
-On this image, you can see all optional setup steps for SAP Cloud ALM at a glance:
+On this interactive image, you can see all optional setup steps for SAP Cloud ALM at a glance. For detailed guidance, click on the respective sections.
 
 
 

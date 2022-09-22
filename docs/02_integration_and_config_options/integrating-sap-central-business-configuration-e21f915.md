@@ -107,8 +107,6 @@ After you've completed the technical setup, select SAP Central Business Configur
 
     -   *Projects*: Enter a project name of your choosing, such as ***Implementation Project***.
 
-    -   *Task Template*: Select the desired task template.
-
     -   *Status*: Select ***On Track***.
 
     -   *Phase*: Select ***Prepare***.

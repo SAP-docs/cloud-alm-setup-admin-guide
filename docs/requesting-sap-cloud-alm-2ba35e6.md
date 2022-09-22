@@ -8,6 +8,8 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 > The S-user who requests SAP Cloud ALM receives permissions that are required for administrative tasks in the SAP BTP cockpit and in SAP Cloud ALM. In addition, the S-user is added to the Identity Authentication service \(IAS\) tenant.
 > 
 > Therefore, to avoid authorization issues during the configuration of SAP Cloud ALM, only carry out the following steps if you will later perform the configuration described in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md).
+> 
+> If you request SAP Cloud ALM and then want to assign additional administrators who can perform the initial setup, refer to KBA [3248116](https://launchpad.support.sap.com/#/notes/3248116).
 
 
 
@@ -101,7 +103,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
     If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, refer to [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
 
-11. You receive emails containing logon information, configuration instructions, and links to support resources.
+11. You receive emails containing logon information, configuration guidance, and links to support resources.
 
 
 > ### Note:  

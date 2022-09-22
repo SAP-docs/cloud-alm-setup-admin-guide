@@ -45,6 +45,36 @@ Notes
 <tr>
 <td valign="top">
 
+Data Quality Management, Microservices for Location Data \(DQM Microservices\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 
@@ -1694,6 +1724,36 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <td valign="top">
 
 SAP Business Suite
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP SuccessFactors Employee Central Payroll
 
 
 

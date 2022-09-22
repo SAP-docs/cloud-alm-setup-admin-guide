@@ -276,6 +276,22 @@ Refer to [Viewing Assigned Tenants and Administrators](https://help.sap.com/view
 <tr>
 <td valign="top">
 
+You requested SAP Cloud ALM and want to assign additional administrators who can complete the setup of SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+Refer to [3248116](https://launchpad.support.sap.com/#/notes/3248116).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to create a large number of users for SAP Cloud ALM.
 
 
@@ -478,6 +494,24 @@ The role *Project Administrator* only enables you to administer projects and ass
 To add users to SAP Cloud ALM, you need the role *Cross Global Administrator* or *User Administrator*.
 
 For more information, refer to [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to delete your SAP Cloud ALM subscription in your subaccount.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3247776](https://launchpad.support.sap.com/#/notes/3247776).
+
+Please note that deleting the SAP Cloud ALM subscription from the subaccount doesn't reenable you to provision SAP Cloud ALM from SAP for Me.
 
 
 
