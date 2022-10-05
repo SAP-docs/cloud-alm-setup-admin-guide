@@ -60,14 +60,14 @@ To use the SAP Cloud Transport Management service in SAP Cloud ALM, you have to 
 
 10. You're now subscribed to the SAP Cloud Transport Management service.
 
-11. Now, you can assign members of your team to roles. Usually, the two roles you need are*Transport Management Viewer* and *Transport Management Operator.*.
+11. Now, you can assign members of your team to roles. Usually, the two roles you need are *Transport Management Viewer* and *Transport Management Operator*.
 
     You can assign the roles in the *User Management* app in SAP Cloud ALM.
 
      ![](images/User_Roles_07d0fb0.png) 
 
     > ### Note:  
-    > For more information, refer to [Assign Roles to Users in SAP Cloud ALM.](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html?q=Assign%20Roles%20to%20Users%20in%20SAP%20Cloud%20ALM).
+    > For more information, refer to [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html?q=Assign%20Roles%20to%20Users%20in%20SAP%20Cloud%20ALM).
 
 12. Now, you can access the Cloud Transport Management service from within your subaccount in the SAP BTP cockpit by choosing *Go to Application*.
 

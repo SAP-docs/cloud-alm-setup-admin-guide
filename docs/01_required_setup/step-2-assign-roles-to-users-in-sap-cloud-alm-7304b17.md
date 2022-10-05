@@ -34,7 +34,7 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
 
 ### Procedure
 
-1.  Access SAP Cloud ALM by opening the link in the email *Welcome to SAP Cloud ALM*.
+1.  Access SAP Cloud ALM. A link is included in the email *Welcome to SAP Cloud ALM*.
 
     Sign in with the email address and password you've defined when activating your account in the Identity Authentication service. Do not sign in with your S-user.
 

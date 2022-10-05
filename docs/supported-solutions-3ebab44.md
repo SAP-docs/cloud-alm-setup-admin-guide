@@ -45,6 +45,96 @@ Notes
 <tr>
 <td valign="top">
 
+SAP S/4HANA Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Marketing Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Data Quality Management, Microservices for Location Data \(DQM Microservices\)
 
 
