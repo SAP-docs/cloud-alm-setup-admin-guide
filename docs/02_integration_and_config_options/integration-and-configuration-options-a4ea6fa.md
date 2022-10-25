@@ -10,7 +10,7 @@ On this interactive image, you can see all optional setup steps for SAP Cloud AL
 
 
 
-![](images/Image_Map_Integration_Configuration_Options_b3dd8a6.png)
+![Optional Setup Steps for SAP Cloud ALM](images/Image_Map_Integration_and_Configuration_Options_c84c1e9.png)
 
 -   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "To set up the connection between your managed systems and individual SAP Cloud ALM
 		applications, you need to retrieve your service key and connect your SAP services and
@@ -26,6 +26,11 @@ By integrating the SAP Audit Log Viewer service for SAP BTP, you can view the au
 		order in which the tasks need to be executed, and allows you to navigate directly to SAP
 		Central Business Configuration as needed.")**  
 By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be executed, and allows you to navigate directly to SAP Central Business Configuration as needed.
+-   **[Integrating the Cloud Integration Automation Service](integrating-the-cloud-integration-automation-service-eafcc2f.md "The Cloud Integration Automation service (CIAS) provides you with a guided workflow to
+		integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided
+		workflow contains instructions for manual and automated tasks to enable an easy and quick
+		integration configuration setup.")**  
+The Cloud Integration Automation service \(CIAS\) provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
 -   **[Enabling Transport Management](enabling-transport-management-4b74b16.md "You can enable transport management of different transport environments for SAP Cloud
 		ALM. ")**  
 You can enable transport management of different transport environments for SAP Cloud ALM.

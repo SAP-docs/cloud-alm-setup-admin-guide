@@ -1358,6 +1358,36 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 <tr>
 <td valign="top">
 
+SAP NetWeaver Application Server for ABAP \(higher than 7.40\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-nw-abap.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Ariba
 
 
@@ -1554,6 +1584,36 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <td valign="top">
 
 Integration Hub for Life Sciences
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business ByDesign
 
 
 

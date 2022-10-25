@@ -17,6 +17,7 @@
     -   [Enabling SAP Cloud ALM API](02_integration_and_config_options/enabling-sap-cloud-alm-api-704b5dc.md)
     -   [Activating the SAP Audit Log Viewer Service](02_integration_and_config_options/activating-the-sap-audit-log-viewer-service-59fd2a4.md)
     -   [Integrating SAP Central Business Configuration](02_integration_and_config_options/integrating-sap-central-business-configuration-e21f915.md)
+    -   [Integrating the Cloud Integration Automation Service](02_integration_and_config_options/integrating-the-cloud-integration-automation-service-eafcc2f.md)
     -   [Enabling Transport Management](02_integration_and_config_options/enabling-transport-management-4b74b16.md)
         -   [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md)
         -   [SAP Cloud Transport Management Service](02_integration_and_config_options/sap-cloud-transport-management-service-730ae36.md)

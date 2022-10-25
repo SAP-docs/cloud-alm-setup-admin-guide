@@ -38,7 +38,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
 3.  Choose *Start provisioning*.
 
-4.  Select the geographical region in which you would like to provision SAP Cloud ALM.
+4.  Select the geographical region in which you would like to provision SAP Cloud ALM. A suitable data center will be selected for you.
 
 5.  Enter a unique subdomain name.
 

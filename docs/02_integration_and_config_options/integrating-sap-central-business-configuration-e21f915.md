@@ -99,13 +99,15 @@ Please note that you can maintain only one service and one endpoint for the inte
 
 After you've completed the technical setup, select SAP Central Business Configuration as an integration scenario by carrying out the following steps:
 
-1.  In the SAP Cloud ALM launchpad, open the *Projects* app.
+1.  In the SAP Cloud ALM launchpad, open the *Projects and Setup* app.
 
 2.  To create a new project, choose *Create*.
 
 3.  Enter the following parameters:
 
-    -   *Projects*: Enter a project name of your choosing, such as ***Implementation Project***.
+    -   *Projects and Setup*: Enter a project name of your choosing, such as ***Implementation Project***.
+
+    -   *SAP Activate Task Template*: Select the desired task template.
 
     -   *Status*: Select ***On Track***.
 
