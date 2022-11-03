@@ -83,7 +83,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
         A global account is the realization of a contract you made with SAP. It's region-independent, and it's used to manage subaccounts, members, entitlements, and quotas.
 
-    -   A subaccount that contains your SAP Cloud ALM subscription, with the name “SAP Cloud ALM”, and subscriptions to the [Cloud Integration Automation service](https://help.sap.com/docs/Cloud%20Integration%20Automation%20Service) and the [SAP Cloud Transport Management service](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/5fef9d6b1cb047b2b18d9eb57aa15352.html).
+    -   A subaccount that contains your SAP Cloud ALM subscription, with the name “SAP Cloud ALM”, and subscriptions to the Cloud Integration Automation service and SAP Cloud Transport Management.
 
         Subaccounts let you structure a global account according to your organization's and project's requirements with regard to members, authorizations, and entitlements.
 
@@ -101,8 +101,6 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
      ![Entities Created by SAP for Me](images/CALM_Onboarding_on_SAP4Me_7124860.png) 
 
-    If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, refer to [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
-
 11. You receive emails containing logon information, configuration guidance, and links to support resources.
 
 
@@ -110,4 +108,13 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 > If you've requested SAP Cloud ALM, you've been automatically signed up for cloud email notifications. This way, you can remain informed and receive timely updates regarding SAP Cloud ALM.
 > 
 > You can manage your notification settings in the *Cloud System Notification Subscriptions* application, as described in KBA [2900069](https://launchpad.support.sap.com/#/notes/2900069).
+
+**Related Information**  
+
+
+[Cloud Integration Automation Service](https://help.sap.com/docs/Cloud%20Integration%20Automation%20Service)
+
+[SAP Cloud Transport Management](https://help.sap.com/docs/Cloud%20Integration%20Automation%20Service)
+
+[User Onboarding for SAP S/⁠4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html)
 

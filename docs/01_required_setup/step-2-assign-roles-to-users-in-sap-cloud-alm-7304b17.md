@@ -171,11 +171,9 @@ For more information on how to use the *User Management* app to view, add, and c
 
 -   Your user has the role *Subaccount Administrator* in the subaccount that contains your SAP Cloud ALM subscription.
 
-    If you have requested SAP Cloud ALM, your user has automatically received this authorization during the creation of the subaccount. You can verify that you have the necessary authorizations by navigating to your subaccount and checking whether the *Security* menu is available.
+    If you have requested SAP Cloud ALM, your user has automatically received this authorization during the creation of the subaccount. If you don't have this authorization, the subaccount administrator can assign the role to you by following the steps described in [Add Members to Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
 
-    If you don't have this authorization, the subaccount administrator can assign the role to you by following the steps described in [Add Members to Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
-
--   The identity of the user to whom you want to give administrator authorizations in SAP Cloud ALM exists in the identity provider. If you've received a new Identity Authentication tenant when you requested SAP Cloud ALM, your user already exists in the identity provider. For more information, refer to [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md).
+-   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md).
 
 
 
