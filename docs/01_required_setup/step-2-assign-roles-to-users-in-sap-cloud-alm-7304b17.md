@@ -23,9 +23,9 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
 
 ### Prerequisites
 
--   Your user has the role *Cross Global Administrator* or *User Administrator*.
+-   Your user has the role *Global Administrator* or *User Administrator*.
 
-    If you've requested SAP Cloud ALM, you've automatically received the role *Cross Global Administrator*. If someone else has requested SAP Cloud ALM, they can assign one of the required roles to you by following the process below.
+    If you've requested SAP Cloud ALM, you've automatically received the role *Global Administrator*. If someone else has requested SAP Cloud ALM, they can assign one of the required roles to you by following the process below.
 
 -   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md).
 

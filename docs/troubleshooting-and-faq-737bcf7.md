@@ -491,7 +491,7 @@ You have the role *Project Administrator*, but you don't have access to the *Use
 
 The role *Project Administrator* only enables you to administer projects and assign users that have already been added to SAP Cloud ALM.
 
-To add users to SAP Cloud ALM, you need the role *Cross Global Administrator* or *User Administrator*.
+To add users to SAP Cloud ALM, you need the role *Global Administrator* or *User Administrator*.
 
 For more information, refer to [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md).
 

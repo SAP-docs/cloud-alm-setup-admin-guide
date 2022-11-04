@@ -16,11 +16,11 @@ To set up the connection between your managed systems and individual SAP Cloud A
 
 -   Your user has the role *Global Account Administrator* in the global account that was created when you requested SAP Cloud ALM, and is a member of the subaccount containing your SAP Cloud ALM subscription.
 
-    You can verify that you have the necessary authorization by navigating to your global account and checking whether the *Security* menu is available. If you don't have this role, the global account administrator can assign it to you by following the steps described in [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/4a0491330a164f5a873fa630c7f45f06.html).
+    If you don't have this role, the global account administrator can assign it to you by following the steps described in [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/4a0491330a164f5a873fa630c7f45f06.html).
 
 -   Your user has the role *Org Manager* in your Cloud Foundry organization.
 
-    You can verify that you have the necessary authorization by navigating to your subaccount and choosing *Cloud Foundry* \> *Org Members*. If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html). If *Cloud Foundry* is not available in the menu, you can enable it by following the steps described in [Create Orgs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a9b1f5445a17427f844a5a43ac53d378.html).
+    If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html). If *Cloud Foundry* is not available in the menu, you can enable it by following the steps described in [Create Orgs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a9b1f5445a17427f844a5a43ac53d378.html).
 
 
 > ### Note:  

@@ -16,7 +16,7 @@ The Cloud Integration Automation service \(CIAS\) provides you with a guided wor
 
     When your SAP Cloud ALM tenant was requested, a subscription to the Cloud Integration Automation service was automatically created in your SAP Cloud ALM subaccount.
 
--   Your user in SAP Cloud ALM has the role *Cross Global Administrator* or *User Administrator*.
+-   Your user in SAP Cloud ALM has the role *Global Administrator* or *User Administrator*.
 
 
 
