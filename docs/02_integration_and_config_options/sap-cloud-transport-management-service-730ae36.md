@@ -21,9 +21,9 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
     For more information about the general setup, refer to [Initial Setup of SAP Cloud Integration in the Cloud Foundry Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/302b47b11e1749c3aa9478f4123fc216.html).
 
--   Familiarize yourself with how to use the [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/BTP/Cloud/en-US?task=discover_task) cockpit, in particular [Account Administration](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/5d62ec89de39442f8f31d527855cbced.html) concepts.
+-   You've familiarized yourself with how to use the [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/BTP/Cloud/en-US?task=discover_task) cockpit, in particular [Account Administration](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/5d62ec89de39442f8f31d527855cbced.html) concepts.
 
--   You're subscribed to the SAP Cloud Transport Management service.
+-   You're subscribed to the SAP Cloud Transport Management service and your user has the required transport management roles *Transport Management Viewer* and *Transport Management Operator*.
 
     If you're not yet subscribed to the service, perform the following steps:
 
@@ -61,23 +61,21 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
         You're now subscribed to the SAP Cloud Transport Management service.
 
+    12. Assign transport management roles to your user and to your team members in the *User Management* app in SAP Cloud ALM. Usually, the two roles you need are *Transport Management Viewer* and *Transport Management Operator*.
 
--   Your team members are assigned to transport management roles. Usually, the two roles you need are *Transport Management Viewer* and *Transport Management Operator*.
+         ![](images/User_Roles_07d0fb0.png) 
 
-    You can assign the roles in the *User Management* app in SAP Cloud ALM.
+        For more information, refer to [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html?q=Assign%20Roles%20to%20Users%20in%20SAP%20Cloud%20ALM).
 
-     ![](images/User_Roles_07d0fb0.png) 
+        With these roles, you can access the Cloud Transport Management service from within your subaccount in the SAP BTP cockpit by choosing *Go to Application*.
 
-    For more information, refer to [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html?q=Assign%20Roles%20to%20Users%20in%20SAP%20Cloud%20ALM).
+         ![](images/Final_Step_subscription_2660af1.png) 
 
-    With these roles, you can access the Cloud Transport Management service from within your subaccount in the SAP BTP cockpit by choosing *Go to Application*.
+    13. To create transport nodes, refer to [Create Transport Nodes](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/f71a4d5550cd453ea824d5b5c677969d.html?version=Cloud).
 
-     ![](images/Final_Step_subscription_2660af1.png) 
+        > ### Note:  
+        > You have to use auto forward and upload application content to dev node manually.
 
--   To create transport nodes, refer to [Create Transport Nodes](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/f71a4d5550cd453ea824d5b5c677969d.html?version=Cloud).
-
-    > ### Note:  
-    > You have to use auto forward and upload application content to dev node manually.
 
 
 

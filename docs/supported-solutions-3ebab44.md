@@ -8,7 +8,7 @@ You can find the latest additions to the scope in [What's New for SAP Cloud ALM]
 
 SAP makes no warranty, either expressed or implied, for the information provided here. Due to short-term software updates, completeness can't be guaranteed. The features in the list are subject to change.
 
-<a name="loio3ebab44c25da4cc1997bad08cc00991c__table_nkw_cn3_qkb"/> 
+** **
 
 
 <table>

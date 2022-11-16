@@ -2,7 +2,7 @@
 
 # Troubleshooting and FAQ
 
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__table_nvd_bh5_brb"/>
+****
 
 
 <table>
@@ -244,6 +244,24 @@ You can request it be moved by raising an incident on component BC-IAM-IDS.
 <tr>
 <td valign="top">
 
+You want to use a corporate identity provider \(LDAP\) for SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+You can also use an already existing corporate identity provider \(LDAP\), in which case we strongly recommend using Identity Authentication as a proxy. Changing to a corporate identity provider while already using SAP Cloud ALM productively can result in invalidated user IDs and can cause users in SAP Cloud ALM to be deactivated.
+
+For more information, refer to [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/19f3eca47db643b6aad448b5dc1075ad.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You're an Ultimate Global Customer with multiple customer numbers and want to import all your customer numbers for cloud subscriptions into one SAP Cloud ALM system. You don't want to maintain several SAP Cloud ALM systems.
 
 
@@ -284,22 +302,6 @@ You requested SAP Cloud ALM and want to assign additional administrators who can
 <td valign="top">
 
 Refer to [3248116](https://launchpad.support.sap.com/#/notes/3248116).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to create a large number of users for SAP Cloud ALM.
-
-
-
-</td>
-<td valign="top">
-
-There is no limit to the number of users that can be created for an SAP Cloud ALM system.
 
 
 
@@ -466,6 +468,47 @@ You can change the language either by changing it in your browser settings or by
 <tr>
 <td valign="top">
 
+You want to create a large number of users for SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+There is no limit to the number of users that can be created for an SAP Cloud ALM system.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You've added users in the *User Management* app in SAP Cloud ALM, but they haven't received a welcome email.
+
+
+
+</td>
+<td valign="top">
+
+The onboarding of users consists of two steps that take place in two different applications:
+
+-   *User Management* in your Identity Authentication \(IAS\) tenant
+
+-   *User Management* in SAP Cloud ALM
+
+
+Before you can add users in SAP Cloud ALM and assign roles to them, you need to create them in your Identity Authentication tenant.
+
+For more information, refer to [Step 1: Onboard Users in Your Identity Authentication Service](01_required_setup/step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to create a user in your SAP Cloud ALM tenant that SAP development can use for troubleshooting and support purposes.
 
 
@@ -502,6 +545,26 @@ For more information, refer to [Step 2: Assign Roles to Users in SAP Cloud ALM](
 <tr>
 <td valign="top">
 
+Users in SAP Cloud ALM have the status *Expiring Soon*.
+
+
+
+</td>
+<td valign="top">
+
+In SAP Cloud ALM, the Identity Authentication service \(IAS\) assumes the role of an identity provider. If users are deleted in the Identity Authentication tenant or if user IDs are changed due to changes in the Identity Authentication configuration \(for example, from email to login name\), the affected users are automatically deactivated in SAP Cloud ALM after a grace period of 30 days.
+
+The number of days specified by the *Expires Soon* status indicates the end of the grace period after which the user will be deactivated. A user with this status is not authorized to use SAP Cloud ALM.
+
+If you revert the Identity Authentication configuration within the grace period, the user's personal settings and project assignments are still valid. If you want to keep your current configuration, the personal settings and project assignments are lost and you need to reassign the authorizations to the new user ID.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to delete your SAP Cloud ALM subscription in your subaccount.
 
 
@@ -511,7 +574,7 @@ You want to delete your SAP Cloud ALM subscription in your subaccount.
 
 Refer to KBA [3247776](https://launchpad.support.sap.com/#/notes/3247776).
 
-Please note that deleting the SAP Cloud ALM subscription from the subaccount doesn't reenable you to provision SAP Cloud ALM from SAP for Me.
+Please note that deleting the SAP Cloud ALM subscription from the subaccount doesn't re-enable you to provision SAP Cloud ALM from SAP for Me.
 
 
 

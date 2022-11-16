@@ -141,7 +141,7 @@ The configuration of the push data provider is needed to enable the processing o
 
 5.  *Enter Registration Target*
 
-    1.  If the *Target ALM Root URL* field isn't already prefilled, enter the target SAP Cloud ALM root URL depending on your region, for example ***https://eu20.alm.cloud.sap.***
+    1.  If the *Target ALM Root URL* field isn't already prefilled, enter the target SAP Cloud ALM root URL depending on your region, for example ***https://eu20.alm.cloud.sap***.
 
         This is the URL that is shown in the JSON file during the creation of the service key. The URL is shown under *endpoints.API* or *uaa.url* respectively. The SAP Cloud ALM root URL depends on the region of the customer account was created under, for example `eu10.alm.cloud.sap` or `eu20.alm.cloud.sap`.
 
@@ -154,9 +154,9 @@ The configuration of the push data provider is needed to enable the processing o
         An `LMS ID` is retrieved and displayed.
 
 
-    To unregister a system, choose *Unregister*.
-
     > ### Note:  
+    > To unregister a system, choose *Unregister*.
+    > 
     > This stops all data collection and heartbeat measurements.
 
 6.  Select the use cases that you want to collect and push data for. The push mechanism supports the following use cases:
@@ -168,7 +168,7 @@ The configuration of the push data provider is needed to enable the processing o
     -   All other systems \(test or production\): `Feature Deployment: Import Transports` 
 
 
-    > ### Note:  
+    > ### Tip:  
     > Further information about activating use cases:
     > 
     > **Feature Deployment: Read Landscape**
@@ -203,9 +203,8 @@ The configuration of the push data provider is needed to enable the processing o
     > 
     > -   It's only necessary to set up on consolidation and target systems for import \(that is, QA and PRD systems\)
 
-    Commonly, authorization-checks are performed in the system in which a change happens.
-
-    In case of the *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
+    > ### Note:  
+    > Commonly, authorization-checks are performed in the system in which a change happens. In case of the *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
 
 7.  Choose *Continue*.
 
