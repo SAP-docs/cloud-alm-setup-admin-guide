@@ -8,5 +8,5 @@ The termination process starts with a notice period. The requestor of the global
 
 30 days after your contracts with SAP end, the SAP BTP global account is closed and access to your SAP Cloud ALM tenant is blocked. At this point, if you renew your SAP contracts, your account can still be restored to a fully active state without data loss.
 
-60 days after your contracts with SAP expire, your global account and your SAP Cloud ALM tenant are fully decommissioned. All customer-related data for the account and associated services is deleted and cannot be restored or recovered.
+60 days after your contracts with SAP expire, your global account and your SAP Cloud ALM tenant are fully decommissioned. All customer-related data for the account and for all associated services is deleted and cannot be restored or recovered.
 

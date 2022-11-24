@@ -110,11 +110,11 @@ An entitlement is your right to provision and consume a resource.
          ![Choose Service Plan](images/Enabling_APIs_-_Standard_Service_Plan_b9cfbff.png) 
 
 
-6.  Choose *Next*.
+6.  If you're setting up your SAP Cloud ALM for Operations applications, proceed to step 9.
 
-7.  If you're setting up your SAP Cloud ALM for Operations applications, proceed to step 9.
+    If you're creating the instance to enable transport management, choose *Next*.
 
-    If you're creating the instance to enable transport management, paste the following JSON code into the text editor\(depending on your use case\):
+7.  Paste the following JSON code into the text editor \(depending on your use case\):
 
 
     <table>
@@ -196,9 +196,7 @@ An entitlement is your right to provision and consume a resource.
 
 9.  Choose *Create*.
 
-10. When your instance has been created or updated, choose *View Instance* in the message popup.
-
-     ![](images/SUI-ViewInstance_d96e211.png) 
+10. When your instance has been created or updated, click on it.
 
 
 
@@ -207,7 +205,7 @@ An entitlement is your right to provision and consume a resource.
 
 Service keys allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
 
-1.  Choose <span class="SAP-icons"></span> \(Actions\) and select *Create Service Key*.
+1.  In the top right corner, choose <span class="SAP-icons"></span> \(Actions\) and select *Create Service Key*.
 
      ![Create a Service Key](images/Enabling_APIs_-_Create_Service_Key_515c433.png) 
 

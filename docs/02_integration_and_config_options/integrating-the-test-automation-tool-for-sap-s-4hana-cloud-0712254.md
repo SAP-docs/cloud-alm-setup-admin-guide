@@ -20,7 +20,7 @@ To use this integration in your project, you need to configure a service and an 
 
 You have a **Quality** or, depending on your landscape setup, **Development** system for the test automation tool for SAP S/4HANA Cloud.
 
-> ### Caution:  
+> ### Note:  
 > Don't connect your SAP S/4HANA Cloud **Production** system to SAP Cloud ALM. Test cases shouldn't be tested in production.
 
 
@@ -32,7 +32,7 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
 > ### Caution:  
 > SAP is in the process of integrating new service types for test automation and revisiting the way test automation providers are modeled in the *Landscape Management* app.
 > 
-> If you've already modeled a test automation endpoint for the test automation tool for SAP S/4 HANA Cloud, **do not change or delete it**. It will continue to work. If you delete it and re-create it, it might impact the existing automated test cases that have been already synchronized with SAP Cloud ALM.
+> If you've already modeled a test automation endpoint for the test automation tool for SAP S/4HANA Cloud, **do not change or delete it**. It will continue to work. If you delete it and re-create it, it might impact the existing automated test cases that have been already synchronized with SAP Cloud ALM.
 
 1.  To communicate with the test automation tool for SAP S/4HANA Cloud, a communication user is required. If you need to create the communication user, follow the procedure described in [Communication Management](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/LATEST/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html). The communication scenario is `COM0620`.
 

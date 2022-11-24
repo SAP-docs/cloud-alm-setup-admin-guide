@@ -976,6 +976,36 @@ Business Service Management Viewer
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+ *Configuration Monitoring Analyst* 
+
+
+
+</td>
+<td valign="top">
+
+Display application configuration data
+
+
+
+</td>
+<td valign="top">
+
+Configuration Monitoring Analyst
+
+
+
+</td>
+<td valign="top">
+
+ `ops_csa_ConfigurationMonitoringAnalyst` 
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="3">
 
 Service Collaboration

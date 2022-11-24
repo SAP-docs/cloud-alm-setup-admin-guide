@@ -21,7 +21,7 @@ If your service hasn't been imported automatically, you may need to create the s
 > ### Note:  
 > **Additional information for global ultimate customers**:
 > 
-> As a global ultimate customer \(i.e. a customer managing SAP cloud products that are subscribed under multiple customer accounts, for example, after an acquisition\) you need to enter an S-user that has the authorizations to access the system data for all subsidiary customer accounts to ensure that the *Landscape Management* app has access to the data.
+> As a global ultimate customer \(that is, a customer managing SAP cloud products that are subscribed under multiple customer accounts, for example after an acquisition\) you need to enter an S-user that has the authorizations to access the system data for all subsidiary customer accounts to ensure that the *Landscape Management* app has access to the data.
 > 
 > The S-user must not be a **technical** S-user but a standard **dialog** S-user with CCC Group authorizations. For more information on how to create such an S-user, refer to SAP Note [3070306](https://launchpad.support.sap.com/#/notes/3070306).
 > 
@@ -41,7 +41,7 @@ The automatic import by SAP is the preferred way to import service information f
 
 1.  Open the *Landscape Management* app.
 
-2.  On the *Services* page, choose *Add*
+2.  On the *Services* page, choose *Add*.
 
 3.  Enter the following parameters:
 
@@ -67,5 +67,5 @@ The automatic import by SAP is the preferred way to import service information f
 4.  Save the new service. You can now see it in the list.
 
 
-After adding your service to the *Landscape Management* app, you need to establish a connection between the service and SAP Cloud ALM to collect monitoring data. How this connection is established depends on the individual service type. For detailed, service type-specific information on the managed services setup, please refer to [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the SAP Cloud ALM for Operations Expert Portal.
+After adding your service to the *Landscape Management* app, you need to establish a connection between the service and SAP Cloud ALM to collect monitoring data. How this connection is established depends on the individual service type. For detailed, service type-specific information on the managed services setup, refer to [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the SAP Cloud ALM for Operations Expert Portal.
 

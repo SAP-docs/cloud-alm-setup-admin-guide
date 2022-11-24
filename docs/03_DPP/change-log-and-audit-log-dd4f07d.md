@@ -26,7 +26,7 @@ The SAP Audit Log Viewer service records the following information:
 
 -   **Read access to sensitive personal data**: No application in SAP Cloud ALM stores sensitive personal data.
 
--   **Configuration changes**: For some applications, configuration changes are registered in SAP Audit Log Viewer service. For example, changes to project teams in *Projects and Setup* are registered.
+-   **Configuration changes**: For some applications, configuration changes are registered in the SAP Audit Log Viewer service. For example, changes to project teams in *Projects and Setup* are registered.
 
 
 Audit log entries are automatically deleted after a defined retention period. For information about audit log retention, see [Audit Log Retention for the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/adaefa64228e49ddbe40c15f63a4f74b.html) in the SAP BTP documentation.

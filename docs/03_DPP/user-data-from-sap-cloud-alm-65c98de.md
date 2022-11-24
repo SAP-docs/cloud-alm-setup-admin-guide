@@ -17,7 +17,7 @@ To support users in their job, the following personal data is stored in SAP Clou
 
 ## Finding User Data
 
-A user with the *User Administrator* role can find all user data in the *User Management* app of SAP Cloud ALM.
+A user with the *User Administrator* role can find all user data in the *User Management* app in SAP Cloud ALM.
 
 Apart from this user record, personal data in SAP Cloud ALM exists in form of personalization configuration and in relation to application objects \(such as projects, tasks, and alerts\). These objects have their own lifetime and retention periods, independent of the users.
 
@@ -27,9 +27,9 @@ Apart from this user record, personal data in SAP Cloud ALM exists in form of pe
 
 ## Deleting or Deactivating User Data
 
-To keep the link between application objects and users even after a user was offboarded, the user-related data is kept for auditability purposes \(for example, to see who performed a particular task, executed a test, or made a certain configuration\).
+To keep the link between application objects and users even after a user was offboarded, the user-related data is kept for auditability purposes \(for example, to see who performed a particular task, executed a test case, or made a certain configuration\).
 
-To protect the personal data of offboarded users, the user administrator can deactivate the user record within SAP Cloud ALM. If the SAP BTP account of the customer is integrated into a central identity management via the Identity Provisioning service, this also happens automatically if the user is deleted from the Identity Authentication tenant.
+To protect the personal data of offboarded users, the user administrator can deactivate the user record within SAP Cloud ALM. If the SAP BTP account is integrated into a central identity management via the Identity Provisioning service, this also happens automatically if the user is deleted from the Identity Authentication tenant.
 
 However, this automatic deactivation is done only after a grace period of 30 days. This prevents an accidental automatic user deactivation while changing the settings in the Identity Authentication service. During this period, deactivated users aren't authorized to use SAP Cloud ALM, but their personal settings and tasks assignments are still valid after changing the settings in the Identity Authentication service.
 
