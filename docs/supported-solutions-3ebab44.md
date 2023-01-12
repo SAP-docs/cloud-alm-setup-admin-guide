@@ -52,51 +52,48 @@ SAP S/4HANA Cloud
 </td>
 <td valign="top">
 
-Operations
+Implementation
 
 
 
 </td>
 <td valign="top">
 
-Health Monitoring
+Process Management
 
 
 
 </td>
 <td valign="top">
 
-More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+-   [SAP Best Practices for SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_CLD_ENTPR)
+
+-   Two-Tier ERP – EPPM
+
+-   Two-Tier ERP – Finance
+
+-   Two-Tier ERP – Human Resources
+
+-   Two-Tier ERP – Manufacturing
+
+-   Two-Tier ERP – Master Data
+
+-   Two-Tier ERP – Product Lifecycle Management
+
+-   Two-Tier ERP – Professional Services
+
+-   Two-Tier ERP – Sales
+
+-   Two-Tier ERP – Services
+
+-   Two-Tier ERP – Sourcing and Procurement
+
+-   Two-Tier ERP – Supply Chain
+
+-   Two-Tier ERP – Sustainability
 
 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Health Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
 
 
@@ -105,67 +102,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Health Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Data Quality Management, Microservices for Location Data \(DQM Microservices\)
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Real User Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP S/4HANA Cloud
+SAP Ariba
 
 
 
@@ -186,7 +123,20 @@ Process Management
 </td>
 <td valign="top">
 
-[SAP Best Practices for SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_CLD_ENTPR) 
+-   SAP Ariba Buy & Receive
+
+-   SAP Ariba Contract
+
+-   SAP Ariba Invoice
+
+-   SAP Ariba Sourcing
+
+-   SAP Ariba Spend Analysis
+
+-   SAP Ariba Supplier Management
+
+-   SAP Ariba Supply Chain Collaboration
+
 
 More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
@@ -242,6 +192,18 @@ Process Management
 
 -   SAP SFSF Time and Attendance Management
 
+-   SAP SFSF Benefits
+
+-   SAP SFSF Employee Central
+
+-   SAP SFSF Opportunity Marketplace
+
+-   SAP SFSF Service Center
+
+-   SAP SFSF Time Tracking
+
+-   SAP SFSF Workforce Planning
+
 
 More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\) and [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
@@ -252,7 +214,7 @@ More under [SAP SuccessFactors Process Library](https://community.successfactors
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP Marketing Cloud
 
 
 
@@ -266,16 +228,137 @@ Implementation
 </td>
 <td valign="top">
 
-Task Management
+Process Management
 
 
 
 </td>
 <td valign="top">
 
-Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT)
+[SAP Best Practices for SAP Marketing Cloud](https://rapid.sap.com/bp/#/browse/categories/lines_of_business/areas/marketing/packageversions/BP_CLD_MKT)
 
-More under [Task Content](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/task-content.html) \(Expert Portal\).
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Fieldglass
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Fieldglass Vendor Management System
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Robotic Process Automation \(iRPA\)
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Best Practices for SAP Intelligent Robotic Process Automation integration
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+-   SAP Best Practices for SAP S/4HANA
+
+-   Rapid Data Migration to SAP S/4HANA
+
 
 
 
@@ -306,6 +389,38 @@ Task Management
 <td valign="top">
 
 Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) \(new implementation and system conversion\)
+
+More under [Task Content](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/task-content.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT)
 
 More under [Task Content](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/task-content.html) \(Expert Portal\).
 
@@ -968,36 +1083,6 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
-
-
-
-</td>
-<td valign="top">
-
-Implementation
-
-
-
-</td>
-<td valign="top">
-
-Process Management
-
-
-
-</td>
-<td valign="top">
-
-[SAP Best Practices for SAP Marketing Cloud](https://rapid.sap.com/bp/#/browse/categories/lines_of_business/areas/marketing/packageversions/BP_CLD_MKT)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SAP Concur
 
 
@@ -1358,7 +1443,7 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(higher than 7.40\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
 
 
@@ -1388,43 +1473,28 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 <tr>
 <td valign="top">
 
-SAP Ariba
+SAP Master Data Integration
 
 
 
 </td>
 <td valign="top">
 
-Implementation
+Operations
 
 
 
 </td>
 <td valign="top">
 
-Process Management
+Integration and Exception Monitoring
 
 
 
 </td>
 <td valign="top">
 
--   SAP Ariba Buy & Receive
-
--   SAP Ariba Contract
-
--   SAP Ariba Invoice
-
--   SAP Ariba Sourcing
-
--   SAP Ariba Spend Analysis
-
--   SAP Ariba Supplier Management
-
--   SAP Ariba Supply Chain Collaboration
-
-
-More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
 
 
 
@@ -1433,7 +1503,7 @@ More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/e
 <tr>
 <td valign="top">
 
-SAP Master Data Integration
+SAP Master Data Governance, cloud edition
 
 
 
@@ -1614,6 +1684,36 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <td valign="top">
 
 SAP Business ByDesign
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Omnichannel Promotion Pricing
 
 
 
@@ -2143,7 +2243,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(higher than 7.40\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
 
 
@@ -2195,6 +2295,126 @@ Health Monitoring
 <td valign="top">
 
 More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Process Automation
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Marketing Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
 
 
 
@@ -2443,7 +2663,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(higher than 7.40\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
 
 
@@ -2495,6 +2715,36 @@ Job and Automation Monitoring
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Process Automation
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Job and Automation Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
 
 
 
@@ -2833,7 +3083,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(higher than 7.40\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
 
 
@@ -2855,6 +3105,96 @@ Real User Monitoring
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Data Quality Management, Microservices for Location Data \(DQM Microservices\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Suite
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+
+
+</td>
+<td valign="top">
+
+More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA \(on-premise\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+
+
+</td>
+<td valign="top">
+
+More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
 
 
 

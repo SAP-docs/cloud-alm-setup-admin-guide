@@ -44,7 +44,7 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
 
 4.  Choose *Add User*.
 
-5.  Enter the user ID and/or email address as you've defined them in the settings of your identity provider. If, as per our recommendations, you've selected your email address as your user ID in your identity provider, you only need to enter the email address.
+5.  Enter the *User ID* and/or *Email* as you've defined them in the settings of your identity provider. If, as per our recommendations, you've selected your email address as your user ID in your identity provider, you only need to enter the email address.
 
 6.  Select a type for your user. Possible types are:
 

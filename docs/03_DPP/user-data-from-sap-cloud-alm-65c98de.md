@@ -2,7 +2,7 @@
 
 # User Data from SAP Cloud ALM
 
-To support users in their job, the following personal data is stored in SAP Cloud ALM:
+To support users in their job, the following types of personal data are stored in SAP Cloud ALM:
 
 -   First and last name
 

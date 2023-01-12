@@ -54,7 +54,7 @@ For more information, refer to the following step-by-step video:
 
 -   In your Identity Authentication tenant, you have a user with the role *Manage Users*.
 
-    If you've requested SAP Cloud ALM and a new Identity Authentication tenant was set up for you, your user has automatically received this authorization during the creation of the tenant. If someone else requested SAP Cloud ALM or you're using an existing Identity Authentication tenant in which you don't have this authorization, the tenant administrator can assign the role to you by following the steps described in [Managing Administrators in Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/786eea2e06fa4bef84d914a7c319d74c.html).
+    If you've requested SAP Cloud ALM and a new Identity Authentication tenant was set up for you, your user has automatically received this authorization during the creation of the tenant. If someone else requested SAP Cloud ALM or you're using an existing Identity Authentication tenant in which you don't have this authorization, the tenant administrator can assign the role to you by following the steps described in [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/786eea2e06fa4bef84d914a7c319d74c.html).
 
     To find the administrator of your Identity Authentication tenant, refer to [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
 
@@ -77,6 +77,8 @@ For more information, refer to the following step-by-step video:
 3.  Fill in the required fields.
 
     Remember the email address, as you need it to assign roles to the user later.
+
+    For information about the available user types, refer to [User Types](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/70e95d1d4f514710a0de56067081fd7f.html).
 
 4.  Choose *Save*.
 

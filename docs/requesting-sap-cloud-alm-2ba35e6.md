@@ -13,6 +13,8 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
 
 
+
+
 <a name="loio2ba35e64569342f097b825275248f744__section_wmw_l2n_dtb"/>
 
 ## Prerequisites
@@ -36,9 +38,11 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
      ![](images/SUI-ProductsAvailableforProvisioning_6bbd7c3.png) 
 
-3.  Choose *Start provisioning*.
+3.  Choose *Start Provisioning*.
 
 4.  Select the geographical region in which you would like to provision SAP Cloud ALM. A suitable data center will be selected for you.
+
+    Please note that it's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 
 5.  Enter a unique subdomain name.
 
@@ -77,7 +81,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
 8.  Once you choose *Submit*, you can track the status of the provisioning under *Provisioning Status*.
 
-9.  When the status is *Provisioning Triggered*, the app automatically prepares SAP Cloud ALM and creates the following entities \(see also graphic below\):
+9.  When the status is *Provisioning Triggered*, SAP automatically prepares SAP Cloud ALM and creates the following entities \(see also graphic below\):
 
     -   A global account that contains your SAP Cloud ALM entitlement, with the name “SAP Cloud ALM”
 
@@ -87,10 +91,12 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
         Subaccounts let you structure a global account according to your organization's and project's requirements with regard to members, authorizations, and entitlements.
 
-        > ### Note:  
+        > ### Caution:  
         > You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
+        > 
+        > Don't delete your SAP Cloud ALM subscription from this subaccount if you've already started using SAP Cloud ALM productively. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
 
-    -   An organization
+    -   A Cloud Foundry organization
 
         An organization is an additional hierarchical level in the Cloud Foundry environment.
 
@@ -100,6 +106,8 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 10. A mutual trust relationship between SAP Cloud ALM and the selected Identity Authentication tenant is established.
 
      ![Entities Created by SAP for Me](images/CALM_Onboarding_on_SAP4Me_7124860.png) 
+
+    If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, refer to [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
 
 11. You receive emails containing logon information, configuration guidance, and links to support resources.
 
@@ -112,9 +120,9 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 **Related Information**  
 
 
+[SAP for Me Online Help](https://support.sap.com/content/s4m/help.html)
+
 [Cloud Integration Automation Service](https://help.sap.com/docs/Cloud%20Integration%20Automation%20Service)
 
 [SAP Cloud Transport Management](https://help.sap.com/docs/Cloud%20Integration%20Automation%20Service)
-
-[User Onboarding for SAP S/⁠4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html)
 

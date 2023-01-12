@@ -194,15 +194,17 @@ User & Access Management Viewer
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="4">
+<td valign="top" rowspan="5">
 
-Project & Task Management
+Project and Task Management
 
 Process Management
 
-Change & Deployment Management
+Change and Deployment Management
 
-Test Management
+Test and Defect Management
+
+Tag Management
 
 
 
@@ -216,7 +218,7 @@ Test Management
 </td>
 <td valign="top">
 
-Edit projects and all associated tasks, scopes, requirements, notes, test cases, and the landscape
+Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, defects, and tags
 
 
 
@@ -246,7 +248,7 @@ Project & Task Management Administrator
 </td>
 <td valign="top">
 
-Edit projects and all associated tasks, scopes, requirements, notes, and test cases. View the landscape
+Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
 
 
 
@@ -276,7 +278,7 @@ Project & Task Management Project Lead
 </td>
 <td valign="top">
 
-View projects and the landscape. Edit all associated tasks, scopes, requirements, notes, and test cases
+View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/feature-delivery.html)\), notes, test cases, and defects
 
 
 
@@ -306,7 +308,7 @@ Project & Task Management Project Member
 </td>
 <td valign="top">
 
-View projects and all associated tasks, scopes, requirements, notes, test cases, and the landscape
+View projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
 
 
 
@@ -321,6 +323,52 @@ Project & Task Management Project Viewer
 <td valign="top">
 
  `imp_pjm_ProjectViewer` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="4">
+
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+ *Process Author* 
+
+
+
+</td>
+<td valign="top">
+
+Create, edit, and delete custom solution processes
+
+
+
+</td>
+<td valign="top">
+
+Process Management Process Author
+
+
+
+</td>
+<td valign="top">
+
+ `imp_pm_ProcessAuthor` 
 
 
 
@@ -970,6 +1018,43 @@ Business Service Management Viewer
 <td valign="top">
 
  `ops_bsm_BusinessServiceManagementViewer` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+Configuration & Security Analysis
+
+
+
+</td>
+<td valign="top">
+
+ *Configuration Monitoring Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+Administrate managed objects, configuration settings, and display application data
+
+
+
+</td>
+<td valign="top">
+
+Configuration Monitoring Administrator
+
+
+
+</td>
+<td valign="top">
+
+ `ops_csa_ConfigurationMonitoringAdministrator` 
 
 
 

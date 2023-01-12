@@ -4,6 +4,9 @@
 
 After you've requested SAP Cloud ALM, there are additional mandatory configuration steps that are required to set up SAP Cloud ALM for productive use.
 
+> ### Caution:  
+> It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
+
 
 
 <a name="loio80b2c30a8d194ae8aff496bcff057cf0__section_rdm_3mt_r5b"/>
@@ -46,7 +49,7 @@ Identity Authentication tenant
 
 If a new Identity Authentication tenant was created for you when you requested SAP Cloud ALM, you've automatically received the required roles in the Identity Authentication tenant.
 
-If someone else requested SAP Cloud ALM or if you're using a pre-existing Identity Authentication tenant for SAP Cloud ALM, the [administrator](https://iamtenants.accounts.cloud.sap/) can add you as an administrator by following the steps described in [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/5d0484e2ef304219be66626fc21c0dbe/786eea2e06fa4bef84d914a7c319d74c.html?locale=en-US).
+If someone else requested SAP Cloud ALM or if you're using a pre-existing Identity Authentication tenant for SAP Cloud ALM, the [administrator](https://iamtenants.accounts.cloud.sap/) can add you as an administrator by following the steps described in [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/786eea2e06fa4bef84d914a7c319d74c.html).
 
 
 

@@ -96,6 +96,22 @@ You can't subscribe to any additional applications in the subaccount containing 
 <tr>
 <td valign="top">
 
+You want to move your SAP Cloud ALM application to a different data center.
+
+
+
+</td>
+<td valign="top">
+
+It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You're facing issues with your Identity Authentication tenant after requesting SAP Cloud ALM.
 
 
@@ -574,7 +590,8 @@ You want to delete your SAP Cloud ALM subscription in your subaccount.
 
 Refer to KBA [3247776](https://launchpad.support.sap.com/#/notes/3247776).
 
-Please note that deleting the SAP Cloud ALM subscription from the subaccount doesn't re-enable you to provision SAP Cloud ALM from SAP for Me.
+> ### Caution:  
+> Deleting your SAP Cloud ALM subscription causes all created artifacts, stored data, and current configurations to be deleted as well. It will not re-enable you to request SAP Cloud ALM on SAP for Me.
 
 
 

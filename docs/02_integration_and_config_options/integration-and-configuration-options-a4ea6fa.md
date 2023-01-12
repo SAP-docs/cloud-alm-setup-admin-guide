@@ -26,6 +26,10 @@ By integrating the SAP Audit Log Viewer service for SAP BTP, you can view the au
 		order in which the tasks need to be executed, and allows you to navigate directly to SAP
 		Central Business Configuration as needed.")**  
 By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be executed, and allows you to navigate directly to SAP Central Business Configuration as needed.
+-   **[Configuring Project User Permissions](configuring-project-user-permissions-a2c0029.md "Project user authorizations are defined by the project access levels, the roles users
+		are assigned to in the user management, and the roles users are assigned to in project
+		management.")**  
+Project user authorizations are defined by the project access levels, the roles users are assigned to in the user management, and the roles users are assigned to in project management.
 -   **[Integrating the Cloud Integration Automation Service](integrating-the-cloud-integration-automation-service-eafcc2f.md "The Cloud Integration Automation service (CIAS) provides you with a
 		guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud
 		solutions. The guided workflow contains instructions for manual and automated tasks to
