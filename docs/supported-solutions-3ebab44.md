@@ -334,7 +334,7 @@ SAP Best Practices for SAP Intelligent Robotic Process Automation integration
 <tr>
 <td valign="top">
 
-SAP S/4HANA
+SAP S/4HANA \(on-premise\)
 
 
 
@@ -1743,6 +1743,36 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Process Integration \(Java\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 
@@ -2274,36 +2304,6 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <td valign="top">
 
 SAP HANA Cloud
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Health Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Build Process Automation
 
 
 
@@ -3174,6 +3174,66 @@ More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operatio
 <td valign="top">
 
 SAP S/4HANA \(on-premise\)
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+
+
+</td>
+<td valign="top">
+
+More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud, private edition
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+
+
+</td>
+<td valign="top">
+
+More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
 
 

@@ -20,13 +20,13 @@ Within each access level, the combination of role assignments in *User Managemen
 
 In *User Management*, the following roles are available:
 
--   *Project Administrator*: Edit all projects and all associated tasks, scopes, requirements, notes, test cases, and the landscape.
+-   *Project Administrator*: Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, defects, and tags
 
--   *Project Lead*: View the landscape, edit projects and all associated tasks, scopes, requirements, notes, and test cases.
+-   *Project Lead*: Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
 
--   *Project Member*: View projects and the landscape. Edit all associated tasks, scopes, requirements, notes, test cases.
+-   *Project Member*: View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/feature-delivery.html)\), notes, test cases, and defects
 
--   *Project Viewer*: View projects and all associated tasks, scopes, requirements, notes, test cases, and the landscape.
+-   *Project Viewer*: View projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
 
 
 In the *Projects and Setup* app, users can be assigned to teams based on numerous roles, such as Project Lead, Analytics Expert, Business Process Expert. As soon as a user is assigned, a request is triggered in *User Management* to assign the user to the respective role collection.

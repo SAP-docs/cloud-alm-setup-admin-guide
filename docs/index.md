@@ -2,7 +2,7 @@
 
 -   [About This Guide](about-this-guide-6720349.md)
 -   [Availability](availability-288d15a.md)
--   [Extensions](extensions-94cd95e.md)
+-   [Fair Use](fair-use-94cd95e.md)
 -   [Supported Solutions](supported-solutions-3ebab44.md)
 -   [Video-Guided Setup](video-guided-setup-cd38b1f.md)
 -   [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md)
