@@ -4,7 +4,7 @@
 
 # Integrating the Test Automation Tool for SAP S/4HANA Cloud
 
-In addition to manual test cases, you can also integrate automated test cases from the test automation tool for SAP S/4HANA Cloud for use in the *Test Preparation* and *Test Execution* apps.
+In addition to manual test cases, you can also integrate automated test cases from the test automation tool for SAP S/4HANA Cloud for use in test orchestration in SAP Cloud ALM.
 
 
 
@@ -18,7 +18,7 @@ To use this integration in your project, you need to configure a service and an 
 
 ## Prerequisites
 
-You have a **Quality** or, depending on your landscape setup, **Development** system for the test automation tool for SAP S/4HANA Cloud.
+You have a **Test** or, depending on your landscape setup, **Development** system for the test automation tool for SAP S/4HANA Cloud.
 
 > ### Note:  
 > Don't connect your SAP S/4HANA Cloud **Production** system to SAP Cloud ALM. Test cases shouldn't be tested in production.
@@ -30,29 +30,34 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
 ## Procedure
 
 > ### Caution:  
-> SAP is in the process of integrating new service types for test automation and revisiting the way test automation providers are modeled in the *Landscape Management* app.
+> SAP recently revisited the way test automation providers are modeled in the *Landscape Management* app.
 > 
-> If you've already modeled a test automation endpoint for the test automation tool for SAP S/4HANA Cloud, **do not change or delete it**. It will continue to work. If you delete it and re-create it, it might impact the existing automated test cases that have been already synchronized with SAP Cloud ALM.
+> If you've already created a test automation endpoint for the test automation tool for SAP S/4HANA Cloud, **do not change or delete it**. It will continue to work. If you delete it and re-create it, it might impact the existing automated test cases that have been already synchronized with SAP Cloud ALM.
+> 
+> If you want to add a new automation provider, follow the new procedure described below.
 
 1.  To communicate with the test automation tool for SAP S/4HANA Cloud, a communication user is required. If you need to create the communication user, follow the procedure described in [Communication Management](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/LATEST/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html). The communication scenario is `COM0620`.
 
 2.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-3.  On the *Services* page, choose <span class="SAP-icons"></span> \(Cloud Service Filter\) and filter by the service type *Test Automation \(Deprecated\)*.
+3.  On the *Services* page, choose <span class="SAP-icons"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant roles *Test* and *Development*.
 
-    The list displays all available services that have been defined for the test automation.
+    > ### Note:  
+    > Most of the time, the test automation tool is enabled on the test tenant, but it can also be enabled on the development tenant.
 
-4.  Check whether there's an existing service for which the root URL matches the root URL of your quality SAP S/4HANA Cloud system. If so, proceed directly to step 7.
+    The list now displays all SAP S/4HANA Cloud tenants that are currently connected to your SAP Cloud ALM tenant.
+
+4.  Check whether there's an existing service for which the root URL matches the root URL of your test or development SAP S/4HANA Cloud system. If so, proceed directly to step 7.
 
 5.  If no service exists for your SAP S/4HANA Cloud system, choose *Add* and enter the following parameters:
 
-    -   *Name*: Enter a name that follows a naming convention that fits your organization, for example ***S4TAT\_<SAP S/4HANA Cloud System\_SID\>***.
+    -   *Name*: Enter a name that follows a naming convention that fits your organization, for example ***<Root\_URL\_S/4\>*** or ***<S/4\_System\_SID\>***.
 
-    -   *Description*: Enter a short description, such as ***Test automation tool for SAP S/4HANA Cloud for <Department, if relevant\>***.
+    -   *Description*: Enter a short description, such as ***Test SAP S/4HANA Cloud for <Department, if relevant\>***.
 
     -   *Tenant ID*: Enter your tenant ID for the test automation tool for SAP S/4HANA Cloud.
 
-    -   *Service Type*: Select ***Test Automation \(Deprecated\)***.
+    -   *Service Type*: Select ***SAP S/4HANA Cloud***.
 
     -   *Tenant Type*: Depending on your landscape setup, select ***Development*** or ***Test***.
 
@@ -69,17 +74,15 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
 
     You can now see it in the list.
 
-7.  To create an endpoint, select the created service.
+7.  To create an endpoint, select the service.
 
-8.  Under *Endpoints*, check whether there's an existing endpoint with the destination name `SAPS4_TAT`. If so, you can update it by choosing :pencil2:.
+8.  Under *Endpoints*, check whether there's an existing endpoint with the use case *Test Automation* or *Test Management*. If so, you can update it by choosing :pencil2:.
 
-9.  If no endpoint exists for the *Test Automation* use case, choose *Add* and enter the following parameters:
+9.  If no endpoint exists for the *Test Automation* or *Test Management* use case, choose *Add* and enter the following parameters:
 
-    -   *Endpoint Name*: Enter ***SAPS4\_TAT***.
+    -   *Endpoint Name*: Enter a meaningful and unique endpoint name that helps you easily identify the test automation tool. This name will later be displayed in the test management apps.
 
-        The endpoint name must be ***SAPS4\_TAT***. It can't be changed.
-
-    -   *Description*: Enter a short endpoint description, such as ***Endpoint for test automation***.
+    -   *Description*: Enter a short endpoint description, such as ***Endpoint for test automation for system <SID\>***. This description will later be displayed in the *General Information* section of the test cases.
 
     -   *Use Case*: Select ***Test Automation***.
 
@@ -88,6 +91,8 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
         The final URL follows the pattern ***https://<SAP S/4HANA Cloud System\>/sap/bc/http/sap/sap\_calm\_testautomation\_api/***.
 
     -   *Connection Test Path*: Leave empty.
+
+        If this field is already prefilled, make sure to remove any extra parameters.
 
     -   *Authentication Type*: Select ***Basic Authentication***.
 
@@ -99,7 +104,10 @@ You have a **Quality** or, depending on your landscape setup, **Development** sy
 10. Save the new endpoint.
 
 
-Please note that you can maintain only one service and one endpoint for the integration of the test automation tool for SAP S/4HANA Cloud.
+> ### Note:  
+> You can maintain multiple endpoints for test automation. However, we strongly recommend only maintaining **one** endpoint per SAP S/4HANA Cloud tenant.
+> 
+> You should maintain **two** test automation endpoints if you're working with a 3-system landscape setup for SAP S/4HANA Cloud with two test automation tenants \(one for the main line and one for the project line\).
 
 Once you've established the connection between SAP Cloud ALM and the test automation tool for SAP S/4HANA Cloud, a synchronization with the SAP S/4HANA Cloud system takes place to retrieve the existing automated test cases whenever new processes are scoped in your SAP Cloud ALM projects.
 

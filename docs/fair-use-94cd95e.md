@@ -40,11 +40,11 @@ The following requirements can cause an extended SAP Cloud ALM usage, above the 
 -   Using additional monitoring platforms outside the SAP landscape and uploading monitoring data daily, from a third-party system.
 
 
-Be aware that any document uploads aren't stored in the SAP HANA memory. They require that you connect an SAP or external DMS service and do therefore not affect the 8-GB limitation .
+Be aware that any document uploads aren't stored in the SAP HANA memory. They require that you connect an SAP or external DMS service and do therefore not affect the 8-GB limitation.
 
 You can do the monitoring of the SAP HANA memory consumption in SAP Cloud ALM under *Health Monitoring* \> *"cloudalm" services* \> *SAP Cloud ALM HANA Memory*.
 
-You can configure the data and storage duration in SAP Cloud ALM for operations features. Find the guidelines here: ...
+You can configure the data and storage duration in SAP Cloud ALM for operations features. Find the guidelines under [Housekeeping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/housekeeping.html) in the expert portal.
 
 > ### Tip:  
 > The *SAP Cloud ALM, memory extension* service is available via a service subscription on CPEA: see [SAP Discovery Center](https://discovery-center.cloud.sap/#/serviceCatalog/sap-cloud-alm-memory-extension).
