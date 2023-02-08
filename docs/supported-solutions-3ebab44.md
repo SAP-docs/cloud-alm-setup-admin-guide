@@ -685,7 +685,7 @@ More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integr
 <tr>
 <td valign="top">
 
-SAP Integration Suite
+SAP Integration Suite – Cloud Integration
 
 
 
@@ -706,7 +706,35 @@ Deployment Management
 </td>
 <td valign="top">
 
-This includes the capabilities *Cloud Integration* and *API Management*.
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integration Suite – API Management
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Deployment Management
+
+
+
+</td>
+<td valign="top">
 
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
 
