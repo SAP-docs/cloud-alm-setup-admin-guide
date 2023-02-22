@@ -11,12 +11,14 @@ Roles in SAP Cloud ALM are delivered as predefined collections. You don't have t
 
 The following role collections are available for each application area in SAP Cloud ALM:
 
+****
+
 
 <table>
 <tr>
 <th valign="top">
 
-Application Area
+Capability
 
 
 
@@ -51,7 +53,7 @@ Role Template
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Cross
 
@@ -70,7 +72,7 @@ Cross
 Create and manage all SAP Cloud ALM objects, except for personal or sensitive data
 
 > ### Caution:  
-> This role provides the complete set of authorizations. We recommend configuring suitable roles for your users.
+> This role provides the complete set of authorizations. We recommend assigning suitable roles to your users.
 
 
 
@@ -93,6 +95,13 @@ Cross Global Administrator
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Cross
+
+
+
+</td>
 <td valign="top">
 
  *Global Auditor* 
@@ -125,7 +134,7 @@ Cross Global Auditor
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 User & Access Management
 
@@ -166,6 +175,13 @@ User & Access Management Administrator
 <tr>
 <td valign="top">
 
+User & Access Management
+
+
+
+</td>
+<td valign="top">
+
  *User Viewer* 
 
 
@@ -194,17 +210,9 @@ User & Access Management Viewer
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top">
 
-Project and Task Management
-
-Process Management
-
-Change and Deployment Management
-
-Test and Defect Management
-
-Tag Management
+Project Management
 
 
 
@@ -219,6 +227,8 @@ Tag Management
 <td valign="top">
 
 Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, defects, and tags
+
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
 
 
@@ -241,6 +251,13 @@ Project & Task Management Administrator
 <tr>
 <td valign="top">
 
+Project Management
+
+
+
+</td>
+<td valign="top">
+
  *Project Lead* 
 
 
@@ -249,6 +266,8 @@ Project & Task Management Administrator
 <td valign="top">
 
 Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
+
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
 
 
@@ -271,6 +290,13 @@ Project & Task Management Project Lead
 <tr>
 <td valign="top">
 
+Project Management
+
+
+
+</td>
+<td valign="top">
+
  *Project Member* 
 
 
@@ -279,6 +305,8 @@ Project & Task Management Project Lead
 <td valign="top">
 
 View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/feature-delivery.html)\), notes, test cases, and defects
+
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
 
 
@@ -301,6 +329,13 @@ Project & Task Management Project Member
 <tr>
 <td valign="top">
 
+Project Management
+
+
+
+</td>
+<td valign="top">
+
  *Project Viewer* 
 
 
@@ -309,6 +344,8 @@ Project & Task Management Project Member
 <td valign="top">
 
 View projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
+
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
 
 
@@ -323,15 +360,6 @@ Project & Task Management Project Viewer
 <td valign="top">
 
  `imp_pjm_ProjectViewer` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" colspan="4">
-
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
 
 
@@ -375,7 +403,7 @@ Process Management Process Author
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top">
 
 Business Process Monitoring
 
@@ -414,6 +442,13 @@ Business Process Monitoring Administrator
 <tr>
 <td valign="top">
 
+Business Process Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Process Manager* 
 
 
@@ -442,6 +477,13 @@ Business Process Monitoring Process Manager
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Business Process Monitoring
+
+
+
+</td>
 <td valign="top">
 
  *Process Executor* 
@@ -474,6 +516,13 @@ Business Process Monitoring Process Executor
 <tr>
 <td valign="top">
 
+Business Process Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Process Monitoring Consumer* 
 
 
@@ -504,6 +553,13 @@ Business Process Monitoring Consumer
 <tr>
 <td valign="top">
 
+Business Process Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Process Monitoring Viewer* 
 
 
@@ -532,7 +588,7 @@ Business Process Monitoring Viewer
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top">
 
 Integration & Exception Monitoring
 
@@ -571,6 +627,13 @@ Integration Monitoring Integration Architect
 <tr>
 <td valign="top">
 
+Integration & Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Integration Owner* 
 
 
@@ -601,6 +664,13 @@ Integration Monitoring Integration Owner
 <tr>
 <td valign="top">
 
+Integration & Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Integration Owner Sensitive* 
 
 
@@ -629,7 +699,7 @@ Integration Monitoring Integration Owner Sensitive
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Job & Automation Monitoring
 
@@ -668,6 +738,13 @@ Job Monitoring Administrator
 <tr>
 <td valign="top">
 
+Job & Automation Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Job Monitoring Consumer* 
 
 
@@ -696,7 +773,7 @@ Job Monitoring Consumer
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top">
 
 Real User Monitoring
 
@@ -735,6 +812,13 @@ Real User Monitoring Analyst Administrator
 <tr>
 <td valign="top">
 
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Real User Analyst* 
 
 
@@ -765,6 +849,13 @@ Real User Monitoring Analyst
 <tr>
 <td valign="top">
 
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Real User Analyst Sensitive* 
 
 
@@ -793,7 +884,7 @@ Real User Monitoring Analyst Sensitive
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top">
 
 Synthetic User Monitoring
 
@@ -832,6 +923,13 @@ Synthetic User Monitoring Administrator
 <tr>
 <td valign="top">
 
+Synthetic User Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Scenario Expert* 
 
 
@@ -862,7 +960,14 @@ Synthethic User Monitoring Scenario Expert
 <tr>
 <td valign="top">
 
- *Scenario Administrator* 
+Synthetic User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ *Scenario Viewer* 
 
 
 
@@ -890,7 +995,7 @@ Synthethic User Monitoring Scenario Viewer
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Health Monitoring
 
@@ -929,6 +1034,13 @@ Health Monitoring Administrator
 <tr>
 <td valign="top">
 
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
  *Health Monitoring Viewer* 
 
 
@@ -957,7 +1069,7 @@ Health Monitoring Viewer
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Business Service Management
 
@@ -996,6 +1108,13 @@ Business Service Management Administrator
 <tr>
 <td valign="top">
 
+Business Service Management
+
+
+
+</td>
+<td valign="top">
+
  *Business Service Management Viewer* 
 
 
@@ -1024,7 +1143,7 @@ Business Service Management Viewer
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Configuration & Security Analysis
 
@@ -1063,6 +1182,13 @@ Configuration Monitoring Administrator
 <tr>
 <td valign="top">
 
+Configuration & Security Analysis
+
+
+
+</td>
+<td valign="top">
+
  *Configuration Monitoring Analyst* 
 
 
@@ -1091,7 +1217,7 @@ Configuration Monitoring Analyst
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top">
 
 Service Collaboration
 
@@ -1130,6 +1256,13 @@ Service Collaboration Administrator
 <tr>
 <td valign="top">
 
+Service Collaboration
+
+
+
+</td>
+<td valign="top">
+
  *Services Expert* 
 
 
@@ -1158,6 +1291,13 @@ Service Collaboration Expert
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Service Collaboration
+
+
+
+</td>
 <td valign="top">
 
  *Services Viewer* 

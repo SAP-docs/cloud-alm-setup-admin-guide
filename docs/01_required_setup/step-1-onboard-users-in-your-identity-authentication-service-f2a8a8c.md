@@ -2,7 +2,7 @@
 
 # Step 1: Onboard Users in Your Identity Authentication Service
 
-Before you can use SAP Cloud ALM, you need to create or import users in the Identity Authentication tenant.
+To give further users access to SAP Cloud ALM, you need to create or import users in the Identity Authentication tenant.
 
 
 

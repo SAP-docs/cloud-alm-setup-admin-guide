@@ -116,9 +116,9 @@ On this interactive image, you can see all mandatory setup steps for SAP Cloud A
 
 For more detailed background information and general explanations of SAP BTP concepts, refer to [Basic Platform Concepts](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/38ecf59cdda64150a102cfaa62d5faab.html).
 
--   **[Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md "Before you can use SAP Cloud ALM, you need to create or import users in the Identity
-		Authentication tenant.")**  
-Before you can use SAP Cloud ALM, you need to create or import users in the Identity Authentication tenant.
+-   **[Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md "To give further users access to SAP Cloud ALM, you need to create or import users in the
+		Identity Authentication tenant.")**  
+To give further users access to SAP Cloud ALM, you need to create or import users in the Identity Authentication tenant.
 -   **[Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md "After onboarding your users to the Identity Authentication tenant, you need to add them
 		to SAP Cloud ALM and assign roles to them.")**  
 After onboarding your users to the Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.

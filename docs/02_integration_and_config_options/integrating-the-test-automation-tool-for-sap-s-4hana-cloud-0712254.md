@@ -4,7 +4,7 @@
 
 # Integrating the Test Automation Tool for SAP S/4HANA Cloud
 
-In addition to manual test cases, you can also integrate automated test cases from the test automation tool for SAP S/4HANA Cloud for use in test orchestration in SAP Cloud ALM.
+You can integrate automated test cases from the test automation tool for SAP S/4HANA Cloud for use in test orchestration in SAP Cloud ALM.
 
 
 

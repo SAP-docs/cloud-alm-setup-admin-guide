@@ -25,6 +25,29 @@ Resolution
 <tr>
 <td valign="top">
 
+You want to request SAP Cloud ALM on SAP for Me, but you can't access the request dashboard.
+
+
+
+</td>
+<td valign="top">
+
+Make sure you fulfill the following prerequisites:
+
+-   Your company number has sufficient product and support contracts.
+
+-   You're assigned to the respective customer.
+
+-   You have an S-user with the role `Edit Cloud Data` on SAP for Me.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 When you request SAP Cloud ALM on SAP for Me, your Identity Authentication tenant isn't available for selection.
 
 

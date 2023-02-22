@@ -19,7 +19,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
 ## Prerequisites
 
--   You have an S-user with the role `Edit Cloud Data` in SAP for Me.
+-   You have an S-user with the role `Edit Cloud Data` on SAP for Me.
 
     You can manage your users and authorizations by following the steps described in [Manage User Authorizations](https://help.sap.com/docs/SAP_FOR_ME/758e7c8a7c5b4782bb78b17f8c7fbbda/d39d0e5f8478403c85e483b9493a7bd2.html).
 
@@ -72,7 +72,10 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
          ![](images/SUI-ProvisioningRequest_6df45a1.png) 
 
-        If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID. You can find all Identity Authentication tenants assigned to your customer ID and their type at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap).
+        > ### Tip:  
+        > You can find all Identity Authentication tenants that are assigned to your customer ID at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap).
+
+        If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 
         If you later want to use a different Identity Authentication tenant for SAP Cloud ALM, you can change the assignment by following SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
 
@@ -94,7 +97,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
         > ### Caution:  
         > You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
         > 
-        > Don't delete your SAP Cloud ALM subscription from this subaccount if you've already started using SAP Cloud ALM productively. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
+        > Don't delete this subaccount or your SAP Cloud ALM subscription if you've already started using SAP Cloud ALM productively. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
 
     -   A Cloud Foundry organization
 

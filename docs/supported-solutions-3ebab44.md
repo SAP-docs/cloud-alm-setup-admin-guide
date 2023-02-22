@@ -334,6 +334,36 @@ SAP Best Practices for SAP Intelligent Robotic Process Automation integration
 <tr>
 <td valign="top">
 
+SAP Integrated Business Planning for Supply Chain
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Best Practices for SAP Integrated Business Planning for Supply Chain
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA \(on-premise\)
 
 
@@ -1532,36 +1562,6 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <td valign="top">
 
 SAP Master Data Governance, cloud edition
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Integration and Exception Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Event Mesh
 
 
 

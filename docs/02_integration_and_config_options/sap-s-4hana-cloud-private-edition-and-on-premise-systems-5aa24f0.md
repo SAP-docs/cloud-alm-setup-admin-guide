@@ -21,36 +21,25 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   Install ST-PI 7.40 SP17 or higher.
-
--   Install [3133333 - Collective corrections as of ST-PI 7.40 SP17 for SAP Cloud ALM.](https://launchpad.support.sap.com/#/notes/3133333).
-
--   For the support of complex landscapes using TMS target groups:
-    -   Install ST-PI 740 SP18 or higher.
-
-    -   For SP18 and SP19, follow SAP Notes [3221589](https://launchpad.support.sap.com/#/notes/3221589) and [3201146](https://launchpad.support.sap.com/#/notes/3201146).
-
-        With the release of SP20, SAP Note [3221589](https://launchpad.support.sap.com/#/notes/3221589) no longer has to be installed.
-
-
--   For the release of transports within a feature:
-
-    -   Install ST-PI 740 SP18 or higher.
-
-    -   For SP18 and SP19, follow SAP Note [3228978](https://launchpad.support.sap.com/#/notes/3228978).
-
-        With the release of SP20, SAP Note [3228978](https://launchpad.support.sap.com/#/notes/3228978) no longer has to be installed.
-
-
--   Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to ***TRUE***, as described in SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007).
+-   For ST-PI 740 SP 20 install [3240966](https://launchpad.support.sap.com/#/notes/3240966) and [3255229](https://launchpad.support.sap.com/#/notes/3255229).
 
     > ### Note:  
-    > For the profile parameter check, you can use the transaction `RZ11` in the managed system.
+    > It's recommended to use SP20.
 
--   Check that profile parameter `ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007).
+-   For ST-PI 740 SP 19 follow SAP notes [3221589](https://launchpad.support.sap.com/#/notes/3221589), [3228978](https://launchpad.support.sap.com/#/notes/3228978), and [3255229](https://launchpad.support.sap.com/#/notes/3255229).
 
--   Make sure that[DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in `STRUST` under `SSL Client (Anonymous)` and `SSL Client (Standard)`.
+-   For ST-PI 740 SP 18 install [3196078](https://launchpad.support.sap.com/#/notes/3196078) and follow SAP notes [3201146](https://launchpad.support.sap.com/#/notes/3201146), [3221589](https://launchpad.support.sap.com/#/notes/3221589), [3228978](https://launchpad.support.sap.com/#/notes/3228978), and [3255229](https://launchpad.support.sap.com/#/notes/3255229).
 
+
+> ### Note:  
+> It's recommended to install collective corrections when available.
+
+Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to ***TRUE***, as described in SAP Note[510007](https://launchpad.support.sap.com/#/notes/510007).
+
+> ### Note:  
+> For the profile parameter check, you can use the transaction `RZ11` in the managed system
+
+Check that profile parameter`ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007). Make sure that [DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in `STRUST` under`SSL Client (Anonymous)` and `SSL Client (Standard)`
 
 
 
@@ -68,6 +57,9 @@ Note that the authorization steps are only needed for system client 000. For oth
     > In this role, you need to maintain the authorization field `S_BTCH_NAM > BTCUNAME` either with '\*' or with the user name of the user you plan to use as data collection background job user.
 
 -   The user you specify as background user requires the PFCG role `SAP_SDF_ALM_METRIC_PUSH_FND` and the role `SAP_BC_TRANSPORT_ADMINISTRATOR`.
+
+    > ### Note:  
+    > Do not forget to activate role `SAP_BC_TRANSPORT_ADMINISTRATOR` before usage with the background user.
 
     Download the latest version of the role `SAP_SDF_ALM_METRIC_PUSH_FND` from SAP Note [3104662](https://launchpad.support.sap.com/#/notes/3104662).
 
