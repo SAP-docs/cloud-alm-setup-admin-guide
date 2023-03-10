@@ -1327,5 +1327,42 @@ Service Collaboration Viewer
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Scoping
+
+
+
+</td>
+<td valign="top">
+
+ *Digital Blueprint Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+Create and edit digital blueprints and all associated tasks, company code scoping, and transformation object scoping
+
+
+
+</td>
+<td valign="top">
+
+Digital Blueprint Administrator
+
+
+
+</td>
+<td valign="top">
+
+ `btc_bdts_DigitalBlueprintAdministrator` 
+
+
+
+</td>
+</tr>
 </table>
 

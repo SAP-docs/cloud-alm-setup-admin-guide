@@ -70,14 +70,22 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
     -   If you already have a productive Identity Authentication tenant, select it from the list.
 
-         ![](images/SUI-ProvisioningRequest_6df45a1.png) 
-
         > ### Tip:  
-        > You can find all Identity Authentication tenants that are assigned to your customer ID at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap).
+        > If you have multiple Identity Authentication tenants and you're unsure about which one to select, look up the administrators of the Identity Authentication tenants that are assigned to your customer ID at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap). The administrators can give you more guidance on what to consider when selecting an Identity Authentication tenant.
+        > 
+        > Here are some additional recommendations:
+        > 
+        > -   To ensure the best performance, select an Identity Authentication tenant in a region that is close to the region of your SAP Cloud ALM tenant.
+        > 
+        > -   To simplify the maintenance of administrators in your Identity Authentication tenant, select an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
+        > 
+        > -   If you have an existing, separate Identity Authentication tenant dedicated to SAP SuccessFactors, as described [here](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html), don't use it for SAP Cloud ALM.
 
         If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 
         If you later want to use a different Identity Authentication tenant for SAP Cloud ALM, you can change the assignment by following SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+
+         ![](images/SUI-ProvisioningRequest_6df45a1.png) 
 
 
 7.  If you agree to the terms and conditions stated in the linked order document, mark the checkbox.

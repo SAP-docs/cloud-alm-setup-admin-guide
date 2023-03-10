@@ -24,6 +24,7 @@
         -   [SAP Cloud Transport Management Service](02_integration_and_config_options/sap-cloud-transport-management-service-730ae36.md)
     -   [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md)
 -   [Application Configuration](application-configuration-ce08e9d.md)
+-   [Launching Your Systems from SAP for Me](launching-your-systems-from-sap-for-me-9d4aa2a.md)
 -   [Finding Help](finding-help-341b819.md)
 -   [Accessibility](accessibility-5cdbb82.md)
 -   [Data Protection and Privacy](03_DPP/data-protection-and-privacy-2fdc2f0.md)

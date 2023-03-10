@@ -92,6 +92,8 @@ Process Management
 
 -   Two-Tier ERP – Sustainability
 
+-   [SAP Best Practices for analytics with SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_S4H_ANA)
+
 
 More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
@@ -420,8 +422,6 @@ Task Management
 
 Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) \(new implementation and system conversion\)
 
-More under [Task Content](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/task-content.html) \(Expert Portal\).
-
 
 
 </td>
@@ -450,9 +450,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT)
-
-More under [Task Content](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/task-content.html) \(Expert Portal\).
+Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) 
 
 
 
@@ -489,8 +487,6 @@ Task template available:
 -   [SAP Activate Methodology for SAP S/4HANA Cloud, extended edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/5368adff269741c9) 
 
 
-More under [Task Content](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/task-content.html) \(Expert Portal\).
-
 
 
 </td>
@@ -526,8 +522,6 @@ Task template available:
 -   [SAP Activate Methodology for SAP SuccessFactors](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHCLDSF)
 
 
-More under [Task Content](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/implementation-content/task-content.html) \(Expert Portal\).
-
 
 
 </td>
@@ -556,7 +550,7 @@ Requirement Management
 </td>
 <td valign="top">
 
-More under [Requirements Management](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/sap-cloud-alm-guide/requirements-management.html) \(Expert Portal\).
+ 
 
 
 
@@ -586,7 +580,7 @@ Requirement Management
 </td>
 <td valign="top">
 
-More under [Requirements Management](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/sap-cloud-alm-guide/requirements-management.html) \(Expert Portal\).
+ 
 
 
 
@@ -616,7 +610,7 @@ Requirement Management
 </td>
 <td valign="top">
 
-More under [Requirements Management](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/sap-cloud-alm-guide/requirements-management.html) \(Expert Portal\).
+ 
 
 
 
@@ -646,7 +640,7 @@ Requirement Management
 </td>
 <td valign="top">
 
-More under [Requirements Management](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/sap-cloud-alm-guide/requirements-management.html) \(Expert Portal\).
+ 
 
 
 
@@ -3082,6 +3076,36 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <td valign="top">
 
 SAP SuccessFactors Employee Central Payroll
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain
 
 
 

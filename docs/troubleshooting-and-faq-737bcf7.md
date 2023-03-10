@@ -2,7 +2,11 @@
 
 # Troubleshooting and FAQ
 
-****
+In this document, you can find answers to some of the most common questions and issues that may arise while requesting and setting up SAP Cloud ALM.
+
+
+
+** **
 
 
 <table>
@@ -63,6 +67,36 @@ Your Identity Authentication tenant may not show up for the following reasons:
 
 
 You can find all Identity Authentication tenants assigned to your customer ID and their type at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to find the welcome emails and activation emails that were sent to you when you requested SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+**Welcome Emails from SAP Cloud ALM**
+
+-   If you requested SAP Cloud ALM, you've received a welcome email with the subject **Access information for SAP Cloud ALM**.
+
+-   If someone else requested SAP Cloud ALM and added you to the system, you've received a welcome email with the subject **Welcome to SAP Cloud ALM**.
+
+
+**Activation Emails from the Identity Authentication Service**
+
+-   If you didn't have a productive Identity Authentication tenant when you requested SAP Cloud ALM, a new Identity Authentication tenant was created for you. You've received an email with the subject **Activate Your Account for Identity Authentication Service**.
+
+-   If someone added your user to a productive Identity Authentication tenant, you've received an email with the subject **Activate Your Account for User Profile**.
+
+-   If someone added your user to a productive Identity Authentication tenant as an administrator, you've received an email with the subject **Activate Your Account for Administration Console**.
+
 
 
 
@@ -161,36 +195,6 @@ You can't find or didn't receive your activation email for your Identity Authent
 Search for an email with the subject **Activate Your Account for...** Don't forget to also check your spam folder.
 
 If you still can't find it, create an incident on component SV-CLM-INF-ONB to have the activation email resent to you.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to find the welcome emails and activation emails that were sent to you when you requested SAP Cloud ALM.
-
-
-
-</td>
-<td valign="top">
-
-**Welcome Emails from SAP Cloud ALM**
-
--   If you requested SAP Cloud ALM, you've received a welcome email with the subject **Access information for SAP Cloud ALM**.
-
--   If someone else requested SAP Cloud ALM and added you to the system, you've received a welcome email with the subject **Welcome to SAP Cloud ALM**.
-
-
-**Activation Emails from the Identity Authentication Service**
-
--   If you didn't have a productive Identity Authentication tenant when you requested SAP Cloud ALM, a new Identity Authentication tenant was created for you. You've received an email with the subject **Activate Your Account for Identity Authentication Service**.
-
--   If someone added your user to a productive Identity Authentication tenant, you've received an email with the subject **Activate Your Account for User Profile**.
-
--   If someone added your user to a productive Identity Authentication tenant as an administrator, you've received an email with the subject **Activate Your Account for Administration Console**.
-
 
 
 
@@ -439,74 +443,6 @@ Check whether you have a firewall setting that prevents you from accessing the a
 <tr>
 <td valign="top">
 
-When you execute the report `/SDF/CALM_SETUP` to register an ABAP Business Suite system with SAP Cloud ALM, you get the error message *Cannot Create HTTP client: Operation Successfully executed*.
-
-
-
-</td>
-<td valign="top">
-
-Refer to SAP Note [3090768](https://launchpad.support.sap.com/#/notes/3090768).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-After executing the report `/SDF/CALM_SETUP` to register SAP Solution Manager 7.2, the system appears in the *Landscape Management* app. However, you can't enable monitoring scenarios for it.
-
-
-
-</td>
-<td valign="top">
-
-There is no support for SAP Solution Manager in SAP Cloud ALM.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-A syntax error occurs after the ST-PI upgrade and short dumps occur after the configuration of SAP Cloud ALM.
-
-
-
-</td>
-<td valign="top">
-
-After an ST-PI update, there are missing code corrections, batch user, and roles. The roles needed for the technical user specified for batch processing are not usable or not available.
-
-Refer to SAP Note [3054258](https://i7p.wdf.sap.corp/sap/support/notes/3054258) and [2985521](https://launchpad.support.sap.com/#/notes/2985521).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to change the language settings in SAP Cloud ALM.
-
-
-
-</td>
-<td valign="top">
-
-The default display language of the solution is based on the language that is maintained in your browser settings.
-
-You can change the language either by changing it in your browser settings or by clicking on your user profile at the top-right corner of the SAP Cloud ALM launchpad and choosing *Settings* \> *Language & Region*.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 You want to create a large number of users for SAP Cloud ALM.
 
 
@@ -640,11 +576,19 @@ Official decommission of SAP Cloud ALM isn't yet available. However, you can use
 
 
 
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_vcl_r2s_swb"/>
+
+## Common Onboarding Issues
+
+You can find a collection of the most common issues during onboarding in the KBA [3270970](https://launchpad.support.sap.com/#/notes/3270970).
+
+
+
 <a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb"/>
 
 ## Further Support
 
-If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, raise an incident on the following components:
+If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, [schedule an expert session](https://launchpad.support.sap.com/#/sae) or [create a support ticket](https://me.sap.com/app/casecreate) on the following components:
 
 
 <table>
