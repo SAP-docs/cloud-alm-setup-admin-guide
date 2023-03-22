@@ -20,6 +20,7 @@
     -   [Configuring Project User Permissions](02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md)
     -   [Integrating the Cloud Integration Automation Service](02_integration_and_config_options/integrating-the-cloud-integration-automation-service-eafcc2f.md)
     -   [Enabling Transport Management](02_integration_and_config_options/enabling-transport-management-4b74b16.md)
+        -   [SAP S/4HANA Cloud with Adaption Transport Organizer \(ATO\)](02_integration_and_config_options/sap-s-4hana-cloud-with-adaption-transport-organizer-ato-a4238a9.md)
         -   [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md)
         -   [SAP Cloud Transport Management Service](02_integration_and_config_options/sap-cloud-transport-management-service-730ae36.md)
     -   [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md)

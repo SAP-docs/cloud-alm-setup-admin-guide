@@ -52,7 +52,7 @@ Make sure you fulfill the following prerequisites:
 <tr>
 <td valign="top">
 
-When you request SAP Cloud ALM on SAP for Me, your Identity Authentication tenant isn't available for selection.
+When requesting SAP Cloud ALM on SAP for Me, your Identity Authentication tenant isn't available for selection.
 
 
 
@@ -262,7 +262,7 @@ You want to use a different Identity Authentication in SAP Cloud ALM than the on
 
 Creating multiple productive Identity Authentication tenants splits the user base and requires an individual administrator for each tenant. This means that users that are maintained in the Identity Authentication tenant of your managed system also need to be created in the Identity Authentication tenant that is used for SAP Cloud ALM, if they need to work in both solutions.
 
-If the Identity Authentication tenant of your managed system existed before SAP Cloud ALM was created, it was automatically reused as the identity provider for SAP Cloud ALM. If you want to change this assignment, refer to SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+If you want to change this assignment, refer to SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
 
 
 
@@ -540,6 +540,22 @@ If you revert the Identity Authentication configuration within the grace period,
 <tr>
 <td valign="top">
 
+You want to set up a second SAP Cloud ALM tenant.
+
+
+
+</td>
+<td valign="top">
+
+Currently, it's possible to request only one SAP Cloud ALM tenant per entitled customer number.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to delete your SAP Cloud ALM subscription in your subaccount.
 
 
@@ -573,14 +589,6 @@ Official decommission of SAP Cloud ALM isn't yet available. However, you can use
 </td>
 </tr>
 </table>
-
-
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_vcl_r2s_swb"/>
-
-## Common Onboarding Issues
-
-You can find a collection of the most common issues during onboarding in the KBA [3270970](https://launchpad.support.sap.com/#/notes/3270970).
 
 
 
@@ -658,8 +666,13 @@ SV-CLM-INF-LMS
 </tr>
 </table>
 
-**Related Information**  
 
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb"/>
+
+## Related Information
+
+[KBA 3270970 - Most Common Onboarding Issues](https://launchpad.support.sap.com/#/notes/3270970)
 
 [Troubleshooting for Managed ABAP Systems \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/calm-op-troubleshooting/calm-troubleshooting-abap.html)
 

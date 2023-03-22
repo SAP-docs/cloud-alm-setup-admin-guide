@@ -6,7 +6,7 @@
 
 After onboarding your users to the Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.
 
-You can assign roles to users directly in the SAP Cloud ALM *User Management* app \(recommended\) or in the SAP BTP cockpit.
+You can assign roles to users directly in the SAP Cloud ALM *User Management* app \(recommended\) or as corresponding role collections in the SAP BTP cockpit.
 
 > ### Note:  
 > If you're working with role mapping to user groups in your identity provider, you must assign role collections in the SAP BTP cockpit. In this case, you can't view or change roles in the *User Management* app. You also can't use the role request and assignment features in SAP Cloud ALM, so we don't recommend this method.
@@ -164,6 +164,8 @@ For more information on how to use the *User Management* app to view, add, and c
 <a name="loio7304b17f3aac4ebaa24c5c6a3a8e236e__section_amj_f5z_tqb"/>
 
 ## SAP BTP Cockpit
+
+The roles of SAP Cloud ALM are displayed as role collections in the SAP BTP cockpit.
 
 
 

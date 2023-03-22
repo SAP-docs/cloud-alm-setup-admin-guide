@@ -25,7 +25,7 @@ Capability
 </th>
 <th valign="top">
 
-Role Title
+Role Title in SAP Cloud ALM User Management
 
 
 
@@ -39,7 +39,7 @@ Description
 </th>
 <th valign="top">
 
-Role Name
+Role Collection Name
 
 
 

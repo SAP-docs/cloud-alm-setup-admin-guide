@@ -1015,6 +1015,66 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Logistic Business Network
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Information Collaboration Hub for Life Sciences
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite
 
 
@@ -2767,36 +2827,6 @@ Job and Automation Monitoring
 <td valign="top">
 
 More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Cloud for Customer
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Real User Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
 
 
 
