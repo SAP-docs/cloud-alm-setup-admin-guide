@@ -237,7 +237,7 @@ Process Management
 </td>
 <td valign="top">
 
-[SAP Best Practices for SAP Marketing Cloud](https://rapid.sap.com/bp/#/browse/categories/lines_of_business/areas/marketing/packageversions/BP_CLD_MKT)
+[https://rapid.sap.com/bp/\#/browse/categories/lines\_of\_business/areas/marketing/packageversions/BP\_CLD\_MKT](https://rapid.sap.com/bp/#/browse/categories/lines_of_business/areas/marketing/packageversions/BP_CLD_MKT)
 
 
 
@@ -246,7 +246,37 @@ Process Management
 <tr>
 <td valign="top">
 
+SAP Sales Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
 SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Service Cloud
 
 
 
@@ -529,6 +559,186 @@ Task template available:
 <tr>
 <td valign="top">
 
+SAP Sales Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Service Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Intelligent Enterprise – Implementation
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Network
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Fieldglass
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 
@@ -620,6 +830,186 @@ Requirement Management
 <td valign="top">
 
 SAP SuccessFactors
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Sales Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Service Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Intelligent Enterprise – Implementation
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Network
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Fieldglass
 
 
 
@@ -854,8 +1244,6 @@ Test Management
 </td>
 <td valign="top">
 
-Manual and automated test management
-
 More under [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md).
 
 
@@ -886,7 +1274,7 @@ Test Management
 </td>
 <td valign="top">
 
-Manual test management
+ 
 
 
 
@@ -916,7 +1304,7 @@ Test Management
 </td>
 <td valign="top">
 
-Manual test management
+ 
 
 
 
@@ -946,7 +1334,187 @@ Test Management
 </td>
 <td valign="top">
 
-Manual test management
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Sales Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Service Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Intelligent Enterprise – Implementation
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Network
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Fieldglass
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -1135,7 +1703,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Services Cloud
+SAP Service Cloud
 
 
 
@@ -2505,6 +3073,36 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
+SAP Cloud Connector
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite
 
 
@@ -3045,7 +3643,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Services Cloud
+SAP Service Cloud
 
 
 

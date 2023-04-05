@@ -4,6 +4,15 @@
 
 After you've requested SAP Cloud ALM, there are additional mandatory configuration steps that are required to set up SAP Cloud ALM for productive use.
 
+If you need support, take a look at the following resources:
+
+-   [Services for SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/services-for-sap-cloud-alm.html)
+
+-   [Troubleshooting and FAQ](../troubleshooting-and-faq-737bcf7.md)
+
+-   [Schedule an Expert](https://launchpad.support.sap.com/#/sae)
+
+
 > ### Caution:  
 > It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 

@@ -79,7 +79,9 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
         > 
         > -   To simplify the maintenance of administrators in your Identity Authentication tenant, select an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
         > 
-        > -   If you have an existing, separate Identity Authentication tenant dedicated to SAP SuccessFactors, as described [here](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html), don't use it for SAP Cloud ALM.
+        > -   If you have an SAP SuccessFactors tenant containing sensitive data, whose user base should be separated from the user base of other SAP solutions, don't reuse the connected Identity Authentication tenant for SAP Cloud ALM. Otherwise, the Identity Authentication administrator for SAP Cloud ALM could also create users and give access to the SuccessFactors tenant. You can find more information [here](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html).
+        > 
+        >     If you have no other Identity Authentication tenants available for selection, you can request a new one as described in [Tenant Model and Licensing – Getting an Additional Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud#getting-an-additional-tenant).
 
         If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 

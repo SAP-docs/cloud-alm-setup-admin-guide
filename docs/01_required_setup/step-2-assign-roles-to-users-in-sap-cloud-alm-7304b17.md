@@ -165,7 +165,8 @@ For more information on how to use the *User Management* app to view, add, and c
 
 ## SAP BTP Cockpit
 
-The roles of SAP Cloud ALM are displayed as role collections in the SAP BTP cockpit.
+> ### Note:  
+> The roles in SAP Cloud ALM are available as role collections in your subaccount in the SAP BTP cockpit.
 
 
 
@@ -206,7 +207,6 @@ The roles of SAP Cloud ALM are displayed as role collections in the SAP BTP cock
 
 
 
--   **[Role Collections](role-collections-e1915af.md "Roles in SAP Cloud ALM are delivered as predefined collections. You don't have to configure any role collections yourself. Instead, you
-		can simply assign the relevant role collections to the users based on their tasks and requirements.")**  
-Roles in SAP Cloud ALM are delivered as predefined collections. You don't have to configure any role collections yourself. Instead, you can simply assign the relevant role collections to the users based on their tasks and requirements.
+-   **[Role Collections](role-collections-e1915af.md "Role collections in SAP Cloud ALM are delivered predefined and ready to use.")**  
+Role collections in SAP Cloud ALM are delivered predefined and ready to use.
 

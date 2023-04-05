@@ -2,7 +2,9 @@
 
 # Role Collections
 
-Roles in SAP Cloud ALM are delivered as predefined collections. You don't have to configure any role collections yourself. Instead, you can simply assign the relevant role collections to the users based on their tasks and requirements.
+Role collections in SAP Cloud ALM are delivered predefined and ready to use.
+
+Each application role in SAP Cloud ALM represents a role collection in your SAP BTP subaccount, which in turn corresponds 1:1 to the respective role template. This means that you don't have to configure any role collections yourself. Instead, you can simply assign the relevant role collections to the users based on their tasks and requirements.
 
 > ### Caution:  
 > The *Cross Global Administrator* and the *User & Access Management Administrator* role collections consist of more than one role template.
@@ -944,7 +946,7 @@ Create, edit, delete, and manage configuration settings. View performance and av
 </td>
 <td valign="top">
 
-Synthethic User Monitoring Scenario Expert
+Synthetic User Monitoring Scenario Expert
 
 
 
@@ -981,7 +983,7 @@ View performance and availability of scenario executions
 </td>
 <td valign="top">
 
-Synthethic User Monitoring Scenario Viewer
+Synthetic User Monitoring Scenario Viewer
 
 
 

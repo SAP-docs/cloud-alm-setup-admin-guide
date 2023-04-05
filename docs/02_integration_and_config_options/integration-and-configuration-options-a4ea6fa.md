@@ -38,7 +38,10 @@ The Cloud Integration Automation service \(CIAS\) provides you with a guided wor
 -   **[Enabling Transport Management](enabling-transport-management-4b74b16.md "You can enable transport management of different transport environments for SAP Cloud
 		ALM. ")**  
 You can enable transport management of different transport environments for SAP Cloud ALM.
--   **[Integrating the Test Automation Tool for SAP S/4HANA Cloud](integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md "You can integrate automated test cases from the test automation tool for SAP S/4HANA
-		Cloud for use in test orchestration in SAP Cloud ALM.")**  
-You can integrate automated test cases from the test automation tool for SAP S/4HANA Cloud for use in test orchestration in SAP Cloud ALM.
+-   **[Integrating Test Automation Providers](integrating-test-automation-providers-82b04bb.md "In addition to manual testing, which
+			is performed directly in SAP Cloud ALM, you can also integrate test automation providers
+			with SAP Cloud ALM.")**  
+In addition to manual testing, which is performed directly in SAP Cloud ALM, you can also integrate test automation providers with SAP Cloud ALM.
+-   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "")**  
+
 

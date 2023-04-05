@@ -65,7 +65,7 @@ For more information, refer to the following step-by-step video:
 
 ## Procedure
 
-1.  In the tenant's administration console for Identity Authentication, open the *User Management* app.
+1.  In the administration console of the SAP Cloud Identity Services, open the *User Management* app.
 
     > ### Tip:  
     > The URL has the following pattern: `https://<tenant ID>.accounts.ondemand.com/admin`

@@ -4,9 +4,30 @@
 
 In this document, you can find answers to some of the most common questions and issues that may arise while requesting and setting up SAP Cloud ALM.
 
+To get started, find your current phase or the subject of your issue and expand the corresponding section:
+
+-   [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb)
+
+-   [During the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_okn_3rg_twb)
+
+-   [After the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_gxf_dyk_swb)
+
+-   [Identity Authentication](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_vhr_kyk_swb)
+
+-   [User Management](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_egv_g1l_swb)
+
+-   [Your SAP Cloud ALM Tenant](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb)
+
+-   [Further Support](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb)
+
+-   [Related Information](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb)
 
 
-** **
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb"/>
+
+## Before the Provisioning
 
 
 <table>
@@ -49,6 +70,32 @@ Make sure you fulfill the following prerequisites:
 
 </td>
 </tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_okn_3rg_twb"/>
+
+## During the Provisioning
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+
+
+</th>
+<th valign="top">
+
+Resolution
+
+
+
+</th>
+</tr>
 <tr>
 <td valign="top">
 
@@ -71,6 +118,32 @@ You can find all Identity Authentication tenants assigned to your customer ID an
 
 
 </td>
+</tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_gxf_dyk_swb"/>
+
+## After the Provisioning
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+
+
+</th>
+<th valign="top">
+
+Resolution
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -105,86 +178,6 @@ You want to find the welcome emails and activation emails that were sent to you 
 <tr>
 <td valign="top">
 
-You can't find your subaccount for SAP Cloud ALM in the SAP BTP cockpit.
-
-
-
-</td>
-<td valign="top">
-
-Refer to [this question](https://answers.sap.com/questions/13606769/sap-cloud-alm-subaccount-not-appear-in-btp-cockpit.html) on SAP Community.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-After requesting SAP Cloud ALM, you have two subaccounts.
-
-
-
-</td>
-<td valign="top">
-
-Determine which subaccount is incomplete and should be deleted. Refer to SAP Note [3050017](https://launchpad.support.sap.com/#/notes/3050017).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to subscribe to additional applications in the subaccount containing your SAP Cloud ALM subscription.
-
-
-
-</td>
-<td valign="top">
-
-You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to move your SAP Cloud ALM application to a different data center.
-
-
-
-</td>
-<td valign="top">
-
-It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You're facing issues with your Identity Authentication tenant after requesting SAP Cloud ALM.
-
-
-
-</td>
-<td valign="top">
-
-Refer to KBA [3090756](https://launchpad.support.sap.com/#/notes/3090756).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 You can't find or didn't receive your activation email for your Identity Authentication tenant.
 
 
@@ -203,16 +196,14 @@ If you still can't find it, create an incident on component SV-CLM-INF-ONB to ha
 <tr>
 <td valign="top">
 
-You can't access your Identity Authentication tenant. The following error message appears:
-
-*Sorry... You entered a valid URL, but you are not authorized to view the content; contact your system administrator.*
+You requested SAP Cloud ALM and want to assign additional administrators who can complete the setup of SAP Cloud ALM.
 
 
 
 </td>
 <td valign="top">
 
-Refer to KBA [2579343](https://i7p.wdf.sap.corp/sap/support/notes/2579343).
+Refer to [3248116](https://launchpad.support.sap.com/#/notes/3248116).
 
 
 
@@ -221,18 +212,44 @@ Refer to KBA [2579343](https://i7p.wdf.sap.corp/sap/support/notes/2579343).
 <tr>
 <td valign="top">
 
-You want to use a different Identity Authentication tenant than the one that was provisioned with SAP Cloud ALM.
+You're an Ultimate Global Customer with multiple customer numbers and want to import all your customer numbers for cloud subscriptions into one SAP Cloud ALM system. You don't want to maintain several SAP Cloud ALM systems.
 
 
 
 </td>
 <td valign="top">
 
-Refer to SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+Refer to SAP Note [3070306](https://launchpad.support.sap.com/#/notes/3070306).
 
 
 
 </td>
+</tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_vhr_kyk_swb"/>
+
+## Identity Authentication
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+
+
+</th>
+<th valign="top">
+
+Resolution
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -253,6 +270,22 @@ We don't recommend connecting SAP Cloud ALM to a non-production Identity Authent
 <tr>
 <td valign="top">
 
+You want to use a different Identity Authentication tenant than the one that was provisioned with SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to use a different Identity Authentication in SAP Cloud ALM than the one you're using for your managed system.
 
 
@@ -262,23 +295,7 @@ You want to use a different Identity Authentication in SAP Cloud ALM than the on
 
 Creating multiple productive Identity Authentication tenants splits the user base and requires an individual administrator for each tenant. This means that users that are maintained in the Identity Authentication tenant of your managed system also need to be created in the Identity Authentication tenant that is used for SAP Cloud ALM, if they need to work in both solutions.
 
-If you want to change this assignment, refer to SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Your Identity Authentication tenant was created in a different data center than SAP Cloud ALM.
-
-
-
-</td>
-<td valign="top">
-
-You can request it be moved by raising an incident on component BC-IAM-IDS.
+If you still want to change your Identity Authentication tenant assignment in SAP Cloud ALM, refer to KBA [3020352](https://launchpad.support.sap.com/#/notes/3020352).
 
 
 
@@ -305,22 +322,6 @@ For more information, refer to [Corporate Identity Providers](https://help.sap.c
 <tr>
 <td valign="top">
 
-You're an Ultimate Global Customer with multiple customer numbers and want to import all your customer numbers for cloud subscriptions into one SAP Cloud ALM system. You don't want to maintain several SAP Cloud ALM systems.
-
-
-
-</td>
-<td valign="top">
-
-Refer to SAP Note [3070306](https://launchpad.support.sap.com/#/notes/3070306).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 You want to find out which Identity Authentication tenants are assigned to your customer ID and who the administrator is.
 
 
@@ -337,14 +338,64 @@ Refer to [Viewing Assigned Tenants and Administrators](https://help.sap.com/view
 <tr>
 <td valign="top">
 
-You requested SAP Cloud ALM and want to assign additional administrators who can complete the setup of SAP Cloud ALM.
+You want to find out which Identity Authentication tenant is used for your SAP Cloud ALM tenant.
 
 
 
 </td>
 <td valign="top">
 
-Refer to [3248116](https://launchpad.support.sap.com/#/notes/3248116).
+Follow the first 6 steps described in KBA [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You're facing issues with your Identity Authentication tenant after requesting SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3090756](https://launchpad.support.sap.com/#/notes/3090756).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Your Identity Authentication tenant was created in a different data center than SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+You can request it be moved by raising an incident on component BC-IAM-IDS.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You can't access your Identity Authentication tenant. The following error message appears:
+
+*Sorry... You entered a valid URL, but you are not authorized to view the content; contact your system administrator.*
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [2579343](https://i7p.wdf.sap.corp/sap/support/notes/2579343).
 
 
 
@@ -366,79 +417,31 @@ Refer to SAP Note [3086201](https://launchpad.support.sap.com/#/notes/3086201).
 
 </td>
 </tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_egv_g1l_swb"/>
+
+## User Management
+
+
+<table>
 <tr>
-<td valign="top">
+<th valign="top">
 
-You can't log on to SAP Cloud ALM.
-
-
-
-</td>
-<td valign="top">
-
-Verify that you've entered the correct credentials: You need to log on with the email address and password defined in the Identity Authentication tenant, not your S-user.
-
-Make sure you've completed all steps in section *Required Setup for SAP Cloud ALM* and that you've activated your user profile in the Identity Authentication tenant.
-
-You can find a link in the activation email that was sent to you when you requested SAP Cloud ALM or when the tenant administrator created a user for you. If you can't find the activation email, go to your Identity Authentication tenant, enter your email address, and choose *Forgot password*. You will receive a new activation email.
-
-For more information, refer to KBA [3117604](https://launchpad.support.sap.com/#/notes/3117604).
+Issue
 
 
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+</th>
+<th valign="top">
 
-You can log on to SAP Cloud ALM but do not see any apps.
+Resolution
 
 
 
-</td>
-<td valign="top">
-
-Refer to KBA [2982909](https://launchpad.support.sap.com/#/notes/2982909).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-When you try to access SAP Cloud ALM via the tenant URL the following error messages appear:
-
-*Sorry a technical error occurred during the logon process. Please contact your technical support.*
-
-*Sorry, you can't sign in right now.*
-
-
-
-</td>
-<td valign="top">
-
-Refer to SAP Note [3046343](https://launchpad.support.sap.com/#/notes/3046343).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-When you try to access SAP Cloud ALM from the SAP BTP cockpit, an HTTP 500 error occurs. But from outside the organization, for example SAP support, you can access the application.
-
-
-
-</td>
-<td valign="top">
-
-Check whether you have a firewall setting that prevents you from accessing the application. You may need to specify a port.
-
-
-
-</td>
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -537,6 +540,106 @@ If you revert the Identity Authentication configuration within the grace period,
 
 </td>
 </tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb"/>
+
+## Your SAP Cloud ALM Tenant
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+
+
+</th>
+<th valign="top">
+
+Resolution
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+You can't log on to SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+Verify that you've entered the correct credentials: You need to log on with the email address and password defined in the Identity Authentication tenant, not your S-user.
+
+Make sure you've completed all steps in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md) and that you've activated your user profile in the Identity Authentication tenant.
+
+You can find a link in the activation email that was sent to you when you requested SAP Cloud ALM or when the tenant administrator created a user for you. If you can't find the activation email, go to your Identity Authentication tenant, enter your email address, and choose *Forgot password*. You will receive a new activation email.
+
+For more information, refer to KBA [3117604](https://launchpad.support.sap.com/#/notes/3117604).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You can log on to SAP Cloud ALM but do not see any apps.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [2982909](https://launchpad.support.sap.com/#/notes/2982909).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+When you try to access SAP Cloud ALM via the tenant URL the following error messages appear:
+
+*Sorry a technical error occurred during the logon process. Please contact your technical support.*
+
+*Sorry, you can't sign in right now.*
+
+
+
+</td>
+<td valign="top">
+
+Refer to SAP Note [3046343](https://launchpad.support.sap.com/#/notes/3046343).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+When you try to access SAP Cloud ALM from the SAP BTP cockpit, an HTTP 500 error occurs. But from outside the organization, for example SAP support, you can access the application.
+
+
+
+</td>
+<td valign="top">
+
+Check whether you have a firewall setting that prevents you from accessing the application. You may need to specify a port.
+
+
+
+</td>
+</tr>
 <tr>
 <td valign="top">
 
@@ -548,6 +651,54 @@ You want to set up a second SAP Cloud ALM tenant.
 <td valign="top">
 
 Currently, it's possible to request only one SAP Cloud ALM tenant per entitled customer number.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You can't find your subaccount for SAP Cloud ALM in the SAP BTP cockpit.
+
+
+
+</td>
+<td valign="top">
+
+Refer to [this question](https://answers.sap.com/questions/13606769/sap-cloud-alm-subaccount-not-appear-in-btp-cockpit.html) on SAP Community.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to subscribe to additional applications in the subaccount containing your SAP Cloud ALM subscription.
+
+
+
+</td>
+<td valign="top">
+
+You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to move your SAP Cloud ALM application to a different data center.
+
+
+
+</td>
+<td valign="top">
+
+It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 
 
 
