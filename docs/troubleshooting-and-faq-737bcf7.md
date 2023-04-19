@@ -747,7 +747,7 @@ Official decommission of SAP Cloud ALM isn't yet available. However, you can use
 
 ## Further Support
 
-If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, [schedule an expert session](https://launchpad.support.sap.com/#/sae) or [create a support ticket](https://me.sap.com/app/casecreate) on the following components:
+If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, [schedule an expert session](https://me.sap.com/app/sae) or [create a support ticket](https://me.sap.com/app/casecreate) on the following components:
 
 
 <table>

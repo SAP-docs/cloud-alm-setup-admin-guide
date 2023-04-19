@@ -10,7 +10,7 @@ If you need support, take a look at the following resources:
 
 -   [Troubleshooting and FAQ](../troubleshooting-and-faq-737bcf7.md)
 
--   [Schedule an Expert](https://launchpad.support.sap.com/#/sae)
+-   [Schedule an Expert](https://me.sap.com/app/sae)
 
 
 > ### Caution:  

@@ -429,6 +429,47 @@ Process Management
 <tr>
 <td valign="top">
 
+Intelligent Enterprise – Implementation
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Process Management
+
+
+
+</td>
+<td valign="top">
+
+-   Acquire to Decommission
+
+-   Idea to Market
+
+-   Lead to Cash
+
+-   Plan to Fulfill
+
+-   Recruit to Retire
+
+-   Source to Pay
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud, private edition
 
 
@@ -1673,37 +1714,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Sales Cloud
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Integration and Exception Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud
+SAP Cloud for Customer
 
 
 
@@ -2423,6 +2434,36 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+Data ingestion for industry cloud solutions
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 
@@ -2583,6 +2624,40 @@ Business Process Monitoring
 Supported KPIs for the business scenarios:
 
 Lead-to-Cash, Source-to-Pay, Design-to-Operate
+
+More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+
+
+</td>
+<td valign="top">
+
+Supported KPIs for the business scenarios:
+
+Lead-to-Cash
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
@@ -3613,37 +3688,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Sales Cloud
-
-
-
-</td>
-<td valign="top">
-
-Operations
-
-
-
-</td>
-<td valign="top">
-
-Real User Monitoring
-
-
-
-</td>
-<td valign="top">
-
-More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud
+SAP Cloud for Customer
 
 
 

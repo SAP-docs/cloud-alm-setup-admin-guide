@@ -21,14 +21,18 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 20 install [3240966](https://launchpad.support.sap.com/#/notes/3240966) and [3255229](https://launchpad.support.sap.com/#/notes/3255229).
+-   For ST-PI 740 SP 22 install [3310406](https://launchpad.support.sap.com/#/notes/3310406) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
 
     > ### Note:  
-    > It's recommended to use SP20.
+    > It's recommended to use SP22.
 
--   For ST-PI 740 SP 19 follow SAP notes [3221589](https://launchpad.support.sap.com/#/notes/3221589), [3228978](https://launchpad.support.sap.com/#/notes/3228978), and [3255229](https://launchpad.support.sap.com/#/notes/3255229).
+-   For ST-PI 740 SP 21 install corrections [3240966](https://launchpad.support.sap.com/#/notes/3240966) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
 
--   For ST-PI 740 SP 18 install [3196078](https://launchpad.support.sap.com/#/notes/3196078) and follow SAP notes [3201146](https://launchpad.support.sap.com/#/notes/3201146), [3221589](https://launchpad.support.sap.com/#/notes/3221589), [3228978](https://launchpad.support.sap.com/#/notes/3228978), and [3255229](https://launchpad.support.sap.com/#/notes/3255229).
+-   For ST-PI 740 SP 20 install corrections [3240966](https://launchpad.support.sap.com/#/notes/3240966) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+
+-   For ST-PI 740 SP 19 install corrections [3196078](https://launchpad.support.sap.com/#/notes/3196078) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+
+-   For ST-PI 740 SP 18 install corrections [3196078](https://launchpad.support.sap.com/#/notes/3196078) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
 
 
 > ### Note:  

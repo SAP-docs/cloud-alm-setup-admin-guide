@@ -18,10 +18,13 @@ To use this integration in your project, you need to configure a service and an 
 
 ## Prerequisites
 
-You have a **Test** or, depending on your landscape setup, **Development** system for the test automation tool for SAP S/4HANA Cloud.
+-   You have a **Test** or, depending on your landscape setup, **Development** system for the test automation tool for SAP S/4HANA Cloud.
 
-> ### Note:  
-> Don't connect your SAP S/4HANA Cloud **Production** system to SAP Cloud ALM. Test cases shouldn't be tested in production.
+    > ### Note:  
+    > Don't connect your SAP S/4HANA Cloud **Production** system to SAP Cloud ALM. Test cases shouldn't be tested in production.
+
+-   You've set up the test automation tool for SAP S/4HANA Cloud and created test plans.
+
 
 
 
