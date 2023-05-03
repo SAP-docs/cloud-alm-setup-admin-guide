@@ -3058,6 +3058,36 @@ More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-a
 <tr>
 <td valign="top">
 
+SAP Build Process Automation
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 

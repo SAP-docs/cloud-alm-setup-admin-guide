@@ -4,7 +4,7 @@
 
 In this document, you can find answers to some of the most common questions and issues that may arise while requesting and setting up SAP Cloud ALM.
 
-To get started, find your current phase or the subject of your issue and expand the corresponding section:
+To get started, find your current phase or the subject of your issue and jump to the corresponding section:
 
 -   [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb)
 

@@ -1366,5 +1366,79 @@ Digital Blueprint Administrator
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Readiness Check
+
+
+
+</td>
+<td valign="top">
+
+ *Readiness Check Analysis Viewer* 
+
+
+
+</td>
+<td valign="top">
+
+View all SAP Readiness Check analyses
+
+
+
+</td>
+<td valign="top">
+
+Readiness Check Analysis Viewer
+
+
+
+</td>
+<td valign="top">
+
+ `imp_rc_AnalysisViewer` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Readiness Check
+
+
+
+</td>
+<td valign="top">
+
+ *Readiness Check Analysis Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+Create, edit, and delete SAP Readiness Check analyses
+
+
+
+</td>
+<td valign="top">
+
+Readiness Check Analysis Administrator
+
+
+
+</td>
+<td valign="top">
+
+ `imp_rc_AnalysisAdministrator` 
+
+
+
+</td>
+</tr>
 </table>
 
