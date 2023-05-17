@@ -71,7 +71,7 @@ Cross
 </td>
 <td valign="top">
 
-Create and manage all SAP Cloud ALM objects, except for personal or sensitive data
+Create and manage all SAP Cloud ALM objects, except for personal or sensitive data.
 
 > ### Caution:  
 > This role provides the complete set of authorizations. We recommend assigning suitable roles to your users.

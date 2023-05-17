@@ -42,6 +42,4 @@ You can enable transport management of different transport environments for SAP 
 			is performed directly in SAP Cloud ALM, you can also integrate test automation providers
 			with SAP Cloud ALM.")**  
 In addition to manual testing, which is performed directly in SAP Cloud ALM, you can also integrate test automation providers with SAP Cloud ALM.
--   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "")**  
-
 

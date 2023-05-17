@@ -56,15 +56,17 @@ To use this integration in your project, you need to configure a service and an 
 
     -   *Name*: Enter a name that follows a naming convention that fits your organization, for example ***<Root\_URL\_S/4\>*** or ***<S/4\_System\_SID\>***.
 
+        Please note that spaces and special characters other than hyphens and underscores aren't allowed.
+
     -   *Description*: Enter a short description, such as ***Test SAP S/4HANA Cloud for <Department, if relevant\>***.
 
-    -   *Tenant ID*: Enter your tenant ID for the test automation tool for SAP S/4HANA Cloud.
+    -   *Tenant ID*: Enter a meaningful tenant ID for the test automation tool for SAP S/4HANA Cloud that uniquely identifies the service in the *Landscape Management* app. This ID can be freely chosen.
 
     -   *Service Type*: Select ***SAP S/4HANA Cloud***.
 
     -   *Tenant Type*: Depending on your landscape setup, select ***Development*** or ***Test***.
 
-    -   *Root URL*: Enter the root URL of your SAP S/4HANA Cloud system, starting with ***https***.
+    -   *Root URL*: Enter the root URL of your SAP S/4HANA Cloud launchpad, starting with ***https*** and ending with ***.com*** or ***.sap***.
 
     -   *External ID*: Leave empty.
 
@@ -89,9 +91,9 @@ To use this integration in your project, you need to configure a service and an 
 
     -   *Use Case*: Select ***Test Automation***.
 
-    -   *Root URL*: The root URL of your previously specified service is prefilled. Simply add the suffix ***/sap/bc/http/sap/sap\_calm\_testautomation\_api/***.
+    -   *Root URL*: The root URL of your previously specified service is prefilled. After ***.com*** or ***.sap***, add the suffix ***/sap/bc/http/sap/sap\_calm\_testautomation\_api/***.
 
-        The final URL follows the pattern ***https://<SAP S/4HANA Cloud System\>/sap/bc/http/sap/sap\_calm\_testautomation\_api/***.
+        The final URL follows the pattern ***https://<SAP S/4HANA Cloud Root URL\>/sap/bc/http/sap/sap\_calm\_testautomation\_api/***.
 
     -   *Connection Test Path*: Leave empty.
 
