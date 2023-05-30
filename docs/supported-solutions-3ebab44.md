@@ -780,6 +780,36 @@ Task Management
 <tr>
 <td valign="top">
 
+SAP Work Zone
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Task Management
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 
@@ -1071,12 +1101,40 @@ Requirement Management
 </td>
 <td valign="top">
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Work Zone
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+
+
+</td>
+<td valign="top">
+
  
 
 
 
 </td>
 </tr>
+  
 <tr>
 <td valign="top">
 
@@ -1261,6 +1319,34 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Work Zone
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Deployment Management
+
+
+
+</td>
+<td valign="top">
+  
+ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+</td>
+</tr>
+  
 <tr>
 <td valign="top">
 
@@ -1557,6 +1643,31 @@ Test Management
 
  
 
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Work Zone
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
 
 
 </td>
@@ -4046,4 +4157,3 @@ More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operatio
 </td>
 </tr>
 </table>
-
