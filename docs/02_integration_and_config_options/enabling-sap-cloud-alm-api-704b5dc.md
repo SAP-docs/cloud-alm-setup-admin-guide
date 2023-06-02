@@ -234,6 +234,7 @@ Service keys allow you to configure an external application so that it can conne
 
 **Related Information**  
 
+[API Guide for SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/apis/about)
 
 [Managing Spaces](http://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/5209d55d8dd84228897112b0655d999b.html)
 
