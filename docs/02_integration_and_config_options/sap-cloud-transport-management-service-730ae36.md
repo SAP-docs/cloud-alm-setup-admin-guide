@@ -27,7 +27,7 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
     If you're not yet subscribed to the service, perform the following steps:
 
-    1.  Open the [SAP BTP cockpit](https://cockpit.eu10.hana.ondemand.com/cockpit).
+    1.  Open the SAP BTP cockpit.
 
     2.  Select the global account that contains your SAP Cloud ALM entitlement, which was created when you requested SAP Cloud ALM.
 

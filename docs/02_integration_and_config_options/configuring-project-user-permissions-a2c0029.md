@@ -40,5 +40,5 @@ The first column of the table shows the three access levels that can be determin
 When you set the access level for a project to *Public*, user authorizations are only affected by the roles that are assigned in *User Management*. This is not the case for the access levels *Restricted* and *Private*. Here, user authorizations are both affected by the roles that are assigned in *User Management* and the team assignments made in the *Projects and Setup* app.
 
 > ### Note:  
-> Any authorization changes to projects or assignments to projects or teams only apply to the individual user after he has logged out of SAP Cloud ALM.
+> Any authorization changes to projects or assignments to projects or teams only apply to the individual users after they have logged out of SAP Cloud ALM.
 

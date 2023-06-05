@@ -38,7 +38,7 @@ Carry out the following steps to enable SAP Cloud ALM API:
 
 ### Create a Space
 
-1.  Open the [SAP BTP cockpit](https://cockpit.eu10.hana.ondemand.com/cockpit).
+1.  Open the SAP BTP cockpit.
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement, which was created when you requested SAP Cloud ALM.
 
@@ -107,68 +107,14 @@ An entitlement is your right to provision and consume a resource.
 
     -   *Instance Name*: Enter a meaningful instance name.
 
+        The length of the instance name must not exceed 32 characters. Use only alphanumeric characters, numbers from 0 to 9, periods, and hyphens. Instead of spaces, use underscores.
+
          ![Choose Service Plan](images/Enabling_APIs_-_Standard_Service_Plan_b9cfbff.png) 
 
 
-6.  If you're setting up your SAP Cloud ALM for Operations applications, proceed to step 9.
+6.  Choose *Next*.
 
-    If you're creating the instance to enable transport management, choose *Next*.
-
-7.  Paste the following JSON code into the text editor \(depending on your use case\):
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Integration Use Case
-
-
-    
-    </th>
-    <th valign="top">
-
-    Scopes
-
-
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    SAP S/4HANA Cloud, Private Edition and On-Premise Systems
-
-
-    
-    </td>
-    <td valign="top">
-
-    ```
-    {
-        "xs-security": {
-            "xsappname": "<Your Instance Name>",
-            "authorities": [
-            	"$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
-            ]
-        }
-    }
-    
-    ```
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    SAP Cloud Transport Management Service
-
-
-    
-    </td>
-    <td valign="top">
+7.  Paste the following JSON code into the text editor:
 
     ```
     {
@@ -182,15 +128,6 @@ An entitlement is your right to provision and consume a resource.
     }
     
     ```
-
-
-    
-    </td>
-    </tr>
-    </table>
-    
-    > ### Caution:  
-    > If you later want to update your instance with new parameters, repeat the authorities you've already added.
 
 8.  Replace `<Your Instance Name>` with your instance name.
 
@@ -234,9 +171,10 @@ Service keys allow you to configure an external application so that it can conne
 
 **Related Information**  
 
-[API Guide for SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/apis/about)
 
 [Managing Spaces](http://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/5209d55d8dd84228897112b0655d999b.html)
 
 [Entitlements and Quotas](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html)
+
+[API Guide for SAP Cloud ALM](https://help.sap.com/viewer/fe419bfabbdc46dfbddbfd78b21483d5/latest/en-US/25fda4490062486e88f0712302e8b801.html "You can use SAP Cloud ALM interfaces to access and manipulate data on your SAP Cloud ALM instance.") :arrow_upper_right:
 

@@ -68,31 +68,15 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     </tr>
     <tr>
     <td valign="top">
-
-     *Not Assigned* 
+    
+         *Not Assigned* 
 
 
     
     </td>
     <td valign="top">
-
-    No user type \(default value\)
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-     *Employee* 
-
-
-    
-    </td>
-    <td valign="top">
-
-    Employee of your company
+        No user type \(default value\)
 
 
     
@@ -100,31 +84,15 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     </tr>
     <tr>
     <td valign="top">
-
-     *SAP* 
+    
+         *Employee* 
 
 
     
     </td>
     <td valign="top">
-
-    Consultant from SAP
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-     *Partner* 
-
-
-    
-    </td>
-    <td valign="top">
-
-    Consultant from official SAP partner
+        Employee of your company
 
 
     
@@ -132,15 +100,47 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     </tr>
     <tr>
     <td valign="top">
-
-     *Other* 
+    
+         *SAP* 
 
 
     
     </td>
     <td valign="top">
+    
+        Consultant from SAP
 
-    Person from a company other than SAP or official SAP partner
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+         *Partner* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Consultant from official SAP partner
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+         *Other* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Person from a company other than SAP or official SAP partner
 
 
     
@@ -183,7 +183,7 @@ For more information on how to use the *User Management* app to view, add, and c
 
 ### Procedure
 
-1.  Open the [SAP BTP cockpit](https://cockpit.eu10.hana.ondemand.com/cockpit).
+1.  Open the SAP BTP cockpit.
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement, which was created when you requested SAP Cloud ALM.
 

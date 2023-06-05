@@ -101,9 +101,10 @@ SAP Cloud ALM
 </td>
 <td valign="top">
 
-*Global Administrator* or *User Administrator*
+-   *Global Administrator* or *User Administrator*
 
-If you don't have this authorization, the *Global Administrator* can assign one of the required roles to you by following the steps described in [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html).
+
+If you don't have these authorization, the *Global Administrator* can assign one of the required roles to you by following the steps described in [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html).
 
 
 
