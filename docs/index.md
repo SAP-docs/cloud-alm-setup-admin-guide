@@ -16,6 +16,7 @@
 -   [Enabling Service Delivery](enabling-service-delivery-a1b2494.md)
 -   [Integration and Configuration Options](02_integration_and_config_options/integration-and-configuration-options-a4ea6fa.md)
     -   [Enabling SAP Cloud ALM API](02_integration_and_config_options/enabling-sap-cloud-alm-api-704b5dc.md)
+        -   [Managing Your Service Key](02_integration_and_config_options/managing-your-service-key-87b7851.md)
     -   [Activating the SAP Audit Log Viewer Service](02_integration_and_config_options/activating-the-sap-audit-log-viewer-service-59fd2a4.md)
     -   [Integrating SAP Central Business Configuration](02_integration_and_config_options/integrating-sap-central-business-configuration-e21f915.md)
     -   [Configuring Project User Permissions](02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md)
