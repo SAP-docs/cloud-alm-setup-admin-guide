@@ -6,6 +6,11 @@
 
 To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve your service key and connect your SAP services and systems to your SAP Cloud ALM instance.
 
+> ### Note:  
+> If you've requested SAP Cloud ALM on or after 2023-06-12, a service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically. You can skip these steps and access the service key in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
+> 
+> If you want to set up transport management, you still need to carry out the following instructions to create another service key, but you can reuse the created space and no longer have to configure your entitlements.
+
 
 
 
@@ -169,11 +174,11 @@ Service keys allow you to configure an external application so that it can conne
 > ### Caution:  
 > Outside of the SAP BTP cockpit, service keys must be stored securely. If you need a service key, create the service key directly in the SAP BTP cockpit, and access it from there whenever you need it.
 
--   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM after 2023-06-14, an SAP Cloud ALM service key was
-		created and automatically uploaded to the Landscape Management app
-		for you. This key can be used to connect managed services to push monitoring data using
-		OAuth 2.0.")**  
-If you requested SAP Cloud ALM after 2023-06-14, an SAP Cloud ALM service key was created and automatically uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
+-   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM after 2023-06-14, an automatically generated SAP Cloud
+		ALM service key was uploaded to the Landscape Management app for you.
+		This key can be used to connect managed services to push monitoring data using OAuth
+		2.0.")**  
+If you requested SAP Cloud ALM after 2023-06-14, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
 
 **Related Information**  
 

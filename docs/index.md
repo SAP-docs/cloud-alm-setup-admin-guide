@@ -36,6 +36,8 @@
     -   [Email Notifications in SAP Cloud ALM](03_DPP/email-notifications-in-sap-cloud-alm-af0413b.md)
     -   [Change Log and Audit Log](03_DPP/change-log-and-audit-log-dd4f07d.md)
 -   [Security](security-fb75b4c.md)
+    -   [Security Configuration Recommendations](security-configuration-recommendations-8154236.md)
+        -   [Explanations of Table Properties](explanations-of-table-properties-3afa465.md)
 -   [Account Termination](account-termination-219d7d0.md)
 -   [Troubleshooting and FAQ](troubleshooting-and-faq-737bcf7.md)
 
