@@ -50,5 +50,7 @@ SAP Cloud ALM supports the browsers listed in the [Feature Scope Description for
 
 ## EU Access
 
-EU access isn’t available.
+EU access, which restricts the processing of personal data to EEA/Switzerland, isn’t available.
+
+For more information, refer to [SAP Business Technology Platform – Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions?version=Cloud#eu-access).
 

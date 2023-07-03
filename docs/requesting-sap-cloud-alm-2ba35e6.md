@@ -54,7 +54,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
     -   Companies with multiple international subsidiaries or working in multiple industries should use different subdomains for each unit.
 
-    -   We strongly recommend using the suffix ***\-cloudalm*** at the end of the subdomain name, for example, `company-cloudalm`.
+    -   We strongly recommend using the suffix `-cloudalm` at the end of the subdomain name, for example, `company-cloudalm`.
 
     -   Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the selected name must not exceed 56 characters.
 
@@ -113,7 +113,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
         An organization is an additional hierarchical level in the Cloud Foundry environment.
 
-        The name of the organization is identical to the subdomain name. If the specified subdomain name doesn't contain the suffix ***\-cloudalm***, this suffix is added to the organization name.
+        The name of the organization is identical to the subdomain name. If the specified subdomain name doesn't contain the suffix `-cloudalm`, this suffix is added to the organization name.
 
 
 10. A mutual trust relationship between SAP Cloud ALM and the selected Identity Authentication tenant is established.

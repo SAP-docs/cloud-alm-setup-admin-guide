@@ -4,6 +4,14 @@
 
 After you've requested SAP Cloud ALM, there are additional mandatory configuration steps that are required to set up SAP Cloud ALM for productive use.
 
+SAP Cloud ALM is included in your cloud subscription and helps you to implement and operate intelligent cloud and hybrid business solutions. By following steps 1-3 in the next chapters, you can start to use SAP Cloud ALM immediately.
+
+
+
+<a name="loio80b2c30a8d194ae8aff496bcff057cf0__section_e22_lj1_wxb"/>
+
+## Need Support?
+
 If you need support, take a look at the following resources:
 
 -   [Services for SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/services-for-sap-cloud-alm.html)
@@ -116,13 +124,11 @@ If you don't have these authorization, the *Global Administrator* can assign one
 
 <a name="loio80b2c30a8d194ae8aff496bcff057cf0__section_hjw_gmt_r5b"/>
 
-## Procedure
+## Overview: Onboarding Procedure
 
 On this interactive image, you can see all mandatory setup steps for SAP Cloud ALM at a glance. For detailed guidance, click on the respective sections.
 
 ![](images/Image_Map_Required_Setup_for_SAP_Cloud_ALM_d4f9ce5.png)
-
-
 
 For more detailed background information and general explanations of SAP BTP concepts, refer to [Basic Platform Concepts](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/38ecf59cdda64150a102cfaa62d5faab.html).
 

@@ -264,7 +264,7 @@ To prevent external applications from performing unauthorized operations, assign
 </td>
 <td valign="top">
 
- 
+CALM-X-0003
 
 
 
@@ -273,7 +273,7 @@ To prevent external applications from performing unauthorized operations, assign
 <tr>
 <td valign="top">
 
-External API Service
+External API Management
 
 
 
@@ -308,7 +308,7 @@ When configuring a webhook to point to the target external service API, you need
 </td>
 <td valign="top">
 
-Use the authentication method that is recommended by the *Landscape Management* app or SAP BTP .
+Use the authentication method that is recommended by the *Landscape Management* app or SAP BTP.
 
 
 
@@ -389,7 +389,7 @@ Assign suitable roles that give users only the authorizations they need to perfo
 </td>
 <td valign="top">
 
-2023-01-04
+ 
 
 
 
@@ -433,7 +433,7 @@ Strong Authentication
 </td>
 <td valign="top">
 
-When adding a service manually, the default authentication setting for new endpoints is *OAuth2ClientCredentials*.
+When adding a service manually, you can choose between several authentication settings for new endpoints. The available options depend on the cloud service.
 
 
 
@@ -535,14 +535,14 @@ Select the appropriate access level for your project:
 </td>
 <td valign="top">
 
-2022-12-14
+ 
 
 
 
 </td>
 <td valign="top">
 
-CALM-PTM-001
+CALM-PTM-0001
 
 
 
@@ -602,7 +602,7 @@ Use access groups to grant users access only to data relevant to their tasks.
 </td>
 <td valign="top">
 
-2023-01-11
+ 
 
 
 

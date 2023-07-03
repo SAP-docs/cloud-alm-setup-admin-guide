@@ -101,7 +101,7 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
     To set up the HTTP destination, refer to [Creating HTTP Destinations and Transport Route](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/270f353a5b69472696617d91ceb58c93.html). Go to the *Cloud Transport Management* tab.
 
-    In the URL section for the endpoint, enter the URL of your SAP Cloud ALM API instance that follows the pattern ***https://eu10.alm.cloud.sap/api/imp-cdm-transport-management-api/v1***. The first part of the URL until `/api` depends on your company account and is variable.
+    In the URL section for the endpoint, enter the URL of your SAP Cloud ALM API instance that follows the pattern `https://eu10.alm.cloud.sap/api/imp-cdm-transport-management-api/v1`. The first part of the URL until `/api` depends on your company account and is variable.
 
      ![](images/HTTP_BTP_V3_da83c89.png) 
 

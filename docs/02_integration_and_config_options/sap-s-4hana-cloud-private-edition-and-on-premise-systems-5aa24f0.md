@@ -38,7 +38,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 > ### Note:  
 > It's recommended to install collective corrections when available.
 
-Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to ***TRUE***, as described in SAP Note[510007](https://launchpad.support.sap.com/#/notes/510007).
+Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to `TRUE`, as described in SAP Note[510007](https://launchpad.support.sap.com/#/notes/510007).
 
 > ### Note:  
 > For the profile parameter check, you can use the transaction `RZ11` in the managed system
@@ -137,7 +137,7 @@ The configuration of the push data provider is needed to enable the processing o
 
 5.  *Enter Registration Target*
 
-    1.  If the *Target ALM Root URL* field isn't already prefilled, enter the target SAP Cloud ALM root URL depending on your region, for example ***https://eu20.alm.cloud.sap***.
+    1.  If the *Target ALM Root URL* field isn't already prefilled, enter the target SAP Cloud ALM root URL depending on your region, for example `https://eu20.alm.cloud.sap`.
 
         This is the URL that is shown in the JSON file during the creation of the service key. The URL is shown under *endpoints.API* or *uaa.url* respectively. The SAP Cloud ALM root URL depends on the region of the customer account was created under, for example `eu10.alm.cloud.sap` or `eu20.alm.cloud.sap`.
 

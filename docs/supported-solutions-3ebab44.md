@@ -1110,6 +1110,306 @@ Requirement Management
 <tr>
 <td valign="top">
 
+SAP S/4HANA Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud, private edition
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA \(on-premise\)
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP SuccessFactors
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Sales Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Service Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud for Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Intelligent Enterprise – Implementation
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Network
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Fieldglass
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Documents
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud, private edition
 
 
@@ -1650,6 +1950,36 @@ Test Management
 <td valign="top">
 
  
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Test Management
+
+
+
+</td>
+<td valign="top">
+
+More under [Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM](02_integration_and_config_options/setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md).
 
 
 

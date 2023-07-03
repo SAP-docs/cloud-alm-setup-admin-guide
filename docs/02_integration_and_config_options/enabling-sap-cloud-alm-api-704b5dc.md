@@ -106,9 +106,9 @@ An entitlement is your right to provision and consume a resource.
 
 5.  Under *Basic Info*, provide the following details:
 
-    -   *Service*: ***SAP Cloud ALM API***
+    -   *Service*: `SAP Cloud ALM API`
 
-    -   *Plan*: ***standard***
+    -   *Plan*: `standard`
 
     -   *Instance Name*: Enter a meaningful instance name.
 
@@ -174,11 +174,11 @@ Service keys allow you to configure an external application so that it can conne
 > ### Caution:  
 > Outside of the SAP BTP cockpit, service keys must be stored securely. If you need a service key, create the service key directly in the SAP BTP cockpit, and access it from there whenever you need it.
 
--   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM after 2023-06-14, an automatically generated SAP Cloud
-		ALM service key was uploaded to the Landscape Management app for you.
-		This key can be used to connect managed services to push monitoring data using OAuth
-		2.0.")**  
-If you requested SAP Cloud ALM after 2023-06-14, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
+-   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM on or after 2023-06-14, an automatically generated SAP
+		Cloud ALM service key was uploaded to the Landscape Management app
+		for you. This key can be used to connect managed services to push monitoring data using
+		OAuth 2.0.")**  
+If you requested SAP Cloud ALM on or after 2023-06-14, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
 
 **Related Information**  
 
