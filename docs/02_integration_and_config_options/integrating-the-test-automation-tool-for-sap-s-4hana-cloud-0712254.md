@@ -18,12 +18,12 @@ To use this integration in your project, you need to configure a service and an 
 
 ## Prerequisites
 
--   You have a **Test** or, depending on your landscape setup, **Development** system for the test automation tool for SAP S/4HANA Cloud.
+-   You have a **Test** system for the test automation tool for SAP S/4HANA Cloud.
 
     > ### Note:  
     > Don't connect your SAP S/4HANA Cloud **Production** system to SAP Cloud ALM. Test cases shouldn't be tested in production.
 
--   You've set up the test automation tool for SAP S/4HANA Cloud and created test plans.
+-   You've set up the app *Test Your Processes* in the test automation tool for SAP S/4HANA Cloud, as described [here](https://help.sap.com/docs/SAP_S4HANA_CLOUD/2ab07d21f68c41109a2eef21b8fd8466/5d867592753c465aadb81115de672f91.html).
 
 
 
@@ -45,14 +45,11 @@ To use this integration in your project, you need to configure a service and an 
 
 3.  In the <span class="SAP-icons"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
 
-4.  On the *Services & Systems* page, choose <span class="SAP-icons"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant roles *Test* and *Development*.
-
-    > ### Note:  
-    > Most of the time, the test automation tool is enabled on the test tenant, but it can also be enabled on the development tenant.
+4.  On the *Services & Systems* page, choose <span class="SAP-icons"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
 
     The list now displays all SAP S/4HANA Cloud tenants that are currently connected to your SAP Cloud ALM tenant.
 
-5.  Check whether there's an existing service for which the root URL matches the root URL of your test or development SAP S/4HANA Cloud system. If so, proceed directly to step 7.
+5.  Check whether there's an existing service for which the root URL matches the root URL of your test SAP S/4HANA Cloud system. If so, proceed directly to step 7.
 
 6.  If no service exists for your SAP S/4HANA Cloud system, choose *Add* \> *New Cloud Service* and enter the following parameters:
 
@@ -66,7 +63,7 @@ To use this integration in your project, you need to configure a service and an 
 
     -   *Service Type*: Select `SAP S/4HANA Cloud`.
 
-    -   *Tenant Type*: Depending on your landscape setup, select `Development` or `Test`.
+    -   *Tenant Type*: Select `Test`.
 
     -   *Root URL*: Enter the root URL of your SAP S/4HANA Cloud launchpad, starting with `https` and ending with `.com` or `.sap`.
 

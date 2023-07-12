@@ -265,7 +265,7 @@ Project Management
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, defects, and tags
+Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, defects, and tags
 
 Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
@@ -304,7 +304,7 @@ Project Management
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
+Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects
 
 Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
@@ -343,7 +343,7 @@ Project Management
 </td>
 <td valign="top">
 
-View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/feature-delivery.html)\), notes, test cases, and defects
+View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/feature-delivery.html)\), notes, documents, test cases, and defects
 
 Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 
@@ -382,7 +382,7 @@ Project Management
 </td>
 <td valign="top">
 
-View projects, deployment plans, tasks, scopes, requirements, features, notes, test cases, and defects
+View projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects
 
 Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
 

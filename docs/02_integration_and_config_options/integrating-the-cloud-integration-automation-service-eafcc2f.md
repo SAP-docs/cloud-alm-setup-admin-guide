@@ -55,3 +55,8 @@ The Cloud Integration Automation service \(CIAS\) provides you with a guided wor
 8.  To configure the integration, access the application and execute the Cloud Integration Automation procedure.
 
 
+**Related Information**  
+
+
+[Cloud Integration Automation Service – SAP Help Portal](https://help.sap.com/docs/cloud-integration-automation)
+

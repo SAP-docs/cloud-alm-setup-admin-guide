@@ -21,10 +21,12 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 22 install [3310406](https://launchpad.support.sap.com/#/notes/3310406) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+-   For ST-PI 740 SP 23 install [3310406](https://launchpad.support.sap.com/#/notes/3310406) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
 
     > ### Note:  
-    > It's recommended to use SP22.
+    > It's recommended to use SP23.
+
+-   For ST-PI 740 SP 22 install [3310406](https://launchpad.support.sap.com/#/notes/3310406) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
 
 -   For ST-PI 740 SP 21 install corrections [3240966](https://launchpad.support.sap.com/#/notes/3240966) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
 
@@ -174,8 +176,6 @@ The configuration of the push data provider is needed to enable the processing o
     > -   It's only necessary to set up on one system per domain \(that is the domain controller\). A domain controller is mandatory for the TMS. Using the same domain controller to connect to SAP Cloud ALM is optional.
     > 
     > -   Currently supported landscapes:
-    > 
-    >     -   Landscapes with at least two systems per route \(also virtual systems\)
     > 
     >     -   Landscapes with basic consolidation and/or delivery targets, for example TMS quality assurance or transport workflow. These are optional workflows.
     > 
