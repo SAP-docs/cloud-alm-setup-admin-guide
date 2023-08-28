@@ -2,7 +2,7 @@
 
 # Requesting SAP Cloud ALM
 
-You can request SAP Cloud ALM on SAP for Me for all entitled customers you have sufficient permissions for.
+You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled customers for whom you have sufficient permissions.
 
 > ### Caution:  
 > The S-user who requests SAP Cloud ALM receives permissions that are required for administrative tasks in the SAP BTP cockpit and in SAP Cloud ALM. In addition, the S-user is added to the Identity Authentication service \(IAS\) tenant.
@@ -36,11 +36,13 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
 2.  Under *Products Available for Provisioning*, find your entitlement for SAP Cloud ALM.
 
-     ![](images/SUI-ProductsAvailableforProvisioning_6bbd7c3.png) 
+    ![](images/SUI-ProductsAvailableforProvisioning_6bbd7c3.png)
 
 3.  Choose *Start Provisioning*.
 
 4.  Select the geographical region in which you would like to provision SAP Cloud ALM. A suitable data center will be selected for you.
+
+    To find out on which data centers SAP Cloud ALM is available, refer to [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?mode=solution&currentLevel=world&solutionId=NZA52) in SAP Security and Trust.
 
     Please note that it's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 
@@ -87,7 +89,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
         If you later want to use a different Identity Authentication tenant for SAP Cloud ALM, you can change the assignment by following SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
 
-         ![](images/SUI-ProvisioningRequest_6df45a1.png) 
+        ![](images/SUI-ProvisioningRequest_6df45a1.png)
 
 
 7.  If you agree to the terms and conditions stated in the linked order document, mark the checkbox.
@@ -118,7 +120,7 @@ You can request SAP Cloud ALM on SAP for Me for all entitled customers you have 
 
 10. A mutual trust relationship between SAP Cloud ALM and the selected Identity Authentication tenant is established.
 
-     ![Entities Created by SAP for Me](images/CALM_Onboarding_on_SAP4Me_7124860.png) 
+    ![Entities Created by SAP for Me](images/CALM_Onboarding_on_SAP4Me_7124860.png)
 
     If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, refer to [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
 

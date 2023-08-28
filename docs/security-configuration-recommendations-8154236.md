@@ -315,7 +315,7 @@ Use the authentication method that is recommended by the *Landscape Management* 
 </td>
 <td valign="top">
 
- [SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html) 
+[SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html) 
 
 
 
@@ -579,7 +579,7 @@ KPI Access Control
 </td>
 <td valign="top">
 
-You can restrict the data access of a defined user group to a particular business process scope.
+You can restrict the data access of a defined user group to a particular business process scope and/or according to selected process attributes.
 
 By default, access control is deactivated.
 

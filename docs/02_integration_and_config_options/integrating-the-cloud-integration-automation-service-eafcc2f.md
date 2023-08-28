@@ -4,7 +4,7 @@
 
 # Integrating the Cloud Integration Automation Service
 
-The Cloud Integration Automation service \(CIAS\) provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
+The Cloud Integration Automation service provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
 
 
 
@@ -42,7 +42,7 @@ The Cloud Integration Automation service \(CIAS\) provides you with a guided wor
     -   *Cloud Integration Viewer*
 
 
-     ![Roles required for the Cloud Integration Automation service](images/SUI-CIAS_Roles_3c32918.png) 
+    ![Roles required for the Cloud Integration Automation service](images/SUI-CIAS_Roles_3c32918.png)
 
     For more information on the Cloud Integration Automation roles, their corresponding role collections, and their respective privileges, refer to the section **Pre-Defined Roles** in [Assigning Roles to the Users](https://help.sap.com/docs/Cloud%20Integration%20Automation%20Service/edfa11059aca499892c08168fd68d97d/9ad530a11cc7412e897552078908807d.html?locale=en-US).
 

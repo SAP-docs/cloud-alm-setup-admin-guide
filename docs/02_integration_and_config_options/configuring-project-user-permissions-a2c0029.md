@@ -33,7 +33,7 @@ In the *Projects and Setup* app, users can be assigned to teams based on numerou
 
 Please refer to the below table to get detailed information.
 
- ![](images/Access_Level_Matrix_ccbc066.jpg) 
+![](images/Access_Level_Matrix_ccbc066.jpg)
 
 The first column of the table shows the three access levels that can be determined during project setup in the *Projects and Setup* app. The second column shows the team assignment type. The rest of the columns shows the different roles a user can be assigned to in the *User Management* app. In the table legend, the different authorizations are defined that result from the user assignments and project access level settings in the different apps.
 

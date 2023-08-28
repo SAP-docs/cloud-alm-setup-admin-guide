@@ -59,7 +59,7 @@ After you've completed the technical setup, select SAP Central Business Configur
 
     -   *Scenario*: Select `SAP Central Business Configuration`.
 
-         ![](images/CBC_Project-Creation_4b7a778.png) 
+        ![](images/CBC_Project-Creation_4b7a778.png)
 
 
 4.  Select the SAP Central Business Configuration project or projects that you want to connect to SAP Cloud ALM.
@@ -74,5 +74,7 @@ After saving the new project, you can navigate to your SAP Central Business Conf
 **Related Information**  
 
 
-[Integrating SAP Cloud ALM with SAP Central Business Configuration](https://blogs.sap.com/2021/01/29/integrating-sap-cloud-alm-with-sap-central-business-configuration/)
+[SAP Central Business Configuration – SAP Help Portal](https://help.sap.com/docs/CENTRAL_BUSINESS_CONFIGURATION)
+
+[Integrating SAP Cloud ALM with SAP Central Business Configuration – SAP Community](https://blogs.sap.com/2021/01/29/integrating-sap-cloud-alm-with-sap-central-business-configuration/)
 

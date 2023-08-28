@@ -1,5 +1,7 @@
 <!-- loio737bcf73077c4ed1bc3400648a60f1a8 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Troubleshooting and FAQ
 
 In this document, you can find answers to some of the most common questions and issues that may arise while requesting and setting up SAP Cloud ALM.
@@ -18,9 +20,9 @@ To get started, find your current phase or the subject of your issue and jump to
 
 -   [Your SAP Cloud ALM Tenant](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb)
 
--   [Further Support](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb)
+-   [Related Troubleshooting Guides](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb)
 
--   [Related Information](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb)
+-   [Further Support](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb)
 
 
 
@@ -95,6 +97,48 @@ Resolution
 
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+You have questions on which subdomain name to use for your SAP Cloud ALM tenant.
+
+
+
+</td>
+<td valign="top">
+
+For more information and recommendations, take a look at the following resources:
+
+-   The SAP for Me <span class="SAP-icons"></span> Help for the section *Subdomain*
+
+-   Step 5 in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You have questions on which Identity Authentication tenant to select for the provisioning.
+
+
+
+</td>
+<td valign="top">
+
+For more information and recommendations, take a look at the following resources:
+
+-   The SAP for Me <span class="SAP-icons"></span> Help for the section *SAP Identity Service*
+
+-   Step 6 in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
+
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -250,6 +294,22 @@ Resolution
 
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+You have questions on which Identity Authentication tenant to select for the provisioning.
+
+
+
+</td>
+<td valign="top">
+
+Refer to the section [During the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_okn_3rg_twb).
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -743,6 +803,19 @@ Official decommission of SAP Cloud ALM isn't yet available. However, you can use
 
 
 
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb"/>
+
+## Related Troubleshooting Guides
+
+-   [KBA 3270970 - Most Common Onboarding Issues](https://launchpad.support.sap.com/#/notes/3270970)
+
+-   [Troubleshooting for Managed ABAP Systems \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/calm-op-troubleshooting/calm-troubleshooting-abap.html)
+
+-   [Landscape Management – Troubleshooting and Customer Support \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management.html?anchorId=section_667953570_co)
+
+
+
+
 <a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb"/>
 
 ## Further Support
@@ -816,16 +889,4 @@ SV-CLM-INF-LMS
 </td>
 </tr>
 </table>
-
-
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb"/>
-
-## Related Information
-
-[KBA 3270970 - Most Common Onboarding Issues](https://launchpad.support.sap.com/#/notes/3270970)
-
-[Troubleshooting for Managed ABAP Systems \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/calm-op-troubleshooting/calm-troubleshooting-abap.html)
-
-[Landscape Management – Troubleshooting and Customer Support \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management.html?anchorId=section_667953570_co)
 

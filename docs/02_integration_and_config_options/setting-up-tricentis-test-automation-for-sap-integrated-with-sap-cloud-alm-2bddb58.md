@@ -31,17 +31,48 @@ If you requested SAP Cloud ALM, you've received the authorizations required to s
 
 1.  In the SAP Cloud ALM launchpad, open the app *Set Up Tricentis Test Automation for SAP*.
 
-     ![](images/WN-TricentisConsent_01f69aa.png) 
+    ![](images/WN-TricentisConsent_01f69aa.png)
 
 2.  Read and accept the terms and conditions.
 
-    The terms and conditions are stored on SAP Support Portal. You can read or download them from there at any time.
+    ![](images/SUI-TricentisConsent_7079a29.png)
 
-     ![](images/SUI-TricentisConsent_7079a29.png) 
+    The following information is checked to determine if you meet the prerequisites to accept the terms and conditions:
 
-3.  Choose *Set Up Tricentis Test Automation for SAP integrated with SAP Cloud ALM*.
+    -   In SAP Cloud ALM:
 
-4.  Automatically, the following setup steps are performed:
+        -   The ID of your SAP Cloud ALM tenant
+
+        -   The customer number for which your SAP Cloud ALM tenant was initially provisioned
+
+        -   The email address of the current user
+
+
+    -   In the SAP Support Portal back end:
+
+        -   Valid S-users for the given customer number
+
+        -   S-users with an email address that corresponds to the email address used by the current SAP Cloud ALM user
+
+        -   S-users with the role `Edit Cloud Data`
+
+
+        If one or more such S-users are found, you can give consent. If your user does not meet these criteria, take a look at [Important Contacts](https://me.sap.com/userscontacts/impcont) to identify a user who is authorized to accept the terms and conditions.
+
+
+    > ### Tip:  
+    > The terms and conditions are stored on SAP Support Portal. You can read or download them from there at any time.
+
+3.  To start the automated setup, choose *Set Up Tricentis Test Automation for SAP integrated with SAP Cloud ALM*.
+
+    > ### Caution:  
+    > The automated setup can only be performed if you're using a standard SAP identity provider.
+    > 
+    > If you're using a different identity provider type, please open an incident under component SV-CLM-IMP with the title *Request manual provisioning of Tricentis test automation for SAP tenant* after you've accepted the terms and conditions.
+    > 
+    > In the incident description, please provide the URL of your SAP Cloud ALM tenant and the type of identity provider that is used for your SAP Cloud ALM tenant.
+
+4.  The following setup steps are performed:
 
     -   Setup of the Tricentis application
 
@@ -52,7 +83,7 @@ If you requested SAP Cloud ALM, you've received the authorizations required to s
     -   Configuration of the endpoint for the test automation
 
 
-5.  Set up Tricentis execution agents for remote execution, as described in [Tricentis Test Automation execution agents](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/agents.htm).
+5.  Set up Tricentis execution agents for remote execution, as described in [Execution Agents](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/agents.htm).
 
 
 You can now start using Tricentis Test Automation for SAP integrated with SAP Cloud ALM from the *Test Preparation* app in SAP Cloud ALM.
@@ -62,11 +93,9 @@ The test cases will then be authored in Tricentis Test Automation for SAP, as de
 **Related Information**  
 
 
-[Tricentis Test Automation for SAP integrated with SAP Cloud ALM](https://help.sap.com/docs/CloudALM/2b4ce9f491d14691bc554446b57f6e2d/e66fb899e3f6432985061daba26936fc.html)
+[SAP Help Portal – Tricentis Test Automation for SAP integrated with SAP Cloud ALM](https://help.sap.com/docs/CloudALM/2b4ce9f491d14691bc554446b57f6e2d/e66fb899e3f6432985061daba26936fc.html)
 
-[Tricentis Test Automation for SAP online documentation](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/calm_integration.htm)
+[Usage Rights for Tricentis Test Automation for SAP](https://support.sap.com/en/alm/usage-rights.html?anchorId=section_138430085)
 
-[Tricentis Test Automation execution agents](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/agents.htm)
-
-[Tricentis test automation for SAP usage rights](https://support.sap.com/en/alm/usage-rights.html?anchorId=section_138430085)
+[Tricentis Test Automation for SAP Cloud ALM: Online Help](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/calm_integration.htm)
 

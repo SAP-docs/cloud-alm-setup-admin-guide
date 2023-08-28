@@ -55,7 +55,7 @@ Carry out the following steps to enable SAP Cloud ALM API:
 
     If you don't have a space yet, choose *Create Space*.
 
-     ![Create a Space](images/Enabling_APIs_-_Create_Space_f46e85f.png) 
+    ![Create a Space](images/Enabling_APIs_-_Create_Space_f46e85f.png)
 
 6.  Enter a space name and select the roles that you want to assign to your user for this space. To perform the following steps, your user needs at least *Space Developer* authorizations.
 
@@ -70,7 +70,7 @@ An entitlement is your right to provision and consume a resource.
 
 1.  Choose *Entitlements* \> *Configure Entitlements*.
 
-     ![Configure Entitlements](images/Enabling_APIs_-_Configure_Entitlements_a560903.png) 
+    ![Configure Entitlements](images/Enabling_APIs_-_Configure_Entitlements_a560903.png)
 
 2.  Choose *Add Service Plans*.
 
@@ -82,10 +82,10 @@ An entitlement is your right to provision and consume a resource.
 
     3.  Choose *Add 1 Service Plan*.
 
-         ![Select a Service Plan for SAP Cloud ALM APIs](images/Enabling_APIs_-_Add_Service_Plan_f2a4ae2.png) 
+        ![Select a Service Plan for SAP Cloud ALM APIs](images/Enabling_APIs_-_Add_Service_Plan_f2a4ae2.png)
 
 
-4.  Choose *Save*.
+4.  Save.
 
 
 
@@ -102,7 +102,7 @@ An entitlement is your right to provision and consume a resource.
 
     If you don't have an instance yet, click on the *Create* dropdown and select *Service Instance*.
 
-     ![](images/Create_Service_Instance_f00749a.png) 
+    ![](images/Create_Service_Instance_f00749a.png)
 
 5.  Under *Basic Info*, provide the following details:
 
@@ -114,7 +114,7 @@ An entitlement is your right to provision and consume a resource.
 
         The length of the instance name must not exceed 32 characters. Use only alphanumeric characters, numbers from 0 to 9, periods, and hyphens. Instead of spaces, use underscores.
 
-         ![Choose Service Plan](images/Enabling_APIs_-_Standard_Service_Plan_b9cfbff.png) 
+        ![Choose Service Plan](images/Enabling_APIs_-_Standard_Service_Plan_b9cfbff.png)
 
 
 6.  Choose *Next*.
@@ -149,7 +149,7 @@ Service keys allow you to configure an external application so that it can conne
 
 1.  In the top right corner, choose <span class="SAP-icons"></span> \(Actions\) and select *Create Service Key*.
 
-     ![Create a Service Key](images/Enabling_APIs_-_Create_Service_Key_515c433.png) 
+    ![Create a Service Key](images/Enabling_APIs_-_Create_Service_Key_515c433.png)
 
 2.  Enter a name for your service key.
 
@@ -157,7 +157,7 @@ Service keys allow you to configure an external application so that it can conne
 
 4.  Next to your newly created service key, choose <span class="SAP-icons"></span> \(Actions\) and select *View*.
 
-     ![](images/SUI-ViewServiceKey_7add56b.png) 
+    ![](images/SUI-ViewServiceKey_7add56b.png)
 
 5.  You can now see your service key in JSON format.
 
@@ -169,6 +169,8 @@ Service keys allow you to configure an external application so that it can conne
 
     -   The oAuth URL to generate the oAuth token \(`uaa.url`\)
 
+
+    ![](images/SUI-ServiceKey_2fca8a5.png)
 
 
 > ### Caution:  

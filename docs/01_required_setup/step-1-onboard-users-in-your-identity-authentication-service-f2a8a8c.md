@@ -80,11 +80,13 @@ For more information, refer to the following step-by-step video:
 
     For information about the available user types, refer to [User Types](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/70e95d1d4f514710a0de56067081fd7f.html).
 
-4.  Choose *Save*.
+4.  Under *Personal Information*, enter the first and the last name of the user. Use only the allowed characters A-Z, a-z, spaces, and hyphens.
 
-5.  Select *Send activation e-mail*.
+5.  Save.
 
-6.  Save your entries.
+6.  Select *Send activation e-mail*.
+
+7.  Save your entries.
 
 
 The new user now receives an activation email and can set a password.

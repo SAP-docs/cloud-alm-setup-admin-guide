@@ -8,7 +8,7 @@ You can find the latest additions to the scope in [What's New for SAP Cloud ALM]
 
 SAP makes no warranty, either expressed or implied, for the information provided here. Due to short-term software updates, completeness can't be guaranteed. The features in the list are subject to change.
 
-** **
+****
 
 
 <table>
@@ -98,29 +98,7 @@ Process Management
 
 -   [SAP Best Practices for SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_CLD_ENTPR)
 
--   Two-Tier ERP – EPPM
-
--   Two-Tier ERP – Finance
-
--   Two-Tier ERP – Human Resources
-
--   Two-Tier ERP – Manufacturing
-
--   Two-Tier ERP – Master Data
-
--   Two-Tier ERP – Product Lifecycle Management
-
--   Two-Tier ERP – Professional Services
-
--   Two-Tier ERP – Sales
-
--   Two-Tier ERP – Services
-
--   Two-Tier ERP – Sourcing and Procurement
-
--   Two-Tier ERP – Supply Chain
-
--   Two-Tier ERP – Sustainability
+-   [Two-Tier ERP](https://me.sap.com/processnavigator/SolS/EARL_SolS-067)
 
 -   [SAP Best Practices for analytics with SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_S4H_ANA)
 
@@ -1410,6 +1388,36 @@ Documents
 <tr>
 <td valign="top">
 
+SAP S/4HANA Cloud
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Change & Deployment Management
+
+
+
+</td>
+<td valign="top">
+
+More under [SAP S/4HANA Cloud with Adaption Transport Organizer \(ATO\)](02_integration_and_config_options/sap-s-4hana-cloud-with-adaption-transport-organizer-ato-a4238a9.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud, private edition
 
 
@@ -1424,7 +1432,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -1454,7 +1462,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -1484,7 +1492,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -1514,7 +1522,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -1544,7 +1552,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -1576,7 +1584,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -1608,7 +1616,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -1640,7 +1648,7 @@ Implementation
 </td>
 <td valign="top">
 
-Deployment Management
+Change & Deployment Management
 
 
 
@@ -2318,6 +2326,66 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Analytics Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Cloud Foundry environment
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Intelligent Asset Management
 
 
@@ -2948,6 +3016,96 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Entitlement Management
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Digital Vehicle Hub
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Event Broker for SAP cloud applications
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud
 
 
@@ -3119,6 +3277,40 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <td valign="top">
 
 SAP Cloud for Customer
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+
+
+</td>
+<td valign="top">
+
+Supported KPIs for the business scenarios:
+
+Lead-to-Cash
+
+More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Entitlement Management
 
 
 

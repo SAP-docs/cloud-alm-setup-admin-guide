@@ -74,7 +74,7 @@ Index
 <tr>
 <td valign="top">
 
- The name of the service or area to which the setting belongs. 
+The name of the service or area to which the setting belongs. 
 
 
 

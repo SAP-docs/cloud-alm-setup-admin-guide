@@ -64,7 +64,7 @@ Cross
 </td>
 <td valign="top">
 
- *Global Administrator* 
+*Global Administrator* 
 
 
 
@@ -106,7 +106,7 @@ Cross
 </td>
 <td valign="top">
 
- *Global Auditor* 
+*Global Auditor* 
 
 
 
@@ -129,7 +129,7 @@ Cross Global Auditor
 </td>
 <td valign="top">
 
- `x_calm_GlobalAuditor` 
+`x_calm_GlobalAuditor` 
 
 
 
@@ -145,7 +145,7 @@ User & Access Management
 </td>
 <td valign="top">
 
- *User Administrator* 
+*User Administrator* 
 
 
 
@@ -159,14 +159,14 @@ Create and manage users, assign and approve authorizations
 </td>
 <td valign="top">
 
-User & Access Management Administrator
-
 
 
 </td>
 <td valign="top">
 
 `x_uam_UserAdministrator`
+
+User & Access Management Administrator
 
 `FlexOperator`
 
@@ -184,7 +184,7 @@ User & Access Management
 </td>
 <td valign="top">
 
- *User Viewer* 
+*User Viewer* 
 
 
 
@@ -205,7 +205,7 @@ User & Access Management Viewer
 </td>
 <td valign="top">
 
- `x_uam_UserViewer` 
+`x_uam_UserViewer` 
 
 
 
@@ -216,12 +216,14 @@ User & Access Management Viewer
 
 Landscape Management
 
+User
+
 
 
 </td>
 <td valign="top">
 
- *Landscape Management Security Administrator* 
+*Landscape Management Security Administrator* 
 
 
 
@@ -242,7 +244,7 @@ Landscape Management Security Administrator
 </td>
 <td valign="top">
 
- `x_landscape_SecurityAdministrator` 
+`x_landscape_SecurityAdministrator` 
 
 
 
@@ -258,7 +260,7 @@ Project Management
 </td>
 <td valign="top">
 
- *Project Administrator* 
+*Project Administrator* 
 
 
 
@@ -267,7 +269,7 @@ Project Management
 
 Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, defects, and tags
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 
 
@@ -281,7 +283,7 @@ Project & Task Management Administrator
 </td>
 <td valign="top">
 
- `imp_pjm_ProjectAdministrator` 
+`imp_pjm_ProjectAdministrator` 
 
 
 
@@ -297,7 +299,7 @@ Project Management
 </td>
 <td valign="top">
 
- *Project Lead* 
+*Project Lead* 
 
 
 
@@ -306,7 +308,7 @@ Project Management
 
 Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 
 
@@ -320,7 +322,7 @@ Project & Task Management Project Lead
 </td>
 <td valign="top">
 
- `imp_pjm_ProjectLead` 
+`imp_pjm_ProjectLead` 
 
 
 
@@ -336,7 +338,7 @@ Project Management
 </td>
 <td valign="top">
 
- *Project Member* 
+*Project Member* 
 
 
 
@@ -345,7 +347,7 @@ Project Management
 
 View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/feature-delivery.html)\), notes, documents, test cases, and defects
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 
 
@@ -359,7 +361,7 @@ Project & Task Management Project Member
 </td>
 <td valign="top">
 
- `imp_pjm_ProjectMember` 
+`imp_pjm_ProjectMember` 
 
 
 
@@ -375,7 +377,7 @@ Project Management
 </td>
 <td valign="top">
 
- *Project Viewer* 
+*Project Viewer* 
 
 
 
@@ -384,7 +386,7 @@ Project Management
 
 View projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](../02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md).
+Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 
 
@@ -398,7 +400,7 @@ Project & Task Management Project Viewer
 </td>
 <td valign="top">
 
- `imp_pjm_ProjectViewer` 
+`imp_pjm_ProjectViewer` 
 
 
 
@@ -414,7 +416,7 @@ Process Management
 </td>
 <td valign="top">
 
- *Process Author* 
+*Process Author* 
 
 
 
@@ -435,7 +437,81 @@ Process Management Process Author
 </td>
 <td valign="top">
 
- `imp_pm_ProcessAuthor` 
+`imp_pm_ProcessAuthor` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Change & Deployment Management
+
+
+
+</td>
+<td valign="top">
+
+*Change Manager* 
+
+
+
+</td>
+<td valign="top">
+
+Approve features for production deployment
+
+
+
+</td>
+<td valign="top">
+
+Change Manager
+
+
+
+</td>
+<td valign="top">
+
+`imp_cdm_ChangeManager` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Change & Deployment Management
+
+
+
+</td>
+<td valign="top">
+
+*Deployment Manager* 
+
+
+
+</td>
+<td valign="top">
+
+Deploy transports into test and production systems
+
+
+
+</td>
+<td valign="top">
+
+Deployment Manager
+
+
+
+</td>
+<td valign="top">
+
+`imp_cdm_DeploymentManager` 
 
 
 
@@ -451,7 +527,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
- *Process Monitoring Administrator* 
+*Process Monitoring Administrator* 
 
 
 
@@ -472,7 +548,7 @@ Business Process Monitoring Administrator
 </td>
 <td valign="top">
 
- `ops_bm_ProcessMonitoringAdministrator` 
+`ops_bm_ProcessMonitoringAdministrator` 
 
 
 
@@ -488,7 +564,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
- *Process Manager* 
+*Process Manager* 
 
 
 
@@ -509,7 +585,7 @@ Business Process Monitoring Process Manager
 </td>
 <td valign="top">
 
- `ops_bm_ProcessManager` 
+`ops_bm_ProcessManager` 
 
 
 
@@ -525,7 +601,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
- *Process Executor* 
+*Process Executor* 
 
 
 
@@ -546,7 +622,7 @@ Business Process Monitoring Process Executor
 </td>
 <td valign="top">
 
- `ops_bm_ProcessExecutor` 
+`ops_bm_ProcessExecutor` 
 
 
 
@@ -562,7 +638,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
- *Process Monitoring Consumer* 
+*Process Monitoring Consumer* 
 
 
 
@@ -583,7 +659,7 @@ Business Process Monitoring Consumer
 </td>
 <td valign="top">
 
- `ops_bm_ProcessMonitoringConsumer` 
+`ops_bm_ProcessMonitoringConsumer` 
 
 
 
@@ -599,7 +675,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
- *Process Monitoring Viewer* 
+*Process Monitoring Viewer* 
 
 
 
@@ -620,7 +696,7 @@ Business Process Monitoring Viewer
 </td>
 <td valign="top">
 
- `ops_bm_ProcessMonitoringViewer` 
+`ops_bm_ProcessMonitoringViewer` 
 
 
 
@@ -636,7 +712,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
- *Integration Architect* 
+*Integration Architect* 
 
 
 
@@ -657,7 +733,7 @@ Integration Monitoring Integration Architect
 </td>
 <td valign="top">
 
- `ops_im_IntegrationArchitect` 
+`ops_im_IntegrationArchitect` 
 
 
 
@@ -673,7 +749,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
- *Integration Owner* 
+*Integration Owner* 
 
 
 
@@ -694,7 +770,7 @@ Integration Monitoring Integration Owner
 </td>
 <td valign="top">
 
- `ops_im_IntegrationOwner` 
+`ops_im_IntegrationOwner` 
 
 
 
@@ -710,7 +786,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
- *Integration Owner Sensitive* 
+*Integration Owner Sensitive* 
 
 
 
@@ -731,7 +807,7 @@ Integration Monitoring Integration Owner Sensitive
 </td>
 <td valign="top">
 
- `ops_im_IntegrationOwnerSensitive` 
+`ops_im_IntegrationOwnerSensitive` 
 
 
 
@@ -747,7 +823,7 @@ Job & Automation Monitoring
 </td>
 <td valign="top">
 
- *Job Monitoring Administrator* 
+*Job Monitoring Administrator* 
 
 
 
@@ -768,7 +844,7 @@ Job Monitoring Administrator
 </td>
 <td valign="top">
 
- `ops_jm_JobMonitoringAdministrator` 
+`ops_jm_JobMonitoringAdministrator` 
 
 
 
@@ -784,7 +860,7 @@ Job & Automation Monitoring
 </td>
 <td valign="top">
 
- *Job Monitoring Consumer* 
+*Job Monitoring Consumer* 
 
 
 
@@ -805,7 +881,7 @@ Job Monitoring Consumer
 </td>
 <td valign="top">
 
- `ops_jm_JobMonitoringConsumer` 
+`ops_jm_JobMonitoringConsumer` 
 
 
 
@@ -821,7 +897,7 @@ Real User Monitoring
 </td>
 <td valign="top">
 
- *Real User Analyst Administrator* 
+*Real User Analyst Administrator* 
 
 
 
@@ -842,7 +918,7 @@ Real User Monitoring Analyst Administrator
 </td>
 <td valign="top">
 
- `ops_rum_RealUserAnalystAdministrator` 
+`ops_rum_RealUserAnalystAdministrator` 
 
 
 
@@ -858,7 +934,7 @@ Real User Monitoring
 </td>
 <td valign="top">
 
- *Real User Analyst* 
+*Real User Analyst* 
 
 
 
@@ -879,7 +955,7 @@ Real User Monitoring Analyst
 </td>
 <td valign="top">
 
- `ops_rum_RealUserAnalyst` 
+`ops_rum_RealUserAnalyst` 
 
 
 
@@ -895,7 +971,7 @@ Real User Monitoring
 </td>
 <td valign="top">
 
- *Real User Analyst Sensitive* 
+*Real User Analyst Sensitive* 
 
 
 
@@ -916,7 +992,7 @@ Real User Monitoring Analyst Sensitive
 </td>
 <td valign="top">
 
- `ops_rum_RealUserAnalystSensitive` 
+`ops_rum_RealUserAnalystSensitive` 
 
 
 
@@ -932,7 +1008,7 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
- *Scenario Administrator* 
+*Scenario Administrator* 
 
 
 
@@ -953,7 +1029,7 @@ Synthetic User Monitoring Administrator
 </td>
 <td valign="top">
 
- `ops_sum_SyntheticUserMonitoringAdministrator` 
+`ops_sum_SyntheticUserMonitoringAdministrator` 
 
 
 
@@ -969,7 +1045,7 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
- *Scenario Expert* 
+*Scenario Expert* 
 
 
 
@@ -990,7 +1066,7 @@ Synthetic User Monitoring Scenario Expert
 </td>
 <td valign="top">
 
- `ops_sum_SyntheticUserMonitoringExpert` 
+`ops_sum_SyntheticUserMonitoringExpert` 
 
 
 
@@ -1006,7 +1082,7 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
- *Scenario Viewer* 
+*Scenario Viewer* 
 
 
 
@@ -1027,7 +1103,7 @@ Synthetic User Monitoring Scenario Viewer
 </td>
 <td valign="top">
 
- `ops_sum_SyntheticUserMonitoringViewer` 
+`ops_sum_SyntheticUserMonitoringViewer` 
 
 
 
@@ -1043,7 +1119,7 @@ Health Monitoring
 </td>
 <td valign="top">
 
- *Health Monitoring Administrator* 
+*Health Monitoring Administrator* 
 
 
 
@@ -1064,7 +1140,7 @@ Health Monitoring Administrator
 </td>
 <td valign="top">
 
- `ops_hm_HealthMonitoringAdministrator` 
+`ops_hm_HealthMonitoringAdministrator` 
 
 
 
@@ -1080,7 +1156,7 @@ Health Monitoring
 </td>
 <td valign="top">
 
- *Health Monitoring Viewer* 
+*Health Monitoring Viewer* 
 
 
 
@@ -1101,7 +1177,7 @@ Health Monitoring Viewer
 </td>
 <td valign="top">
 
- `ops_hm_HealthMonitoringViewer` 
+`ops_hm_HealthMonitoringViewer` 
 
 
 
@@ -1117,7 +1193,7 @@ Business Service Management
 </td>
 <td valign="top">
 
- *Business Service Management Administrator* 
+*Business Service Management Administrator* 
 
 
 
@@ -1138,7 +1214,7 @@ Business Service Management Administrator
 </td>
 <td valign="top">
 
- `ops_bsm_BusinessServiceManagementAdministrator` 
+`ops_bsm_BusinessServiceManagementAdministrator` 
 
 
 
@@ -1154,7 +1230,7 @@ Business Service Management
 </td>
 <td valign="top">
 
- *Business Service Management Viewer* 
+*Business Service Management Viewer* 
 
 
 
@@ -1175,7 +1251,7 @@ Business Service Management Viewer
 </td>
 <td valign="top">
 
- `ops_bsm_BusinessServiceManagementViewer` 
+`ops_bsm_BusinessServiceManagementViewer` 
 
 
 
@@ -1191,7 +1267,7 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
- *Configuration Monitoring Administrator* 
+*Configuration Monitoring Administrator* 
 
 
 
@@ -1212,7 +1288,7 @@ Configuration Monitoring Administrator
 </td>
 <td valign="top">
 
- `ops_csa_ConfigurationMonitoringAdministrator` 
+`ops_csa_ConfigurationMonitoringAdministrator` 
 
 
 
@@ -1228,7 +1304,7 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
- *Configuration Monitoring Analyst* 
+*Configuration Monitoring Analyst* 
 
 
 
@@ -1249,7 +1325,7 @@ Configuration Monitoring Analyst
 </td>
 <td valign="top">
 
- `ops_csa_ConfigurationMonitoringAnalyst` 
+`ops_csa_ConfigurationMonitoringAnalyst` 
 
 
 
@@ -1265,7 +1341,7 @@ Service Collaboration
 </td>
 <td valign="top">
 
- *Services Administrator* 
+*Services Administrator* 
 
 
 
@@ -1286,7 +1362,7 @@ Service Collaboration Administrator
 </td>
 <td valign="top">
 
- `sdc_sc_ServicesAdministrator` 
+`sdc_sc_ServicesAdministrator` 
 
 
 
@@ -1302,7 +1378,7 @@ Service Collaboration
 </td>
 <td valign="top">
 
- *Services Expert* 
+*Services Expert* 
 
 
 
@@ -1323,7 +1399,7 @@ Service Collaboration Expert
 </td>
 <td valign="top">
 
- `sdc_sc_ServicesExpert` 
+`sdc_sc_ServicesExpert` 
 
 
 
@@ -1339,7 +1415,7 @@ Service Collaboration
 </td>
 <td valign="top">
 
- *Services Viewer* 
+*Services Viewer* 
 
 
 
@@ -1360,7 +1436,7 @@ Service Collaboration Viewer
 </td>
 <td valign="top">
 
- `sdc_sc_ServicesViewer` 
+`sdc_sc_ServicesViewer` 
 
 
 
@@ -1376,7 +1452,7 @@ Scoping
 </td>
 <td valign="top">
 
- *Digital Blueprint Administrator* 
+*Digital Blueprint Administrator* 
 
 
 
@@ -1397,7 +1473,7 @@ Digital Blueprint Administrator
 </td>
 <td valign="top">
 
- `btc_bdts_DigitalBlueprintAdministrator` 
+`btc_bdts_DigitalBlueprintAdministrator` 
 
 
 
@@ -1413,7 +1489,7 @@ SAP Readiness Check
 </td>
 <td valign="top">
 
- *Readiness Check Analysis Viewer* 
+*Readiness Check Analysis Viewer* 
 
 
 
@@ -1434,7 +1510,7 @@ Readiness Check Analysis Viewer
 </td>
 <td valign="top">
 
- `imp_rc_AnalysisViewer` 
+`imp_rc_AnalysisViewer` 
 
 
 
@@ -1450,7 +1526,7 @@ SAP Readiness Check
 </td>
 <td valign="top">
 
- *Readiness Check Analysis Administrator* 
+*Readiness Check Analysis Administrator* 
 
 
 
@@ -1471,7 +1547,7 @@ Readiness Check Analysis Administrator
 </td>
 <td valign="top">
 
- `imp_rc_AnalysisAdministrator` 
+`imp_rc_AnalysisAdministrator` 
 
 
 

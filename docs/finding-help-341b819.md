@@ -16,11 +16,11 @@ Each app in SAP Cloud ALM provides on-screen explanations of key features and us
 
 The following types of help are available:
 
--   ![](images/Help_Topics_f150037.png) **\(Help Topics\)**: Quick reference information about specific user interface elements to help you perform your tasks
+-   ![](images/Help_Topics_f150037.png)**\(Help Topics\)**: Quick reference information about specific user interface elements to help you perform your tasks
 
--    ![](images/Guided_Tour_c31db1e.png) **\(Guided Tours\)**: Guided tours of more complex procedures
+-   ![](images/Guided_Tour_c31db1e.png)**\(Guided Tours\)**: Guided tours of more complex procedures
 
--   ![](images/What_s_New_a194eb8.png) **\(What's New\)**: Information about new features
+-   ![](images/What_s_New_a194eb8.png)**\(What's New\)**: Information about new features
 
 
 

@@ -35,25 +35,25 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
     4.  Go to *Entitlements* and choose *Configure Entitlements*.
 
-         ![](images/SUI-Configure_Entitlements_TMS_8291422.png) 
+        ![](images/SUI-Configure_Entitlements_TMS_8291422.png)
 
     5.  Search for the *Cloud Transport Management* service in the search bar. If no results are shown in the service list, choose *Add Service Plans*.
 
-         ![](images/Subscription_3_4ab4a7e.png) 
+        ![](images/Subscription_3_4ab4a7e.png)
 
     6.  Select *Standard \(Application\) Standard Plan* and choose *Add 1 Service Plan*.
 
-         ![](images/Subscription_4_9d80e59.png) 
+        ![](images/Subscription_4_9d80e59.png)
 
-    7.  Choose *Save*.
+    7.  Save.
 
-         ![](images/Step_5_Subscription_0241435.png) 
+        ![](images/Step_5_Subscription_0241435.png)
 
     8.  Go to *Instances and Subscriptions* and select the *Cloud Transport Management* service.
 
     9.  Choose *Create*.
 
-         ![](images/Subscription_7_d16b144.png) 
+        ![](images/Subscription_7_d16b144.png)
 
     10. Select the *Standard* plan.
 
@@ -63,13 +63,13 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
     12. Assign transport management roles to your user and to your team members in the *User Management* app in SAP Cloud ALM. Usually, the two roles you need are *Transport Management Viewer* and *Transport Management Operator*.
 
-         ![](images/User_Roles_07d0fb0.png) 
+        ![](images/User_Roles_07d0fb0.png)
 
         For more information, refer to [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html?q=Assign%20Roles%20to%20Users%20in%20SAP%20Cloud%20ALM).
 
         With these roles, you can access the Cloud Transport Management service from within your subaccount in the SAP BTP cockpit by choosing *Go to Application*.
 
-         ![](images/Final_Step_subscription_2660af1.png) 
+        ![](images/Final_Step_subscription_2660af1.png)
 
     13. To create transport nodes, refer to [Create Transport Nodes](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/f71a4d5550cd453ea824d5b5c677969d.html?version=Cloud).
 
@@ -103,6 +103,6 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
     In the URL section for the endpoint, enter the URL of your SAP Cloud ALM API instance that follows the pattern `https://eu10.alm.cloud.sap/api/imp-cdm-transport-management-api/v1`. The first part of the URL until `/api` depends on your company account and is variable.
 
-     ![](images/HTTP_BTP_V3_da83c89.png) 
+    ![](images/HTTP_BTP_V3_da83c89.png)
 
 

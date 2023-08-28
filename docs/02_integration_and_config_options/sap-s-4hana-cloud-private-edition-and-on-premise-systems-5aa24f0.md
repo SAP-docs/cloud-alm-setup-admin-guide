@@ -38,7 +38,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 
 > ### Note:  
-> It's recommended to install collective corrections when available.
+> It's recommended to install the current version of collective corrections.
 
 Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to `TRUE`, as described in SAP Note[510007](https://launchpad.support.sap.com/#/notes/510007).
 
@@ -97,7 +97,7 @@ The configuration of the push data provider is needed to enable the processing o
 
     If you start the transaction for the first time, it looks like this:
 
-     ![](images/Configuration_of_Push_Data_Provider_c73e67d.png) 
+    ![](images/Configuration_of_Push_Data_Provider_c73e67d.png)
 
 3.  *Target ALM Destination*
 
@@ -206,7 +206,7 @@ The configuration of the push data provider is needed to enable the processing o
 
 8.  If everything is set up correctly, it looks like this:
 
-     ![](images/Enabling_Transport_Management_Result_cc9fec4.png) 
+    ![](images/Enabling_Transport_Management_Result_cc9fec4.png)
 
 
 > ### Caution:  
@@ -218,7 +218,25 @@ The configuration of the push data provider is needed to enable the processing o
 
 ## Configuration of Client-Dependent Use Cases
 
-To enable the release of transports within an SAP Cloud ALM feature, you have to execute the following setup in each development client you're using:
+The following client-dependent use cases are available to you:
+
+-   Create transports
+
+-   Delete empty transports
+
+-   Release transports
+
+-   Transport of copies
+
+
+To enable the use cases mentioned above within an SAP Cloud ALM feature, you have to execute the following setup in each development client you want to use:
+
+> ### Note:  
+> Before you start with the setup, please make sure that you've performed all the configuration steps in the **Technical Prerequisites for the ABAP System** section of this guide. Additionally, make sure that you've implemented the current version of the SAP Note. Currently it is [3322679](https://launchpad.support.sap.com/#/notes/3322679) 
+> 
+> Also make sure that setup for client 000 was already performed and that the use case **Feature Deployment: Manage Transports** was already activated.
+
+
 
 1.  Log on to the respective ABAP system client and start transaction `/n/SDF/ALM_SETUP`.
 
@@ -226,7 +244,7 @@ To enable the release of transports within an SAP Cloud ALM feature, you have to
 
     At the start of the process, the transaction looks like this:
 
-     ![](images/Setup_Integration_1_438f734.png) 
+    ![](images/Setup_Integration_1_438f734.png)
 
 3.  Under *Maintain HTTP Destination*, choose *Update Destination* and paste the JSON file you've already created in the **Configuration of the PUSH Data Provider** section of this guide.
 
@@ -236,7 +254,7 @@ To enable the release of transports within an SAP Cloud ALM feature, you have to
 
 6.  Choose *Register* to call SAP Cloud ALM and register the system. Confirm the scheduling of the respective jobs.
 
-     ![](images/Register_System_3b7cbb0.png) 
+    ![](images/Register_System_3b7cbb0.png)
 
     If it’s successful, an `LMS ID` is retrieved and is displayed.
 
@@ -249,6 +267,6 @@ To enable the release of transports within an SAP Cloud ALM feature, you have to
 
 8.  If everything is set up correctly, it looks like this:
 
-     ![](images/Result_Setup_a02ee52.png) 
+    ![](images/Result_Setup_a02ee52.png)
 
 

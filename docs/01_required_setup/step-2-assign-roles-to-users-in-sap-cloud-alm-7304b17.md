@@ -69,30 +69,14 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <tr>
     <td valign="top">
     
-         *Not Assigned* 
+    *Not Assigned* 
 
 
     
     </td>
     <td valign="top">
     
-        No user type \(default value\)
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         *Employee* 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Employee of your company
+    No user type \(default value\)
 
 
     
@@ -101,30 +85,14 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <tr>
     <td valign="top">
     
-         *SAP* 
+    *Employee* 
 
 
     
     </td>
     <td valign="top">
     
-        Consultant from SAP
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         *Partner* 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Consultant from official SAP partner
+    Employee of your company
 
 
     
@@ -133,14 +101,46 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <tr>
     <td valign="top">
     
-         *Other* 
+    *SAP* 
 
 
     
     </td>
     <td valign="top">
     
-        Person from a company other than SAP or official SAP partner
+    Consultant from SAP
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Partner* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Consultant from official SAP partner
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Other* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Person from a company other than SAP or official SAP partner
 
 
     
@@ -199,7 +199,7 @@ For more information on how to use the *User Management* app to view, add, and c
 
     -   If you’re using the standard configuration in trust settings and identity provider that were set when you requested SAP Cloud ALM, enter the email address of the user into the fields *ID* **and** *E-Mail*. Select *Custom IAS Tenant* as identity provider.
 
-         ![](images/Appointing_Admin_-_ID_Email_3de0dc0.png) 
+        ![](images/Appointing_Admin_-_ID_Email_3de0dc0.png)
 
     -   If you've manually connected the identity provider or selected a different identification attribute \(such as user ID\) in your identity provider, enter the identification attribute that you maintained there into the field *ID* and make sure to select the correct identity provider.
 
