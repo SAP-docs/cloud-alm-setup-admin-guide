@@ -18,7 +18,13 @@ To get started, find your current phase or the subject of your issue and jump to
 
 -   [User Management](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_egv_g1l_swb)
 
--   [Your SAP Cloud ALM Tenant](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb)
+-   [Logon Issues \(Administrators\)](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_zxf_ntv_ryb)
+
+-   [Logon Issues \(Users\)](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w23_pgp_ryb)
+
+-   [Your SAP Cloud ALM Subaccount](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb)
+
+-   [Lifecycle Management of Your SAP Cloud ALM Tenant](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb)
 
 -   [Related Troubleshooting Guides](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb)
 
@@ -240,6 +246,22 @@ If you still can't find it, create an incident on component SV-CLM-INF-ONB to ha
 <tr>
 <td valign="top">
 
+You want to add an administrator to the global account and/or subaccounts for SAP Cloud ALM in SAP BTP.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3342350](https://me.sap.com/notes/3342350).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You requested SAP Cloud ALM and want to assign additional administrators who can complete the setup of SAP Cloud ALM.
 
 
@@ -247,7 +269,23 @@ You requested SAP Cloud ALM and want to assign additional administrators who can
 </td>
 <td valign="top">
 
-Refer to [3248116](https://launchpad.support.sap.com/#/notes/3248116).
+Refer to KBA [3248116](https://me.sap.com/notes/3248116).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The person who originally requested SAP Cloud ALM is no longer available and you want to give yourself or another user full administrator privileges.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3365171](https://me.sap.com/notes/3365171).
 
 
 
@@ -263,7 +301,7 @@ You're an Ultimate Global Customer with multiple customer numbers and want to im
 </td>
 <td valign="top">
 
-Refer to SAP Note [3070306](https://launchpad.support.sap.com/#/notes/3070306).
+Refer to SAP Note [3070306](https://me.sap.com/notes/3070306).
 
 
 
@@ -337,7 +375,7 @@ You want to use a different Identity Authentication tenant than the one that was
 </td>
 <td valign="top">
 
-Refer to KBA [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+Refer to KBA [3020352](https://me.sap.com/notes/3020352).
 
 
 
@@ -355,7 +393,7 @@ You want to use a different Identity Authentication in SAP Cloud ALM than the on
 
 Creating multiple productive Identity Authentication tenants splits the user base and requires an individual administrator for each tenant. This means that users that are maintained in the Identity Authentication tenant of your managed system also need to be created in the Identity Authentication tenant that is used for SAP Cloud ALM, if they need to work in both solutions.
 
-If you still want to change your Identity Authentication tenant assignment in SAP Cloud ALM, refer to KBA [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+If you still want to change your Identity Authentication tenant assignment in SAP Cloud ALM, refer to KBA [3020352](https://me.sap.com/notes/3020352).
 
 
 
@@ -405,7 +443,7 @@ You want to find out which Identity Authentication tenant is used for your SAP C
 </td>
 <td valign="top">
 
-Follow the first 6 steps described in KBA [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+Follow the first 6 steps described in KBA [3020352](https://me.sap.com/notes/3020352).
 
 
 
@@ -421,7 +459,7 @@ You're facing issues with your Identity Authentication tenant after requesting S
 </td>
 <td valign="top">
 
-Refer to KBA [3090756](https://launchpad.support.sap.com/#/notes/3090756).
+Refer to KBA [3090756](https://me.sap.com/notes/3090756).
 
 
 
@@ -471,7 +509,7 @@ When you log on to SAP Cloud ALM, you can choose between multiple identity provi
 </td>
 <td valign="top">
 
-Refer to SAP Note [3086201](https://launchpad.support.sap.com/#/notes/3086201).
+Refer to KBA [3086201](https://me.sap.com/notes/3086201).
 
 
 
@@ -554,7 +592,7 @@ You want to create a user in your SAP Cloud ALM tenant that SAP development can 
 </td>
 <td valign="top">
 
-Refer to KBA [3032960](https://launchpad.support.sap.com/#/notes/3032960).
+Refer to KBA [3032960](https://me.sap.com/notes/3032960).
 
 
 
@@ -604,9 +642,9 @@ If you revert the Identity Authentication configuration within the grace period,
 
 
 
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb"/>
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_zxf_ntv_ryb"/>
 
-## Your SAP Cloud ALM Tenant
+## Logon Issues \(Administrators\)
 
 
 <table>
@@ -629,6 +667,24 @@ Resolution
 <tr>
 <td valign="top">
 
+You can't find or didn't receive your activation email for your Identity Authentication tenant.
+
+
+
+</td>
+<td valign="top">
+
+Search for an email with the subject **Activate Your Account for...** Don't forget to also check your spam folder.
+
+If you still can't find it, create an incident on component SV-CLM-INF-ONB to have the activation email resent to you.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You can't log on to SAP Cloud ALM.
 
 
@@ -640,9 +696,7 @@ Verify that you've entered the correct credentials: You need to log on with the 
 
 Make sure you've completed all steps in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md) and that you've activated your user profile in the Identity Authentication tenant.
 
-You can find a link in the activation email that was sent to you when you requested SAP Cloud ALM or when the tenant administrator created a user for you. If you can't find the activation email, go to your Identity Authentication tenant, enter your email address, and choose *Forgot password*. You will receive a new activation email.
-
-For more information, refer to KBA [3117604](https://launchpad.support.sap.com/#/notes/3117604).
+If you can't find the activation email, go to your Identity Authentication tenant, enter your email address, and choose *Forgot password*. You will receive a new activation email.
 
 
 
@@ -651,14 +705,14 @@ For more information, refer to KBA [3117604](https://launchpad.support.sap.com/#
 <tr>
 <td valign="top">
 
-You can log on to SAP Cloud ALM but do not see any apps.
+When logging on to SAP Cloud ALM, you can choose between multiple identity providers.
 
 
 
 </td>
 <td valign="top">
 
-Refer to KBA [2982909](https://launchpad.support.sap.com/#/notes/2982909).
+Refer to KBA [3086201](https://me.sap.com/notes/3086201).
 
 
 
@@ -667,7 +721,7 @@ Refer to KBA [2982909](https://launchpad.support.sap.com/#/notes/2982909).
 <tr>
 <td valign="top">
 
-When you try to access SAP Cloud ALM via the tenant URL the following error messages appear:
+When you try to access SAP Cloud ALM via the tenant URL, the following error messages appear:
 
 *Sorry a technical error occurred during the logon process. Please contact your technical support.*
 
@@ -678,7 +732,7 @@ When you try to access SAP Cloud ALM via the tenant URL the following error mess
 </td>
 <td valign="top">
 
-Refer to SAP Note [3046343](https://launchpad.support.sap.com/#/notes/3046343).
+Refer to SAP Note [3046343](https://me.sap.com/notes/3046343).
 
 
 
@@ -700,21 +754,161 @@ Check whether you have a firewall setting that prevents you from accessing the a
 
 </td>
 </tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_w23_pgp_ryb"/>
+
+## Logon Issues \(Users\)
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+
+
+</th>
+<th valign="top">
+
+Resolution
+
+
+
+</th>
+</tr>
 <tr>
 <td valign="top">
 
-You want to set up a second SAP Cloud ALM tenant.
+You can't find your SAP Cloud ALM welcome email.
 
 
 
 </td>
 <td valign="top">
 
-Currently, it's possible to request only one SAP Cloud ALM tenant per entitled customer number.
+Search for an email with the subject **Welcome to SAP Cloud ALM**. Don't forget to also check your spam folder.
+
+If you can't find one, ask your administrator to give you the URL of your SAP Cloud ALM tenant. You can log on directly with this URL.
 
 
 
 </td>
+</tr>
+<tr>
+<td valign="top">
+
+You can't find your activation email from the Identity Authentication Service.
+
+
+
+</td>
+<td valign="top">
+
+Search for an email with the subject **Activate Your Account for User Profile**. Don't forget to also check your spam folder.
+
+If you can't find one, ask your administrator to resend the email as described in [Send Reset Password Email](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/da55abf8d0e54eb6825a13777bef4eb1.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You can't log on to SAP Cloud ALM.
+
+
+
+</td>
+<td valign="top">
+
+Verify that you've entered the correct credentials: You need to log on with the email address and password defined in the Identity Authentication tenant, not your S-user.
+
+Check with your administrator if your user profile in the Identity Authentication tenant has been created.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+When logging on to SAP Cloud ALM, you can choose between multiple identity providers.
+
+
+
+</td>
+<td valign="top">
+
+Contact your administrator and refer them to KBA [3086201](https://me.sap.com/notes/3086201).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You can log on to SAP Cloud ALM but do not see any apps.
+
+
+
+</td>
+<td valign="top">
+
+Your user may not yet have any roles in SAP Cloud ALM.
+
+Ask your administrator to assign roles to you in the *User Management* app or in the SAP BTP cockpit, as described in [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to know who the administrator of your Identity Authentication tenant is.
+
+
+
+</td>
+<td valign="top">
+
+Refer to [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb"/>
+
+## Your SAP Cloud ALM Subaccount
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+
+
+</th>
+<th valign="top">
+
+Resolution
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -748,6 +942,48 @@ You can't subscribe to any additional applications in the subaccount containing 
 
 </td>
 </tr>
+</table>
+
+
+
+<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb"/>
+
+## Lifecycle Management of Your SAP Cloud ALM Tenant
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+
+
+</th>
+<th valign="top">
+
+Resolution
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+You want to set up a second SAP Cloud ALM tenant.
+
+
+
+</td>
+<td valign="top">
+
+Currently, it's possible to request only one SAP Cloud ALM tenant per entitled customer number.
+
+
+
+</td>
+</tr>
 <tr>
 <td valign="top">
 
@@ -767,6 +1003,38 @@ It's currently not possible to move your SAP Cloud ALM application from the data
 <tr>
 <td valign="top">
 
+You want to migrate your SAP Cloud ALM application to a different data center.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3352417](https://me.sap.com/notes/3352417).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+After deleting your SAP Cloud ALM application, you want to set it up again from scratch.
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3257720](https://me.sap.com/notes/3257720).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to delete your SAP Cloud ALM subscription in your subaccount.
 
 
@@ -774,7 +1042,7 @@ You want to delete your SAP Cloud ALM subscription in your subaccount.
 </td>
 <td valign="top">
 
-Refer to KBA [3247776](https://launchpad.support.sap.com/#/notes/3247776).
+Refer to KBA [3247776](https://me.sap.com/notes/3247776).
 
 > ### Caution:  
 > Deleting your SAP Cloud ALM subscription causes all created artifacts, stored data, and current configurations to be deleted as well. It will not re-enable you to request SAP Cloud ALM on SAP for Me.
@@ -793,7 +1061,23 @@ You want to decommission SAP Cloud ALM.
 </td>
 <td valign="top">
 
-Official decommission of SAP Cloud ALM isn't yet available. However, you can use a housekeeping job to delete services from the *Landscape Management* app.
+Official decommissioning of SAP Cloud ALM isn't yet available. However, you can use a housekeeping job to delete services from the *Landscape Management* app.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to move your SAP Cloud ALM tenant from one customer number to another customer number.
+
+
+
+</td>
+<td valign="top">
+
+Refer to SAP Note [3282741](https://me.sap.com/notes/3282741).
 
 
 

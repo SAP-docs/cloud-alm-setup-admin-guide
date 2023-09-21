@@ -9,7 +9,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 > 
 > Therefore, to avoid authorization issues during the configuration of SAP Cloud ALM, only carry out the following steps if you will later perform the configuration described in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md).
 > 
-> If you request SAP Cloud ALM and then want to assign additional administrators who can perform the initial setup, refer to KBA [3248116](https://launchpad.support.sap.com/#/notes/3248116).
+> If you request SAP Cloud ALM and then want to assign additional administrators who can perform the initial setup, refer to KBA [3248116](https://me.sap.com/notes/3248116).
 
 
 
@@ -87,7 +87,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
         If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 
-        If you later want to use a different Identity Authentication tenant for SAP Cloud ALM, you can change the assignment by following SAP Note [3020352](https://launchpad.support.sap.com/#/notes/3020352).
+        If you later want to use a different Identity Authentication tenant for SAP Cloud ALM, you can change the assignment by following SAP Note [3020352](https://me.sap.com/notes/3020352).
 
         ![](images/SUI-ProvisioningRequest_6df45a1.png)
 
@@ -130,7 +130,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 > ### Note:  
 > If you've requested SAP Cloud ALM, you've been automatically signed up for cloud email notifications. This way, you can remain informed and receive timely updates regarding SAP Cloud ALM.
 > 
-> You can manage your notification settings in the *Cloud System Notification Subscriptions* application, as described in KBA [2900069](https://launchpad.support.sap.com/#/notes/2900069).
+> You can manage your notification settings in the *Cloud System Notification Subscriptions* application, as described in KBA [2900069](https://me.sap.com/notes/2900069).
 
 **Related Information**  
 

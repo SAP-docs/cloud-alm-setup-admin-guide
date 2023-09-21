@@ -2,14 +2,13 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Enabling SAP Cloud ALM API
+# Enabling SAP Cloud ALM API 
 
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve your service key and connect your SAP services and systems to your SAP Cloud ALM instance.
+To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key and connect your SAP services and systems to your SAP Cloud ALM instance.
 
-> ### Note:  
-> If you've requested SAP Cloud ALM on or after 2023-06-12, a service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically. You can skip these steps and access the service key in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
-> 
-> If you want to set up transport management, you still need to carry out the following instructions to create another service key, but you can reuse the created space and no longer have to configure your entitlements.
+If you've requested SAP Cloud ALM on or after 2023-06-12, a service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically. You can skip the steps described in this document and access the service key in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
+
+If you want to set up transport management, you still need to carry out the following instructions to create another service key, but you can reuse the created space and no longer have to configure your entitlements.
 
 
 
@@ -25,7 +24,7 @@ To set up the connection between your managed systems and individual SAP Cloud A
 
 -   Your user has the role *Org Manager* in your Cloud Foundry organization.
 
-    If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html). If *Cloud Foundry* is not available in the menu, you can enable it by following the steps described in [Create Orgs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a9b1f5445a17427f844a5a43ac53d378.html).
+    If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html).
 
 
 > ### Note:  
@@ -124,7 +123,7 @@ An entitlement is your right to provision and consume a resource.
     ```
     {
         "xs-security": {
-            "xsappname": "<Your Instance Name>",
+            "xsappname": "<your-instance-name>",
             "authorities": [
     			"$XSMASTERAPPNAME.imp-cdm-feature-display-ui",
     			"$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
@@ -134,7 +133,7 @@ An entitlement is your right to provision and consume a resource.
     
     ```
 
-8.  Replace `<Your Instance Name>` with your instance name.
+8.  Replace `<your-instance-name>` with your instance name.
 
 9.  Choose *Create*.
 

@@ -45,23 +45,19 @@ If no service key has been uploaded yet, you can add it as follows:
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement and then open the subaccount that contains your SAP Cloud ALM subscription.
 
-3.  Choose *Cloud Foundry* \> *Spaces*.
+3.  Choose *Services* \> *Instances and Subscriptions*.
 
-4.  Select the space that contains your service key.
+4.  Under *Instances*, find the instance that contains your service key.
 
-5.  Choose *Services* \> *Instances*.
+5.  Under *Credentials*, open your key and choose *Download*.
 
-6.  Select the instance that contains your service key.
+6.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-7.  Under *Credentials*, open your key and choose *Download*.
+7.  Open the configuration \(:gear:\) and expand the section *SAP Cloud ALM Service Key*.
 
-8.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
+8.  Choose :heavy_plus_sign:.
 
-9.  Open the configuration \(:gear:\) and expand the section *SAP Cloud ALM Service Key*.
-
-10. Choose :heavy_plus_sign:.
-
-11. Upload the TXT file containing the service key.
+9.  Upload the TXT file containing the service key.
 
     > ### Note:  
     > -   You can only upload one service key for this SAP Cloud ALM tenant.
@@ -74,7 +70,7 @@ If no service key has been uploaded yet, you can add it as follows:
     > 
     > -   Don't upload service keys for API calls, such as the SAP Cloud ALM Analytics API, to landscape management.
 
-12. Choose *Upload.*
+10. Choose *Upload.*
 
     A format check is performed before uploading the service key to make sure it is a valid service key.
 

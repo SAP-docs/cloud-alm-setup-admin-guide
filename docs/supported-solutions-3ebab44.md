@@ -374,7 +374,7 @@ SAP Best Practices for SAP Intelligent Robotic Process Automation integration
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
 
 
@@ -1409,7 +1409,7 @@ Change & Deployment Management
 </td>
 <td valign="top">
 
-More under [SAP S/4HANA Cloud with Adaption Transport Organizer \(ATO\)](02_integration_and_config_options/sap-s-4hana-cloud-with-adaption-transport-organizer-ato-a4238a9.md).
+More under [SAP S/4HANA Cloud with Adaptation Transport Organizer \(ATO\)](02_integration_and_config_options/sap-s-4hana-cloud-with-adaptation-transport-organizer-ato-a4238a9.md).
 
 
 
@@ -1997,6 +1997,36 @@ More under [Setting Up Tricentis Test Automation for SAP Integrated with SAP Clo
 <td valign="top">
 
 SAP S/4HANA Cloud
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud for projects, resource management
 
 
 
@@ -4184,6 +4214,36 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
+SAP BTP, Cloud Foundry environment
+
+
+
+</td>
+<td valign="top">
+
+Operations
+
+
+
+</td>
+<td valign="top">
+
+Job and Automation Monitoring
+
+
+
+</td>
+<td valign="top">
+
+More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Build Process Automation
 
 
@@ -4205,7 +4265,7 @@ Job and Automation Monitoring
 </td>
 <td valign="top">
 
-More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
+More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
 
 
 
@@ -4484,7 +4544,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
 
 
@@ -4686,6 +4746,43 @@ Configuration & Security Analysis
 <td valign="top">
 
 More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
+
+
+
+</td>
+<td valign="top">
+
+Implementation
+
+
+
+</td>
+<td valign="top">
+
+Change & Deployment Management
+
+
+
+</td>
+<td valign="top">
+
+Prerequisites:
+
+-   SAP\_BASIS 7.40 SP 20 and higher
+
+    or 7.50 SP 04 and higher
+
+-   ST-PI 740 SP 18 and higher
+
 
 
 

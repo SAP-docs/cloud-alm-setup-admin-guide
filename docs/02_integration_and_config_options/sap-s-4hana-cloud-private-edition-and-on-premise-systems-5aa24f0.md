@@ -21,31 +21,31 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 23 install [3310406](https://launchpad.support.sap.com/#/notes/3310406) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+-   For ST-PI 740 SP 23 install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
     > ### Note:  
     > It's recommended to use SP23.
 
--   For ST-PI 740 SP 22 install [3310406](https://launchpad.support.sap.com/#/notes/3310406) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+-   For ST-PI 740 SP 22 install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 21 install corrections [3240966](https://launchpad.support.sap.com/#/notes/3240966) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+-   For ST-PI 740 SP 21 install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 20 install corrections [3240966](https://launchpad.support.sap.com/#/notes/3240966) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+-   For ST-PI 740 SP 20 install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 19 install corrections [3196078](https://launchpad.support.sap.com/#/notes/3196078) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+-   For ST-PI 740 SP 19 install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 18 install corrections [3196078](https://launchpad.support.sap.com/#/notes/3196078) and follow SAP Note [3322679](https://launchpad.support.sap.com/#/notes/3322679).
+-   For ST-PI 740 SP 18 install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
 
 > ### Note:  
 > It's recommended to install the current version of collective corrections.
 
-Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to `TRUE`, as described in SAP Note[510007](https://launchpad.support.sap.com/#/notes/510007).
+Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to `TRUE`, as described in SAP Note[510007](https://me.sap.com/notes/510007).
 
 > ### Note:  
 > For the profile parameter check, you can use the transaction `RZ11` in the managed system
 
-Check that profile parameter`ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://launchpad.support.sap.com/#/notes/510007). Make sure that [DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in `STRUST` under`SSL Client (Anonymous)` and `SSL Client (Standard)`
+Check that profile parameter`ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://me.sap.com/notes/510007). Make sure that [DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in `STRUST` under`SSL Client (Anonymous)` and `SSL Client (Standard)`
 
 
 
@@ -67,7 +67,7 @@ Note that the authorization steps are only needed for system client 000. For oth
     > ### Note:  
     > Do not forget to activate role `SAP_BC_TRANSPORT_ADMINISTRATOR` before usage with the background user.
 
-    Download the latest version of the role `SAP_SDF_ALM_METRIC_PUSH_FND` from SAP Note [3104662](https://launchpad.support.sap.com/#/notes/3104662).
+    Download the latest version of the role `SAP_SDF_ALM_METRIC_PUSH_FND` from SAP Note [3104662](https://me.sap.com/notes/3104662).
 
 
 
@@ -232,7 +232,7 @@ The following client-dependent use cases are available to you:
 To enable the use cases mentioned above within an SAP Cloud ALM feature, you have to execute the following setup in each development client you want to use:
 
 > ### Note:  
-> Before you start with the setup, please make sure that you've performed all the configuration steps in the **Technical Prerequisites for the ABAP System** section of this guide. Additionally, make sure that you've implemented the current version of the SAP Note. Currently it is [3322679](https://launchpad.support.sap.com/#/notes/3322679) 
+> Before you start with the setup, please make sure that you've performed all the configuration steps in the **Technical Prerequisites for the ABAP System** section of this guide. Additionally, make sure that you've implemented the current version of the SAP Note. Currently it is [3322679](https://me.sap.com/notes/3322679) 
 > 
 > Also make sure that setup for client 000 was already performed and that the use case **Feature Deployment: Manage Transports** was already activated.
 

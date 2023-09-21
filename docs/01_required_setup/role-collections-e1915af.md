@@ -71,7 +71,7 @@ Cross
 </td>
 <td valign="top">
 
-Create and manage all SAP Cloud ALM objects, except for personal or sensitive data.
+Create and manage all SAP Cloud ALM objects, except for personal or sensitive data
 
 > ### Caution:  
 > This role provides the complete set of authorizations. We recommend assigning suitable roles to your users.
@@ -81,7 +81,7 @@ Create and manage all SAP Cloud ALM objects, except for personal or sensitive da
 </td>
 <td valign="top">
 
-Cross Global Administrator
+*Cross Global Administrator* 
 
 
 
@@ -122,7 +122,7 @@ This role is to be used for general audit purposes.
 </td>
 <td valign="top">
 
-Cross Global Auditor
+*Cross Global Auditor* 
 
 
 
@@ -159,6 +159,8 @@ Create and manage users, assign and approve authorizations
 </td>
 <td valign="top">
 
+*User & Access Management Administrator* 
+
 
 
 </td>
@@ -166,9 +168,7 @@ Create and manage users, assign and approve authorizations
 
 `x_uam_UserAdministrator`
 
-User & Access Management Administrator
-
-`FlexOperator`
+`FlexOperator` 
 
 
 
@@ -198,7 +198,7 @@ View users and authorization assignments
 </td>
 <td valign="top">
 
-User & Access Management Viewer
+*User & Access Management Viewer* 
 
 
 
@@ -237,7 +237,7 @@ Manage certificates
 </td>
 <td valign="top">
 
-Landscape Management Security Administrator
+*Landscape Management Security Administrator* 
 
 
 
@@ -276,7 +276,7 @@ Your permissions within implementation projects additionally depend on the acces
 </td>
 <td valign="top">
 
-Project & Task Management Administrator
+*Project & Task Management Administrator* 
 
 
 
@@ -315,7 +315,7 @@ Your permissions within implementation projects additionally depend on the acces
 </td>
 <td valign="top">
 
-Project & Task Management Project Lead
+*Project & Task Management Project Lead* 
 
 
 
@@ -354,7 +354,7 @@ Your permissions within implementation projects additionally depend on the acces
 </td>
 <td valign="top">
 
-Project & Task Management Project Member
+*Project & Task Management Project Member* 
 
 
 
@@ -393,7 +393,7 @@ Your permissions within implementation projects additionally depend on the acces
 </td>
 <td valign="top">
 
-Project & Task Management Project Viewer
+*Project & Task Management Project Viewer* 
 
 
 
@@ -430,7 +430,7 @@ Create, edit, and delete custom solution processes
 </td>
 <td valign="top">
 
-Process Management Process Author
+*Process Management Process Author* 
 
 
 
@@ -467,7 +467,7 @@ Approve features for production deployment
 </td>
 <td valign="top">
 
-Change Manager
+*Change & Deployment Management Change Manager* 
 
 
 
@@ -504,7 +504,7 @@ Deploy transports into test and production systems
 </td>
 <td valign="top">
 
-Deployment Manager
+*Change & Deployment Management Deployment Manager* 
 
 
 
@@ -512,6 +512,80 @@ Deployment Manager
 <td valign="top">
 
 `imp_cdm_DeploymentManager` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Readiness Check
+
+
+
+</td>
+<td valign="top">
+
+*Readiness Check Analysis Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+Create, edit, and delete SAP Readiness Check analyses
+
+
+
+</td>
+<td valign="top">
+
+*Readiness Check Analysis Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+`imp_rc_AnalysisAdministrator` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Readiness Check
+
+
+
+</td>
+<td valign="top">
+
+*Readiness Check Analysis Viewer* 
+
+
+
+</td>
+<td valign="top">
+
+View all SAP Readiness Check analyses
+
+
+
+</td>
+<td valign="top">
+
+*Readiness Check Analysis Viewer* 
+
+
+
+</td>
+<td valign="top">
+
+`imp_rc_AnalysisViewer` 
 
 
 
@@ -541,7 +615,7 @@ Maintain global and specific configurations, consume KPIs and the respective pro
 </td>
 <td valign="top">
 
-Business Process Monitoring Administrator
+*Business Process Monitoring Administrator* 
 
 
 
@@ -578,7 +652,7 @@ Consume KPIs and the respective process content \(including sensitive data\), pr
 </td>
 <td valign="top">
 
-Business Process Monitoring Process Manager
+*Business Process Monitoring Process Manager* 
 
 
 
@@ -615,7 +689,7 @@ Consume KPIs and the respective process content \(including sensitive data\), an
 </td>
 <td valign="top">
 
-Business Process Monitoring Process Executor
+*Business Process Monitoring Process Executor* 
 
 
 
@@ -652,7 +726,7 @@ Consume KPIs and the respective process content \(including sensitive data\), an
 </td>
 <td valign="top">
 
-Business Process Monitoring Consumer
+*Business Process Monitoring Consumer* 
 
 
 
@@ -689,7 +763,7 @@ Consume KPIs and non-sensitive process content, without access to alert informat
 </td>
 <td valign="top">
 
-Business Process Monitoring Viewer
+*Business Process Monitoring Viewer* 
 
 
 
@@ -726,7 +800,7 @@ Configure integration monitoring
 </td>
 <td valign="top">
 
-Integration Monitoring Integration Architect
+*Integration Monitoring Integration Architect* 
 
 
 
@@ -763,7 +837,7 @@ View the messages in integration monitoring
 </td>
 <td valign="top">
 
-Integration Monitoring Integration Owner
+*Integration Monitoring Integration Owner* 
 
 
 
@@ -800,7 +874,7 @@ View the messages in integration monitoring, including data defined as sensitive
 </td>
 <td valign="top">
 
-Integration Monitoring Integration Owner Sensitive
+*Integration Monitoring Integration Owner Sensitive* 
 
 
 
@@ -837,7 +911,7 @@ Create, edit, delete, and manage configuration settings, including the display o
 </td>
 <td valign="top">
 
-Job Monitoring Administrator
+*Job Monitoring Administrator* 
 
 
 
@@ -874,7 +948,7 @@ View the job monitoring application for the maintained global configurations
 </td>
 <td valign="top">
 
-Job Monitoring Consumer
+*Job Monitoring Consumer* 
 
 
 
@@ -911,7 +985,7 @@ View utilization and performance of requests, including sensitive data like the 
 </td>
 <td valign="top">
 
-Real User Monitoring Analyst Administrator
+*Real User Monitoring Analyst Administrator* 
 
 
 
@@ -948,7 +1022,7 @@ View utilization and performance of requests
 </td>
 <td valign="top">
 
-Real User Monitoring Analyst
+*Real User Monitoring Analyst* 
 
 
 
@@ -985,7 +1059,7 @@ View utilization and performance of requests, including sensitive data like the 
 </td>
 <td valign="top">
 
-Real User Monitoring Analyst Sensitive
+*Real User Monitoring Analyst Sensitive* 
 
 
 
@@ -1022,7 +1096,7 @@ Create, edit, delete, manage configurations and manage global application settin
 </td>
 <td valign="top">
 
-Synthetic User Monitoring Administrator
+*Synthetic User Monitoring Administrator* 
 
 
 
@@ -1059,7 +1133,7 @@ Create, edit, delete, and manage configuration settings. View performance and av
 </td>
 <td valign="top">
 
-Synthetic User Monitoring Scenario Expert
+*Synthetic User Monitoring Scenario Expert* 
 
 
 
@@ -1096,7 +1170,7 @@ View performance and availability of scenario executions
 </td>
 <td valign="top">
 
-Synthetic User Monitoring Scenario Viewer
+*Synthetic User Monitoring Scenario Viewer* 
 
 
 
@@ -1133,7 +1207,7 @@ Create, edit, delete, and manage configuration settings, including the display o
 </td>
 <td valign="top">
 
-Health Monitoring Administrator
+*Health Monitoring Administrator* 
 
 
 
@@ -1170,7 +1244,7 @@ View health overview and metrics of cloud services
 </td>
 <td valign="top">
 
-Health Monitoring Viewer
+*Health Monitoring Viewer* 
 
 
 
@@ -1207,7 +1281,7 @@ Create and manage business services, and plan events
 </td>
 <td valign="top">
 
-Business Service Management Administrator
+*Business Service Management Administrator* 
 
 
 
@@ -1244,7 +1318,7 @@ View business services, their configuration, and the event calendar
 </td>
 <td valign="top">
 
-Business Service Management Viewer
+*Business Service Management Viewer* 
 
 
 
@@ -1281,7 +1355,7 @@ Administrate managed objects, configuration settings, and display application da
 </td>
 <td valign="top">
 
-Configuration Monitoring Administrator
+*Configuration Monitoring Administrator* 
 
 
 
@@ -1318,7 +1392,7 @@ Display application configuration data
 </td>
 <td valign="top">
 
-Configuration Monitoring Analyst
+*Configuration Monitoring Analyst* 
 
 
 
@@ -1355,7 +1429,7 @@ Execute service-specific administration tasks, configure and execute services, a
 </td>
 <td valign="top">
 
-Service Collaboration Administrator
+*Service Collaboration Administrator* 
 
 
 
@@ -1392,7 +1466,7 @@ Configure and execute services, and view own and shared service execution result
 </td>
 <td valign="top">
 
-Service Collaboration Expert
+*Service Collaboration Expert* 
 
 
 
@@ -1429,7 +1503,7 @@ Browse through the service explorer and view the shared service execution result
 </td>
 <td valign="top">
 
-Service Collaboration Viewer
+*Service Collaboration Viewer* 
 
 
 
@@ -1445,7 +1519,7 @@ Service Collaboration Viewer
 <tr>
 <td valign="top">
 
-Scoping
+SAP Business Transformation Center – Scoping
 
 
 
@@ -1466,7 +1540,7 @@ Create and edit digital blueprints and all associated tasks, company code scopin
 </td>
 <td valign="top">
 
-Digital Blueprint Administrator
+*Digital Blueprint Administrator* 
 
 
 
@@ -1474,80 +1548,6 @@ Digital Blueprint Administrator
 <td valign="top">
 
 `btc_bdts_DigitalBlueprintAdministrator` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Readiness Check
-
-
-
-</td>
-<td valign="top">
-
-*Readiness Check Analysis Viewer* 
-
-
-
-</td>
-<td valign="top">
-
-View all SAP Readiness Check analyses
-
-
-
-</td>
-<td valign="top">
-
-Readiness Check Analysis Viewer
-
-
-
-</td>
-<td valign="top">
-
-`imp_rc_AnalysisViewer` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Readiness Check
-
-
-
-</td>
-<td valign="top">
-
-*Readiness Check Analysis Administrator* 
-
-
-
-</td>
-<td valign="top">
-
-Create, edit, and delete SAP Readiness Check analyses
-
-
-
-</td>
-<td valign="top">
-
-Readiness Check Analysis Administrator
-
-
-
-</td>
-<td valign="top">
-
-`imp_rc_AnalysisAdministrator` 
 
 
 

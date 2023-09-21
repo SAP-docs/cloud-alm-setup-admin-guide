@@ -20,6 +20,7 @@ If you encounter issues while working with the *Landscape Management* app, take 
 -   **[Services](services-d5f36cc.md "Depending on your subscribed service, there are different ways of importing or creating
 		service information in the Landscape Management app.")**  
 Depending on your subscribed service, there are different ways of importing or creating service information in the *Landscape Management* app.
--   **[Systems](systems-d9d672a.md "Systems (technical systems) can be registered by running an ABAP report.")**  
-Systems \(technical systems\) can be registered by running an ABAP report.
+-   **[Systems](systems-d9d672a.md "Most systems (technical systems) can be registered by running an ABAP report. Only some
+		system types need to be set up manually.")**  
+Most systems \(technical systems\) can be registered by running an ABAP report. Only some system types need to be set up manually.
 
