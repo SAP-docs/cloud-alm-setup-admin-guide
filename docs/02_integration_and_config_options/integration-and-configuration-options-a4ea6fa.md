@@ -12,9 +12,9 @@ On this interactive image, you can see all optional setup steps for SAP Cloud AL
 
 ![Optional Setup Steps for SAP Cloud ALM](images/Image_Map_Integration_and_Configuration_Options_c84c1e9.png)
 
--   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "To set up the connection between your managed systems and individual SAP Cloud ALM
-		applications, you need to retrieve a service key and connect your SAP services and systems
-		to your SAP Cloud ALM instance.")**  
+-   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "To set up the connection between your managed
+			systems and individual SAP Cloud ALM applications, you need to retrieve a service key
+			and connect your SAP services and systems to your SAP Cloud ALM instance.")**  
 To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key and connect your SAP services and systems to your SAP Cloud ALM instance.
 -   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By integrating the SAP Audit Log Viewer service for SAP BTP, you can view
 		the audit logs for your SAP Cloud ALM tenant to track the end user activity in SAP Cloud

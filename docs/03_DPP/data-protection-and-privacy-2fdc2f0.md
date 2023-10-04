@@ -11,6 +11,20 @@ Furthermore, this information shouldn’t be taken as advice or a recommendation
 > ### Note:  
 > SAP doesn’t provide legal advice in any form. SAP software supports data protection compliance by providing security features and specific data protection-relevant functions, such as simplified blocking and deletion of personal data. In many cases, compliance with applicable data protection and privacy laws won’t be covered by a product feature. Definitions and other terms used in this document aren’t taken from a particular legal source.
 
+SAP Cloud ALM is compliant with DSGVO and GDPR.
+
+
+
+<a name="loio2fdc2f00fac54fd9893f4d4f083e1a5e__section_xh5_jjm_xyb"/>
+
+## EU and NS2 Access
+
+EU access, which restricts the processing of personal data to EEA/Switzerland, isn’t available.
+
+NS2 access, which restricts the processing of personal data to the USA, isn’t available.
+
+For more information, refer to [SAP Business Technology Platform – Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions?version=Cloud#eu-access).
+
 -   **[User Data from SAP Cloud ALM](user-data-from-sap-cloud-alm-65c98de.md "To support users in their job, the following types of personal data are stored in SAP
 		Cloud ALM: ")**  
 To support users in their job, the following types of personal data are stored in SAP Cloud ALM:

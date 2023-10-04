@@ -54,11 +54,13 @@ SAP Cloud ALM is available on different data centers. For more information, refe
 
 
 
-<a name="loio288d15a4d76547f594a844ba9f5a1b0a__section_jhk_kqp_4lb"/>
+<a name="loio288d15a4d76547f594a844ba9f5a1b0a__section_jws_3jm_xyb"/>
 
-## EU Access
+## EU and NS2 Access
 
 EU access, which restricts the processing of personal data to EEA/Switzerland, isn’t available.
+
+NS2 access, which restricts the processing of personal data to the USA, isn’t available.
 
 For more information, refer to [SAP Business Technology Platform – Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions?version=Cloud#eu-access).
 

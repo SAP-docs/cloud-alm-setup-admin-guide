@@ -2,13 +2,13 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Enabling SAP Cloud ALM API 
+# Enabling SAP Cloud ALM API
 
 To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key and connect your SAP services and systems to your SAP Cloud ALM instance.
 
 If you've requested SAP Cloud ALM on or after 2023-06-12, a service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically. You can skip the steps described in this document and access the service key in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
 
-If you want to set up transport management, you still need to carry out the following instructions to create another service key, but you can reuse the created space and no longer have to configure your entitlements.
+If you want to set up transport management, you still need to create another service key, but you can reuse the created space and no longer have to configure your entitlements.
 
 
 
@@ -27,16 +27,11 @@ If you want to set up transport management, you still need to carry out the foll
     If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html).
 
 
-> ### Note:  
-> If you've requested SAP Cloud ALM, your user has automatically received the required authorizations during the creation of the global account and the subaccount.
-
 
 
 <a name="loio704b5dc854f549888a238f94015e1eac__section_lv5_hh4_xlb"/>
 
 ## Procedure
-
-Carry out the following steps to enable SAP Cloud ALM API:
 
 
 

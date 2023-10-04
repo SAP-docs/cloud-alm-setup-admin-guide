@@ -4,9 +4,9 @@
 
 By enabling the transport management for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
 
-In order to use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the `Change and Transport System (CTS)`. This guide explains all steps that are needed to set up this connection.
+To use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you've to establish a connection between SAP Cloud ALM and the `(CTS)`.
 
-SAP Cloud ALM supports the integration of `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise.
+SAP Cloud ALM supports the integration of `(CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise.
 
 > ### Caution:  
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner.
@@ -21,31 +21,39 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 23 install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 23, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
     > ### Note:  
     > It's recommended to use SP23.
 
--   For ST-PI 740 SP 22 install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 22, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 21 install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 21, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 20 install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 20, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 19 install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 19, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
 
--   For ST-PI 740 SP 18 install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 18, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+
+    It's recommended to install the current version of collective corrections.
+
+-   Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to `TRUE`, as described in SAP Note [510007](https://me.sap.com/notes/510007).
+
+    > ### Note:  
+    > For the profile parameter check, you can use the transaction `RZ11` in the managed system.
+
+-   Check that profile parameter `ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
+
+-   Make sure that the following [certificates](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) are imported in `STRUST` under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*:
+
+    -   DigiCertGlobalRootCA
+
+    -   DigiCertGlobalRootG2
+
+    -   DigiCertRSA4096RootG5
 
 
-> ### Note:  
-> It's recommended to install the current version of collective corrections.
-
-Check that the profile parameter `icm/HTTPS/client_sni_enabled` is set to `TRUE`, as described in SAP Note[510007](https://me.sap.com/notes/510007).
-
-> ### Note:  
-> For the profile parameter check, you can use the transaction `RZ11` in the managed system
-
-Check that profile parameter`ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://me.sap.com/notes/510007). Make sure that [DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in `STRUST` under`SSL Client (Anonymous)` and `SSL Client (Standard)`
 
 
 
@@ -60,12 +68,12 @@ Note that the authorization steps are only needed for system client 000. For oth
 -   To run transaction `/SDF/ALM_SETUP`, the user needs the PFCG role `SAP_SDF_ALM_SETUP`.
 
     > ### Note:  
-    > In this role, you need to maintain the authorization field `S_BTCH_NAM > BTCUNAME` either with '\*' or with the user name of the user you plan to use as data collection background job user.
+    > In this role, you need to maintain the authorization field `S_BTCH_NAM > BTCUNAME` either with '\*' or with the user name of the user that you plan to use for the data collection background job.
 
 -   The user you specify as background user requires the PFCG role `SAP_SDF_ALM_METRIC_PUSH_FND` and the role `SAP_BC_TRANSPORT_ADMINISTRATOR`.
 
     > ### Note:  
-    > Do not forget to activate role `SAP_BC_TRANSPORT_ADMINISTRATOR` before usage with the background user.
+    > Don't forget to activate role `SAP_BC_TRANSPORT_ADMINISTRATOR` before using it with the background user.
 
     Download the latest version of the role `SAP_SDF_ALM_METRIC_PUSH_FND` from SAP Note [3104662](https://me.sap.com/notes/3104662).
 
@@ -133,7 +141,7 @@ The configuration of the push data provider is needed to enable the processing o
         > 
         > 7.  *Proxy Port* \(if required by your network infrastructure. For SAP S/4HANA Cloud, private edition, enter value: 3128\)
 
-    3.  Choose *Continue*. The destination should now be updated.
+    3.  Choose *Continue*. The destination is now updated.
 
     4.  Choose *Continue*. A success message appears if the connection was established.
 
@@ -195,12 +203,12 @@ The configuration of the push data provider is needed to enable the processing o
     > 
     > **Feature Deployment: Import Transports**
     > 
-    > -   Queries to-be-imported requests from SAP Cloud ALM and triggers the import job.
+    > -   Queries the requests that are to be imported from SAP Cloud ALM and triggers the import job.
     > 
-    > -   It's only necessary to set up on consolidation and target systems for import \(that is, QA and PRD systems\)
+    > -   Only needs to be set up on consolidation and target systems for import \(that is, QA and PRD systems\).
 
     > ### Note:  
-    > Commonly, authorization-checks are performed in the system in which a change happens. In case of the *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
+    > Commonly, authorization-checks are performed in the system where a change happens. For *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
 
 7.  Choose *Continue*.
 
@@ -229,10 +237,10 @@ The following client-dependent use cases are available to you:
 -   Transport of copies
 
 
-To enable the use cases mentioned above within an SAP Cloud ALM feature, you have to execute the following setup in each development client you want to use:
+To enable the use cases mentioned above within an SAP Cloud ALM feature, execute the following setup in each development client that you want to use:
 
 > ### Note:  
-> Before you start with the setup, please make sure that you've performed all the configuration steps in the **Technical Prerequisites for the ABAP System** section of this guide. Additionally, make sure that you've implemented the current version of the SAP Note. Currently it is [3322679](https://me.sap.com/notes/3322679) 
+> Before you start with the setup, please make sure that you've performed all the configuration steps in the **Technical Prerequisites for the ABAP System** section of this guide. Additionally, make sure that you've implemented the current version of the SAP Note. Currently it'is [3322679](https://me.sap.com/notes/3322679).
 > 
 > Also make sure that setup for client 000 was already performed and that the use case **Feature Deployment: Manage Transports** was already activated.
 

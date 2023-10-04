@@ -19,6 +19,9 @@ SAP Cloud ALM uses encrypted communication channels based on HTTPS/TLS, supporti
 
 For more information see [Security](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/935cceed98e74a7fa3ae170935736ca2.html).
 
+-   **[Development and Product Security](development-and-product-security-e9134c5.md "SAP applies the following measures to make SAP Cloud ALM safe for you to
+		use.")**  
+SAP applies the following measures to make SAP Cloud ALM safe for you to use.
 -   **[Security Configuration Recommendations](security-configuration-recommendations-8154236.md "Use the information in this table to secure the configuration and operation of SAP Cloud
 		ALM services in your landscape.")**  
 Use the information in this table to secure the configuration and operation of SAP Cloud ALM services in your landscape.

@@ -11,6 +11,8 @@ To support users in their job, the following types of personal data are stored i
 -   User ID
 
 
+Hyperscalers, on which SAP products are running, can't access personal data.
+
 
 
 <a name="loio65c98de8ac484ad4896b051e2c985ee1__section_vcv_fk3_2tb"/>

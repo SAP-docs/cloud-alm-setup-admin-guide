@@ -595,7 +595,7 @@ Use access groups to grant users access only to data relevant to their tasks.
 </td>
 <td valign="top">
 
- 
+[Creating Access Groups](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/b22d9ce6403f44518dcda7757baca53a.html) 
 
 
 
