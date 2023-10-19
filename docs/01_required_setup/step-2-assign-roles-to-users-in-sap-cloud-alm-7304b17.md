@@ -165,8 +165,12 @@ For more information on how to use the *User Management* app to view, add, and c
 
 ## SAP BTP Cockpit
 
+The roles in SAP Cloud ALM are available as role collections in your subaccount in the SAP BTP cockpit.
+
 > ### Note:  
-> The roles in SAP Cloud ALM are available as role collections in your subaccount in the SAP BTP cockpit.
+> The role collections that you assign in the SAP BTP cockpit are synchronized by the *User Management* app only once a day.
+> 
+> As a result, although the role collection assignment takes effect in SAP Cloud ALM immediately \(with the next logon of the user\), it may not be displayed in the *User Management* app for up to 24 hours.
 
 
 

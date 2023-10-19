@@ -214,6 +214,80 @@ View users and authorization assignments
 <tr>
 <td valign="top">
 
+Tag Management
+
+
+
+</td>
+<td valign="top">
+
+*Tag Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+Create, update, merge and centrally delete tags, view tag usage and organize tags into groups
+
+
+
+</td>
+<td valign="top">
+
+*Tag Management Administrator* 
+
+
+
+</td>
+<td valign="top">
+
+`x_tag_TagAdministrator` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Tag Management
+
+
+
+</td>
+<td valign="top">
+
+*Tag Viewer* 
+
+
+
+</td>
+<td valign="top">
+
+View tags, tag groups and tag usage
+
+
+
+</td>
+<td valign="top">
+
+*Tag Management Viewer* 
+
+
+
+</td>
+<td valign="top">
+
+`x_tag_TagViewer` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Landscape Management
 
 User
@@ -345,7 +419,7 @@ Project Management
 </td>
 <td valign="top">
 
-View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/feature-delivery.html)\), notes, documents, test cases, and defects
+View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), notes, documents, test cases, and defects
 
 Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 

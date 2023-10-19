@@ -15,8 +15,8 @@ We recommend using the *Setup and Administration Guide for SAP Cloud ALM* on SAP
 
 1. Open the [Setup and Administration Guide for SAP Cloud ALM](https://help.sap.com/viewer/08879d094f3b4de3ac67832f4a56a6de/latest/en-US).
 1. You can either:
-    * Choose *Edit* to suggest a change for the current page you see in the Help Portal viewer, or
-    * Choose *Feedback* to open a GitHub issue in this repository.
+    * Choose *Feedback* > *Edit page* to suggest a change for the current page you see in the Help Portal viewer, or
+    * Choose *Feedback* > *Create issue* to open a GitHub issue in this repository.
 
 If you only make a small contribution, that's the quickest way to propose a change. For larger contributions, we recommend forking this repository to work locally. The filenames in the [docs](docs) directory are created based on the title of the page on SAP Help Portal.
 

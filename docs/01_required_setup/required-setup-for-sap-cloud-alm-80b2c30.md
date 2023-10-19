@@ -92,6 +92,8 @@ SAP BTP cockpit
 
 -   *Org Manager* for the Cloud Foundry organization in your SAP Cloud ALM subaccount
 
+    This role is only required if a Cloud Foundry org and space exist in your SAP Cloud ALM subaccount and is in use in the context of SAP Cloud ALM APIs.
+
     If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html).
 
 

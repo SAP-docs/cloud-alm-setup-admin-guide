@@ -42,15 +42,3 @@ Corresponding documentation: [Step 2: Assign Roles to Users in SAP Cloud ALM](01
 
 
 
-
-
-<a name="loiocd38b1f8e2494707b6a1368b39cc8767__section_umy_gfx_gqb"/>
-
-## Enabling SAP Cloud ALM API in Cloud Foundry
-
-Find out how to enable the monitoring of your cloud services by enabling SAP Cloud ALM API in the SAP BTP cockpit.
-
-Corresponding documentation: [Enabling SAP Cloud ALM API](02_integration_and_config_options/enabling-sap-cloud-alm-api-704b5dc.md)
-
-
-

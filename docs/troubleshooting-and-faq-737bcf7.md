@@ -1019,6 +1019,22 @@ Refer to KBA [3352417](https://me.sap.com/notes/3352417).
 <tr>
 <td valign="top">
 
+You want to change the subdomain of your SAP Cloud ALM tenant.
+
+
+
+</td>
+<td valign="top">
+
+Changing the subdomain of an existing SAP Cloud ALM tenant is currently not possible.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 After deleting your SAP Cloud ALM application, you want to set it up again from scratch.
 
 

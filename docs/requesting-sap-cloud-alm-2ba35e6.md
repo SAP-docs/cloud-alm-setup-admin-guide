@@ -111,12 +111,6 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
         > 
         > Don't delete this subaccount or your SAP Cloud ALM subscription if you've already started using SAP Cloud ALM productively. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
 
-    -   A Cloud Foundry organization
-
-        An organization is an additional hierarchical level in the Cloud Foundry environment.
-
-        The name of the organization is identical to the subdomain name. If the specified subdomain name doesn't contain the suffix `-cloudalm`, this suffix is added to the organization name.
-
 
 10. A mutual trust relationship between SAP Cloud ALM and the selected Identity Authentication tenant is established.
 
