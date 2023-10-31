@@ -17,14 +17,10 @@ Depending on the provisioning date of your SAP Cloud ALM tenant, some or all ste
 
 Provisioning Date
 
-
-
 </th>
 <th valign="top">
 
 Actions
-
-
 
 </th>
 </tr>
@@ -33,8 +29,6 @@ Actions
 
 On or after 2023-10-16
 
-
-
 </td>
 <td valign="top">
 
@@ -42,16 +36,12 @@ A service binding was generated automatically.
 
 You can skip these steps altogether and access your service binding in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Between 2023-06-12 and 2023-10-16
-
-
 
 </td>
 <td valign="top">
@@ -62,8 +52,6 @@ You can access it in the SAP BTP cockpit or in the *Landscape Management* app, a
 
 You only need to carry out these steps if you want to set up transport management, but you no longer have to configure your entitlements.
 
-
-
 </td>
 </tr>
 <tr>
@@ -71,14 +59,10 @@ You only need to carry out these steps if you want to set up transport managemen
 
 Before 2023-06-12
 
-
-
 </td>
 <td valign="top">
 
 No service key or service binding has been created as part of the initial provisioning. To create one manually, carry out the steps listed below.
-
-
 
 </td>
 </tr>

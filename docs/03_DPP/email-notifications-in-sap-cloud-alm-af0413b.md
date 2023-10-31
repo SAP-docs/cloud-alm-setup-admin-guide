@@ -2,13 +2,31 @@
 
 # Email Notifications in SAP Cloud ALM
 
-Email notifications can be set up for named users \(that is, users that are maintained in the Identity Authentication tenant\) and for unnamed users. Only the recipient email ID is stored as part of the *Notification Management* app.
+There are two different ways in which email notifications are handled in SAP Cloud ALM.
 
 
 
-<a name="loioaf0413b7e06e4a89b794db6c18210f75__section_zyl_xqm_vvb"/>
+<a name="loioaf0413b7e06e4a89b794db6c18210f75__section_jxc_m1c_gzb"/>
 
-## Giving Consent
+## In-App Notifications
+
+Email notifications for in-app notifications, which are used predominantly for SAP Cloud ALM for implementation, can be set up centrally by following [Enabling Email Channel for In-App Notifications](../02_integration_and_config_options/enabling-email-channel-for-in-app-notifications-fbd50d1.md).
+
+Once this email channel is enabled, every user can configure for themselves in their profile settings if and for which notification types they want to receive emails. If users no longer want to receive email notifications, they can adjust their notification settings at any time.
+
+When an email notification is triggered, the email address of the user is transferred to the SAP Alert Notification service for SAP BTP. From there, the email notification is sent via a customer-specific email server.
+
+
+
+<a name="loioaf0413b7e06e4a89b794db6c18210f75__section_d5f_l1c_gzb"/>
+
+## Notifications from SAP Cloud ALM for Operations
+
+Email notifications for SAP Cloud ALM for operations applications are managed in the *Notification Management* app. They can be set up for both named users \(that is, users that are maintained in the Identity Authentication tenant\) and for unnamed users. Only the recipient email ID is stored in SAP Cloud ALM.
+
+
+
+### Giving Consent
 
 As soon as new recipients are added to the notification management, they receive an email from **cloudalm-notification@sap.com**, requesting them to verify their email ID and to offer consent to store their email ID and receive notification emails from SAP Cloud ALM.
 
@@ -18,9 +36,7 @@ Recipients can unsubscribe from notifications at any time by choosing *Unsubscri
 
 
 
-<a name="loioaf0413b7e06e4a89b794db6c18210f75__section_yxb_1rm_vvb"/>
-
-## Housekeeping
+### Housekeeping
 
 Recipients who are not required are deleted once every 10 days. This includes:
 

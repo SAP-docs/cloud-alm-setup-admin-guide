@@ -17,28 +17,20 @@ SAP makes no warranty, either expressed or implied, for the information provided
 
 SAP Solution
 
-
-
 </th>
 <th valign="top">
 
 SAP Cloud ALM Area
-
-
 
 </th>
 <th valign="top">
 
 SAP Cloud ALM Capability
 
-
-
 </th>
 <th valign="top">
 
 Notes
-
-
 
 </th>
 </tr>
@@ -47,28 +39,20 @@ Notes
 
 SAP BTP, Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -77,21 +61,15 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Process Management
-
-
 
 </td>
 <td valign="top">
@@ -105,8 +83,6 @@ Process Management
 
 More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -114,21 +90,15 @@ More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/e
 
 SAP Ariba
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Process Management
-
-
 
 </td>
 <td valign="top">
@@ -150,8 +120,6 @@ Process Management
 
 More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -159,21 +127,15 @@ More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/e
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Process Management
-
-
 
 </td>
 <td valign="top">
@@ -219,8 +181,6 @@ Process Management
 
 More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\) and [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -228,28 +188,20 @@ More under [SAP SuccessFactors Process Library](https://community.successfactors
 
 SAP Marketing Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Process Management
 
-
-
 </td>
 <td valign="top">
 
 [https://rapid.sap.com/bp/\#/browse/categories/lines\_of\_business/areas/marketing/packageversions/BP\_CLD\_MKT](https://rapid.sap.com/bp/#/browse/categories/lines_of_business/areas/marketing/packageversions/BP_CLD_MKT)
-
-
 
 </td>
 </tr>
@@ -258,28 +210,20 @@ Process Management
 
 SAP Sales Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Process Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -288,28 +232,20 @@ SAP Cloud for Customer
 
 SAP Service Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Process Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -318,28 +254,20 @@ SAP Cloud for Customer
 
 SAP Fieldglass
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Process Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Fieldglass Vendor Management System
-
-
 
 </td>
 </tr>
@@ -348,28 +276,20 @@ SAP Fieldglass Vendor Management System
 
 SAP Intelligent Robotic Process Automation \(iRPA\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Process Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Best Practices for SAP Intelligent Robotic Process Automation integration
-
-
 
 </td>
 </tr>
@@ -378,28 +298,20 @@ SAP Best Practices for SAP Intelligent Robotic Process Automation integration
 
 SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Process Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Best Practices for SAP Integrated Business Planning for Supply Chain
-
-
 
 </td>
 </tr>
@@ -408,21 +320,15 @@ SAP Best Practices for SAP Integrated Business Planning for Supply Chain
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Process Management
-
-
 
 </td>
 <td valign="top">
@@ -441,21 +347,15 @@ Process Management
 
 Intelligent Enterprise – Implementation
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Process Management
-
-
 
 </td>
 <td valign="top">
@@ -482,28 +382,20 @@ Process Management
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
 Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) \(new implementation and system conversion\)
-
-
 
 </td>
 </tr>
@@ -512,28 +404,20 @@ Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud, privat
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
 Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) 
-
-
 
 </td>
 </tr>
@@ -542,21 +426,15 @@ Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud](https:
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Task Management
-
-
 
 </td>
 <td valign="top">
@@ -577,21 +455,15 @@ Task template available:
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Task Management
-
-
 
 </td>
 <td valign="top">
@@ -612,28 +484,20 @@ Task template available:
 
 SAP Sales Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -642,28 +506,20 @@ SAP Cloud for Customer
 
 SAP Service Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -672,28 +528,20 @@ SAP Cloud for Customer
 
 Intelligent Enterprise – Implementation
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -702,28 +550,20 @@ Task Management
 
 SAP Ariba
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -732,28 +572,20 @@ Task Management
 
 SAP Business Network
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -762,28 +594,20 @@ Task Management
 
 SAP Fieldglass
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Task Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -792,28 +616,20 @@ Task Management
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -822,28 +638,20 @@ Requirement Management
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -852,28 +660,20 @@ Requirement Management
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -882,28 +682,20 @@ Requirement Management
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -912,28 +704,20 @@ Requirement Management
 
 SAP Sales Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -942,28 +726,20 @@ SAP Cloud for Customer
 
 SAP Service Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -972,28 +748,20 @@ SAP Cloud for Customer
 
 Intelligent Enterprise – Implementation
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1002,28 +770,20 @@ Requirement Management
 
 SAP Ariba
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1032,28 +792,20 @@ Requirement Management
 
 SAP Business Network
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1062,28 +814,20 @@ Requirement Management
 
 SAP Fieldglass
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Requirement Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1092,28 +836,20 @@ Requirement Management
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1122,28 +858,20 @@ Documents
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1152,28 +880,20 @@ Documents
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1182,28 +902,20 @@ Documents
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1212,28 +924,20 @@ Documents
 
 SAP Sales Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -1242,28 +946,20 @@ SAP Cloud for Customer
 
 SAP Service Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -1272,28 +968,20 @@ SAP Cloud for Customer
 
 Intelligent Enterprise – Implementation
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1302,28 +990,20 @@ Documents
 
 SAP Ariba
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1332,28 +1012,20 @@ Documents
 
 SAP Business Network
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1362,28 +1034,20 @@ Documents
 
 SAP Fieldglass
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Documents
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1392,29 +1056,21 @@ Documents
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Change & Deployment Management
-
-
 
 </td>
 <td valign="top">
 
 More under [SAP S/4HANA Cloud with Adaptation Transport Organizer \(ATO\)](02_integration_and_config_options/sap-s-4hana-cloud-with-adaptation-transport-organizer-ato-a4238a9.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -1422,28 +1078,20 @@ More under [SAP S/4HANA Cloud with Adaptation Transport Organizer \(ATO\)](02_in
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Change & Deployment Management
 
-
-
 </td>
 <td valign="top">
 
 More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
-
-
 
 </td>
 </tr>
@@ -1452,28 +1100,20 @@ More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integr
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Change & Deployment Management
 
-
-
 </td>
 <td valign="top">
 
 More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
-
-
 
 </td>
 </tr>
@@ -1482,28 +1122,20 @@ More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integr
 
 SAP Integration Suite – Cloud Integration
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Change & Deployment Management
 
-
-
 </td>
 <td valign="top">
 
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
-
-
 
 </td>
 </tr>
@@ -1512,28 +1144,20 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 SAP Integration Suite – API Management
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Change & Deployment Management
 
-
-
 </td>
 <td valign="top">
 
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
-
-
 
 </td>
 </tr>
@@ -1542,21 +1166,15 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 SAP BTP, Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Change & Deployment Management
-
-
 
 </td>
 <td valign="top">
@@ -1564,8 +1182,6 @@ Change & Deployment Management
 Mainly development content and some selected services
 
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
-
-
 
 </td>
 </tr>
@@ -1574,21 +1190,15 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 SAP BTP, Neo environment
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Change & Deployment Management
-
-
 
 </td>
 <td valign="top">
@@ -1596,8 +1206,6 @@ Change & Deployment Management
 Mainly development content and some selected services
 
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
-
-
 
 </td>
 </tr>
@@ -1606,21 +1214,15 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 SAP Build Work Zone
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Change & Deployment Management
-
-
 
 </td>
 <td valign="top">
@@ -1629,8 +1231,6 @@ Application content
 
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
 
-
-
 </td>
 </tr>
 <tr>
@@ -1638,21 +1238,15 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 SAP Build Process Automation
 
-
-
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Change & Deployment Management
-
-
 
 </td>
 <td valign="top">
@@ -1661,8 +1255,6 @@ MTA
 
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
 
-
-
 </td>
 </tr>
 <tr>
@@ -1670,28 +1262,20 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
 More under [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md).
-
-
 
 </td>
 </tr>
@@ -1700,28 +1284,20 @@ More under [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integ
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1730,28 +1306,20 @@ Test Management
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1760,28 +1328,20 @@ Test Management
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1790,28 +1350,20 @@ Test Management
 
 SAP Sales Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -1820,28 +1372,20 @@ SAP Cloud for Customer
 
 SAP Service Cloud
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud for Customer
-
-
 
 </td>
 </tr>
@@ -1850,28 +1394,20 @@ SAP Cloud for Customer
 
 Intelligent Enterprise – Implementation
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1880,28 +1416,20 @@ Test Management
 
 SAP Ariba
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1910,28 +1438,20 @@ Test Management
 
 SAP Business Network
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1940,28 +1460,20 @@ Test Management
 
 SAP Fieldglass
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1970,28 +1482,20 @@ Test Management
 
 Tricentis Test Automation for SAP integrated with SAP Cloud ALM
 
-
-
 </td>
 <td valign="top">
 
 Implementation
-
-
 
 </td>
 <td valign="top">
 
 Test Management
 
-
-
 </td>
 <td valign="top">
 
 More under [Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM](02_integration_and_config_options/setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md).
-
-
 
 </td>
 </tr>
@@ -2000,28 +1504,20 @@ More under [Setting Up Tricentis Test Automation for SAP Integrated with SAP Clo
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2030,28 +1526,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP S/4HANA Cloud for projects, resource management
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2060,28 +1548,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2090,28 +1570,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Logistic Business Network
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2120,28 +1592,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Information Collaboration Hub for Life Sciences
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2150,28 +1614,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Business Suite
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2180,28 +1636,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Cloud for Customer
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2210,28 +1658,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Marketing Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2240,28 +1680,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Concur
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2270,28 +1702,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Order Management foundation
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2300,28 +1724,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Fieldglass
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2330,28 +1746,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2360,28 +1768,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Analytics Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2390,28 +1790,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP BTP, Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2420,28 +1812,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Intelligent Asset Management
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2450,28 +1834,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Integration Suite – Cloud Integration
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2480,28 +1856,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP BTP, Neo environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2510,28 +1878,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP BTP, ABAP environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2540,28 +1900,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Mobile Services
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2570,28 +1922,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2600,28 +1944,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Field Service Management
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2630,28 +1966,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Ariba
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2660,28 +1988,20 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-nw-abap.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2690,28 +2010,20 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 
 SAP Master Data Integration
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2720,28 +2032,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Master Data Governance, cloud edition
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2750,28 +2054,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP SuccessFactors Employee Central Payroll
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2780,28 +2076,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2810,28 +2098,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Batch Release Hub for Life Sciences
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2840,28 +2120,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 Integration Hub for Life Sciences
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2870,28 +2142,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Business ByDesign
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2900,28 +2164,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Omnichannel Promotion Pricing
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2930,28 +2186,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Process Integration \(Java\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2960,28 +2208,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 Data ingestion for industry cloud solutions
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -2990,28 +2230,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Subscription Billing
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3020,28 +2252,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Data Intelligence
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3050,28 +2274,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Entitlement Management
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3080,28 +2296,20 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Digital Vehicle Hub
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3110,28 +2318,42 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP Event Broker for SAP cloud applications
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Integration and Exception Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+SAP Predictive Replenishment
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
 
 </td>
 </tr>
@@ -3140,21 +2362,15 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 Business Process Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -3164,8 +2380,6 @@ Supported KPIs for the business scenarios:
 Lead-to-Cash, Source-to-Pay, Design-to-Operate
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3174,21 +2388,15 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 Business Process Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -3198,8 +2406,6 @@ Supported KPIs for the business scenarios:
 Lead-to-Cash, Source-to-Pay, Design-to-Operate
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3208,21 +2414,15 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 
 SAP Business Suite
 
-
-
 </td>
 <td valign="top">
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 Business Process Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -3233,8 +2433,6 @@ Lead-to-Cash, Source-to-Pay, Design-to-Operate
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -3242,21 +2440,15 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 Business Process Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -3267,8 +2459,6 @@ Recruit-to-Retire
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html#section_232382677_co) \(Expert Portal\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -3276,21 +2466,15 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 Business Process Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -3301,8 +2485,6 @@ Lead-to-Cash, Source-to-Pay, Design-to-Operate
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -3310,21 +2492,15 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 
 SAP Cloud for Customer
 
-
-
 </td>
 <td valign="top">
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 Business Process Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -3334,8 +2510,6 @@ Supported KPIs for the business scenarios:
 Lead-to-Cash
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3344,21 +2518,15 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 
 SAP Entitlement Management
 
-
-
 </td>
 <td valign="top">
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 Business Process Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -3369,8 +2537,6 @@ Lead-to-Cash
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -3378,28 +2544,20 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3408,28 +2566,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3438,28 +2588,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Business Suite
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3468,28 +2610,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP SuccessFactors Employee Central Payroll
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3498,28 +2632,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Cloud ALM
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3528,28 +2654,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Intelligent Robotic Process Automation \(iRPA\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3558,28 +2676,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Integration Suite – API Management
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3588,28 +2698,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Integration Suite – Cloud Integration
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3618,28 +2720,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP BTP, ABAP environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3648,28 +2742,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP BTP, Neo environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3678,28 +2764,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP BTP, Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3708,28 +2786,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3738,28 +2808,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3768,28 +2830,20 @@ More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-a
 
 SAP Build Process Automation
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3798,28 +2852,20 @@ More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-a
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3828,28 +2874,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3858,28 +2896,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Marketing Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3888,28 +2918,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Cloud Connector
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3918,28 +2940,20 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 
 SAP Business Suite
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3948,28 +2962,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -3978,28 +2984,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4008,28 +3006,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4038,28 +3028,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP SuccessFactors Employee Central Payroll
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4068,28 +3050,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP Marketing Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4098,28 +3072,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP Intelligent Robotic Process Automation \(iRPA\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4128,28 +3094,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4158,28 +3116,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4188,28 +3138,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP BTP, ABAP environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4218,28 +3160,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP BTP, Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4248,28 +3182,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP Build Process Automation
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Job and Automation Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4278,28 +3204,20 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 
 SAP BTP, Neo environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4308,28 +3226,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP Business Suite
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4338,28 +3248,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4368,28 +3270,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4398,28 +3292,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4428,28 +3314,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP Marketing Cloud
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4458,28 +3336,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP Cloud for Customer
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4488,28 +3358,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP BTP, ABAP environment
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4518,28 +3380,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP SuccessFactors Employee Central Payroll
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4548,28 +3402,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4578,28 +3424,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4608,28 +3446,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 Data Quality Management, Microservices for Location Data \(DQM Microservices\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Real User Monitoring
 
-
-
 </td>
 <td valign="top">
 
 More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4638,28 +3468,20 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 
 SAP Business Suite
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Configuration & Security Analysis
 
-
-
 </td>
 <td valign="top">
 
 More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4668,28 +3490,20 @@ More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operatio
 
 SAP S/4HANA \(on-premise\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Configuration & Security Analysis
 
-
-
 </td>
 <td valign="top">
 
 More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4698,28 +3512,20 @@ More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operatio
 
 SAP S/4HANA Cloud, private edition
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Configuration & Security Analysis
 
-
-
 </td>
 <td valign="top">
 
 More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4728,28 +3534,20 @@ More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operatio
 
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
-
-
 </td>
 <td valign="top">
 
 Operations
-
-
 
 </td>
 <td valign="top">
 
 Configuration & Security Analysis
 
-
-
 </td>
 <td valign="top">
 
 More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
-
-
 
 </td>
 </tr>
@@ -4757,22 +3555,16 @@ More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operatio
 <td valign="top">
 
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
-
-
 
 </td>
 <td valign="top">
 
 Implementation
 
-
-
 </td>
 <td valign="top">
 
 Change & Deployment Management
-
-
 
 </td>
 <td valign="top">

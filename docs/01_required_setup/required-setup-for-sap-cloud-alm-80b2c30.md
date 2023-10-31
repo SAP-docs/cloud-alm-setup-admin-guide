@@ -41,14 +41,10 @@ The following authorizations are required to perform the initial setup of SAP Cl
 
 Environment
 
-
-
 </th>
 <th valign="top">
 
 Role
-
-
 
 </th>
 </tr>
@@ -56,8 +52,6 @@ Role
 <td valign="top">
 
 Identity Authentication tenant
-
-
 
 </td>
 <td valign="top">
@@ -68,16 +62,12 @@ If a new Identity Authentication tenant was created for you when you requested S
 
 If someone else requested SAP Cloud ALM or if you're using a pre-existing Identity Authentication tenant for SAP Cloud ALM, the [administrator](https://iamtenants.accounts.cloud.sap/) can add you as an administrator by following the steps described in [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/786eea2e06fa4bef84d914a7c319d74c.html).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 <td valign="top">
@@ -106,8 +96,6 @@ SAP BTP cockpit
 
 SAP Cloud ALM
 
-
-
 </td>
 <td valign="top">
 
@@ -115,8 +103,6 @@ SAP Cloud ALM
 
 
 If you don't have these authorization, the *Global Administrator* can assign one of the required roles to you by following the steps described in [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html).
-
-
 
 </td>
 </tr>
@@ -140,8 +126,7 @@ To give further users access to SAP Cloud ALM, you need to create or import user
 -   **[Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md "After onboarding your users to the Identity Authentication tenant, you need to add them
 		to SAP Cloud ALM and assign roles to them.")**  
 After onboarding your users to the Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.
--   **[Step 3: Set Up Landscape Management](step-3-set-up-landscape-management-23f1c49.md "As the last step of the required setup, services and systems (technical systems) need to
-		be set up in the Landscape Management app in SAP Cloud
-		ALM.")**  
-As the last step of the required setup, services and systems \(technical systems\) need to be set up in the *Landscape Management* app in SAP Cloud ALM.
+-   **[Step 3: Set Up Landscape Management](step-3-set-up-landscape-management-23f1c49.md "As the last step of the required setup, services and systems need to be set up in the
+			Landscape Management app in SAP Cloud ALM.")**  
+As the last step of the required setup, services and systems need to be set up in the *Landscape Management* app in SAP Cloud ALM.
 

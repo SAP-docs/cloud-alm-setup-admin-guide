@@ -14,19 +14,20 @@ In order to use the `ATO` for SAP S/4HANA Cloud in an SAP Cloud ALM environment,
 
 ## Procedure
 
-1.  Retrieve *SAP Cloud ALM API* credentials as described in [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md).
+1.  Retrieve *SAP Cloud ALM API* credentials as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
     Depending on the provisioning date of your SAP Cloud ALM tenant, the creation and configuration of your entitlements in the subaccount containing your SAP Cloud ALM subscription is generated automatically or has to be adjusted manually:
 
     -   On or after 2023-10-16: A service binding was generated automatically. You can skip the steps in the linked guide altogether and access your service binding in the SAP BTP cockpit or in the Landscape Management app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md)
 
-    -   Between 2023-06-12 and 2023-10-16: You only need to carry out the steps in the linked guide, if you want to set up transport management, but you no longer have to configure your entitlements.
-    -   > ### Note:  
+    -   Between 2023-06-12 and 2023-10-16: You only need to carry out the steps in the linked guide if you want to set up transport management, but you no longer have to configure your entitlements.
+
+        > ### Note:  
         > If you've already set up an instance previously, it's recommended to set up a new instance with a new name including the respective scopes. If the new instance works and the old one isn't needed anymore, you can delete the old instance.
         > 
         > The procedure for deleting an instance is described here: [Deleting Service Instances](https://help.sap.com/docs/service-manager/sap-service-manager/deleting-service-instances).
 
-    -   Before 2023-06-12: No service binding has been created as part of initial provisioning. To create one manually, carry out the steps listed in the linked guide [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md).
+    -   Before 2023-06-12: No service binding has been created as part of initial provisioning. To create one manually, carry out the steps listed in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
 
     > ### Note:  
@@ -38,8 +39,6 @@ In order to use the `ATO` for SAP S/4HANA Cloud in an SAP Cloud ALM environment,
     > The following steps have to be performed for every tenant you want to establish.
 
     1.  In the *Communication Systems* app, set up a new communication system by choosing *New*.
-
-        ![]()
 
         Set up a communication system using any ID in the *System ID* field and with a reasonable name \(for example the tenant name, you want to communicate with\) in the *System Name* field.
 

@@ -54,15 +54,11 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <th valign="top">
 
     Type
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -70,15 +66,11 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <td valign="top">
     
     *Not Assigned* 
-
-
     
     </td>
     <td valign="top">
     
     No user type \(default value\)
-
-
     
     </td>
     </tr>
@@ -86,15 +78,11 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <td valign="top">
     
     *Employee* 
-
-
     
     </td>
     <td valign="top">
     
     Employee of your company
-
-
     
     </td>
     </tr>
@@ -102,15 +90,11 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <td valign="top">
     
     *SAP* 
-
-
     
     </td>
     <td valign="top">
     
     Consultant from SAP
-
-
     
     </td>
     </tr>
@@ -118,15 +102,11 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <td valign="top">
     
     *Partner* 
-
-
     
     </td>
     <td valign="top">
     
     Consultant from official SAP partner
-
-
     
     </td>
     </tr>
@@ -134,15 +114,11 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
     <td valign="top">
     
     *Other* 
-
-
     
     </td>
     <td valign="top">
     
     Person from a company other than SAP or official SAP partner
-
-
     
     </td>
     </tr>
