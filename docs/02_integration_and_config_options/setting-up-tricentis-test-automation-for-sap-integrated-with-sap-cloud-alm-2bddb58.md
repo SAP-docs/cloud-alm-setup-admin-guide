@@ -66,11 +66,18 @@ If you requested SAP Cloud ALM, you've received the authorizations required to s
 3.  To start the automated setup, choose *Set Up Tricentis Test Automation for SAP integrated with SAP Cloud ALM*.
 
     > ### Caution:  
-    > The automated setup can only be performed if you're using a standard SAP identity provider.
+    > The automated setup can only be performed if the following prerequisites are met:
     > 
-    > If you're using a different identity provider type, please open an incident under component SV-CLM-IMP with the title *Request manual provisioning of Tricentis test automation for SAP tenant* after you've accepted the terms and conditions.
+    > -   You're using a standard SAP identity provider.
     > 
-    > In the incident description, please provide the URL of your SAP Cloud ALM tenant and the type of identity provider that is used for your SAP Cloud ALM tenant.
+    > -   You haven't changed the hierarchy of the SAP Cloud ALM application in the identity provider.
+    > 
+    >     During the automated setup, the Tricentis application in the identity provider is created as a child application to the SAP Cloud ALM application. If your SAP Cloud ALM application was changed to be a child application of another application, the automated setup can't be completed because it's not possible to create a child application for a child application.
+    > 
+    > 
+    > If any of these prerequisites aren't met, please open an incident under component SV-CLM-IMP-TM with the title *Request manual provisioning of Tricentis test automation for SAP tenant* after you've accepted the terms and conditions.
+    > 
+    > In the incident description, please provide the URL of your SAP Cloud ALM tenant along with information about your identity provider type and/or application hierarchy setup.
 
 4.  The following setup steps are performed:
 
@@ -89,6 +96,21 @@ If you requested SAP Cloud ALM, you've received the authorizations required to s
 You can now start using Tricentis Test Automation for SAP integrated with SAP Cloud ALM from the *Test Preparation* app in SAP Cloud ALM.
 
 The test cases will then be authored in Tricentis Test Automation for SAP, as described in the Tricentis documentation.
+
+
+
+<a name="loio2bddb584d07d4833b7e33454c3c4a79d__section_olf_bmk_lzb"/>
+
+## Reporting Incidents
+
+Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+
+Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/casecreate) on one of the following components:
+
+-   For issues while setting up or using the integration with SAP Cloud ALM, use the component SV-CLM-IMP-TM.
+
+-   For issues with the test automation tool itself, use the component XX-PART-TRI-TTA-CLD.
+
 
 **Related Information**  
 

@@ -115,6 +115,16 @@ To use this integration in your project, you need to configure a service and an 
 
 Once you've established the connection between SAP Cloud ALM and the test automation tool for SAP S/4HANA Cloud, a synchronization with the SAP S/4HANA Cloud system takes place to retrieve the existing automated test cases whenever new processes are scoped in your SAP Cloud ALM projects.
 
+
+
+<a name="loio07122541847b48fa9766044a8fc8c404__section_olf_bmk_lzb"/>
+
+## Reporting Incidents
+
+Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+
+Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/casecreate) on the component SV-CLM-IMP-TM.
+
 **Related Information**  
 
 

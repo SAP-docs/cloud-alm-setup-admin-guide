@@ -292,3 +292,13 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
     ![](images/Result_Setup_a02ee52.png)
 
 
+
+
+<a name="loio5aa24f076e3b4b47839f762baa7d089a__section_zls_yfj_gvb"/>
+
+## Reporting Incidents
+
+Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+
+Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/casecreate), under component SV-CLM-IMP-FTR .
+

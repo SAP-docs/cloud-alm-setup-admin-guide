@@ -32,7 +32,7 @@ To support users in their job, the following types of personal data are stored i
 		user-related data from the managed systems may be stored in SAP Cloud ALM.")**  
 If you've set up integrations with other SAP solutions or third-party applications, some user-related data from the managed systems may be stored in SAP Cloud ALM.
 -   **[Email Notifications in SAP Cloud ALM](email-notifications-in-sap-cloud-alm-af0413b.md "There are two different ways in which email notifications are handled in SAP Cloud
-			ALM.")**  
+		ALM.")**  
 There are two different ways in which email notifications are handled in SAP Cloud ALM.
 -   **[Change Log and Audit Log](change-log-and-audit-log-dd4f07d.md)**  
 

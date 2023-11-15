@@ -128,3 +128,13 @@ The following list contains the outbound services that are currently available:
 > ### Note:  
 > The collector jobs can only react to future events once they are activated. Past actions before the activation are not collected.
 
+
+
+<a name="loioa4238a9e586046268a1de5ea03ec6930__section_zls_yfj_gvb"/>
+
+## Reporting Incidents
+
+Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+
+Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/casecreate), under component SV-CLM-IMP-FTR .
+
