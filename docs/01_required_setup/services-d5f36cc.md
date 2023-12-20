@@ -8,7 +8,7 @@ The import method of services depends on the service type of your solution.
 
 
 
--   Most service types are imported automatically into SAP Cloud ALM on a daily basis if they are assigned to the same customer number as your SAP Cloud ALM tenant. This import is done on a daily basis by the System Landscape Information service.
+-   Most service types are imported into SAP Cloud ALM automatically if they are assigned to the same customer number as your SAP Cloud ALM tenant. This import is done on a daily basis by the System Landscape Information service.
 
     To display the current status in the *Landscape Management* app, open the *Configuration* \(:gear:\), expand the section *Import of Subscribed SAP Services*, and click on the first icon after *Status of imports*.
 
@@ -24,5 +24,7 @@ The import method of services depends on the service type of your solution.
 -   Only some service types \(for example, *Unspecific Cloud Service \(HTTP\)* or *Managed Gateway for Spend & Network*\) must be added to the *Landscape Management* app manually.
 
 
-To find out if additional setup steps are required for your service, refer to [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the SAP Cloud ALM for Operations Expert Portal.
+Observability data from your connected services isn't automatically sent to your SAP Cloud ALM tenant. If you want to start monitoring observability data, the data transfer to SAP Cloud ALM first needs to be configured.
+
+To find out which additional setup steps are required to monitor your service, refer to [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the SAP Cloud ALM for Operations Expert Portal.
 

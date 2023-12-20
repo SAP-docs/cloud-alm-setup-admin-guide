@@ -1,5 +1,7 @@
 <!-- loio2bddb584d07d4833b7e33454c3c4a79d -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM
 
 Tricentis Test Automation for SAP integrated with SAP Cloud ALM is a continuous testing platform that allows you to design automated, functional, end-to-end software tests across all layers of your enterprise architecture.
@@ -14,7 +16,7 @@ By using this integration in your project, you can take advantage of the test or
 
 ## Prerequisites
 
--   Your user in SAP Cloud ALM has the role *Global Administrator*.
+-   Your user in SAP Cloud ALM has the role *Global Administrator* or *Project Administrator*.
 
 -   You have an S-user with the role `Edit Cloud Data` and an email address that corresponds to the email address used in SAP Cloud ALM.
 
@@ -31,11 +33,7 @@ If you requested SAP Cloud ALM, you've received the authorizations required to s
 
 1.  In the SAP Cloud ALM launchpad, open the app *Set Up Tricentis Test Automation for SAP*.
 
-    ![](images/WN-TricentisConsent_01f69aa.png)
-
 2.  Read and accept the terms and conditions.
-
-    ![](images/SUI-TricentisConsent_7079a29.png)
 
     The following information is checked to determine if you meet the prerequisites to accept the terms and conditions:
 
@@ -93,9 +91,9 @@ If you requested SAP Cloud ALM, you've received the authorizations required to s
 5.  Set up Tricentis execution agents for remote execution, as described in [Execution Agents](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/agents.htm).
 
 
-You can now start using Tricentis Test Automation for SAP integrated with SAP Cloud ALM from the *Test Preparation* app in SAP Cloud ALM.
+You can now start using Tricentis Test Automation for SAP integrated with SAP Cloud ALM from the *Test Preparation* app in SAP Cloud ALM. The authoring of test cases happens directly Tricentis Test Automation for SAP, as described in the Tricentis documentation linked below.
 
-The test cases will then be authored in Tricentis Test Automation for SAP, as described in the Tricentis documentation.
+There's no need to create any additional users. Once an SAP Cloud ALM user accesses Tricentis Test Automation for SAP from SAP Cloud ALM, a user in the tool is automatically created.
 
 
 
@@ -103,7 +101,7 @@ The test cases will then be authored in Tricentis Test Automation for SAP, as de
 
 ## Reporting Incidents
 
-Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+If you encounter issues while using this app, open <span class="SAP-icons"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/casecreate) on one of the following components:
 

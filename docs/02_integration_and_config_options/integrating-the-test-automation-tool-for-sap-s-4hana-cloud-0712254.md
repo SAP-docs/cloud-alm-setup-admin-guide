@@ -121,7 +121,7 @@ Once you've established the connection between SAP Cloud ALM and the test automa
 
 ## Reporting Incidents
 
-Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+If you encounter issues while using this app, open <span class="SAP-icons"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/casecreate) on the component SV-CLM-IMP-TM.
 

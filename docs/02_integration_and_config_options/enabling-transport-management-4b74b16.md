@@ -18,4 +18,6 @@ By enabling the transport management for SAP S/4HANA Cloud, private edition, and
 		can orchestrate the deployment of transport requests through your implementation
 		landscape.")**  
 By enabling the transport management for the SAP Cloud Transport Management service, you can orchestrate the deployment of transport requests through your implementation landscape.
+-   **[Tips and Troubleshooting for Your Setups](tips-and-troubleshooting-for-your-setups-0fb29d9.md "Find information how to fix issues.")**  
+Find information how to fix issues.
 

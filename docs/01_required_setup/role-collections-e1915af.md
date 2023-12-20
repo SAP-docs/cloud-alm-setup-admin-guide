@@ -222,8 +222,6 @@ View tags, tag groups and tag usage
 
 Landscape Management
 
-User
-
 </td>
 <td valign="top">
 
@@ -259,9 +257,9 @@ Project Management
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, defects, and tags
+Manage projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, notes, documents, test cases, defects, tags, and SAP Readiness Check analyses
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -288,9 +286,9 @@ Project Management
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects
+Manage projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, notes, documents, test cases, and defects, and view SAP Readiness Check analyses
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -317,9 +315,9 @@ Project Management
 </td>
 <td valign="top">
 
-View projects and deployment plans. Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), notes, documents, test cases, and defects
+View projects, deployment plans, and SAP Readiness Check analyses. Manage tasks, scopes, process hierarchy nodes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), notes, documents, test cases, and defects
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -346,9 +344,9 @@ Project Management
 </td>
 <td valign="top">
 
-View projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects
+View projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, notes, documents, test cases, defects, and SAP Readiness Check analyses
 
-Your permissions within implementation projects additionally depend on the access level of the project and your team assignment in the project. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -539,6 +537,8 @@ Business Process Monitoring
 
 Consume KPIs and the respective process content \(including sensitive data\), process alerts, and maintain specific configurations
 
+Additionally, the access to particular business processes and data criteria can be restricted for users with this role by setting up access groups. For more information, refer to [Creating Access Groups](https://help.sap.com/docs/cloud-alm/applicationhelp/creating-access-groups).
+
 </td>
 <td valign="top">
 
@@ -565,6 +565,8 @@ Business Process Monitoring
 <td valign="top">
 
 Consume KPIs and the respective process content \(including sensitive data\), and process alerts
+
+Additionally, the access to particular business processes and data criteria can be restricted for users with this role by setting up access groups. For more information, refer to [Creating Access Groups](https://help.sap.com/docs/cloud-alm/applicationhelp/creating-access-groups).
 
 </td>
 <td valign="top">
@@ -593,6 +595,8 @@ Business Process Monitoring
 
 Consume KPIs and the respective process content \(including sensitive data\), and view alerts
 
+Additionally, the access to particular business processes and data criteria can be restricted for users with this role by setting up access groups. For more information, refer to [Creating Access Groups](https://help.sap.com/docs/cloud-alm/applicationhelp/creating-access-groups).
+
 </td>
 <td valign="top">
 
@@ -619,6 +623,8 @@ Business Process Monitoring
 <td valign="top">
 
 Consume KPIs and non-sensitive process content, without access to alert information
+
+Additionally, the access to particular business processes and data criteria can be restricted for users with this role by setting up access groups. For more information, refer to [Creating Access Groups](https://help.sap.com/docs/cloud-alm/applicationhelp/creating-access-groups).
 
 </td>
 <td valign="top">

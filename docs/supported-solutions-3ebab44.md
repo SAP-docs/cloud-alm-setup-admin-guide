@@ -59,7 +59,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -177,6 +177,8 @@ Process Management
 -   SAP SFSF Workforce Planning
 
 -   SAP SFSF Internal Talent Mobility
+
+-   SAP SFSF Dynamic Teams
 
 
 More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\) and [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
@@ -402,7 +404,7 @@ Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud, privat
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -614,7 +616,7 @@ Task Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -834,7 +836,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -1054,7 +1056,7 @@ Documents
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -1260,7 +1262,7 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -1480,29 +1482,7 @@ Test Management
 <tr>
 <td valign="top">
 
-Tricentis Test Automation for SAP integrated with SAP Cloud ALM
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Test Management
-
-</td>
-<td valign="top">
-
-More under [Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM](02_integration_and_config_options/setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -2382,7 +2362,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -2872,7 +2852,7 @@ More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-a
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -2982,7 +2962,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -3290,7 +3270,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud
+SAP S/4HANA Cloud, public edition
 
 </td>
 <td valign="top">
@@ -3488,6 +3468,94 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
+SAP Broker Reconciliation for Commodity Derivatives
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba Category Management
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Batch Release Hub for Life Sciences
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Integration Hub for Life Sciences
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite
 
 </td>
@@ -3503,7 +3571,7 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
-More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
 
 </td>
 </tr>
@@ -3525,7 +3593,7 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
-More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
 
 </td>
 </tr>
@@ -3547,7 +3615,7 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
-More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
 
 </td>
 </tr>
@@ -3569,7 +3637,29 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
-More under [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html) \(Expert Portal\).
+More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Cloud Foundry environment
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
 
 </td>
 </tr>
@@ -3601,6 +3691,28 @@ Prerequisites:
 
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Suite
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change & Deployment Management
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API
 
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve your service binding credentials and connect your SAP services and systems to your SAP Cloud ALM instance
+To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve your binding credentials and connect your SAP services and systems to your SAP Cloud ALM instance
 
 
 
@@ -32,9 +32,9 @@ On or after 2023-10-16
 </td>
 <td valign="top">
 
-A service binding was generated automatically.
+A binding was generated automatically.
 
-You can skip these steps altogether and access your service binding in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
+You can skip these steps altogether and access your binding in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
 
 </td>
 </tr>
@@ -48,9 +48,9 @@ Between 2023-06-12 and 2023-10-16
 
 A service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically.
 
-You can access it in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
+*Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
 
-You only need to carry out these steps if you want to set up transport management, but you no longer have to configure your entitlements.
+You only need to carry out these steps if you want to set up transport management, but you no longer have to configure your entitlements. You can access it in the SAP BTP cockpit or in the
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Before 2023-06-12
 </td>
 <td valign="top">
 
-No service key or service binding has been created as part of the initial provisioning. To create one manually, carry out the steps listed below.
+No service key or binding has been created as part of the initial provisioning. To create one manually, carry out the steps listed below.
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ No service key or service binding has been created as part of the initial provis
 > ### Note:  
 > This document describes how to retrieve a service key without a Cloud Foundry organization.
 > 
-> If a Cloud Foundry organization and space already exist in your SAP Cloud ALM subaccount \(as shown in the image below\) and are already in use in the context of SAP Cloud ALM APIs, you can also follow [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md). However, we strongly recommend following the approach **without** Cloud Foundry.
+> You can access it in the SAP BTP cockpit or in theIf a Cloud Foundry organization and space already exist in your SAP Cloud ALM subaccount \(as shown in the image below\) and are already in use in the context of SAP Cloud ALM APIs, you can also follow [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md). However, we strongly recommend following the approach **without** Cloud Foundry.
 > 
 > ![](images/SUI-EnabledCF_a426651.png)
 
@@ -179,21 +179,21 @@ An entitlement is your right to provision and consume a resource.
 
 
 
-### Create a Service Binding
+### Create a Binding
 
-Service bindings allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
+Bindings allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
 
-1.  Next to your instance, choose <span class="SAP-icons"></span> \(Actions\) and select *Create Service Binding*.
+1.  Next to your instance, choose <span class="SAP-icons"></span> \(Actions\) and select *Create Binding*.
 
     ![](images/NOCF-CreateServiceBinding_647e290.png)
 
-2.  Enter a name for your service binding.
+2.  Enter a name for your binding.
 
 3.  Choose *Create*.
 
 4.  Next to the created binding, choose <span class="SAP-icons"></span> \(Actions\) and select *View*.
 
-5.  You can now see your service binding in JSON format.
+5.  You can now see your binding in JSON format.
 
     It includes the following information:
 
@@ -208,12 +208,12 @@ Service bindings allow you to configure an external application so that it can c
 
 
 > ### Caution:  
-> Outside of the SAP BTP cockpit, service bindings must be stored securely. If you need a service binding, create the service binding directly in the SAP BTP cockpit, and access it from there whenever you need it.
+> Outside of the SAP BTP cockpit, bindings must be stored securely. If you need a binding, create the binding directly in the SAP BTP cockpit, and access it from there whenever you need it.
 
 -   **[Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md "To set up the connection between your managed systems and individual SAP Cloud ALM
-		applications, you need to retrieve a service key or service binding and connect your SAP
-		services and systems to your SAP Cloud ALM instance.")**  
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key or service binding and connect your SAP services and systems to your SAP Cloud ALM instance.
+		applications, you need to retrieve a service key or binding and connect your SAP services
+		and systems to your SAP Cloud ALM instance.")**  
+To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key or binding and connect your SAP services and systems to your SAP Cloud ALM instance.
 -   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM on or after 2023-06-14, an automatically generated SAP
 		Cloud ALM service key was uploaded to the Landscape Management app
 		for you. This key can be used to connect managed services to push monitoring data using

@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API in Cloud Foundry
 
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key or service binding and connect your SAP services and systems to your SAP Cloud ALM instance.
+To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key or binding and connect your SAP services and systems to your SAP Cloud ALM instance.
 
 Depending on the provisioning date of your SAP Cloud ALM tenant, some or all steps described in this document have already been automatically completed for you:
 
@@ -30,9 +30,9 @@ On or after 2023-10-16
 </td>
 <td valign="top">
 
-A service binding was generated automatically.
+A binding was generated automatically.
 
-You can skip these steps altogether and access your service binding in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
+You can skip these steps altogether and access your binding in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Before 2023-06-12
 </td>
 <td valign="top">
 
-No service key or service binding has been created as part of the initial provisioning. To create one manually, carry out the steps listed below.
+No service key or binding has been created as part of the initial provisioning. To create one manually, carry out the steps listed below.
 
 </td>
 </tr>
@@ -195,8 +195,6 @@ An entitlement is your right to provision and consume a resource.
 
 9.  Choose *Create*.
 
-10. When your instance has been created or updated, click on it.
-
 
 
 
@@ -204,7 +202,7 @@ An entitlement is your right to provision and consume a resource.
 
 Service keys allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
 
-1.  In the top right corner, choose <span class="SAP-icons"></span> \(Actions\) and select *Create Service Key*.
+1.  When your instance has been created, choose <span class="SAP-icons"></span> \(Actions\) next to it and select *Create Service Key*.
 
     ![Create a Service Key](images/Enabling_APIs_-_Create_Service_Key_515c433.png)
 
@@ -213,8 +211,6 @@ Service keys allow you to configure an external application so that it can conne
 3.  Choose *Create*.
 
 4.  Next to your newly created service key, choose <span class="SAP-icons"></span> \(Actions\) and select *View*.
-
-    ![](images/SUI-ViewServiceKey_7add56b.png)
 
 5.  You can now see your service key in JSON format.
 

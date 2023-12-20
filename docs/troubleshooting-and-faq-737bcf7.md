@@ -10,8 +10,6 @@ To get started, find your current phase or the subject of your issue and jump to
 
 -   [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb)
 
--   [During the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_okn_3rg_twb)
-
 -   [After the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_gxf_dyk_swb)
 
 -   [Identity Authentication](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_vhr_kyk_swb)
@@ -54,6 +52,20 @@ Resolution
 <tr>
 <td valign="top">
 
+You want to know how much it costs to use SAP Cloud ALM.
+
+</td>
+<td valign="top">
+
+SAP Cloud ALM is part of SAP Enterprise Support and other contracts. To find out if you're entitled to provision SAP Cloud ALM, refer to the [Usage Rights – SAP Cloud ALM](https://support.sap.com/en/alm/usage-rights) on SAP Support Portal. You can start the provisioning process [here](https://me.sap.com/systemsprovisioning/provisioning).
+
+SAP Cloud ALM options for which you may get charged are documented in our [Fair Use](fair-use-94cd95e.md) statement.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to request SAP Cloud ALM on SAP for Me, but you can't access the request dashboard.
 
 </td>
@@ -72,27 +84,38 @@ Make sure you fulfill the following prerequisites:
 
 </td>
 </tr>
-</table>
-
-
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_okn_3rg_twb"/>
-
-## During the Provisioning
-
-
-<table>
 <tr>
-<th valign="top">
+<td valign="top">
 
-Issue
+You want to determine if an SAP Cloud ALM tenant has already been provisioned for your customer number, or if it can still be provisioned.
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-Resolution
+Open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me:
 
-</th>
+-   If SAP Cloud ALM is available in the section *Products Available for Provisioning*, it has not been provisioned yet and you can request it.
+
+-   If SAP Cloud ALM is available in the section *Provisioning Status*, the provisioning is either in progress or completed.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to provision your SAP Cloud ALM tenant in the **Netherlands | Amsterdam** region.
+
+</td>
+<td valign="top">
+
+The **Netherlands | Amsterdam** region was available during the initial phase of the SAP Cloud ALM rollout, which is why it may still be listed at different places on SAP websites, for example, under [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?mode=solution&currentLevel=region&solutionId=NZA52&regionCode=EU) in the SAP Trust Center.
+
+However, this region is no longer available for the provisioning of SAP Cloud ALM.
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -293,7 +316,7 @@ You have questions on which Identity Authentication tenant to select for the pro
 </td>
 <td valign="top">
 
-Refer to the section [During the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_okn_3rg_twb).
+Refer to the section [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb).
 
 </td>
 </tr>

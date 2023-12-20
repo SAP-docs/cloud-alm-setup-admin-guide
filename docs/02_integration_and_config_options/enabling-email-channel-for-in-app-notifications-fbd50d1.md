@@ -130,8 +130,8 @@ Open authorization requests exist.
 
 To enable email notifications, you need to maintain a destination in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
 
-> ### Note:  
-> For the configuration mentioned above you have to operate your own email server, and your email solution must support basic authentication.
+> ### Caution:  
+> For the configuration mentioned above you have to operate your own email server which is under your responsibility. Also, your email solution must support basic authentication.
 
 
 

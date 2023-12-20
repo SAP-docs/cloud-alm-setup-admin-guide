@@ -133,7 +133,7 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
 
 The user will now also receive a welcome email from SAP Cloud ALM.
 
-For more information on how to use the *User Management* app to view, add, and change roles, refer to the in-app help.
+For more information on how to use the *User Management* app to view, add, and change roles, refer to [User Management](https://help.sap.com/docs/cloud-alm/applicationhelp/user-management).
 
 
 

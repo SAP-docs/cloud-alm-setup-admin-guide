@@ -6,7 +6,7 @@
 
 By enabling the transport management for SAP S/4HANA Cloud with the Adaptation Transport Organizer \(ATO\), you can orchestrate the deployment of transport requests through your implementation landscape.
 
-In order to use the `ATO` for SAP S/4HANA Cloud in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the `ATO`.
+In order to use the ATO for SAP S/4HANA Cloud in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the ATO.
 
 
 
@@ -134,7 +134,7 @@ The following list contains the outbound services that are currently available:
 
 ## Reporting Incidents
 
-Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+If you encounter issues while using this app, open <span class="SAP-icons"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/casecreate), under component SV-CLM-IMP-FTR .
 

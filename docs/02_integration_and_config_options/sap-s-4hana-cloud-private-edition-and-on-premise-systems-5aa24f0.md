@@ -1,27 +1,68 @@
 <!-- loio5aa24f076e3b4b47839f762baa7d089a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # SAP S/4HANA Cloud, Private Edition and On-Premise Systems
 
 By enabling the transport management for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
 
 To use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you've to establish a connection between SAP Cloud ALM and the `(CTS)`.
 
-SAP Cloud ALM supports the integration of `(CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise.
-
 > ### Caution:  
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner.
 
 
 
-<a name="loio5aa24f076e3b4b47839f762baa7d089a__section_mx3_ds4_sqb"/>
+<a name="loio5aa24f076e3b4b47839f762baa7d089a__section_tyl_m5p_rzb"/>
 
-## Technical Prerequisites for the ABAP System
+## Technical Prerequisites
+
+
+
+### For the Transport Management System \(TMS\) Setup
+
+Currently supported landscapes:
+
+-   Any kind of consistent Transport Management System \(TMS\) landscape. The last system in a track will always be treated as a production system.
+
+-   Client-specific transport routes \(TMS option CTC\) are strongly recommended.
+
+-   TMS transport groups are supported.
+
+
+> ### Caution:  
+> If you want to implement landscape changes, please note the following information:
+> 
+> -   Adding new systems to a track is supported as long as no consolidation routes are changed. Mind, that you need to adjust the transport buffers manually.
+> 
+> -   Refreshing a \(test\) system is supported if the system ID stays the same. This still means, the transport buffers and imports need to be adjusted manually.
+> 
+> -   Changing delivery routes is partly supported. This means, the transport buffers need to be adjusted manually and removed systems are still reported on in the feature traceability.
+> 
+> -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability.
+> 
+> -   Changing or deleting export targets is not supported.
+> 
+> -   Switching on or off client specific transport routes is not supported.
+
+If you need to perform unsupported changes of the transport configuration in the Transport Management System \(TMS\), make sure that all open features and transports are completed and deployed to the production system. Therefore, the transport buffers should be empty.
+
+> ### Tip:  
+> We strongly recommend using always client-dependent transport routes \(TMS option CTC\) from the very beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes at a later point in time is a complete landscape change that isn't supported while there are still transports open.
+> 
+> We strongly recommend using a transport target group as consolidation target. By using the transport target group, you can always change your consolidation systems by just changing the systems within the consolidation target group while technically the consolidation target \(which is the consolation target group\) stays stable.
+> 
+> ![](images/System_Landscape_22cfc8a.png)
+
+
+
+### For the ABAP System
 
 Before you can start enabling the transport management for SAP S/4HANA Cloud, private edition or SAP NetWeaver Application Server for ABAP on-premise, you need to fulfill the following prerequisites:
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 23, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 23, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679) .
 
     > ### Note:  
     > It's recommended to use SP23.
@@ -197,16 +238,6 @@ The configuration of the push data provider is needed to enable the processing o
     > 
     > -   It's only necessary to set up on one system per domain \(that is the domain controller\). A domain controller is mandatory for the TMS. Using the same domain controller to connect to SAP Cloud ALM is optional.
     > 
-    > -   Currently supported landscapes:
-    > 
-    >     -   Landscapes with basic consolidation and/or delivery targets, for example TMS quality assurance or transport workflow. These are optional workflows.
-    > 
-    >         For more information about these workflows, refer to [TMS Quality Assurance and Transport Workflow](https://help.sap.com/doc/saphelp_qim100/1.0/en-US/9c/a544c6c57111d2b438006094b9ea64/frameset.htm).
-    > 
-    >     -   Landscapes with client-specific transport routes or using the `Central Technical Configuration (CTC)`. Using CTC is optional.
-    > 
-    >     -   Support of several transport groups
-    > 
     > 
     > **Feature Deployment: Manage Transports**
     > 
@@ -231,9 +262,6 @@ The configuration of the push data provider is needed to enable the processing o
     ![](images/Enabling_Transport_Management_Result_cc9fec4.png)
 
 
-> ### Caution:  
-> If you want to change the transport configuration in the Transport Management system, make sure that all current changes are completed and deployed to the production system. Additionally, the transport buffers should be empty. Otherwise, you need to adjust the respective transport buffers manually.
-
 
 
 <a name="loio5aa24f076e3b4b47839f762baa7d089a__section_amq_jvv_k5b"/>
@@ -251,10 +279,25 @@ The following client-dependent use cases are available to you:
 -   Transport of copies
 
 
+
+
+### Relevant Jobs in Managed Systems
+
+There are important jobs to be executed in the managed systems. The jobs mentioned below should be at least released, but always check for scheduled and active jobs in case of issues.
+
+To create and release transports as well as creating transport of copies, for example in client 100 of the development system use the following transaction:`/SDF/CALM_CDM_TR_PROC_CL_DEP-100`
+
+> ### Note:  
+> The job `/SDF/CALM_CDM_DIAGNOSTICS` pushes data about the available capabilities in the managed system `ST-PI`to SAP Cloud ALM.
+> 
+> This job is supposed to be released and executed once per day and client.
+> 
+> For the import of transports there is a job executed in each target system client `000`:`/SDF/CALM_CDM_IMPORT_TRANSPORTS`
+
 To enable the use cases mentioned above within an SAP Cloud ALM feature, execute the following setup in each development client that you want to use:
 
 > ### Note:  
-> Before you start with the setup, please make sure that you've performed all the configuration steps in the **Technical Prerequisites for the ABAP System** section of this guide. Additionally, make sure that you've implemented the current version of the SAP Note. Currently it'is [3322679](https://me.sap.com/notes/3322679).
+> Before you start with the setup, please make sure that you've performed all the configuration steps in the **Technical Prerequisites for the ABAP System** section of this guide. Additionally, make sure that you've implemented the current version of the SAP Note. Currently it's [3322679](https://me.sap.com/notes/3322679).
 > 
 > Also make sure that setup for client 000 was already performed and that the use case **Feature Deployment: Manage Transports** was already activated.
 
@@ -298,7 +341,7 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
 ## Reporting Incidents
 
-Use the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me to get help for your specific area.
+If you encounter issues while using this app, open <span class="SAP-icons"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/casecreate), under component SV-CLM-IMP-FTR .
 

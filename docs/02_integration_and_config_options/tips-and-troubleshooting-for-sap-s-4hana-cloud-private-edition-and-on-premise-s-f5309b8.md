@@ -1,0 +1,264 @@
+<!-- loiof5309b8c2def44dab24156cca7a1459b -->
+
+# Tips and Troubleshooting for SAP S/4HANA Cloud, Private Edition and On-Premise Systems
+
+
+
+<a name="loiof5309b8c2def44dab24156cca7a1459b__section_b4q_qsn_fzb"/>
+
+## How to Deal With Connection Issues
+
+If you encounter connection issues during the setup of the transport management of SAP S/4HANA Cloud, private edition or SAP NetWeaver Application Server for ABAP on-premise, you can perform the respective steps below to solve the connection issues.
+
+
+
+### Troubleshooting Steps
+
+1.  **Connection Check Report**
+
+    1.  To check whether your connection is established properly, execute the program `/SDF/CALM_CDM_CONN_DIAGNOSTIC` in client 000 and all working clients of all managed systems you want to connect to SAP Cloud ALM.
+
+        Additionally, you can use transaction `/SDF/ALM_DIAGNOSTIC` to execute the checks.
+
+    2.  Here, you choose the SAP Cloud ALM destination used for the connection to your SAP Cloud ALM tenant. Then, you can execute the report with the defaulted options.
+
+        ![](images/Step1_FAQ_Connection_c9ded79.png)
+
+    3.  After you've performed the previous step, check the result.
+
+    4.  The token was reset. This means that the latest configuration is applied.
+
+        Token scopes must contain the following entries:
+
+        -   `imp-cdm-feature-manage-ui` 
+        -   `imp-cdm-feature-display-ui` 
+
+        ![](images/Token_Table_7a542b6.png)
+
+        If that’s not the case, you need to update the SAP Cloud ALM API instance with the corresponding scope described here: [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md)
+
+    5.  The following use cases must be active:
+
+        -   *Feature Deployment: Read Transport Landscape*: `CALM_CDM_TMS_LNDSCP` to synchronize the transport landscape from TMS - in the domain controller client 000.
+        -   *Feature Deployment: Manage Transports*: `CALM_CDM_TMS` for managing transports \(mainly to assign existing transport requests\) - in the development system client 000.
+        -   *Feature Deployment: Import Transports*: `CALM_CDM_TMS_IMPORT` for importing transports - in all target systems client 000.
+
+            > ### Note:  
+            > If development clients are supposed to be supplied with changes, you must activate the use case there as well.
+
+        -   *Feature Deployment: Manage Transport per Client*:`CALM_CDM_TMS_CLI_DEP`to create and release transports and to create transport of copies. This is true for all development clients.
+
+        > ### Note:  
+        > A typical 3-tier looks like that:
+        > 
+        > -   Transport route: `O11.100` –\> `O12.100` –\> `O13.100`
+        > -   Domain controller: `O11`
+        > 
+        > The following table shows the different use cases per client.
+        > 
+        > **Use Case Available per Client**
+        > 
+        > 
+        > <table>
+        > <tr>
+        > <th valign="top">
+        > 
+        > Use Case / Client
+        > 
+        > </th>
+        > <th valign="top">
+        > 
+        > `O11 .000`
+        > 
+        > </th>
+        > <th valign="top">
+        > 
+        > `O11.100`
+        > 
+        > </th>
+        > <th valign="top">
+        > 
+        > `O12.000`
+        > 
+        > </th>
+        > <th valign="top">
+        > 
+        > `O13.000`
+        > 
+        > </th>
+        > </tr>
+        > <tr>
+        > <td valign="top">
+        > 
+        > Feature Deployment: Manage Transport per Client
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        > Active
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > </tr>
+        > <tr>
+        > <td valign="top">
+        > 
+        > Feature Deployment: Import Transports
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        > Active
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        > Active
+        > 
+        > </td>
+        > </tr>
+        > <tr>
+        > <td valign="top">
+        > 
+        > Feature Deployment: Read Transport Landscape
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        > Active
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > </tr>
+        > <tr>
+        > <td valign="top">
+        > 
+        > Feature Deployment: Manage Transports
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        > Active
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > <td valign="top">
+        > 
+        >  
+        > 
+        > </td>
+        > </tr>
+        > </table>
+
+    6.  The result of the connection check should provide a table of active use cases:
+
+        ![](images/Active_Uses_Cases_Faq_e927cf6.png)
+
+        The *Message* column provides information about the last execution. In case you find an error message, check the chapter application logs in this section of this guide for further investigation steps.
+
+    7.  The batch user must have the following roles \(or copied ones with the same authorizations\):
+
+        1.  `SAP_BC_TRANSPORT_ADMINISTRATOR`
+        2.  `SAP_SDF_ALM_METRIC_PUSH_FND`
+
+        ![](images/Roles_FAQ_bdadabb.png)
+
+    8.  In the *Installed Components* table, you must check `SAP_BASIS` and `ST-PI` levels. The prerequisites are`SAP_BASIS`7.40 SP20 or higher \(accordingly 7.50 SP04\) and ST-PI 7.40 SP 18.
+
+        ![](images/Step1_FAQ_Connection_roles_8a736fd.png)
+
+        > ### Note:  
+        > You can find additional details about roles and other prerequisites at the beginning of this guide.
+
+    9.  In addition, you get an overview of all installed notes related to the integration scenario:
+
+        ![](images/Installed_Notes_fcfa93c.png)
+
+    10. Please make sure that all manual steps included in the necessary notes were executed properly.
+
+
+2.  **Applications Logs** 
+
+    In case of issues showing up in the table of active use cases of the connection check result \(see column *Message*\) you can check the application log:
+
+    1.  Go to transaction `SLG1` and execute a search for the following objects: Object:`/SDF/CALM`, Subobject: `BUILD_CDM`.
+
+    2.  Check for errors to collect further information.
+
+
+3.  **Relevant Jobs in Managed Systems**
+
+    There are important jobs to be executed in the managed systems. The jobs mentioned below should be at least released but always check for scheduled and active jobs in case of issues.
+
+    To create and release transports as well as creating transport of copies, for example in client 100 of the development system use the following transaction: `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` 
+
+    ![](images/Client_Dependant_Job_ee15b48.png)
+
+    > ### Note:  
+    > The job `/SDF/CALM_CDM_DIAGNOSTICS` pushes data about the available capabilities in the managed system `ST-PI` to SAP Cloud ALM.
+    > 
+    > This job is supposed to be released and executed once per day and client.
+    > 
+    > For the import of transports there is a job executed in each target system client `000`: `/SDF/CALM_CDM_IMPORT_TRANSPORTS`
+
+    In case of import issues, you can have a look into the job log.
+
+    Sometimes a component version mismatch is detected, and this would block the import of all transports assigned to features if the mismatch situation is not resolved.
+
+    ![](images/Mismatch_3974838.png)
+
+    > ### Note:  
+    > In case several features are deployed together, all the transports assigned will be imported as import subset. If one transport request of the subset leads to a component mismatch situation the import of all transports is blocked.
+    > 
+    > To resolve this issue please refer to the following SAP Note: [1688610](https://me.sap.com/notes/1688610)[https://me.sap.com/notes/0001688610](https://me.sap.com/notes/0001688610)
+
+
+Please make sure that all manual steps included in the necessary notes were executed properly.
+

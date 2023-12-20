@@ -81,7 +81,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
         > 
         > -   To simplify the maintenance of administrators in your Identity Authentication tenant, select an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
         > 
-        > -   If your company has specific requirements \(functional or legal\) to not allow users from an SAP Cloud ALM tenant to access an SAP SuccessFactors tenant \(or vice versa\), both applications should use separate Identity Authentication tenants. You can find more SAP SuccessFactors-specific guidance on this topic [here](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html).
+        > -   If your company has specific requirements \(functional or legal\) to not allow users from an SAP Cloud ALM tenant to access an SAP SuccessFactors tenant \(or vice versa\), both applications should use separate Identity Authentication tenants. You can find more SAP SuccessFactors-specific guidance on this topic [here](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html?version=2311#procedure).
         > 
         >     If you have no other Identity Authentication tenants available for selection, you can request a new one as described in [Tenant Model and Licensing – Getting an Additional Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud#getting-an-additional-tenant).
 
@@ -98,11 +98,11 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 9.  When the status is *Provisioning Triggered*, SAP automatically prepares SAP Cloud ALM and creates the following entities \(see also graphic below\):
 
-    -   A global account that contains your SAP Cloud ALM entitlement, with the name “SAP Cloud ALM”
+    -   A global account with the name “SAP Cloud ALM” followed by your customer number.
 
-        A global account is the realization of a contract you made with SAP. It's region-independent, and it's used to manage subaccounts, members, entitlements, and quotas.
+        A global account is the realization of a contract you made with SAP. It's region-independent, and it's used to manage subaccounts, members, entitlements \(including your SAP Cloud ALM entitlement\), and quotas.
 
-    -   A subaccount that contains your SAP Cloud ALM subscription, with the name “SAP Cloud ALM”, and subscriptions to the Cloud Integration Automation service and SAP Cloud Transport Management.
+    -   A subaccount with the name “SAP Cloud ALM” that contains your SAP Cloud ALM subscription and subscriptions to the Cloud Integration Automation service and SAP Cloud Transport Management.
 
         Subaccounts let you structure a global account according to your organization's and project's requirements with regard to members, authorizations, and entitlements.
 
