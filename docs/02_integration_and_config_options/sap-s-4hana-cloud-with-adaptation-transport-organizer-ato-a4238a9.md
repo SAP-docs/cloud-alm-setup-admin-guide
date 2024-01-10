@@ -4,7 +4,12 @@
 
 # SAP S/4HANA Cloud with Adaptation Transport Organizer \(ATO\)
 
-By enabling the transport management for SAP S/4HANA Cloud with the Adaptation Transport Organizer \(ATO\), you can orchestrate the deployment of transport requests through your implementation landscape.
+Enable the transport management with Adaptation Transport Organu
+
+By enabling the transport management for SAP S/4HANA Cloud with the Adaptation Transport Organizer \(ATO\), you can keep track of the deployment of transport requests through your implementation landscape.
+
+> ### Note:  
+> Only released transports can be be assigned to features. For more information please check the following documentation: [https://help.sap.com/docs/cloud-alm/applicationhelp/integration-of-deployment-tools](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-of-deployment-tools)
 
 In order to use the ATO for SAP S/4HANA Cloud in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the ATO.
 

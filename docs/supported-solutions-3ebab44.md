@@ -2362,6 +2362,28 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Intelligent Product Recommendation
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud, public edition
 
 </td>
@@ -3644,7 +3666,29 @@ More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operati
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry environment
+Identity Authentication
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Credential Store
 
 </td>
 <td valign="top">

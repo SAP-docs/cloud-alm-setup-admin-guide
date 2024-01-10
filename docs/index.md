@@ -34,6 +34,7 @@
     -   [Enabling Service Delivery](02_integration_and_config_options/enabling-service-delivery-a1b2494.md)
 -   [Application Configuration](application-configuration-ce08e9d.md)
 -   [Launching Your Systems from SAP for Me](launching-your-systems-from-sap-for-me-9d4aa2a.md)
+-   [Account Termination](account-termination-219d7d0.md)
 -   [Data Protection and Privacy](03_DPP/data-protection-and-privacy-2fdc2f0.md)
     -   [User Data from SAP Cloud ALM](03_DPP/user-data-from-sap-cloud-alm-65c98de.md)
     -   [User Data from Managed Systems](03_DPP/user-data-from-managed-systems-3ef5218.md)
@@ -43,6 +44,5 @@
     -   [Development and Product Security](development-and-product-security-e9134c5.md)
     -   [Security Configuration Recommendations](security-configuration-recommendations-8154236.md)
         -   [Explanations of Table Properties](explanations-of-table-properties-3afa465.md)
--   [Account Termination](account-termination-219d7d0.md)
 -   [Troubleshooting and FAQ](troubleshooting-and-faq-737bcf7.md)
 
