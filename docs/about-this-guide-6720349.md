@@ -11,24 +11,18 @@ SAP Cloud ALM is a cloud-based application lifecycle management offering that al
 This guide describes the steps you need to perform to set up, configure, and administer SAP Cloud ALM, and provides important information about data protection and privacy and security topics. The guide addresses system administrators and key users as a target audience.
 
 > ### Tip:  
-> The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, choose <span class="SAP-icons"></span> Feedback and select the corresponding option:
+> To leave feedback and contribute to this guide, choose <span class="SAP-icons"></span> Feedback and select from one of the following options:
 > 
-> -   *Create issue*: Provide feedback about a documentation page. This option opens an issue on GitHub.
+> -   *Comment*: Leave a comment about a documentation page directly on SAP Help Portal. Before you can comment, you need to log on with your S-user or P-user.
 > 
-> -   *Edit document*: Contribute to a documentation page. This option opens a pull request on GitHub.
+> -   *Create issue* \(English version only\): Provide feedback about a documentation page via issue on GitHub. To create an issue, you need to log on to your GitHub account.
+> 
+> -   *Edit document* \(English version only\): Contribute to a documentation page via pull request on GitHub. To create a pull request, you need to log on to your GitHub account.
 > 
 > 
-> You need a GitHub account to use these options.
+> This allows you to get in contact with the technical authors responsible for the SAP Help Portal page to discuss documentation-related issues.
 > 
-> More information:
-> 
-> -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
-> 
-> -   [Introduction Video: Open Documentation Initiative](https://www.youtube.com/watch?v=WJ0oarMlVW4)
-> 
-> -   [Blog Post: Introducing the Open Documentation Initiative](https://blogs.sap.com/2021/05/20/introducing-the-open-documentation-initiative/)
-
-Make sure that you have the latest version of this guide, which can be found under [SAP Cloud ALM](https://help.sap.com/viewer/p/CALM).
+> For more information about feedback channels on GitHub, refer to the blog post [Introducing the Open Documentation Initiative](https://blogs.sap.com/2021/05/20/introducing-the-open-documentation-initiative/).
 
 SAP makes no warranty, either expressed or implied, for the information provided here. Due to short-term software updates, completeness cannot be guaranteed and the information is subject to change. For the same reasons, translations of this guide into languages other than English may not reflect the latest changes.
 

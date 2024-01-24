@@ -337,6 +337,23 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
 
 
+<a name="loio5aa24f076e3b4b47839f762baa7d089a__section_z4g_lfq_d1c"/>
+
+## Configuration of the Transport Organizer Web UI
+
+Before you can start using the navigation to the transport organizer for CTS managed transports by using the transport id in the *Features* app, you have to activate the web-service for transport organizer web ui.
+
+Please follow the steps in the [Activating the Web Service for Transport Organizer Web UI](https://help.sap.com/docs/SAP_NETWEAVER_700/109ce05a6c531014b4e8fe6b0570a984/45ec35a90fdc3481e10000000a1553f6.html) documentation.
+
+> ### Note:  
+> If the transport organizer web ui is throwing exceptions, check the following:
+> 
+> -   Make sure that you've configured the start authorization according the following notes: [1413011](https://me.sap.com/notes/1413011) and/or [3064888](https://me.sap.com/notes/3064888) respectively.
+> 
+> -   Check the HTTP\_WHITELIST [0002578665](https://me.sap.com/notes/0002578665) and the UCON\_CHW allowlist [0003290787](https://me.sap.com/notes/0003290787).
+
+
+
 <a name="loio5aa24f076e3b4b47839f762baa7d089a__section_zls_yfj_gvb"/>
 
 ## Reporting Incidents

@@ -4,7 +4,7 @@
 
 # Step 2: Assign Roles to Users in SAP Cloud ALM
 
-After onboarding your users to the Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.
+After onboarding your users to your Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.
 
 You can assign roles to users directly in the SAP Cloud ALM *User Management* app \(recommended\) or as corresponding role collections in the SAP BTP cockpit.
 
@@ -27,7 +27,7 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
 
     If you've requested SAP Cloud ALM, you've automatically received the role *Global Administrator*. If someone else has requested SAP Cloud ALM, they can assign one of the required roles to you by following the process below.
 
--   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md).
+-   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
 
 
 
@@ -156,7 +156,7 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 
     If you have requested SAP Cloud ALM, your user has automatically received this authorization during the creation of the subaccount. If you don't have this authorization, the subaccount administrator can assign the role to you by following the steps described in [Add Members to Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
 
--   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md).
+-   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
 
 
 
@@ -177,13 +177,12 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 
 7.  Add users to this role collection as follows:
 
-    -   If you’re using the standard configuration in trust settings and identity provider that were set when you requested SAP Cloud ALM, enter the email address of the user into the fields *ID* **and** *E-Mail*. Select *Custom IAS Tenant* as identity provider.
-
-        ![](images/Appointing_Admin_-_ID_Email_3de0dc0.png)
+    -   If you’re using the standard configuration in trust settings and identity provider that was set when you requested SAP Cloud ALM, enter the email address of the user into the fields *ID* **and** *E-Mail*. Select *Custom IAS Tenant* as identity provider.
 
     -   If you've manually connected the identity provider or selected a different identification attribute \(such as user ID\) in your identity provider, enter the identification attribute that you maintained there into the field *ID* and make sure to select the correct identity provider.
 
-        Don't use the identity provider that's named *SAP ID Service* or *sap.default*.
+        > ### Caution:  
+        > Don't use the identity provider *Default identity provider*, *SAP ID Service*, or *sap.default*.
 
 
 

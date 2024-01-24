@@ -105,7 +105,7 @@ If you encounter issues while using this app, open <span class="SAP-icons"></
 
 Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/casecreate) on one of the following components:
 
--   For issues while setting up or using the integration with SAP Cloud ALM, use the component SV-CLM-IMP-TM.
+-   For issues while setting up or using the integration with SAP Cloud ALM, use the component SV-CLM-IMP-TAT.
 
 -   For issues with the test automation tool itself, use the component XX-PART-TRI-TTA-CLD.
 

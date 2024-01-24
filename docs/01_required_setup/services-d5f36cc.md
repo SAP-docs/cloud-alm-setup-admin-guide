@@ -4,7 +4,7 @@
 
 # Services
 
-The import method of services depends on the service type of your solution.
+The import method of services in SAP Cloud ALM depends on the service type of your solution.
 
 
 

@@ -497,7 +497,7 @@ The onboarding of users consists of two steps that take place in two different a
 
 Before you can add users in SAP Cloud ALM and assign roles to them, you need to create them in your Identity Authentication tenant.
 
-For more information, refer to [Step 1: Onboard Users in Your Identity Authentication Service](01_required_setup/step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md).
+For more information, refer to [Step 1: Onboard Users in the Identity Authentication Service](01_required_setup/step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
 
 </td>
 </tr>

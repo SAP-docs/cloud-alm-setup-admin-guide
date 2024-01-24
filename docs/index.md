@@ -7,7 +7,7 @@
 -   [Video-Guided Setup](video-guided-setup-cd38b1f.md)
 -   [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md)
 -   [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
-    -   [Step 1: Onboard Users in Your Identity Authentication Service](01_required_setup/step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md)
+    -   [Step 1: Onboard Users in the Identity Authentication Service](01_required_setup/step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md)
     -   [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md)
         -   [Role Collections](01_required_setup/role-collections-e1915af.md)
     -   [Step 3: Set Up Landscape Management](01_required_setup/step-3-set-up-landscape-management-23f1c49.md)

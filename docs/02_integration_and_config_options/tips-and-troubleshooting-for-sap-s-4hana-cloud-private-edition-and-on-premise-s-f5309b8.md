@@ -4,6 +4,164 @@
 
 
 
+<a name="loiof5309b8c2def44dab24156cca7a1459b__section_svw_sxj_d1c"/>
+
+## Issues and Solutions
+
+In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud, private edition or SAP NetWeaver Application Server for ABAP on-premise.
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+</th>
+<th valign="top">
+
+Solution
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+I can't create transports
+
+</td>
+<td valign="top">
+
+Go to the managed system:
+
+1.  Check if the service key is missing the auth scopes.
+
+    If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the Procedure section of the [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
+
+2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the export tenant \(working client shouldn't be 000\).
+
+3.  Check if the job /SDF/CALM\_CDM\_TR\_PROC\_CL\_DEP-100 is released and is running frequently in the export tenant.
+
+4.  Check if the job /SDF/CALM\_CDM\_DIAGNOSTICS is running in development system client 000.
+
+
+In SAP Cloud ALM check the following:
+
+Export tenant is in the system group and is assigned to the project through the deployment plan.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+I can't release transports
+
+</td>
+<td valign="top">
+
+Go to the managed system:
+
+1.  Check if the service key is missing the auth scopes.
+
+2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the export tenant \(working client shouldn't be 000\).
+
+3.  Check if the job /SDF/CALM\_CDM\_TR\_PROC\_CL\_DEP-100 is released and is running frequently in the export tenant.
+
+4.  Check if the job /SDF/CALM\_CDM\_DIAGNOSTICS is running in development system client 000.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+I can't create Transport of Copies
+
+</td>
+<td valign="top">
+
+Go to the managed system:
+
+1.  Check if the service key is missing auth scopes.
+
+2.  Check if the use case Feature Deployment: Manage Transports per Client active in the export tenant\(working client shouldn't be 000\).
+
+3.  Check if the job /SDF/CALM\_CDM\_TR\_PROC\_CL\_DEP-100 is released / and is running frequently in the export tenant.
+
+4.  Check if the job /SDF/CALM\_CDM\_DIAGNOSTICS is running in development system client 000.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+I can't deploy features
+
+</td>
+<td valign="top">
+
+Go to the managed system:
+
+1.  Check if the service key is missing auth scopes.
+
+2.  Check if the use case Feature Deployment: Import Transports active in target system client 000
+
+3.  Check if the job /SDF/CALM\_CDM\_IMPORT\_TRANSPORTS is released and running .
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+I can't assign transports
+
+</td>
+<td valign="top">
+
+Go to the managed system:
+
+1.  Check if the service key is missing auth scopes.
+
+2.  Check if the use case Feature Deployment: Manage Transports is active in development client 000.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+My import jobs are stuck
+
+</td>
+<td valign="top">
+
+Go to the managed system:
+
+1.  The job /SDF/CALM\_CDM\_IMPORT\_TRANSPORTS is released and running.
+
+2.  The job log of /SDF/CALM\_CDM\_IMPORT\_TRANSPORTS shows a component version mismatch. In case several features are deployed together, all the transports assigned are imported as an import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
+
+
+To resolve the mismatch issue refer to the following SAP Note:[1688610](https://me.sap.com/notes/1688610) 
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loiof5309b8c2def44dab24156cca7a1459b__section_b4q_qsn_fzb"/>
 
 ## How to Deal With Connection Issues

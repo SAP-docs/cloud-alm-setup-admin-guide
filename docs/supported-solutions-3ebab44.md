@@ -37,28 +37,6 @@ Notes
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry environment
-
-</td>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Real User Monitoring
-
-</td>
-<td valign="top">
-
-More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SAP S/4HANA Cloud, public edition
 
 </td>
@@ -74,7 +52,7 @@ Process Management
 </td>
 <td valign="top">
 
--   [SAP Best Practices for SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_CLD_ENTPR)
+-   [SAP Best Practices for SAP S/4HANA Cloud, public edition](https://rapid.sap.com/bp/BP_CLD_ENTPR)
 
 -   [Two-Tier ERP](https://me.sap.com/processnavigator/SolS/EARL_SolS-067)
 
@@ -203,7 +181,7 @@ Process Management
 </td>
 <td valign="top">
 
-[https://rapid.sap.com/bp/\#/browse/categories/lines\_of\_business/areas/marketing/packageversions/BP\_CLD\_MKT](https://rapid.sap.com/bp/#/browse/categories/lines_of_business/areas/marketing/packageversions/BP_CLD_MKT)
+SAP Best Practices for SAP Marketing Cloud
 
 </td>
 </tr>
@@ -397,7 +375,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) \(new implementation and system conversion\)
+Task template: [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – Implementation and System Conversion 
 
 </td>
 </tr>
@@ -419,7 +397,18 @@ Task Management
 </td>
 <td valign="top">
 
-Task template available: [SAP Activate Methodology for SAP S/4HANA Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) 
+Task templates:
+
+-   [SAP Activate for SAP S/4HANA Cloud, public edition \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/82b2db84548d41209cda972f0fac428b) – Implementation
+
+-   [SAP Activate for Upgrade of SAP S/4HANA Cloud, public edition, three-system landscape](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/b6cc8dc5bbb749a59e1e21a4796c796f) – Upgrade
+
+-   [Baseline Activation Service for SAP S/4HANA Cloud \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/d9ffcd6438ab4ee9a02bfcf682502892)
+
+-   [SAP Activate for SAP S/4HANA Cloud, public edition \(2-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) –Implementation
+
+
+
 
 </td>
 </tr>
@@ -441,11 +430,13 @@ Task Management
 </td>
 <td valign="top">
 
-Task template available:
+Task templates:
 
--   [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) \(new implementation and system conversion\)
+-   [SAP Activate Methodology for Transition to SAP S/4HANA](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/S4HANATRANSONPRE) 
 
--   [SAP Activate Methodology for SAP S/4HANA Cloud, extended edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/5368adff269741c9) 
+-   [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – New Implementation, System Conversion, and Selective Data Transition
+
+-   [SAP Activate Methodology for SAP S/4HANA Upgrades](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/MATS4HANA) – Technical Upgrade and Upgrade and Product Integration
 
 
 
@@ -470,14 +461,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template available:
-
--   [SAP Activate Methodology for the Intelligent Enterprise: Hire-to-Retire](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/3f599fdbad8546d6)
-
--   [SAP Activate Methodology for SAP SuccessFactors](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHCLDSF)
-
-
-
+Task template: [SAP Activate Methodology for SAP SuccessFactors](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHCLDSF) – Implementation 
 
 </td>
 </tr>
@@ -499,7 +483,7 @@ Task Management
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+Task template: [SAP Activate Methodology for SAP Sales Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/21471841d1684e148c7193ad39c6bf54) 
 
 </td>
 </tr>
@@ -521,7 +505,7 @@ Task Management
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+Task template: [SAP Activate Methodology for SAP Service Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPHYBRISC4C) 
 
 </td>
 </tr>
@@ -543,7 +527,7 @@ Task Management
 </td>
 <td valign="top">
 
- 
+Task template: [SAP Activate Methodology for the Intelligent Enterprise](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/3f599fdbad8546d6) – Implementation 
 
 </td>
 </tr>
@@ -565,29 +549,7 @@ Task Management
 </td>
 <td valign="top">
 
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Business Network
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Task Management
-
-</td>
-<td valign="top">
-
- 
+Task template: [SAP Activate Methodology for SAP Ariba and SAP Fieldglass](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHSAPARIBA) – Implementation 
 
 </td>
 </tr>
@@ -609,7 +571,117 @@ Task Management
 </td>
 <td valign="top">
 
- 
+Task template: [SAP Activate Methodology for SAP Ariba and SAP Fieldglass](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHSAPARIBA) – Implementation 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Concur
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Task Management
+
+</td>
+<td valign="top">
+
+Task template: [SAP Activate Methodology for SAP Concur](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/16ac619c5b1e442e8b1b5d01fd3bd38f) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Task Management
+
+</td>
+<td valign="top">
+
+Task template: [SAP Activate for SAP Integrated Business Planning for Supply Chain](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a86c071e2b9143e7a3345213106b4dea) – Implementation 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Analytics Cloud
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Task Management
+
+</td>
+<td valign="top">
+
+Task template: [SAP Activate Methodology for SAP Analytics Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/53f16d03e7274d49) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Datasphere
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Task Management
+
+</td>
+<td valign="top">
+
+Task template: [SAP Activate Methodology for SAP Datasphere](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/e1fe45d654ef42e2aed42c8d13aca4d5) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BW/4HANA
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Task Management
+
+</td>
+<td valign="top">
+
+Task template: [SAP Activate Methodology for Transition to SAP BW/4HANA](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/BWHANATRANSONPRE) 
 
 </td>
 </tr>
@@ -719,7 +791,7 @@ Requirement Management
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+ 
 
 </td>
 </tr>
@@ -741,7 +813,7 @@ Requirement Management
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+ 
 
 </td>
 </tr>
@@ -939,7 +1011,7 @@ Documents
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+ 
 
 </td>
 </tr>
@@ -961,7 +1033,7 @@ Documents
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+ 
 
 </td>
 </tr>
@@ -2384,6 +2456,28 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP BTP, Kyma runtime
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud, public edition
 
 </td>
@@ -2962,6 +3056,28 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
+SAP BTP, Kyma runtime
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite
 
 </td>
@@ -3226,6 +3342,28 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
+SAP BTP, Kyma runtime
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Job and Automation Monitoring
+
+</td>
+<td valign="top">
+
+More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP BTP, Neo environment
 
 </td>
@@ -3446,6 +3584,28 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
+SAP BTP, Cloud Foundry environment
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
 </td>
@@ -3557,6 +3717,28 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <td valign="top">
 
 Integration Hub for Life Sciences
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Kyma runtime
 
 </td>
 <td valign="top">

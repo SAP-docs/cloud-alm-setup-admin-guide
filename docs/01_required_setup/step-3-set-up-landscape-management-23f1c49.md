@@ -37,8 +37,9 @@ In addition, SAP is moving from customer-managed connectivity \(established by c
 
 If you encounter issues while working with the *Landscape Management* app, take a look at [Landscape Management – Troubleshooting and Customer Support](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management.html?anchorId=section_667953570_co) on SAP Support Portal.
 
--   **[Services](services-d5f36cc.md "The import method of services depends on the service type of your solution. ")**  
-The import method of services depends on the service type of your solution.
+-   **[Services](services-d5f36cc.md "The import method of services in SAP Cloud ALM depends on the service type of your
+		solution.")**  
+The import method of services in SAP Cloud ALM depends on the service type of your solution.
 -   **[Systems](systems-d9d672a.md "Most systems can to be registered with an ABAP report.")**  
 Most systems can to be registered with an ABAP report.
 

@@ -26,7 +26,7 @@ Corresponding documentation: [Requesting SAP Cloud ALM](requesting-sap-cloud-alm
 
 Find out how to activate your account in the Identity Authentication service, how to create users in your Identity Authentication tenant, and how to add them to SAP Cloud ALM.
 
-Corresponding documentation: [Step 1: Onboard Users in Your Identity Authentication Service](01_required_setup/step-1-onboard-users-in-your-identity-authentication-service-f2a8a8c.md)
+Corresponding documentation: [Step 1: Onboard Users in the Identity Authentication Service](01_required_setup/step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md)
 
 
 
