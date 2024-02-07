@@ -202,6 +202,27 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
 
 
+<a name="loio730ae36cc6ca419aae747012015cc686__section_rq2_2xt_4zb"/>
+
+## Special Setup Cases with SAP Business Technology Platform \(SAP BTP\) and Continuous Integration and Delivery \(CI/CD\)
+
+1.  If you work with a SAP Business Technology Platform \(SAP BTP\) product \(for example CPI\), then just create a three system landscape in the Cloud Transport Management service \(cTMS\) as described in the standard documentation above. Your development is already available in the `DEVELOPMENT` system, so your transports are exported from the `DEVELOPMENT` system and imported into the buffer of the follow-up system `TEST`.
+
+    ![](images/CI_CD_First_Slide_204f27b.png)
+
+2.  For other developments outside of SAP BTP, like Business Application Studio, there is no dedicated cloud development system. In this case, the developments are performed in the Business Application Studio. Your developments then are uploaded with the `upload` command through the Continuous Integration and Delivery \(CI/CD\) service directly into the `TEST` system. In order to support this scenario, you need a dummy node before your test node. Your developments aren't deployed in this dummy `DEVELOPMENT` node, but this node is needed in order to support this scenario. You can still deploy, but then as a pure sandbox deployment through a pipeline directly without cTMS.
+
+    ![](images/Diagram_85f60ba.png)
+
+
+For the initial setup of SAP Continuous Integration and Delivery \(CI/CD\), please follow the guide [https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud)
+
+To integrate cTMS into your CI/CD pipeline please follow this documentation: [https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-your-repository?version=Cloud\#\(optional\)-integrate-sap-cloud-transport-management-into-your-pipeline](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-your-repository?version=Cloud#(optional)-integrate-sap-cloud-transport-management-into-your-pipeline) 
+
+To create the nodes in the cTMS in this context, please follow the documentation [https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes), especially steps 1 and 2.
+
+
+
 <a name="loio730ae36cc6ca419aae747012015cc686__section_q2l_2lk_lzb"/>
 
 ## Reporting Incidents

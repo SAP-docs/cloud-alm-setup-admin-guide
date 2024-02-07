@@ -48,9 +48,9 @@ Between 2023-06-12 and 2023-10-16
 
 A service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically.
 
-*Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
+You can access it in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
 
-You only need to carry out these steps if you want to set up transport management, but you no longer have to configure your entitlements. You can access it in the SAP BTP cockpit or in the
+You only need to carry out these steps if you want to set up transport management, but you no longer have to configure your entitlements.
 
 </td>
 </tr>
@@ -103,11 +103,9 @@ An entitlement is your right to provision and consume a resource.
 
 3.  Under *Subaccounts*, select the subaccount that contains your SAP Cloud ALM subscription.
 
-4.  Choose *Entitlements* \> *Configure Entitlements*.
+4.  In the menu, go to *Entitlements*.
 
-    ![Configure Entitlements](images/Enabling_APIs_-_Configure_Entitlements_a560903.png)
-
-5.  Choose *Add Service Plans*.
+5.  Choose *Edit* \> *Add Service Plans*.
 
 6.  Add the required service plan as follows:
 

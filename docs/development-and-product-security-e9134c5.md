@@ -59,6 +59,7 @@ SAP applies the following measures to make SAP Cloud ALM safe for you to use.
 -   Geo blocking and blocking of sanctioned persons and organizations are in place.
 -   Data at rest is encrypted.
 -   SAP HANA databases are regularly backed up.
+-   For the time being, tenant-specific data recovery is not available.
 -   Physical security is ensured by hyperscalers.
 -   Uploaded files are scanned for malware.
 -   Free text input is sanitized.

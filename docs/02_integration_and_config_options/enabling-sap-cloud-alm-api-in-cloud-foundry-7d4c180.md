@@ -125,11 +125,9 @@ No service key or binding has been created as part of the initial provisioning. 
 
 An entitlement is your right to provision and consume a resource.
 
-1.  Choose *Entitlements* \> *Configure Entitlements*.
+1.  In the menu, go to *Entitlements*.
 
-    ![Configure Entitlements](images/Enabling_APIs_-_Configure_Entitlements_a560903.png)
-
-2.  Choose *Add Service Plans*.
+2.  Choose *Edit* \> *Add Service Plans*.
 
 3.  Add the required service plan as follows:
 

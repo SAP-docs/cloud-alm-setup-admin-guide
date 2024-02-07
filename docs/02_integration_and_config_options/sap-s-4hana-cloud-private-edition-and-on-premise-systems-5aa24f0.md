@@ -62,20 +62,21 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 23, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679) .
+-   For ST-PI 740 after SP 25, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
-    > ### Note:  
-    > It's recommended to use SP23.
+-   For ST-PI 740 SP 25, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
--   For ST-PI 740 SP 22, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 23, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
--   For ST-PI 740 SP 21, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 22, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
--   For ST-PI 740 SP 20, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 21, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
--   For ST-PI 740 SP 19, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 20, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
--   For ST-PI 740 SP 18, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3322679](https://me.sap.com/notes/3322679).
+-   For ST-PI 740 SP 19, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+
+-   For ST-PI 740 SP 18, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
     It's recommended to install the current version of collective corrections.
 

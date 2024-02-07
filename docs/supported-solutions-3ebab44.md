@@ -405,7 +405,7 @@ Task templates:
 
 -   [Baseline Activation Service for SAP S/4HANA Cloud \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/d9ffcd6438ab4ee9a02bfcf682502892)
 
--   [SAP Activate for SAP S/4HANA Cloud, public edition \(2-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) –Implementation
+-   [SAP Activate for SAP S/4HANA Cloud, public edition \(2-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) – Implementation
 
 
 
@@ -710,7 +710,51 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP Marketing Cloud
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Robotic Process Automation \(iRPA\)
 
 </td>
 <td valign="top">
@@ -842,7 +886,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Ariba
+SAP S/4HANA Cloud, private edition
 
 </td>
 <td valign="top">
@@ -864,7 +908,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Business Network
+SAP Ariba
 
 </td>
 <td valign="top">
@@ -918,7 +962,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -940,7 +984,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -962,7 +1006,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -984,7 +1028,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -1006,7 +1050,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -1028,7 +1072,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -1050,7 +1094,73 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Marketing Cloud
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Robotic Process Automation \(iRPA\)
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
 
 </td>
 <td valign="top">
@@ -1072,29 +1182,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Business Network
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -1116,7 +1204,7 @@ Implementation
 </td>
 <td valign="top">
 
-Documents
+Document Management
 
 </td>
 <td valign="top">
@@ -1510,7 +1598,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP Business Network
+SAP Fieldglass
 
 </td>
 <td valign="top">
@@ -1532,7 +1620,51 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP Fieldglass
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Test Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Robotic Process Automation \(iRPA\)
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Test Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Marketing Cloud
 
 </td>
 <td valign="top">

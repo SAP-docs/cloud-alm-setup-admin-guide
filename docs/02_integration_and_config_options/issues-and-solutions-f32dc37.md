@@ -1,10 +1,10 @@
-<!-- loiof5309b8c2def44dab24156cca7a1459b -->
+<!-- loiof32dc37d10fa475f84819f46b2720095 -->
 
-# Tips and Troubleshooting for SAP S/4HANA Cloud, Private Edition and On-Premise Systems
+# Issues and Solutions
 
 
 
-<a name="loiof5309b8c2def44dab24156cca7a1459b__section_svw_sxj_d1c"/>
+<a name="loiof32dc37d10fa475f84819f46b2720095__section_svw_sxj_d1c"/>
 
 ## Issues and Solutions
 
@@ -162,7 +162,7 @@ To resolve the mismatch issue refer to the following SAP Note:[1688610](https://
 
 
 
-<a name="loiof5309b8c2def44dab24156cca7a1459b__section_b4q_qsn_fzb"/>
+<a name="loiof32dc37d10fa475f84819f46b2720095__section_b4q_qsn_fzb"/>
 
 ## How to Deal With Connection Issues
 
