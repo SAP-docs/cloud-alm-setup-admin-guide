@@ -26,11 +26,11 @@ Here, you can manage your service key as follows:
 
 -   :eyeglasses:: Display the content of the uploaded service key.
 
--   <span class="SAP-icons"></span> \(Download Service Key\): Download the service key as a TXT file. The content will be in JSON format.
+-   <span class="SAP-icons-V5"></span> \(Download Service Key\): Download the service key as a TXT file. The content will be in JSON format.
 
 -   :wastebasket:: Delete a service key from landscape management.
 
--   <span class="SAP-icons"></span> \(Test Service Key\): Check if this key can be used to log on to the SAP Cloud ALM API.
+-   <span class="SAP-icons-V5"></span> \(Test Service Key\): Check if this key can be used to log on to the SAP Cloud ALM API.
 
 
 

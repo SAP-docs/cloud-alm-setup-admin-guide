@@ -40,7 +40,7 @@ You can assign roles to users directly in the SAP Cloud ALM *User Management* ap
 
 2.  Open the *User Management* app, which is located in the *Administration* section.
 
-3.  To go to the user list, choose <span class="SAP-icons"></span> \(Users\).
+3.  To go to the user list, choose <span class="SAP-icons-V5"></span> \(Users\).
 
 4.  Choose *Add User*.
 

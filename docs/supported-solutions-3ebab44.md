@@ -37,7 +37,7 @@ Notes
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -66,7 +66,7 @@ More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/e
 <tr>
 <td valign="top">
 
-SAP Ariba
+SAP Ariba 
 
 </td>
 <td valign="top">
@@ -103,7 +103,7 @@ More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/e
 <tr>
 <td valign="top">
 
-SAP SuccessFactors
+SAP SuccessFactors 
 
 </td>
 <td valign="top">
@@ -166,7 +166,7 @@ More under [SAP SuccessFactors Process Library](https://community.successfactors
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
+SAP Marketing Cloud 
 
 </td>
 <td valign="top">
@@ -188,7 +188,7 @@ SAP Best Practices for SAP Marketing Cloud
 <tr>
 <td valign="top">
 
-SAP Sales Cloud
+SAP Sales Cloud 
 
 </td>
 <td valign="top">
@@ -210,7 +210,7 @@ SAP Cloud for Customer
 <tr>
 <td valign="top">
 
-SAP Service Cloud
+SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -254,7 +254,7 @@ SAP Fieldglass Vendor Management System
 <tr>
 <td valign="top">
 
-SAP Intelligent Robotic Process Automation \(iRPA\)
+SAP Intelligent Robotic Process Automation \(SAP Intelligent RPA\)
 
 </td>
 <td valign="top">
@@ -276,7 +276,7 @@ SAP Best Practices for SAP Intelligent Robotic Process Automation integration
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -298,7 +298,7 @@ SAP Best Practices for SAP Integrated Business Planning for Supply Chain
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -325,7 +325,7 @@ Process Management
 <tr>
 <td valign="top">
 
-Intelligent Enterprise – Implementation
+Intelligent Enterprise – Implementation 
 
 </td>
 <td valign="top">
@@ -346,6 +346,8 @@ Process Management
 
 -   Lead to Cash
 
+-   Master Data Management
+
 -   Plan to Fulfill
 
 -   Recruit to Retire
@@ -360,7 +362,7 @@ Process Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -382,7 +384,7 @@ Task template: [SAP Activate Methodology for SAP S/4HANA Cloud, private edition]
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -415,7 +417,7 @@ Task templates:
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -446,7 +448,7 @@ Task templates:
 <tr>
 <td valign="top">
 
-SAP SuccessFactors
+SAP SuccessFactors 
 
 </td>
 <td valign="top">
@@ -468,7 +470,7 @@ Task template: [SAP Activate Methodology for SAP SuccessFactors](https://go.supp
 <tr>
 <td valign="top">
 
-SAP Sales Cloud
+SAP Sales Cloud 
 
 </td>
 <td valign="top">
@@ -490,7 +492,7 @@ Task template: [SAP Activate Methodology for SAP Sales Cloud Roadmap](https://go
 <tr>
 <td valign="top">
 
-SAP Service Cloud
+SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -512,7 +514,7 @@ Task template: [SAP Activate Methodology for SAP Service Cloud Roadmap](https://
 <tr>
 <td valign="top">
 
-Intelligent Enterprise – Implementation
+Intelligent Enterprise – Implementation 
 
 </td>
 <td valign="top">
@@ -534,7 +536,7 @@ Task template: [SAP Activate Methodology for the Intelligent Enterprise](https:/
 <tr>
 <td valign="top">
 
-SAP Ariba
+SAP Ariba 
 
 </td>
 <td valign="top">
@@ -556,7 +558,7 @@ Task template: [SAP Activate Methodology for SAP Ariba and SAP Fieldglass](https
 <tr>
 <td valign="top">
 
-SAP Fieldglass
+SAP Fieldglass 
 
 </td>
 <td valign="top">
@@ -578,7 +580,7 @@ Task template: [SAP Activate Methodology for SAP Ariba and SAP Fieldglass](https
 <tr>
 <td valign="top">
 
-SAP Concur
+SAP Concur 
 
 </td>
 <td valign="top">
@@ -600,7 +602,7 @@ Task template: [SAP Activate Methodology for SAP Concur](https://go.support.sap.
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -622,7 +624,7 @@ Task template: [SAP Activate for SAP Integrated Business Planning for Supply Cha
 <tr>
 <td valign="top">
 
-SAP Analytics Cloud
+SAP Analytics Cloud 
 
 </td>
 <td valign="top">
@@ -644,7 +646,7 @@ Task template: [SAP Activate Methodology for SAP Analytics Cloud](https://go.sup
 <tr>
 <td valign="top">
 
-SAP Datasphere
+SAP Datasphere 
 
 </td>
 <td valign="top">
@@ -666,7 +668,7 @@ Task template: [SAP Activate Methodology for SAP Datasphere](https://go.support.
 <tr>
 <td valign="top">
 
-SAP BW/4HANA
+SAP BW/4HANA 
 
 </td>
 <td valign="top">
@@ -688,7 +690,7 @@ Task template: [SAP Activate Methodology for Transition to SAP BW/4HANA](https:/
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -710,7 +712,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
+SAP Marketing Cloud 
 
 </td>
 <td valign="top">
@@ -732,7 +734,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -754,7 +756,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Intelligent Robotic Process Automation \(iRPA\)
+SAP Intelligent Robotic Process Automation \(SAP Intelligent RPA\)
 
 </td>
 <td valign="top">
@@ -776,7 +778,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -798,7 +800,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP SuccessFactors
+SAP SuccessFactors 
 
 </td>
 <td valign="top">
@@ -820,7 +822,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Sales Cloud
+SAP Sales Cloud 
 
 </td>
 <td valign="top">
@@ -842,7 +844,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Service Cloud
+SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -864,7 +866,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-Intelligent Enterprise – Implementation
+Intelligent Enterprise – Implementation 
 
 </td>
 <td valign="top">
@@ -886,7 +888,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -908,7 +910,7 @@ Requirement Management
 <tr>
 <td valign="top">
 
-SAP Ariba
+SAP Ariba 
 
 </td>
 <td valign="top">
@@ -919,6 +921,270 @@ Implementation
 <td valign="top">
 
 Requirement Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Fieldglass 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud Public Edition 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud Private Edition 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA \(on premise\) 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP SuccessFactors 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Sales Cloud 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Service Cloud 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Intelligent Enterprise – Implementation 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Marketing Cloud 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Robotic Process Automation \(SAP Intelligent RPA\)
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
 
 </td>
 <td valign="top">
@@ -940,28 +1206,6 @@ Implementation
 </td>
 <td valign="top">
 
-Requirement Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP S/4HANA Cloud, public edition
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
 Document Management
 
 </td>
@@ -974,249 +1218,7 @@ Document Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP S/4HANA \(on-premise\)
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP SuccessFactors
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Sales Cloud
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Intelligent Enterprise – Implementation
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Marketing Cloud
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Intelligent Robotic Process Automation \(iRPA\)
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Ariba
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Fieldglass
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -1231,14 +1233,14 @@ Change & Deployment Management
 </td>
 <td valign="top">
 
-More under [SAP S/4HANA Cloud with Adaptation Transport Organizer \(ATO\)](02_integration_and_config_options/sap-s-4hana-cloud-with-adaptation-transport-organizer-ato-a4238a9.md).
+More under [SAP S/4HANA Cloud Public Edition](02_integration_and_config_options/sap-s-4hana-cloud-public-edition-a4238a9.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -1253,14 +1255,14 @@ Change & Deployment Management
 </td>
 <td valign="top">
 
-More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
+More under [SAP S/4HANA Cloud Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -1275,14 +1277,14 @@ Change & Deployment Management
 </td>
 <td valign="top">
 
-More under [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
+More under [SAP S/4HANA Cloud Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP Integration Suite – Cloud Integration
+SAP Integration Suite – Cloud Integration 
 
 </td>
 <td valign="top">
@@ -1304,7 +1306,7 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 <tr>
 <td valign="top">
 
-SAP Integration Suite – API Management
+SAP Integration Suite – API Management 
 
 </td>
 <td valign="top">
@@ -1326,7 +1328,7 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry environment
+SAP BTP, Cloud Foundry environment 
 
 </td>
 <td valign="top">
@@ -1374,7 +1376,7 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 <tr>
 <td valign="top">
 
-SAP Build Work Zone
+SAP Build Work Zone 
 
 </td>
 <td valign="top">
@@ -1398,7 +1400,7 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 <tr>
 <td valign="top">
 
-SAP Build Process Automation
+SAP Build Process Automation 
 
 </td>
 <td valign="top">
@@ -1422,7 +1424,7 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -1444,7 +1446,7 @@ More under [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integ
 <tr>
 <td valign="top">
 
-SAP SuccessFactors
+SAP SuccessFactors 
 
 </td>
 <td valign="top">
@@ -1466,7 +1468,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -1488,7 +1490,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -1510,7 +1512,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP Sales Cloud
+SAP Sales Cloud 
 
 </td>
 <td valign="top">
@@ -1532,7 +1534,7 @@ SAP Cloud for Customer
 <tr>
 <td valign="top">
 
-SAP Service Cloud
+SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -1554,7 +1556,7 @@ SAP Cloud for Customer
 <tr>
 <td valign="top">
 
-Intelligent Enterprise – Implementation
+Intelligent Enterprise – Implementation 
 
 </td>
 <td valign="top">
@@ -1576,7 +1578,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP Ariba
+SAP Ariba 
 
 </td>
 <td valign="top">
@@ -1620,7 +1622,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -1642,7 +1644,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP Intelligent Robotic Process Automation \(iRPA\)
+SAP Intelligent Robotic Process Automation \(SAP Intelligent RPA\)
 
 </td>
 <td valign="top">
@@ -1664,7 +1666,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
+SAP Marketing Cloud 
 
 </td>
 <td valign="top">
@@ -1686,7 +1688,7 @@ Test Management
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -1708,7 +1710,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud for projects, resource management
+SAP S/4HANA Cloud for projects, resource management 
 
 </td>
 <td valign="top">
@@ -1730,7 +1732,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -1752,7 +1754,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Logistic Business Network
+SAP Business Network for Logistics 
 
 </td>
 <td valign="top">
@@ -1774,7 +1776,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Information Collaboration Hub for Life Sciences
+SAP Information Collaboration Hub for Life Sciences 
 
 </td>
 <td valign="top">
@@ -1796,7 +1798,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Business Suite
+SAP Business Suite 
 
 </td>
 <td valign="top">
@@ -1818,7 +1820,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Cloud for Customer
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -1840,7 +1842,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
+SAP Marketing Cloud 
 
 </td>
 <td valign="top">
@@ -1862,7 +1864,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Concur
+SAP Concur 
 
 </td>
 <td valign="top">
@@ -1884,7 +1886,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Order Management foundation
+SAP Order Management foundation 
 
 </td>
 <td valign="top">
@@ -1928,7 +1930,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP SuccessFactors
+SAP SuccessFactors 
 
 </td>
 <td valign="top">
@@ -1950,7 +1952,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Analytics Cloud
+SAP Analytics Cloud 
 
 </td>
 <td valign="top">
@@ -1972,7 +1974,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry environment
+SAP BTP, Cloud Foundry environment 
 
 </td>
 <td valign="top">
@@ -1994,7 +1996,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Intelligent Asset Management
+SAP Intelligent Asset Management 
 
 </td>
 <td valign="top">
@@ -2016,7 +2018,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Integration Suite – Cloud Integration
+SAP Integration Suite – Cloud Integration 
 
 </td>
 <td valign="top">
@@ -2038,7 +2040,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP BTP, Neo environment
+SAP BTP, Neo environment 
 
 </td>
 <td valign="top">
@@ -2060,7 +2062,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP BTP, ABAP environment
+SAP BTP, ABAP environment 
 
 </td>
 <td valign="top">
@@ -2082,7 +2084,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Mobile Services
+SAP Mobile Services 
 
 </td>
 <td valign="top">
@@ -2104,7 +2106,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -2126,7 +2128,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Field Service Management
+SAP Field Service Management 
 
 </td>
 <td valign="top">
@@ -2148,7 +2150,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Ariba
+SAP Ariba 
 
 </td>
 <td valign="top">
@@ -2170,7 +2172,7 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>
 <td valign="top">
@@ -2192,7 +2194,7 @@ More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap
 <tr>
 <td valign="top">
 
-SAP Master Data Integration
+SAP Master Data Integration 
 
 </td>
 <td valign="top">
@@ -2214,7 +2216,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Master Data Governance, cloud edition
+SAP Master Data Governance, cloud edition 
 
 </td>
 <td valign="top">
@@ -2236,7 +2238,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP SuccessFactors Employee Central Payroll
+SAP SuccessFactors Employee Central Payroll 
 
 </td>
 <td valign="top">
@@ -2258,7 +2260,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -2280,7 +2282,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Batch Release Hub for Life Sciences
+SAP Batch Release Hub for Life Sciences 
 
 </td>
 <td valign="top">
@@ -2302,7 +2304,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-Integration Hub for Life Sciences
+Integration Hub for Life Sciences 
 
 </td>
 <td valign="top">
@@ -2324,7 +2326,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Business ByDesign
+SAP Business ByDesign 
 
 </td>
 <td valign="top">
@@ -2346,7 +2348,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Omnichannel Promotion Pricing
+SAP Omnichannel Promotion Pricing 
 
 </td>
 <td valign="top">
@@ -2368,7 +2370,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Process Integration \(Java\)
+SAP Process Integration 
 
 </td>
 <td valign="top">
@@ -2390,7 +2392,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-Data ingestion for industry cloud solutions
+Data ingestion for industry cloud solutions 
 
 </td>
 <td valign="top">
@@ -2412,7 +2414,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Subscription Billing
+SAP Subscription Billing 
 
 </td>
 <td valign="top">
@@ -2434,7 +2436,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Data Intelligence
+SAP Data Intelligence 
 
 </td>
 <td valign="top">
@@ -2456,7 +2458,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Entitlement Management
+SAP Entitlement Management 
 
 </td>
 <td valign="top">
@@ -2478,7 +2480,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Digital Vehicle Hub
+SAP Digital Vehicle Hub 
 
 </td>
 <td valign="top">
@@ -2500,7 +2502,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Event Broker for SAP cloud applications
+SAP Event Broker for SAP cloud applications 
 
 </td>
 <td valign="top">
@@ -2522,7 +2524,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Predictive Replenishment
+SAP Predictive Replenishment 
 
 </td>
 <td valign="top">
@@ -2544,7 +2546,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Cell and Gene Therapy Orchestration
+SAP Cell and Gene Therapy Orchestration 
 
 </td>
 <td valign="top">
@@ -2566,7 +2568,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Intelligent Product Recommendation
+SAP Intelligent Product Recommendation 
 
 </td>
 <td valign="top">
@@ -2588,7 +2590,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP BTP, Kyma runtime
+SAP BTP, Kyma runtime 
 
 </td>
 <td valign="top">
@@ -2610,7 +2612,29 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP Order Delivery and Scheduling 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -2625,9 +2649,14 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Supported KPIs for the business scenarios:
+Supported KPIs for the following business scenarios:
 
-Lead-to-Cash, Source-to-Pay, Design-to-Operate
+-   *Lead to Cash*
+
+-   *Source to Pay*
+
+-   *Design to Operate*
+
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
@@ -2636,7 +2665,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -2651,9 +2680,14 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Supported KPIs for the business scenarios:
+Supported KPIs for the following business scenarios:
 
-Lead-to-Cash, Source-to-Pay, Design-to-Operate
+-   *Lead to Cash*
+
+-   *Source to Pay*
+
+-   *Design to Operate*
+
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
@@ -2677,9 +2711,14 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Supported KPIs for the business scenarios:
+Supported KPIs for the following business scenarios:
 
-Lead-to-Cash, Source-to-Pay, Design-to-Operate
+-   *Lead to Cash*
+
+-   *Source to Pay*
+
+-   *Design to Operate*
+
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
@@ -2688,7 +2727,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP SuccessFactors
+SAP SuccessFactors 
 
 </td>
 <td valign="top">
@@ -2703,9 +2742,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Supported KPIs for the business scenario:
-
-Recruit-to-Retire
+Supported KPIs for the business scenario *Recruit to Retire*
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html#section_232382677_co) \(Expert Portal\).
 
@@ -2714,7 +2751,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -2729,9 +2766,14 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Supported KPIs for the business scenarios:
+Supported KPIs for the following business scenarios:
 
-Lead-to-Cash, Source-to-Pay, Design-to-Operate
+-   *Lead to Cash*
+
+-   *Source to Pay*
+
+-   *Design to Operate*
+
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
@@ -2740,7 +2782,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP Cloud for Customer
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -2755,9 +2797,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Supported KPIs for the business scenarios:
-
-Lead-to-Cash
+Supported KPIs for the business scenario *Lead to Cash*
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
@@ -2766,7 +2806,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP Entitlement Management
+SAP Entitlement Management 
 
 </td>
 <td valign="top">
@@ -2781,9 +2821,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-Supported KPIs for the business scenarios:
-
-Lead-to-Cash
+Supported KPIs for the business scenario *Lead to Cash*
 
 More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
 
@@ -2792,7 +2830,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -2814,7 +2852,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -2858,7 +2896,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP SuccessFactors Employee Central Payroll
+SAP SuccessFactors Employee Central Payroll 
 
 </td>
 <td valign="top">
@@ -2902,7 +2940,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Intelligent Robotic Process Automation \(iRPA\)
+SAP Intelligent Robotic Process Automation \(SAP Intelligent RPA\) 
 
 </td>
 <td valign="top">
@@ -2924,7 +2962,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Integration Suite – API Management
+SAP Integration Suite – API Management 
 
 </td>
 <td valign="top">
@@ -2946,7 +2984,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Integration Suite – Cloud Integration
+SAP Integration Suite – Cloud Integration 
 
 </td>
 <td valign="top">
@@ -2968,7 +3006,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP BTP, ABAP environment
+SAP BTP, ABAP environment 
 
 </td>
 <td valign="top">
@@ -3012,7 +3050,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry environment
+SAP BTP, Cloud Foundry environment 
 
 </td>
 <td valign="top">
@@ -3034,7 +3072,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>
 <td valign="top">
@@ -3078,7 +3116,7 @@ More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-a
 <tr>
 <td valign="top">
 
-SAP Build Process Automation
+SAP Build Process Automation 
 
 </td>
 <td valign="top">
@@ -3100,7 +3138,7 @@ More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-a
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -3122,7 +3160,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -3144,7 +3182,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
+SAP Marketing Cloud 
 
 </td>
 <td valign="top">
@@ -3166,7 +3204,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Cloud Connector
+Cloud Connector 
 
 </td>
 <td valign="top">
@@ -3188,7 +3226,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP BTP, Kyma runtime
+SAP BTP, Kyma runtime 
 
 </td>
 <td valign="top">
@@ -3232,7 +3270,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -3254,7 +3292,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -3276,7 +3314,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -3298,7 +3336,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP SuccessFactors Employee Central Payroll
+SAP SuccessFactors Employee Central Payroll 
 
 </td>
 <td valign="top">
@@ -3320,7 +3358,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
+SAP Marketing Cloud 
 
 </td>
 <td valign="top">
@@ -3342,7 +3380,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP Intelligent Robotic Process Automation \(iRPA\)
+SAP Intelligent Robotic Process Automation \(SAP Intelligent RPA\) 
 
 </td>
 <td valign="top">
@@ -3364,7 +3402,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -3386,7 +3424,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>
 <td valign="top">
@@ -3408,7 +3446,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP BTP, ABAP environment
+SAP BTP, ABAP environment 
 
 </td>
 <td valign="top">
@@ -3430,7 +3468,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry environment
+SAP BTP, Cloud Foundry environment 
 
 </td>
 <td valign="top">
@@ -3452,7 +3490,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP Build Process Automation
+SAP Build Process Automation 
 
 </td>
 <td valign="top">
@@ -3474,7 +3512,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP BTP, Kyma runtime
+SAP BTP, Kyma runtime 
 
 </td>
 <td valign="top">
@@ -3540,7 +3578,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -3562,7 +3600,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition 
 
 </td>
 <td valign="top">
@@ -3584,7 +3622,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -3606,7 +3644,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Marketing Cloud
+SAP Marketing Cloud 
 
 </td>
 <td valign="top">
@@ -3628,7 +3666,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Cloud for Customer
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -3650,7 +3688,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP BTP, ABAP environment
+SAP BTP, ABAP environment 
 
 </td>
 <td valign="top">
@@ -3672,7 +3710,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP SuccessFactors Employee Central Payroll
+SAP SuccessFactors Employee Central Payroll 
 
 </td>
 <td valign="top">
@@ -3694,7 +3732,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
 
 </td>
 <td valign="top">
@@ -3716,7 +3754,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry environment
+SAP BTP, Cloud Foundry environment 
 
 </td>
 <td valign="top">
@@ -3738,7 +3776,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>
 <td valign="top">
@@ -3760,7 +3798,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-Data Quality Management, Microservices for Location Data \(DQM Microservices\)
+SAP Data Quality Management, microservices for location data 
 
 </td>
 <td valign="top">
@@ -3804,7 +3842,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Ariba Category Management
+SAP Ariba Category Management 
 
 </td>
 <td valign="top">
@@ -3826,7 +3864,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Batch Release Hub for Life Sciences
+SAP Batch Release Hub for Life Sciences 
 
 </td>
 <td valign="top">
@@ -3848,7 +3886,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-Integration Hub for Life Sciences
+Integration Hub for Life Sciences 
 
 </td>
 <td valign="top">
@@ -3870,7 +3908,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP BTP, Kyma runtime
+SAP BTP, Kyma runtime 
 
 </td>
 <td valign="top">
@@ -3914,7 +3952,7 @@ More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operati
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on-premise\)
+SAP S/4HANA \(on premise\) 
 
 </td>
 <td valign="top">
@@ -3936,7 +3974,7 @@ More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operati
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition 
 
 </td>
 <td valign="top">
@@ -3958,7 +3996,7 @@ More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operati
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>
 <td valign="top">
@@ -3980,7 +4018,7 @@ More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operati
 <tr>
 <td valign="top">
 
-Identity Authentication
+SAP Cloud Identity Services – Identity Authentication 
 
 </td>
 <td valign="top">
@@ -4002,7 +4040,7 @@ More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operati
 <tr>
 <td valign="top">
 
-SAP Credential Store
+SAP Credential Store 
 
 </td>
 <td valign="top">
@@ -4024,7 +4062,7 @@ More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operati
 <tr>
 <td valign="top">
 
-SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
+SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>
 <td valign="top">
@@ -4055,7 +4093,7 @@ Prerequisites:
 <tr>
 <td valign="top">
 
-SAP Business Suite
+SAP Business Suite 
 
 </td>
 <td valign="top">

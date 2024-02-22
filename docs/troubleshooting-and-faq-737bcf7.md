@@ -127,7 +127,7 @@ You have questions on which subdomain name to use for your SAP Cloud ALM tenant.
 
 For more information and recommendations, take a look at the following resources:
 
--   The SAP for Me <span class="SAP-icons"></span> Help for the section *Subdomain*
+-   The SAP for Me <span class="SAP-icons-V5"></span> Help for the section *Subdomain*
 
 -   Step 5 in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
 
@@ -146,7 +146,7 @@ You have questions on which Identity Authentication tenant to select for the pro
 
 For more information and recommendations, take a look at the following resources:
 
--   The SAP for Me <span class="SAP-icons"></span> Help for the section *SAP Identity Service*
+-   The SAP for Me <span class="SAP-icons-V5"></span> Help for the section *SAP Identity Service*
 
 -   Step 6 in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
 

@@ -8,7 +8,7 @@
 
 ## Issues and Solutions
 
-In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud, private edition or SAP NetWeaver Application Server for ABAP on-premise.
+In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition or SAP NetWeaver Application Server for ABAP on-premise.
 
 ****
 
@@ -36,20 +36,20 @@ I can't create transports
 
 Go to the managed system:
 
-1.  Check if the service key is missing the auth scopes.
+1.  Check if the service key is missing the `auth` scopes.
 
-    If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the Procedure section of the [SAP S/4HANA Cloud, Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
+    If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
 
-2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the export tenant \(working client shouldn't be 000\).
+2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the source tenant \(working client shouldn't be 000\).
 
-3.  Check if the job /SDF/CALM\_CDM\_TR\_PROC\_CL\_DEP-100 is released and is running frequently in the export tenant.
+3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source tenant.
 
-4.  Check if the job /SDF/CALM\_CDM\_DIAGNOSTICS is running in development system client 000.
+4.  Check if the job` /SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
 
 In SAP Cloud ALM check the following:
 
-Export tenant is in the system group and is assigned to the project through the deployment plan.
+Source tenant is in the system group and is assigned to the project through the deployment plan.
 
 </td>
 </tr>
@@ -65,11 +65,11 @@ Go to the managed system:
 
 1.  Check if the service key is missing the auth scopes.
 
-2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the export tenant \(working client shouldn't be 000\).
+2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the source tenant \(working client shouldn't be 000\).
 
-3.  Check if the job /SDF/CALM\_CDM\_TR\_PROC\_CL\_DEP-100 is released and is running frequently in the export tenant.
+3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source tenant.
 
-4.  Check if the job /SDF/CALM\_CDM\_DIAGNOSTICS is running in development system client 000.
+4.  Check if the job `/SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
 
 
@@ -88,11 +88,11 @@ Go to the managed system:
 
 1.  Check if the service key is missing auth scopes.
 
-2.  Check if the use case Feature Deployment: Manage Transports per Client active in the export tenant\(working client shouldn't be 000\).
+2.  Check if the use case Feature Deployment: Manage Transports per Client active in the source tenant\(working client shouldn't be 000\).
 
-3.  Check if the job /SDF/CALM\_CDM\_TR\_PROC\_CL\_DEP-100 is released / and is running frequently in the export tenant.
+3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released / and is running frequently in the source tenant.
 
-4.  Check if the job /SDF/CALM\_CDM\_DIAGNOSTICS is running in development system client 000.
+4.  Check if the job `/SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
 
 
@@ -113,7 +113,7 @@ Go to the managed system:
 
 2.  Check if the use case Feature Deployment: Import Transports active in target system client 000
 
-3.  Check if the job /SDF/CALM\_CDM\_IMPORT\_TRANSPORTS is released and running .
+3.  Check if the job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running .
 
 
 
@@ -149,9 +149,9 @@ My import jobs are stuck
 
 Go to the managed system:
 
-1.  The job /SDF/CALM\_CDM\_IMPORT\_TRANSPORTS is released and running.
+1.  The job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running.
 
-2.  The job log of /SDF/CALM\_CDM\_IMPORT\_TRANSPORTS shows a component version mismatch. In case several features are deployed together, all the transports assigned are imported as an import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
+2.  The job log of `/SDF/CALM_CDM_IMPORT_TRANSPORTS` shows a component version mismatch. In case several features are deployed together, all the transports assigned are imported as an import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
 
 
 To resolve the mismatch issue refer to the following SAP Note:[1688610](https://me.sap.com/notes/1688610) 
@@ -166,7 +166,7 @@ To resolve the mismatch issue refer to the following SAP Note:[1688610](https://
 
 ## How to Deal With Connection Issues
 
-If you encounter connection issues during the setup of the transport management of SAP S/4HANA Cloud, private edition or SAP NetWeaver Application Server for ABAP on-premise, you can perform the respective steps below to solve the connection issues.
+If you encounter connection issues during the setup of the transport management of SAP S/4HANA Cloud Private Edition or SAP NetWeaver Application Server for ABAP on-premise, you can perform the respective steps below to solve the connection issues.
 
 
 

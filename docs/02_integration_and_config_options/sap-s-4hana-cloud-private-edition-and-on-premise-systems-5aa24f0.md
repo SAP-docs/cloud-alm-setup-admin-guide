@@ -2,11 +2,11 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# SAP S/4HANA Cloud, Private Edition and On-Premise Systems
+# SAP S/4HANA Cloud Private Edition and On-Premise Systems
 
-By enabling the transport management for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
+By enabling the transport management forSAP S/4HANA Cloud Private Edition and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
 
-To use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud, private edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you've to establish a connection between SAP Cloud ALM and the `(CTS)`.
+To use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud Private Edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the `(CTS)`.
 
 > ### Caution:  
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner.
@@ -25,7 +25,7 @@ Currently supported landscapes:
 
 -   Any kind of consistent Transport Management System \(TMS\) landscape. The last system in a track will always be treated as a production system.
 
--   Client-specific transport routes \(TMS option CTC\) are strongly recommended.
+-   Client-specific transport routes \(TMS option CTC\) are recommended.
 
 -   TMS transport groups are supported.
 
@@ -33,7 +33,7 @@ Currently supported landscapes:
 > ### Caution:  
 > If you want to implement landscape changes, please note the following information:
 > 
-> -   Adding new systems to a track is supported as long as no consolidation routes are changed. Mind, that you need to adjust the transport buffers manually.
+> -   Adding new systems to a track is supported as long as no consolidation routes are changed. Mind that you need to adjust the transport buffers manually.
 > 
 > -   Refreshing a \(test\) system is supported if the system ID stays the same. This still means, the transport buffers and imports need to be adjusted manually.
 > 
@@ -41,16 +41,16 @@ Currently supported landscapes:
 > 
 > -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability.
 > 
-> -   Changing or deleting export targets is not supported.
+> -   Changing or deleting export targets isn't supported.
 > 
-> -   Switching on or off client specific transport routes is not supported.
+> -   Switching on or off client-specific transport routes isn't supported.
 
 If you need to perform unsupported changes of the transport configuration in the Transport Management System \(TMS\), make sure that all open features and transports are completed and deployed to the production system. Therefore, the transport buffers should be empty.
 
 > ### Tip:  
 > We strongly recommend using always client-dependent transport routes \(TMS option CTC\) from the very beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes at a later point in time is a complete landscape change that isn't supported while there are still transports open.
 > 
-> We strongly recommend using a transport target group as consolidation target. By using the transport target group, you can always change your consolidation systems by just changing the systems within the consolidation target group while technically the consolidation target \(which is the consolation target group\) stays stable.
+> We strongly recommend using a transport target group as a consolidation target. By using the transport target group, you can always change your consolidation systems by just changing the systems within the consolidation target group while technically the consolidation target \(which is the consolation target group\) stays stable.
 > 
 > ![](images/System_Landscape_22cfc8a.png)
 
@@ -58,7 +58,7 @@ If you need to perform unsupported changes of the transport configuration in the
 
 ### For the ABAP System
 
-Before you can start enabling the transport management for SAP S/4HANA Cloud, private edition or SAP NetWeaver Application Server for ABAP on-premise, you need to fulfill the following prerequisites:
+Before you can start enabling the transport management for SAP S/4HANA Cloud Private Editionor SAP NetWeaver Application Server for ABAP on-premise, you need to fulfill the following prerequisites:
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
@@ -70,7 +70,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
 
 -   For ST-PI 740 SP 22, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
--   For ST-PI 740 SP 21, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+-   For ST-PI 740 SP 21, install correction [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
 -   For ST-PI 740 SP 20, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
@@ -85,7 +85,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud, pr
     > ### Note:  
     > For the profile parameter check, you can use the transaction `RZ11` in the managed system.
 
--   Check that profile parameter `ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
+-   Check that the profile parameter `ssl/client_ciphersuites` is set according to section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
 
 -   Make sure that the following [certificates](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) are imported in `STRUST` under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*:
 
@@ -112,10 +112,10 @@ Note that the authorization steps are only needed for system client 000. For oth
     > ### Note:  
     > In this role, you need to maintain the authorization field `S_BTCH_NAM > BTCUNAME` either with '\*' or with the user name of the user that you plan to use for the data collection background job.
 
--   The user you specify as background user requires the PFCG role `SAP_SDF_ALM_METRIC_PUSH_FND` and the role `SAP_BC_TRANSPORT_ADMINISTRATOR`.
+-   The user you specify as the background user requires the PFCG role `SAP_SDF_ALM_METRIC_PUSH_FND` and the role `SAP_BC_TRANSPORT_ADMINISTRATOR`.
 
     > ### Note:  
-    > Don't forget to activate role `SAP_BC_TRANSPORT_ADMINISTRATOR` before using it with the background user.
+    > Don't forget to activate the role `SAP_BC_TRANSPORT_ADMINISTRATOR` before using it with the background user.
 
     Download the latest version of the role `SAP_SDF_ALM_METRIC_PUSH_FND` from SAP Note [3104662](https://me.sap.com/notes/3104662).
 
@@ -157,7 +157,7 @@ The configuration of the push data provider is needed to enable the processing o
     > ### Note:  
     > Step 1 has to be performed for each system that has to be connected.
 
-2.  Start transaction`/n/SDF/ALM_SETUP`.
+2.  Start the transaction`/n/SDF/ALM_SETUP`.
 
     If you start the transaction for the first time, it looks like this:
 
@@ -176,7 +176,7 @@ The configuration of the push data provider is needed to enable the processing o
 
     1.  Choose *Update Destination*.
 
-    2.  Copy the content of the JSON file you've created in the **Create a Service Key** section. Choose *Paste Service Keys* and paste it into the text field popup.
+    2.  Copy the content of the JSON file that you've created in the **Create a Service Key** section. Choose *Paste Service Keys* and paste it into the text field popup.
 
         > ### Note:  
         > Alternatively, you can enter the required fields for SAP Cloud ALM manually:
@@ -193,9 +193,13 @@ The configuration of the push data provider is needed to enable the processing o
         > 
         > 5.  *Proxy Password* \(if necessary\)
         > 
-        > 6.  *Proxy Host* \(if required by your network infrastructure. For SAP S/4HANA Cloud, private edition, enter value: proxy\)
+        > 6.  *Proxy Host* \(if required by your network infrastructure. For SAP S/4HANA Cloud Private Edition
         > 
-        > 7.  *Proxy Port* \(if required by your network infrastructure. For SAP S/4HANA Cloud, private edition, enter value: 3128\)
+        >     , enter value: proxy\)
+        > 
+        > 7.  *Proxy Port* \(if required by your network infrastructure. For
+        > 
+        >     SAP S/4HANA Cloud Private Edition, enter value: 3128\)
 
     3.  Choose *Continue*. The destination is now updated.
 
@@ -254,7 +258,7 @@ The configuration of the push data provider is needed to enable the processing o
     > -   Only needs to be set up on consolidation and target systems for import \(that is, QA and PRD systems\).
 
     > ### Note:  
-    > Commonly, authorization-checks are performed in the system where a change happens. For *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
+    > Commonly, authorization-checks are performed in the system where a change happens. For *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as the background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
 
 7.  Choose *Continue*.
 
@@ -289,11 +293,11 @@ There are important jobs to be executed in the managed systems. The jobs mention
 To create and release transports as well as creating transport of copies, for example in client 100 of the development system use the following transaction:`/SDF/CALM_CDM_TR_PROC_CL_DEP-100`
 
 > ### Note:  
-> The job `/SDF/CALM_CDM_DIAGNOSTICS` pushes data about the available capabilities in the managed system `ST-PI`to SAP Cloud ALM.
+> The job `/SDF/CALM_CDM_DIAGNOSTICS` pushes data about the available capabilities in the managed system `ST-PI` to SAP Cloud ALM.
 > 
 > This job is supposed to be released and executed once per day and client.
 > 
-> For the import of transports there is a job executed in each target system client `000`:`/SDF/CALM_CDM_IMPORT_TRANSPORTS`
+> For the import of transports there's a job executed in each target system client `000`:`/SDF/CALM_CDM_IMPORT_TRANSPORTS`
 
 To enable the use cases mentioned above within an SAP Cloud ALM feature, execute the following setup in each development client that you want to use:
 
@@ -304,7 +308,7 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
 
 
-1.  Log on to the respective ABAP system client and start transaction `/n/SDF/ALM_SETUP`.
+1.  Log on to the respective ABAP system client and start the transaction `/n/SDF/ALM_SETUP`.
 
 2.  You can reuse the SAP Cloud ALM destination from your PUSH data configuration.
 
@@ -316,7 +320,7 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
 4.  Under *Enter Background User and Register System*, choose *Unregister*.
 
-5.  Enter the background user you've created to perform the data collection.
+5.  Enter the background user that you've created to perform the data collection.
 
 6.  Choose *Register* to call SAP Cloud ALM and register the system. Confirm the scheduling of the respective jobs.
 
@@ -324,7 +328,7 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
     If it’s successful, an `LMS ID` is retrieved and is displayed.
 
-7.  Select the use case you want to activate:
+7.  Select the use case that you want to activate:
 
     `Feature Deployment: Manage Transport per Client`
 
@@ -342,16 +346,20 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
 ## Configuration of the Transport Organizer Web UI
 
-Before you can start using the navigation to the transport organizer for CTS managed transports by using the transport id in the *Features* app, you have to activate the web-service for transport organizer web ui.
+Before you can start using the navigation to the transport organizer for CTS-managed transports by using the transport id in the *Features* app, you have to activate the Web service for transport organizer web ui.
 
-Please follow the steps in the [Activating the Web Service for Transport Organizer Web UI](https://help.sap.com/docs/SAP_NETWEAVER_700/109ce05a6c531014b4e8fe6b0570a984/45ec35a90fdc3481e10000000a1553f6.html) documentation.
+Follow the steps in the [Activating the Web Service for Transport Organizer Web UI](https://help.sap.com/docs/SAP_NETWEAVER_700/109ce05a6c531014b4e8fe6b0570a984/45ec35a90fdc3481e10000000a1553f6.html) documentation.
 
 > ### Note:  
 > If the transport organizer web ui is throwing exceptions, check the following:
 > 
-> -   Make sure that you've configured the start authorization according the following notes: [1413011](https://me.sap.com/notes/1413011) and/or [3064888](https://me.sap.com/notes/3064888) respectively.
+> -   Make sure that you've configured the start authorization according to the following notes: [1413011](https://me.sap.com/notes/1413011) and/or [3064888](https://me.sap.com/notes/3064888) respectively.
 > 
 > -   Check the HTTP\_WHITELIST [0002578665](https://me.sap.com/notes/0002578665) and the UCON\_CHW allowlist [0003290787](https://me.sap.com/notes/0003290787).
+> 
+>     See also [**How to maintain the table HTTPURLLOC**](https://help.sap.com/docs/SUPPORT_CONTENT/abapconn/3354079499.html).
+> 
+> -   In case, the standard URL \(Root URL\) doesn't fit your needs \(for example, because you use the allowlist mentioned above\), you can adjust the Logon URL in *Landscape Management* for the affected system, so that it reflects your URL on the allowlist. For more information, see [**Landscape Management**](https://help.sap.com/docs/cloud-alm/applicationhelp/landscape-management?locale=en-US).
 
 
 
@@ -359,7 +367,7 @@ Please follow the steps in the [Activating the Web Service for Transport Organiz
 
 ## Reporting Incidents
 
-If you encounter issues while using this app, open <span class="SAP-icons"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
+If you encounter issues while using this app, open <span class="SAP-icons-V5"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/casecreate), under component SV-CLM-IMP-FTR .
 

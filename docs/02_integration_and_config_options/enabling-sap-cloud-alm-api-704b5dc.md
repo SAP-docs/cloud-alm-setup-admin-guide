@@ -127,7 +127,7 @@ An entitlement is your right to provision and consume a resource.
 
 1.  Choose *Services* \> *Instances and Subscriptions*.
 
-2.  If you already have an instance, choose <span class="SAP-icons"></span> \(Actions\) and select *Update*. Then proceed to step 4.
+2.  If you already have an instance, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *Update*. Then proceed to step 4.
 
     If you don't have an instance yet, choose *Create*.
 
@@ -181,7 +181,7 @@ An entitlement is your right to provision and consume a resource.
 
 Bindings allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
 
-1.  Next to your instance, choose <span class="SAP-icons"></span> \(Actions\) and select *Create Binding*.
+1.  Next to your instance, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *Create Binding*.
 
     ![](images/NOCF-CreateServiceBinding_647e290.png)
 
@@ -189,7 +189,7 @@ Bindings allow you to configure an external application so that it can connect t
 
 3.  Choose *Create*.
 
-4.  Next to the created binding, choose <span class="SAP-icons"></span> \(Actions\) and select *View*.
+4.  Next to the created binding, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *View*.
 
 5.  You can now see your binding in JSON format.
 

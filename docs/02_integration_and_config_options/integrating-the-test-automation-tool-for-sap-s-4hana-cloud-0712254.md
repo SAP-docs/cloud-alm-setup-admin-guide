@@ -43,9 +43,9 @@ To use this integration in your project, you need to configure a service and an 
 
 2.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-3.  In the <span class="SAP-icons"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
+3.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
 
-4.  On the *Services & Systems* page, choose <span class="SAP-icons"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
+4.  On the *Services & Systems* page, choose <span class="SAP-icons-V5"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
 
     The list now displays all SAP S/4HANA Cloud tenants that are currently connected to your SAP Cloud ALM tenant.
 
@@ -121,7 +121,7 @@ Once you've established the connection between SAP Cloud ALM and the test automa
 
 ## Reporting Incidents
 
-If you encounter issues while using this app, open <span class="SAP-icons"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
+If you encounter issues while using this app, open <span class="SAP-icons-V5"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/casecreate) on the component SV-CLM-IMP-TAT.
 

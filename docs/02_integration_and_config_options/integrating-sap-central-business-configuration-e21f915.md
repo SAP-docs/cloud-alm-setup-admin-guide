@@ -26,7 +26,7 @@ Create an endpoint for SAP Central Business Configuration by carrying out the fo
 
 1.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-2.  In the <span class="SAP-icons"></span> *Select a Scope* dialog, make sure that the service *SAP Central Business Configuration* is selected.
+2.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP Central Business Configuration* is selected.
 
 3.  On the *Services & Systems* page, use the search or filter options to find your SAP Central Business Configuration service and open it.
 

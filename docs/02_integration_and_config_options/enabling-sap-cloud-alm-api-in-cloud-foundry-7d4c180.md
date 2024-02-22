@@ -153,7 +153,7 @@ An entitlement is your right to provision and consume a resource.
 
 3.  Choose *Services* \> *Instances*.
 
-4.  If you already have an instance, choose <span class="SAP-icons"></span> \(Actions\) and select *Update*. Then proceed to step 6.
+4.  If you already have an instance, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *Update*. Then proceed to step 6.
 
     If you don't have an instance yet, click on the *Create* dropdown and select *Service Instance*.
 
@@ -200,7 +200,7 @@ An entitlement is your right to provision and consume a resource.
 
 Service keys allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
 
-1.  When your instance has been created, choose <span class="SAP-icons"></span> \(Actions\) next to it and select *Create Service Key*.
+1.  When your instance has been created, choose <span class="SAP-icons-V5"></span> \(Actions\) next to it and select *Create Service Key*.
 
     ![Create a Service Key](images/Enabling_APIs_-_Create_Service_Key_515c433.png)
 
@@ -208,7 +208,7 @@ Service keys allow you to configure an external application so that it can conne
 
 3.  Choose *Create*.
 
-4.  Next to your newly created service key, choose <span class="SAP-icons"></span> \(Actions\) and select *View*.
+4.  Next to your newly created service key, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *View*.
 
 5.  You can now see your service key in JSON format.
 

@@ -8,6 +8,9 @@ By enabling the transport management for the SAP Cloud Transport Management serv
 
 SAP Cloud Transport Management is automatically subscribed in your SAP Cloud ALM BTP subaccount. Only this subscription can be used for the integration with SAP Cloud ALM.
 
+> ### Note:  
+> An existing SAP Cloud Transport Management Service instance can't currently be connected to a SAP Cloud ALM.
+
 To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP Cloud Transport Management service, you first have to establish a connection between them.
 
 > ### Note:  
@@ -227,7 +230,7 @@ To create the nodes in the cTMS in this context, please follow the documentation
 
 ## Reporting Incidents
 
-If you encounter issues while using this app, open <span class="SAP-icons"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
+If you encounter issues while using this app, open <span class="SAP-icons-V5"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/casecreate), under component `SV-CLM-IMP-FTR` .
 

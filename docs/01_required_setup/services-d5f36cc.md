@@ -15,9 +15,16 @@ The import method of services in SAP Cloud ALM depends on the service type of yo
     > ### Note:  
     > If you have services that are assigned to a different customer number \(for example, as a global ultimate customer\), you need to enter an S-user that has the authorizations to access the system data for all subsidiary customer accounts to ensure that the *Landscape Management* app has access to the data.
     > 
-    > The S-user must not be a **technical** S-user but a standard **dialog** S-user with CCC Group authorizations. For more information on how to create such an S-user, refer to SAP Note [3070306](https://me.sap.com/notes/3070306).
+    > To be able to access the required system data, the S-user must be one of the following:
     > 
-    > To add the S-user, open the *Landscape Management* app and choose <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Configuration\). Under *Import of Subscribed SAP Services*, choose :heavy_plus_sign: and enter the credentials of the S-user.
+    > -   A **technical** S-user that was created on top of the group hierarchy \(for the main or parent account\). By default, these technical S-users can see all subsidiary customer numbers of the corporate group.
+    > 
+    > -   A **standard** S-user in the corporate group. You can manage the authorizations of standard S-users yourself and to your requirements, which gives you more control over which customer numbers they can access.
+    > 
+    > 
+    > For more information about corporate groups and corporate group s-users, refer to [Troubleshooting for Landscape Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/calm-op-troubleshooting/lms-troubleshooting.html?anchorId=section_665299547_co) on SAP Support Portal.
+    > 
+    > To add the S-user, open the *Landscape Management* app and choose <span style="font-size:16px;"><span class="SAP-icons-V5"></span></span> \(Configuration\). Under *Import of Subscribed SAP Services*, choose :heavy_plus_sign: and enter the credentials of the S-user.
 
 -   Other services types \(such as *SAP SuccessFactors* and *SAP S/4HANA Cloud*\) are push-enabled services that register themselves in SAP Cloud ALM. These services are created automatically in the *Landscape Management* app as part of the communication arrangement or registration.
 

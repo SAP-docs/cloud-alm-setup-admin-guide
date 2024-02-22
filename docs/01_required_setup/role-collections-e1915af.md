@@ -257,7 +257,7 @@ Project Management
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, notes, documents, test cases, defects, tags, and SAP Readiness Check analyses
+Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, defects, tags, and SAP Readiness Check analyses. View process hierarchy nodes.
 
 The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
@@ -286,7 +286,7 @@ Project Management
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, notes, documents, test cases, and defects, and view SAP Readiness Check analyses
+Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects. View process hierarchy nodes and SAP Readiness Check analyses.
 
 The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
@@ -315,7 +315,7 @@ Project Management
 </td>
 <td valign="top">
 
-View projects, deployment plans, and SAP Readiness Check analyses. Manage tasks, scopes, process hierarchy nodes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), notes, documents, test cases, and defects
+Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), notes, documents, test cases, and defects. View projects, deployment plans, SAP Readiness Check analyses, and process hierarchy nodes.
 
 The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
@@ -384,6 +384,33 @@ Create, edit, and delete custom solution processes
 <td valign="top">
 
 `imp_pm_ProcessAuthor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+*Process Hierarchy Author* 
+
+</td>
+<td valign="top">
+
+Create, edit, and delete process hierarchy nodes
+
+</td>
+<td valign="top">
+
+*Process Management Process Hierarchy Author* 
+
+</td>
+<td valign="top">
+
+`imp_pm_ProcessHierarchyAuthor` 
 
 </td>
 </tr>
