@@ -91,7 +91,11 @@ Process Management
 
 -   SAP Ariba Spend Analysis
 
+-   SAP Ariba Supplier Lifecycle and Performance
+
 -   SAP Ariba Supplier Management
+
+-   SAP Ariba Supplier Risk
 
 -   SAP Ariba Supply Chain Collaboration
 
@@ -705,7 +709,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -727,7 +731,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -749,7 +753,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -771,7 +775,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -793,7 +797,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -815,7 +819,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -837,7 +841,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -859,7 +863,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -881,7 +885,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -903,7 +907,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -925,7 +929,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -947,7 +951,7 @@ Requirement Management
 </td>
 <td valign="top">
 
- 
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -969,7 +973,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -991,7 +995,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1013,7 +1017,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1035,7 +1039,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1057,7 +1061,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1079,7 +1083,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1101,7 +1105,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1123,7 +1127,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1145,7 +1149,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1167,7 +1171,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1189,7 +1193,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1211,7 +1215,7 @@ Document Management
 </td>
 <td valign="top">
 
- 
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1439,7 +1443,12 @@ Test Management
 </td>
 <td valign="top">
 
-More under [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md).
+-   Manual testing
+
+-   Automated testing with the test automation tool for SAP S/4HANA Cloud
+
+
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1461,7 +1470,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1483,7 +1492,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1505,7 +1514,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1527,7 +1536,7 @@ Test Management
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1549,7 +1558,7 @@ Test Management
 </td>
 <td valign="top">
 
-SAP Cloud for Customer
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1571,7 +1580,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1593,7 +1602,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1615,7 +1624,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1637,7 +1646,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1659,7 +1668,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1681,7 +1690,7 @@ Test Management
 </td>
 <td valign="top">
 
- 
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
 </tr>
@@ -1781,7 +1790,7 @@ SAP Information Collaboration Hub for Life Sciences
 </td>
 <td valign="top">
 
-Operations
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
 
 </td>
 <td valign="top">
@@ -2569,6 +2578,28 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <td valign="top">
 
 SAP Intelligent Product Recommendation 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Digital Manufacturing 
 
 </td>
 <td valign="top">
@@ -4077,16 +4108,7 @@ Change & Deployment Management
 </td>
 <td valign="top">
 
-Prerequisites:
-
--   SAP\_BASIS 7.40 SP 20 and higher
-
-    or 7.50 SP 04 and higher
-
--   ST-PI 740 SP 18 and higher
-
-
-
+ 
 
 </td>
 </tr>

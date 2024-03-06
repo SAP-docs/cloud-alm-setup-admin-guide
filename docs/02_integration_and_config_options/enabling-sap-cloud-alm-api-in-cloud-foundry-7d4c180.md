@@ -25,7 +25,7 @@ Actions
 <tr>
 <td valign="top">
 
-On or after 2023-10-16
+On or after October 16, 2023
 
 </td>
 <td valign="top">
@@ -39,7 +39,7 @@ You can skip these steps altogether and access your binding in the SAP BTP cockp
 <tr>
 <td valign="top">
 
-Between 2023-06-12 and 2023-10-16
+Between June 12, 2023 and October 16, 2023
 
 </td>
 <td valign="top">
@@ -55,7 +55,7 @@ You only need to carry out these steps if you want to set up transport managemen
 <tr>
 <td valign="top">
 
-Before 2023-06-12
+Before June 12, 2023
 
 </td>
 <td valign="top">
@@ -69,11 +69,9 @@ No service key or binding has been created as part of the initial provisioning. 
 > ### Note:  
 > This document describes how to retrieve a service key in the Cloud Foundry environment. This is no longer the recommended approach.
 > 
-> If a Cloud Foundry organization and space don't exist in your SAP Cloud ALM subaccount \(as shown in the image below\), or if they exist but are not in use in the context of SAP Cloud ALM APIs, please follow [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) instead.
+> If Cloud Foundry isn't enabled and no space exists in your SAP Cloud ALM subaccount \(as shown in the image below\), or if they exist but are not in use in the context of SAP Cloud ALM APIs, please follow [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) instead.
 > 
 > ![](images/SUI_DisabledCF_a56931d.png)
-
-
 
 
 
@@ -85,7 +83,7 @@ No service key or binding has been created as part of the initial provisioning. 
 
     If you don't have this role, the global account administrator can assign it to you by following the steps described in [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/4a0491330a164f5a873fa630c7f45f06.html).
 
--   Your user has the role *Org Manager* in your Cloud Foundry organization.
+-   Your user has the role *Org Manager* in your Cloud Foundry environment.
 
     If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html).
 

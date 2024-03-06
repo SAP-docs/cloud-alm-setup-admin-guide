@@ -111,7 +111,7 @@ You want to provision your SAP Cloud ALM tenant in the **Netherlands | Amsterdam
 </td>
 <td valign="top">
 
-The **Netherlands | Amsterdam** region was available during the initial phase of the SAP Cloud ALM rollout, which is why it may still be listed at different places on SAP websites, for example, under [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?mode=solution&currentLevel=region&solutionId=NZA52&regionCode=EU) in the SAP Trust Center.
+The **Netherlands | Amsterdam** region was available during the initial phase of the SAP Cloud ALM rollout, which is why it may still be listed at different places on SAP websites, for example, under [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) in the SAP Trust Center.
 
 However, this region is no longer available for the provisioning of SAP Cloud ALM.
 

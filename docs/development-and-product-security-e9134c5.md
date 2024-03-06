@@ -58,7 +58,12 @@ SAP applies the following measures to make SAP Cloud ALM safe for you to use.
 -   Connections are encrypted with TLS 1.3, X.509 authentication.
 -   Geo blocking and blocking of sanctioned persons and organizations are in place.
 -   Data at rest is encrypted.
--   SAP HANA databases are regularly backed up.
+-   SAP HANA databases are regularly backed up. More:
+    -   [Backup and Recovery \(SAP HANA Cloud\)](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-administration-guide/backup-and-recovery)
+
+    -   [Resilience, High Availability, and Disaster Recovery \(SAP BTP\)](https://help.sap.com/docs/btp/sap-business-technology-platform/resilience-high-availability-and-disaster-recovery)
+
+
 -   For the time being, tenant-specific data recovery is not available.
 -   Physical security is ensured by hyperscalers.
 -   Uploaded files are scanned for malware.

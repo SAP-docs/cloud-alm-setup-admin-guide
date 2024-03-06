@@ -27,7 +27,7 @@ Actions
 <tr>
 <td valign="top">
 
-On or after 2023-10-16
+On or after October 10, 2023
 
 </td>
 <td valign="top">
@@ -41,7 +41,7 @@ You can skip these steps altogether and access your binding in the SAP BTP cockp
 <tr>
 <td valign="top">
 
-Between 2023-06-12 and 2023-10-16
+Between June 12, 2023 and October 10, 2023
 
 </td>
 <td valign="top">
@@ -57,7 +57,7 @@ You only need to carry out these steps if you want to set up transport managemen
 <tr>
 <td valign="top">
 
-Before 2023-06-12
+Before June 12, 2023
 
 </td>
 <td valign="top">
@@ -69,9 +69,9 @@ No service key or binding has been created as part of the initial provisioning. 
 </table>
 
 > ### Note:  
-> This document describes how to retrieve a service key without a Cloud Foundry organization.
+> This document describes how to retrieve a service key without Cloud Foundry.
 > 
-> You can access it in the SAP BTP cockpit or in theIf a Cloud Foundry organization and space already exist in your SAP Cloud ALM subaccount \(as shown in the image below\) and are already in use in the context of SAP Cloud ALM APIs, you can also follow [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md). However, we strongly recommend following the approach **without** Cloud Foundry.
+> If Cloud Foundry is enabled and a space already exists in your SAP Cloud ALM subaccount \(as shown in the image below\) and is already in use in the context of SAP Cloud ALM APIs, you can also follow [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md). However, we strongly recommend following the approach **without** Cloud Foundry.
 > 
 > ![](images/SUI-EnabledCF_a426651.png)
 

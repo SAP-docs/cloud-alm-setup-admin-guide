@@ -42,7 +42,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 4.  Select the geographical region in which you would like to provision SAP Cloud ALM. A suitable data center will be selected for you.
 
-    To find out on which data centers SAP Cloud ALM is available, refer to [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?mode=solution&currentLevel=world&solutionId=NZA52) in SAP Security and Trust.
+    To find out on which data centers SAP Cloud ALM is available, refer to [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) in SAP Security and Trust.
 
     Please note that it's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 

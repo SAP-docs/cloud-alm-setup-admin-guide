@@ -114,11 +114,10 @@ If you don't have these authorization, the *Global Administrator* can assign one
 
 ## Overview: Onboarding Procedure
 
-On this interactive image, you can see all mandatory setup steps for SAP Cloud ALM at a glance. For detailed guidance, click on the respective sections.
-
-![](images/Image_Map_Required_Setup_for_SAP_Cloud_ALM_d4f9ce5.png)
-
-For more detailed background information and general explanations of SAP BTP concepts, refer to [Basic Platform Concepts](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/38ecf59cdda64150a102cfaa62d5faab.html).
+![After you've requested SAP Cloud ALM on SAP for Me, you need to onboard
+							users in the Identity Authentication service, then add users to SAP
+							Cloud ALM and assign roles to them in the User Management app, and then
+							(if required) set up landscape management.](images/Image_Map_Required_Setup_for_SAP_Cloud_ALM_d4f9ce5.png)
 
 -   **[Step 1: Onboard Users in the Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md "To give further users access to SAP Cloud ALM, you need to create or import users in
 		your Identity Authentication tenant.")**  

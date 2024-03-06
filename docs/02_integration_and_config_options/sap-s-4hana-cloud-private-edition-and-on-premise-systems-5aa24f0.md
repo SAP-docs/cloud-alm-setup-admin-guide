@@ -64,7 +64,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud Pri
 
 -   For ST-PI 740 after SP 25, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
--   For ST-PI 740 SP 25, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
+-   For ST-PI 740 SP 24 and 25, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
 -   For ST-PI 740 SP 23, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
@@ -125,10 +125,6 @@ Note that the authorization steps are only needed for system client 000. For oth
 <a name="loio5aa24f076e3b4b47839f762baa7d089a__section_pws_sst_tqb"/>
 
 ## Procedure
-
-
-
-### Create a Space and Configure Entitlements
 
 
 

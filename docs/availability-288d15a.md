@@ -33,19 +33,19 @@ SAP Cloud ALM is available in the following languages:
 
 -   English
 
--   German
-
 -   French
 
--   Spanish
-
--   Portuguese
+-   German
 
 -   Japanese
 
--   Chinese
+-   Portuguese
 
 -   Russian
+
+-   Simplified Chinese
+
+-   Spanish
 
 
 The default display language of the solution is based on the language that is maintained in your browser settings.
