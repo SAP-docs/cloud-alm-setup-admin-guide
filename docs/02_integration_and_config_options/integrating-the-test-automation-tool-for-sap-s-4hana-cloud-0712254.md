@@ -128,7 +128,7 @@ Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/case
 **Related Information**  
 
 
-[Test Automation Tool for S/4HANA Cloud - Additional Info](https://launchpad.support.sap.com/#/notes/2129147)
+[Test Automation Tool for S/4HANA Cloud - Additional Info](https://me.sap.com/notes/2129147)
 
 [Maintain Communication Systems](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/LATEST/en-US/15663c157670410ca366623dff329396.html)
 

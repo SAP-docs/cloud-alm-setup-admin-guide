@@ -270,8 +270,6 @@ Roles
 
 Roles in SAP Cloud ALM are delivered as predefined collections.
 
-The initial user receives the role *Global Administrator*, which provides the complete set of authorizations in SAP Cloud ALM.
-
 </td>
 <td valign="top">
 

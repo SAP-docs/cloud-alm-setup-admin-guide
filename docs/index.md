@@ -29,6 +29,7 @@
         -   [Tips and Troubleshooting for Your Setups](02_integration_and_config_options/tips-and-troubleshooting-for-your-setups-0fb29d9.md)
             -   [SAP S/4HANA Cloud Private Edition and On-Premise Systems](02_integration_and_config_options/sap-s-4hana-cloud-private-edition-and-on-premise-systems-f5309b8.md)
                 -   [Issues and Solutions](02_integration_and_config_options/issues-and-solutions-f32dc37.md)
+                -   [Solutions for Errors in the Managed System Setup Check](02_integration_and_config_options/solutions-for-errors-in-the-managed-system-setup-check-93ae080.md)
     -   [Integrating Test Automation Providers](02_integration_and_config_options/integrating-test-automation-providers-82b04bb.md)
         -   [Integrating the Test Automation Tool for SAP S/4HANA Cloud](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md)
         -   [Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM](02_integration_and_config_options/setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md)

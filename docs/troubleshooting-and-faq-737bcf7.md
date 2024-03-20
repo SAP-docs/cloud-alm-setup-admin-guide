@@ -887,6 +887,22 @@ Refer to KBA [3247776](https://me.sap.com/notes/3247776).
 <tr>
 <td valign="top">
 
+You want to delete your SAP Cloud ALM subaccount.
+
+</td>
+<td valign="top">
+
+After you've deleted your SAP Cloud ALM subscription from your subaccount, you can delete the subaccount.
+
+Please note that once you've deleted your subaccount, you won't be able to use the automated provisioning on SAP for Me if you want to use SAP Cloud ALM again in the future. Instead, you'll need to carry out the setup manually.
+
+If you may want to use SAP Cloud ALM again in the future, consider temporarily stopping users from logging on to SAP Cloud ALM by removing the trust relationship to your identity provider. When you're ready to use SAP Cloud ALM again, you can re-establish the trust relationship.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to decommission SAP Cloud ALM.
 
 </td>

@@ -12,7 +12,7 @@ For more detailed information, refer to the corresponding documentation under [R
 
 ## Requesting SAP Cloud ALM on SAP for Me
 
-Find out how to request SAP Cloud ALM on SAP for Me.
+Find out how to request the provisioning of SAP Cloud ALM on SAP for Me.
 
 Corresponding documentation: [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md)
 
@@ -36,7 +36,7 @@ Corresponding documentation: [Step 1: Onboard Users in the Identity Authenticati
 
 ## Assigning Roles to Users in SAP Cloud ALM
 
-Find out how to assign roles to users in the *User Management* app in SAP Cloud ALM and in the SAP BTP cockpit.
+Find out how to add users and assign roles to them in the *User Management* app in SAP Cloud ALM and in the SAP BTP cockpit.
 
 Corresponding documentation: [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md)
 

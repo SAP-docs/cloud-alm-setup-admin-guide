@@ -6,6 +6,8 @@ In addition to manual testing, which is performed directly in SAP Cloud ALM, you
 
 By integrating automation providers with SAP Cloud ALM, you can reduce your manual testing efforts and take advantage of its test orchestration, execution monitoring, and reporting capabilities.
 
+For more information, refer to [Automated Test Cases](https://help.sap.com/docs/cloud-alm/applicationhelp/automated-test-cases).
+
 -   **[Integrating the Test Automation Tool for SAP S/4HANA Cloud](integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md "You can integrate automated test cases from the test automation tool for SAP S/4HANA
 		Cloud for use in test orchestration in SAP Cloud ALM.")**  
 You can integrate automated test cases from the test automation tool for SAP S/4HANA Cloud for use in test orchestration in SAP Cloud ALM.

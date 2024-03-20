@@ -88,7 +88,7 @@ If you requested SAP Cloud ALM, you've received the authorizations required to s
     -   Configuration of the endpoint for the test automation
 
 
-5.  Set up Tricentis execution agents for remote execution, as described in [Execution Agents](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/agents.htm).
+5.  Set up Tricentis execution agents for remote execution, as described in [Set up team agents](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/admin_guide/agents_team.htm).
 
 
 You can now start using Tricentis Test Automation for SAP integrated with SAP Cloud ALM from the *Test Preparation* app in SAP Cloud ALM. The authoring of test cases happens directly Tricentis Test Automation for SAP, as described in the Tricentis documentation linked below.
