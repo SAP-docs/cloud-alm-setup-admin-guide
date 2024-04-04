@@ -42,7 +42,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 4.  Select the geographical region in which you would like to provision SAP Cloud ALM. A suitable data center will be selected for you.
 
-    To find out on which data centers SAP Cloud ALM is available, refer to [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) in SAP Security and Trust.
+    To find out on which data centers SAP Cloud ALM is available, see [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) in SAP Security and Trust.
 
     Please note that it's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 
@@ -116,7 +116,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
     ![Entities Created by SAP for Me](images/CALM_Onboarding_on_SAP4Me_7124860.png)
 
-    If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, refer to [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
+    If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, see [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
 
 11. You receive emails containing logon information, configuration guidance, and links to support resources.
 

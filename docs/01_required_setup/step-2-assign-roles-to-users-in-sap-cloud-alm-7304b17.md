@@ -38,7 +38,7 @@ You can add users and assign roles to them directly in the SAP Cloud ALM *User M
 
     Sign in with the email address and password you've defined when activating your account in the Identity Authentication service. Do not sign in with your S-user.
 
-2.  Open the *User Management* app, which is located in the *Administration* section.
+2.  Open the *User Management* app, which is located in the *Administration* tab.
 
 3.  To go to the user list, choose <span class="SAP-icons-V5"></span> \(Users\).
 

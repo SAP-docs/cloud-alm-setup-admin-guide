@@ -4,7 +4,7 @@
 
 **Managed System Setup Check Report**
 
-In the list below you can find messages that can appear in the managed system during the Managed System Setup Check. This includes both confirmation information and error messages. In the second column *Message Explanation*, you can find more information about the message. In case of error messages, you can find information about how to resolve the errors.
+In the list below, you can find messages that can appear in the managed system during the Managed System Setup Check. This includes both confirmation information and error messages. In the second column *Message Explanation*, you can find more information about the message. In case of error messages, you can find information about how to resolve the errors.
 
 
 
@@ -104,11 +104,9 @@ Job `/SDF/CALM_CDM_DIAGNOSTICS` hasn't \(yet\) run today
 </tr>
 </table>
 
+For more information about the basic setup and use cases refer to the following documentation:
 
-
-### More Information
-
-If the information in the table above doesn't, you can find more information about the Batch Job Check below:
+[**SAP S/4HANA Cloud Private Edition and On-Premise Systems Setup Procedure**](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system?locale=en-US#procedure).
 
 
 

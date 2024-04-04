@@ -212,11 +212,11 @@ Bindings allow you to configure an external application so that it can connect t
 		applications, you need to retrieve a service key or binding and connect your SAP services
 		and systems to your SAP Cloud ALM instance.")**  
 To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key or binding and connect your SAP services and systems to your SAP Cloud ALM instance.
--   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM on or after 2023-06-14, an automatically generated SAP
+-   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM on or after June 14, 2023, an automatically generated SAP
 		Cloud ALM service key was uploaded to the Landscape Management app
 		for you. This key can be used to connect managed services to push monitoring data using
 		OAuth 2.0.")**  
-If you requested SAP Cloud ALM on or after 2023-06-14, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
+If you requested SAP Cloud ALM on or after June 14, 2023, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
 
 **Related Information**  
 

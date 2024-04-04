@@ -25,7 +25,7 @@ The Cloud Integration Automation service provides you with a guided workflow to 
 
 ## Procedure
 
-1.  From the SAP Cloud ALM launchpad, open the *User Management* app.
+1.  Open the *User Management* app.
 
 2.  To go to the user list, choose <span class="SAP-icons-V5"></span> \(Users\).
 

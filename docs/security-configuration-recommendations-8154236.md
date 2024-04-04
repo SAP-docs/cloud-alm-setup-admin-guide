@@ -44,11 +44,6 @@ More Information
 </th>
 <th valign="top">
 
-Last Update
-
-</th>
-<th valign="top">
-
 Index
 
 </th>
@@ -91,11 +86,6 @@ Enable the SAP Audit Log Viewer service for SAP BTP.
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
 CALM-X-0001
 
 </td>
@@ -129,11 +119,6 @@ Depending on your browser, third-party cookies may be disabled by default.
 <td valign="top">
 
 To be able to use the in-app help and Built-In Support, either allow third-party cookies or enter the respective domain as **Sites that can always use cookies**.
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -189,11 +174,6 @@ To prevent external applications from performing unauthorized operations, assign
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
 CALM-X-0003
 
 </td>
@@ -231,12 +211,7 @@ Use the authentication method that is recommended by the *Landscape Management* 
 </td>
 <td valign="top">
 
-[SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html) 
-
-</td>
-<td valign="top">
-
- 
+[SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html)
 
 </td>
 <td valign="top">
@@ -279,11 +254,6 @@ Assign suitable roles that give users only the authorizations they need to perfo
 <td valign="top">
 
 [Role Collections](01_required_setup/role-collections-e1915af.md)
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -335,11 +305,6 @@ Choose one of the more secure methods according to the capabilities of the endpo
 <td valign="top">
 
 [Step 3: Set Up Landscape Management – Services](01_required_setup/services-d5f36cc.md)
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -397,12 +362,51 @@ Select the appropriate access level for your project:
 </td>
 <td valign="top">
 
- 
+CALM-PTM-0001
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Configuration & Security Analysis
 
 </td>
 <td valign="top">
 
-CALM-PTM-0001
+Recommended
+
+</td>
+<td valign="top">
+
+Roles and Authorizations
+
+</td>
+<td valign="top">
+
+Data Access
+
+</td>
+<td valign="top">
+
+The *Configuration & Security Analysis* app collects security-relevant configuration data of configured services and systems.
+
+All data stored in this app must be treated as security-relevant.
+
+</td>
+<td valign="top">
+
+Restrict user access to the *Configuration & Security Analysis* app as much as possible.
+
+</td>
+<td valign="top">
+
+[Configuration & Security Analysis](https://help.sap.com/docs/cloud-alm/applicationhelp/configuration-security-analysis)
+
+</td>
+<td valign="top">
+
+CALM-CSA-0001
 
 </td>
 </tr>
@@ -441,12 +445,7 @@ Use access groups to grant users access only to data relevant to their tasks.
 </td>
 <td valign="top">
 
-[Creating Access Groups](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/b22d9ce6403f44518dcda7757baca53a.html) 
-
-</td>
-<td valign="top">
-
- 
+[Creating Access Groups](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/b22d9ce6403f44518dcda7757baca53a.html)
 
 </td>
 <td valign="top">

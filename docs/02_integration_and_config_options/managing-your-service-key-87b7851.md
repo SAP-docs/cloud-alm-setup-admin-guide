@@ -4,7 +4,7 @@
 
 # Managing Your Service Key
 
-If you requested SAP Cloud ALM on or after 2023-06-14, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
+If you requested SAP Cloud ALM on or after June 14, 2023, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
 
 
 
@@ -51,7 +51,7 @@ If no service key has been uploaded yet, you can add it as follows:
 
 5.  Under *Credentials*, open your key and choose *Download*.
 
-6.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
+6.  Open the *Landscape Management* app.
 
 7.  Open the configuration \(:gear:\) and expand the section *SAP Cloud ALM Service Key*.
 
@@ -70,7 +70,7 @@ If no service key has been uploaded yet, you can add it as follows:
     > 
     > -   Don't upload service keys for API calls, such as the SAP Cloud ALM Analytics API, to landscape management.
 
-10. Choose *Upload.*
+10. Choose *Upload*.
 
     A format check is performed before uploading the service key to make sure it is a valid service key.
 

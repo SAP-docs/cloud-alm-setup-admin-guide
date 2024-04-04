@@ -52,7 +52,7 @@ Process Management
 </td>
 <td valign="top">
 
--   [SAP Best Practices for SAP S/4HANA Cloud, public edition](https://rapid.sap.com/bp/BP_CLD_ENTPR)
+-   [SAP Best Practices for SAP S/4HANA Cloud Public Edition](https://rapid.sap.com/bp/BP_CLD_ENTPR)
 
 -   [Two-Tier ERP](https://me.sap.com/processnavigator/SolS/EARL_SolS-067)
 
@@ -381,7 +381,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – Implementation and System Conversion 
+Task template: [SAP Activate Methodology for RISE with SAP S/4HANA Cloud Private Edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – Implementation and System Conversion 
 
 </td>
 </tr>
@@ -405,13 +405,13 @@ Task Management
 
 Task templates:
 
--   [SAP Activate for SAP S/4HANA Cloud, public edition \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/82b2db84548d41209cda972f0fac428b) – Implementation
+-   [SAP Activate for SAP S/4HANA Cloud Public Edition \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/82b2db84548d41209cda972f0fac428b) – Implementation
 
--   [SAP Activate for Upgrade of SAP S/4HANA Cloud, public edition, three-system landscape](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/b6cc8dc5bbb749a59e1e21a4796c796f) – Upgrade
+-   [SAP Activate for Upgrade of SAP S/4HANA Cloud Public Edition, three-system landscape](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/b6cc8dc5bbb749a59e1e21a4796c796f) – Upgrade
 
 -   [Baseline Activation Service for SAP S/4HANA Cloud \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/d9ffcd6438ab4ee9a02bfcf682502892)
 
--   [SAP Activate for SAP S/4HANA Cloud, public edition \(2-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) – Implementation
+-   [SAP Activate for SAP S/4HANA Cloud Public Edition \(2-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) – Implementation
 
 
 
@@ -440,7 +440,7 @@ Task templates:
 
 -   [SAP Activate Methodology for Transition to SAP S/4HANA](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/S4HANATRANSONPRE) 
 
--   [SAP Activate Methodology for SAP S/4HANA Cloud, private edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – New Implementation, System Conversion, and Selective Data Transition
+-   [SAP Activate Methodology for SAP S/4HANA Cloud Private Edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – New Implementation, System Conversion, and Selective Data Transition
 
 -   [SAP Activate Methodology for SAP S/4HANA Upgrades](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/MATS4HANA) – Technical Upgrade and Upgrade and Product Integration
 
@@ -1790,7 +1790,7 @@ SAP Information Collaboration Hub for Life Sciences
 </td>
 <td valign="top">
 
-More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+Operations
 
 </td>
 <td valign="top">
@@ -2643,7 +2643,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Order Delivery and Scheduling 
+SAP Order and Delivery Scheduling 
 
 </td>
 <td valign="top">
@@ -3940,6 +3940,72 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <td valign="top">
 
 SAP BTP, Kyma runtime 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cell and Gene Therapy Orchestration 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Order and Delivery Scheduling 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Variant Configuration and Pricing 
 
 </td>
 <td valign="top">

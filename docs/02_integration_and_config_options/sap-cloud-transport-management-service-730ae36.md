@@ -41,13 +41,13 @@ To use the transport capabilities of SAP Cloud ALM in conjunction with the SAP C
 
 1.  **Set Up the Product**
 
-    Set up the specific use case according to the respective documentation, for example [Enabling Content Transport, Cloud Foundry Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?version=Cloud).
+    [Enabling Content Transport, Cloud Foundry Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?version=Cloud).
 
-2.  **Set Up an SAP Cloud ALM API Instance**
+2.  **Set Up an SAP Cloud ALM API InstanceSet up the specific use case according to the respective documentation, for example**
 
     Set up the SAP Cloud ALM API instance and the Change and Deployment display and the scope management by performing the steps described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
-3.  **Set Up HTTP Destinations and Transport Routes with SAP Cloud ALM Pass-Through**
+3.  **Set up the specific use case according to the respective documentation, forSet Up HTTP Destinations and Transport Routes with SAP Cloud ALM Pass-Through**
 
     > ### Note:  
     > The following steps apply only to the SAP Integration Suite. For other integrations, refer to the relevant documentation.
@@ -223,6 +223,179 @@ For the initial setup of SAP Continuous Integration and Delivery \(CI/CD\), plea
 To integrate cTMS into your CI/CD pipeline please follow this documentation: [https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-your-repository?version=Cloud\#\(optional\)-integrate-sap-cloud-transport-management-into-your-pipeline](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-your-repository?version=Cloud#(optional)-integrate-sap-cloud-transport-management-into-your-pipeline) 
 
 To create the nodes in the cTMS in this context, please follow the documentation [https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes), especially steps 1 and 2.
+
+
+
+<a name="loio730ae36cc6ca419aae747012015cc686__section_srd_2tx_51c"/>
+
+## Special Setup Cases with SAP Build Work Zone
+
+If you want to use SAP Cloud ALM in conjunction with SAP Build Work Zone, please follow the instructions both in this guide and the [**Integrate SAP Cloud Transport Management Service**](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/integrate-sap-cloud-transport-management-service?locale=en-US) guide.
+
+1.  Verify your access to your SAP Cloud ALM Cloud Transport Management environment by opening the app *Cloud Transport Management* on your SAP Cloud ALM launchpad.
+
+    > ### Note:  
+    > The URL follows a pattern like this: `https://{customer-tenant}.ts.cfapps.{region}.hana.ondemand.com/main/webapp/index.html`.
+
+    -   To be able to design the landscape you need the role`Transport Management Operator` in the *User Management* app, under *Implementation* \> *Cloud Transport Management*.
+
+    -   Design the landscape with one development node and as many target nodes as needed, for example like it's displayed here: ![](images/Landscape_Design_0e78ebd.png)
+
+
+2.  Step 2 of the setup procedure instructions in the [**Integrate SAP Cloud Transport Management Service**](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/integrate-sap-cloud-transport-management-service?locale=en-US) guide has to be replaced by the steps described in the following guide [**Enabling SAP Cloud ALM API**](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-sap-cloud-alm-api?locale=en-US) to create a SAP Cloud ALM API service instance.![](images/Workzone_Instance_65e8725.png)
+3.  Substitute the connection details in step 3 of the [**Integrate SAP Cloud Transport Management Service**](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/integrate-sap-cloud-transport-management-service?locale=en-US) guide with the Cloud API service instance details of your `DEV` account destination, replacing the SAP Cloud Transport Management data in destination `ctms_destination`.
+
+    You have to enter the API information in the following way:
+
+    **Destination Configuration Values For SAP Work Zone**
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Field
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Name
+    
+    </td>
+    <td valign="top">
+    
+    `TransportManagementService` \(this value is case-sensitive\)
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Type
+    
+    </td>
+    <td valign="top">
+    
+    HTTP
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Description \(optional\)
+    
+    </td>
+    <td valign="top">
+    
+    You can provide a description for your reference.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    URL
+    
+    </td>
+    <td valign="top">
+    
+    Enter `endpoints.API and then append/imp-cdm-transport-management-api/v1`. That follows a pattern like this: `https://{region}.alm.cloud.sap/api/imp-cdm-transport-management-api/v1` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Proxy Type
+    
+    </td>
+    <td valign="top">
+    
+    Internet
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Authentication
+    
+    </td>
+    <td valign="top">
+    
+    `OAuth2ClientCredentials` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Client ID
+    
+    </td>
+    <td valign="top">
+    
+    Use the entry under`uaa.clientid`.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Client Secret
+    
+    </td>
+    <td valign="top">
+    
+    Use `uaa.clientsecret` from the service key of your SAP Cloud ALM API instance.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Token Service URL
+    
+    </td>
+    <td valign="top">
+    
+    Use the uaa.url and then append /oauth/token at the end of the uaa.url, for example like: `https://{customer-tenant}.authentication.{region}.hana.ondemand.com/oauth/token`.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Additional Properties
+    
+    </td>
+    <td valign="top">
+    
+    Choose New Property.
+
+    Enter `sourceSystemId` \(this value is case-sensitive\) as the key and provide a value of your choice. Reuse the same value as the name of the source transport node in a later step.
+    
+    </td>
+    </tr>
+    </table>
+    
+    ![](images/Destinatikon_3f92870.png)
+
+4.  Continue the [**Enabling SAP Cloud ALM API**](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-sap-cloud-alm-api?locale=en-US) guide by setting up the destination property *node-name*. For this, use the values that were used in your SAP Cloud ALM Cloud Transport Management environment. Then, proceed with the remaining steps of the [**Integrate SAP Cloud Transport Management Service**](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/integrate-sap-cloud-transport-management-service?locale=en-US) guide.
+
+5.  If everything is set up correctly, you can now export the site content by choosing *Transport Site* from the dropdown.![](images/Export_Site_63e8e78.png)![](images/EXport_Site_2_14555de.png)
+6.  After exporting the first content package it will show up in the *SAP Cloud Transport Management* app. Then it can be assigned to a feature document in the *Features* app. For more information, consult the following guide [Assigning Transports, User Stories, and Project Tasks](https://help.sap.com/docs/cloud-alm/applicationhelp/assigning-transports?locale=en-US). If the content package doesn't show up immediately, you can use the refresh button of the *Transports* section to manually trigger a synchronization.
+
+    ![](images/Workzone_Features_1_5f041b7.png)![](images/Workzone_Features_2_95d584a.png)![](images/Workzone_Features_3_77c3a5e.png)
+
 
 
 

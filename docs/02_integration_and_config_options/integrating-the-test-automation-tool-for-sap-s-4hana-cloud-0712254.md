@@ -41,7 +41,7 @@ To use this integration in your project, you need to configure a service and an 
 
 1.  To communicate with the test automation tool for SAP S/4HANA Cloud, a communication user is required. If you need to create the communication user, follow the procedure described in [Communication Management](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/LATEST/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html). The communication scenario is `COM0620`.
 
-2.  In the SAP Cloud ALM launchpad, open the *Landscape Management* app.
+2.  Open the *Landscape Management* app.
 
 3.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
 
@@ -49,7 +49,7 @@ To use this integration in your project, you need to configure a service and an 
 
     The list now displays all SAP S/4HANA Cloud tenants that are currently connected to your SAP Cloud ALM tenant.
 
-5.  Check whether there's an existing service for which the root URL matches the root URL of your test SAP S/4HANA Cloud system. If so, proceed directly to step 7.
+5.  Check whether there's an existing service for which the root URL matches the root URL of your test SAP S/4HANA Cloud system.If so, proceed directly to step 7.
 
 6.  If no service exists for your SAP S/4HANA Cloud system, choose *Add* \> *New Cloud Service* and enter the following parameters:
 

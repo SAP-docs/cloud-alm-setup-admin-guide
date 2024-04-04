@@ -37,7 +37,11 @@ SAP Cloud ALM is available in the following languages:
 
 -   German
 
+-   Italian
+
 -   Japanese
+
+-   Korean
 
 -   Portuguese
 
@@ -50,7 +54,7 @@ SAP Cloud ALM is available in the following languages:
 
 The default display language of the solution is based on the language that is maintained in your browser settings.
 
-You can change the language either in your browser settings or in the SAP Cloud ALM launchpad by clicking on your user profile in the top-right corner and choosing *Settings* \> *Language & Region*.
+You can change the language either in your browser settings or in the SAP Cloud ALM launchpad by clicking on your user profile in the top-right corner and choosing *Settings* \> *Language and Region*.
 
 
 
