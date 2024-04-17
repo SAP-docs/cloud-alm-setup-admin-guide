@@ -8,7 +8,7 @@ You can integrate automated test cases from the test automation tool for SAP S/4
 
 
 
-The test automation tool for SAP S/4HANA Cloud is a free automation provider delivered as part of the guided configuration tools for SAP S/4HANA in SAP Activate. It enables you to test SAP Best Practice processes after implementation or upgrade of SAP S/4HANA Cloud.
+The test automation tool for SAP S/4HANA Cloud is a free automation provider delivered as part of the guided configuration tools for SAP S/4HANA Cloud in SAP Activate. It enables you to test SAP Best Practice processes after implementation or upgrade of SAP S/4HANA Cloud Public Edition.
 
 To use this integration in your project, you need to configure a service and an endpoint in the *Landscape Management* app in SAP Cloud ALM.
 

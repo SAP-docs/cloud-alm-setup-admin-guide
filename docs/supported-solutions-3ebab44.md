@@ -1470,6 +1470,11 @@ Test Management
 </td>
 <td valign="top">
 
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
@@ -1491,6 +1496,11 @@ Test Management
 
 </td>
 <td valign="top">
+
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
 
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
@@ -1514,6 +1524,11 @@ Test Management
 </td>
 <td valign="top">
 
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
@@ -1535,6 +1550,11 @@ Test Management
 
 </td>
 <td valign="top">
+
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
 
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
@@ -1558,6 +1578,11 @@ Test Management
 </td>
 <td valign="top">
 
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
@@ -1579,6 +1604,11 @@ Test Management
 
 </td>
 <td valign="top">
+
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
 
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
@@ -1602,6 +1632,11 @@ Test Management
 </td>
 <td valign="top">
 
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
@@ -1623,6 +1658,11 @@ Test Management
 
 </td>
 <td valign="top">
+
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
 
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
@@ -1646,6 +1686,11 @@ Test Management
 </td>
 <td valign="top">
 
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
@@ -1668,6 +1713,11 @@ Test Management
 </td>
 <td valign="top">
 
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
 </td>
@@ -1689,6 +1739,11 @@ Test Management
 
 </td>
 <td valign="top">
+
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
 
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
 
@@ -2813,7 +2868,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP Cloud for Customer 
+SAP Sales Cloud 
 
 </td>
 <td valign="top">

@@ -127,9 +127,9 @@ You have questions on which subdomain name to use for your SAP Cloud ALM tenant.
 
 For more information and recommendations, take a look at the following resources:
 
--   The SAP for Me <span class="SAP-icons-V5"></span> Help for the section *Subdomain*
+-   In the *Start New Provisioning Request* dialog on SAP for Me, choose <span class="SAP-icons-V5"></span> *Help* in the *Subdomain* section.
 
--   Step 5 in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
+-   Refer to step 5 in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
 
 
 
@@ -146,9 +146,9 @@ You have questions on which Identity Authentication tenant to select for the pro
 
 For more information and recommendations, take a look at the following resources:
 
--   The SAP for Me <span class="SAP-icons-V5"></span> Help for the section *SAP Identity Service*
+-   In the *Start New Provisioning Request* dialog on SAP for Me, choose <span class="SAP-icons-V5"></span> *Help* in the *SAP Cloud Identity Services* section.
 
--   Step 6 in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md)
+-   Refer to step 6 in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
 
 
 
@@ -443,6 +443,31 @@ When you log on to SAP Cloud ALM, you can choose between multiple identity provi
 <td valign="top">
 
 Refer to KBA [3086201](https://me.sap.com/notes/3086201).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+There's an unknown user with one of the following names in your Identity Authentication tenant:
+
+-   *SAP Cockpit* 
+
+-   *Service Cockpit*
+
+-   *SAP Cloud Platform NEO Service Cockpit* 
+
+-   *Service Provider Cockpit* 
+
+-   *SF Admin Center* 
+
+
+
+
+</td>
+<td valign="top">
+
+Refer to KBA [3281767](https://me.sap.com/notes/3281767).
 
 </td>
 </tr>
