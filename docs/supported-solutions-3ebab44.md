@@ -1244,6 +1244,29 @@ More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0
 <tr>
 <td valign="top">
 
+SAP Analytics Cloud 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Public Edition 
 
 </td>
@@ -1351,6 +1374,30 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 </td>
 </tr>
+
+<tr>
+<td valign="top">
+
+SAP Batch Release Hub for Life Sciences
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+</td>
+</tr>
+
 <tr>
 <td valign="top">
 
@@ -1402,6 +1449,29 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 <tr>
 <td valign="top">
 
+SAP BTP, ABAP environment
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
 SAP Build Work Zone 
 
 </td>
@@ -1447,6 +1517,78 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 </td>
 </tr>
+
+<tr>
+<td valign="top">
+
+SAP BW/4HANA
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+More under [BW4HANA transports]([https://help.sap.com/docs/SAP_BW4HANA/107a6e8a38b74ede94c833ca3b7b6f51/4a793a3d57e572dde10000000a42189b.html]).
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+Datasphere
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+SAP Entitlement Management 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+Application content
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+</td>
+</tr>
+
 <tr>
 <td valign="top">
 
