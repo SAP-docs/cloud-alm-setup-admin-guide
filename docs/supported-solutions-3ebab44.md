@@ -366,6 +366,28 @@ Process Management
 <tr>
 <td valign="top">
 
+SAP standard content activation service 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+SAP Services Content for Oil and Gas
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Private Edition 
 
 </td>
@@ -1232,7 +1254,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1254,7 +1276,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1276,7 +1298,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1298,7 +1320,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1320,7 +1342,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1342,7 +1364,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1366,7 +1388,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1390,7 +1412,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -1414,7 +1436,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -2720,6 +2742,94 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP BW/4HANA
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Non-SAP services and systems
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Revenue Growth Optimization
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Public Edition 
 
 </td>
@@ -2869,6 +2979,30 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <td valign="top">
 
 SAP Sales Cloud 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+Supported KPIs for the business scenario *Lead to Cash*
+
+More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -3334,6 +3468,28 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
+SAP BW/4HANA 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite
 
 </td>
@@ -3599,6 +3755,28 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <td valign="top">
 
 SAP BTP, Kyma runtime 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Job and Automation Monitoring
+
+</td>
+<td valign="top">
+
+More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BW/4HANA 
 
 </td>
 <td valign="top">
@@ -4082,6 +4260,28 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
+SAP BW/4HANA 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite
 
 </td>
@@ -4092,12 +4292,12 @@ Operations
 </td>
 <td valign="top">
 
-Configuration & Security Analysis
+Configuration and Security Analysis
 
 </td>
 <td valign="top">
 
-More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
 
 </td>
 </tr>
@@ -4114,12 +4314,12 @@ Operations
 </td>
 <td valign="top">
 
-Configuration & Security Analysis
+Configuration and Security Analysis
 
 </td>
 <td valign="top">
 
-More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
 
 </td>
 </tr>
@@ -4136,12 +4336,12 @@ Operations
 </td>
 <td valign="top">
 
-Configuration & Security Analysis
+Configuration and Security Analysis
 
 </td>
 <td valign="top">
 
-More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
 
 </td>
 </tr>
@@ -4158,12 +4358,12 @@ Operations
 </td>
 <td valign="top">
 
-Configuration & Security Analysis
+Configuration and Security Analysis
 
 </td>
 <td valign="top">
 
-More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
 
 </td>
 </tr>
@@ -4180,12 +4380,12 @@ Operations
 </td>
 <td valign="top">
 
-Configuration & Security Analysis
+Configuration and Security Analysis
 
 </td>
 <td valign="top">
 
-More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
 
 </td>
 </tr>
@@ -4202,12 +4402,56 @@ Operations
 </td>
 <td valign="top">
 
-Configuration & Security Analysis
+Configuration and Security Analysis
 
 </td>
 <td valign="top">
 
-More in the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(SAP Support Portal\).
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Mobile Services 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BW/4HANA 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
 
 </td>
 </tr>
@@ -4224,7 +4468,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">
@@ -4246,7 +4490,7 @@ Implementation
 </td>
 <td valign="top">
 
-Change & Deployment Management
+Change and Deployment Management
 
 </td>
 <td valign="top">

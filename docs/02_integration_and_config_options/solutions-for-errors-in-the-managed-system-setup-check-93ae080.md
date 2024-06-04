@@ -12,11 +12,11 @@ In the list below, you can find messages that can appear in the managed system d
 
 ## Batch Job Check
 
-The batch job check checks that a job for the program `/SDF/CALM_SCHEDULER` is scheduled.
+The batch job check that a job for the program `/SDF/CALM_SCHEDULER` is scheduled.
 
 The `/SDF/CALM_SCHEDULER` program is the central scheduling mechanism for all active use cases. The frequency of the scheduling determines the overall interval between the use-case executions.
 
-The batch job check checks that a job for the program `/SDF/CALM_CDM_DIAGNOSTICS` is scheduled and did run today.
+The batch job check that a job for the program `/SDF/CALM_CDM_DIAGNOSTICS` is scheduled and did run today.
 
 -   This program informs SAP Cloud ALM about the capabilities of the system according to the installed ST-PI service level and certain notes \(For example: Transport creation, release, ToC, and so on\).
 -   It runs once after the use-case activation and then once daily. Check transaction `/SDF/ALM_SETUP` that at least one transport-related use-case is active.
@@ -188,7 +188,7 @@ No immediate solution is available. Search for similar issues with the SAP4Me he
 
 ## Certificate Check
 
-For the cloud connection, the certificates must be installed into the system. See [Setup S-Trust](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html).
+For the connection to SAP Cloud ALM, the certificates must be installed into the system. See [Setup S-Trust](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html).
 
 **Certificate Check**
 
@@ -254,8 +254,8 @@ In case of connection issues check if you followed all the steps from the [**SAP
 
 Common connection problems that occur are for example `HTTP Code 403`:
 
--   Cloud API Key or Binding wasn't set up with the necessary scopes. See related check.
--   Necessary certificates are missing. See related check.
+-   Cloud API Key or Binding wasn't set up with the necessary scopes. For more information, see [Token Scopes Check](https://help.sap.com/docs/cloud-alm/setup-administration/solutions-setup-check?locale=en-US#token-scopes-check) 
+-   Necessary certificates are missing. For more information, see [Certificate Check](https://help.sap.com/docs/cloud-alm/setup-administration/solutions-setup-check?locale=en-US#certificate-check).
 
 **Connection Check**
 
@@ -531,7 +531,7 @@ Confirmation message. No action is needed.
 
 ## Solution Tools Plug-In \(ST-PI\)
 
-We recommend to regularly install a recent version of the ST-PI plugin instead of various master notes. See also [539977](https://me.sap.com/notes/539977). Also, refer to the following guide [**Technical Prerequisites**.](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system?locale=en-US#technical-prerequisites)
+We recommend to regularly install a recent version of the ST-PI plugin instead of various master page notes. See also [539977](https://me.sap.com/notes/539977). Also, refer to the following guide [**Technical Prerequisites**.](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system?locale=en-US#technical-prerequisites)
 
 **Solution Tools Plug-In \(ST-PI\)**
 
@@ -605,7 +605,7 @@ No immediate solution is available. Search for similar issues with the SAP4Me he
 
 ## Web Dynpro Check
 
-This check checks whether the new `S_START` check is active for the `CTS_ORGANIZER` *Web Dynpro* app.
+This check whether the new `S_START` check is active for the `CTS_ORGANIZER` *Web Dynpro* app.
 
 To display transports `S_TRANSPRT` display authorization must be assigned to the users.
 
@@ -705,7 +705,7 @@ Follow the information in [**Authorizations for Transport Organizer Web UI \(CTS
 
 ## Change and Transport System \(CTS\) Check
 
-We check the Change and Transport System for basic functionality. For more detailed information, refer to transaction `STMS`. We recommend to enable `CTC`.
+We check the Change and Transport System for basic functionality. For more detailed information, refer to transaction `STMS`. We recommend enabling `CTC`.
 
 **Change and Transport System \(CTS\) System Check**
 

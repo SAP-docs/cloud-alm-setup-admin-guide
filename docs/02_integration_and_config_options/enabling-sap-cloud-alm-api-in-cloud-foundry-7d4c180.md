@@ -4,70 +4,10 @@
 
 # Enabling SAP Cloud ALM API in Cloud Foundry
 
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key or binding and connect your SAP services and systems to your SAP Cloud ALM instance.
-
-Depending on the provisioning date of your SAP Cloud ALM tenant, some or all steps described in this document have already been automatically completed for you:
-
-
-<table>
-<tr>
-<th valign="top">
-
-Provisioning Date
-
-</th>
-<th valign="top">
-
-Actions
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-On or after October 16, 2023
-
-</td>
-<td valign="top">
-
-A binding was generated automatically.
-
-You can skip these steps altogether and access your binding in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Between June 12, 2023 and October 16, 2023
-
-</td>
-<td valign="top">
-
-A service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically.
-
-You can access it in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
-
-You only need to carry out these steps if you want to set up transport management, but you can reuse the created space and no longer have to configure your entitlements.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Before June 12, 2023
-
-</td>
-<td valign="top">
-
-No service key or binding has been created as part of the initial provisioning. To create one manually, carry out the steps listed below.
-
-</td>
-</tr>
-</table>
+Create a service key to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
 
 > ### Note:  
-> This document describes how to retrieve a service key in the Cloud Foundry environment. This is no longer the recommended approach.
+> This document describes how to retrieve service credentials in the Cloud Foundry environment. This is no longer the recommended approach.
 > 
 > If Cloud Foundry isn't enabled and no space exists in your SAP Cloud ALM subaccount \(as shown in the image below\), or if they exist but are not in use in the context of SAP Cloud ALM APIs, please follow [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) instead.
 > 
@@ -78,6 +18,10 @@ No service key or binding has been created as part of the initial provisioning. 
 <a name="loio7d4c180c79744eb09c228007304a3a57__section_wpy_rnj_jmb"/>
 
 ## Prerequisites
+
+-   Your SAP Cloud ALM tenant was provisioned before October 16, 2023.
+
+    If your SAP Cloud ALM tenant was provisioned after this date, service credentials were generated automatically and you can skip these steps. For more information, refer to [Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md).
 
 -   Your user has the role *Global Account Administrator* in the global account that was created when you requested SAP Cloud ALM, and is a member of the subaccount containing your SAP Cloud ALM subscription.
 
@@ -97,6 +41,8 @@ No service key or binding has been created as part of the initial provisioning. 
 
 
 ### Create a Space
+
+In Cloud Foundry, your subaccount can further be subdivided by spaces, which is where application development, deployment, and maintenance take place.
 
 1.  Open the SAP BTP cockpit.
 
@@ -121,7 +67,7 @@ No service key or binding has been created as part of the initial provisioning. 
 
 ### Configure Entitlements
 
-An entitlement is your right to provision and consume a resource.
+An entitlement is your right to provision and consume a resource. In other words, entitlements are the service plans that you're entitled to use.
 
 1.  In the menu, go to *Entitlements*.
 
@@ -143,7 +89,9 @@ An entitlement is your right to provision and consume a resource.
 
 
 
-### Maintain an Instance
+### Create or Update an Instance
+
+To consume the selected service plan, you need to create a service instance in your Cloud Foundry space.
 
 1.  Choose *Cloud Foundry* \> *Spaces*.
 
@@ -196,7 +144,7 @@ An entitlement is your right to provision and consume a resource.
 
 ### Create a Service Key
 
-Service keys allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
+With service keys, you can manually generate service credentials to enable external applications to connect to an SAP Cloud ALM API service instance.
 
 1.  When your instance has been created, choose <span class="SAP-icons-V5"></span> \(Actions\) next to it and select *Create Service Key*.
 
@@ -208,22 +156,26 @@ Service keys allow you to configure an external application so that it can conne
 
 4.  Next to your newly created service key, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *View*.
 
-5.  You can now see your service key in JSON format.
-
-    It includes the following information:
-
-    -   The application base URL \(`endpoints.Api`\)
-
-    -   The `clientid` and `clientsecret` to access the service
-
-    -   The oAuth URL to generate the oAuth token \(`uaa.url`\)
 
 
-    ![](images/SUI-ServiceKey_2fca8a5.png)
 
+<a name="loio7d4c180c79744eb09c228007304a3a57__section_olm_s5b_kbc"/>
+
+## Result and Next Steps
+
+You can now see your service credentials in JSON format. They include the following information:
+
+-   The application base URL \(`endpoints.Api`\)
+
+-   The `clientid` and `clientsecret` to access the service
+
+-   The oAuth URL to generate the oAuth token \(`uaa.url`\)
+
+
+![](images/SUI-ServiceKey_2fca8a5.png)
 
 > ### Caution:  
-> Outside of the SAP BTP cockpit, service keys must be stored securely. If you need a service key, create the service key directly in the SAP BTP cockpit, and access it from there whenever you need it.
+> Outside of the SAP BTP cockpit, service credentials must be stored securely. If you need new ones, create them directly in the SAP BTP cockpit, and access it from there whenever you need it.
 
 **Related Information**  
 

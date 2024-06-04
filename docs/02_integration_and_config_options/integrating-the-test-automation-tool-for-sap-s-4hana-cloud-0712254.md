@@ -41,17 +41,19 @@ To use this integration in your project, you need to configure a service and an 
 
 1.  To communicate with the test automation tool for SAP S/4HANA Cloud, a communication user is required. If you need to create the communication user, follow the procedure described in [Communication Management](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/LATEST/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html). The communication scenario is `COM0620`.
 
-2.  Open the *Landscape Management* app.
+2.  In the SAP Cloud ALM launchpad, open the *Administration* page.
 
-3.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
+3.  Open the *Landscape Management* app.
 
-4.  On the *Services & Systems* page, choose <span class="SAP-icons-V5"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
+4.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
+
+5.  On the *Services & Systems* page, choose <span class="SAP-icons-V5"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
 
     The list now displays all SAP S/4HANA Cloud tenants that are currently connected to your SAP Cloud ALM tenant.
 
-5.  Check whether there's an existing service for which the root URL matches the root URL of your test SAP S/4HANA Cloud system.If so, proceed directly to step 7.
+6.  Check whether there's an existing service for which the root URL matches the root URL of your test SAP S/4HANA Cloud system. If so, proceed directly to step 8.
 
-6.  If no service exists for your SAP S/4HANA Cloud system, choose *Add* \> *New Cloud Service* and enter the following parameters:
+7.  If no service exists for your SAP S/4HANA Cloud system, choose *Add* \> *New Cloud Service* and enter the following parameters:
 
     -   *Name*: Enter a name that follows a naming convention that fits your organization, for example `<Root_URL_S/4>` or `<S/4_System_SID>`.
 
@@ -74,15 +76,15 @@ To use this integration in your project, you need to configure a service and an 
     -   *Customer Name*: Enter your customer name.
 
 
-7.  Save the new service.
+8.  Save the new service.
 
     You can now see it in the list.
 
-8.  To create an endpoint, select the service.
+9.  To create an endpoint, select the service.
 
-9.  Under *Endpoints*, check whether there's an existing endpoint with the use case *Test Automation* or *Test Management*. If so, you can update it by choosing :pencil2:.
+10. Under *Endpoints*, check whether there's an existing endpoint with the use case *Test Automation* or *Test Management*. If so, you can update it by choosing :pencil2:.
 
-10. If no endpoint exists for the *Test Automation* or *Test Management* use case, choose *Add* and enter the following parameters:
+11. If no endpoint exists for the *Test Automation* or *Test Management* use case, choose *Add* and enter the following parameters:
 
     -   *Endpoint Name*: Enter a meaningful and unique endpoint name that helps you easily identify the test automation tool. This name will later be displayed in the test management apps.
 
@@ -105,7 +107,7 @@ To use this integration in your project, you need to configure a service and an 
     -   *Password*: Enter the password for the created communication user.
 
 
-11. Save the new endpoint.
+12. Save the new endpoint.
 
 
 > ### Note:  
@@ -113,7 +115,13 @@ To use this integration in your project, you need to configure a service and an 
 > 
 > You should maintain **two** test automation endpoints if you're working with a 3-system landscape setup for SAP S/4HANA Cloud with two test automation tenants \(one for the main line and one for the project line\).
 
-Once you've established the connection between SAP Cloud ALM and the test automation tool for SAP S/4HANA Cloud, a synchronization with the SAP S/4HANA Cloud system takes place to retrieve the existing automated test cases whenever new processes are scoped in your SAP Cloud ALM projects.
+
+
+<a name="loio07122541847b48fa9766044a8fc8c404__section_mg4_15b_kbc"/>
+
+## Result and Next Steps
+
+The connection between SAP Cloud ALM and the test automation tool for SAP S/4HANA Cloud has been established. A synchronization with the SAP S/4HANA Cloud system takes place to retrieve the existing automated test cases whenever new processes are scoped in your SAP Cloud ALM projects.
 
 
 

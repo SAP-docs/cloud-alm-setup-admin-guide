@@ -25,15 +25,17 @@ The Cloud Integration Automation service provides you with a guided workflow to 
 
 ## Procedure
 
-1.  Open the *User Management* app.
+1.  On the SAP Cloud ALM launchpad, open the *Administration* page.
 
-2.  To go to the user list, choose <span class="SAP-icons-V5"></span> \(Users\).
+2.  Open the *User Management* app.
 
-3.  Select the user to whom you want to assign the Cloud Integration Automation roles.
+3.  To go to the user list, choose <span class="SAP-icons-V5"></span> \(Users\).
 
-4.  Choose *Edit*.
+4.  Select the user to whom you want to assign the Cloud Integration Automation roles.
 
-5.  Under *Cloud Integration Automation Service*, select one of the following roles:
+5.  Choose *Edit*.
+
+6.  Under *Cloud Integration Automation Service*, select one of the following roles:
 
     -   *Cloud Integration Administrator*
 
@@ -48,11 +50,11 @@ The Cloud Integration Automation service provides you with a guided workflow to 
 
     For more information on role assignments in SAP Cloud ALM, refer to [Step 2: Assign Roles to Users in SAP Cloud ALM](../01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md).
 
-6.  Save your settings.
+7.  Save your settings.
 
-7.  Follow the steps described in the blog post [Start a scenario integration workflow with Cloud Integration Automation Service on Cloud Foundry \(BTP\)](https://blogs.sap.com/2021/08/24/start-a-scenario-integration-workflow-with-could-integration-automation-service-on-cloud-foundry-btp/).
+8.  Follow the steps described in the blog post [Start a scenario integration workflow with Cloud Integration Automation Service on Cloud Foundry \(BTP\)](https://blogs.sap.com/2021/08/24/start-a-scenario-integration-workflow-with-could-integration-automation-service-on-cloud-foundry-btp/).
 
-8.  To configure the integration, access the application and execute the Cloud Integration Automation procedure.
+9.  To configure the integration, access the application and execute the Cloud Integration Automation procedure.
 
 
 **Related Information**  

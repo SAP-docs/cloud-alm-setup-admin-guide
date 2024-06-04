@@ -38,7 +38,7 @@ You can add users and assign roles to them directly in the SAP Cloud ALM *User M
 
     Sign in with the email address and password you've defined when activating your account in the Identity Authentication service. Do not sign in with your S-user.
 
-2.  Open the *User Management* app, which is located in the *Administration* tab.
+2.  Open the *User Management* app, which is located on the *Administration* page.
 
 3.  To go to the user list, choose <span class="SAP-icons-V5"></span> \(Users\).
 
@@ -131,6 +131,10 @@ You can add users and assign roles to them directly in the SAP Cloud ALM *User M
 8.  Save your settings.
 
 
+
+
+### Result
+
 The user will now also receive a welcome email from SAP Cloud ALM.
 
 For more information on how to use the *User Management* app to view, add, and change roles, refer to [User Management](https://help.sap.com/docs/cloud-alm/applicationhelp/user-management).
@@ -170,6 +174,9 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 3.  Under *Subaccounts*, select the subaccount that contains your SAP Cloud ALM subscription.
 
 4.  Navigate to *Security* \> *Role Collections*.
+
+    > ### Caution:  
+    > When you map role collections to user groups in SAP BTP, the users have the corresponding authorizations, but these roles are not displayed in the User Management of SAP Cloud ALM. Refer to KBA [3472730](https://me.sap.com/notes/3472730).
 
 5.  Select the role collection to which you want to add users.
 

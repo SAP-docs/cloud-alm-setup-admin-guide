@@ -4,76 +4,7 @@
 
 # Enabling SAP Cloud ALM API
 
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve your binding credentials and connect your SAP services and systems to your SAP Cloud ALM instance
-
-
-
-Depending on the provisioning date of your SAP Cloud ALM tenant, some or all steps described in this document have already been automatically completed for you:
-
-
-<table>
-<tr>
-<th valign="top">
-
-Provisioning Date
-
-</th>
-<th valign="top">
-
-Actions
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-On or after October 10, 2023
-
-</td>
-<td valign="top">
-
-A binding was generated automatically.
-
-You can skip these steps altogether and access your binding in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Between June 12, 2023 and October 10, 2023
-
-</td>
-<td valign="top">
-
-A service key that can be used to connect managed services to SAP Cloud ALM for Operations monitoring applications was generated automatically.
-
-You can access it in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md).
-
-You only need to carry out these steps if you want to set up transport management, but you no longer have to configure your entitlements.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Before June 12, 2023
-
-</td>
-<td valign="top">
-
-No service key or binding has been created as part of the initial provisioning. To create one manually, carry out the steps listed below.
-
-</td>
-</tr>
-</table>
-
-> ### Note:  
-> This document describes how to retrieve a service key without Cloud Foundry.
-> 
-> If Cloud Foundry is enabled and a space already exists in your SAP Cloud ALM subaccount \(as shown in the image below\) and is already in use in the context of SAP Cloud ALM APIs, you can also follow [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md). However, we strongly recommend following the approach **without** Cloud Foundry.
-> 
-> ![](images/SUI-EnabledCF_a426651.png)
+Create a service binding to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
 
 
 
@@ -81,9 +12,14 @@ No service key or binding has been created as part of the initial provisioning. 
 
 ## Prerequisites
 
-Your user has the role *Global Account Administrator* in the global account that was created when you requested SAP Cloud ALM, and is a member of the subaccount containing your SAP Cloud ALM subscription.
+-   Your SAP Cloud ALM tenant was provisioned before October 16, 2023.
 
-If you don't have this role, the global account administrator can assign it to you by following the steps described in [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/4a0491330a164f5a873fa630c7f45f06.html).
+    If your SAP Cloud ALM tenant was provisioned after this date, service credentials were generated automatically and you can skip these steps. For more information, refer to [Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md).
+
+-   Your user has the role *Global Account Administrator* in the global account that was created when you requested SAP Cloud ALM, and is a member of the subaccount containing your SAP Cloud ALM subscription.
+
+    If you don't have this role, the global account administrator can assign it to you by following the steps described in [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/4a0491330a164f5a873fa630c7f45f06.html).
+
 
 
 
@@ -95,7 +31,7 @@ If you don't have this role, the global account administrator can assign it to y
 
 ### Configure Entitlements
 
-An entitlement is your right to provision and consume a resource.
+An entitlement is your right to provision and consume a resource. In other words, entitlements are the service plans that you're entitled to use.
 
 1.  Open the SAP BTP cockpit.
 
@@ -123,7 +59,9 @@ An entitlement is your right to provision and consume a resource.
 
 
 
-### Maintain an Instance
+### Create or Update an Instance
+
+To consume the selected service plan, you need to create a service instance.
 
 1.  Choose *Services* \> *Instances and Subscriptions*.
 
@@ -179,8 +117,6 @@ An entitlement is your right to provision and consume a resource.
 
 ### Create a Binding
 
-Bindings allow you to configure an external application so that it can connect to an SAP Cloud ALM API service instance.
-
 1.  Next to your instance, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *Create Binding*.
 
     ![](images/NOCF-CreateServiceBinding_647e290.png)
@@ -191,32 +127,26 @@ Bindings allow you to configure an external application so that it can connect t
 
 4.  Next to the created binding, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *View*.
 
-5.  You can now see your binding in JSON format.
-
-    It includes the following information:
-
-    -   The application base URL \(`endpoints.Api`\)
-
-    -   The `clientid` and `clientsecret` to access the service
-
-    -   The oAuth URL to generate the oAuth token \(`uaa.url`\)
 
 
-    ![](images/SUI-ServiceKey_2fca8a5.png)
 
+<a name="loio704b5dc854f549888a238f94015e1eac__section_eb3_y5b_kbc"/>
+
+## Result and Next Steps
+
+You can now see your service credentials in JSON format. They include the following information:
+
+-   The application base URL \(`endpoints.Api`\)
+
+-   The `clientid` and `clientsecret` to access the service
+
+-   The oAuth URL to generate the oAuth token \(`uaa.url`\)
+
+
+![](images/SUI-ServiceKey_2fca8a5.png)
 
 > ### Caution:  
-> Outside of the SAP BTP cockpit, bindings must be stored securely. If you need a binding, create the binding directly in the SAP BTP cockpit, and access it from there whenever you need it.
-
--   **[Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md "To set up the connection between your managed systems and individual SAP Cloud ALM
-		applications, you need to retrieve a service key or binding and connect your SAP services
-		and systems to your SAP Cloud ALM instance.")**  
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve a service key or binding and connect your SAP services and systems to your SAP Cloud ALM instance.
--   **[Managing Your Service Key](managing-your-service-key-87b7851.md "If you requested SAP Cloud ALM on or after June 14, 2023, an automatically generated SAP
-		Cloud ALM service key was uploaded to the Landscape Management app
-		for you. This key can be used to connect managed services to push monitoring data using
-		OAuth 2.0.")**  
-If you requested SAP Cloud ALM on or after June 14, 2023, an automatically generated SAP Cloud ALM service key was uploaded to the *Landscape Management* app for you. This key can be used to connect managed services to push monitoring data using OAuth 2.0.
+> Outside of the SAP BTP cockpit, service credentials must be stored securely. If you need new ones, create them directly in the SAP BTP cockpit, and access it from there whenever you need it.
 
 **Related Information**  
 

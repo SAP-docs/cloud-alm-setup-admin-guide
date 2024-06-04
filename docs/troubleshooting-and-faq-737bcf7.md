@@ -24,7 +24,7 @@ To get started, find your current phase or the subject of your issue and jump to
 
 -   [Lifecycle Management of Your SAP Cloud ALM Tenant](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb)
 
--   [Related Troubleshooting Guides](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb)
+-   [Related FAQs and Troubleshooting Guides](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb)
 
 -   [Further Support](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb)
 
@@ -106,6 +106,24 @@ Open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) das
 <tr>
 <td valign="top">
 
+You have questions about which region \(data center location\) to use for your SAP Cloud ALM tenant.
+
+</td>
+<td valign="top">
+
+The region that you select when requesting SAP Cloud ALM corresponds to the location of the data center where your SAP Cloud ALM tenant will be operated.
+
+The *Region* drop-down menu on SAP for Me offers a complete list of all data center locations that are currently available for SAP Cloud ALM.
+
+For an overview of the data centers that are currently available and those that are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
+
+[Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) on SAP Security and Trust contains a full list of all **live** data centers, even ones that are no longer supported for new SAP Cloud ALM tenants \(see next FAQ entry\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to provision your SAP Cloud ALM tenant in the **Netherlands | Amsterdam** region.
 
 </td>
@@ -120,7 +138,7 @@ However, this region is no longer available for the provisioning of SAP Cloud AL
 <tr>
 <td valign="top">
 
-You have questions on which subdomain name to use for your SAP Cloud ALM tenant.
+You have questions about which subdomain name to use for your SAP Cloud ALM tenant.
 
 </td>
 <td valign="top">
@@ -139,7 +157,7 @@ For more information and recommendations, take a look at the following resources
 <tr>
 <td valign="top">
 
-You have questions on which Identity Authentication tenant to select for the provisioning.
+You have questions about which Identity Authentication tenant to select for the provisioning.
 
 </td>
 <td valign="top">
@@ -171,6 +189,32 @@ Your Identity Authentication tenant may not show up for the following reasons:
 
 
 You can find all Identity Authentication tenants assigned to your customer ID and their type at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to know in which SAP BTP global account SAP Cloud ALM will be provisioned.
+
+</td>
+<td valign="top">
+
+During the provisioning, a dedicated global account is created on SAP BTP specially for SAP Cloud ALM.
+
+For the reasoning behind this, refer to KBA [3152095](https://me.sap.com/notes/3152095).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You're a customer based in China and can't request SAP Cloud ALM because the *Start Provisioning* button in SAP for Me is grayed out.
+
+</td>
+<td valign="top">
+
+Refer to [3451531](https://me.sap.com/notes/3451531).
 
 </td>
 </tr>
@@ -265,6 +309,20 @@ Refer to KBA [3248116](https://me.sap.com/notes/3248116).
 <tr>
 <td valign="top">
 
+You want to find out who originally requested your SAP Cloud ALM tenant.
+
+</td>
+<td valign="top">
+
+Open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me and find the entry for *SAP Cloud ALM* in the *Provisioning Status* section.
+
+Click on the *Provided* status. Under *Requested at*, you can see which S-user has requested SAP Cloud ALM.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 The person who originally requested SAP Cloud ALM is no longer available and you want to give yourself or another user full administrator privileges.
 
 </td>
@@ -311,7 +369,7 @@ Resolution
 <tr>
 <td valign="top">
 
-You have questions on which Identity Authentication tenant to select for the provisioning.
+You have questions about which Identity Authentication tenant to select for the provisioning.
 
 </td>
 <td valign="top">
@@ -437,7 +495,7 @@ Refer to KBA [2579343](https://i7p.wdf.sap.corp/sap/support/notes/2579343).
 <tr>
 <td valign="top">
 
-When you log on to SAP Cloud ALM, you can choose between multiple identity providers.
+When you sign in to SAP Cloud ALM, you can choose between multiple identity providers.
 
 </td>
 <td valign="top">
@@ -609,12 +667,12 @@ If you still can't find it, create an incident on component SV-CLM-INF-ONB to ha
 <tr>
 <td valign="top">
 
-You can't log on to SAP Cloud ALM.
+You can't sign in to SAP Cloud ALM.
 
 </td>
 <td valign="top">
 
-Verify that you've entered the correct credentials: You need to log on with the email address and password defined in the Identity Authentication tenant, not your S-user.
+Verify that you've entered the correct credentials: You need to sign in with the email address and password defined in the Identity Authentication tenant, not your S-user.
 
 Make sure you've completed all steps in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md) and that you've activated your user profile in the Identity Authentication tenant.
 
@@ -625,7 +683,7 @@ If you can't find the activation email, go to your Identity Authentication tenan
 <tr>
 <td valign="top">
 
-When logging on to SAP Cloud ALM, you can choose between multiple identity providers.
+When signing in to SAP Cloud ALM, you can choose between multiple identity providers.
 
 </td>
 <td valign="top">
@@ -694,7 +752,7 @@ You can't find your SAP Cloud ALM welcome email.
 
 Search for an email with the subject **Welcome to SAP Cloud ALM**. Don't forget to also check your spam folder.
 
-If you can't find one, ask your administrator to give you the URL of your SAP Cloud ALM tenant. You can log on directly with this URL.
+If you can't find one, ask your administrator to give you the URL of your SAP Cloud ALM tenant. You can sign in directly with this URL.
 
 </td>
 </tr>
@@ -715,12 +773,12 @@ If you can't find one, ask your administrator to resend the email as described i
 <tr>
 <td valign="top">
 
-You can't log on to SAP Cloud ALM.
+You can't sign in to SAP Cloud ALM.
 
 </td>
 <td valign="top">
 
-Verify that you've entered the correct credentials: You need to log on with the email address and password defined in the Identity Authentication tenant, not your S-user.
+Verify that you've entered the correct credentials: You need to sign in with the email address and password defined in the Identity Authentication tenant, not your S-user.
 
 Check with your administrator if your user profile in the Identity Authentication tenant has been created.
 
@@ -741,7 +799,7 @@ Contact your administrator and refer them to KBA [3086201](https://me.sap.com/no
 <tr>
 <td valign="top">
 
-You can log on to SAP Cloud ALM but do not see any apps.
+You can sign in to SAP Cloud ALM but do not see any apps.
 
 </td>
 <td valign="top">
@@ -794,7 +852,7 @@ You can't find your subaccount for SAP Cloud ALM in the SAP BTP cockpit.
 </td>
 <td valign="top">
 
-Refer to [this question](https://answers.sap.com/questions/13606769/sap-cloud-alm-subaccount-not-appear-in-btp-cockpit.html) on SAP Community.
+Refer to KBA [3123560](https://me.sap.com/notes/3123560).
 
 </td>
 </tr>
@@ -807,6 +865,39 @@ You want to subscribe to additional applications in the subaccount containing yo
 <td valign="top">
 
 You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to delete your SAP Cloud ALM subscription in your subaccount.
+
+</td>
+<td valign="top">
+
+Refer to KBA [3247776](https://me.sap.com/notes/3247776).
+
+> ### Caution:  
+> Deleting your SAP Cloud ALM subscription causes all created artifacts, stored data, and current configurations to be deleted as well. It will not re-enable you to request SAP Cloud ALM on SAP for Me.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to delete your SAP Cloud ALM subaccount.
+
+</td>
+<td valign="top">
+
+After you've deleted your SAP Cloud ALM subscription from your subaccount, you can delete the subaccount.
+
+Please note that once you've deleted your subaccount, you won't be able to use the automated provisioning on SAP for Me if you want to use SAP Cloud ALM again in the future. Instead, you'll need to carry out the setup manually.
+
+If you may want to use SAP Cloud ALM again in the future, consider temporarily stopping users from logging on to SAP Cloud ALM by removing the trust relationship to your identity provider. When you're ready to use SAP Cloud ALM again, you can re-establish the trust relationship.
 
 </td>
 </tr>
@@ -866,6 +957,10 @@ You want to migrate your SAP Cloud ALM application to a different data center.
 
 Refer to KBA [3352417](https://me.sap.com/notes/3352417).
 
+Please also consider the data center restrictions listed in KBA [3257720](https://me.sap.com/notes/3257720).
+
+For more information about SAP Cloud ALM data center locations, refer to the FAQ entries about data centers in the section [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb).
+
 </td>
 </tr>
 <tr>
@@ -889,39 +984,6 @@ After deleting your SAP Cloud ALM application, you want to set it up again from 
 <td valign="top">
 
 Refer to KBA [3257720](https://me.sap.com/notes/3257720).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to delete your SAP Cloud ALM subscription in your subaccount.
-
-</td>
-<td valign="top">
-
-Refer to KBA [3247776](https://me.sap.com/notes/3247776).
-
-> ### Caution:  
-> Deleting your SAP Cloud ALM subscription causes all created artifacts, stored data, and current configurations to be deleted as well. It will not re-enable you to request SAP Cloud ALM on SAP for Me.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to delete your SAP Cloud ALM subaccount.
-
-</td>
-<td valign="top">
-
-After you've deleted your SAP Cloud ALM subscription from your subaccount, you can delete the subaccount.
-
-Please note that once you've deleted your subaccount, you won't be able to use the automated provisioning on SAP for Me if you want to use SAP Cloud ALM again in the future. Instead, you'll need to carry out the setup manually.
-
-If you may want to use SAP Cloud ALM again in the future, consider temporarily stopping users from logging on to SAP Cloud ALM by removing the trust relationship to your identity provider. When you're ready to use SAP Cloud ALM again, you can re-establish the trust relationship.
 
 </td>
 </tr>
@@ -955,13 +1017,15 @@ Refer to SAP Note [3282741](https://me.sap.com/notes/3282741).
 
 <a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb"/>
 
-## Related Troubleshooting Guides
+## Related FAQs and Troubleshooting Guides
 
 -   [KBA 3270970 - Most Common Onboarding Issues](https://launchpad.support.sap.com/#/notes/3270970)
 
 -   [Troubleshooting for Managed ABAP Systems \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/calm-op-troubleshooting/calm-troubleshooting-abap.html)
 
 -   [Landscape Management – Troubleshooting and Customer Support \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management.html?anchorId=section_667953570_co)
+
+-   [Application Lifecycle Management \(ALM\) – Questions & Answers \(PDF\)](https://support.sap.com/content/dam/support/en_us/library/ssp/alm/QA_ALM.pdf) \(for general SAP ALM and SAP Cloud ALM questions\)
 
 
 

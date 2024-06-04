@@ -44,6 +44,8 @@ Be aware that any document uploads aren't stored in the SAP HANA memory. They re
 
 You can do the monitoring of the SAP HANA memory consumption in SAP Cloud ALM in the *Health Monitoring* app by selecting your SAP Cloud ALM service and checking the *SAP Cloud ALM HANA Memory* metric.
 
+![](images/HANA-MemorySize_dd25b76.png)
+
 You can configure the data and storage duration in SAP Cloud ALM for operations features. Find the guidelines under [Housekeeping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/housekeeping.html) on SAP Support Portal.
 
 > ### Tip:  

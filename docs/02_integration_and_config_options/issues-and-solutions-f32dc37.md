@@ -8,7 +8,7 @@
 
 ## Issues and Solutions
 
-In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition or SAP NetWeaver Application Server for ABAP on-premise.
+In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA On-Premise, SAP S/4HANA Cloud, private edition, and SAP Business Suite or SAP NetWeaver Application Server for ABAP on-premise.
 
 ****
 
@@ -36,11 +36,16 @@ I can't create transports
 
 Go to the managed system:
 
-1.  Check if the service key is missing the `auth` scopes.
+1.  Check if the service key is missing the following`auth` scopes.
+
+    -   `imp-cdm-feature-manage-ui`
+    -   `imp-cdm-feature-display-ui`
 
     If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
 
-2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the source tenant \(working client shouldn't be 000\).
+2.  Check if the use case Transports: Create & Export \(client-specific\)
+
+    is active in the source tenant \(working client shouldn't be 000\).
 
 3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source tenant.
 
@@ -65,7 +70,7 @@ Go to the managed system:
 
 1.  Check if the service key is missing the auth scopes.
 
-2.  Check if the use case Feature Deployment: Manage Transports per Client is active in the source tenant \(working client shouldn't be 000\).
+2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source tenant \(working client shouldn't be 000\).
 
 3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source tenant.
 
@@ -88,7 +93,7 @@ Go to the managed system:
 
 1.  Check if the service key is missing auth scopes.
 
-2.  Check if the use case Feature Deployment: Manage Transports per Client active in the source tenant\(working client shouldn't be 000\).
+2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source tenant\(working client shouldn't be 000\).
 
 3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released / and is running frequently in the source tenant.
 
@@ -111,9 +116,11 @@ Go to the managed system:
 
 1.  Check if the service key is missing auth scopes.
 
-2.  Check if the use case Feature Deployment: Import Transports active in target system client 000
+2.  Check if the use case Transports: Import Transports
 
-3.  Check if the job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running .
+    is active in target system client 000.
+
+3.  Check if the job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running in `client 000`.
 
 
 
@@ -132,7 +139,9 @@ Go to the managed system:
 
 1.  Check if the service key is missing auth scopes.
 
-2.  Check if the use case Feature Deployment: Manage Transports is active in development client 000.
+2.  Check if the use case Transports: Read Transports
+
+    is active in development client 000.
 
 
 
@@ -151,7 +160,7 @@ Go to the managed system:
 
 1.  The job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running.
 
-2.  The job log of `/SDF/CALM_CDM_IMPORT_TRANSPORTS` shows a component version mismatch. In case several features are deployed together, all the transports assigned are imported as an import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
+2.  The job log of `/SDF/CALM_CDM_IMPORT_TRANSPORTS` shows a component version mismatch. This job is only running when there is a request to deploy a transport from a feature. In case several features are deployed together, all the transports assigned are imported as an import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
 
 
 To resolve the mismatch issue refer to the following SAP Note:[1688610](https://me.sap.com/notes/1688610) 
@@ -174,7 +183,7 @@ If you encounter connection issues during the setup of the transport management 
 
 1.  **Connection Check Report**
 
-    1.  To check whether your connection is established properly, execute the program `/SDF/CALM_CDM_CONN_DIAGNOSTIC` in client 000 and all working clients of all managed systems you want to connect to SAP Cloud ALM.
+    1.  To check whether your connection is established properly, execute the program `/SDF/CALM_CDM_CONN_DIAGNOSTIC` in client 000 in all the systems included in the transport track you want to connect to SAP Cloud ALM.
 
         Additionally, you can use transaction `/SDF/ALM_DIAGNOSTIC` to execute the checks.
 
@@ -197,14 +206,14 @@ If you encounter connection issues during the setup of the transport management 
 
     5.  The following use cases must be active:
 
-        -   *Feature Deployment: Read Transport Landscape*: `CALM_CDM_TMS_LNDSCP` to synchronize the transport landscape from TMS - in the domain controller client 000.
-        -   *Feature Deployment: Manage Transports*: `CALM_CDM_TMS` for managing transports \(mainly to assign existing transport requests\) - in the development system client 000.
-        -   *Feature Deployment: Import Transports*: `CALM_CDM_TMS_IMPORT` for importing transports - in all target systems client 000.
+        -   *Transports: Read Landscape*: `CALM_CDM_TMS_LNDSCP` to synchronize the transport landscape from TMS - in the domain controller client 000.
+        -   *Transports: Read Transports*: `CALM_CDM_TMS` for managing transports \(mainly to assign existing transport requests\) - in the development system client 000.
+        -   *Transports: Import Transports*: `CALM_CDM_TMS_IMPORT` for importing transports - in all target systems client 000.
 
             > ### Note:  
             > If development clients are supposed to be supplied with changes, you must activate the use case there as well.
 
-        -   *Feature Deployment: Manage Transport per Client*:`CALM_CDM_TMS_CLI_DEP`to create and release transports and to create transport of copies. This is true for all development clients.
+        -   *Transports: Create & Export \(client-specific\)*:`CALM_CDM_TMS_CLI_DEP`to create and release transports and to create transport of copies. This is true for all development clients.
 
         > ### Note:  
         > A typical 3-tier looks like that:
@@ -231,24 +240,24 @@ If you encounter connection issues during the setup of the transport management 
         > </th>
         > <th valign="top">
         > 
-        > `O11.100`
+        > `O11.100 (DEV)`
         > 
         > </th>
         > <th valign="top">
         > 
-        > `O12.000`
+        > `O12.000 (TEST)`
         > 
         > </th>
         > <th valign="top">
         > 
-        > `O13.000`
+        > `O13.000 (PROD)`
         > 
         > </th>
         > </tr>
         > <tr>
         > <td valign="top">
         > 
-        > Feature Deployment: Manage Transport per Client
+        > Transports: Create & Export \(client-specific\)
         > 
         > </td>
         > <td valign="top">
@@ -275,7 +284,7 @@ If you encounter connection issues during the setup of the transport management 
         > <tr>
         > <td valign="top">
         > 
-        > Feature Deployment: Import Transports
+        > Transports: Import Transports
         > 
         > </td>
         > <td valign="top">
@@ -302,7 +311,7 @@ If you encounter connection issues during the setup of the transport management 
         > <tr>
         > <td valign="top">
         > 
-        > Feature Deployment: Read Transport Landscape
+        > Transports: Read Landscape
         > 
         > </td>
         > <td valign="top">
@@ -329,7 +338,7 @@ If you encounter connection issues during the setup of the transport management 
         > <tr>
         > <td valign="top">
         > 
-        > Feature Deployment: Manage Transports
+        > Transports: Read Transports
         > 
         > </td>
         > <td valign="top">
@@ -402,20 +411,13 @@ If you encounter connection issues during the setup of the transport management 
     > ### Note:  
     > The job `/SDF/CALM_CDM_DIAGNOSTICS` pushes data about the available capabilities in the managed system `ST-PI` to SAP Cloud ALM.
     > 
-    > This job is supposed to be released and executed once per day and client.
+    > This job is supposed to be released and executed once per day and only in `client 000`of the managed systems.
     > 
     > For the import of transports there is a job executed in each target system client `000`: `/SDF/CALM_CDM_IMPORT_TRANSPORTS`
 
     In case of import issues, you can have a look into the job log.
 
-    Sometimes a component version mismatch is detected, and this would block the import of all transports assigned to features if the mismatch situation is not resolved.
-
-    ![](images/Mismatch_3974838.png)
-
-    > ### Note:  
-    > In case several features are deployed together, all the transports assigned will be imported as import subset. If one transport request of the subset leads to a component mismatch situation the import of all transports is blocked.
-    > 
-    > To resolve this issue please refer to the following SAP Note: [1688610](https://me.sap.com/notes/1688610)[https://me.sap.com/notes/0001688610](https://me.sap.com/notes/0001688610)
+    To resolve this issue, please refer to the following documentation above [My import jobs are stuck](https://help.sap.com/docs/cloud-alm/setup-administration/issues-and-solutions-on-premise?locale=en-US&comment_id=22117817&show_comments=true#issues-and-solutions)
 
 
 Please make sure that all manual steps included in the necessary notes were executed properly.

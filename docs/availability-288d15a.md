@@ -56,6 +56,9 @@ The default display language of the solution is based on the language that is ma
 
 You can change the language either in your browser settings or in the SAP Cloud ALM launchpad by clicking on your user profile in the top-right corner and choosing *Settings* \> *Language and Region*.
 
+> ### Note:  
+> Not all content delivered by SAP is translated. For example, SAP Best Practice process diagrams and test scripts are only available in English.
+
 
 
 <a name="loio288d15a4d76547f594a844ba9f5a1b0a__section_jws_3jm_xyb"/>

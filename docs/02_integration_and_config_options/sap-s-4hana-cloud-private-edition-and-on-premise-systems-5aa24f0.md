@@ -4,9 +4,11 @@
 
 # SAP S/4HANA Cloud Private Edition and On-Premise Systems
 
-By enabling the transport management forSAP S/4HANA Cloud Private Edition and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
+By enabling the transport management for SAP S/4HANA Cloud Private Edition and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
 
-To use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud Private Edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the `(CTS)`.
+To use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud Private Edition, and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the `CTS`.
+
+You can perform this action with transaction `/sdf/ALM_SETUP` in the respective clients of your SAP S/4HANA Cloud Private Edition or On-Premise systems. For more information refer to the following documentation [Change and Transport System](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c.html?locale=de-DE).
 
 > ### Caution:  
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner.
@@ -20,6 +22,10 @@ To use the `Change and Transport System (CTS)` for SAP S/4HANA Cloud Private Edi
 
 
 ### For the Transport Management System \(TMS\) Setup
+
+If you are not familiar with the Change and Transport System in an ABAP environment, please make yourself familiar with the concepts in the following documentation [Change and Transport System](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c.html?locale=en-US).
+
+For more information about the configuration of transport routes refer to [**Configuring Transport Routes**](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/44b4a1df7acc11d1899e0000e829fbbd-239.html?locale=en-US).
 
 Currently supported landscapes:
 
@@ -58,7 +64,7 @@ If you need to perform unsupported changes of the transport configuration in the
 
 ### For the ABAP System
 
-Before you can start enabling the transport management for SAP S/4HANA Cloud Private Editionor SAP NetWeaver Application Server for ABAP on-premise, you need to fulfill the following prerequisites:
+Before you can start enabling the transport management for SAP S/4HANA Cloud Private Edition or SAP NetWeaver Application Server for ABAP on-premise, you need to fulfill the following prerequisites:
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
@@ -107,7 +113,7 @@ You need to consider two users in the managed ABAP system for the setup.
 
 Note that the authorization steps are only needed for system client 000. For other clients, these steps can't be performed.
 
--   To run transaction `/SDF/ALM_SETUP`, the user needs the PFCG role `SAP_SDF_ALM_SETUP`.
+-   To run transaction `n/SDF/ALM_SETUP`, the user needs the PFCG role `SAP_SDF_ALM_SETUP`.
 
     > ### Note:  
     > In this role, you need to maintain the authorization field `S_BTCH_NAM > BTCUNAME` either with '\*' or with the user name of the user that you plan to use for the data collection background job.
@@ -128,25 +134,86 @@ Note that the authorization steps are only needed for system client 000. For oth
 
 
 
-### Configuration of the PUSH Data Provider
+### Configuration Steps
 
-As a first step, retrieve *SAP Cloud ALM API* credentials as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
+It's necessary to establish a connection between the Change and Transport System \(CTS\) of the managed systems and the SAP Cloud ALM application.
 
-Depending on the provisioning date of your SAP Cloud ALM tenant, the creation and configuration of your entitlements in the subaccount containing your SAP Cloud ALM subscription is generated automatically or has to be adjusted manually:
+The communication between the SAP Cloud ALM tenant and the CTS of your managed systems transport track is performed by the `ST_PI SW` component of your managed systems that calls the SAP Cloud ALM application through the SAP Cloud ALM API service credentials.
 
--   On or after 2023-10-16: A service binding was generated automatically. You can skip the steps in the linked guide altogether and access your service binding in the SAP BTP cockpit or in the Landscape Management app, as described in [Managing Your Service Key](managing-your-service-key-87b7851.md)
+To set up the connection between your managed systems and the SAP Cloud ALM applications like the *Features* app, you need to retrieve your service key or service credentials of the SAP Cloud ALM API service instance and then connect your SAP systems to your SAP Cloud ALM instance.
 
--   Between 2023-06-12 and 2023-10-16: You only need to carry out the steps in the linked guide if you want to set up transport management, but you no longer have to configure your entitlements.
+As a first step, you need to retrieve the service credentials for your *SAP Cloud ALM API* instance.
 
-    > ### Note:  
-    > If you've already set up an instance previously, it's recommended to set up a new instance with a new name including the respective scopes. If the new instance works and the old one isn't needed anymore, you can delete the old instance.
-    > 
-    > The procedure for deleting an instance is described here: [Deleting Service Instances](https://help.sap.com/docs/service-manager/sap-service-manager/deleting-service-instances).
+> ### Note:  
+> To perform the setup steps, you have to make yourself familiar with how to work with the SAP BTP cockpit. [Basic Platform Concepts](https://help.sap.com/docs/btp/sap-business-technology-platform/btp-basic-platform-concepts?locale=en-US).
 
--   Before 2023-06-12: No service binding has been created as part of initial provisioning. To create one manually, carry out the steps listed in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
+Depending on the provisioning date of your SAP Cloud ALM tenant, the creation and configuration of your entitlements in the subaccount containing your SAP Cloud ALM subscription is generated automatically or has to be adjusted manually. See [Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md).
 
 
-The configuration of the push data provider is needed to enable the processing of batch jobs. These batch jobs are then scheduled to send and receive data as well as tasks that are needed for the processing of transport jobs.
+<table>
+<tr>
+<th valign="top">
+
+Provisioning Date
+
+</th>
+<th valign="top">
+
+Actions
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+On or after October 16, 2023
+
+</td>
+<td valign="top">
+
+The required service credentials have already been generated automatically as part of the provisioning of your SAP Cloud ALM tenant.
+
+You can skip the steps altogether and access your credentials in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Between June 12, 2023 and October 16, 2023
+
+</td>
+<td valign="top">
+
+Service credentials that can be used to connect managed services to SAP Cloud ALM for operations monitoring applications was generated automatically.
+
+You can access them in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md).
+
+You only need to carry out the steps described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) if you want to set up transport management, but you no longer have to configure your entitlements.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Before June 12, 2023
+
+</td>
+<td valign="top">
+
+No service credentials have been created as part of the provisioning of your SAP Cloud ALM tenant. To create one manually, perform the steps in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> If you want to enable the **SAP Cloud ALM API** in a Cloud Foundry environment, please refer to the following guide [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md) . Please note that this not the recommended approach anymore.
+
+The configuration of the push data provider in your in your SAP S/4HANA Cloud Private Edition and On-Premise systems is needed to enable the processing of batch jobs. These batch jobs are then scheduled to send and receive data as well as tasks to and from SAP Cloud ALM that are needed for the processing of transport jobs.
+
+> ### Note:  
+> To perform the following steps, you need knowledge about how to work with transactions in the ABAP environment.
 
 1.  Log on to `ABAP system client 000`.
 
@@ -157,55 +224,32 @@ The configuration of the push data provider is needed to enable the processing o
 
     If you start the transaction for the first time, it looks like this:
 
-    ![](images/Configuration_of_Push_Data_Provider_c73e67d.png)
+    ![](images/O11_Screenshot_e20e8bd.png)
 
 3.  *Target ALM Destination*
 
-    1.  To create a new `SAP Cloud ALM Destination`, enter a name \(for example SAP Cloud ALM\) and confirm your input with the [Enter\] key.
+    To create a new `SAP Cloud ALM Destination`, enter a name \(for example SAP Cloud ALM\) and confirm your input with the [Enter\] key.
 
-    2.  To change an existing SAP Cloud ALM destination, select one from the [F4\] input help and press [Enter\].
+    To change an existing SAP Cloud ALM destination, select one from the [F4\] input help and press [Enter\].
 
-    3.  Press [Enter\]. The subsequent fields are filled out automatically.
-
+    Press [Enter\]. The subsequent fields are filled out automatically.
 
 4.  *Maintain HTTP Destination*
 
     1.  Choose *Update Destination*.
 
-    2.  Copy the content of the JSON file that you've created in the **Create a Service Key** section. Choose *Paste Service Keys* and paste it into the text field popup.
-
-        > ### Note:  
-        > Alternatively, you can enter the required fields for SAP Cloud ALM manually:
-        > 
-        > 1.  *Token Endpoint*: Enter the SAP Cloud ALM `OAuth URL`, following the pattern `url + /oauth/token`.
-        > 
-        >     Example: `calm-tenant.authentication.eu10.hana.ondemand.com/oauth/token`
-        > 
-        > 2.  *Client ID*: Enter SAP Cloud ALM `client ID`.
-        > 
-        > 3.  *Client Secret*: Enter SAP Cloud ALM `client secret`.
-        > 
-        > 4.  *Proxy User* \(if necessary\)
-        > 
-        > 5.  *Proxy Password* \(if necessary\)
-        > 
-        > 6.  *Proxy Host* \(if required by your network infrastructure. For SAP S/4HANA Cloud Private Edition
-        > 
-        >     , enter value: proxy\)
-        > 
-        > 7.  *Proxy Port* \(if required by your network infrastructure. For
-        > 
-        >     SAP S/4HANA Cloud Private Edition, enter value: 3128\)
+    2.  Copy the content of the JSON file \(see [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) if you have to enable the SAP Cloud ALM API or [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md) if you already have a service key\) by choosing *Paste Service Keys* and paste it into the text field popup.
 
     3.  Choose *Continue*. The destination is now updated.
 
-    4.  Choose *Continue*. A success message appears if the connection was established.
+        A success message appears if the connection was established.
 
-5.  *Enter Registration Target*
+
+5.  *Enter Background*
 
     1.  If the *Target ALM Root URL* field isn't already prefilled, enter the target SAP Cloud ALM root URL depending on your region, for example `https://eu20.alm.cloud.sap`.
 
-        This is the URL that is shown in the JSON file during the creation of the service key. The URL is shown under *endpoints.API* or *uaa.url* respectively. The SAP Cloud ALM root URL depends on the region of the customer account was created under, for example `eu10.alm.cloud.sap` or `eu20.alm.cloud.sap`.
+        This is the URL that is shown in the JSON file during the creation of the service key [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md). How to retrieve the information of the service key can be found in the following documentation [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md). The URL is shown under *endpoints.API* or *uaa.url* respectively. The SAP Cloud ALM root URL depends on the region of the customer account was created under, for example `eu10.alm.cloud.sap` or `eu20.alm.cloud.sap`.
 
     2.  Enter the background user that you created to perform the data collection.
 
@@ -216,45 +260,189 @@ The configuration of the push data provider is needed to enable the processing o
         An `LMS ID` is retrieved and displayed.
 
 
-    > ### Note:  
-    > To unregister a system, choose *Unregister*.
-    > 
-    > This stops all data collection and heartbeat measurements.
+    To unregister a system, choose *Unregister*.
+
+    This stops all data collection and heartbeat measurements.
 
 6.  Select the use cases that you want to collect and push data for. The push mechanism supports the following use cases:
 
-    -   For development systems: `Feature Deployment: Manage Transports`
+    -   For development systems \(client 000\): `Transports: Read`
 
-    -   For a domain controller system: `Feature Deployment: Read Landscape`
+        Reports transport requests to SAP Cloud ALM for assignment to features.
 
-    -   All other systems \(test or production\): `Feature Deployment: Import Transports` 
+        It's only necessary to set up on source systems: specifically DEV systems.
+
+    -   For development systems \(working client\): Transports: Create & Export \(client-specific\)
+
+        Creates transports, deletes empty transports, releases transports, and manages transport of copies.
+
+    -   For a domain controller system \(client 000\): `Transports: Read Landscape`
+
+        Reports the `STMS` landscape configuration to SAP Cloud ALM.
+
+    -   All target systems \(test or production, client 000\): `Transports: Import` 
+
+        Queries the requests that are to be imported from SAP Cloud ALM and triggers the import job.
+
+        Only needs to be set up on consolidation and target systems for import \(that is, QA and PRD systems\).
+
+        In case you don't find these use cases in the list, try to rule out connection issues.
+
+        For example, your service key is outdated and has to be generated again, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
+
+        More solutions for connection problems can be found in the [**Issues and Solutions**](https://help.sap.com/docs/cloud-alm/setup-administration/issues-and-solutions-on-premise?locale=en-US) guide.
+
+    -   A typical 3-tier landscape looks like that:
+
+        -   Transport route: `O11.100 (DEV)` –\> `O12.100 (TEST)` –\> `O13.100 (PROD)`
+        -   Domain controller: `O11`
 
 
-    > ### Tip:  
-    > Further information about activating use cases:
-    > 
-    > **Feature Deployment: Read Landscape**
-    > 
-    > -   Reports the `STMS` landscape configuration to SAP Cloud ALM.
-    > 
-    > -   It's only necessary to set up on one system per domain \(that is the domain controller\). A domain controller is mandatory for the TMS. Using the same domain controller to connect to SAP Cloud ALM is optional.
-    > 
-    > 
-    > **Feature Deployment: Manage Transports**
-    > 
-    > -   Reports transport requests to SAP Cloud ALM for assignment to features.
-    > 
-    > -   It's only necessary to set up on source systems, specifically DEV systems.
-    > 
-    > 
-    > **Feature Deployment: Import Transports**
-    > 
-    > -   Queries the requests that are to be imported from SAP Cloud ALM and triggers the import job.
-    > 
-    > -   Only needs to be set up on consolidation and target systems for import \(that is, QA and PRD systems\).
+        The following table shows the different use cases per client.
 
-    > ### Note:  
-    > Commonly, authorization-checks are performed in the system where a change happens. For *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as the background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
+        **Use Case Available per Client**
+
+
+        <table>
+        <tr>
+        <th valign="top">
+
+        Use Case / Client
+        
+        </th>
+        <th valign="top">
+
+        `O11.000`
+        
+        </th>
+        <th valign="top">
+
+        `O11.100`
+        
+        </th>
+        <th valign="top">
+
+        `O12.000`
+        
+        </th>
+        <th valign="top">
+
+        `O13.000`
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Transports: Create & Export (client-specific)`
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+        Active
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Transports: Import` 
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+        Active
+        
+        </td>
+        <td valign="top">
+        
+        Active
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Transports: Read Landscape`
+        
+        </td>
+        <td valign="top">
+        
+        Active
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Transports: Read`
+        
+        </td>
+        <td valign="top">
+        
+        Active
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        <td valign="top">
+        
+         
+        
+        </td>
+        </tr>
+        </table>
+        
+
+    Commonly, authorization-checks are performed in the system where a change happens. For the *Features* app, this app takes over the authorization check for importing transports in the SAP Cloud ALM environment instead of the managed system. In the managed system, the user you specified as the background user for the data collection performs the transport actions. Since this background user has transport authorization by definition, the distinct check whether a specific end user is allowed to perform a transport operation is done in SAP Cloud ALM.
 
 7.  Choose *Continue*.
 
@@ -269,15 +457,15 @@ The configuration of the push data provider is needed to enable the processing o
 
 ## Configuration of Client-Dependent Use Cases
 
-The following client-dependent use cases are available to you:
+The use case `Transports: Create & Export (client-specific)` enables following transport-related functions:
 
 -   Create transports
 
--   Delete empty transports
+-   Create transport of copies
 
 -   Release transports
 
--   Transport of copies
+-   Delete empty transports \(during release\)
 
 
 
@@ -312,7 +500,7 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
     ![](images/Setup_Integration_1_438f734.png)
 
-3.  Under *Maintain HTTP Destination*, choose *Update Destination* and paste the JSON file you've already created in the **Configuration of the PUSH Data Provider** section of this guide.
+3.  Under *Maintain HTTP Destination*, choose *Update Destination* and paste the JSON file you've already created in the **Configuration Steps** section of this guide above.
 
 4.  Under *Enter Background User and Register System*, choose *Unregister*.
 
@@ -326,7 +514,7 @@ To enable the use cases mentioned above within an SAP Cloud ALM feature, execute
 
 7.  Select the use case that you want to activate:
 
-    `Feature Deployment: Manage Transport per Client`
+    `Transports: Create & Export (client specific)`
 
     -   Queries to-be-released transport requests from SAP Cloud ALM and triggers the release job.
     -   It's necessary to execute this setup on all development clients you use for customizing activities.
