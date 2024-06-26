@@ -2,14 +2,14 @@
 
 # SAP Cloud Transport Management Service
 
-Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM..
+Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM.
 
 Several SAP Cloud Products use SAP Cloud Transport Management as environment for transporting their development artifacts and application-specific content. The transport nodes of SAP Cloud Transport management represent the landscape of those SAP Cloud Products. Connecting SAP Cloud Transport Management to SAP Cloud ALM makes that landscape and the respective transports visible for SAP Cloud ALM. Then, you can orchestrate the deployment of those transports in SAP Cloud ALM.
 
 You can directly connect an SAP Cloud Transport Management service instance subscribed in your SAP BTP Global Account to SAP Cloud ALM.
 
 > ### Note:  
-> In case you've subscribed to several SAP Cloud Transport Management service instances it's possible to connect all of them to the same SAP Cloud ALM.
+> In case you've subscribed to several SAP Cloud Transport Management service instances, it's possible to connect all of them to the same SAP Cloud ALM.
 
 To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport Management service, you first have to establish a connection between them.
 
@@ -74,7 +74,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         </td>
         <td valign="top">
         
-        Here, use the prefix CALM\_FTR\_CTMS\_ and then add a meaningful suffix.
+        Here, use the prefix `CALM_FTR_CTMS_` and then add a meaningful suffix.
 
         Example: `CALM_FTR_CTMS_FEATURES` \(this value is case-sensitive\)
         
@@ -160,7 +160,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         </td>
         <td valign="top">
         
-        Value of `clientsecret` \(uaa section\) from the service key of your SAP Cloud Transport Management service instance.
+        Value of `clientsecret` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
         
         </td>
         </tr>
@@ -174,7 +174,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         
         Value of ` URL` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
 
-        Append `oauth/token` to the `URL` retrieved from the service key.
+        Append `/oauth/token` to the `URL` retrieved from the service key.
         
         </td>
         </tr>
@@ -502,7 +502,7 @@ If you want to use SAP Cloud ALM with SAP Build Work Zone, please follow the ins
     </td>
     <td valign="top">
     
-    Use the uaa.url and then append /oauth/token at the end of the uaa.url, for example like: `https://{customer-tenant}.authentication.{region}.hana.ondemand.com/oauth/token`.
+    Use the `uaa.url` and then append `/oauth/token` at the end of the uaa.url, for example like: `https://{customer-tenant}.authentication.{region}.hana.ondemand.com/oauth/token`.
     
     </td>
     </tr>
@@ -514,7 +514,7 @@ If you want to use SAP Cloud ALM with SAP Build Work Zone, please follow the ins
     </td>
     <td valign="top">
     
-    Destination New Property.
+    Destination New Property
 
     Enter `sourceSystemId` \(this value is case-sensitive\) as the key and provide a value of your choice. Reuse the same value as the name of the source transport node in a later step.
     
@@ -524,7 +524,7 @@ If you want to use SAP Cloud ALM with SAP Build Work Zone, please follow the ins
     
     ![](images/Destinatikon_3f92870.png)
 
-4.  Continue the [**Enabling SAP Cloud ALM API**](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-sap-cloud-alm-api?locale=en-US) guide by setting up the destination property *node-name*. For the destination, use the values that were used in your SAP Cloud ALM Cloud Transport Management environment. Then, proceed with the remaining steps of the [**Integrate SAP Cloud Transport Management Service**](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/integrate-sap-cloud-transport-management-service?locale=en-US) guide.
+4.  Continue the [Enabling SAP Cloud ALM API](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-sap-cloud-alm-api?locale=en-US) guide by setting up the destination property *node-name*. For the destination, use the values that were used in your SAP Cloud ALM Cloud Transport Management environment. Then, proceed with the remaining steps of the [Integrate SAP Cloud Transport Management Service](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/integrate-sap-cloud-transport-management-service?locale=en-US) guide.
 
 5.  If everything is set up correctly, you can now export the site content by choosing *Transport Site* from the dropdown.![](images/Export_Site_63e8e78.png)![](images/EXport_Site_2_14555de.png)
 6.  After exporting the first content package, it shows up in the *SAP Cloud Transport Management* app. Then it can be assigned to a feature document in the *Features* app. For more information, consult the following guide [Assigning Transports, User Stories, and Project Tasks](https://help.sap.com/docs/cloud-alm/applicationhelp/assigning-transports?locale=en-US). If the content package doesn't show up immediately, you can use the refresh button of the *Transports* section to manually trigger a synchronization.

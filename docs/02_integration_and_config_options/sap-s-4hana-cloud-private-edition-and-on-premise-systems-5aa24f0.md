@@ -47,9 +47,15 @@ Currently supported landscapes:
 > 
 > -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability.
 > 
+>     Also transport requests created in the deleted systems are still available in the transport assignment.
+> 
 > -   Changing or deleting export targets isn't supported.
 > 
+>     Deleting development systems is also not supported. The transports of deleted development systems are still available in the assign pop-up of the respective feature. .
+> 
 > -   Switching on or off client-specific transport routes isn't supported.
+> 
+> -   Do not perform any transport activities in CTS with transports managed by SAP Cloud ALM, for example imports, buffer manipulations or system copies.
 
 If you need to perform unsupported changes of the transport configuration in the Transport Management System \(TMS\), make sure that all open features and transports are completed and deployed to the production system. Therefore, the transport buffers should be empty.
 
@@ -240,6 +246,15 @@ The configuration of the push data provider in your in your SAP S/4HANA Cloud Pr
 
     2.  Copy the content of the JSON file \(see [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) if you have to enable the SAP Cloud ALM API or [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md) if you already have a service key\) by choosing *Paste Service Keys* and paste it into the text field popup.
 
+        > ### Note:  
+        > In the popup, you ave to enter the following values in the respective fields:
+        > 
+        > -   If your system is hosted by SAP, please enter the value `proxy` in the *Proxy Host* field. \(If required by your network infrastructure\).
+        > 
+        >     .
+        > 
+        > -   If your system is hosted by SAP, please enter the value 3128 in the*Proxy Port* field \(if required by your network infrastructure\).
+
     3.  Choose *Continue*. The destination is now updated.
 
         A success message appears if the connection was established.
@@ -272,9 +287,18 @@ The configuration of the push data provider in your in your SAP S/4HANA Cloud Pr
 
         It's only necessary to set up on source systems: specifically DEV systems.
 
-    -   For development systems \(working client\): Transports: Create & Export \(client-specific\)
+    -   For development systems \(working client\): Transports: Create & Export \(client-specific\):
 
-        Creates transports, deletes empty transports, releases transports, and manages transport of copies.
+        The use case `Transports: Create & Export (client-specific)` enables following transport-related functions:
+
+        -   Create transports
+
+        -   Create transport of copies
+
+        -   Release transports
+
+        -   Delete empty transports \(during release\)
+
 
     -   For a domain controller system \(client 000\): `Transports: Read Landscape`
 
@@ -456,17 +480,6 @@ The configuration of the push data provider in your in your SAP S/4HANA Cloud Pr
 <a name="loio5aa24f076e3b4b47839f762baa7d089a__section_amq_jvv_k5b"/>
 
 ## Configuration of Client-Dependent Use Cases
-
-The use case `Transports: Create & Export (client-specific)` enables following transport-related functions:
-
--   Create transports
-
--   Create transport of copies
-
--   Release transports
-
--   Delete empty transports \(during release\)
-
 
 
 

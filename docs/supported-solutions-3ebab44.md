@@ -37,6 +37,28 @@ Notes
 <tr>
 <td valign="top">
 
+IT and Application Platform
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+Tools and Technologies
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Public Edition 
 
 </td>
@@ -149,6 +171,8 @@ Process Management
 -   SAP SFSF Benefits
 
 -   SAP SFSF Employee Central
+
+-   SAP SFSF Talent Intelligence Hub
 
 -   SAP SFSF Opportunity Marketplace
 
@@ -1819,6 +1843,28 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <td valign="top">
 
 SAP S/4HANA \(on premise\) 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba Procurement Planning 
 
 </td>
 <td valign="top">
@@ -4261,6 +4307,28 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <td valign="top">
 
 SAP BW/4HANA 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Digital Vehicle Hub
 
 </td>
 <td valign="top">

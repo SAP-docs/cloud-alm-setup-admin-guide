@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API in Cloud Foundry
 
-Create a service key to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
+To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service key from the SAP Cloud ALM API instance.
 
 > ### Note:  
 > This document describes how to retrieve service credentials in the Cloud Foundry environment. This is no longer the recommended approach.
@@ -135,7 +135,7 @@ To consume the selected service plan, you need to create a service instance in y
     
     ```
 
-8.  Replace `<your-instance-name>` with your instance name.
+8.  Replace `<your-instance-name>` with your instance name that you've created in step 5 of the *Create or Update an Instance* section of this guide.
 
 9.  Choose *Create*.
 

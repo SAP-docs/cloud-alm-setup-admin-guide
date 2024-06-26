@@ -12,10 +12,10 @@ On this interactive image, you can see all optional setup steps for SAP Cloud AL
 
 ![Optional Setup Steps for SAP Cloud ALM](images/Image_Map_Integration_and_Configuration_Options_c84c1e9.png)
 
--   **[Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md "To set up the connection between your managed systems and individual SAP Cloud ALM
-		applications, you need to retrieve service credentials and connect your SAP services and
-		systems to your SAP Cloud ALM API instance.")**  
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve service credentials and connect your SAP services and systems to your SAP Cloud ALM API instance.
+-   **[Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md "The connection between individual SAP Cloud applications and your managed systems and/or
+		services is handled via an SAP Cloud ALM API service instance in
+		your SAP Cloud ALM subaccount.")**  
+The connection between individual SAP Cloud applications and your managed systems and/or services is handled via an SAP Cloud ALM API service instance in your SAP Cloud ALM subaccount.
 -   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By integrating the SAP Audit Log Viewer service for SAP BTP, you can view
 		the audit logs for your SAP Cloud ALM tenant to track the end user activity in SAP Cloud
 		ALM. Audit logs represent security-relevant chronological records that provide documentary

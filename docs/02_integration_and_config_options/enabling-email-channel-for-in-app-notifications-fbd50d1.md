@@ -124,43 +124,6 @@ Open authorization requests exist.
 
 
 
-<a name="loiofbd50d1ee4694e4eb1e94e387a28ec7f__section_ghz_fv4_fzb"/>
-
-## Prerequisites
-
--   You operate your own email server that is under your responsibility.
-
--   Your email solution supports basic authentication.
-
-
-
-
-<a name="loiofbd50d1ee4694e4eb1e94e387a28ec7f__section_fjv_nv4_fzb"/>
-
-## Procedure
-
-
-
-### 1. Configuring an SMTP Mail Destination \(Administrator Action\)
-
-To enable email notifications for your SAP Cloud ALM tenant, you need to maintain a destination in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
-
-
-
-### 2. Activating Email Notifications \(User Action\)
-
-When the mail destination is configured, users can individually activate email notifications for different notification types.
-
-Whereas the in-app notifications are active by default, the email notifications work on an opt-in basis. Each user can choose which notifications should trigger an email notification. Administrators can't mass-activate these settings for multiple or all users in the SAP Cloud ALM tenant.
-
-To enable email notifications for your account, click on your user profile in the top-right corner of the SAP Cloud ALM launchpad and choose *Settings* \> *Notifications*. Here, check the *Email* flags for the notification types you want to receive emails for.
-
-You can only select the notification types that are relevant to you, that is, for which you've received notifications in the past. For example, if you've never been assigned to a task, you don’t see this notification type in the settings and can't check the email flag for this notification type.
-
-![](images/Screenshot_Enabling_Email_Channel_for_SAP_Cloud_ALM_In-app_Notifications_2_2feae19.png)
-
-
-
 <a name="loiofbd50d1ee4694e4eb1e94e387a28ec7f__section_tyw_d5b_kbc"/>
 
 ## Result

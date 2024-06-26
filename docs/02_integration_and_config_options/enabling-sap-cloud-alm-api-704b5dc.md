@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API
 
-Create a service binding to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
+To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service binding from the SAP Cloud ALM API instance.
 
 
 
@@ -106,7 +106,7 @@ To consume the selected service plan, you need to create a service instance.
     
     ```
 
-6.  Replace `<your-instance-name>` with your instance name.
+6.  Replace `<your-instance-name>` with your instance name you've created in step 3 of the *Create or Update an Instance* section of this guide.
 
 7.  Choose *Create*.
 

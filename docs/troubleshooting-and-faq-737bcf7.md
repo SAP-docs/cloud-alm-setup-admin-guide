@@ -214,7 +214,19 @@ You're a customer based in China and can't request SAP Cloud ALM because the *St
 </td>
 <td valign="top">
 
-Refer to [3451531](https://me.sap.com/notes/3451531).
+Refer to KBA [3451531](https://me.sap.com/notes/3451531).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You're looking for general information on how to start the provisioning for cloud products on SAP for Me.
+
+</td>
+<td valign="top">
+
+Refer to KBA [3066901](https://me.sap.com/notes/3066901).
 
 </td>
 </tr>
@@ -1008,6 +1020,29 @@ You want to move your SAP Cloud ALM tenant from one customer number to another c
 <td valign="top">
 
 Refer to SAP Note [3282741](https://me.sap.com/notes/3282741).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The end of your contract for SAP Cloud ALM is approaching, as illustrated by the following indicators:
+
+-   The end date that is listed under *Contract Start* in the *Provisioning* dashboard on SAP for Me is approaching.
+
+-   A warning message is displayed in the SAP BTP cockpit, such as *"Your global account SAP Cloud ALM is reaching the contract end date"*.
+
+
+
+
+</td>
+<td valign="top">
+
+Your entitlement for SAP Cloud ALM is derived from other product and support licenses that you have. To continue to use SAP Cloud ALM, ensure that relevant expiring licenses are renewed in time.
+
+To see details about the license materials that are related to your entitlement, such as entitled quantity, order ID, and duration, open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me and expand the *Materials* field.
+
+For related information, refer to [Account Termination](account-termination-219d7d0.md) and KBA [3066901](https://me.sap.com/notes/3066901).
 
 </td>
 </tr>
