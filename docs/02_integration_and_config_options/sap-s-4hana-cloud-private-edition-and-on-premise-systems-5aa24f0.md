@@ -45,17 +45,15 @@ Currently supported landscapes:
 > 
 > -   Changing delivery routes is partly supported. This means, the transport buffers need to be adjusted manually and removed systems are still reported on in the feature traceability.
 > 
-> -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability.
+> -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability. Also, transport requests created in the deleted systems are still available in the transport assignment.
 > 
->     Also transport requests created in the deleted systems are still available in the transport assignment.
-> 
-> -   Changing or deleting export targets isn't supported.
-> 
->     Deleting development systems is also not supported. The transports of deleted development systems are still available in the assign pop-up of the respective feature. .
+> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature, and *Feature Traceability* app.
 > 
 > -   Switching on or off client-specific transport routes isn't supported.
 > 
-> -   Do not perform any transport activities in CTS with transports managed by SAP Cloud ALM, for example imports, buffer manipulations or system copies.
+> -   Do not perform any manual transport activities in CTS with transports managed by SAP Cloud ALM, for example imports, buffer manipulations or system copies. There is no self-healing mechanism available in these cases.
+> 
+> -   Virtual systems are currently not supported.
 
 If you need to perform unsupported changes of the transport configuration in the Transport Management System \(TMS\), make sure that all open features and transports are completed and deployed to the production system. Therefore, the transport buffers should be empty.
 
@@ -74,7 +72,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud Pri
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 26, install [3421256](https://me.sap.com/notes/3421256) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
+-   For ST-PI 740 SP 26 and SP 27, install [3421256](https://me.sap.com/notes/3421256) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
 -   For ST-PI 740 SP 24 and 25, install [3374186](https://me.sap.com/notes/3374186) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 

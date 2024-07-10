@@ -44,5 +44,5 @@ For more information, refer to the **Configuration** pages of the respective app
 
 ## SAP Cloud ALM for Service
 
-To use SAP Cloud ALM for service, consent to the data exchange needs to be given. For more information, refer to [Enabling Service Delivery](02_integration_and_config_options/enabling-service-delivery-a1b2494.md).
+The collaboration between SAP and the customer for service delivery requires a transfer of data into the customer's SAP Cloud ALM tenant. This data transfer is automatically activated, and you can request to deactivate it. More under [Enabling Service Delivery](02_integration_and_config_options/enabling-service-delivery-a1b2494.md).
 

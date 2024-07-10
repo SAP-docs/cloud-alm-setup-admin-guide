@@ -2,9 +2,9 @@
 
 # Enabling Transport Management
 
-You can enable transport management of different transport environments for SAP Cloud ALM.
+Learn how to enable the transport management of different transport environments for SAP Cloud ALM.
 
-In this section, you can find the setup steps for the enablement of the transport management for different transport environments in SAP Cloud ALM.
+In this section, you find the setup steps for the enablement of the transport management for different transport environments in SAP Cloud ALM.
 
 -   **[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-a4238a9.md "Enable the transport management with Adaptation Transport Organizer.")**  
 Enable the transport management with Adaptation Transport Organizer.

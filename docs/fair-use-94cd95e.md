@@ -15,7 +15,15 @@ Sufficient resources for standard use are included, per default:
 -   Administration and monitoring
 
 
-You can subscribe to additional services, to cover extended use scenarios.
+
+
+You can monitor the SAP HANA memory consumption in SAP Cloud ALM in the *Health Monitoring* app by selecting your SAP Cloud ALM service and checking the *SAP Cloud ALM HANA Memory* metric.
+
+![](images/HANA-MemorySize_dd25b76.png)
+
+To reduce your memory usage, you can change your housekeeping settings in SAP Cloud ALM for operations apps. For more information, see [Housekeeping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/housekeeping.html) on SAP Support Portal.
+
+To cover extended use scenarios, you can subscribe to additional services.
 
 
 
@@ -41,12 +49,6 @@ The following requirements can cause an extended SAP Cloud ALM usage, above the 
 
 
 Be aware that any document uploads aren't stored in the SAP HANA memory. They require that you connect an SAP or external DMS service and therefore do not affect the 8 GB limitation.
-
-You can do the monitoring of the SAP HANA memory consumption in SAP Cloud ALM in the *Health Monitoring* app by selecting your SAP Cloud ALM service and checking the *SAP Cloud ALM HANA Memory* metric.
-
-![](images/HANA-MemorySize_dd25b76.png)
-
-You can configure the data and storage duration in SAP Cloud ALM for operations features. Find the guidelines under [Housekeeping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/housekeeping.html) on SAP Support Portal.
 
 > ### Tip:  
 > The *SAP Cloud ALM, memory extension* service is available via a service subscription on CPEA: see [SAP Discovery Center](https://discovery-center.cloud.sap/#/serviceCatalog/sap-cloud-alm-memory-extension).

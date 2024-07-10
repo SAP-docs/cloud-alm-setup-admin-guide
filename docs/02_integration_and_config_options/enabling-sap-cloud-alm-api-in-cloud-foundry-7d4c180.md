@@ -46,21 +46,19 @@ In Cloud Foundry, your subaccount can further be subdivided by spaces, which is 
 
 1.  Open the SAP BTP cockpit.
 
-2.  Select the global account that contains your SAP Cloud ALM entitlement, which was created when you requested SAP Cloud ALM.
+2.  Select the global account that contains your SAP Cloud ALM entitlement and go to the subaccount that contains your SAP Cloud ALM subscription.
 
-3.  Under *Subaccounts*, select the subaccount that contains your SAP Cloud ALM subscription.
+3.  Choose *Cloud Foundry* \> *Spaces*.
 
-4.  Choose *Cloud Foundry* \> *Spaces*.
-
-5.  If you already have a space with the required authorizations, proceed to the **Configure Entitlements** section.
+4.  If you already have a space with the required authorizations, proceed to the **Configure Entitlements** section.
 
     If you don't have a space yet, choose *Create Space*.
 
     ![Create a Space](images/Enabling_APIs_-_Create_Space_f46e85f.png)
 
-6.  Enter a space name and select the roles that you want to assign to your user for this space. To perform the following steps, your user needs at least *Space Developer* authorizations.
+5.  Enter a space name and select the roles that you want to assign to your user for this space. To perform the following steps, your user needs at least *Space Developer* authorizations.
 
-7.  Choose *Create*.
+6.  Choose *Create*.
 
 
 
