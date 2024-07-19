@@ -20,6 +20,7 @@
         -   [Managing Your Service Credentials](02_integration_and_config_options/managing-your-service-credentials-87b7851.md)
     -   [Activating the SAP Audit Log Viewer Service](02_integration_and_config_options/activating-the-sap-audit-log-viewer-service-59fd2a4.md)
     -   [Enabling Email Channel for In-App Notifications](02_integration_and_config_options/enabling-email-channel-for-in-app-notifications-fbd50d1.md)
+    -   [Enabling the Creation of Public Views](02_integration_and_config_options/enabling-the-creation-of-public-views-ec0293f.md)
     -   [Integrating SAP Central Business Configuration](02_integration_and_config_options/integrating-sap-central-business-configuration-e21f915.md)
     -   [Configuring Project User Permissions](02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md)
     -   [Integrating the Cloud Integration Automation Service](02_integration_and_config_options/integrating-the-cloud-integration-automation-service-eafcc2f.md)

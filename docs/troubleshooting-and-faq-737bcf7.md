@@ -94,7 +94,7 @@ You want to determine if an SAP Cloud ALM tenant has already been provisioned fo
 
 Open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me:
 
--   If SAP Cloud ALM is available in the section *Products Available for Provisioning*, it has not been provisioned yet and you can request it.
+-   If SAP Cloud ALM is available in the section *Products Available for Provisioning*, it hasn't been provisioned yet and you can request it.
 
 -   If SAP Cloud ALM is available in the section *Provisioning Status*, the provisioning is either in progress or completed.
 
@@ -209,12 +209,24 @@ For the reasoning behind this, refer to KBA [3152095](https://me.sap.com/notes/3
 <tr>
 <td valign="top">
 
-You're a customer based in China and can't request SAP Cloud ALM because the *Start Provisioning* button in SAP for Me is grayed out.
+You're a customer based in China and can't request SAP Cloud ALM because the *Start Provisioning* button on SAP for Me is grayed out.
 
 </td>
 <td valign="top">
 
-Refer to [3451531](https://me.sap.com/notes/3451531).
+Refer to KBA [3451531](https://me.sap.com/notes/3451531).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You're looking for general information on how to start the provisioning for cloud products on SAP for Me.
+
+</td>
+<td valign="top">
+
+Refer to KBA [3066901](https://me.sap.com/notes/3066901).
 
 </td>
 </tr>
@@ -945,6 +957,8 @@ You want to move your SAP Cloud ALM application to a different data center.
 
 It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 
+However, you can **migrate** your SAP Cloud ALM application to a different data center.
+
 </td>
 </tr>
 <tr>
@@ -966,12 +980,14 @@ For more information about SAP Cloud ALM data center locations, refer to the FAQ
 <tr>
 <td valign="top">
 
-You want to change the subdomain of your SAP Cloud ALM tenant.
+You want to change or rename the subdomain of your SAP Cloud ALM tenant.
 
 </td>
 <td valign="top">
 
-It's currently not possible to change the subdomain of an existing SAP Cloud ALM tenant
+It's currently not possible to change or rename the subdomain of an existing SAP Cloud ALM tenant.
+
+However, if you're willing to accept loss of data in your current SAP Cloud ALM tenant, you can follow the FAQ entry about migrating to a new data center. While setting up your new SAP Cloud ALM tenant in the same or in a new data center, you can choose a new subdomain.
 
 </td>
 </tr>
@@ -995,7 +1011,11 @@ You want to decommission SAP Cloud ALM.
 </td>
 <td valign="top">
 
-Official decommissioning of SAP Cloud ALM isn't yet available. However, you can use a housekeeping job to delete services from the *Landscape Management* app.
+Official decommissioning of SAP Cloud ALM isn't yet available.
+
+However, you can use a housekeeping job to delete services from the *Landscape Management* app.
+
+You can also delete your SAP Cloud ALM subscription in your subaccount and then delete your subaccount. For more information, refer to the corresponding FAQ entries in the section [Your SAP Cloud ALM Subaccount](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb).
 
 </td>
 </tr>
@@ -1008,6 +1028,29 @@ You want to move your SAP Cloud ALM tenant from one customer number to another c
 <td valign="top">
 
 Refer to SAP Note [3282741](https://me.sap.com/notes/3282741).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The end of your contract for SAP Cloud ALM is approaching, as illustrated by the following indicators:
+
+-   The end date that is listed under *Contract Start* in the *Provisioning* dashboard on SAP for Me is approaching.
+
+-   A warning message is displayed in the SAP BTP cockpit, such as *"Your global account SAP Cloud ALM is reaching the contract end date"*.
+
+
+
+
+</td>
+<td valign="top">
+
+Your entitlement for SAP Cloud ALM is derived from other product and support licenses that you have. To continue to use SAP Cloud ALM, ensure that relevant expiring licenses are renewed in time.
+
+To see details about the license materials that are related to your entitlement, such as entitled quantity, order ID, and duration, open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me and expand the *Materials* field.
+
+For related information, refer to [Account Termination](account-termination-219d7d0.md) and KBA [3066901](https://me.sap.com/notes/3066901).
 
 </td>
 </tr>

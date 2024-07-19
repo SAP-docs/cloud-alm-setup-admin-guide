@@ -10,7 +10,7 @@ There are two different ways in which email notifications are handled in SAP Clo
 
 ## In-App Notifications
 
-Email notifications for in-app notifications, which are used predominantly for SAP Cloud ALM for implementation, can be set up centrally by following [Enabling Email Channel for In-App Notifications](../02_integration_and_config_options/enabling-email-channel-for-in-app-notifications-fbd50d1.md).
+Email notifications for in-app notifications, which are used predominantly for SAP Cloud ALM for implementation, can be set up centrally by following [Enabling Email Channel for In-App Notifications](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-email-notifications).
 
 Once this email channel is enabled, every user can configure for themselves in their profile settings if and for which notification types they want to receive emails. If users no longer want to receive email notifications, they can adjust their notification settings at any time.
 

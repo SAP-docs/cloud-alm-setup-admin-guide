@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API in Cloud Foundry
 
-Create a service key to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
+To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service key from the SAP Cloud ALM API instance.
 
 > ### Note:  
 > This document describes how to retrieve service credentials in the Cloud Foundry environment. This is no longer the recommended approach.
@@ -46,21 +46,19 @@ In Cloud Foundry, your subaccount can further be subdivided by spaces, which is 
 
 1.  Open the SAP BTP cockpit.
 
-2.  Select the global account that contains your SAP Cloud ALM entitlement, which was created when you requested SAP Cloud ALM.
+2.  Select the global account that contains your SAP Cloud ALM entitlement and go to the subaccount that contains your SAP Cloud ALM subscription.
 
-3.  Under *Subaccounts*, select the subaccount that contains your SAP Cloud ALM subscription.
+3.  Choose *Cloud Foundry* \> *Spaces*.
 
-4.  Choose *Cloud Foundry* \> *Spaces*.
-
-5.  If you already have a space with the required authorizations, proceed to the **Configure Entitlements** section.
+4.  If you already have a space with the required authorizations, proceed to the **Configure Entitlements** section.
 
     If you don't have a space yet, choose *Create Space*.
 
     ![Create a Space](images/Enabling_APIs_-_Create_Space_f46e85f.png)
 
-6.  Enter a space name and select the roles that you want to assign to your user for this space. To perform the following steps, your user needs at least *Space Developer* authorizations.
+5.  Enter a space name and select the roles that you want to assign to your user for this space. To perform the following steps, your user needs at least *Space Developer* authorizations.
 
-7.  Choose *Create*.
+6.  Choose *Create*.
 
 
 
@@ -135,7 +133,7 @@ To consume the selected service plan, you need to create a service instance in y
     
     ```
 
-8.  Replace `<your-instance-name>` with your instance name.
+8.  Replace `<your-instance-name>` with your instance name that you've created in step 5 of the *Create or Update an Instance* section of this guide.
 
 9.  Choose *Create*.
 

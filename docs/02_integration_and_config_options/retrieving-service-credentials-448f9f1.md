@@ -2,7 +2,9 @@
 
 # Retrieving Service Credentials
 
-To set up the connection between your managed systems and individual SAP Cloud ALM applications, you need to retrieve service credentials and connect your SAP services and systems to your SAP Cloud ALM API instance.
+The connection between individual SAP Cloud applications and your managed systems and/or services is handled via an SAP Cloud ALM API service instance in your SAP Cloud ALM subaccount.
+
+To set up the connection, you need to retrieve the service credentials \(that is, service binding or service key\) from the SAP Cloud ALM API instance.
 
 Depending on the provisioning date of your SAP Cloud ALM tenant, some or all steps described in this document have already been automatically completed for you:
 
@@ -64,11 +66,14 @@ No service credentials have been created as part of the provisioning of your SAP
 </tr>
 </table>
 
--   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "Create a service binding to obtain the access credentials to the service instance of the
-			SAP Cloud ALM API service.")**  
-Create a service binding to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
--   **[Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md "Create a service key to obtain the access credentials to the service instance of the SAP Cloud ALM API service.")**  
-Create a service key to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
+-   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "To set up the connection between SAP Cloud ALM and your managed systems and/or services,
+		you need to create a service binding from the SAP Cloud ALM API
+		instance.")**  
+To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service binding from the SAP Cloud ALM API instance.
+-   **[Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md "To set up the connection between SAP Cloud ALM and your managed systems and/or services,
+		you need to create a service key from the SAP Cloud ALM API
+		instance.")**  
+To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service key from the SAP Cloud ALM API instance.
 -   **[Managing Your Service Credentials](managing-your-service-credentials-87b7851.md "If you requested SAP Cloud ALM on or after June 14, 2023, automatically generated SAP
 		Cloud ALM service credentials was uploaded to the Landscape
 			Management app for you. These credentials can be used to connect managed

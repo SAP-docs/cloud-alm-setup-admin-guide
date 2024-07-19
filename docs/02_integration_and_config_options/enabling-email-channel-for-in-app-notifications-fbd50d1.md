@@ -128,10 +128,7 @@ Open authorization requests exist.
 
 ## Prerequisites
 
--   You operate your own email server that is under your responsibility.
-
--   Your email solution supports basic authentication.
-
+You operate your own email server that is under your responsibility.
 
 
 

@@ -103,9 +103,7 @@ Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/case
 **Related Information**  
 
 
-[SAP Help Portal – Tricentis Test Automation for SAP integrated with SAP Cloud ALM](https://help.sap.com/docs/CloudALM/2b4ce9f491d14691bc554446b57f6e2d/e66fb899e3f6432985061daba26936fc.html)
-
 [Usage Rights for Tricentis Test Automation for SAP](https://support.sap.com/en/alm/usage-rights.html?anchorId=section_138430085)
 
-[Tricentis Test Automation for SAP Cloud ALM: Online Help](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/calm_integration.htm)
+[Tricentis Test Automation for SAP Cloud ALM: Online Help](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/get_started.htm)
 

@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API
 
-Create a service binding to obtain the access credentials to the service instance of the SAP Cloud ALM API service.
+To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service binding from the SAP Cloud ALM API instance.
 
 
 
@@ -35,15 +35,13 @@ An entitlement is your right to provision and consume a resource. In other words
 
 1.  Open the SAP BTP cockpit.
 
-2.  Select the global account that contains your SAP Cloud ALM entitlement, which was created when you requested SAP Cloud ALM.
+2.  Select the global account that contains your SAP Cloud ALM entitlement and open the subaccount that contains your SAP Cloud ALM subscription.
 
-3.  Under *Subaccounts*, select the subaccount that contains your SAP Cloud ALM subscription.
+3.  In the menu, go to *Entitlements*.
 
-4.  In the menu, go to *Entitlements*.
+4.  Choose *Edit* \> *Add Service Plans*.
 
-5.  Choose *Edit* \> *Add Service Plans*.
-
-6.  Add the required service plan as follows:
+5.  Add the required service plan as follows:
 
     1.  Select the entitlement *SAP Cloud ALM API*.
 
@@ -54,7 +52,7 @@ An entitlement is your right to provision and consume a resource. In other words
         ![Select a Service Plan for SAP Cloud ALM APIs](images/Enabling_APIs_-_Add_Service_Plan_f2a4ae2.png)
 
 
-7.  Save.
+6.  Save.
 
 
 
@@ -106,7 +104,7 @@ To consume the selected service plan, you need to create a service instance.
     
     ```
 
-6.  Replace `<your-instance-name>` with your instance name.
+6.  Replace `<your-instance-name>` with your instance name you've created in step 3 of the *Create or Update an Instance* section of this guide.
 
 7.  Choose *Create*.
 

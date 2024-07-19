@@ -2,7 +2,7 @@
 
 # SAP S/4HANA Cloud Private Edition and On-Premise Systems
 
-In this documentation, you can find answers and solutions to the most common problems regarding the setup of SAP S/4HANA Cloud Private Edition and On-Premise Systems in conjunction with SAP Cloud ALM.
+In this documentation, you find answers and solutions to the most common problems regarding the setup of SAP S/4HANA Cloud Private Edition and On-Premise Systems in conjunction with SAP Cloud ALM.
 
 -   **[Issues and Solutions](issues-and-solutions-f32dc37.md "")**  
 

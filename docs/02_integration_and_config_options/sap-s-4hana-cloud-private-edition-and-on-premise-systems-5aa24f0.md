@@ -45,11 +45,15 @@ Currently supported landscapes:
 > 
 > -   Changing delivery routes is partly supported. This means, the transport buffers need to be adjusted manually and removed systems are still reported on in the feature traceability.
 > 
-> -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability.
+> -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability. Also, transport requests created in the deleted systems are still available in the transport assignment.
 > 
-> -   Changing or deleting export targets isn't supported.
+> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature, and *Feature Traceability* app.
 > 
 > -   Switching on or off client-specific transport routes isn't supported.
+> 
+> -   Do not perform any manual transport activities in CTS with transports managed by SAP Cloud ALM, for example imports, buffer manipulations or system copies. There is no self-healing mechanism available in these cases.
+> 
+> -   Virtual systems are currently not supported.
 
 If you need to perform unsupported changes of the transport configuration in the Transport Management System \(TMS\), make sure that all open features and transports are completed and deployed to the production system. Therefore, the transport buffers should be empty.
 
@@ -68,7 +72,7 @@ Before you can start enabling the transport management for SAP S/4HANA Cloud Pri
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 26, install [3421256](https://me.sap.com/notes/3421256) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
+-   For ST-PI 740 SP 26 and SP 27, install [3421256](https://me.sap.com/notes/3421256) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
 -   For ST-PI 740 SP 24 and 25, install [3374186](https://me.sap.com/notes/3374186) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
@@ -240,6 +244,15 @@ The configuration of the push data provider in your in your SAP S/4HANA Cloud Pr
 
     2.  Copy the content of the JSON file \(see [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) if you have to enable the SAP Cloud ALM API or [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md) if you already have a service key\) by choosing *Paste Service Keys* and paste it into the text field popup.
 
+        > ### Note:  
+        > In the popup, you ave to enter the following values in the respective fields:
+        > 
+        > -   If your system is hosted by SAP, please enter the value `proxy` in the *Proxy Host* field. \(If required by your network infrastructure\).
+        > 
+        >     .
+        > 
+        > -   If your system is hosted by SAP, please enter the value 3128 in the*Proxy Port* field \(if required by your network infrastructure\).
+
     3.  Choose *Continue*. The destination is now updated.
 
         A success message appears if the connection was established.
@@ -272,9 +285,18 @@ The configuration of the push data provider in your in your SAP S/4HANA Cloud Pr
 
         It's only necessary to set up on source systems: specifically DEV systems.
 
-    -   For development systems \(working client\): Transports: Create & Export \(client-specific\)
+    -   For development systems \(working client\): Transports: Create & Export \(client-specific\):
 
-        Creates transports, deletes empty transports, releases transports, and manages transport of copies.
+        The use case `Transports: Create & Export (client-specific)` enables following transport-related functions:
+
+        -   Create transports
+
+        -   Create transport of copies
+
+        -   Release transports
+
+        -   Delete empty transports \(during release\)
+
 
     -   For a domain controller system \(client 000\): `Transports: Read Landscape`
 
@@ -456,17 +478,6 @@ The configuration of the push data provider in your in your SAP S/4HANA Cloud Pr
 <a name="loio5aa24f076e3b4b47839f762baa7d089a__section_amq_jvv_k5b"/>
 
 ## Configuration of Client-Dependent Use Cases
-
-The use case `Transports: Create & Export (client-specific)` enables following transport-related functions:
-
--   Create transports
-
--   Create transport of copies
-
--   Release transports
-
--   Delete empty transports \(during release\)
-
 
 
 
