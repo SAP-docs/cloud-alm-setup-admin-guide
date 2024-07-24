@@ -36,16 +36,14 @@ I can't create transports
 
 Go to the managed system:
 
-1.  Check if the service key is missing the following`auth` scopes.
+1.  Check if the service key is missing the following auth scopes.
 
     -   `imp-cdm-feature-manage-ui`
     -   `imp-cdm-feature-display-ui`
 
     If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
 
-2.  Check if the use case Transports: Create & Export \(client-specific\)
-
-    is active in the source tenant \(working client shouldn't be 000\).
+2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source tenant \(working client shouldn't be 000\).
 
 3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source tenant.
 

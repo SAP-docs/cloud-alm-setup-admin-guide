@@ -49,6 +49,9 @@ Learn how to enable the transport management of different transport environments
 -   **[Integrating Test Automation Providers](integrating-test-automation-providers-82b04bb.md "In addition to manual testing, which is performed directly in SAP Cloud ALM, you can
 		also integrate SAP and third-party test automation providers with SAP Cloud ALM.")**  
 In addition to manual testing, which is performed directly in SAP Cloud ALM, you can also integrate SAP and third-party test automation providers with SAP Cloud ALM.
+-   **[Activating Access Control](activating-access-control-4d0162b.md "With access control, you can give users authorization for accessing specific landscape
+		objects (services, systems, and business services).")**  
+With access control, you can give users authorization for accessing specific landscape objects \(services, systems, and business services\).
 -   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "An SAP service is usually delivered as part of a service contract like SAP MaxAttention,
 		SAP ActiveAttention or SAP Enterprise Support.")**  
 An SAP service is usually delivered as part of a service contract like SAP MaxAttention, SAP ActiveAttention or SAP Enterprise Support.

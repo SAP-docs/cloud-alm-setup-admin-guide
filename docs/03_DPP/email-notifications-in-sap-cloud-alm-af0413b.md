@@ -14,8 +14,6 @@ Email notifications for in-app notifications, which are used predominantly for S
 
 Once this email channel is enabled, every user can configure for themselves in their profile settings if and for which notification types they want to receive emails. If users no longer want to receive email notifications, they can adjust their notification settings at any time.
 
-When an email notification is triggered, the email address of the user is transferred to the SAP Alert Notification service for SAP BTP. From there, the email notification is sent via a customer-specific email server.
-
 
 
 <a name="loioaf0413b7e06e4a89b794db6c18210f75__section_d5f_l1c_gzb"/>

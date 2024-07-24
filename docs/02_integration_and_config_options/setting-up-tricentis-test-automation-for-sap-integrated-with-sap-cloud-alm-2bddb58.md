@@ -81,9 +81,12 @@ If you were the one who requested SAP Cloud ALM and you haven't changed any role
 
 The connection between SAP Cloud ALM and Tricentis Test Automation for SAP integrated with SAP Cloud ALM has been established.
 
+The authoring of test cases happens directly in the automation provider, as described in the [Tricentis documentation](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/get_started.htm).
+
 There's no need to create any additional users in your Tricentis tenant. If the users are maintained in the Identity Authentication tenant that was used for the Tricentis provisioning, they are automatically created in test automation tool when they access it for the first time.
 
-The authoring of test cases happens directly in the automation provider, as described in the Tricentis documentation linked below.
+> ### Note:  
+> The [Usage Rights for Tricentis Test Automation for SAP](https://support.sap.com/en/alm/usage-rights.html?anchorId=section_138430085) apply.
 
 
 
@@ -99,11 +102,4 @@ Alternatively, you can create a case in [SAP for Me](https://me.sap.com/app/case
 
 -   For issues with the test automation tool itself, use the component XX-PART-TRI-TTA-CLD.
 
-
-**Related Information**  
-
-
-[Usage Rights for Tricentis Test Automation for SAP](https://support.sap.com/en/alm/usage-rights.html?anchorId=section_138430085)
-
-[Tricentis Test Automation for SAP Cloud ALM: Online Help](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/get_started.htm)
 

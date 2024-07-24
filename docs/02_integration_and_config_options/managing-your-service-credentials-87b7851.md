@@ -4,7 +4,7 @@
 
 # Managing Your Service Credentials
 
-If you requested SAP Cloud ALM on or after June 14, 2023, automatically generated SAP Cloud ALM service credentials was uploaded to the *Landscape Management* app for you. These credentials can be used to connect managed services to push monitoring data using OAuth 2.0.
+If you requested SAP Cloud ALM on or after June 14, 2023, automatically generated SAP Cloud ALM service credentials were uploaded to the *Landscape Management* app for you. These credentials can be used to connect managed services to push monitoring data using OAuth 2.0.
 
 
 

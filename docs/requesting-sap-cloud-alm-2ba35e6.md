@@ -24,7 +24,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 > 
 > Therefore, to avoid authorization issues during the configuration of SAP Cloud ALM, only carry out the following steps if you will later perform the configuration described in [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md).
 > 
-> If you request SAP Cloud ALM and then want to assign additional administrators who can perform the initial setup, refer to KBA [3248116](https://me.sap.com/notes/3248116).
+> If you request SAP Cloud ALM and then want to assign additional administrators who can perform the initial setup, see KBA [3248116](https://me.sap.com/notes/3248116).
 
 
 
@@ -45,13 +45,15 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
     Please note that it's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 
     > ### Note:  
-    > The *Region* drop-down menu on SAP for Me offers a complete list of all data center locations that are currently available for SAP Cloud ALM. To find out which data center locations are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
+    > The *Region* drop-down menu offers a complete list of all data center locations that are currently available for SAP Cloud ALM. To find out which data center locations are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
     > 
-    > If you have more questions about the data centers that are available for SAP Cloud ALM, refer to the related entries under [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb).
+    > If you have more questions about SAP Cloud ALM data centers, see the related entries under [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb).
 
 5.  Enter a unique subdomain name.
 
-    The subdomain name is used for the creation of an SAP Cloud ALM-specific subaccount on SAP BTP. It's also part of the URL that is used to access SAP Cloud ALM, as in `https://<subdomain>.<region>.alm.cloud.sap`. After the system has been provisioned, **the subdomain can't be changed**.
+    The subdomain name is used for the creation of an SAP Cloud ALM-specific subaccount on SAP BTP. It's also part of the URL that is used to access SAP Cloud ALM, as in `https://<subdomain>.<region>.alm.cloud.sap`.
+
+    After the system has been provisioned, **the subdomain can't be changed**.
 
     Please keep the following recommendations and restrictions in mind when choosing a subdomain name:
 
@@ -61,7 +63,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
     -   We strongly recommend using the suffix `-cloudalm` at the end of the subdomain name, for example, `company-cloudalm`.
 
-    -   Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the selected name must not exceed 56 characters.
+    -   Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the name mustn't exceed 56 characters.
 
 
 6.  Specify an SAP Cloud Identity Service:
@@ -81,7 +83,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
         > 
         > -   To simplify the maintenance of administrators in your Identity Authentication tenant, select an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
         > 
-        > -   If your company has specific requirements \(functional or legal\) to not allow users from an SAP Cloud ALM tenant to access an SAP SuccessFactors tenant \(or vice versa\), both applications should use separate Identity Authentication tenants. You can find more SAP SuccessFactors-specific guidance on this topic [here](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html?version=2311#procedure).
+        > -   If your company has functional or legal requirements to not allow users from an SAP Cloud ALM tenant to access an SAP SuccessFactors tenant \(or vice versa\), use separate Identity Authentication tenants. [Learn more](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html?version=2311#procedure).
         > 
         >     If you have no other Identity Authentication tenants available for selection, you can request a new one as described in [Tenant Model and Licensing – Getting an Additional Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud#getting-an-additional-tenant).
 
@@ -118,7 +120,7 @@ When the status is *Provisioning Triggered*, SAP automatically prepares your SAP
         > ### Caution:  
         > You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
         > 
-        > Don't delete this subaccount or your SAP Cloud ALM subscription if you've already started using SAP Cloud ALM productively. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
+        > Don't delete this subaccount or your SAP Cloud ALM subscription if you've already started using SAP Cloud ALM. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
 
 
 -   A mutual trust relationship between SAP Cloud ALM and the selected Identity Authentication tenant is established.
@@ -127,11 +129,9 @@ When the status is *Provisioning Triggered*, SAP automatically prepares your SAP
 
     If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud in the 3-system landscape, see [User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html).
 
--   You receive emails containing logon information, configuration guidance, and links to support resources.
+-   You receive emails containing sign in information, configuration guidance, and links to support resources.
 
--   You're automatically signed up for cloud email notifications. This way, you can remain informed and receive timely updates regarding SAP Cloud ALM.
-
-    You can manage your notification settings in the *Cloud System Notification Subscriptions* app, as described in KBA [2900069](https://me.sap.com/notes/2900069).
+-   You're automatically signed up for cloud email notifications. This way, you can stay informed and receive timely updates for SAP Cloud ALM. You can manage your notification settings in the *Cloud System Notification Subscriptions* app, as described in KBA [2900069](https://me.sap.com/notes/2900069).
 
 
 

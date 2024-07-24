@@ -22,7 +22,7 @@ If you need support, take a look at the following resources:
 
 
 > ### Caution:  
-> It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
+> It's currently not possible to move your SAP Cloud ALM application from its original data center to a different data center. For more information, see [Lifecycle Management of Your SAP Cloud ALM Tenant](../troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb).
 
 
 
@@ -99,10 +99,9 @@ SAP Cloud ALM
 </td>
 <td valign="top">
 
--   *Global Administrator* or *User Administrator*
+*Global Administrator* or *User Administrator*
 
-
-If you don't have these authorization, the *Global Administrator* can assign one of the required roles to you by following the steps described in [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html).
+If you don't have this authorization, the *Global Administrator* can assign the roles to you by following [Assign Roles to Users in SAP Cloud ALM](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7304b17f3aac4ebaa24c5c6a3a8e236e.html).
 
 </td>
 </tr>
@@ -120,8 +119,10 @@ If you don't have these authorization, the *Global Administrator* can assign one
 							(if required) set up landscape management.](images/Image_Map_Required_Setup_for_SAP_Cloud_ALM_d4f9ce5.png)
 
 -   **[Step 1: Onboard Users in the Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md "To give further users access to SAP Cloud ALM, you need to create or import users in
-		your Identity Authentication tenant.")**  
-To give further users access to SAP Cloud ALM, you need to create or import users in your Identity Authentication tenant.
+		your Identity Authentication tenant. For users to be able to sign in to SAP Cloud ALM, they
+		need to be maintained both in the Identity Authentication tenant and in SAP Cloud
+		ALM.")**  
+To give further users access to SAP Cloud ALM, you need to create or import users in your Identity Authentication tenant. For users to be able to sign in to SAP Cloud ALM, they need to be maintained both in the Identity Authentication tenant and in SAP Cloud ALM.
 -   **[Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md "After onboarding your users to your Identity Authentication tenant, you need to add them
 		to SAP Cloud ALM and assign roles to them.")**  
 After onboarding your users to your Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.

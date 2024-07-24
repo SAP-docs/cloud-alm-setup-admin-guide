@@ -9,9 +9,12 @@ Enable the transport management with Adaptation Transport Organizer.
 By enabling the transport management for SAP S/4HANA Cloud Public Edition with the Adaptation Transport Organizer \(ATO\), you can keep track of the deployment of transport requests through your implementation landscape.
 
 > ### Note:  
-> Only released transports can be assigned to features. For more information please check the following documentation: [https://help.sap.com/docs/cloud-alm/applicationhelp/integration-of-deployment-tools](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-of-deployment-tools)
+> Only released transports can be assigned to features. For more information, see [Integration of Deployment Tools](https://help.sap.com/docs/cloud-alm/applicationhelp/deployment-tool-integration).
 
-In order to use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the ATO.
+To use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the ATO.
+
+> ### Note:  
+> Only transports exported after you established the connection of your SAP S/4HANA Cloud development and customizing system to SAP Cloud ALM are pushed to SAP Cloud ALM. Currently, there is no historic data available.
 
 
 
@@ -19,7 +22,7 @@ In order to use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM
 
 ## Procedure
 
-1.  Retrieve *SAP Cloud ALM API* credentials as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
+1.  Retrieve your *SAP Cloud ALM API* credentials as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
     Depending on the provisioning date of your SAP Cloud ALM tenant, the creation and configuration of your entitlements in the subaccount containing your SAP Cloud ALM subscription is generated automatically or has to be adjusted manually. See [Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md).
 
@@ -89,7 +92,7 @@ In order to use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM
     </table>
     
     > ### Note:  
-    > If you want to enable the **SAP Cloud ALM API** in a Cloud Foundry environment, please refer to the following guide [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md) . Please note that this not the recommended approach anymore.
+    > If you want to enable the **SAP Cloud ALM API** in a Cloud Foundry environment, please refer to the following guide [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md). Note that this not the recommended approach anymore.
 
     > ### Note:  
     > For background information about communication systems in SAP S/4HANA Cloud context, please have a look at [Communication Management](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/2e84a10c430645a88bdbfaaa23ac9ff7.html?locale=en-US) 

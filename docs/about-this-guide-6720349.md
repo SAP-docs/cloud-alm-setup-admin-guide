@@ -4,9 +4,9 @@
 
 # About This Guide
 
-
-
 SAP Cloud ALM is a cloud-based application lifecycle management offering that allows you to implement and operate your cloud solutions.
+
+
 
 This guide describes the steps you need to perform to set up, configure, and administer SAP Cloud ALM, and provides important information about data protection and privacy and security topics. The guide addresses system administrators and key users as a target audience.
 

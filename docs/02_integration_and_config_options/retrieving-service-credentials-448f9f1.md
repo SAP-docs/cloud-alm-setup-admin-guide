@@ -75,8 +75,8 @@ To set up the connection between SAP Cloud ALM and your managed systems and/or s
 		instance.")**  
 To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service key from the SAP Cloud ALM API instance.
 -   **[Managing Your Service Credentials](managing-your-service-credentials-87b7851.md "If you requested SAP Cloud ALM on or after June 14, 2023, automatically generated SAP
-		Cloud ALM service credentials was uploaded to the Landscape
+		Cloud ALM service credentials were uploaded to the Landscape
 			Management app for you. These credentials can be used to connect managed
 		services to push monitoring data using OAuth 2.0.")**  
-If you requested SAP Cloud ALM on or after June 14, 2023, automatically generated SAP Cloud ALM service credentials was uploaded to the *Landscape Management* app for you. These credentials can be used to connect managed services to push monitoring data using OAuth 2.0.
+If you requested SAP Cloud ALM on or after June 14, 2023, automatically generated SAP Cloud ALM service credentials were uploaded to the *Landscape Management* app for you. These credentials can be used to connect managed services to push monitoring data using OAuth 2.0.
 

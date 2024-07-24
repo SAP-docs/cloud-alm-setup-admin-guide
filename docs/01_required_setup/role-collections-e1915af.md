@@ -225,12 +225,12 @@ Landscape Management
 </td>
 <td valign="top">
 
-*Landscape Management Security Administrator* 
+*Landscape Security Administrator* 
 
 </td>
 <td valign="top">
 
-Manage certificates
+Manage certificates and service keys, view landscape objects
 
 </td>
 <td valign="top">
@@ -241,6 +241,141 @@ Manage certificates
 <td valign="top">
 
 `x_landscape_SecurityAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+*Landscape Security Viewer* 
+
+</td>
+<td valign="top">
+
+View and download certificates and service keys, view landscape objects
+
+</td>
+<td valign="top">
+
+*Landscape Management Security Viewer* 
+
+</td>
+<td valign="top">
+
+`x_landscape_SecurityViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+*Landscape Access Controller* 
+
+</td>
+<td valign="top">
+
+View landscape objects \(subject to access control\) and manage access control
+
+</td>
+<td valign="top">
+
+*Landscape Management Access Controller* 
+
+</td>
+<td valign="top">
+
+`x_landscape_AccessController` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+*Landscape Access Viewer* 
+
+</td>
+<td valign="top">
+
+View landscape objects and view access control
+
+</td>
+<td valign="top">
+
+*Landscape Management Access Viewer* 
+
+</td>
+<td valign="top">
+
+`x_landscape_AccessViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+*Landscape Administrator* 
+
+</td>
+<td valign="top">
+
+Create and manage landscape objects
+
+</td>
+<td valign="top">
+
+*Landscape Management Administrator* 
+
+</td>
+<td valign="top">
+
+`x_landscape_Administrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+*Landscape Viewer* 
+
+</td>
+<td valign="top">
+
+Display landscape objects
+
+</td>
+<td valign="top">
+
+*Landscape Management Viewer*
+
+</td>
+<td valign="top">
+
+`x_landscape_Viewer` 
 
 </td>
 </tr>

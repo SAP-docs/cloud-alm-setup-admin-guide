@@ -74,9 +74,7 @@ Process Management
 </td>
 <td valign="top">
 
--   [SAP Best Practices for SAP S/4HANA Cloud Public Edition](https://rapid.sap.com/bp/BP_CLD_ENTPR)
-
--   [Two-Tier ERP](https://me.sap.com/processnavigator/SolS/EARL_SolS-067)
+-   [SAP Best Practices for SAP S/4HANA Cloud Public Edition](https://rapid.sap.com/bp/BP_CLD_ENTPR) \(including support for Two-Tier ERP\)
 
 -   [SAP Best Practices for analytics with SAP S/4HANA Cloud](https://rapid.sap.com/bp/BP_S4H_ANA)
 
@@ -1268,29 +1266,6 @@ More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0
 <tr>
 <td valign="top">
 
-SAP Analytics Cloud 
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Change and Deployment Management
-
-</td>
-<td valign="top">
-
-More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
-
-</td>
-</tr>
-
-<tr>
-<td valign="top">
-
 SAP S/4HANA Cloud Public Edition 
 
 </td>
@@ -1398,30 +1373,6 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 </td>
 </tr>
-
-<tr>
-<td valign="top">
-
-SAP Batch Release Hub for Life Sciences
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Change and Deployment Management
-
-</td>
-<td valign="top">
-
-More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
-
-</td>
-</tr>
-
 <tr>
 <td valign="top">
 
@@ -1488,11 +1439,12 @@ Change and Deployment Management
 </td>
 <td valign="top">
 
+Mainly development content and some selected services
+
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
 
 </td>
 </tr>
-
 <tr>
 <td valign="top">
 
@@ -1541,34 +1493,10 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 </td>
 </tr>
-
 <tr>
 <td valign="top">
 
-SAP BW/4HANA
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Change and Deployment Management
-
-</td>
-<td valign="top">
-
-More under [BW4HANA transports]([https://help.sap.com/docs/SAP_BW4HANA/107a6e8a38b74ede94c833ca3b7b6f51/4a793a3d57e572dde10000000a42189b.html]).
-
-</td>
-</tr>
-
-<tr>
-<td valign="top">
-
-Datasphere
+SAP Analytics Cloud 
 
 </td>
 <td valign="top">
@@ -1587,7 +1515,28 @@ More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEM
 
 </td>
 </tr>
+<tr>
+<td valign="top">
 
+SAP Batch Release Hub for Life Sciences 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
+
+</td>
+</tr>
 <tr>
 <td valign="top">
 
@@ -1606,13 +1555,76 @@ Change and Deployment Management
 </td>
 <td valign="top">
 
-Application content
-
 More under [Supported Content Types](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/8961dcb3edc84a76b84b29565833067b.html).
 
 </td>
 </tr>
+<tr>
+<td valign="top">
 
+SAP BW/4HANA 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Datasphere 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integrated Business Planning for Supply Chain \(SAP IBP\) 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change and Deployment Management
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
 <tr>
 <td valign="top">
 
@@ -1962,7 +1974,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud for projects, resource management 
+SAP Project and Resource Management, resource management capability 
 
 </td>
 <td valign="top">
@@ -3679,6 +3691,28 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <td valign="top">
 
 SAP Business Suite
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Job and Automation Monitoring
+
+</td>
+<td valign="top">
+
+More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Identity Services – Identity Provisioning
 
 </td>
 <td valign="top">

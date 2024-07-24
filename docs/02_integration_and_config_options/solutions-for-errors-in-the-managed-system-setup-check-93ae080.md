@@ -4,7 +4,7 @@
 
 **Managed System Setup Check Report**
 
-In the list below, you can find messages that can appear in the managed system during the Managed System Setup Check. This includes both confirmation information and error messages. In the second column *Message Explanation*, you can find more information about the message. In case of error messages, you can find information about how to resolve the errors.
+In the list below, you find messages that can appear in the managed system during the Managed System Setup Check. This includes both confirmation information and error messages. In the second column *Message Explanation*, you can find more information about the message. In case of error messages, you can find information about how to resolve the errors.
 
 
 
@@ -633,7 +633,7 @@ Message Explanation
 </td>
 <td valign="top">
 
-Information message. For background information, consult [1413011](https://me.sap.com/notes/1413011).
+Information message. For background information, see SAP Note [1413011](https://me.sap.com/notes/1413011).
 
 </td>
 </tr>
@@ -645,7 +645,7 @@ Information message. For background information, consult [1413011](https://me.sa
 </td>
 <td valign="top">
 
-Information message. For background information, consult [1413011](https://me.sap.com/notes/1413011) .
+Information message. For background information, see SAP Note [1413011](https://me.sap.com/notes/1413011) .
 
 </td>
 </tr>
@@ -657,7 +657,9 @@ Information message. For background information, consult [1413011](https://me.sa
 </td>
 <td valign="top">
 
-Consult the following SAP Note for information to resolve the issue [1413011](https://me.sap.com/notes/1413011).
+Ensure that every user who wants to navigate from CALM to a transport request has the necessary authorization in the respective client of the managed system. Usually, this is not necessary for client 000, as it is not recommended to create transports in this client.
+
+For more information, see SAP Note [1413011](https://me.sap.com/notes/1413011).
 
 </td>
 </tr>
@@ -669,7 +671,7 @@ Consult the following SAP Note for information to resolve the issue [1413011](ht
 </td>
 <td valign="top">
 
-Information message. For background information, consult [1413011](https://me.sap.com/notes/1413011).
+Information message. For background information, see SAP Note [1413011](https://me.sap.com/notes/1413011).
 
 </td>
 </tr>
