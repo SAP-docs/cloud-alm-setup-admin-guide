@@ -12,7 +12,7 @@ In the list below, you find messages that can appear in the managed system durin
 
 ## Batch Job Check
 
-The batch job check that a job for the program `/SDF/CALM_SCHEDULER` is scheduled.
+The batch job check, checks if a job for the program `/SDF/CALM_SCHEDULER` is scheduled.
 
 The `/SDF/CALM_SCHEDULER` program is the central scheduling mechanism for all active use cases. The frequency of the scheduling determines the overall interval between the use-case executions.
 
@@ -188,7 +188,7 @@ No immediate solution is available. Search for similar issues with the SAP4Me he
 
 ## Certificate Check
 
-For the connection to SAP Cloud ALM, the certificates must be installed into the system. See [Setup S-Trust](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html).
+For the connection to SAP Cloud ALM, the certificates must be installed on the system. See [Setup S-Trust](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html).
 
 **Certificate Check**
 
@@ -305,9 +305,9 @@ See common connection problems above the table.
 
 ## Lock Check \(SM12\)
 
-Certain locks might prevent use-case processing. For example, a lock is still present even though use-case execution is paused.
+Some locks might prevent use-case processing. For example, a lock is still present even though use-case execution is paused.
 
-For more information, see [43614](https://me.sap.com/notes/43614).
+For more information, see SAP Note [43614](https://me.sap.com/notes/43614).
 
 **Lock Check \(SM12\)**
 
@@ -381,7 +381,7 @@ No immediate solution is available. Search for similar issues with the SAP4Me he
 
 ## Note Implementation
 
-Check the latest version of the SAP Cloud ALM CDM master note [3425282](https://me.sap.com/notes/3425282) is implemented.
+Check if the latest version of the SAP Cloud ALM CDM master note [3425282](https://me.sap.com/notes/3425282) is implemented.
 
 **Note Implementation**
 
@@ -457,7 +457,7 @@ No immediate solution is available. Search for similar issues with the SAP4Me he
 
 The Cloud API Key or binding wasn't set up with the necessary scopes. If you're unsure about if you performed these steps correctly, create a new dedicated API instance according to the documentation you can find in [**Enabling SAP Cloud ALM API**](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-sap-cloud-alm-api?locale=en-US).
 
-After you've performed the setup correctly, repeat the setup with the new API key. If this doesn't work either, please consult
+After you've performed the setup correctly, repeat the setup with the new API key.
 
 **Token Scopes Check**
 
@@ -531,7 +531,7 @@ Confirmation message. No action is needed.
 
 ## Solution Tools Plug-In \(ST-PI\)
 
-We recommend to regularly install a recent version of the ST-PI plugin instead of various master page notes. See also [539977](https://me.sap.com/notes/539977). Also, refer to the following guide [**Technical Prerequisites**.](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system?locale=en-US#technical-prerequisites)
+We recommend to regularly install a recent version of the ST-PI plugin instead of various master page notes. See also SAP Note [539977](https://me.sap.com/notes/539977). Also, see the following guide [**Technical Prerequisites**.](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system?locale=en-US#technical-prerequisites)
 
 **Solution Tools Plug-In \(ST-PI\)**
 
@@ -605,7 +605,7 @@ No immediate solution is available. Search for similar issues with the SAP4Me he
 
 ## Web Dynpro Check
 
-This check whether the new `S_START` check is active for the `CTS_ORGANIZER` *Web Dynpro* app.
+This checks whether the new `S_START` check is active for the `CTS_ORGANIZER` *Web Dynpro* app.
 
 To display transports `S_TRANSPRT` display authorization must be assigned to the users.
 
@@ -707,7 +707,12 @@ Follow the information in [**Authorizations for Transport Organizer Web UI \(CTS
 
 ## Change and Transport System \(CTS\) Check
 
-We check the Change and Transport System for basic functionality. For more detailed information, refer to transaction `STMS`. We recommend enabling `CTC`.
+SAP Cloud ALM checks the Change and Transport System for basic functionality.
+
+> ### Note:  
+> Make sure that you've setup CTC=1. For more information, see [Configuring your Transport Management System \(TMS\) on the Managed Systems](configuring-your-transport-management-system-tms-on-the-managed-systems-a9ae2e3.md).
+
+For more information, see [Transport Management System \(BC-CTS-TMS\)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/4a368c163b08418890a406d413933ba7/44b4a0137acc11d1899e0000e829fbbd.html?version=202110.latest)
 
 **Change and Transport System \(CTS\) System Check**
 

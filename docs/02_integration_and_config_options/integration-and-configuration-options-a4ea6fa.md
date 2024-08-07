@@ -31,9 +31,9 @@ You can enable the email channel for the in-app notifications that are sent by S
 In many SAP Cloud ALM apps, users can save common filter and table settings as personal views. To allow them to also create public views, which can be used by all users within your SAP Cloud ALM tenant, you need to create a custom role collection and assign it to them.
 -   **[Integrating SAP Central Business Configuration](integrating-sap-central-business-configuration-e21f915.md "By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import
 		roadmap content into the Tasks app. This helps you understand the
-		order in which the tasks need to be executed, and allows you to navigate directly to SAP
-		Central Business Configuration as needed.")**  
-By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be executed, and allows you to navigate directly to SAP Central Business Configuration as needed.
+		order in which the tasks need to be executed, and lets you navigate directly to SAP Central
+		Business Configuration as needed.")**  
+By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be executed, and lets you navigate directly to SAP Central Business Configuration as needed.
 -   **[Configuring Project User Permissions](configuring-project-user-permissions-a2c0029.md "Project user authorizations are defined by the project access levels, the roles users
 		are assigned to in the user management, and the roles users are assigned to in project
 		management.")**  

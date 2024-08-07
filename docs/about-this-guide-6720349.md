@@ -20,7 +20,7 @@ This guide describes the steps you need to perform to set up, configure, and adm
 > -   *Edit document* \(English version only\): Contribute to a documentation page via pull request on GitHub. To create a pull request, you need to sign in to your GitHub account.
 > 
 > 
-> This allows you to get in contact with the technical authors responsible for the SAP Help Portal page to discuss documentation-related issues.
+> This lets you get in contact with the technical authors responsible for the SAP Help Portal page to discuss documentation-related issues.
 > 
 > For more information about feedback channels on GitHub, refer to the blog post [Introducing the Open Documentation Initiative](https://blogs.sap.com/2021/05/20/introducing-the-open-documentation-initiative/).
 

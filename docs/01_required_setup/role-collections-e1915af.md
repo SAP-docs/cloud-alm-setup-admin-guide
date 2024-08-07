@@ -225,6 +225,33 @@ Landscape Management
 </td>
 <td valign="top">
 
+*Landscape Management Security Administrator* 
+
+</td>
+<td valign="top">
+
+Manage certificates
+
+</td>
+<td valign="top">
+
+*Landscape Management Security Administrator* 
+
+</td>
+<td valign="top">
+
+`x_landscape_SecurityAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
 *Landscape Security Administrator* 
 
 </td>

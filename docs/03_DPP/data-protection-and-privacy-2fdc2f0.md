@@ -25,9 +25,8 @@ NS2 access, which restricts the processing of personal data to the USA, isn’t 
 
 For more information, refer to [SAP Business Technology Platform – Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions?version=Cloud#eu-access).
 
--   **[User Data from SAP Cloud ALM](user-data-from-sap-cloud-alm-65c98de.md "To support users in their job, the following types of personal data are stored in SAP
-		Cloud ALM: ")**  
-To support users in their job, the following types of personal data are stored in SAP Cloud ALM:
+-   **[User Data from SAP Cloud ALM](user-data-from-sap-cloud-alm-65c98de.md "The following types of personal data are stored in SAP Cloud ALM: ")**  
+The following types of personal data are stored in SAP Cloud ALM:
 -   **[User Data from Managed Systems](user-data-from-managed-systems-3ef5218.md "If you've set up integrations with other SAP solutions or third-party applications, some
 		user-related data from the managed systems may be stored in SAP Cloud ALM.")**  
 If you've set up integrations with other SAP solutions or third-party applications, some user-related data from the managed systems may be stored in SAP Cloud ALM.

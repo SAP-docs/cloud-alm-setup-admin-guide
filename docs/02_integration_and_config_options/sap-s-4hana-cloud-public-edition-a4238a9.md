@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# **SAP S/4HANA Cloud Public Edition**
+# SAP S/4HANA Cloud Public Edition
 
 Enable the transport management with Adaptation Transport Organizer.
 

@@ -70,6 +70,8 @@ If you were the one who requested SAP Cloud ALM and you haven't changed any role
     -   Configuration of the endpoint for the test automation
 
 
+    If any of these steps fail, please check again if you fulfill the [prerequisites](setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md#loio2bddb584d07d4833b7e33454c3c4a79d__section_wqn_kt5_4wb) outlined above.
+
 7.  Set up Tricentis execution agents for remote execution, as described in [Set up team agents](https://documentation.tricentis.com/sap/tta_cloud_es/en/content/admin_guide/agents_team.htm).
 
 

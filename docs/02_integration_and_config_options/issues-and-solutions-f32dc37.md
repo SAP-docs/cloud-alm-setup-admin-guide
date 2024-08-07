@@ -8,7 +8,7 @@
 
 ## Issues and Solutions
 
-In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA On-Premise, SAP S/4HANA Cloud, private edition, and SAP Business Suite or SAP NetWeaver Application Server for ABAP on-premise.
+In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA on-premise, SAP S/4HANA Cloud Private Edition, and SAP Business Suite or SAP NetWeaver Application Server for ABAP on-premise.
 
 ****
 
@@ -137,9 +137,7 @@ Go to the managed system:
 
 1.  Check if the service key is missing auth scopes.
 
-2.  Check if the use case Transports: Read Transports
-
-    is active in development client 000.
+2.  Check if the use case Transports: Read Transports is active in development client 000.
 
 
 

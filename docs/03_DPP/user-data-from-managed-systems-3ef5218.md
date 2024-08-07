@@ -40,5 +40,5 @@ Within standard memory usage, this user-related monitoring data is considered tr
 
 ## More Information
 
-For a full list of SAP Cloud ALM applications collecting personal and/or business data, refer to KBA [3429058](https://me.sap.com/notes/3429058).
+For a full list of SAP Cloud ALM applications collecting personal data, refer to KBA [3429058](https://me.sap.com/notes/3429058).
 

@@ -29,7 +29,7 @@ For more information on how services and systems are connected to SAP Cloud ALM,
 -   [Systems](systems-d9d672a.md)
 
 
-**You have full control which data from managed services and systems is transferred to SAP Cloud ALM:**
+You have full control which data from managed services and systems is transferred to SAP Cloud ALM:
 
 When you activate your SAP Cloud ALM tenant and register your systems and services in the *Landscape Management* app of SAP Cloud ALM, the collection of observability data is not started automatically. SAP Cloud ALM follows a central configuration approach: You need to explicitly configure the data collection processes.
 
