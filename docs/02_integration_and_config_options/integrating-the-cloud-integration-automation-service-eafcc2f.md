@@ -4,7 +4,7 @@
 
 # Integrating the Cloud Integration Automation Service
 
-The Cloud Integration Automation service provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
+The Cloud Integration Automation service \(CIAS\) provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
 
 
 

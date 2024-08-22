@@ -8,21 +8,19 @@ Learn how to configure your SAP Cloud ALM deployment scenario for CTS integratio
 
 When you enable the transport management for SAP S/4HANA Cloud Private Edition and SAP NetWeaver Application Server for ABAP on-premise, you can orchestrate the deployment of transport requests through your implementation landscape.
 
-SAP NetWeaver Application Server for ABAP \(7.40 or higher\) can be an SAP S/4HANA on-premise system, a SAP S/4HANA Cloud Private Edition, and an ECC system, where SAP Cloud ALM integrates with the Change and Transport System \(CTS\).
+SAP NetWeaver Application Server for ABAP \(7.40 or higher\) can be an SAP S/4HANA on-premise system, an SAP S/4HANA Cloud Private Edition, and an ECC system, where SAP Cloud ALM integrates with the Change and Transport System \(CTS\).
 
 To use the Change and Transport System \(CTS\) for SAP S/4HANA Cloud Private Edition and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the CTS.
 
 > ### Note:  
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner. For more information, see SAP Note [3429058](https://me.sap.com/notes/3429058).
 
-Currently supported landscapes:
+Currently any kind of consistent Transport Management System \(TMS\) landscape is supported. The last system in a track is always treated as a production system.
 
--   Any kind of consistent Transport Management System \(TMS\) landscape. The last system in a track is always treated as a production system.
-
--   Client-specific transport routes \(TMS option CTC\) are recommended.
-
--   TMS transport groups are supported.
-
+> ### Note:  
+> Client-specific transport routes \(TMS option CTC\) are recommended.
+> 
+> TMS transport groups are supported.
 
 > ### Caution:  
 > If you want to implement landscape changes, please note the following:
@@ -45,14 +43,14 @@ Currently supported landscapes:
 
 The following steps show you how to create a test landscape to try out the SAP Cloud ALM Deployment Management scenario without interfering with the productive TMS landscapes. You can also follow the steps to create your productive landscape. For this, you just have to use your systems instead of the described test systems.
 
-1.  Configuration of your Transport Management System \(TMS\) on the Managed Systems. For more information, see [Configuring your Transport Management System \(TMS\) on the Managed Systems](configuring-your-transport-management-system-tms-on-the-managed-systems-a9ae2e3.md).
+1.  [Configuring your Transport Management System \(TMS\) on the Managed Systems](configuring-your-transport-management-system-tms-on-the-managed-systems-a9ae2e3.md).
 
-2.  Getting the Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance. For more information, see [Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance](service-key-binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md).
+2.  [Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance](service-key-binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md).
 
-3.  Setup on the Managed Systems. For more information, see [Setting up the Managed Systems](setting-up-the-managed-systems-21e0843.md).
+3.  [Setting up the Managed Systems](setting-up-the-managed-systems-21e0843.md).
 
 
-When you finished the steps above, you can start with the setup in the SAP Cloud ALM apps. First, you have to create a project in the *Projects and Setup* app, for this see [Projects and Setup](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/6dd14269bc6e48ec81875f38d920ea6e.html "In the Projects and Setup app, you can manage your projects in SAP Cloud ALM.") :arrow_upper_right:. Then, you can create a feature in the *Features* app to document changes and manage the deployment to your system. For more information, see [Features](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/1a6c29ffb3f74f0789d4bb76081eb834.html "Document changes and manage the deployment to your productive system.") :arrow_upper_right:.
+When you finished the steps above, you can start with the setup in the SAP Cloud ALM apps. First, you have to create a project in the *Projects and Setup* app, for this see [Projects and Setup](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/6dd14269bc6e48ec81875f38d920ea6e.html "In the Projects and Setup app, you can manage your projects in SAP Cloud ALM.") :arrow_upper_right:. Then, you can create a feature in the *Features* app to document changes and manage the deployment to your system. For more information, see [Features](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/1a6c29ffb3f74f0789d4bb76081eb834.html "The Features app allows you to deploy transports assigned to a feature across your system landscape. It also helps you document changes for audit purposes.") :arrow_upper_right:.
 
 For in-depth information on the workflow of implementation in SAP Cloud ALM, see [SAP Cloud ALM for Implementation](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal.html).
 

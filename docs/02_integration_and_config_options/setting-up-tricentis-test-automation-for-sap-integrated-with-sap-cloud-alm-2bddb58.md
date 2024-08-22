@@ -27,11 +27,11 @@ Before you can start your automated testing activities, a Tricentis tenant needs
 -   You're using an Identity Authentication tenant as your identity provider and you haven't changed the hierarchy of the SAP Cloud ALM application within it.
 
     > ### Note:  
-    > The Tricentis provisioning currently doesn't support default identity providers \(`sap.default`\). If you've assigned a default identity provider to your SAP Cloud ALM subaccount **in addition to** an Identity Authentication tenant, the Identity Authentication tenant is automatically selected for your Tricentis tenant during the provisioning.
+    > The automated Tricentis provisioning currently doesn't support default identity providers \(`sap.default`\). If you've assigned a default identity provider to your SAP Cloud ALM subaccount **in addition to** an Identity Authentication tenant, the Identity Authentication tenant is automatically selected for your Tricentis tenant during the provisioning.
     > 
     > If you've connected multiple Identity Authentication tenants, configurations with *OpenID Connect* are chosen over *SAML*.
     > 
-    > If all of your connected Identity Authentication tenants are based on the same identity protocol or if you're using a completely different identity provider setup, please open an incident under component SV-CLM-IMP-TAT with the subject *"Request manual provisioning of Tricentis test automation for SAP tenant"* after you've accepted the terms and conditions. In the incident description, provide the URL of your SAP Cloud ALM tenant along with information about your identity provider and/or application hierarchy setup.
+    > If all of your connected Identity Authentication tenants are based on the same identity protocol, if you're using a `sap.default` identity provider, or if you're using a completely different identity provider setup, please open an incident under component SV-CLM-IMP-TAT with the subject *"Request manual provisioning of Tricentis test automation for SAP tenant"* after you've accepted the terms and conditions. In the incident description, provide the URL of your SAP Cloud ALM tenant along with information about your identity provider and/or application hierarchy setup.
     > 
     > **Tip**: You can check the identity providers that are assigned to your SAP Cloud ALM subaccount in the SAP BTP cockpit by choosing *Security* \> *Trust Configuration*.
 

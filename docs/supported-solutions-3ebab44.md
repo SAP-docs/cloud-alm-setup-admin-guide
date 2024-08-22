@@ -475,11 +475,15 @@ Task templates:
 
 -   [SAP Activate for SAP S/4HANA Cloud Public Edition \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/82b2db84548d41209cda972f0fac428b) – Implementation
 
--   [SAP Activate for Upgrade of SAP S/4HANA Cloud Public Edition, three-system landscape](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/b6cc8dc5bbb749a59e1e21a4796c796f) – Upgrade
+-   [SAP Activate for Upgrade of SAP S/4HANA Cloud Public Edition, 3-system landscape](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/b6cc8dc5bbb749a59e1e21a4796c796f) – Upgrade
 
 -   [Baseline Activation Service for SAP S/4HANA Cloud \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/d9ffcd6438ab4ee9a02bfcf682502892)
 
+-   [SAP Activate for SAP S/4HANA Cloud Public Edition \(3-system landscape\) - Early Adopters](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/0894b61141a74a65b8da92db32685da5)
+
 -   [SAP Activate for SAP S/4HANA Cloud Public Edition \(2-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) – Implementation
+
+-   [SAP Activate for Conversion of SAP S/4HANA Cloud Public Edition 2-system to 3-system landscape](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/91d1bd3eb586432699e2a9912e8b708f)
 
 
 
@@ -508,9 +512,11 @@ Task templates:
 
 -   [SAP Activate Methodology for Transition to SAP S/4HANA](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/S4HANATRANSONPRE) 
 
--   [SAP Activate Methodology for SAP S/4HANA Cloud Private Edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – New Implementation, System Conversion, and Selective Data Transition
+-   [SAP Activate Methodology for RISE with SAP S/4HANA Cloud Private Edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – New Implementation, System Conversion, and Selective Data Transition
 
 -   [SAP Activate Methodology for SAP S/4HANA Upgrades](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/MATS4HANA) – Technical Upgrade and Upgrade and Product Integration
+
+-   [SAP Activate methodology for S/4HANA Central Finance](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/S4HANACFIN)
 
 
 
@@ -623,7 +629,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Ariba and SAP Fieldglass](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHSAPARIBA) – Implementation 
+Task template: [SAP Activate Methodology for SAP Ariba](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHSAPARIBA) – Implementation 
 
 </td>
 </tr>
@@ -645,7 +651,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Ariba and SAP Fieldglass](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHSAPARIBA) – Implementation 
+Task template: [SAP Activate Methodology for SAP Fieldglass](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/68834e2da72e4404b1efc4d0f533eb32) – Implementation 
 
 </td>
 </tr>
@@ -1004,6 +1010,28 @@ More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee
 <tr>
 <td valign="top">
 
+SAP standard content activation service 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Requirement Management
+
+</td>
+<td valign="top">
+
+More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Fieldglass 
 
 </td>
@@ -1247,6 +1275,28 @@ More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0
 <td valign="top">
 
 SAP Ariba 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Document Management
+
+</td>
+<td valign="top">
+
+More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP standard content activation service
 
 </td>
 <td valign="top">
@@ -1950,6 +2000,33 @@ More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b
 <td valign="top">
 
 SAP Marketing Cloud 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Test Management
+
+</td>
+<td valign="top">
+
+-   Manual testing
+
+-   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
+
+
+More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP standard content activation service 
 
 </td>
 <td valign="top">

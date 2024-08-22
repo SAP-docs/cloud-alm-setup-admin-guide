@@ -14,9 +14,7 @@ The *Features* app reads important information about the system landscape such a
 
 In most cases, you're using the SAP Cloud ALM Deployment Management scenario to manage changes in the following system landscapes: *DEV:100* \> *QUA:200* \> *PRD:300*.
 
-For more information about the Change and Transport System in an ABAP environment, see [Change and Transport System](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c.html?locale=en-US).
-
-For more information about the configuration of transport routes, see [Configuring Transport Routes](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/44b4a1df7acc11d1899e0000e829fbbd-239.html?locale=en-US).
+For additional information, see [Change and Transport System](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c.html?locale=en-US) and [Configuring Transport Routes](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/44b4a1df7acc11d1899e0000e829fbbd-239.html?locale=en-US)
 
 
 
@@ -31,23 +29,23 @@ First, make sure that you've set the correct parameters in the ABAP system at TM
 ![](images/abap-parameters_8131f4b.png)
 
 > ### Note:  
-> If you would like to import into different systems and clients other than the export system and client you need to activate the Extended Transport Control, which means that CTC=1. For more information about this, see [Extended Transport Control](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html).
+> If you would like to import into different systems and clients other than the export system and client you need to activate the Extended Transport Control, which means that `CTC`=1. For more information about this, see [Extended Transport Control](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html).
 
 > ### Tip:  
-> We strongly recommend using always client-dependent transport routes \(TMS option CTC\) from the very beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes at a later point in time is a complete landscape change that isn't supported while there are still transports open.
+> We strongly recommend using always client-dependent transport routes \(TMS option `CTC`\) from the very beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes at a later point in time is a complete landscape change that isn't supported while there are still transports open.
 > 
 > We strongly recommend using a transport target group as a consolidation target. By using the transport target group, you can always change your consolidation systems by just changing the systems within the consolidation target group while technically the consolidation target \(which is the consolation target group\) stays stable.
 > 
 > ![](images/System_Landscape_22cfc8a.png)
 
 > ### Note:  
-> If released transport requests pointing to a target system without a client, as CTC was not set to 1, and then you add CTC=1 afterwards and rebuild your transport track using clients in the feature for the transport request, the target tenant will be empty and the deployment could not be triggered.
+> If released transport requests pointing to a target system without a client, as `CTC` was not set to 1, and then you add `CTC`=1 afterwards and rebuild your transport track using clients in the feature for the transport request, the target tenant will be empty and the deployment could not be triggered.
 > 
 > Unfortunately, the target tenant for the transport requests released before the TMS configuration change can't be derived on SAP Cloud ALM end.
 > 
 > In this case, the only option is to export the list of all features from the Features Overview. In the Transports column you can select all transports and filter for them in the target system import queue.
 > 
-> You should only import released transport requests through STMS.
+> You should only import released transport requests through `STMS`.
 > 
 > It is only recommended to change the TMS configuration in case the features are already deployed or transports are still modifiable.
 
@@ -66,4 +64,6 @@ In SCC4, assign the following settings to the clients for your system landscape.
 ![](images/assign_fac2275.png)
 
 ![](images/assign2_b12d94c.png)
+
+Continue with the setup with the [Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance](service-key-binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md).
 

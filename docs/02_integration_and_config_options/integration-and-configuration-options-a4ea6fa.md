@@ -38,11 +38,11 @@ By integrating SAP Central Business Configuration with SAP Cloud ALM, you can im
 		are assigned to in the user management, and the roles users are assigned to in project
 		management.")**  
 Project user authorizations are defined by the project access levels, the roles users are assigned to in the user management, and the roles users are assigned to in project management.
--   **[Integrating the Cloud Integration Automation Service](integrating-the-cloud-integration-automation-service-eafcc2f.md "The Cloud Integration Automation service provides you with a guided
-		workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The
-		guided workflow contains instructions for manual and automated tasks to enable an easy and
-		quick integration configuration setup.")**  
-The Cloud Integration Automation service provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
+-   **[Integrating the Cloud Integration Automation Service](integrating-the-cloud-integration-automation-service-eafcc2f.md "The Cloud Integration Automation service (CIAS) provides you with a
+		guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud
+		solutions. The guided workflow contains instructions for manual and automated tasks to
+		enable an easy and quick integration configuration setup.")**  
+The Cloud Integration Automation service \(CIAS\) provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
 -   **[Enabling Transport Management](enabling-transport-management-4b74b16.md "Learn how to enable the transport management of different transport environments for SAP
 		Cloud ALM. ")**  
 Learn how to enable the transport management of different transport environments for SAP Cloud ALM.

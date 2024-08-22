@@ -13,6 +13,9 @@ The following types of personal data are stored in SAP Cloud ALM:
 
 Hyperscalers, on which SAP products are running, can't access personal data.
 
+> ### Note:  
+> Some APIs expose personal data from SAP Cloud ALM if the data is linked to relevant application objects, for example, the user responsible of a feature. For more information, see the respective API reference documentation in the [API Guide for SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/apis).
+
 
 
 <a name="loio65c98de8ac484ad4896b051e2c985ee1__section_vcv_fk3_2tb"/>

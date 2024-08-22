@@ -1421,5 +1421,113 @@ Consume digital blueprint content, view company code scoping and transformation 
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center – Modeling
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Expert* 
+
+</td>
+<td valign="top">
+
+Maintain transformation models and transformation model versions, as well as view all included information regarding the transformation project
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Expert* 
+
+</td>
+<td valign="top">
+
+`btc_modeling_Expert` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center – Modeling
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Viewer* 
+
+</td>
+<td valign="top">
+
+View transformation models and all included information regarding the transformation project
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Viewer* 
+
+</td>
+<td valign="top">
+
+`btc_modeling_Viewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center – Cycle & Monitoring
+
+</td>
+<td valign="top">
+
+*Cycle Administrator* 
+
+</td>
+<td valign="top">
+
+Manage cycles, run cycles and migrations
+
+</td>
+<td valign="top">
+
+*Cycle & Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+`btc_cm_CycleAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center – Cycle & Monitoring
+
+</td>
+<td valign="top">
+
+*Cycle Viewer* 
+
+</td>
+<td valign="top">
+
+View cycles and all included information
+
+</td>
+<td valign="top">
+
+*Cycle & Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+`btc_cm_CycleViewer` 
+
+</td>
+</tr>
 </table>
 

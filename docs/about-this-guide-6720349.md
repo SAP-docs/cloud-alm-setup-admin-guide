@@ -4,7 +4,7 @@
 
 # About This Guide
 
-SAP Cloud ALM is a cloud-based application lifecycle management offering that allows you to implement and operate your cloud solutions.
+SAP Cloud ALM is a cloud-based application lifecycle management offering that allows you to implement and operate your cloud and hybrid business solutions.
 
 
 
