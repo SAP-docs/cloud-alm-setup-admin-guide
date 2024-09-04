@@ -20,6 +20,11 @@ The following role collections are available for each application area in SAP Cl
 <tr>
 <th valign="top">
 
+SAP Cloud ALM Area
+
+</th>
+<th valign="top">
+
 Capability
 
 </th>
@@ -47,7 +52,12 @@ Role Template
 <tr>
 <td valign="top">
 
-Cross
+Cross Topics
+
+</td>
+<td valign="top">
+
+Cross Application
 
 </td>
 <td valign="top">
@@ -81,7 +91,12 @@ Create and manage all SAP Cloud ALM objects, except for personal or sensitive da
 <tr>
 <td valign="top">
 
-Cross
+Cross Topics
+
+</td>
+<td valign="top">
+
+Cross Application
 
 </td>
 <td valign="top">
@@ -108,6 +123,11 @@ This role is to be used for general audit purposes.
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
 <td valign="top">
 
 User & Access Management
@@ -139,6 +159,11 @@ Create and manage users, assign and approve authorizations
 <tr>
 <td valign="top">
 
+Cross Topics
+
+</td>
+<td valign="top">
+
 User & Access Management
 
 </td>
@@ -166,58 +191,9 @@ View users and authorization assignments
 <tr>
 <td valign="top">
 
-Tag Management
+Cross Topics
 
 </td>
-<td valign="top">
-
-*Tag Administrator* 
-
-</td>
-<td valign="top">
-
-Create, update, merge and centrally delete tags, view tag usage and organize tags into groups
-
-</td>
-<td valign="top">
-
-*Tag Management Administrator* 
-
-</td>
-<td valign="top">
-
-`x_tag_TagAdministrator` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Tag Management
-
-</td>
-<td valign="top">
-
-*Tag Viewer* 
-
-</td>
-<td valign="top">
-
-View tags, tag groups and tag usage
-
-</td>
-<td valign="top">
-
-*Tag Management Viewer* 
-
-</td>
-<td valign="top">
-
-`x_tag_TagViewer` 
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 Landscape Management
@@ -247,6 +223,11 @@ Manage certificates
 <tr>
 <td valign="top">
 
+Cross Topics
+
+</td>
+<td valign="top">
+
 Landscape Management
 
 </td>
@@ -272,6 +253,11 @@ Manage certificates and service keys, view landscape objects
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
 <td valign="top">
 
 Landscape Management
@@ -301,6 +287,11 @@ View and download certificates and service keys, view landscape objects
 <tr>
 <td valign="top">
 
+Cross Topics
+
+</td>
+<td valign="top">
+
 Landscape Management
 
 </td>
@@ -326,6 +317,11 @@ View landscape objects \(subject to access control\) and manage access control
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
 <td valign="top">
 
 Landscape Management
@@ -355,6 +351,11 @@ View landscape objects and view access control
 <tr>
 <td valign="top">
 
+Cross Topics
+
+</td>
+<td valign="top">
+
 Landscape Management
 
 </td>
@@ -380,6 +381,11 @@ Create and manage landscape objects
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
 <td valign="top">
 
 Landscape Management
@@ -409,174 +415,73 @@ Display landscape objects
 <tr>
 <td valign="top">
 
-Project Management
+Cross Topics
 
 </td>
 <td valign="top">
 
-*Project Administrator* 
+Tag Management
 
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, defects, tags, and SAP Readiness Check analyses. View process hierarchy nodes.
-
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+*Tag Administrator* 
 
 </td>
 <td valign="top">
 
-*Project & Task Management Administrator* 
+Create, update, merge and centrally delete tags, view tag usage and organize tags into groups
 
 </td>
 <td valign="top">
 
-`imp_pjm_ProjectAdministrator` 
+*Tag Management Administrator* 
+
+</td>
+<td valign="top">
+
+`x_tag_TagAdministrator` 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Project Management
+Cross Topics
 
 </td>
 <td valign="top">
 
-*Project Lead* 
+Tag Management
 
 </td>
 <td valign="top">
 
-Manage projects, deployment plans, tasks, scopes, requirements, features, notes, documents, test cases, and defects. View process hierarchy nodes and SAP Readiness Check analyses.
-
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+*Tag Viewer* 
 
 </td>
 <td valign="top">
 
-*Project & Task Management Project Lead* 
+View tags, tag groups and tag usage
 
 </td>
 <td valign="top">
 
-`imp_pjm_ProjectLead` 
+*Tag Management Viewer* 
+
+</td>
+<td valign="top">
+
+`x_tag_TagViewer` 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Project Management
+Implementation
 
 </td>
-<td valign="top">
-
-*Project Member* 
-
-</td>
-<td valign="top">
-
-Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), notes, documents, test cases, and defects. View projects, deployment plans, SAP Readiness Check analyses, and process hierarchy nodes.
-
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
-
-</td>
-<td valign="top">
-
-*Project & Task Management Project Member* 
-
-</td>
-<td valign="top">
-
-`imp_pjm_ProjectMember` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Project Management
-
-</td>
-<td valign="top">
-
-*Project Viewer* 
-
-</td>
-<td valign="top">
-
-View projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, notes, documents, test cases, defects, and SAP Readiness Check analyses
-
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
-
-</td>
-<td valign="top">
-
-*Project & Task Management Project Viewer* 
-
-</td>
-<td valign="top">
-
-`imp_pjm_ProjectViewer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Process Management
-
-</td>
-<td valign="top">
-
-*Process Author* 
-
-</td>
-<td valign="top">
-
-Create, edit, and delete custom solution processes
-
-</td>
-<td valign="top">
-
-*Process Management Process Author* 
-
-</td>
-<td valign="top">
-
-`imp_pm_ProcessAuthor` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Process Management
-
-</td>
-<td valign="top">
-
-*Process Hierarchy Author* 
-
-</td>
-<td valign="top">
-
-Create, edit, and delete process hierarchy nodes
-
-</td>
-<td valign="top">
-
-*Process Management Process Hierarchy Author* 
-
-</td>
-<td valign="top">
-
-`imp_pm_ProcessHierarchyAuthor` 
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 Change & Deployment Management
@@ -606,6 +511,11 @@ Approve features for production deployment
 <tr>
 <td valign="top">
 
+Implementation
+
+</td>
+<td valign="top">
+
 Change & Deployment Management
 
 </td>
@@ -631,6 +541,211 @@ Deploy transports into test and production systems
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+*Process Author* 
+
+</td>
+<td valign="top">
+
+Create, edit, and delete custom solution processes
+
+</td>
+<td valign="top">
+
+*Process Management Process Author* 
+
+</td>
+<td valign="top">
+
+`imp_pm_ProcessAuthor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+*Process Hierarchy Author* 
+
+</td>
+<td valign="top">
+
+Create, edit, and delete process hierarchy nodes
+
+</td>
+<td valign="top">
+
+*Process Management Process Hierarchy Author* 
+
+</td>
+<td valign="top">
+
+`imp_pm_ProcessHierarchyAuthor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Project Management
+
+</td>
+<td valign="top">
+
+*Project Administrator* 
+
+</td>
+<td valign="top">
+
+Manage projects, deployment plans, tasks, scopes, requirements, features, documents, test cases, defects, tags, and SAP Readiness Check analyses. View process hierarchy nodes.
+
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+
+</td>
+<td valign="top">
+
+*Project & Task Management Administrator* 
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProjectAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Project Management
+
+</td>
+<td valign="top">
+
+*Project Lead* 
+
+</td>
+<td valign="top">
+
+Manage projects, deployment plans, tasks, scopes, requirements, features, documents, test cases, and defects. View process hierarchy nodes and SAP Readiness Check analyses.
+
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+
+</td>
+<td valign="top">
+
+*Project & Task Management Project Lead* 
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProjectLead` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Project Management
+
+</td>
+<td valign="top">
+
+*Project Member* 
+
+</td>
+<td valign="top">
+
+Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), documents, test cases, and defects. View projects, deployment plans, SAP Readiness Check analyses, and process hierarchy nodes.
+
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+
+</td>
+<td valign="top">
+
+*Project & Task Management Project Member* 
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProjectMember` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Project Management
+
+</td>
+<td valign="top">
+
+*Project Viewer* 
+
+</td>
+<td valign="top">
+
+View projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, documents, test cases, defects, and SAP Readiness Check analyses
+
+The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+
+</td>
+<td valign="top">
+
+*Project & Task Management Project Viewer* 
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProjectViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
 <td valign="top">
 
 SAP Readiness Check
@@ -660,6 +775,11 @@ Create, edit, and delete SAP Readiness Check analyses
 <tr>
 <td valign="top">
 
+Implementation
+
+</td>
+<td valign="top">
+
 SAP Readiness Check
 
 </td>
@@ -687,6 +807,11 @@ View all SAP Readiness Check analyses
 <tr>
 <td valign="top">
 
+Operations
+
+</td>
+<td valign="top">
+
 Business Process Monitoring
 
 </td>
@@ -712,6 +837,11 @@ Maintain global and specific configurations, consume KPIs and the respective pro
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Operations
+
+</td>
 <td valign="top">
 
 Business Process Monitoring
@@ -743,6 +873,11 @@ Additionally, the access to particular business processes and data criteria can 
 <tr>
 <td valign="top">
 
+Operations
+
+</td>
+<td valign="top">
+
 Business Process Monitoring
 
 </td>
@@ -770,6 +905,11 @@ Additionally, the access to particular business processes and data criteria can 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Operations
+
+</td>
 <td valign="top">
 
 Business Process Monitoring
@@ -801,6 +941,11 @@ Additionally, the access to particular business processes and data criteria can 
 <tr>
 <td valign="top">
 
+Operations
+
+</td>
+<td valign="top">
+
 Business Process Monitoring
 
 </td>
@@ -830,355 +975,9 @@ Additionally, the access to particular business processes and data criteria can 
 <tr>
 <td valign="top">
 
-Integration & Exception Monitoring
+Operations
 
 </td>
-<td valign="top">
-
-*Integration Architect* 
-
-</td>
-<td valign="top">
-
-Configure integration monitoring
-
-</td>
-<td valign="top">
-
-*Integration Monitoring Integration Architect* 
-
-</td>
-<td valign="top">
-
-`ops_im_IntegrationArchitect` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Integration & Exception Monitoring
-
-</td>
-<td valign="top">
-
-*Integration Owner* 
-
-</td>
-<td valign="top">
-
-View the messages in integration monitoring
-
-</td>
-<td valign="top">
-
-*Integration Monitoring Integration Owner* 
-
-</td>
-<td valign="top">
-
-`ops_im_IntegrationOwner` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Integration & Exception Monitoring
-
-</td>
-<td valign="top">
-
-*Integration Owner Sensitive* 
-
-</td>
-<td valign="top">
-
-View the messages in integration monitoring, including data defined as sensitive
-
-</td>
-<td valign="top">
-
-*Integration Monitoring Integration Owner Sensitive* 
-
-</td>
-<td valign="top">
-
-`ops_im_IntegrationOwnerSensitive` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Job & Automation Monitoring
-
-</td>
-<td valign="top">
-
-*Job Monitoring Administrator* 
-
-</td>
-<td valign="top">
-
-Create, edit, delete, and manage configuration settings, including the display of monitoring data
-
-</td>
-<td valign="top">
-
-*Job Monitoring Administrator* 
-
-</td>
-<td valign="top">
-
-`ops_jm_JobMonitoringAdministrator` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Job & Automation Monitoring
-
-</td>
-<td valign="top">
-
-*Job Monitoring Consumer* 
-
-</td>
-<td valign="top">
-
-View the job monitoring application for the maintained global configurations
-
-</td>
-<td valign="top">
-
-*Job Monitoring Consumer* 
-
-</td>
-<td valign="top">
-
-`ops_jm_JobMonitoringConsumer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Real User Monitoring
-
-</td>
-<td valign="top">
-
-*Real User Analyst Administrator* 
-
-</td>
-<td valign="top">
-
-View utilization and performance of requests, including sensitive data like the user ID, and configure the real user monitoring app
-
-</td>
-<td valign="top">
-
-*Real User Monitoring Analyst Administrator* 
-
-</td>
-<td valign="top">
-
-`ops_rum_RealUserAnalystAdministrator` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Real User Monitoring
-
-</td>
-<td valign="top">
-
-*Real User Analyst* 
-
-</td>
-<td valign="top">
-
-View utilization and performance of requests
-
-</td>
-<td valign="top">
-
-*Real User Monitoring Analyst* 
-
-</td>
-<td valign="top">
-
-`ops_rum_RealUserAnalyst` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Real User Monitoring
-
-</td>
-<td valign="top">
-
-*Real User Analyst Sensitive* 
-
-</td>
-<td valign="top">
-
-View utilization and performance of requests, including sensitive data like the user ID
-
-</td>
-<td valign="top">
-
-*Real User Monitoring Analyst Sensitive* 
-
-</td>
-<td valign="top">
-
-`ops_rum_RealUserAnalystSensitive` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Synthetic User Monitoring
-
-</td>
-<td valign="top">
-
-*Scenario Administrator* 
-
-</td>
-<td valign="top">
-
-Create, edit, delete, manage configurations and manage global application settings. View performance and availability of scenario executions
-
-</td>
-<td valign="top">
-
-*Synthetic User Monitoring Administrator* 
-
-</td>
-<td valign="top">
-
-`ops_sum_SyntheticUserMonitoringAdministrator` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Synthetic User Monitoring
-
-</td>
-<td valign="top">
-
-*Scenario Expert* 
-
-</td>
-<td valign="top">
-
-Create, edit, delete, and manage configuration settings. View performance and availability of scenario executions
-
-</td>
-<td valign="top">
-
-*Synthetic User Monitoring Scenario Expert* 
-
-</td>
-<td valign="top">
-
-`ops_sum_SyntheticUserMonitoringExpert` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Synthetic User Monitoring
-
-</td>
-<td valign="top">
-
-*Scenario Viewer* 
-
-</td>
-<td valign="top">
-
-View performance and availability of scenario executions
-
-</td>
-<td valign="top">
-
-*Synthetic User Monitoring Scenario Viewer* 
-
-</td>
-<td valign="top">
-
-`ops_sum_SyntheticUserMonitoringViewer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
-*Health Monitoring Administrator* 
-
-</td>
-<td valign="top">
-
-Create, edit, delete, and manage configuration settings, including the display of monitoring data
-
-</td>
-<td valign="top">
-
-*Health Monitoring Administrator* 
-
-</td>
-<td valign="top">
-
-`ops_hm_HealthMonitoringAdministrator` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
-*Health Monitoring Viewer* 
-
-</td>
-<td valign="top">
-
-View health overview and metrics of cloud services
-
-</td>
-<td valign="top">
-
-*Health Monitoring Viewer* 
-
-</td>
-<td valign="top">
-
-`ops_hm_HealthMonitoringViewer` 
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 Business Service Management
@@ -1201,11 +1000,16 @@ Create and manage business services, and plan events
 </td>
 <td valign="top">
 
-`ops_bsm_BusinessServiceManagementAdministrator` 
+`ops_bsm_BusinessServiceManagementAdmin` 
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Operations
+
+</td>
 <td valign="top">
 
 Business Service Management
@@ -1235,6 +1039,11 @@ View business services, their configuration, and the event calendar
 <tr>
 <td valign="top">
 
+Operations
+
+</td>
+<td valign="top">
+
 Configuration & Security Analysis
 
 </td>
@@ -1260,6 +1069,11 @@ Administrate managed objects, configuration settings, and display application da
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Operations
+
+</td>
 <td valign="top">
 
 Configuration & Security Analysis
@@ -1289,6 +1103,427 @@ Display application configuration data
 <tr>
 <td valign="top">
 
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Health Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete, and manage configuration settings, including the display of monitoring data
+
+</td>
+<td valign="top">
+
+*Health Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+`ops_hm_HealthMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Health Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+View health overview and metrics of cloud services
+
+</td>
+<td valign="top">
+
+*Health Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+`ops_hm_HealthMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*Integration Architect* 
+
+</td>
+<td valign="top">
+
+Configure integration monitoring
+
+</td>
+<td valign="top">
+
+*Integration Monitoring Integration Architect* 
+
+</td>
+<td valign="top">
+
+`ops_im_IntegrationArchitect` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*Integration Owner* 
+
+</td>
+<td valign="top">
+
+View the messages in integration monitoring
+
+</td>
+<td valign="top">
+
+*Integration Monitoring Integration Owner* 
+
+</td>
+<td valign="top">
+
+`ops_im_IntegrationOwner` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*Integration Owner Sensitive* 
+
+</td>
+<td valign="top">
+
+View the messages in integration monitoring, including data defined as sensitive
+
+</td>
+<td valign="top">
+
+*Integration Monitoring Integration Owner Sensitive* 
+
+</td>
+<td valign="top">
+
+`ops_im_IntegrationOwnerSensitive` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Job & Automation Monitoring
+
+</td>
+<td valign="top">
+
+*Job Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete, and manage configuration settings, including the display of monitoring data
+
+</td>
+<td valign="top">
+
+*Job Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+`ops_jm_JobMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Job & Automation Monitoring
+
+</td>
+<td valign="top">
+
+*Job Monitoring Consumer* 
+
+</td>
+<td valign="top">
+
+View the job monitoring application for the maintained global configurations
+
+</td>
+<td valign="top">
+
+*Job Monitoring Consumer* 
+
+</td>
+<td valign="top">
+
+`ops_jm_JobMonitoringConsumer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Analyst Administrator* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests, including sensitive data like the user ID, and configure the real user monitoring app
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Analyst Administrator* 
+
+</td>
+<td valign="top">
+
+`ops_rum_RealUserAnalystAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Analyst* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Analyst* 
+
+</td>
+<td valign="top">
+
+`ops_rum_RealUserAnalyst` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Analyst Sensitive* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests, including sensitive data like the user ID
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Analyst Sensitive* 
+
+</td>
+<td valign="top">
+
+`ops_rum_RealUserAnalystSensitive` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring
+
+</td>
+<td valign="top">
+
+*Scenario Administrator* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete, manage configurations and manage global application settings. View performance and availability of scenario executions
+
+</td>
+<td valign="top">
+
+*Synthetic User Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+`ops_sum_SyntheticUserMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring
+
+</td>
+<td valign="top">
+
+*Scenario Expert* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete, and manage configuration settings. View performance and availability of scenario executions
+
+</td>
+<td valign="top">
+
+*Synthetic User Monitoring Scenario Expert* 
+
+</td>
+<td valign="top">
+
+`ops_sum_SyntheticUserMonitoringExpert` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring
+
+</td>
+<td valign="top">
+
+*Scenario Viewer* 
+
+</td>
+<td valign="top">
+
+View performance and availability of scenario executions
+
+</td>
+<td valign="top">
+
+*Synthetic User Monitoring Scenario Viewer* 
+
+</td>
+<td valign="top">
+
+`ops_sum_SyntheticUserMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Service
+
+</td>
+<td valign="top">
+
 Service Collaboration
 
 </td>
@@ -1314,6 +1549,11 @@ Execute service-specific administration tasks, configure and execute services, a
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Service
+
+</td>
 <td valign="top">
 
 Service Collaboration
@@ -1343,6 +1583,11 @@ Configure and execute services, and view own and shared service execution result
 <tr>
 <td valign="top">
 
+Service
+
+</td>
+<td valign="top">
+
 Service Collaboration
 
 </td>
@@ -1370,115 +1615,12 @@ Browse through the service explorer and view the shared service execution result
 <tr>
 <td valign="top">
 
-SAP Business Transformation Center – Scoping
+SAP Business Transformation Center
 
 </td>
 <td valign="top">
 
-*Digital Blueprint Administrator* 
-
-</td>
-<td valign="top">
-
-Create and edit digital blueprints and all associated tasks, company code scoping, and transformation object scoping
-
-</td>
-<td valign="top">
-
-*Digital Blueprint Administrator* 
-
-</td>
-<td valign="top">
-
-`btc_bdts_DigitalBlueprintAdministrator` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Business Transformation Center – Scoping
-
-</td>
-<td valign="top">
-
-*Digital Blueprint Viewer* 
-
-</td>
-<td valign="top">
-
-Consume digital blueprint content, view company code scoping and transformation object scoping
-
-</td>
-<td valign="top">
-
-*Digital Blueprint Viewer* 
-
-</td>
-<td valign="top">
-
-`btc_bdts_DigitalBlueprintViewer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Business Transformation Center – Modeling
-
-</td>
-<td valign="top">
-
-*Transformation Modeling Expert* 
-
-</td>
-<td valign="top">
-
-Maintain transformation models and transformation model versions, as well as view all included information regarding the transformation project
-
-</td>
-<td valign="top">
-
-*Transformation Modeling Expert* 
-
-</td>
-<td valign="top">
-
-`btc_modeling_Expert` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Business Transformation Center – Modeling
-
-</td>
-<td valign="top">
-
-*Transformation Modeling Viewer* 
-
-</td>
-<td valign="top">
-
-View transformation models and all included information regarding the transformation project
-
-</td>
-<td valign="top">
-
-*Transformation Modeling Viewer* 
-
-</td>
-<td valign="top">
-
-`btc_modeling_Viewer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Business Transformation Center – Cycle & Monitoring
+Cycle & Monitoring
 
 </td>
 <td valign="top">
@@ -1505,7 +1647,12 @@ Manage cycles, run cycles and migrations
 <tr>
 <td valign="top">
 
-SAP Business Transformation Center – Cycle & Monitoring
+SAP Business Transformation Center
+
+</td>
+<td valign="top">
+
+Cycle & Monitoring
 
 </td>
 <td valign="top">
@@ -1526,6 +1673,134 @@ View cycles and all included information
 <td valign="top">
 
 `btc_cm_CycleViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center
+
+</td>
+<td valign="top">
+
+Modeling
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Expert* 
+
+</td>
+<td valign="top">
+
+Maintain transformation models and transformation model versions, as well as view all included information regarding the transformation project
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Expert* 
+
+</td>
+<td valign="top">
+
+`btc_modeling_Expert` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center
+
+</td>
+<td valign="top">
+
+Modeling
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Viewer* 
+
+</td>
+<td valign="top">
+
+View transformation models and all included information regarding the transformation project
+
+</td>
+<td valign="top">
+
+*Transformation Modeling Viewer* 
+
+</td>
+<td valign="top">
+
+`btc_modeling_Viewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center
+
+</td>
+<td valign="top">
+
+Scoping
+
+</td>
+<td valign="top">
+
+*Digital Blueprint Administrator* 
+
+</td>
+<td valign="top">
+
+Create and edit digital blueprints and all associated tasks, company code scoping, and transformation object scoping
+
+</td>
+<td valign="top">
+
+*Digital Blueprint Administrator* 
+
+</td>
+<td valign="top">
+
+`btc_bdts_DigitalBlueprintAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center
+
+</td>
+<td valign="top">
+
+Scoping
+
+</td>
+<td valign="top">
+
+*Digital Blueprint Viewer* 
+
+</td>
+<td valign="top">
+
+Consume digital blueprint content, view company code scoping and transformation object scoping
+
+</td>
+<td valign="top">
+
+*Digital Blueprint Viewer* 
+
+</td>
+<td valign="top">
+
+`btc_bdts_DigitalBlueprintViewer` 
 
 </td>
 </tr>

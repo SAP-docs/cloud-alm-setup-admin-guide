@@ -12,7 +12,7 @@ Learn how to configure your Transport Management System \(TMS\) on the Managed S
 
 The *Features* app reads important information about the system landscape such as the systems included in the transport track, consolidation, and delivery transport routes from the system acting as domain controller.
 
-In most cases, you're using the SAP Cloud ALM Deployment Management scenario to manage changes in the following system landscapes: *DEV:100* \> *QUA:200* \> *PRD:300*.
+In most cases, you're using the SAP Cloud ALM Deployment Management scenario to manage changes in the following system landscapes: *DEV:100* \> *QUA:200* \> *\(PRE:XXX\)* \> *PRD:300*.
 
 For additional information, see [Change and Transport System](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c.html?locale=en-US) and [Configuring Transport Routes](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/44b4a1df7acc11d1899e0000e829fbbd-239.html?locale=en-US)
 
@@ -20,9 +20,13 @@ For additional information, see [Change and Transport System](https://help.sap.c
 
 ## Configuration of Your Test or Productive Landscape
 
-For creating the test landscape, you can use SAP S/4HANA 2021 Cloud Private Edition, where you have clients 100, 200, and 300. You can also create the test landscape with SAP Solution Manager by creating clients 100, 200, and 300.
+For creating a test landscape, you can use SAP S/4HANA 2021 Cloud Private Edition, where you have clients 100, 200, and 300. You can also create the test landscape with SAP Solution Manager by creating clients 100, 200, and 300.
 
-For creating the productive landscape, simply use your productive systems.
+For this test landscape, an S/4HANA Cloud Private Edition internal system with SID S4H with clients 100, 200, 300 is used.
+
+S4H:100 is going to represent the Development system, S4H:200 the first target system, Quality system, and S4H:300 the Production system, S4H system is also the domain controller.
+
+For creating a productive landscape, simply use your productive systems.
 
 First, make sure that you've set the correct parameters in the ABAP system at TMS level. For this, use transaction `/nSTMS`, then choose *Overview* \> *Systems*. Select your system and then go to the *Transport Tool* tab. You should have the following settings:
 

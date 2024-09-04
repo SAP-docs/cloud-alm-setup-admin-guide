@@ -4,7 +4,9 @@
 
 **Managed System Setup Check Report**
 
-In the list below, you find messages that can appear in the managed system during the Managed System Setup Check. This includes both confirmation information and error messages. In the second column *Message Explanation*, you can find more information about the message. In case of error messages, you can find information about how to resolve the errors.
+To perform the Managed System Setup Check, run transaction `/SDF/ALM_DIAGNOSTIC` in client 000 in all the systems included in the transport track and working client that you want to connect to SAP Cloud ALM.
+
+The following sections explain the checks and messages that can appear in the managed system during the Managed System Setup Check. This includes confirmation information and error messages.
 
 
 

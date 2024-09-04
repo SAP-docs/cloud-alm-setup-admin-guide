@@ -955,7 +955,11 @@ You want to set up a second SAP Cloud ALM tenant.
 </td>
 <td valign="top">
 
-Currently, only one SAP Cloud ALM tenant can be requested per entitled customer number.
+By purchasing *SAP Cloud ALM, tenant extension*, you're entitled to request an additional SAP Cloud ALM tenants for the same customer number.
+
+There's no restriction on the number of tenants that you can purchase. You can get as many as you need for your organization and purposes.
+
+For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md) on SAP Community.
 
 </td>
 </tr>

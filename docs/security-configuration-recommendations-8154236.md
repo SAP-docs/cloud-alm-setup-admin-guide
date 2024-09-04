@@ -9,7 +9,7 @@ Use the information in this table to secure the configuration and operation of S
 <tr>
 <th valign="top">
 
-Capability
+Component
 
 </th>
 <th valign="top">
@@ -24,7 +24,7 @@ Secure Operations Map
 </th>
 <th valign="top">
 
-Topic
+Title
 
 </th>
 <th valign="top">
@@ -61,12 +61,12 @@ Critical
 </td>
 <td valign="top">
 
-Audit Logging
+Security Monitoring & Forensics
 
 </td>
 <td valign="top">
 
-Audit
+Audit Logging
 
 </td>
 <td valign="top">
@@ -181,6 +181,48 @@ CALM-X-0003
 <tr>
 <td valign="top">
 
+Cross
+
+</td>
+<td valign="top">
+
+Critical
+
+</td>
+<td valign="top">
+
+Roles & Authorizations
+
+</td>
+<td valign="top">
+
+Critical Permissions
+
+</td>
+<td valign="top">
+
+The person who requests SAP Cloud ALM receives all authorizations that are required to perform the initial setup and other administrative tasks.
+
+</td>
+<td valign="top">
+
+To avoid access-related issues, for example, if the administrator leaves the company, it's always a good practice to assign more than one administrator in all of these systems.
+
+</td>
+<td valign="top">
+
+[Required Authorizations](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md#loio80b2c30a8d194ae8aff496bcff057cf0__section_rdm_3mt_r5b) 
+
+</td>
+<td valign="top">
+
+CALM-X-0004
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 External API Management
 
 </td>
@@ -233,7 +275,7 @@ Critical
 </td>
 <td valign="top">
 
-Roles and Authorizations
+Roles & Authorizations
 
 </td>
 <td valign="top">
@@ -275,7 +317,7 @@ Critical
 </td>
 <td valign="top">
 
-Authentication and Single Sign-On
+Authentication & Single Sign-On
 
 </td>
 <td valign="top">
@@ -326,7 +368,7 @@ Advanced
 </td>
 <td valign="top">
 
-Roles and Authorizations
+Roles & Authorizations
 
 </td>
 <td valign="top">
@@ -379,7 +421,7 @@ Recommended
 </td>
 <td valign="top">
 
-Roles and Authorizations
+Roles & Authorizations
 
 </td>
 <td valign="top">
@@ -423,7 +465,7 @@ Recommended
 </td>
 <td valign="top">
 
-Roles and Authorizations
+Roles & Authorizations
 
 </td>
 <td valign="top">

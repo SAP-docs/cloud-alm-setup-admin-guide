@@ -38,6 +38,13 @@ Make sure that you fulfill the *Technical Prerequisites*, *Network Prerequisites
 > ### Note:  
 > For the profile parameter check, you can use transaction `RZ11` and `TU02` in the managed system.
 
+> ### Note:  
+> For a SAP S/4 HANA Cloud Private Edition:
+> 
+> -   You can request user `CUST_TC` for client 000. This user is authorized to run the setup transaction.
+> 
+> -   User `BATCH_USER` can be specified as background user.
+
 
 
 ## Required SAP Notes

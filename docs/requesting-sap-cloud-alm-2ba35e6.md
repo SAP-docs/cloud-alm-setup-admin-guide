@@ -16,7 +16,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
     You can manage your users and authorizations by following the steps described in [Manage User Authorizations](https://help.sap.com/docs/SAP_FOR_ME/758e7c8a7c5b4782bb78b17f8c7fbbda/d39d0e5f8478403c85e483b9493a7bd2.html).
 
--   You're assigned to the respective customer.
+-   You're assigned to the customer number.
 
 
 > ### Caution:  
@@ -85,7 +85,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
         > 
         > -   If your company has functional or legal requirements to not allow users from an SAP Cloud ALM tenant to access an SAP SuccessFactors tenant \(or vice versa\), use separate Identity Authentication tenants. [Learn more](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html?version=2311#procedure).
         > 
-        >     If you have no other Identity Authentication tenants available for selection, you can request a new one as described in [Tenant Model and Licensing – Getting an Additional Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud#getting-an-additional-tenant).
+        >     If you have no other Identity Authentication tenants available for selection, you can request a new one as described in [Tenants – Licensing and Usage](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/tenant-model-and-licensing?version=Cloud#licensing-and-usage).
 
         If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 
@@ -93,6 +93,9 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 
 7.  If you agree to the terms and conditions stated in the linked order document, mark the checkbox.
+
+    > ### Note:  
+    > If you're requesting an additional SAP Cloud ALM tenant after purchasing the service *SAP Cloud ALM, tenant extension*, you've already accepted the terms and conditions as part of the contract.
 
 8.  Choose *Submit*.
 

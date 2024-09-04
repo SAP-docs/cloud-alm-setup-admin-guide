@@ -14,6 +14,17 @@ To use SAP Central Business Configuration in SAP Cloud ALM, you first need to ca
 
 
 
+<a name="loioe21f91558ab145378c0c6de77516cec6__section_mck_kpd_ncc"/>
+
+## Prerequisites
+
+-   You have the role *Landscape Administrator*.
+
+-   You have the role *Project Administrator* or *Project Lead*.
+
+
+
+
 <a name="loioe21f91558ab145378c0c6de77516cec6__section_qyd_jx4_nnb"/>
 
 ## Procedure
@@ -73,7 +84,20 @@ After you've completed the technical setup, select SAP Central Business Configur
 6.  Save the new project.
 
 
-After saving the new project, you can navigate to your SAP Central Business Configuration project with the direct links in the table or via the respective tasks.
+
+
+<a name="loioe21f91558ab145378c0c6de77516cec6__section_xmq_5qd_ncc"/>
+
+## Result and Next Steps
+
+You have now connected your SAP Central Business Configuration project or projects with your SAP Cloud ALM project.
+
+You can now navigate to your SAP Central Business Configuration project with the direct links in the table or via the respective tasks.
+
+
+
+> ### Note:  
+> To access SAP Central Business Configuration from SAP Cloud ALM, users need to be maintained both in the Identity Authentication tenant that is connected to SAP Cloud ALM and in the Identity Authentication tenant that is connected to SAP Central Business Configuration.
 
 **Related Information**  
 

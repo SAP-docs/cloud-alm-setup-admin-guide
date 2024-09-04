@@ -29,11 +29,28 @@ For more information on how services and systems are connected to SAP Cloud ALM,
 -   [Systems](systems-d9d672a.md)
 
 
-You have full control which data from managed services and systems is transferred to SAP Cloud ALM:
+> ### Note:  
+> You have full control which data from managed services and systems is transferred to SAP Cloud ALM:
+> 
+> When you activate your SAP Cloud ALM tenant and register your systems and services in the *Landscape Management* app of SAP Cloud ALM, the collection of observability data is not started automatically. SAP Cloud ALM follows a central configuration approach: You need to explicitly configure the data collection processes.
+> 
+> In addition, SAP is moving from customer-managed connectivity \(established by customers\) to SAP-managed connectivity \(established by SAP\). To find out which additional steps are necessary to establish customer-managed connectivity, see [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the operations expert portal.
 
-When you activate your SAP Cloud ALM tenant and register your systems and services in the *Landscape Management* app of SAP Cloud ALM, the collection of observability data is not started automatically. SAP Cloud ALM follows a central configuration approach: You need to explicitly configure the data collection processes.
 
-In addition, SAP is moving from customer-managed connectivity \(established by customers\) to SAP-managed connectivity \(established by SAP\). To find out which additional steps are necessary to establish customer-managed connectivity, see [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the operations expert portal.
+
+<a name="loio23f1c49b224b4f17b2d959e01ae9c930__section_wkm_pxg_mcc"/>
+
+## Access Control
+
+By enabling access control, you can restrict the access of specific landscape objects \(services, systems, and business services\) to specific users.
+
+For more information, see [Access Control](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/bd0e50f5167a4b3ab8ebe3d35da1c74b.html "Access control allows you to restrict the access of specific landscape objects (services, systems, and business services) to specific users.") :arrow_upper_right:.
+
+
+
+<a name="loio23f1c49b224b4f17b2d959e01ae9c930__section_gtv_pxg_mcc"/>
+
+## Support
 
 If you encounter issues while working with the *Landscape Management* app, take a look at [Landscape Management – Troubleshooting and Customer Support](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management.html?anchorId=section_667953570_co) on SAP Support Portal.
 

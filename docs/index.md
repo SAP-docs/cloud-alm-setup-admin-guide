@@ -41,7 +41,7 @@
         -   [Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM](02_integration_and_config_options/setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md)
     -   [Activating Access Control](02_integration_and_config_options/activating-access-control-4d0162b.md)
     -   [Enabling Service Delivery](02_integration_and_config_options/enabling-service-delivery-a1b2494.md)
--   [Application Configuration](application-configuration-ce08e9d.md)
+-   [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md)
 -   [Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me-9d4aa2a.md)
 -   [Account Termination](account-termination-219d7d0.md)
 -   [Data Protection and Privacy](03_DPP/data-protection-and-privacy-2fdc2f0.md)
