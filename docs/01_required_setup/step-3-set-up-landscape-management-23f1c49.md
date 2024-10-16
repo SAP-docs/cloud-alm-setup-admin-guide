@@ -57,6 +57,6 @@ If you encounter issues while working with the *Landscape Management* app, take 
 -   **[Services](services-d5f36cc.md "The import method of services in SAP Cloud ALM depends on the service type of your
 		solution.")**  
 The import method of services in SAP Cloud ALM depends on the service type of your solution.
--   **[Systems](systems-d9d672a.md "Most systems can to be registered with an ABAP report.")**  
-Most systems can to be registered with an ABAP report.
+-   **[Systems](systems-d9d672a.md "Most systems can be registered with an ABAP report.")**  
+Most systems can be registered with an ABAP report.
 

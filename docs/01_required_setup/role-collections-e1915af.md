@@ -479,6 +479,38 @@ View tags, tag groups and tag usage
 <tr>
 <td valign="top">
 
+Cross Topics
+
+</td>
+<td valign="top">
+
+Tenant Information
+
+</td>
+<td valign="top">
+
+*Tenant Information Viewer* 
+
+</td>
+<td valign="top">
+
+View tenant details on memory consumption and outbound API usage
+
+</td>
+<td valign="top">
+
+*Tenant Information Viewer* 
+
+</td>
+<td valign="top">
+
+`x_tenantinfo_TenantInformationViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Implementation
 
 </td>
@@ -537,6 +569,38 @@ Deploy transports into test and production systems
 <td valign="top">
 
 `imp_cdm_DeploymentManager` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+*Process Administrator* 
+
+</td>
+<td valign="top">
+
+Create, edit and delete custom solution processes and unlock custom solution process flow diagrams
+
+</td>
+<td valign="top">
+
+*Process Management Process Administrator* 
+
+</td>
+<td valign="top">
+
+`imp_pm_ProcessAdministrator` 
 
 </td>
 </tr>

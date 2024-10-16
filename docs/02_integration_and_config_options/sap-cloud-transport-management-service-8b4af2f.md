@@ -4,9 +4,9 @@
 
 Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM.
 
-Several SAP Cloud Products use SAP Cloud Transport Management as environment for transporting their development artifacts and application-specific content. The transport nodes of SAP Cloud Transport management represent the landscape of those SAP Cloud Products. Connecting SAP Cloud Transport Management to SAP Cloud ALM makes that landscape and the respective transports visible for SAP Cloud ALM. Then, you can orchestrate the deployment of those transports in SAP Cloud ALM.
+Several SAP Cloud Products use SAP Cloud Transport Management as environment for transporting their development artifacts and application-specific content. The transport nodes of SAP Cloud Transport Management represent the landscape of those SAP Cloud Products. Connecting SAP Cloud Transport Management to SAP Cloud ALM makes that landscape and the respective transports visible for SAP Cloud ALM. Then, you can orchestrate the deployment of those transports in SAP Cloud ALM.
 
-You can directly connect an SAP Cloud Transport Management service instance subscribed in your SAP BTP Global Account to SAP Cloud ALM.
+You can directly connect an SAP Cloud Transport Management service \(CTMS\) instance subscribed in your SAP BTP Global Account to SAP Cloud ALM.
 
 > ### Note:  
 > In case you've subscribed to several SAP Cloud Transport Management service instances, it's possible to connect all of them to the same SAP Cloud ALM.
@@ -17,6 +17,9 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 > SAP Cloud ALM supports the parallel delivery of several transport nodes at once.
 > 
 > Before you can use the deployment functionality in SAP Cloud ALM, you have to configure the transport nodes in the SAP Cloud Transport Management service.
+
+> ### Note:  
+> Currently, deleted CTMS transports can’t be removed from the *Features* app. However, you can unassign deleted transports from features.
 
 
 
@@ -44,6 +47,17 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 1.  Set Up HTTP destinations.
 
     SAP Cloud ALM requires a destination to the SAP Cloud Transport Management service. In the SAP BTP subaccount where your SAP Cloud ALM is hosted, create a destination targeted at the SAP Cloud Transport Management service.
+
+    > ### Note:  
+    > If you have multiple SAP Cloud ALM tenants, you need to have an SAP BTP destination pointing to the CTMS instance. Then, you need to decide which SAP Cloud ALM instance should point to the CTMS instance.
+    > 
+    > Here's what we recommend:
+    > 
+    > -   only connect your productively used SAP Cloud Transport Manage service instance to your productive SAP Cloud ALM instance
+    > 
+    > -   don't connect your productive environment to both SAP Cloud ALM instances
+    > 
+    > -   only connect demo and sandbox SAP Cloud Transport Management service instances to your test SAP Cloud ALM instance
 
     1.  Go to your SAP BTP subaccount, choose *Connectivity*, then *Destination*, then *Create Destination*.![](images/Standalone_CTMS_1_193b0a6.png)
     2.  In the *Destination Configuration* section, enter the values in the respective fields based on the description that is provided in the table below.
@@ -195,7 +209,9 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 
 ## Legacy Procedure for Subscription with SAP Cloud Transport Management in SAP Cloud ALM Subaccount.
 
-Due to technical limitations regarding the integration of several SAP BTP Services, this procedure is not recommended anymore.
+A new integration is now available to connect SAP Cloud Transport Management service \(CTMS\) to SAP Cloud ALM. You can easily connect CTMS using an SAP BTP Destination in the SAP Cloud ALM subaccount, which points to your SAP Cloud Transport Management instance. This new method replaces the previous integration within the SAP BTP subaccount of the SAP Cloud ALM subscription, offering a platform that supports a wider range of content types. The updated integration resolves technical limitations related to SAP Analytics Cloud and SAP Datasphere, provides comprehensive documentation, and enables programmatic access through the CTMS instance service key.
+
+We strongly advise you against using the existing integration within the SAP BTP subaccount of the SAP Cloud ALM subscription as we’ll no longer offer it in the future.
 
 **Procedure**
 

@@ -13,7 +13,7 @@ This guide describes the steps you need to perform to set up, configure, and adm
 > ### Tip:  
 > To leave feedback and contribute to this guide, choose <span class="SAP-icons-V5"></span> Feedback and select from one of the following options:
 > 
-> -   *Comment*: Leave a comment about a documentation page directly on SAP Help Portal. Before you can comment, you need to sign in with your S-user or P-user.
+> -   *Comments*: Leave a comment about a documentation page directly on SAP Help Portal. Before you can comment, you need to sign in with your S-user or P-user.
 > 
 > -   *Create issue* \(English version only\): Provide feedback about a documentation page via issue on GitHub. To create an issue, you need to sign in to your GitHub account.
 > 
@@ -21,8 +21,6 @@ This guide describes the steps you need to perform to set up, configure, and adm
 > 
 > 
 > This lets you get in contact with the technical authors responsible for the SAP Help Portal page to discuss documentation-related issues.
-> 
-> For more information about feedback channels on GitHub, refer to the blog post [Introducing the Open Documentation Initiative](https://blogs.sap.com/2021/05/20/introducing-the-open-documentation-initiative/).
 
 SAP makes no warranty, either expressed or implied, for the information provided here. Due to short-term software updates, completeness cannot be guaranteed and the information is subject to change. For the same reasons, translations of this guide into languages other than English may not reflect the latest changes.
 

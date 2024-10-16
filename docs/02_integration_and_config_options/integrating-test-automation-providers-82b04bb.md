@@ -8,7 +8,7 @@ By integrating automation providers with SAP Cloud ALM, you can reduce your manu
 
 SAP Cloud ALM currently supports the integration with the following automation providers:
 
--   [Test automation tool for SAP S/4HANA Cloud](integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md): Test all solution processes from the solution scenario SAP Best Practices for SAP S/4HANA Cloud.
+-   [Test automation tool for SAP S/4HANA Cloud Public Edition](integrating-the-test-automation-tool-for-sap-s-4hana-cloud-public-edition-0712254.md): Test all solution processes from the solution scenario SAP Best Practices for SAP S/4HANA Cloud Public Edition.
 
 -   [Tricentis Test Automation for SAP integrated with SAP Cloud ALM](setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md): Test all browser-based SAP solutions and applications.
 
@@ -21,9 +21,10 @@ SAP Cloud ALM currently supports the integration with the following automation p
 
 [Automated Test Cases – SAP Help Portal](https://help.sap.com/docs/cloud-alm/applicationhelp/automated-test-cases)
 
--   **[Integrating the Test Automation Tool for SAP S/4HANA Cloud](integrating-the-test-automation-tool-for-sap-s-4hana-cloud-0712254.md "You can integrate automated test cases from the test automation tool for SAP S/4HANA
-		Cloud for use in test orchestration in SAP Cloud ALM.")**  
-You can integrate automated test cases from the test automation tool for SAP S/4HANA Cloud for use in test orchestration in SAP Cloud ALM.
+-   **[Integrating the Test Automation Tool for SAP S/4HANA Cloud Public Edition](integrating-the-test-automation-tool-for-sap-s-4hana-cloud-public-edition-0712254.md "You can integrate automated test cases from the test automation tool for SAP
+            S/4HANA Cloud Public Edition for use in test
+		orchestration in SAP Cloud ALM.")**  
+You can integrate automated test cases from the test automation tool for SAP S/4HANA Cloud Public Edition for use in test orchestration in SAP Cloud ALM.
 -   **[Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM](setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md "Tricentis Test Automation for SAP integrated with SAP Cloud ALM is a joint cloud-based
 		offering from SAP and Tricentis.")**  
 Tricentis Test Automation for SAP integrated with SAP Cloud ALM is a joint cloud-based offering from SAP and Tricentis.

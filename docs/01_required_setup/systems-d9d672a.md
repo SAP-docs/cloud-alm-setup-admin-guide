@@ -2,7 +2,7 @@
 
 # Systems
 
-Most systems can to be registered with an ABAP report.
+Most systems can be registered with an ABAP report.
 
 When the registration in the system has been completed, the registered system is automatically displayed on the *Services & Systems* page. Once a technical system has been registered, a default logical system \(client\) is created and displayed in the *System Details*.
 

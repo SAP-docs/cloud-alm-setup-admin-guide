@@ -35,7 +35,7 @@ SAP applies the following measures to make SAP Cloud ALM safe for you to use.
 
 -   **Security Product Standards**: SAP Cloud ALM follows the general SAP security product standards.
 
--   **Certifications and Compliance**: SAP Cloud ALM is certified for ISO 27001 and ISO 9001.
+-   **Certifications and Compliance**: SAP’s innovation lifecycle and the SDOL is certified in ISO 9001 and ISO 27001. SAP Cloud ALM follows these processes and controls for its development.
 
 -   **Security Incident Management**:
 

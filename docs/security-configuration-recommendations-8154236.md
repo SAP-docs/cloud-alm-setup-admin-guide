@@ -2,7 +2,14 @@
 
 # Security Configuration Recommendations
 
-Use the information in this table to secure the configuration and operation of SAP Cloud ALM services in your landscape.
+These recommendations help you evaluate the security of the configuration of SAP Cloud ALM in your landscape.
+
+> ### Remember:  
+> As part of the [cloud shared responsibility model](https://support.sap.com/en/my-support/trust-center/tools-documentation.html?anchorId=cde4601b0afb44f79a790b599c2cd8b2) \(restricted access\), you're responsible for determining if any of these recommendations are relevant for your environment and to what extent.
+> 
+> The security recommendations are provided as a courtesy, without a warranty, and may be subject to change. For more information, see the [disclaimer](https://help.sap.com/docs/disclaimer).
+
+****
 
 
 <table>
@@ -40,6 +47,11 @@ Recommendation
 <th valign="top">
 
 More Information
+
+</th>
+<th valign="top">
+
+Last Update
 
 </th>
 <th valign="top">
@@ -86,6 +98,11 @@ Enable the SAP Audit Log Viewer service for SAP BTP.
 </td>
 <td valign="top">
 
+2023-06-14
+
+</td>
+<td valign="top">
+
 CALM-X-0001
 
 </td>
@@ -124,6 +141,11 @@ To be able to use the in-app help and Built-In Support, either allow third-party
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+2023-06-14
 
 </td>
 <td valign="top">
@@ -174,6 +196,11 @@ To prevent external applications from performing unauthorized operations, assign
 </td>
 <td valign="top">
 
+2023-06-14
+
+</td>
+<td valign="top">
+
 CALM-X-0003
 
 </td>
@@ -216,6 +243,11 @@ To avoid access-related issues, for example, if the administrator leaves the com
 </td>
 <td valign="top">
 
+2024-09-18
+
+</td>
+<td valign="top">
+
 CALM-X-0004
 
 </td>
@@ -233,7 +265,7 @@ Advanced
 </td>
 <td valign="top">
 
-Authentication and Single Sign-On
+Authentication & Single Sign-On
 
 </td>
 <td valign="top">
@@ -253,7 +285,12 @@ Use the authentication method that is recommended by the *Landscape Management* 
 </td>
 <td valign="top">
 
-[SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html)
+[SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html) 
+
+</td>
+<td valign="top">
+
+2023-06-14
 
 </td>
 <td valign="top">
@@ -296,6 +333,11 @@ Assign suitable roles that give users only the authorizations they need to perfo
 <td valign="top">
 
 [Role Collections](01_required_setup/role-collections-e1915af.md)
+
+</td>
+<td valign="top">
+
+2023-06-14
 
 </td>
 <td valign="top">
@@ -351,7 +393,63 @@ Choose one of the more secure methods according to the capabilities of the endpo
 </td>
 <td valign="top">
 
+2023-06-14
+
+</td>
+<td valign="top">
+
 CALM-LM-0001
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+Recommended
+
+</td>
+<td valign="top">
+
+Roles & Authorizations
+
+</td>
+<td valign="top">
+
+Access Control
+
+</td>
+<td valign="top">
+
+You can restrict the data access of a defined user group to particular landscape objects \(services, systems, and business services\) using access control lists. Access control lists contain rules that define which landscape objects are covered by each list.
+
+By default, access control is deactivated.
+
+</td>
+<td valign="top">
+
+Use access groups to grant users access only to landscape objects relevant to their tasks.
+
+</td>
+<td valign="top">
+
+[Access Control](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/bd0e50f5167a4b3ab8ebe3d35da1c74b.html "Access control allows you to restrict the access of specific landscape objects (services, systems, and business services) to specific users.") :arrow_upper_right:
+
+[Attribute-Based Access Control](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management/lms-access-control.html)
+
+</td>
+<td valign="top">
+
+2024-09-24
+
+</td>
+<td valign="top">
+
+CALM-LM-0002
 
 </td>
 </tr>
@@ -399,7 +497,12 @@ Select the appropriate access level for your project:
 </td>
 <td valign="top">
 
-[Configuring Project User Permissions](02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md)
+[Configuring Project User Permissions](02_integration_and_config_options/configuring-project-user-permissions-a2c0029.md) 
+
+</td>
+<td valign="top">
+
+2023-06-14
 
 </td>
 <td valign="top">
@@ -448,6 +551,11 @@ Restrict user access to the *Configuration & Security Analysis* app as much as p
 </td>
 <td valign="top">
 
+2024-03-20
+
+</td>
+<td valign="top">
+
 CALM-CSA-0001
 
 </td>
@@ -487,12 +595,66 @@ Use access groups to grant users access only to data relevant to their tasks.
 </td>
 <td valign="top">
 
-[Creating Access Groups](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/b22d9ce6403f44518dcda7757baca53a.html)
+[Creating Access Groups](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/b22d9ce6403f44518dcda7757baca53a.html) 
+
+</td>
+<td valign="top">
+
+2023-06-14
 
 </td>
 <td valign="top">
 
 CALM-BM-0001
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Intelligent Event Processing
+
+</td>
+<td valign="top">
+
+Recommended
+
+</td>
+<td valign="top">
+
+Client Security
+
+</td>
+<td valign="top">
+
+Event Payload
+
+</td>
+<td valign="top">
+
+When you enable the event action *Store Event Payload for 24 Hours*, the event payload is stored in the *Intelligent Event Processing* data store for 24 hours.
+
+You can then access the data store and consume the event payloads using the **Raw Data Outbound Logs API**.
+
+</td>
+<td valign="top">
+
+Enable the event action for required events.
+
+</td>
+<td valign="top">
+
+[API Integrations](https://help.sap.com/docs/cloud-alm/applicationhelp/api-integrations) 
+
+</td>
+<td valign="top">
+
+2024-10-16
+
+</td>
+<td valign="top">
+
+CALM-IEP-0001
 
 </td>
 </tr>

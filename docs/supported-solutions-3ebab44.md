@@ -137,8 +137,6 @@ Process Management
 
 -   SAP Ariba Supplier Lifecycle and Performance
 
--   SAP Ariba Supplier Management
-
 -   SAP Ariba Supplier Risk
 
 -   SAP Ariba Supply Chain Collaboration
@@ -166,7 +164,15 @@ Process Management
 </td>
 <td valign="top">
 
+-   SAP SFSF Benefits
+
 -   SAP SFSF Compensation
+
+-   SAP SFSF Dynamic Teams
+
+-   SAP SFSF Employee Central
+
+-   SAP SFSF Employee Central Payroll
 
 -   SAP SFSF Employee Experience
 
@@ -178,35 +184,25 @@ Process Management
 
 -   SAP SFSF Onboarding
 
--   SAP SFSF Organizational Management
+-   SAP SFSF Opportunity Marketplace
 
--   SAP SFSF Payroll
+-   SAP SFSF Organizational Management
 
 -   SAP SFSF Performance and Goals
 
 -   SAP SFSF Recruiting
 
+-   SAP SFSF Service Center
+
 -   SAP SFSF Succession and Development
-
--   SAP SFSF Time and Attendance Management
-
--   SAP SFSF Benefits
-
--   SAP SFSF Employee Central
 
 -   SAP SFSF Talent Intelligence Hub
 
--   SAP SFSF Opportunity Marketplace
-
--   SAP SFSF Service Center
+-   SAP SFSF Time and Attendance Management
 
 -   SAP SFSF Time Tracking
 
 -   SAP SFSF Workforce Planning
-
--   SAP SFSF Internal Talent Mobility
-
--   SAP SFSF Dynamic Teams
 
 
 More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\) and [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
@@ -427,7 +423,12 @@ Process Management
 </td>
 <td valign="top">
 
-SAP Services Content for Oil and Gas
+-   SAP Services Content for Oil and Gas
+
+-   SAP Services Content for Connected Assets
+
+
+
 
 </td>
 </tr>
@@ -762,6 +763,28 @@ Task Management
 <td valign="top">
 
 Task template: [SAP Activate Methodology for Transition to SAP BW/4HANA](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/BWHANATRANSONPRE) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP 
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Task Management
+
+</td>
+<td valign="top">
+
+Task template: [SAP Activate Methodology for SAP Business Technology Platform](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/phaseAccelerator/56a072afc5fe4cf5a3a8d2cdb0b75c53) 
 
 </td>
 </tr>
@@ -1719,7 +1742,7 @@ Test Management
 
 -   Manual testing
 
--   Automated testing with the test automation tool for SAP S/4HANA Cloud
+-   Automated testing with the test automation tool for SAP S/4HANA Cloud Public Edition
 
 
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
@@ -2889,7 +2912,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Event Broker for SAP cloud applications 
+SAP Cloud Application Event Hub 
 
 </td>
 <td valign="top">
@@ -4628,6 +4651,28 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <td valign="top">
 
 SAP Business Suite
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Identity Services – Identity Provisioning
 
 </td>
 <td valign="top">

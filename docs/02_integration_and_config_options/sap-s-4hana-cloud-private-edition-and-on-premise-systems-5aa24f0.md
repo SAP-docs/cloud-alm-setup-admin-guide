@@ -18,12 +18,19 @@ To use the Change and Transport System \(CTS\) for SAP S/4HANA Cloud Private Edi
 Currently any kind of consistent Transport Management System \(TMS\) landscape is supported. The last system in a track is always treated as a production system.
 
 > ### Note:  
+> CTS+ is not supported.
+
+> ### Note:  
 > Client-specific transport routes \(TMS option CTC\) are recommended.
 > 
 > TMS transport groups are supported.
 
 > ### Caution:  
 > If you want to implement landscape changes, please note the following:
+> 
+> -   Identical SIDs are not supported.
+> 
+> -   TMS domains with the same domain name are not supported.
 > 
 > -   Adding new systems to a track is supported as long as no consolidation routes are changed. Mind that you need to adjust the transport buffers manually.
 > 
@@ -33,11 +40,13 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > 
 > -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability. Also, transport requests created in the deleted systems are still available in the transport assignment.
 > 
-> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature, and *Feature Traceability* app.
+> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature,*Transport Analysis* app, and *Feature Traceability* app.
 > 
 > -   Switching on or off client-specific transport routes isn't supported.
 > 
-> -   Do not perform any manual transport activities in CTS with transports managed by SAP Cloud ALM, for example imports, buffer manipulations or system copies. There is no self-healing mechanism available in these cases.
+> -   We recommend avoiding manual import activities in CTS with transports managed by SAP Cloud ALM.
+> 
+> -   Do not perform buffer manipulations in CTS with transports managed by SAP Cloud ALM. There is no self-healing mechanism available.
 > 
 > -   Virtual systems are currently not supported.
 

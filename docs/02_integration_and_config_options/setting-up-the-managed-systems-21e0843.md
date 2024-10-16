@@ -49,7 +49,7 @@ Make sure that you fulfill the *Technical Prerequisites*, *Network Prerequisites
 
 ## Required SAP Notes
 
-Make sure that you've installed the latest version of the following SAP Notes:
+The following list shows you the required SAP Notes. We recommend always installing the latest ST-PI version.
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
@@ -61,16 +61,6 @@ Make sure that you've installed the latest version of the following SAP Notes:
 
 -   For ST-PI 740 SP 22, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
--   For ST-PI 740 SP 21, install correction [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
-
--   For ST-PI 740 SP 20, install corrections [3240966](https://me.sap.com/notes/3240966) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
-
--   For ST-PI 740 SP 19, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
-
--   For ST-PI 740 SP 18, install corrections [3196078](https://me.sap.com/notes/3196078) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
-
-    It's recommended to install the current version of collective corrections.
-
 
 
 
@@ -81,6 +71,17 @@ Make sure that you've installed the latest version of the following SAP Notes:
 After getting the system ready at ST-PI level, continue with establishing the connection from the managed sytem to SAP Cloud ALM.
 
 SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite, and SAP NetWeaver Application Server for ABAP \(7.40 or higher\) use a PUSH mechanism to push transport management data to SAP Cloud ALM.
+
+> ### Note:  
+> If you have multiple SAP Cloud ALM tenants, you need to decide which SAP Cloud ALM instance the managed system connects to.
+> 
+> Here's what we recommend:
+> 
+> -   only connect your productive environments to your productive SAP Cloud ALM instance
+> 
+> -   don't connect your productive environment to both SAP Cloud ALM instances
+> 
+> -   only connect demo and sandbox environments to your test SAP Cloud ALM instance
 
 On the Export Portal, choose the tab *Configure the PUSH Data Provider*.
 
@@ -94,6 +95,13 @@ Then, follow the steps to configure the PUSH data provider.
 > For example, in landscape *DEV:100* \> *QUA:200* \> *PRD:300*, run transaction `/SDF/ALM_SETUP` in PRD:000, DEV:000, QUA:000, and DEV:100.
 > 
 > For the test landscape, *S4H:100* \> *S4H:200* \> *S4H:300*, run transaction `/SDF/ALM_SETUP` in S4H:000 and S4H:100.
+
+> ### Note:  
+> If your system is hosted by SAP, remember to enter the proxy host and port when maintaining your HTTP destination.
+> 
+> -   Proxy Host: Enter value `proxy`
+> 
+> -   Proxy Port: Enter value `3128`
 
 
 

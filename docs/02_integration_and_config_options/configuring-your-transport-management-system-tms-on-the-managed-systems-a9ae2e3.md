@@ -14,7 +14,7 @@ The *Features* app reads important information about the system landscape such a
 
 In most cases, you're using the SAP Cloud ALM Deployment Management scenario to manage changes in the following system landscapes: *DEV:100* \> *QUA:200* \> *\(PRE:XXX\)* \> *PRD:300*.
 
-For additional information, see [Change and Transport System](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c.html?locale=en-US) and [Configuring Transport Routes](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/44b4a1df7acc11d1899e0000e829fbbd-239.html?locale=en-US)
+For additional information, see [Change and Transport System](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c.html?locale=en-US) and [Configuring Transport Routes](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/44b4a1df7acc11d1899e0000e829fbbd-239.html?locale=en-US).
 
 
 

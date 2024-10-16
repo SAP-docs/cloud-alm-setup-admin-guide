@@ -16,6 +16,15 @@ To use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM environm
 > ### Note:  
 > Only transports exported after you established the connection of your SAP S/4HANA Cloud development and customizing system to SAP Cloud ALM are pushed to SAP Cloud ALM. Currently, there is no historic data available.
 
+> ### Note:  
+> If you have multiple SAP Cloud ALM tenants, you need to decide which SAP Cloud ALM instance the tenants connect to.
+> 
+> Here's what we recommend:
+> 
+> -   only connect your SAP S/4HANA Cloud Public Edition to your productive SAP Cloud ALM instance
+> 
+> -   don't connect your productive environment to both SAP Cloud ALM instances
+
 
 
 <a name="loioa4238a9e586046268a1de5ea03ec6930__section_i1h_2n3_wwb"/>

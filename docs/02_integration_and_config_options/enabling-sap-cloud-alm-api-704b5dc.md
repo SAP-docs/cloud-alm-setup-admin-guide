@@ -33,7 +33,7 @@ To set up the connection between SAP Cloud ALM and your managed systems and/or s
 
 An entitlement is your right to provision and consume a resource. In other words, entitlements are the service plans that you're entitled to use.
 
-1.  Open the SAP BTP cockpit.
+1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/).
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement and open the subaccount that contains your SAP Cloud ALM subscription.
 

@@ -44,7 +44,7 @@ To set up the connection between SAP Cloud ALM and your managed systems and/or s
 
 In Cloud Foundry, your subaccount can further be subdivided by spaces, which is where application development, deployment, and maintenance take place.
 
-1.  Open the SAP BTP cockpit.
+1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/).
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement and go to the subaccount that contains your SAP Cloud ALM subscription.
 

@@ -17,9 +17,9 @@ Sufficient resources for standard use are included, per default:
 
 
 
-You can monitor the SAP HANA memory consumption in SAP Cloud ALM in the *Health Monitoring* app by selecting your SAP Cloud ALM service and checking the *SAP Cloud ALM HANA Memory* metric.
+You can monitor usage metrics related to your SAP Cloud ALM tenant, such as your memory consumption and your outbound API usage, in the *Tenant Information* app.
 
-![](images/HANA-MemorySize_dd25b76.png)
+![](images/WN-TenantInfo_af0ab8a.png)
 
 To reduce your memory usage, you can change your housekeeping settings in SAP Cloud ALM for operations apps. For more information, see [Housekeeping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/housekeeping.html) on SAP Support Portal.
 

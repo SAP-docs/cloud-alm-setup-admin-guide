@@ -55,4 +55,7 @@ With access control, you can give users authorization for accessing specific lan
 -   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "An SAP service is usually delivered as part of a service contract like SAP MaxAttention,
 		SAP ActiveAttention or SAP Enterprise Support.")**  
 An SAP service is usually delivered as part of a service contract like SAP MaxAttention, SAP ActiveAttention or SAP Enterprise Support.
+-   **[Connecting with SAP-Managed Connectivity](connecting-with-sap-managed-connectivity-934c2a1.md "The integration between SAP Cloud ALM and SAP cloud services is orchestrated by
+		SAP-Managed Connectivity.")**  
+The integration between SAP Cloud ALM and SAP cloud services is orchestrated by SAP-Managed Connectivity.
 
