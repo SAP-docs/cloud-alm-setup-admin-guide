@@ -39,7 +39,7 @@ Make sure that you fulfill the *Technical Prerequisites*, *Network Prerequisites
 > For the profile parameter check, you can use transaction `RZ11` and `TU02` in the managed system.
 
 > ### Note:  
-> For a SAP S/4 HANA Cloud Private Edition:
+> For SAP S/4 HANA Cloud Private Edition:
 > 
 > -   You can request user `CUST_TC` for client 000. This user is authorized to run the setup transaction.
 > 
@@ -107,17 +107,26 @@ Then, follow the steps to configure the PUSH data provider.
 
 ### Generated Jobs After the Initial Registration
 
-In the system where you run `n/SDF/ALM_SETUP` in client 000 you get the following messages:
+After you've maintained the HTTP destination, in the system where you run `n/SDF/ALM_SETUP` in client 000 you get the following messages:
 
 -   Scheduler job for \(entry name you chose in the Target ALM description field\) has been scheduled.
 
 -   Auto Discovery job for \(entry name you chose in the Target ALM description field\) has been triggered.
 
 
-Next, check the jobs in client 000.
+You can check jobs in client 000 by choosing *System* \> *Jobs* \> *Job Overview*.
+
+The following jobs should have run:
+
+-   *CALM Auto Discovery* with status: Finished.
+
+-   *CALM Heartbeat* with status: Finished and one job in status Released with 5 min frequency.
+
+-   *CALM Scheduler* with status: Finished and one job in status Released with 1 min frequency.
+
 
 > ### Note:  
-> Make sure that the *CALM Scheduler CALM\_CONNECT* job has the status: Finished and one job in status released with 1 min frequency. This job triggers the subsequent deployment jobs that push the transport management data to SAP Cloud ALM.
+> Make sure that the *CALM Scheduler* job has the status: Finished and one job in status released with 1 min frequency. This job triggers the subsequent deployment jobs that push the transport management data to SAP Cloud ALM.
 
 After successful registration, you get an entry in *Landscape Management* for S4H:000 with the same LMS ID.
 

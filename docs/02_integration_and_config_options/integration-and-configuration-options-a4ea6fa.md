@@ -12,6 +12,9 @@ On this interactive image, you can see all optional setup steps for SAP Cloud AL
 
 ![Optional Setup Steps for SAP Cloud ALM](images/Image_Map_Integration_and_Configuration_Options_c84c1e9.png)
 
+-   **[Application Configuration](application-configuration-ce08e9d.md "For several apps in SAP Cloud ALM, additional setup steps are required or
+		possible.")**  
+For several apps in SAP Cloud ALM, additional setup steps are required or possible.
 -   **[Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md "The connection between individual SAP Cloud applications and your managed systems and/or
 		services is handled via an SAP Cloud ALM API service instance in
 		your SAP Cloud ALM subaccount.")**  
@@ -55,7 +58,4 @@ With access control, you can give users authorization for accessing specific lan
 -   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "An SAP service is usually delivered as part of a service contract like SAP MaxAttention,
 		SAP ActiveAttention or SAP Enterprise Support.")**  
 An SAP service is usually delivered as part of a service contract like SAP MaxAttention, SAP ActiveAttention or SAP Enterprise Support.
--   **[Connecting with SAP-Managed Connectivity](connecting-with-sap-managed-connectivity-934c2a1.md "The integration between SAP Cloud ALM and SAP cloud services is orchestrated by
-		SAP-Managed Connectivity.")**  
-The integration between SAP Cloud ALM and SAP cloud services is orchestrated by SAP-Managed Connectivity.
 

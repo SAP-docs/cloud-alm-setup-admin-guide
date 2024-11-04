@@ -24,9 +24,11 @@ To use this integration in your project, you need to configure a service and an 
 -   You have a **Test** system for the test automation tool for SAP S/4HANA Cloud Public Edition.
 
     > ### Note:  
-    > Don't connect your SAP S/4HANA Cloud **Production** system to SAP Cloud ALM. Test cases shouldn't be tested in production.
+    > Don't connect your SAP S/4HANA Cloud **Starter** or **Production** system to SAP Cloud ALM.
 
 -   You've set up the app *Test Your Processes* in the test automation tool for SAP S/4HANA Cloud Public Edition, as described [here](https://help.sap.com/docs/SAP_S4HANA_CLOUD/2ab07d21f68c41109a2eef21b8fd8466/5d867592753c465aadb81115de672f91.html).
+
+-   Your user in SAP Cloud ALM has the role *Global Administrator*.
 
 
 
@@ -37,19 +39,17 @@ To use this integration in your project, you need to configure a service and an 
 
 1.  To communicate with the test automation tool for SAP S/4HANA Cloud Public Edition, a communication user is required. If you need to create the communication user, follow the procedure described in [Communication Management](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/LATEST/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html). The communication scenario is `COM0620`.
 
-2.  In the SAP Cloud ALM launchpad, open the *Administration* page.
+2.  On the *Administration* page of the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-3.  Open the *Landscape Management* app.
+3.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
 
-4.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
-
-5.  On the *Services & Systems* page, choose <span class="SAP-icons-V5"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
+4.  On the *Services & Systems* page, choose <span class="SAP-icons-V5"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
 
     The list now displays all SAP S/4HANA Cloud Public Edition tenants that are currently connected to your SAP Cloud ALM tenant.
 
-6.  Check whether there's an existing service for which the root URL matches the root URL of your test SAP S/4HANA Cloud Public Edition system. If so, proceed directly to step 8.
+5.  Check whether there's an existing service for which the root URL matches the root URL of your test SAP S/4HANA Cloud Public Edition system. If so, proceed directly to step 8.
 
-7.  If no service exists for your SAP S/4HANA Cloud Public Edition system, choose *Add* \> *New Cloud Service* and enter the following parameters:
+6.  If no service exists for your SAP S/4HANA Cloud Public Edition system, choose *Add* \> *New Service* and enter the following parameters:
 
     -   *Name*: Enter a name that follows a naming convention that fits your organization, for example `<Root_URL_S/4>` or `<S/4_System_SID>`.
 
@@ -57,30 +57,28 @@ To use this integration in your project, you need to configure a service and an 
 
     -   *Description*: Enter a short description, such as `Test SAP S/4HANA Cloud Public Edition for <Department, if relevant>`.
 
-    -   *Tenant ID*: Enter a meaningful tenant ID for the test automation tool for SAP S/4HANA Cloud Public Edition that uniquely identifies the service in the *Landscape Management* app. This ID can be freely chosen.
+    -   *System Number*: Enter the system number that is available in [SAP for Me](https://me.sap.com/systemsprovisioning/systems). It is a unique identifier or alias for the tenant and is based on the tenant name.
 
     -   *Service Type*: Select `SAP S/4HANA Cloud`.
 
-    -   *Tenant Type*: Select `Test`.
+    -   *Role*: Select `Test`.
 
     -   *Root URL*: Enter the root URL of your SAP S/4HANA Cloud Public Edition launchpad, starting with `https` and ending with `.com` or `.sap`.
-
-    -   *External ID*: Leave empty.
 
     -   *Customer Number*: Enter your customer number.
 
     -   *Customer Name*: Enter your customer name.
 
 
-8.  Save the new service.
+7.  Save the new service.
 
     You can now see it in the list.
 
-9.  To create an endpoint, select the service.
+8.  To create an endpoint, select the service.
 
-10. Under *Endpoints*, check whether there's an existing endpoint with the use case *Test Automation* or *Test Management*. If so, you can update it by choosing :pencil2:.
+9.  Under *Endpoints*, check whether there's an existing endpoint with the use case *Test Automation* or *Test Management*. If so, you can update it by choosing :pencil2:.
 
-11. If no endpoint exists for the *Test Automation* or *Test Management* use case, choose *Add* and enter the following parameters:
+10. If no endpoint exists for the *Test Automation* or *Test Management* use case, choose *Add* and enter the following parameters:
 
     -   *Endpoint Name*: Enter a meaningful and unique endpoint name that helps you easily identify the test automation tool. This name will later be displayed in the test management apps.
 
@@ -92,18 +90,14 @@ To use this integration in your project, you need to configure a service and an 
 
         The final URL follows the pattern `https://<SAP S/4HANA Cloud Public Edition Root URL>/sap/bc/http/sap/sap_calm_testautomation_api/`.
 
-    -   *Connection Test Path*: Leave empty.
-
-        If this field is already prefilled, make sure to remove any extra parameters.
-
     -   *Authentication Type*: Select `Basic Authentication`.
 
-    -   *User*: Enter the communication user.
+    -   *Client ID*: Enter the communication user.
 
-    -   *Password*: Enter the password for the created communication user.
+    -   *Client Secret*: Enter the password for the created communication user.
 
 
-12. Save the new endpoint.
+11. Save the new endpoint.
 
 
 > ### Note:  

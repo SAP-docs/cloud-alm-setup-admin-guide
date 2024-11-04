@@ -34,7 +34,7 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > 
 > -   Adding new systems to a track is supported as long as no consolidation routes are changed. Mind that you need to adjust the transport buffers manually.
 > 
-> -   Refreshing a \(test\) system is supported if the system ID stays the same. This still means, the transport buffers and imports need to be adjusted manually.
+> -   Refreshing a \(test\) system is supported if the system ID stays the same. This still means, the transport buffers and imports need to be adjusted manually. For more information, see [System Refresh](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html?anchorId=section_copy_copy_co#section_copy).
 > 
 > -   Changing delivery routes is partly supported. This means, the transport buffers need to be adjusted manually and removed systems are still reported on in the feature traceability.
 > 

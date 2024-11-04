@@ -16,5 +16,5 @@ The termination process starts with a notice period. The requester of the global
 **Related Information**  
 
 
-[Lifecycle Management of Your SAP Cloud ALM Tenant](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb)
+[Lifecycle Management of Your SAP Cloud ALM Tenant](https://help.sap.com/docs/cloud-alm/setup-administration/troubleshooting-faq#lifecycle-management-of-your-sap-cloud-alm-tenant)
 

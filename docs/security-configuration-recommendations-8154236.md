@@ -115,53 +115,6 @@ Cross
 </td>
 <td valign="top">
 
-Recommended
-
-</td>
-<td valign="top">
-
-Client Security
-
-</td>
-<td valign="top">
-
-Cookies
-
-</td>
-<td valign="top">
-
-Depending on your browser, third-party cookies may be disabled by default.
-
-</td>
-<td valign="top">
-
-To be able to use the in-app help and Built-In Support, either allow third-party cookies or enter the respective domain as **Sites that can always use cookies**.
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-2023-06-14
-
-</td>
-<td valign="top">
-
-CALM-X-0002
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Cross
-
-</td>
-<td valign="top">
-
 Advanced
 
 </td>
@@ -238,7 +191,7 @@ To avoid access-related issues, for example, if the administrator leaves the com
 </td>
 <td valign="top">
 
-[Required Authorizations](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md#loio80b2c30a8d194ae8aff496bcff057cf0__section_rdm_3mt_r5b) 
+[Required Authorizations](https://help.sap.com/docs/cloud-alm/setup-administration/required-setup#required-authorizations) 
 
 </td>
 <td valign="top">
