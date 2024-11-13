@@ -4,7 +4,7 @@
 
 To learn how to set up SAP Cloud ALM for productive use, you can watch the following step-by-step how-to videos.
 
-For more detailed information, refer to the corresponding documentation under [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md).
+For more detailed information, refer to the corresponding documentation under [Required Setup for SAP Cloud ALM](required-setup-for-sap-cloud-alm-80b2c30.md).
 
 
 
@@ -14,7 +14,7 @@ For more detailed information, refer to the corresponding documentation under [R
 
 Find out how to request the provisioning of SAP Cloud ALM on SAP for Me.
 
-Corresponding documentation: [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md)
+Corresponding documentation: [Requesting SAP Cloud ALM](../requesting-sap-cloud-alm-2ba35e6.md)
 
 
 
@@ -26,7 +26,7 @@ Corresponding documentation: [Requesting SAP Cloud ALM](requesting-sap-cloud-alm
 
 Find out how to activate your account in the Identity Authentication service, how to create users in your Identity Authentication tenant, and how to add them to SAP Cloud ALM.
 
-Corresponding documentation: [Step 1: Onboard Users in the Identity Authentication Service](01_required_setup/step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md)
+Corresponding documentation: [Step 1: Onboard Users in the Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md)
 
 
 
@@ -38,7 +38,7 @@ Corresponding documentation: [Step 1: Onboard Users in the Identity Authenticati
 
 Find out how to add users and assign roles to them in the *User Management* app in SAP Cloud ALM and in the SAP BTP cockpit.
 
-Corresponding documentation: [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md)
+Corresponding documentation: [Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md)
 
 
 

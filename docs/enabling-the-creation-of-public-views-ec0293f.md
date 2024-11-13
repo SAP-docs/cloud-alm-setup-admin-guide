@@ -44,7 +44,7 @@ Your user has the role *Subaccount Administrator* in the subaccount that contain
 
 8.  Under *Users*, select all users who should be able to create public views.
 
-    For more information about the adding users to the role collection, see [Assigning Role Collections in the SAP BTP Cockpit](../01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md#loio7304b17f3aac4ebaa24c5c6a3a8e236e__section_amj_f5z_tqb).
+    For more information about the adding users to the role collection, see [Assigning Role Collections in the SAP BTP Cockpit](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md#loio7304b17f3aac4ebaa24c5c6a3a8e236e__section_amj_f5z_tqb).
 
 9.  Save the role collection.
 
@@ -59,7 +59,7 @@ All users with this role collection can now create public views, as described in
 
 ![](images/SUI-PublicView_cb6b8e6.png)
 
-If you want to assign this role collection to further users, follow [Step 2: Assign Roles to Users in SAP Cloud ALM](../01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md).
+If you want to assign this role collection to further users, follow [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md).
 
 **Related Information**  
 

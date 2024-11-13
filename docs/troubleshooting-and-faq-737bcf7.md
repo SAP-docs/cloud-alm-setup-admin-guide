@@ -1066,7 +1066,7 @@ Your entitlement for SAP Cloud ALM is derived from other product and support lic
 
 To see details about the license materials that are related to your entitlement, such as entitled quantity, order ID, and duration, open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me and expand the *Materials* field.
 
-For related information, refer to [Account Termination](account-termination-219d7d0.md) and KBA [3066901](https://me.sap.com/notes/3066901).
+For related information, refer to [Terminating Your Account](terminating-your-account-219d7d0.md) and KBA [3066901](https://me.sap.com/notes/3066901).
 
 </td>
 </tr>

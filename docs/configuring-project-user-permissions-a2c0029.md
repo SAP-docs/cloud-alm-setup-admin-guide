@@ -2,7 +2,9 @@
 
 # Configuring Project User Permissions
 
-Project user authorizations are defined by the project access levels, the roles users are assigned to in the user management, and the roles users are assigned to in project management.
+Assign project access levels and project roles in the *Projects and Setup* app to control the access to and ability to display or change application objects in SAP Cloud ALM for implementation apps.
+
+Project user authorizations are defined by a combination of the project access levels, the roles users are assigned to in the user management, and the roles users are assigned to in project management.
 
 In the *Projects and Setup* app, three access levels can be determined in a project:
 

@@ -2,7 +2,7 @@
 
 # Required Setup for SAP Cloud ALM
 
-After you've requested SAP Cloud ALM, there are additional mandatory configuration steps that are required to set up SAP Cloud ALM for productive use.
+After you've requested SAP Cloud ALM, there are additional mandatory steps that are required to set up SAP Cloud ALM for productive use.
 
 SAP Cloud ALM is included in your cloud subscription and helps you to implement and operate intelligent cloud and hybrid business solutions. By following steps 1-3 in the next chapters, you can start to use SAP Cloud ALM immediately.
 
@@ -20,9 +20,6 @@ If you need support, take a look at the following resources:
 
 -   [Schedule an Expert](https://me.sap.com/app/sae)
 
-
-> ### Caution:  
-> It's currently not possible to move your SAP Cloud ALM application from its original data center to a different data center. For more information, see [Lifecycle Management of Your SAP Cloud ALM Tenant](../troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb).
 
 
 
@@ -118,6 +115,9 @@ If you don't have this authorization, the *Global Administrator* can assign the 
 							Cloud ALM and assign roles to them in the User Management app, and then
 							(if required) set up landscape management.](images/Image_Map_Required_Setup_for_SAP_Cloud_ALM_d4f9ce5.png)
 
+-   **[Video-Guided Setup](video-guided-setup-cd38b1f.md "To learn how to set up SAP Cloud ALM for productive use, you can watch the following
+		step-by-step how-to videos.")**  
+To learn how to set up SAP Cloud ALM for productive use, you can watch the following step-by-step how-to videos.
 -   **[Step 1: Onboard Users in the Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md "To give further users access to SAP Cloud ALM, you need to create or import users in
 		your Identity Authentication tenant. For users to be able to sign in to SAP Cloud ALM, they
 		need to be maintained both in the Identity Authentication tenant and in SAP Cloud

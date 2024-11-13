@@ -22,11 +22,11 @@ SAP Cloud ALM doesn't directly perform actions on the ABAP system itself. Instea
 
 On the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html), you find the prerequisites for each managed system:
 
--   [SAP NetWeaver Application Server for ABAP \(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html)
+-   [SAP NetWeaver Application Server for ABAP \(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html#section_406552075_co_80551802)
 
--   [Setup for SAP S/4HANA and SAP Business Suite](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-onprem.html)
+-   [Setup for SAP S/4HANA and SAP Business Suite](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-onprem.html#section_406552075_co)
 
--   [Setup for SAP S/4HANA Cloud Private Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-priv-cloud.html)
+-   [Setup for SAP S/4HANA Cloud Private Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-priv-cloud.html#section_406552075_co)
 
 
 Each page includes a *Prerequisites* tab which shows you the required prerequisites and authorizations:

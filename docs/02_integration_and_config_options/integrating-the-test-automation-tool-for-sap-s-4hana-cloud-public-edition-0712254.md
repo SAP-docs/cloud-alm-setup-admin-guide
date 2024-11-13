@@ -92,9 +92,9 @@ To use this integration in your project, you need to configure a service and an 
 
     -   *Authentication Type*: Select `Basic Authentication`.
 
-    -   *Client ID*: Enter the communication user.
+    -   *User*: Enter the communication user.
 
-    -   *Client Secret*: Enter the password for the created communication user.
+    -   *Password*: Enter the password for the created communication user.
 
 
 11. Save the new endpoint.

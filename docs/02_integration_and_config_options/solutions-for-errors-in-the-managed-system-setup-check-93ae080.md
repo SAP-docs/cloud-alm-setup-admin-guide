@@ -61,7 +61,7 @@ Job `&1` isn't scheduled
 
 Procedure: Check transaction `/SDF/ALM_SETUP` whether the background user is configured, and the system is registered.
 
-If this isn't the case, press the *Register* button again.
+If this isn't the case, select *Register* again.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Job `/SDF/CALM_CDM_DIAGNOSTICS` hasn't \(yet\) run today
 
 For more information about the basic setup and use cases refer to the following documentation:
 
-[**SAP S/4HANA Cloud Private Edition and On-Premise Systems Setup Procedure**](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system?locale=en-US#procedure).
+[SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system?locale=en-US#procedure).
 
 
 
@@ -752,7 +752,7 @@ Confirmation message. No action is needed.
 </td>
 <td valign="top">
 
-It's recommended to enable CTC. Follow the instructions in [**Extended Transport Control**](https://help.sap.com/docs/ABAP_PLATFORM_NEW/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html?locale=en-US).
+It's recommended to enable CTC. Follow the instructions in [Extended Transport Control](https://help.sap.com/docs/ABAP_PLATFORM_NEW/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html?locale=en-US).
 
 </td>
 </tr>

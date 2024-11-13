@@ -2,7 +2,7 @@
 
 # Activating Access Control
 
-With access control, you can give users authorization for accessing specific landscape objects \(services, systems, and business services\).
+With access control lists in the *Landscape Management* app, you can give users authorization for accessing specific landscape objects \(services, systems, and business services\).
 
 By default, users with the appropriate roles can access landscape management and all landscape objects. There are no restrictions which landscape objects the user could see.
 

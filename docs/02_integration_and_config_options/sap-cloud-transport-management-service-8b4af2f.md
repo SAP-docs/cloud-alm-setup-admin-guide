@@ -548,6 +548,64 @@ If you want to use SAP Cloud ALM with SAP Build Work Zone, please follow the ins
     ![](images/Workzone_Features_1_5f041b7.png)![](images/Workzone_Features_2_95d584a.png)![](images/Workzone_Features_3_77c3a5e.png)
 
 
+
+
+### Cloud Transport Management Service Setup for BTP ABAP Environment
+
+When you set up the Cloud Transport Management service for a BTP ABAP environment, you have to configure export and import for Cloud Transport Management service.
+
+For import configuration, follow the steps described in [Creating Destinations for Deployment of References of SAP BTP, ABAP Environment](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment?version=Cloud).
+
+For export configuration, follow these steps:
+
+1.  Verify your access to your SAP Cloud ALM Cloud Transport Management environment by opening the app *Cloud Transport Management* on your SAP Cloud ALM launchpad.
+
+    > ### Note:  
+    > The URL follows a pattern like this: `https://{customer-tenant}.ts.cfapps.{region}.hana.ondemand.com/main/webapp/index.html`.
+
+    -   To design the landscape, you need the role `Transport Management Operator` in the *User Management* app, under *Implementation* \> *Cloud Transport Management*.
+
+    -   Design the landscape with one development node and as many target nodes as needed, for example like it's displayed here: ![](images/Landscape_Design_0e78ebd.png)
+
+
+2.  Create an SAP Cloud ALM API service instance [**Enabling SAP Cloud ALM API**](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-sap-cloud-alm-api?locale=en-US).
+
+3.  On the BTP ABAP Fiori launchpad, open the *Communication Arrangements* app. For more information about the app, see [Communication Arrangements](https://help.sap.com/docs/btp/sap-business-technology-platform/communication-arrangements?version=Cloud).
+
+4.  Choose *New* and search for `SAP_COM_0599` communication scenario. Then, choose *Create*.
+
+5.  Next, choose *New* to create a new communication system. Enter `CLOUD-ALM-CTMS` for the *System ID* and *System Name*.
+
+    > ### Note:  
+    > The *Host Name* is the API URL of the CALM API service key without `/api`. For example:
+    > 
+    > > ### Sample Code:  
+    > > ```
+    > > {
+    > > 			"endpoints":{
+    > > 				"Api": "https://tenant.xx10.alm.cloud.sap/api"
+    > > ```
+    > 
+    > The exact *Host Name* depends on your country/region.
+
+6.  In the *OAuth 2.0 Settings* in the *Token Endpoint* field, enter the authentication URL of your CALM API service key and add */oauth/token?grant\_type=client\_credentials* to the URL. For example: https://tmststest.authentication.sap.hana.ondemand.com/oauth/token?grant\_type=client\_credentials.
+
+7.  In the *Users for Outbound Communication* section, choose *\+* and select *oAuth 2.0* from the authentication method dropdown to create a user for outbound communication.
+
+    > ### Note:  
+    > Use the `clientid` and `clientsecret` of your CALM API service key.
+
+8.  Save your communication system.
+
+9.  In the *Communication Arrangement*, go to the *Additional Properties* section and define a CTMS node name for the export. The selected transport node must allow uploads. You should use the name of an existing node in CTMS or create a node with the same name in CTMS. For more information, see [https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes?version=Cloud](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes?version=Cloud).
+
+10. Go to the *Outbound Services* section and enter `/api/imp-cdm-transport-management-api/v1/` for the *Path*.
+
+    ![](images/path_8ee27b9.png)
+
+11. Save your entries.
+
+
 -   **[SAP Cloud Transport Management Service and the CI/CD Use Case](sap-cloud-transport-management-service-and-the-ci-cd-use-case-235276e.md "SAP Cloud Transport Management Service and the CI/CD Use Case")**  
 SAP Cloud Transport Management Service and the CI/CD Use Case
 

@@ -1,6 +1,6 @@
 <!-- loio219d7d0c369c4c7bb68860e7710f25b3 -->
 
-# Account Termination
+# Terminating Your Account
 
 When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be terminated after a grace period has passed.
 

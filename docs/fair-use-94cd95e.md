@@ -35,6 +35,10 @@ For additional memory usage, beyond the standard, you can subscribe to the micro
 
 For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md).
 
+-   **[Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md "By subscribing to SAP Cloud ALM, tenant extension, you can get additional
+		SAP Cloud ALM tenants for your customer number.")**  
+By subscribing to *SAP Cloud ALM, tenant extension*, you can get additional SAP Cloud ALM tenants for your customer number.
+
 **Related Information**  
 
 

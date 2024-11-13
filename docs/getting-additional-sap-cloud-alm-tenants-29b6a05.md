@@ -2,7 +2,7 @@
 
 # Getting Additional SAP Cloud ALM Tenants
 
-By subscribing to the microservice *SAP Cloud ALM, tenant extension*, you can get additional SAP Cloud ALM tenants for your customer number.
+By subscribing to *SAP Cloud ALM, tenant extension*, you can get additional SAP Cloud ALM tenants for your customer number.
 
 Here's what you get by purchasing a tenant extension:
 
@@ -16,7 +16,7 @@ Here's what you get by purchasing a tenant extension:
 
 
 > ### Note:  
-> You're not required to request the additional SAP Cloud ALM tenant. Instead, you can also use the additional memory and data transfer volume on your existing SAP Cloud ALM tenant.
+> You don't have to request the additional SAP Cloud ALM tenant. Instead, you can also use the additional memory and data transfer volume on your existing SAP Cloud ALM tenant.
 
 There's no restriction on the number of tenant extensions which you can subscribe to. You can get as many as you need for your organization and purposes.
 
@@ -39,7 +39,7 @@ For recommendations on how to leverage multiple SAP Cloud ALM tenants in your la
 
 ## Procedure
 
-To get an additional tenant, first purchase the *SAP Cloud ALM, tenant extension*.
+To get an additional tenant, first purchase the *SAP Cloud ALM, tenant extension*. To do so, please get in touch with your account executive or your sales representative.
 
 Then, you can request the provisioning of your additional tenant or tenants on SAP for Me, as described in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
 

@@ -15,9 +15,9 @@ SAP Cloud Transport Management Service and the CI/CD Use Case
     ![](images/Diagram_85f60ba.png)
 
 
-For the initial setup of SAP Continuous Integration and Delivery \(CI/CD\), please follow the guide [https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud)
+For the initial setup of SAP Continuous Integration and Delivery \(CI/CD\), see [Initial Setup](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud)
 
-To integrate cTMS into your CI/CD pipeline please follow this documentation: [https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-your-repository?version=Cloud\#\(optional\)-integrate-sap-cloud-transport-management-into-your-pipeline](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-your-repository?version=Cloud#(optional)-integrate-sap-cloud-transport-management-into-your-pipeline) 
+To integrate CTMS into your CI/CD pipeline, see [Configure a Cloud Foundry Environment Job in Your Repository](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-cloud-application-programming-model-job-in-your-repository?q=configure+sap+fiori+in+cloud+foundry+environment+job+in+your+repository&version=Cloud#release).
 
-To create the nodes in the cTMS in this context, please follow the documentation [https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes), especially steps 1 and 2.
+To create nodes in CTMS, see [Create Transport Nodes](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes).
 

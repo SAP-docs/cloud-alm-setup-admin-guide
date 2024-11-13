@@ -4,23 +4,65 @@
 
 # About This Guide
 
-SAP Cloud ALM is a cloud-based application lifecycle management offering that allows you to implement and operate your cloud and hybrid business solutions.
+This guide describes the steps you need to perform to set up, configure, and administer SAP Cloud ALM.
 
 
 
-This guide describes the steps you need to perform to set up, configure, and administer SAP Cloud ALM. It also provides important information about data protection and privacy and security topics.The guide addresses system administrators and key users as a target audience.
+<a name="loio6720349dcc2341daa848a58270cd193c__section_gln_kc3_hdc"/>
 
-> ### Tip:  
-> To leave feedback and contribute to this guide, choose <span class="SAP-icons-V5"></span> Feedback and select from one of the following options:
-> 
-> -   *Comments*: Leave a comment about a documentation page directly on SAP Help Portal. Before you can comment, you need to sign in with your S-user or P-user.
-> 
-> -   *Create issue* \(English version only\): Provide feedback about a documentation page via issue on GitHub. To create an issue, you need to sign in to your GitHub account.
-> 
-> -   *Edit document* \(English version only\): Contribute to a documentation page via pull request on GitHub. To create a pull request, you need to sign in to your GitHub account.
-> 
-> 
-> This lets you get in contact with the technical authors responsible for the SAP Help Portal page to discuss documentation-related issues.
+## Target Audience
+
+-   System administrators
+-   Decision makers
+-   Key users
+
+
+
+<a name="loio6720349dcc2341daa848a58270cd193c__section_vbd_vc3_hdc"/>
+
+## Overview of the Main Sections
+
+-   [Availability](availability-288d15a.md): Learn about the technical prerequisites of SAP Cloud ALM, the available system languages, and EU and NS2 access.
+
+-   [Supported Solutions](supported-solutions-3ebab44.md): Explore the ways in which your SAP products are supported by SAP Cloud ALM.
+
+-   [Fair Use](fair-use-94cd95e.md): See which resources in SAP Cloud ALM you're entitled to.
+
+-   [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md): Find out how to request an SAP Cloud ALM tenant on SAP for Me.
+
+-   [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md): Complete the mandatory steps that are required to set up SAP Cloud ALM for productive use.
+
+-   [Integration and Configuration Options](02_integration_and_config_options/integration-and-configuration-options-a4ea6fa.md): Learn about additional integration and configuration options for SAP Cloud ALM.
+
+-   [Administration](administration-52d7d71.md): Find out how to efficiently administer your SAP Cloud ALM tenant.
+
+-   [Troubleshooting and FAQ](troubleshooting-and-faq-737bcf7.md): Find answers to the most common questions and issues that may arise during the setup and administration of SAP Cloud ALM.
+
+
+
+
+<a name="loio6720349dcc2341daa848a58270cd193c__section_yvb_pc3_hdc"/>
+
+## Feedback on This Guide
+
+Collaboration is one of the core values that helps us grow and improve. Your feedback as an SAP customer or partner has always been essential to make sure our SAP Help Portal content is hitting the mark.
+
+To leave feedback and contribute to this guide, choose <span class="SAP-icons-V5"></span> Feedback and select from one of the following options:
+
+-   *Comments*: Leave a comment about a documentation page directly on SAP Help Portal. Before you can comment, you need to sign in with your S-user or P-user.
+
+-   *Create issue* \(English version only\): Provide feedback about a documentation page via issue on GitHub. To create an issue, you need to sign in to your GitHub account.
+
+-   *Edit document* \(English version only\): Contribute to a documentation page via pull request on GitHub. To create a pull request, you need to sign in to your GitHub account.
+
+
+This lets you get in contact with the technical authors responsible for the SAP Help Portal page to discuss documentation-related issues.
+
+
+
+<a name="loio6720349dcc2341daa848a58270cd193c__section_bcw_jc3_hdc"/>
+
+## Information in This Guide
 
 SAP makes no warranty, either expressed or implied, for the information provided here. Due to short-term software updates, completeness cannot be guaranteed and the information is subject to change. For the same reasons, translations of this guide into languages other than English may not reflect the latest changes.
 
