@@ -43,7 +43,7 @@ Make sure that you fulfill the *Technical Prerequisites*, *Network Prerequisites
 > 
 > -   You can request user `CUST_TC` for client 000. This user is authorized to run the setup transaction.
 > 
-> -   User `BATCH_USER` can be specified as background user.
+> -   `BATCH_USER` is always available in the managed system and doesn't expire. You can also specifiy it as background user.
 
 
 

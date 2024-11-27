@@ -30,6 +30,4 @@ In addition to manual testing, which is performed directly in SAP Cloud ALM, you
 -   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "An SAP service is usually delivered as part of a service contract like SAP MaxAttention,
 		SAP ActiveAttention or SAP Enterprise Support.")**  
 An SAP service is usually delivered as part of a service contract like SAP MaxAttention, SAP ActiveAttention or SAP Enterprise Support.
--   **[](-b788f20.md "")**  
-
 

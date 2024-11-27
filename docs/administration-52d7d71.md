@@ -8,15 +8,15 @@ Most of these tasks can be completed directly in SAP Cloud ALM. Others need to b
 
 If you originally requested the provisioning of SAP Cloud ALM, you've received all required authorizations to work in these tools. If you didn't request SAP Cloud ALM, make sure that the required roles that are detailed in the **Prerequisites** sections of the following pages are assigned to you.
 
--   **[Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me-9d4aa2a.md "The Systems & Provisioning dashboard on SAP for Me is your one-stop
-		place for all your active public cloud systems on SAP BTP.")**  
+-   **[Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me-9d4aa2a.md "The Systems & Provisioning dashboard on SAP for Me is your
+		one-stop place for all your active public cloud systems on SAP BTP.")**  
 The *Systems & Provisioning* dashboard on SAP for Me is your one-stop place for all your active public cloud systems on SAP BTP.
 -   **[Managing Users](managing-users-04a9231.md "After the initial onboarding of users during the required setup, other tasks may
 		arise for the administration of users in SAP Cloud ALM.")**  
 After the initial onboarding of users during the [required setup](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md), other tasks may arise for the administration of users in SAP Cloud ALM.
--   **[Configuring Advanced Access](configuring-advanced-access-b7c1490.md "In addition to the role management options in the User Management app, with
-		which you can give users the authorizations for certain tasks and to certain apps, you can
-		also restrict access to certain objects.")**  
+-   **[Configuring Advanced Access Authorizations](configuring-advanced-access-authorizations-b7c1490.md "In addition to the role management options in the User Management
+		app, with which you can give users the authorizations for certain tasks and to certain apps,
+		you can also restrict access to certain objects.")**  
 In addition to the role management options in the *User Management* app, with which you can give users the authorizations for certain tasks and to certain apps, you can also restrict access to certain objects.
 -   **[Setting Up Email Notifications](setting-up-email-notifications-1d1fa37.md "To make sure that users are aware of tasks or monitoring events that require their
 		attention, you can set up two different kinds of email notifications.")**  
@@ -32,9 +32,9 @@ The integration between SAP Cloud ALM and several SAP cloud services is orchestr
 -   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By using the SAP Audit Log Viewer service for SAP BTP, you can view the
 		audit logs to track the end user activity in SAP Cloud ALM.")**  
 By using the SAP Audit Log Viewer service for SAP BTP, you can view the audit logs to track the end user activity in SAP Cloud ALM.
--   **[Terminating Your Account](terminating-your-account-219d7d0.md "When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be
-		terminated after a grace period has passed.")**  
-When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be terminated after a grace period has passed.
+-   **[Closing Your Account](closing-your-account-219d7d0.md "When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be
+		deleted after a grace period has passed.")**  
+When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be deleted after a grace period has passed.
 
 **Related Information**  
 

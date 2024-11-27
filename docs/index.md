@@ -45,7 +45,7 @@
     -   [Managing Users](managing-users-04a9231.md)
         -   [Add, Deactivate, and Delete Users](add-deactivate-and-delete-users-eaa4cab.md)
         -   [Process Approval Requests](process-approval-requests-3a0cad5.md)
-    -   [Configuring Advanced Access](configuring-advanced-access-b7c1490.md)
+    -   [Configuring Advanced Access Authorizations](configuring-advanced-access-authorizations-b7c1490.md)
         -   [Activating Access Control](activating-access-control-4d0162b.md)
         -   [Configuring Project User Permissions](configuring-project-user-permissions-a2c0029.md)
     -   [Setting Up Email Notifications](setting-up-email-notifications-1d1fa37.md)
@@ -54,6 +54,6 @@
     -   [Enabling the Creation of Public Views](enabling-the-creation-of-public-views-ec0293f.md)
     -   [Using SAP-Managed Connectivity](using-sap-managed-connectivity-934c2a1.md)
     -   [Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md)
-    -   [Terminating Your Account](terminating-your-account-219d7d0.md)
+    -   [Closing Your Account](closing-your-account-219d7d0.md)
 -   [Troubleshooting and FAQ](troubleshooting-and-faq-737bcf7.md)
 

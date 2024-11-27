@@ -42,6 +42,8 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > 
 > -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature,*Transport Analysis* app, and *Feature Traceability* app.
 > 
+> -   Manually deleted transports in the managed system are still available in the assign pop-up, feature, *Transport Analysis* app, and *Feature Traceability* app.
+> 
 > -   Switching on or off client-specific transport routes isn't supported.
 > 
 > -   We recommend avoiding manual import activities in CTS with transports managed by SAP Cloud ALM.

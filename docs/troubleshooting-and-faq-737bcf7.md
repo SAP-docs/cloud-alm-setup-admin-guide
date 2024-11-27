@@ -117,7 +117,7 @@ The *Region* drop-down menu on SAP for Me offers a complete list of all data cen
 
 For an overview of the data centers that are currently available and those that are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
 
-[Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) on SAP Security and Trust contains a full list of all **live** data centers, even ones that are no longer supported for new SAP Cloud ALM tenants \(see next FAQ entry\).
+[Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) under SAP Security and Trust contains a full list of all **live** data centers, even ones that are no longer supported for new SAP Cloud ALM tenants \(see next FAQ entry\).
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ You want to provision your SAP Cloud ALM tenant in the **Netherlands | Amsterdam
 </td>
 <td valign="top">
 
-The **Netherlands | Amsterdam** region was available during the initial phase of the SAP Cloud ALM rollout, which is why it may still be listed at different places on SAP websites, for example, under [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) in the SAP Trust Center.
+The **Netherlands | Amsterdam** region was available during the initial phase of the SAP Cloud ALM rollout, which is why it may still be listed at different places on SAP websites, for example, under [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) under SAP Security and Trust.
 
 However, this region is no longer available for the provisioning of SAP Cloud ALM.
 
@@ -968,12 +968,16 @@ For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-add
 
 You want to move your SAP Cloud ALM application to a different data center.
 
+You want to move your SAP Cloud ALM application to a different region.
+
+You want to change the region of your SAP Cloud ALM application.
+
 </td>
 <td valign="top">
 
 It's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
 
-However, you can **migrate** your SAP Cloud ALM application to a different data center.
+However, you can **migrate** your SAP Cloud ALM application to a different data center. For more information, refer to the next FAQ entry.
 
 </td>
 </tr>
@@ -981,6 +985,10 @@ However, you can **migrate** your SAP Cloud ALM application to a different data 
 <td valign="top">
 
 You want to migrate your SAP Cloud ALM application to a different data center.
+
+You want to migrate your SAP Cloud ALM application to a different region.
+
+You want to change the region of your SAP Cloud ALM application.
 
 </td>
 <td valign="top">
@@ -1066,7 +1074,7 @@ Your entitlement for SAP Cloud ALM is derived from other product and support lic
 
 To see details about the license materials that are related to your entitlement, such as entitled quantity, order ID, and duration, open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me and expand the *Materials* field.
 
-For related information, refer to [Terminating Your Account](terminating-your-account-219d7d0.md) and KBA [3066901](https://me.sap.com/notes/3066901).
+For related information, refer to [Closing Your Account](closing-your-account-219d7d0.md) and KBA [3066901](https://me.sap.com/notes/3066901).
 
 </td>
 </tr>
