@@ -290,7 +290,7 @@ You can't find or didn't receive your activation email for your Identity Authent
 
 Search for an email with the subject **Activate Your Account for...** Don't forget to also check your spam folder.
 
-If you still can't find it, create an incident on component SV-CLM-INF-ONB to have the activation email resent to you.
+If you still can't find it, create a case on component SV-CLM-INF-ONB to have the activation email resent to you.
 
 </td>
 </tr>
@@ -498,7 +498,7 @@ Your Identity Authentication tenant was created in a different data center than 
 </td>
 <td valign="top">
 
-You can request it be moved by raising an incident on component BC-IAM-IDS.
+You can request it be moved by raising a case on component BC-IAM-IDS.
 
 </td>
 </tr>
@@ -684,7 +684,7 @@ You can't find or didn't receive your activation email for your Identity Authent
 
 Search for an email with the subject **Activate Your Account for...** Don't forget to also check your spam folder.
 
-If you still can't find it, create an incident on component SV-CLM-INF-ONB to have the activation email resent to you.
+If you still can't find it, create a case on component SV-CLM-INF-ONB to have the activation email resent to you.
 
 </td>
 </tr>
@@ -883,12 +883,26 @@ Refer to KBA [3123560](https://me.sap.com/notes/3123560).
 <tr>
 <td valign="top">
 
-You want to subscribe to additional applications in the subaccount containing your SAP Cloud ALM subscription.
+You want to know why a new global account is created as part of the provisioning of SAP Cloud ALM.
 
 </td>
 <td valign="top">
 
-You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
+Refer to KBA [3152095](https://me.sap.com/notes/3152095).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to subscribe to additional products, applications, or services in the subaccount containing your SAP Cloud ALM subscription.
+
+</td>
+<td valign="top">
+
+You can't subscribe to any additional products or applications or to services that aren't related to SAP Cloud ALM in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
+
+For more information, refer to KBA [3551681](https://me.sap.com/notes/3551681).
 
 </td>
 </tr>

@@ -16,7 +16,9 @@ Here's what you get by purchasing a tenant extension:
 
 
 > ### Note:  
-> You don't have to request the additional SAP Cloud ALM tenant. Instead, you can also use the additional memory and data transfer volume on your existing SAP Cloud ALM tenant.
+> You don't have to request the provisioning of your additional SAP Cloud ALM tenant. Instead, you can also use the additional memory and data transfer volume on your existing SAP Cloud ALM tenant.
+> 
+> Each additional SAP Cloud ALM tenant will be provisioned in its own dedicated SAP BTP global account.
 
 There's no restriction on the number of tenant extensions which you can subscribe to. You can get as many as you need for your organization and purposes.
 

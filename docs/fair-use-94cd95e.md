@@ -31,7 +31,7 @@ To cover extended use scenarios, you can subscribe to additional services.
 
 ## SAP Cloud ALM, Tenant Extension
 
-For additional memory usage, beyond the standard, you can subscribe to the microservice *SAP Cloud ALM, tenant extension*. This service provides you with an additional SAP Cloud ALM tenant, which comes with 8 GB of SAP HANA memory and 8 GB of monthly outbound API data transfer.
+For additional memory usage, beyond the standard, you can subscribe to *SAP Cloud ALM, tenant extension*. This service provides you with an additional SAP Cloud ALM tenant, which comes with 8 GB of SAP HANA memory and 8 GB of monthly outbound API data transfer.
 
 For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md).
 

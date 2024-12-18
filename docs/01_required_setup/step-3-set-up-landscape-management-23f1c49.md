@@ -6,6 +6,8 @@ As the last step of the required setup, services and systems need to be set up i
 
 Landscape management in SAP Cloud ALM helps you manage information about your services, systems, and business services. This information is the basis for all SAP Cloud ALM apps.
 
+To see which services and systems are supported by SAP Cloud ALM, refer to [Supported Solutions](../supported-solutions-3ebab44.md).
+
 
 
 <a name="loio23f1c49b224b4f17b2d959e01ae9c930__section_is1_q55_fzb"/>
@@ -54,9 +56,8 @@ For more information, see [Access Control](https://help.sap.com/viewer/877c96cf9
 
 If you encounter issues while working with the *Landscape Management* app, take a look at [Landscape Management – Troubleshooting and Customer Support](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management.html?anchorId=section_667953570_co) on SAP Support Portal.
 
--   **[Services](services-d5f36cc.md "The import method of services in SAP Cloud ALM depends on the service type of your
-		solution.")**  
-The import method of services in SAP Cloud ALM depends on the service type of your solution.
+-   **[Services](services-d5f36cc.md "The import method of services in SAP Cloud ALM depends on the service type of your solution.")**  
+The import method of services in SAP Cloud ALM depends on the service type of your [solution](../supported-solutions-3ebab44.md).
 -   **[Systems](systems-d9d672a.md "Most systems can be registered with an ABAP report.")**  
 Most systems can be registered with an ABAP report.
 

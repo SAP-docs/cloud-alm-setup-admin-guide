@@ -51,6 +51,8 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > -   Do not perform buffer manipulations in CTS with transports managed by SAP Cloud ALM. There is no self-healing mechanism available.
 > 
 > -   Virtual systems are currently not supported.
+> 
+> -   We don't support client copies in the *Features* app. If you're creating a client copy, we suggest you first create a new client. Then, you should wait until you connect the newly created client using TMS transport routes, making it available in SAP Cloud ALM. Once you have completed the distribution into the production system of transport requests released before the client copy, you can activate the transport routes to make the new client available in SAP Cloud ALM. Mind that you need to adjust the transport buffers manually.
 
 The following steps show you how to create a test landscape to try out the SAP Cloud ALM Deployment Management scenario without interfering with the productive TMS landscapes. You can also follow the steps to create your productive landscape. For this, you just have to use your systems instead of the described test systems.
 

@@ -4,11 +4,15 @@
 
 Role collections in SAP Cloud ALM are delivered predefined and ready to use.
 
-Each application role in SAP Cloud ALM represents a role collection in your SAP BTP subaccount, which in turn corresponds 1:1 to the respective role template \(with the exception of the *Cross Global Administrator*, the *User & Access Management Administrator*, and the *Deployment Manager*\). This means that you don't have to configure any role collections yourself. Instead, you can simply assign the relevant role collections to the users based on their tasks and requirements.
+Each application role in SAP Cloud ALM represents a role collection in your SAP BTP subaccount. Most SAP Cloud ALM role collections correspond 1:1 to the respective role template and can be assigned to users without any further configuration.
 
 Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in apps other than *Health Monitoring* because someone in that role also needs to be able to configure events and set up notifications.
 
-The following role collections are available for each application area in SAP Cloud ALM:
+
+
+<a name="loioe1915af019da48cc8b8e58399e8ea235__section_nrl_qlc_pdc"/>
+
+## Available Role Collections
 
 ****
 

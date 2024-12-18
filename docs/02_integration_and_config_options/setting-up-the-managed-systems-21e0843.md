@@ -136,87 +136,23 @@ For example:
 
 
 
-### Activation of Deployment Use Cases
+<a name="loio21e0843b2009480282487a08044f3f34__section_otj_mgq_mdc"/>
 
-To activate use cases, run transaction `n/SDF/ALM_SETUP` and choose *Activate usescases*.
+## Activating the Use Case Transports
+
+To activate the use case *Transports* and the respective tasks, run transaction `/n/SDF/ALM_SETUP` and choose *Activate usescases*.
 
 ![](images/activate_b65b342.png)
 
-For example, in landscape *DEV:100* \> *QUA:200* \> *PRD:300*, domain controller PRD, you have to activate the following use cases:
+![](images/tasks_414ac05.png)
 
--   For the domain controller PRD:000: use case Feature Deployment: Read Transport Landscape/CALM\_CDM\_TMS\_LNDSCP
+For each system you're using, you have to activate different tasks. For example, in landscape *DEV:100* \> *QUA:200* \> *PRD:300*, domain controller PRD, you have to activate the following tasks:
 
--   For development systems DEV:000: use case Feature Deployment: Manage Transports/CALM\_CDM\_TMS
+*DEV*
 
--   All other systems \(test or production\) QUA:000 and PRD:000: use case Feature Deployment: Import Transports/CALM\_CDM\_TMS\_IMPORT
+-   client 000: activate *Transports: Read*. You only have to activate this task on source systems as this reports transport requests to SAP Cloud ALM for assignment to features.
 
--   For all development clients DEV:100: use case Feature Deployment: Manage Transport per Client/CALM\_CDM\_TMS\_CLI\_DEP
-
-
-> ### Note:  
-> With the latest version of the CDM master note, the names of the use cases have been changed to:
-> 
-> -   Feature Deployment: Read Transport Landscape to Transports: Read Landscape
-> 
-> -   Feature Deployment: Manage Transports to Transports: Read
-> 
-> -   Feature Deployment: Import Transports to Transports: Import
-> 
-> -   Feature Deployment: Manage Transport per Client to Transports: Manage Transport per Client to Create & Export \(client specific\)
-
-In case you don't find these use cases in the list, try to rule out connection issues.
-
-For example, your service key is outdated and has to be generated again, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
-
-More solutions for connection problems can be found in the [**Issues and Solutions**](https://help.sap.com/docs/cloud-alm/setup-administration/issues-and-solutions-on-premise?locale=en-US) guide.
-
-
-
-### Overview of Use Cases
-
-The following sections explain the different use cases in more detail.
-
-
-
-### Transports: Read Landscape
-
--   Reports the STMS landscape configuration to SAP Cloud ALM
-
--   Only necessary to set up on one system per domain \(that is preferably the domain controller system\)
-
--   Currently supported landscapes:
-
-    -   Any kind of consistent Transport Management System \(TMS\) landscape. The last system in a track is always treated as a production system
-
-    -   Client-specific transport routes \(TMS option CTC\) are recommended
-
-    -   TMS transport groups are supported
-
-
-
-
-
-### Transports: Read
-
--   Reports transport requests to SAP Cloud ALM for assignment to features
-
--   It’s only necessary to set up on source systems, specifically DEV systems
-
-
-
-
-### Transports: Import
-
--   Queries to-be-imported transports from SAP Cloud ALM and imports them
-
--   It’s only necessary to set up on consolidation and target systems for import \(that is, QA and PRD\)
-
-
-
-
-### Manage Transport per Client to Create & Export \(client specific\)
-
--   This use case enables the following transport-related functions:
+-   client 100: activate *Transports: Create & Export \(client-specific\)*. You have to activate this task on all development clients you're using for customizing activities. If you're using an additional client, for example 200, to create transports, you also need to activate this task in this client. This triggers the release job `/SDF/CALM_CDM_TR_PROC_CL_DEP-XXX` and enables the following transport-related functions:
 
     -   Create transports
 
@@ -227,11 +163,53 @@ The following sections explain the different use cases in more detail.
     -   Delete empty transports \(during release\)
 
 
--   It's necessary to execute this setup on all development clients you use for customizing activities
+
+*QUA*
+
+client 000: activate *Transports: Import*. You have to activate this task in all systems you want to import to as this triggers the import job`/SDF/CALM_CDM_IMPORT_TRANSPORTS`. This queries to-be-imported transports from SAP Cloud ALM and imports them.
+
+*PRD*
+
+client 000: activate the following tasks:
+
+-   *Transports: Import*
+
+-   *Transports: Read Landscape* This reports the STMS landscape configuration to SAP Cloud ALM. The following landscapes are supported:
+
+    -   Any kind of consistent Transport Management System \(TMS\) landscape. The last system in a track is always treated as a production system
+
+    -   Client-specific transport routes \(TMS option CTC\) are recommended
+
+    -   TMS transport groups are supported
+
+
+-   *Transports: Check* This enables the *Transport Check* functionality to check a transport set before import to evaluate the impact on your production tenant.
+
+    To activate this task, you need to have installed at least ST-PI 740 SP 27 and implemented the latest versions of SAP Notes [3497169](https://me.sap.com/notes/3497169) and [3497168](https://me.sap.com/notes/3497168).
+
+    For more information, see [Transport Checks](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/2ae5a1bf1b6f4d46a38b11f6c6792425.html "With the Transport Checks, you can check a CTS-managed transport set to evaluate the impact on your production tenant. Transport checks can be performed based on a feature which defines the set of CTS-managed transports.") :arrow_upper_right:.
 
 
 > ### Note:  
-> For your test or productive landscape, set the collection interval to 1 min for these use cases if you want a quicker reaction to your testing of creating transport request, transport of copies, and triggering the deploy in the features.
+> For your test or productive landscape, set the collection interval to 1 min for these tasks if you want a quicker reaction to your testing of creating transport request, transport of copies, and triggering the deploy in the features.
+
+> ### Note:  
+> Once you've activated any of the tasks, the diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` is started. This job runs daily in the background and sends diagnostic data.It's only necessary to set up on one system per domain \(preferably the domain controller system\)
+
+> ### Note:  
+> With ST-PI 740 SP 27, the names of the tasks have been changed.
+> 
+> -   *Read Transport Landscape* changed to *Transports: Read Landscape*
+> 
+> -   *Manage Transports* changed to *Transports: Read*
+> 
+> -   *Import Transports* changed to *Transports: Import*
+> 
+> -   *Manage Transport per Client* changed to *Transports: Create & Export \(client-specific\)*
+
+It's only necessary to set up on one system per domainIn case you don't find these use cases in the list, try to rule out connection issues. For example, your service key could be outdated and has to be generated again, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md). For more solutions about connection problems, see [Issues and Solutions](issues-and-solutions-240043a.md).
+
+In case of issues, open the *Analyze Application Log* `SLG1`. This system log shows you details about the use cases and jobs. For example, a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation is not resolved manually at TMS level. For more information, see [Analyze Application Log](solutions-for-errors-in-the-managed-system-setup-check-93ae080.md#loio93ae080ec391461bb4d56579deaa0b00__section_uns_nj3_hdc).
 
 In case of import issues, you can have a look at the job log. Sometimes a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation is not resolved manually at TMS level.
 

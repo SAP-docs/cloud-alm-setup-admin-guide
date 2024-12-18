@@ -57,7 +57,7 @@ The default display language of the solution is based on the language that is ma
 You can change the language either in your browser settings or in the SAP Cloud ALM launchpad by clicking on your user profile in the top-right corner and choosing *Settings* \> *Language and Region*.
 
 > ### Note:  
-> Not all content delivered by SAP is translated. For example, SAP Best Practice process diagrams and test scripts are only available in English.
+> Not all content delivered by SAP is available in all languages. For example, SAP Best Practice process diagrams and test scripts in SAP Cloud ALM for implementation are only available in English.
 
 
 
@@ -65,9 +65,11 @@ You can change the language either in your browser settings or in the SAP Cloud 
 
 ## EU and NS2 Access
 
-EU access, which restricts the processing of personal data to EEA/Switzerland, isn’t available.
+EU Access, which restricts the access to and processing of personal data to SAP employees located in EEA/Switzerland, is available for SAP Cloud ALM.
 
-NS2 access, which restricts the processing of personal data to the USA, isn’t available.
+A special entitlement is required for EU Access. To have your SAP Cloud ALM tenant provisioned in an EU Access data center, you need to have a valid EU Access contract.
+
+NS2 Access, which restricts the access to and the processing of personal data to the USA, isn’t available.
 
 For more information, refer to [SAP Business Technology Platform – Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions?version=Cloud#eu-access).
 

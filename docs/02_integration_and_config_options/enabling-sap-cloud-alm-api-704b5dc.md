@@ -121,6 +121,9 @@ To consume the selected service plan, you need to create a service instance.
 
 2.  Enter a name for your binding.
 
+    > ### Caution:  
+    > To avoid conflicts with automatically created service credentials, use a name that differs from the naming convention `<system ID>_<client number>_<system number>`.
+
 3.  Choose *Create*.
 
 4.  Next to the created binding, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *View*.

@@ -30,4 +30,7 @@ In addition to manual testing, which is performed directly in SAP Cloud ALM, you
 -   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "An SAP service is usually delivered as part of a service contract like SAP MaxAttention,
 		SAP ActiveAttention or SAP Enterprise Support.")**  
 An SAP service is usually delivered as part of a service contract like SAP MaxAttention, SAP ActiveAttention or SAP Enterprise Support.
+-   **[Connecting SAP Document Management Service](connecting-sap-document-management-service-b788f20.md "You can integrate and activate the SAP Document Management service for
+			document storage in SAP Cloud ALM.")**  
+You can integrate and activate the SAP Document Management service for document storage in SAP Cloud ALM.
 

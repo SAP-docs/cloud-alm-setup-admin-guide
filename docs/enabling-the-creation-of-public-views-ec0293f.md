@@ -59,7 +59,7 @@ All users with this role collection can now create public views, as described in
 
 ![](images/SUI-PublicView_cb6b8e6.png)
 
-If you want to assign this role collection to further users, follow [Step 2: Assign Roles to Users in SAP Cloud ALM](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md).
+After a daily sync job, the role collection you've created also appears under *Custom Roles* in the *User Management* app and can be assigned to other users from there.
 
 **Related Information**  
 

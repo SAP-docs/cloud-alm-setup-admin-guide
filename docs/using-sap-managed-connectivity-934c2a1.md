@@ -187,12 +187,12 @@ EU11
 </td>
 <td valign="top">
 
-EU10
+EU11
 
 </td>
 <td valign="top">
 
-EU20
+EU11
 
 </td>
 </tr>

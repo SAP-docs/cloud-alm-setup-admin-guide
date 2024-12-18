@@ -39,7 +39,7 @@ In addition, SAP synchronizes changes that you make to the following service-rel
 
 ## Activating and Deactivating the Data Transfer
 
-This data transfer is automatically activated when your SAP Cloud ALM tenant was provisioned. If you don't want service information to be transferred into your SAP Cloud ALM tenant, you can request to deactivate the data transfer by creating an incident on component SV-CLM-SD. Please provide the following information in the incident:
+This data transfer is automatically activated when your SAP Cloud ALM tenant was provisioned. If you don't want service information to be transferred into your SAP Cloud ALM tenant, you can request to deactivate the data transfer by creating a case on component SV-CLM-SD. Please provide the following information in the case:
 
 -   Your customer number
 

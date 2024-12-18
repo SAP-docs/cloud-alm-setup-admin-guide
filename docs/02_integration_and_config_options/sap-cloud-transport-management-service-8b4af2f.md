@@ -162,7 +162,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         </td>
         <td valign="top">
         
-        Value of `clientid` from the service key of your SAP Cloud Transport Management service instance.
+        Value of `clientid` from the service key of your SAP Cloud Transport Management service instance.
         
         </td>
         </tr>
@@ -174,7 +174,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         </td>
         <td valign="top">
         
-        Value of `clientsecret` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
+        Value of `clientsecret` \(`uaa`\) section from the service key of your SAP Cloud Transport Management service instance.
         
         </td>
         </tr>
@@ -186,9 +186,9 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         </td>
         <td valign="top">
         
-        Value of ` URL` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
+        Value of `URL` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance. For example: https://transport-service-app-backend.ts.cfapps.euXX.hana.ondemand.com
 
-        Append `/oauth/token` to the `URL` retrieved from the service key.
+        Append `/oauth/token` to the `URL` retrieved from the service key. For example: https://YYY.authentication.euXX.hana.ondemand.com/oauth/token
         
         </td>
         </tr>

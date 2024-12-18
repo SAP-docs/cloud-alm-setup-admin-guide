@@ -40,14 +40,14 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 3.  Choose *Start Provisioning*.
 
-4.  Select the geographical region in which you would like to provision SAP Cloud ALM. The region that you select here corresponds to the location of the data center where your SAP Cloud ALM tenant will be operated.
+4.  Select the geographical region in which you would like to have SAP Cloud ALM provisioned. The region that you select here corresponds to the location of the data center where your SAP Cloud ALM tenant will be operated.
 
-    Please note that it's currently not possible to move your SAP Cloud ALM application from the data center in which it was originally provisioned to a different data center.
+    The *Region* drop-down menu offers a complete list of all data center locations that are currently available for SAP Cloud ALM. To find out which data center locations are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
+
+    **EU Access**: If you have a valid EU Access contract, your SAP Cloud ALM entitlement is flagged accordingly in SAP for Me, enabling you to request the provisioning of your SAP Cloud ALM tenant in an EU Access data center. The region that allows for EU Access is labeled as such in the drop-down menu. Please note that if you've selected the EU Access region, you need to select an Identity Authentication tenant that is also located in the EU in step 6.
 
     > ### Note:  
-    > The *Region* drop-down menu offers a complete list of all data center locations that are currently available for SAP Cloud ALM. To find out which data center locations are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
-    > 
-    > If you have more questions about SAP Cloud ALM data centers, see the related entries under [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb).
+    > It's currently not possible to move your SAP Cloud ALM tenant from the data center in which it was originally provisioned to a different data center.
 
 5.  Enter a unique subdomain name.
 
@@ -55,20 +55,18 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
     After the system has been provisioned, **the subdomain can't be changed**.
 
-    Please keep the following recommendations and restrictions in mind when choosing a subdomain name:
+    > ### Tip:  
+    > -   Don't use a pre-existing subdomain. Choose a new subdomain name specifically for SAP Cloud ALM.
+    > 
+    > -   Companies with multiple international subsidiaries or working in multiple industries should use different subdomains for each unit.
+    > 
+    > -   We strongly recommend using the suffix `-cloudalm` at the end of the subdomain name, for example, `company-cloudalm`.
+    > 
+    > -   Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the name mustn't exceed 56 characters.
 
-    -   Don't use a pre-existing subdomain. Choose a new subdomain name specifically for SAP Cloud ALM.
+6.  Under *SAP Cloud Identity Services*, select an Identity Authentication tenant:
 
-    -   Companies with multiple international subsidiaries or working in multiple industries should use different subdomains for each unit.
-
-    -   We strongly recommend using the suffix `-cloudalm` at the end of the subdomain name, for example, `company-cloudalm`.
-
-    -   Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the name mustn't exceed 56 characters.
-
-
-6.  Specify an SAP Cloud Identity Service:
-
-    -   If you don’t have an existing productive Identity Authentication tenant, a new one will be created for you.
+    -   If you don’t have an existing productive Identity Authentication tenant, a new one will be created for you in the region you've selected above.
 
         We recommend reusing this newly created productive Identity Authentication tenant for other productive SAP cloud offerings \(such as SAP S/4HANA Cloud\) that you may want to use in the future.
 
@@ -79,13 +77,16 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
         > 
         > Here are some additional recommendations:
         > 
+        > -   If you want to have SAP Cloud ALM provisioned in EU Access and you've selected the EU Access region \(see step 4\), you need to select an Identity Authentication tenant that is also located in the EU.
+        > 
         > -   To ensure the best performance, select an Identity Authentication tenant in a region that is close to the region of your SAP Cloud ALM tenant.
         > 
         > -   To simplify the maintenance of administrators in your Identity Authentication tenant, select an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
         > 
         > -   If your company has functional or legal requirements to not allow users from an SAP Cloud ALM tenant to access an SAP SuccessFactors tenant \(or vice versa\), use separate Identity Authentication tenants. [Learn more](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568fdf1f14f14fd089a3cd15194d19cc/0271d9c4176e45ca9307e49230073240.html?version=2311#procedure).
         > 
-        >     If you have no other Identity Authentication tenants available for selection, you can request a new one as described in [Tenants – Licensing and Usage](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/tenant-model-and-licensing?version=Cloud#licensing-and-usage).
+        > 
+        > If you don't want to use one of the listed Identity Authentication tenants, you can request a new one as described in [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant).
 
         If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 
@@ -121,7 +122,7 @@ When the status is *Provisioning Triggered*, SAP automatically prepares your SAP
         Subaccounts let you structure a global account according to your organization's and project's requirements with regard to members, authorizations, and entitlements.
 
         > ### Caution:  
-        > You can't subscribe to any additional applications in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
+        > You can't subscribe to any additional products or applications or to services that aren't related to SAP Cloud ALM in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
         > 
         > Don't delete this subaccount or your SAP Cloud ALM subscription if you've already started using SAP Cloud ALM. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
 

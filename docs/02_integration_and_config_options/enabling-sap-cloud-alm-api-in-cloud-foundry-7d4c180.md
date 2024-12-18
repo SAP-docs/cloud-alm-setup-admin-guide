@@ -150,6 +150,9 @@ With service keys, you can manually generate service credentials to enable exter
 
 2.  Enter a name for your service key.
 
+    > ### Caution:  
+    > To avoid conflicts with automatically created service keys, use a name that differs from the naming convention `<system ID>_<client number>_<system number>`.
+
 3.  Choose *Create*.
 
 4.  Next to your newly created service key, choose <span class="SAP-icons-V5"></span> \(Actions\) and select *View*.

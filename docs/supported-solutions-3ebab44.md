@@ -423,9 +423,11 @@ Process Management
 </td>
 <td valign="top">
 
--   SAP Services Content for Oil and Gas
+-   SAP Services Content for Automotive
 
 -   SAP Services Content for Connected Assets
+
+-   SAP Services Content for Oil and Gas
 
 
 
@@ -3154,6 +3156,50 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Market Communication for Utilities
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba Mobile
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Public Edition 
 
 </td>
@@ -4651,6 +4697,50 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <td valign="top">
 
 SAP Digital Vehicle Hub
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Network Material Traceability
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Clinical Supply Management
 
 </td>
 <td valign="top">

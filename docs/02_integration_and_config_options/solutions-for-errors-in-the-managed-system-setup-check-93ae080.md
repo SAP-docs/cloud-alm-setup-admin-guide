@@ -10,6 +10,186 @@ The following sections explain the checks and messages that can appear in the ma
 
 
 
+<a name="loio93ae080ec391461bb4d56579deaa0b00__section_uns_nj3_hdc"/>
+
+## Analyze Application Log
+
+The *Analyze Application Log* is an extended system log which shows you more details about use case tasks and jobs. For example, you can check if a job has already been scheduled.
+
+To open the *Analyze Application Log*, run transaction `SLG1`. In the *Object* field, enter `/SDF/CALM`. In the *Subobject* field, enter `Build_CDM`.
+
+The following table shows you which External IDs you can use for filtering:
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+External ID
+
+</th>
+<th valign="top">
+
+Task
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+READ
+
+</td>
+<td valign="top">
+
+Transports: Read
+
+</td>
+<td valign="top">
+
+Read of all transport in system
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+READ LANDSCAPE
+
+</td>
+<td valign="top">
+
+Transports: Read Landscape
+
+</td>
+<td valign="top">
+
+Read transport landscape in domain controller
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IMPORT
+
+</td>
+<td valign="top" rowspan="2">
+
+Transports: Import
+
+</td>
+<td valign="top">
+
+Perform import
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IMPORT FEEDBACK
+
+</td>
+<td valign="top">
+
+Process import result
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CLIENT DEPENDENT
+
+</td>
+<td valign="top" rowspan="5">
+
+Transports: Create & Export \(client-specific
+
+</td>
+<td valign="top">
+
+Perform client dependent tasks
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CREATE
+
+</td>
+<td valign="top">
+
+Create transport request
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RELEASE
+
+</td>
+<td valign="top">
+
+Release transport request
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EXPORT FEEDBACK
+
+</td>
+<td valign="top">
+
+Process release result
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TOC
+
+</td>
+<td valign="top">
+
+Create transport of copies
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TR CHECK
+
+</td>
+<td valign="top">
+
+TR CHECK
+
+</td>
+<td valign="top">
+
+Execute transport checks
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loio93ae080ec391461bb4d56579deaa0b00__section_j3d_qfj_31c"/>
 
 ## Batch Job Check
@@ -777,6 +957,65 @@ No immediate solution is available. Search for similar issues with the SAP4Me he
 <td valign="top">
 
 No immediate solution is available. Search for similar issues with the SAP4Me help search or open a ticket at [SAP For Me](https://me.sap.com/getassistance/overview).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RFC configuration in view &1 has been validated successfully
+
+</td>
+<td valign="top">
+
+Confirmation message. All configured RFC work fine. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RFC configuration is missing in view &1 for transport checks
+
+</td>
+<td valign="top" rowspan="6">
+
+Configured RFC isn't working properly, see SAP Note [3447901](https://me.sap.com/notes/3447901) to solve the error.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The configured RFC &1 in the table view &2 has no user assigned
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The configured RFC &1 in the table view &2 doesn't work
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The configured RFC &1 in the table view &2 doesn't exist
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Not authorized to logon with configured RFC &1
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Trusted RFC &1 isn't allowed
 
 </td>
 </tr>
