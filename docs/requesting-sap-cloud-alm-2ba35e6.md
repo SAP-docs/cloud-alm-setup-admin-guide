@@ -46,16 +46,15 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
     **EU Access**: If you have a valid EU Access contract, your SAP Cloud ALM entitlement is flagged accordingly in SAP for Me, enabling you to request the provisioning of your SAP Cloud ALM tenant in an EU Access data center. The region that allows for EU Access is labeled as such in the drop-down menu. Please note that if you've selected the EU Access region, you need to select an Identity Authentication tenant that is also located in the EU in step 6.
 
-    > ### Note:  
-    > It's currently not possible to move your SAP Cloud ALM tenant from the data center in which it was originally provisioned to a different data center.
+    After the system has been provisioned, **the region can't be changed**.
 
 5.  Enter a unique subdomain name.
 
     The subdomain name is used for the creation of an SAP Cloud ALM-specific subaccount on SAP BTP. It's also part of the URL that is used to access SAP Cloud ALM, as in `https://<subdomain>.<region>.alm.cloud.sap`.
 
-    After the system has been provisioned, **the subdomain can't be changed**.
+    After the tenant has been provisioned, **the subdomain can't be changed**.
 
-    > ### Tip:  
+    > ### Note:  
     > -   Don't use a pre-existing subdomain. Choose a new subdomain name specifically for SAP Cloud ALM.
     > 
     > -   Companies with multiple international subsidiaries or working in multiple industries should use different subdomains for each unit.
@@ -95,8 +94,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 7.  If you agree to the terms and conditions stated in the linked order document, mark the checkbox.
 
-    > ### Note:  
-    > If you're requesting an additional SAP Cloud ALM tenant after purchasing the service *SAP Cloud ALM, tenant extension*, you've already accepted the terms and conditions as part of the contract.
+    If you're requesting an additional SAP Cloud ALM tenant after purchasing the service *SAP Cloud ALM, tenant extension*, you've already accepted the terms and conditions as part of the contract.
 
 8.  Choose *Submit*.
 
@@ -113,16 +111,18 @@ When the status is *Provisioning Triggered*, SAP automatically prepares your SAP
 
 -   The following SAP BTP entities are created:
 
-    -   A global account with the name “SAP Cloud ALM” followed by your customer number.
+    -   A new global account with the name “SAP Cloud ALM” followed by your customer number.
 
-        A global account is the realization of a contract you made with SAP. It's region-independent, and it's used to manage subaccounts, members, entitlements \(including your SAP Cloud ALM entitlement\), and quotas.
+        A global account is the realization of a contract you made with SAP. It's region-independent, and it's used to manage subaccounts, members, entitlements, and quotas.
 
-    -   A subaccount with the name “SAP Cloud ALM” that contains your SAP Cloud ALM subscription and subscriptions to the Cloud Integration Automation service.
+        In the case of SAP Cloud ALM, your entitlement is based on the existence of other contracts or purchased solutions that are connected to your customer number. The entitlement also comes with other parameters, such as fair use rights for memory, which are provided free of charge. These unique factors require a separate "contract" to be established specifically for SAP Cloud ALM, which is separated from the other contracts that you pay for. This is achieved by creating a separate global account for SAP Cloud ALM as part of the provisioning process.
+
+    -   In the new global account, a subaccount with the name “SAP Cloud ALM” that contains your SAP Cloud ALM subscription and a subscription to the Cloud Integration Automation service.
 
         Subaccounts let you structure a global account according to your organization's and project's requirements with regard to members, authorizations, and entitlements.
 
         > ### Caution:  
-        > You can't subscribe to any additional products or applications or to services that aren't related to SAP Cloud ALM in the subaccount containing your SAP Cloud ALM subscription. The subaccount is set up exclusively for SAP Cloud ALM.
+        > You can't subscribe to any additional products or applications or to services that aren't related to SAP Cloud ALM in the subaccount containing your SAP Cloud ALM subscription. The global account and the subaccount are set up exclusively for SAP Cloud ALM.
         > 
         > Don't delete this subaccount or your SAP Cloud ALM subscription if you've already started using SAP Cloud ALM. Deleting your SAP Cloud ALM subscription causes **all created artifacts, stored data, and current configurations to be deleted** as well.
 

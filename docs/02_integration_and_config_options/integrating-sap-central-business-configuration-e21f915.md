@@ -8,7 +8,7 @@ By integrating SAP Central Business Configuration with SAP Cloud ALM, you can im
 
 SAP Central Business Configuration \(CBC\) is a solution that supports the configuration of SAP S/4HANA Cloud Public Edition. SAP S/4HANA Cloud Private Edition is not supported.
 
-While an SAP Cloud ALM project applies the SAP Activate methodology to provide end-to-end procedural guidance on how to start and execute an implementation project, an SAP Central Business Configuration project shows the project and configuration activities focused on your specific business configuration.
+While an SAP Cloud ALM project applies the SAP Activate methodology to provide end-to-end procedural guidance on how to start and execute an implementation project, an SAP Central Business Configuration workspace shows the project and configuration activities focused on your specific business configuration.
 
 To use SAP Central Business Configuration in SAP Cloud ALM, you first need to carry out the following setup procedure.
 
@@ -77,9 +77,9 @@ After you've completed the technical setup, select SAP Central Business Configur
         ![](images/CBC_Project-Creation_4b7a778.png)
 
 
-5.  Select the SAP Central Business Configuration project or projects that you want to connect to SAP Cloud ALM.
+5.  Select the SAP Central Business Configuration workspace or workspaces that you want to connect to SAP Cloud ALM.
 
-    You can unassign SAP Central Business Configuration projects from the corresponding SAP Cloud ALM project at any time.
+    You can unassign SAP Central Business Configuration workspaces from the corresponding SAP Cloud ALM project at any time.
 
 6.  Save the new project.
 
@@ -90,9 +90,9 @@ After you've completed the technical setup, select SAP Central Business Configur
 
 ## Result and Next Steps
 
-You have now connected your SAP Central Business Configuration project or projects with your SAP Cloud ALM project.
+You have now connected your SAP Central Business Configuration workspace or workspaces with your SAP Cloud ALM project.
 
-You can now navigate to your SAP Central Business Configuration project with the direct links in the table or via the respective tasks.
+You can now navigate to your SAP Central Business Configuration workspace with the direct links in the table or via the respective tasks.
 
 
 

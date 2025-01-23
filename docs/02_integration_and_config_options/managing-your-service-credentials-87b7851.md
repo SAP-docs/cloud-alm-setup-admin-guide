@@ -61,6 +61,17 @@ If no service credentials have been uploaded yet, you can add it as follows:
 
 10. Upload the TXT file containing the service credentials.
 
+    Make sure that the file has the following characteristics:
+
+    -   The service key in the TXT file is in valid JSON format.
+
+    -   The service key belongs to the SAP Cloud ALM tenant you're working in. Verify the field `uaa.identityzone`.
+
+    -   The service key contains the fields `uaa.clientid` and `uaa.clientsecret`.
+
+    -   The value for the field `uaa.credential-type` is `instance-secret`.
+
+
     > ### Note:  
     > -   You can only upload one service key or binding for this SAP Cloud ALM tenant.
     > 

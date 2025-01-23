@@ -15,7 +15,12 @@ If you want to upload [External Files](https://help.sap.com/docs/cloud-alm/appli
 
 ## Prerequisites
 
--   You need to provide your own SAP Document Management service instance and establish a connection to SAP Cloud ALM. For more information, see [Initial Setup for Document Management Service, Integration Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/initial-setup-for-document-management-service-integration-option?version=Cloud). You can use an existing service instance for SAP Cloud ALM use.
+-   You need to provide your own SAP Document Management service instance and establish a connection to SAP Cloud ALM. For more information, see [Initial Setup for Document Management Service, Integration Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/initial-setup-for-document-management-service-integration-option?version=Cloud).
+
+    > ### Note:  
+    > Do not use your SAP Cloud ALM global account. It should be a global account for SAP BTP DMS.
+
+    You can use an existing service instance for SAP Cloud ALM use.
 
 -   You've done the initial setup for the SAP Document Management integration option and you've obtained all the necessary login data.
 

@@ -118,24 +118,24 @@ To consume the selected service plan, you need to create a service instance in y
 
 6.  Choose *Next*.
 
-7.  Paste the following JSON code into the text editor:
+7.  \(Optional\) If you want to use the service key to access APIs, you need to add the appropriate scopes to it. You can find an overview of all available scopes and their use cases under [API Scopes](https://help.sap.com/viewer/fe419bfabbdc46dfbddbfd78b21483d5/latest/en-US/a111fd3cdaef4f36801eb43fff23ef20.html "") :arrow_upper_right:.
+
+    To add the scopes, insert the following JSON and replace the relevant parameters with your instance name and the required scopes, respectively.
 
     ```
     {
         "xs-security": {
             "xsappname": "<your-instance-name>",
             "authorities": [
-    			"$XSMASTERAPPNAME.imp-cdm-feature-display-ui",
-    			"$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
+    			"<Required Scope 1>",
+    			"<Required Scope 2>"
             ]
         }
     }
     
     ```
 
-8.  Replace `<your-instance-name>` with your instance name that you've created in step 5 of the *Create or Update an Instance* section of this guide.
-
-9.  Choose *Create*.
+8.  Choose *Create*.
 
 
 

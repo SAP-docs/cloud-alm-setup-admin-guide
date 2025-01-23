@@ -31,6 +31,8 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 
     For more information about the general setup, refer to [Initial Setup of SAP Cloud Integration in the Cloud Foundry Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/302b47b11e1749c3aa9478f4123fc216.html).
 
+-   You've created a service key for SAP Cloud Transport Management service. For more information, see [Creating a Service Instance and a Service Key](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-service-instance-and-service-key?version=Cloud).
+
 -   You've familiarized yourself with how to use the [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/BTP/Cloud/en-US?task=discover_task) cockpit, in particular [Account Administration](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/5d62ec89de39442f8f31d527855cbced.html) concepts.
 
 -   You've subscribed to the SAP Cloud Transport Management service and your user has the required transport management roles *Transport Management Viewer* and *Transport Management Operator*.
@@ -126,7 +128,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         </td>
         <td valign="top">
         
-        Value of `uri` from the service key of your SAP Cloud Transport Management service instance.
+        Value of `uri` from the service key of your SAP Cloud Transport Management service instance. For example: https://transport-service-app-backend.ts.cfapps.euXX.hana.ondemand.com
         
         </td>
         </tr>
@@ -186,7 +188,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
         </td>
         <td valign="top">
         
-        Value of `URL` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance. For example: https://transport-service-app-backend.ts.cfapps.euXX.hana.ondemand.com
+        Value of `URL` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
 
         Append `/oauth/token` to the `URL` retrieved from the service key. For example: https://YYY.authentication.euXX.hana.ondemand.com/oauth/token
         
@@ -372,7 +374,7 @@ We strongly advise you against using the existing integration within the SAP BTP
     </tr>
     </table>
     
-    Additional information about how to set up the HTTP destination, please have a look at the following information: [Creating HTTP Destinations and Transport Route](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/270f353a5b69472696617d91ceb58c93.html) Go to the *Cloud Transport Management* tab.
+    For additional information on how to set up the HTTP destination, see [Creating HTTP Destinations and Transport Route](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/270f353a5b69472696617d91ceb58c93.html) under the *Cloud Transport Management* tab.
 
     In the URL section for the endpoint, enter the URL of your SAP Cloud ALM API instance that follows the pattern `https://<tenant name>.<region>.alm.cloud.sap/api/imp-cdm-transport-management-api/v1`. The first part of the URL until `/api` depends on your company account and is variable.
 

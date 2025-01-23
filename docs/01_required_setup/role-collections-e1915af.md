@@ -4,7 +4,13 @@
 
 Role collections in SAP Cloud ALM are delivered predefined and ready to use.
 
-Each application role in SAP Cloud ALM represents a role collection in your SAP BTP subaccount. Most SAP Cloud ALM role collections correspond 1:1 to the respective role template and can be assigned to users without any further configuration.
+
+
+
+
+### 
+
+In general, each application role in SAP Cloud ALM represents a role collection in your SAP BTP subaccount. This means that most SAP Cloud ALM role collections correspond 1:1 to the respective role template and can be assigned to users without any further configuration.
 
 Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in apps other than *Health Monitoring* because someone in that role also needs to be able to configure events and set up notifications.
 
@@ -659,7 +665,7 @@ Project Management
 
 Manage projects, deployment plans, tasks, scopes, requirements, features, documents, test cases, defects, tags, and SAP Readiness Check analyses. View process hierarchy nodes.
 
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -693,7 +699,7 @@ Project Management
 
 Manage projects, deployment plans, tasks, scopes, requirements, features, documents, test cases, and defects. View process hierarchy nodes and SAP Readiness Check analyses.
 
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -727,7 +733,7 @@ Project Management
 
 Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), documents, test cases, and defects. View projects, deployment plans, SAP Readiness Check analyses, and process hierarchy nodes.
 
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -761,7 +767,7 @@ Project Management
 
 View projects, deployment plans, tasks, scopes, process hierarchy nodes, requirements, features, documents, test cases, defects, and SAP Readiness Check analyses
 
-The permissions within implementation projects of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+The permissions of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
 </td>
 <td valign="top">
@@ -1569,7 +1575,9 @@ Service Collaboration
 </td>
 <td valign="top">
 
-Execute service-specific administration tasks, configure and execute services, and view service execution results
+Maintain tenant mapping for receiving service information in your SAP Cloud ALM tenant. View all service information, collaborate in service delivery, and follow up on issues and actions.
+
+Users with this role additionally require the *Project Administrator* role.
 
 </td>
 <td valign="top">
@@ -1601,7 +1609,9 @@ Service Collaboration
 </td>
 <td valign="top">
 
-Configure and execute services, and view own and shared service execution results
+View all service information, collaborate in service delivery, and follow up on issues and actions.
+
+Users with this role additionally require the *Project Member* role.
 
 </td>
 <td valign="top">
@@ -1633,7 +1643,9 @@ Service Collaboration
 </td>
 <td valign="top">
 
-Browse through the service explorer and view the shared service execution results
+View all service information, including preparation tasks, notes, attachments, service results, and issues and actions.
+
+Users with this role additionally require the *Project Viewer* role.
 
 </td>
 <td valign="top">

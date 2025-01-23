@@ -84,15 +84,18 @@ To consume the selected service plan, you need to create a service instance.
 
 4.  Choose *Next*.
 
-5.  Paste the following JSON code into the text editor:
+5.  \(Optional\) If you want to use the service binding to access APIs, you need to add the appropriate scopes to it. You can find an overview of all available scopes and their use cases under [API Scopes](https://help.sap.com/viewer/fe419bfabbdc46dfbddbfd78b21483d5/latest/en-US/a111fd3cdaef4f36801eb43fff23ef20.html "") :arrow_upper_right:.
+
+    To add the scopes, insert the following JSON and replace the relevant parameters with your instance name and the required scopes, respectively.
 
     ```
     {
         "xs-security": {
             "xsappname": "<your-instance-name>",
             "authorities": [
-               "$XSMASTERAPPNAME.imp-cdm-feature-display-ui",
-               "$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
+               "<Required Scope 1>",
+               "<Required Scope 2>",
+               "<Required Scope 3>"
             ],
             "oauth2-configuration": {
                 "credential-types": [
@@ -104,11 +107,9 @@ To consume the selected service plan, you need to create a service instance.
     
     ```
 
-6.  Replace `<your-instance-name>` with your instance name you've created in step 3 of the *Create or Update an Instance* section of this guide.
+6.  Choose *Create*.
 
-7.  Choose *Create*.
-
-8.  When your instance has been created or updated, click on it.
+7.  When your instance has been created or updated, click on it.
 
 
 
