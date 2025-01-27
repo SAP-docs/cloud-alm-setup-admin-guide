@@ -3765,7 +3765,7 @@ Health Monitoring
 </td>
 <td valign="top">
 
-More under [Setup for SAP HANA Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-hana-cloud.html) \(Expert Portal\).
+More under [Setup for SAP Build Process Automation](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-spa.html) \(Expert Portal\).
 
 </td>
 </tr>
