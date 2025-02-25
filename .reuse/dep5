@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: cloud-alm-setup-admin-guide
-Upstream-Contact: stephanie.daum@sap.com
-Source: https://github.com/SAP-docs/cloud-alm-setup-admin-guide
-
-Files: *
-Copyright:  2022-2023 SAP SE or an SAP affiliate company and cloud-alm-setup-admin-guide contributors
-License: CC-BY-4.0
