@@ -2,7 +2,7 @@
 
 # Video-Guided Setup
 
-To learn how to set up SAP Cloud ALM for productive use, you can watch the following step-by-step how-to videos.
+To learn how to set up SAP Cloud ALM for productive use, you can watch the following step-by-step how-to videos \(English only\).
 
 For more detailed information, refer to the corresponding documentation under [Required Setup for SAP Cloud ALM](required-setup-for-sap-cloud-alm-80b2c30.md).
 

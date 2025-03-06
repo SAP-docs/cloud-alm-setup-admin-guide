@@ -54,10 +54,12 @@ Resolution
 
 You want to know how much it costs to use SAP Cloud ALM.
 
+You're looking for information about license details that entitle you to use SAP Cloud ALM.
+
 </td>
 <td valign="top">
 
-SAP Cloud ALM is part of SAP Enterprise Support and other contracts. To find out if you're entitled to provision SAP Cloud ALM, refer to the [Usage Rights – SAP Cloud ALM](https://support.sap.com/en/alm/usage-rights) on SAP Support Portal. You can start the provisioning process [here](https://me.sap.com/systemsprovisioning/provisioning).
+SAP Cloud ALM is part of SAP Enterprise Support and other contracts. To find out if you're entitled to provision SAP Cloud ALM, refer to [Availability](availability-288d15a.md). You can start the provisioning process [here](https://me.sap.com/systemsprovisioning/provisioning).
 
 SAP Cloud ALM options for which you may get charged are documented in our [Fair Use](fair-use-94cd95e.md) statement.
 
@@ -189,6 +191,18 @@ Your Identity Authentication tenant may not show up for the following reasons:
 
 
 You can find all Identity Authentication tenants assigned to your customer ID and their type at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You've selected the EU Access region but don't have an Identity Authentication tenant that is located in Europe.
+
+</td>
+<td valign="top">
+
+You can either request to migrate one of your existing Identity Authentication tenants to Europe or request a new one, as described in [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant#loio460766b1b08d48a0b4adfb230c60a001__note_dd4_jk4_12c).
 
 </td>
 </tr>
@@ -652,6 +666,22 @@ If you revert the Identity Authentication configuration within the grace period,
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+You want to centralize the authorization management in SAP Cloud ALM.
+
+</td>
+<td valign="top">
+
+You can use the Identity Provisioning Service \(IPS\) as a tool for user provisioning to centralize authorization management in SAP Cloud ALM.
+
+Set up a provisioning job in the IPS to synchronize the users between your identity provider and the SAP BTP Cockpit.
+
+For more information, see the following blog post [Centralize Authorization Management of SAP Cloud ALM Using the Identity Provisioning Service](https://community.sap.com/t5/technology-blogs-by-sap/centralize-authorization-management-of-sap-cloud-alm-using-the-identity/ba-p/13609455)
+
+</td>
+</tr>
 </table>
 
 
@@ -802,7 +832,7 @@ You can't sign in to SAP Cloud ALM.
 </td>
 <td valign="top">
 
-Verify that you've entered the correct credentials: You need to sign in with the email address and password defined in the Identity Authentication tenant, not your S-user.
+Verify that you've entered the correct credentials: You need to sign in with the credentials defined in the connected Identity Authentication tenant, not your S-user.
 
 Check with your administrator if your user profile in the Identity Authentication tenant has been created.
 
@@ -1092,6 +1122,18 @@ For related information, refer to [Closing Your Account](closing-your-account-21
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+You want to be informed and receive timely updates regarding SAP Cloud ALM and your other SAP cloud services, for example, about planned and unplanned downtimes.
+
+</td>
+<td valign="top">
+
+Refer to KBA [2900069](https://me.sap.com/notes/2900069).
+
+</td>
+</tr>
 </table>
 
 
@@ -1100,13 +1142,13 @@ For related information, refer to [Closing Your Account](closing-your-account-21
 
 ## Related FAQs and Troubleshooting Guides
 
--   [KBA 3270970 - Most Common Onboarding Issues](https://launchpad.support.sap.com/#/notes/3270970)
+-   [Most Common Onboarding Issues \(KBA\)](https://launchpad.support.sap.com/#/notes/3270970)
+
+-   [Troubleshooting for Landscape Management](https://help.sap.com/docs/cloud-alm/applicationhelp/troubleshooting-for-landscape-management)
 
 -   [Troubleshooting for Managed ABAP Systems \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/calm-op-troubleshooting/calm-troubleshooting-abap.html)
 
--   [Landscape Management – Troubleshooting and Customer Support \(SAP Support Portal\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/landscape-management.html?anchorId=section_667953570_co)
-
--   [Application Lifecycle Management \(ALM\) – Questions & Answers \(PDF\)](https://support.sap.com/content/dam/support/en_us/library/ssp/alm/QA_ALM.pdf) \(for general SAP ALM and SAP Cloud ALM questions\)
+-   [Application Lifecycle Management – Questions & Answers \(PDF\)](https://support.sap.com/content/dam/support/en_us/library/ssp/alm/QA_ALM.pdf) \(for general SAP ALM and SAP Cloud ALM questions\)
 
 
 

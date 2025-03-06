@@ -8,6 +8,8 @@ After onboarding your users to your Identity Authentication tenant, you need to 
 
 You can add users and assign roles to them directly in the SAP Cloud ALM *User Management* app \(recommended\) or as corresponding role collections in the SAP BTP cockpit.
 
+To assign role templates to users, first create a role collection and add the role template to it. After a daily sync job, the role collection you've created also appears under *Custom Roles* in the *User Management* app and can be assigned to other users from there.
+
 > ### Note:  
 > If you're working with role mapping to user groups in your identity provider, you need to assign role collections in the SAP BTP cockpit. In this case, you can't view or change roles in the *User Management* app. You also can't use the role request and assignment features in SAP Cloud ALM, so we don't recommend this method.
 
@@ -195,4 +197,8 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 
 -   **[Role Collections](role-collections-e1915af.md "Role collections in SAP Cloud ALM are delivered predefined and ready to use.")**  
 Role collections in SAP Cloud ALM are delivered predefined and ready to use.
+-   **[Role Templates](role-templates-f7294b2.md "Besides predefined role collections, which are ready to use, some areas also offer
+		single role templates. Before you can use these role templates, you need to assign them to a
+		role collection.")**  
+Besides predefined role collections, which are ready to use, some areas also offer single role templates. Before you can use these role templates, you need to assign them to a role collection.
 

@@ -7,10 +7,9 @@ There are additional integration and configuration options that help you take ad
 -   **[Application Configuration](application-configuration-ce08e9d.md "For several apps in SAP Cloud ALM, additional setup steps are required or
 		possible.")**  
 For several apps in SAP Cloud ALM, additional setup steps are required or possible.
--   **[Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md "The connection between individual SAP Cloud applications and your managed systems and/or
-		services is handled via an SAP Cloud ALM API service instance in
-		your SAP Cloud ALM subaccount.")**  
-The connection between individual SAP Cloud applications and your managed systems and/or services is handled via an SAP Cloud ALM API service instance in your SAP Cloud ALM subaccount.
+-   **[Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md "To integrate certain products with SAP Cloud ALM, you need to create service credentials
+		(that is, service binding or service key) from the SAP Cloud ALM API instance.")**  
+To integrate certain products with SAP Cloud ALM, you need to create service credentials \(that is, service binding or service key\) from the SAP Cloud ALM API instance.
 -   **[Integrating SAP Central Business Configuration](integrating-sap-central-business-configuration-e21f915.md "By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import
 		roadmap content into the Tasks app. This helps you understand the
 		order in which the tasks need to be executed, and lets you navigate directly to SAP Central
@@ -33,4 +32,7 @@ You can integrate and activate the SAP Document Management service for document 
 -   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "An SAP service is usually delivered as part of a service contract like SAP MaxAttention,
 		SAP ActiveAttention or SAP Enterprise Support.")**  
 An SAP service is usually delivered as part of a service contract like SAP MaxAttention, SAP ActiveAttention or SAP Enterprise Support.
+-   **[Integrate SAP LeanIX](integrate-sap-leanix-ff52464.md "You can integrate SAP LeanIX with SAP Cloud ALM for an integration of project and task
+		management, as well as landscape management.")**  
+You can integrate SAP LeanIX with SAP Cloud ALM for an integration of project and task management, as well as landscape management.
 

@@ -46,6 +46,23 @@ Alternative Data Center for Resilience Fallback Option
 <tr>
 <td valign="top">
 
+AP10
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 AP11
 
 </td>
@@ -136,7 +153,7 @@ CA10
 </td>
 <td valign="top">
 
-US10
+CA10
 
 </td>
 <td valign="top">
@@ -165,12 +182,46 @@ EU20
 <tr>
 <td valign="top">
 
+CN40
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 EU10
 
 </td>
 <td valign="top">
 
 EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10-004
+
+</td>
+<td valign="top">
+
+EU10-004
 
 </td>
 <td valign="top">
@@ -193,6 +244,23 @@ EU11
 <td valign="top">
 
 EU11
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU12
+
+</td>
+<td valign="top">
+
+EU12
+
+</td>
+<td valign="top">
+
+EU10
 
 </td>
 </tr>
@@ -284,6 +352,23 @@ AP10
 <tr>
 <td valign="top">
 
+SA30
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 US10
 
 </td>
@@ -336,6 +421,23 @@ EU20
 <td valign="top">
 
 US30
+
+</td>
+<td valign="top">
+
+US10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+US50
 
 </td>
 <td valign="top">

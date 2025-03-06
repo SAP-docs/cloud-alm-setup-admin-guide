@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API in Cloud Foundry
 
-To set up the connection between SAP Cloud ALM and your managed systems and/or services, you need to create a service key from the SAP Cloud ALM API instance.
+To integrate certain products with SAP Cloud ALM, you need to create a service key from the SAP Cloud ALM API instance.
 
 > ### Note:  
 > This document describes how to retrieve service credentials in the Cloud Foundry environment. This is no longer the recommended approach.
@@ -19,13 +19,11 @@ To set up the connection between SAP Cloud ALM and your managed systems and/or s
 
 ## Prerequisites
 
--   Your SAP Cloud ALM tenant was provisioned before October 16, 2023.
-
-    If your SAP Cloud ALM tenant was provisioned after this date, service credentials were generated automatically and you can skip these steps. For more information, refer to [Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md).
-
 -   Your user has the role *Global Account Administrator* in the global account that was created when you requested SAP Cloud ALM, and is a member of the subaccount containing your SAP Cloud ALM subscription.
 
     If you don't have this role, the global account administrator can assign it to you by following the steps described in [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/4a0491330a164f5a873fa630c7f45f06.html).
+
+-   Cloud Foundry is enabled in the subaccount containing your SAP Cloud ALM subscription.
 
 -   Your user has the role *Org Manager* in your Cloud Foundry environment.
 

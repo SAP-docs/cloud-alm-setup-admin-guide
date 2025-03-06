@@ -29,6 +29,16 @@ From the *Systems* page, you can also navigate to your global account on SAP BTP
 4.  To launch your global account on SAP BTP, click on the GUID in the *Global Account* column. Then choose *Launch System*.
 
 
+
+
+<a name="loio9d4aa2ad1b304dd2a1046f6ebba11612__section_gll_mh3_42c"/>
+
+## Subscribing to Cloud Email Notifications
+
+If you want to be informed and receive timely updates regarding SAP Cloud ALM and your other SAP cloud services, for example, about planned and unplanned downtimes and other customer communications, you can subscribe to cloud availability notifications.
+
+For more information, see KBA [2900069](https://me.sap.com/notes/2900069).
+
 **Related Information**  
 
 

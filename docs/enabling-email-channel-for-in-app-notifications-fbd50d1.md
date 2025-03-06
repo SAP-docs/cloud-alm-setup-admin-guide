@@ -20,7 +20,7 @@ You have two options for sending email notifications:
 -   You can use the email service provided by the data center hosting your SAP Cloud ALM tenant. This option doesn't require any admin-level configuration. The email notifications go out under the sender name `SAP Cloud ALM Notifications` and the address `sapcloudalm@notifications.sap.com`.
 
     > ### Note:  
-    > For region `eu11` the email service provided by the data center hosting your SAP Cloud ALM tenant is not available. For these tenants, use your own email server as described below.
+    > If your SAP Cloud ALM tenant is hosted in the region `eu11` \(EU Access\), no email service is provided by the data center. Please use your own email server as described below.
 
 -   If you want to use your own infrastructure and determine the sender address yourself, you can use your own email server that you are operating under your responsibility.
 

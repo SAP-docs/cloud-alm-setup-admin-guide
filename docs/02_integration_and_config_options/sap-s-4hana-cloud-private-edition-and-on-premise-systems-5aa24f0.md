@@ -38,9 +38,9 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > 
 > -   Changing delivery routes is partly supported. This means, the transport buffers need to be adjusted manually and removed systems are still reported on in the feature traceability.
 > 
-> -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the feature traceability. Also, transport requests created in the deleted systems are still available in the transport assignment.
+> -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the *Feature Traceability* app. Also, transport requests created in the deleted systems are still available in the transport assignment.
 > 
-> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature,*Transport Analysis* app, and *Feature Traceability* app.
+> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature, *Transport Analysis* app, and *Feature Traceability* app.
 > 
 > -   Manually deleted transports in the managed system are still available in the assign pop-up, feature, *Transport Analysis* app, and *Feature Traceability* app.
 > 
