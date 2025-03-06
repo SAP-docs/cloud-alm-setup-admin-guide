@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "cloud-alm-setup-admin-guide"
+SPDX-PackageSupplier = "stephanie.daum@sap.com"
+SPDX-PackageDownloadLocation = "https://github.com/SAP-docs/cloud-alm-setup-admin-guide"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022-2023 SAP SE or an SAP affiliate company and cloud-alm-setup-admin-guide contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
