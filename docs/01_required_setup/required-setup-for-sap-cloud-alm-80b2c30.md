@@ -55,9 +55,7 @@ Identity Authentication tenant
 
 *Administrator*
 
-If a new Identity Authentication tenant was created for you when you requested SAP Cloud ALM, you've automatically received the required roles in the Identity Authentication tenant.
-
-If someone else requested SAP Cloud ALM or if you're using a pre-existing Identity Authentication tenant for SAP Cloud ALM, the [administrator](https://iamtenants.accounts.cloud.sap/) can add you as an administrator by following the steps described in [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/786eea2e06fa4bef84d914a7c319d74c.html).
+If you don't have this authorization, the [administrator](https://iamtenants.accounts.cloud.sap/) can add you as an administrator by following the steps described in [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/786eea2e06fa4bef84d914a7c319d74c.html).
 
 </td>
 </tr>
@@ -79,9 +77,9 @@ SAP BTP cockpit
 
 -   *Org Manager* for the Cloud Foundry organization in your SAP Cloud ALM subaccount
 
-    This role is only required if a Cloud Foundry org and space exist in your SAP Cloud ALM subaccount and is in use in the context of SAP Cloud ALM APIs.
-
     If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html).
+
+    This role is only required for older SAP Cloud ALM tenants, which were provisioned with a Cloud Foundry org. If your SAP Cloud ALM tenant was provisioned after October 16, 2023, you now longer need this role.
 
 
 
@@ -116,8 +114,8 @@ If you don't have this authorization, the *Global Administrator* can assign the 
 							(if required) set up landscape management.](images/Image_Map_Required_Setup_for_SAP_Cloud_ALM_d4f9ce5.png)
 
 -   **[Video-Guided Setup](video-guided-setup-cd38b1f.md "To learn how to set up SAP Cloud ALM for productive use, you can watch the following
-		step-by-step how-to videos.")**  
-To learn how to set up SAP Cloud ALM for productive use, you can watch the following step-by-step how-to videos.
+		step-by-step how-to videos (English only).")**  
+To learn how to set up SAP Cloud ALM for productive use, you can watch the following step-by-step how-to videos \(English only\).
 -   **[Step 1: Onboard Users in the Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md "To give further users access to SAP Cloud ALM, you need to create or import users in
 		your Identity Authentication tenant. For users to be able to sign in to SAP Cloud ALM, they
 		need to be maintained both in the Identity Authentication tenant and in SAP Cloud

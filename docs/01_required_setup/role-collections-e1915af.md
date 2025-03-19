@@ -12,6 +12,9 @@ Role collections in SAP Cloud ALM are delivered predefined and ready to use.
 
 In general, each application role in SAP Cloud ALM represents a role collection in your SAP BTP subaccount. This means that most SAP Cloud ALM role collections correspond 1:1 to the respective role template and can be assigned to users without any further configuration.
 
+> ### Note:  
+> Some SAP Cloud ALM areas also offer single role templates. Before you can use these role templates, you need to assign them to a role collection. For more information, see [Role Templates](https://help.sap.com/docs/cloud-alm/setup-administration/role-templates).
+
 Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in apps other than *Health Monitoring* because someone in that role also needs to be able to configure events and set up notifications.
 
 
