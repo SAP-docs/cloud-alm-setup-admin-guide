@@ -22,7 +22,7 @@ Corresponding documentation: [Requesting SAP Cloud ALM](../requesting-sap-cloud-
 
 <a name="loiocd38b1f8e2494707b6a1368b39cc8767__section_jx4_gfx_gqb"/>
 
-## Onboarding Users in Your Identity Authentication Service
+## Onboarding Users in Your Identity Authentication Tenant
 
 Find out how to activate your account in the Identity Authentication service, how to create users in your Identity Authentication tenant, and how to add them to SAP Cloud ALM.
 

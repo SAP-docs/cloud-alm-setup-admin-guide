@@ -9,7 +9,7 @@ If you want to upload [External Files](https://help.sap.com/docs/cloud-alm/appli
 > ### Caution:  
 > Choose your DMS instance carefully beforehand. It is not possible to change it afterward. Also, the automatic creation of a repository is a one-time action that can't be reversed.
 > 
-> Please use only this automatically created repository. It is currently not possible to use your external repository.
+> Please use only this automatically created repository. It is currently **NOT** possible to use your **external** repository.
 > 
 > For more information, see [Repository Handling](https://help.sap.com/docs/cloud-alm/setup-administration/connecting-sap-document-management-service#repository-handling).
 

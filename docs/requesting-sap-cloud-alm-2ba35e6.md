@@ -34,7 +34,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 1.  Open the [Systems & Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me.
 
-2.  Under *Products Available for Provisioning*, find your entitlement for SAP Cloud ALM.
+2.  Under *Systems to be Provisioned*, find your entitlement for SAP Cloud ALM.
 
     ![](images/SUI-ProductsAvailableforProvisioning_6bbd7c3.jpg)
 
@@ -73,7 +73,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 
     > ### Tip:  
-    > If you have multiple Identity Authentication tenants and you're unsure about which one to select, look up the administrators of the Identity Authentication tenants that are assigned to your customer ID at [https://iamtenants.accounts.cloud.sap](https://iamtenants.accounts.cloud.sap). The administrators can give you more guidance. Also, to simplify the maintenance of administrators in your Identity Authentication tenant, consider selecting an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
+    > If you have multiple Identity Authentication tenants and you're unsure about which one to select, look up the administrators of the Identity Authentication tenants that are assigned to your customer ID at [SAP Cloud Identity Services - Tenants](https://iamtenants.accounts.cloud.sap). The administrators can give you more guidance. Also, to simplify the maintenance of administrators in your Identity Authentication tenant, consider selecting an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
     > 
     > To ensure the best performance, we generally recommend selecting an Identity Authentication tenant in a region that is close to the region of your SAP Cloud ALM tenant. If you've selected the EU Access region, select an Identity Authentication tenant that is also located in Europe.
     > 

@@ -115,7 +115,7 @@ You have questions about which region \(data center location\) to use for your S
 
 The region that you select when requesting SAP Cloud ALM corresponds to the location of the data center where your SAP Cloud ALM tenant will be operated.
 
-The *Region* drop-down menu on SAP for Me offers a complete list of all data center locations that are currently available for SAP Cloud ALM.
+The *Region* drop-down menu on SAP for Me offers a complete list of all data center locations that are currently available for SAP Cloud ALM. You can also find them under [Supported Data Centers](supported-data-centers-79af00d.md).
 
 For an overview of the data centers that are currently available and those that are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
 

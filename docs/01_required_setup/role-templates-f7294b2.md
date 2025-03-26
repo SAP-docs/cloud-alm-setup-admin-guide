@@ -92,6 +92,50 @@ Access to the System View dashboard \(RISE with SAP\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_DeploymentManagerTest` 
+
+</td>
+<td valign="top">
+
+Deploy transports into test systems
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_DeploymentManagerProd` 
+
+</td>
+<td valign="top">
+
+Deploy transports into production systems
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

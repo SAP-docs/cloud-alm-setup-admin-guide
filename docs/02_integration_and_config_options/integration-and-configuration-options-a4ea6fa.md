@@ -7,9 +7,9 @@ There are additional integration and configuration options that help you take ad
 -   **[Application Configuration](application-configuration-ce08e9d.md "For several apps in SAP Cloud ALM, additional setup steps are required or
 		possible.")**  
 For several apps in SAP Cloud ALM, additional setup steps are required or possible.
--   **[Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md "To integrate certain products with SAP Cloud ALM, you need to create service credentials
-		(that is, service binding or service key) from the SAP Cloud ALM API instance.")**  
-To integrate certain products with SAP Cloud ALM, you need to create service credentials \(that is, service binding or service key\) from the SAP Cloud ALM API instance.
+-   **[Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md "To integrate certain products with SAP Cloud ALM, you need to create a service binding
+		from the SAP Cloud ALM API instance.")**  
+To integrate certain products with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
 -   **[Integrating SAP Central Business Configuration](integrating-sap-central-business-configuration-e21f915.md "By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import
 		roadmap content into the Tasks app. This helps you understand the
 		order in which the tasks need to be executed, and lets you navigate directly to SAP Central

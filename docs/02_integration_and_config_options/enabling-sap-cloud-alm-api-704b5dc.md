@@ -6,6 +6,11 @@
 
 To integrate certain products with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
 
+> ### Note:  
+> This document describes how to retrieve service credentials without Cloud Foundry.
+> 
+> If your SAP Cloud ALM tenant was provisioned before October 2023, you can also follow [Enabling SAP Cloud ALM API in Cloud Foundry](https://help.sap.com/doc/d97695e60e5847609b439d0ba8f2ab28/latest/en-US/88405e3f78724ba995b0aebe8dd705a4.pdf). However, we strongly recommend following the approach **without** Cloud Foundry.
+
 
 
 <a name="loio704b5dc854f549888a238f94015e1eac__section_wpy_rnj_jmb"/>

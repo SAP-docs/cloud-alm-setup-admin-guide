@@ -29,9 +29,9 @@ To use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM environm
 
 <a name="loioa4238a9e586046268a1de5ea03ec6930__section_iqv_ndc_ybc"/>
 
-## Getting the Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance
+## Getting the Binding Credentials of the SAP Cloud ALM API Service Instance
 
-Depending on when you requested the SAP Cloud ALM tenant provisioning, there are differences in receiving the SAP Cloud ALM API service key/binding credentials.
+Depending on when you requested the SAP Cloud ALM tenant provisioning, there are differences in receiving the SAP Cloud ALM API binding credentials.
 
 The following sections show you what to do depending on when you requested SAP Cloud ALM. For more information, see also [Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md).
 
@@ -47,7 +47,7 @@ You can access your credentials in the SAP BTP cockpit or in the *Landscape Mana
 
 ### Between June 12, 2023 and October 16, 2023
 
-You only need to create manually a new instance for the SAP Cloud ALM API if you want to use the Deployment scenario described here. For this, see section *Create or Update an Instance* in [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md).
+You only need to create manually a new instance for the SAP Cloud ALM API if you want to use the Deployment scenario described here. For this, see section *Create or Update an Instance* in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
 Make sure to paste the following JSON code into the text editor as:
 
@@ -77,11 +77,9 @@ Make sure to paste the following JSON code into the text editor as:
 
 ### Before June 12, 2023
 
-If you already activated the Cloud Foundry environment, follow the steps in [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md) to get your service credentials.
-
 If you haven't created the SAP Cloud ALM API service instance, follow the steps in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) to get the binding credentials.
 
-Example of the service key in the SAP BTP cockpit for SAP Cloud ALM subaccount:
+Example of the binding credential in the SAP BTP cockpit for SAP Cloud ALM subaccount:
 
 ![](images/1_f79e68a.png)
 
@@ -118,7 +116,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
     4.  Add a token URL based on the UAA url from your SAP Cloud ALM API instance in the *Token Endpoint* field and add `/oauth/token` at the end of the URL.
 
-        The token URL in the service key JSON file looks like that:`"url": "https://tenant-name.authentication.eu10.hana.ondemand.com"`
+        The token URL in the binding credential JSON file looks like that:`"url": "https://tenant-name.authentication.eu10.hana.ondemand.com"`
 
         ![](images/Create_Outbound_User_474d537.png)
 
@@ -128,7 +126,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
     6.  Choose Oauth 2.0 in the *Authentication Method* dropdown and enter your credentials based on client ID and secret from your SAP Cloud ALM API instance in the *OAuth 2.0 Client ID* and *Client Secret* fields.
 
-        You can find the client ID and secret in the UAA section of the service key JSON and has a structure like in the following examples:`"clientid": "instance-name!b123456|sapcloudalm!b456789"` and `"clientsecret": "asdfasdfasdfasdfasdfasdf"`.
+        You can find the client ID and secret in the UAA section of the binding credential JSON and has a structure like in the following examples:`"clientid": "instance-name!b123456|sapcloudalm!b456789"` and `"clientsecret": "asdfasdfasdfasdfasdfasdf"`.
 
         ![](images/Create_New_outbound_user_d68990b.png)
 

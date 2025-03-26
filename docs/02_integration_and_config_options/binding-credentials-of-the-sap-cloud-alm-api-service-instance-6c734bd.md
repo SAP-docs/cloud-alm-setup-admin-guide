@@ -1,8 +1,8 @@
 <!-- loio6c734bd086324ad5a035626bd7bea639 -->
 
-# Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance
+# Binding Credentials of the SAP Cloud ALM API Service Instance
 
-Learn how to get your service key/binding credentials for the connection between the Change and Transport System \(CTS\) of your managed systems and the SAP Cloud ALM application.
+Learn how to get your binding credentials for the connection between the Change and Transport System \(CTS\) of your managed systems and the SAP Cloud ALM application.
 
 
 
@@ -12,9 +12,9 @@ Learn how to get your service key/binding credentials for the connection between
 
 The whole communication between the SAP Cloud ALM tenant and the CTS of your managed systems transport track is done through the `ST_PI SW` component of your managed systems that calls the SAP Cloud ALM application through the SAP Cloud ALM API service instance credentials.
 
-To set up the connection between your managed systems and the SAP Cloud ALM applications like Deployment, you have to retrieve your service key or binding credentials of the SAP Cloud ALM API service instance and then connect your SAP systems to your SAP Cloud ALM instance, by running `n/SDF/ALM_SETUP` on the managed systems and clients of your TMS transport track.
+To set up the connection between your managed systems and the SAP Cloud ALM applications like Deployment, you have to retrieve your binding credentials of the SAP Cloud ALM API service instance and then connect your SAP systems to your SAP Cloud ALM instance, by running `n/SDF/ALM_SETUP` on the managed systems and clients of your TMS transport track.
 
-If you already have a service key, you can retrieve it in the *Landcape Management* app under *Settings*.
+If you already have a binding credential, you can retrieve it in the *Landscape Management* app under *Settings*.
 
 
 
@@ -32,9 +32,9 @@ All the required actions at BTP level related to SAP Cloud ALM are done in your 
 
 <a name="loio6c734bd086324ad5a035626bd7bea639__section_iqv_ndc_ybc"/>
 
-## Getting the Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance
+## Getting the Binding Credentials of the SAP Cloud ALM API Service Instance
 
-Depending on when you requested the SAP Cloud ALM tenant provisioning, there are differences in receiving the SAP Cloud ALM API service key/binding credentials.
+Depending on when you requested the SAP Cloud ALM tenant provisioning, there are differences in receiving the SAP Cloud ALM API binding credentials.
 
 The following sections show you what to do depending on when you requested SAP Cloud ALM. For more information, see also [Retrieving Service Credentials](retrieving-service-credentials-448f9f1.md).
 
@@ -50,7 +50,7 @@ You can access your credentials in the SAP BTP cockpit or in the *Landscape Mana
 
 ### Between June 12, 2023 and October 16, 2023
 
-You only need to create manually a new instance for the SAP Cloud ALM API if you want to use the Deployment scenario described here. For this, see section *Create or Update an Instance* in [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md).
+You only need to create manually a new instance for the SAP Cloud ALM API if you want to use the Deployment scenario described here. For this, see section *Create or Update an Instance* in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
 Make sure to paste the following JSON code into the text editor as:
 
@@ -80,11 +80,9 @@ Make sure to paste the following JSON code into the text editor as:
 
 ### Before June 12, 2023
 
-If you already activated the Cloud Foundry environment, follow the steps in [Enabling SAP Cloud ALM API in Cloud Foundry](enabling-sap-cloud-alm-api-in-cloud-foundry-7d4c180.md) to get your service credentials.
-
 If you haven't created the SAP Cloud ALM API service instance, follow the steps in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) to get the binding credentials.
 
-Example of the service key in the SAP BTP cockpit for SAP Cloud ALM subaccount:
+Example of the binding credentials in the SAP BTP cockpit for SAP Cloud ALM subaccount:
 
 ![](images/1_f79e68a.png)
 

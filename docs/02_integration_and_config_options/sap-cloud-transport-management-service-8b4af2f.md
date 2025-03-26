@@ -31,6 +31,8 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 
     For more information about the general setup, refer to [Initial Setup of SAP Cloud Integration in the Cloud Foundry Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/302b47b11e1749c3aa9478f4123fc216.html).
 
+-   You've created an instance of SAP Cloud Transport Management service in a Global or Sub account of SAP BTP which is permitted to such a CTMS instance. It's not possible to do this in SAP Cloud ALM Global or Sub accounts.
+
 -   You've created a service key for SAP Cloud Transport Management service. For more information, see [Creating a Service Instance and a Service Key](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-service-instance-and-service-key?version=Cloud).
 
 -   You've familiarized yourself with how to use the [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/BTP/Cloud/en-US?task=discover_task) cockpit, in particular [Account Administration](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/5d62ec89de39442f8f31d527855cbced.html) concepts.

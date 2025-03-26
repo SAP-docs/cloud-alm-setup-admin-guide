@@ -8,7 +8,7 @@
 
 ## Issues and Solutions
 
-In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA on-premise, SAP S/4HANA Cloud Private Edition, and SAP Business Suite or SAP NetWeaver Application Server for ABAP on-premise.
+In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition, SAP S/4HANA \(on premise\) and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\).
 
 ****
 
@@ -160,6 +160,53 @@ Go to the managed system:
 
 
 To resolve the mismatch issue see SAP Note [1688610](https://me.sap.com/notes/1688610).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transport check job was canceled due to long running time
+
+</td>
+<td valign="top">
+
+The default maximum running time of a transport check job is 10 hours. If a job runs for more than 10 hours, it’s automatically canceled.
+
+You can customize the maximum running time in cross-client table `/SDF/CDM_PARAM` with parameter `TR_CHECK_PROCESS_TIME` via transaction SE16 in any of your clients.
+
+![](images/cdm_param_d17366f.png)
+
+The default unit of the parameter is hours. You can only enter numerical digits. Please avoid overly long running times.
+
+![](images/para_fab8aef.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transport check job wasn't scheduled due to system resource shortage
+
+</td>
+<td valign="top">
+
+By default, the `TR_CHECK_BATCH_PERCENTAGE` value is set to 0%.
+
+![](images/batch1_b6b7a86.png)
+
+This means that the job will always be scheduled. If no free work process is available, the job will start as soon as free work process is available again.
+
+You can customize the minimum percentage in cross-client table `/SDF/CDM_PARAM` with parameter `TR_CHECK_BATCH_PERCENTAGE` via transaction SE16 in any of your clients.
+
+![](images/percentage_d681a48.png)
+
+For example, you set the minimum percentage to 50%. When you start a transport check, the current percentage of free work process is compared to the minimum percentage of 50%. Only if 50% or more free work process is available, the job is scheduled immeditaley. If there's less free work process available, the job will start as soon as free work process is available.
+
+> ### Note:  
+> In case of no free work process, the system performs 3 retires. The job is canceled if there's still no free work process after the retries.
+
+
 
 </td>
 </tr>

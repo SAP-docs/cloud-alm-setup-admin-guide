@@ -1,6 +1,6 @@
 <!-- loio21e0843b2009480282487a08044f3f34 -->
 
-# Setting up the Managed Systems
+# Setting Up the Managed Systems
 
 Learn which prerequisites you have to fulfill for all systems you want to manage from SAP Cloud ALM that are part of the TMS defined transport track.
 
@@ -24,7 +24,7 @@ On the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/e
 
 -   [SAP NetWeaver Application Server for ABAP \(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html#section_406552075_co_80551802)
 
--   [Setup for SAP S/4HANA and SAP Business Suite](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-onprem.html#section_406552075_co)
+-   [Setup for SAP S/4HANA and SAP Business Suite 7](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-onprem.html#section_406552075_co)
 
 -   [Setup for SAP S/4HANA Cloud Private Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-priv-cloud.html#section_406552075_co)
 
@@ -68,9 +68,9 @@ The following list shows you the required SAP Notes. We recommend always install
 
 ## Configuring the PUSH Data Provider
 
-After getting the system ready at ST-PI level, continue with establishing the connection from the managed sytem to SAP Cloud ALM.
+After getting the system ready at ST-PI level, continue with establishing the connection from the managed system to SAP Cloud ALM.
 
-SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite, and SAP NetWeaver Application Server for ABAP \(7.40 or higher\) use a PUSH mechanism to push transport management data to SAP Cloud ALM.
+SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 or higher\) use a PUSH mechanism to push transport management data to SAP Cloud ALM.
 
 > ### Note:  
 > If you have multiple SAP Cloud ALM tenants, you need to decide which SAP Cloud ALM instance the managed system connects to.
@@ -194,7 +194,7 @@ client 000: activate the following tasks:
 > For your test or productive landscape, set the collection interval to 1 min for these tasks if you want a quicker reaction to your testing of creating transport request, transport of copies, and triggering the deploy in the features.
 
 > ### Note:  
-> Once you've activated any of the tasks, the diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` is started. This job runs daily in the background and sends diagnostic data.It's only necessary to set up on one system per domain \(preferably the domain controller system\)
+> Once you've activated any of the tasks, the diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` is started. This job runs daily in the background and sends diagnostic data. It's only necessary to set up on one system per domain \(preferably the domain controller system\)
 
 > ### Note:  
 > With ST-PI 740 SP 27, the names of the tasks have been changed.

@@ -75,12 +75,6 @@ SAP BTP cockpit
 
     If you don't have this authorization, the subaccount administrator can assign the role to you by following the steps described in [Add Members to Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
 
--   *Org Manager* for the Cloud Foundry organization in your SAP Cloud ALM subaccount
-
-    If you don't have this role, the org manager can assign it to you by following the steps described in [Add Org Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/a4eeaf179ee646b99558f27c0bae7b3e.html).
-
-    This role is only required for older SAP Cloud ALM tenants, which were provisioned with a Cloud Foundry org. If your SAP Cloud ALM tenant was provisioned after October 16, 2023, you now longer need this role.
-
 
 
 

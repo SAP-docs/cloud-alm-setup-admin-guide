@@ -69,5 +69,5 @@ In SCC4, assign the following settings to the clients for your system landscape.
 
 ![](images/assign2_b12d94c.png)
 
-Continue with the setup with the [Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance](service-key-binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md).
+Continue with the setup with the [Binding Credentials of the SAP Cloud ALM API Service Instance](binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md).
 

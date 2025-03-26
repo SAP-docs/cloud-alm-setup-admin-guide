@@ -58,9 +58,9 @@ The following steps show you how to create a test landscape to try out the SAP C
 
 1.  [Configuring your Transport Management System \(TMS\) on the Managed Systems](configuring-your-transport-management-system-tms-on-the-managed-systems-a9ae2e3.md).
 
-2.  [Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance](service-key-binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md).
+2.  [Binding Credentials of the SAP Cloud ALM API Service Instance](binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md).
 
-3.  [Setting up the Managed Systems](setting-up-the-managed-systems-21e0843.md).
+3.  [Setting Up the Managed Systems](setting-up-the-managed-systems-21e0843.md).
 
 
 When you finished the steps above, you can start with the setup in the SAP Cloud ALM apps. First, you have to create a project in the *Projects and Setup* app, for this see [Projects and Setup](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/6dd14269bc6e48ec81875f38d920ea6e.html "In the Projects and Setup app, you can manage your projects in SAP Cloud ALM.") :arrow_upper_right:. Then, you can create a feature in the *Features* app to document changes and manage the deployment to your system. For more information, see [Features](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/1a6c29ffb3f74f0789d4bb76081eb834.html "The Features app allows you to deploy transports assigned to a feature across your system landscape. It also helps you document changes for audit purposes.") :arrow_upper_right:.
@@ -79,11 +79,11 @@ Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/c
 
 -   **[Configuring your Transport Management System \(TMS\) on the Managed Systems](configuring-your-transport-management-system-tms-on-the-managed-systems-a9ae2e3.md "Learn how to configure your Transport Management System (TMS) on the Managed System. ")**  
 Learn how to configure your Transport Management System \(TMS\) on the Managed System.
--   **[Service Key/Binding Credentials of the SAP Cloud ALM API Service Instance](service-key-binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md "Learn how to get your service key/binding credentials for the connection between the
-		Change and Transport System (CTS) of your managed systems and the SAP Cloud ALM
+-   **[Binding Credentials of the SAP Cloud ALM API Service Instance](binding-credentials-of-the-sap-cloud-alm-api-service-instance-6c734bd.md "Learn how to get your binding credentials for the connection between the Change and
+		Transport System (CTS) of your managed systems and the SAP Cloud ALM
 		application.")**  
-Learn how to get your service key/binding credentials for the connection between the Change and Transport System \(CTS\) of your managed systems and the SAP Cloud ALM application.
--   **[Setting up the Managed Systems](setting-up-the-managed-systems-21e0843.md "Learn which prerequisites you have to fulfill for all systems you want to manage from
+Learn how to get your binding credentials for the connection between the Change and Transport System \(CTS\) of your managed systems and the SAP Cloud ALM application.
+-   **[Setting Up the Managed Systems](setting-up-the-managed-systems-21e0843.md "Learn which prerequisites you have to fulfill for all systems you want to manage from
 		SAP Cloud ALM that are part of the TMS defined transport track.")**  
 Learn which prerequisites you have to fulfill for all systems you want to manage from SAP Cloud ALM that are part of the TMS defined transport track.
 

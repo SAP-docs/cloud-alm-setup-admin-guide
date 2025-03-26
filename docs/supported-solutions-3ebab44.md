@@ -431,6 +431,8 @@ Process Management
 
 -   SAP Services Content for Connected Assets
 
+-   SAP Services Content for Core Retail
+
 -   SAP Services Content for Integrated Utilities
 
 -   SAP Services Content for Oil and Gas
@@ -2216,7 +2218,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Business Suite 
+SAP Business Suite 7 
 
 </td>
 <td valign="top">
@@ -2569,6 +2571,28 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <td valign="top">
 
 SAP Ariba 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring: SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Ariba contract price renegotiation add-on 
 
 </td>
 <td valign="top">
@@ -3334,7 +3358,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP Business Suite
+SAP Business Suite 7
 
 </td>
 <td valign="top">
@@ -3536,7 +3560,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Business Suite
+SAP Business Suite 7
 
 </td>
 <td valign="top">
@@ -3954,7 +3978,29 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP Business Suite
+SAP Market Communication for Utilities 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Suite 7
 
 </td>
 <td valign="top">
@@ -4328,7 +4374,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Business Suite
+SAP Business Suite 7
 
 </td>
 <td valign="top">
@@ -5010,7 +5056,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP Business Suite
+SAP Business Suite 7
 
 </td>
 <td valign="top">
@@ -5208,6 +5254,28 @@ More under [Configuration and Security Analysis](https://support.sap.com/en/alm/
 <tr>
 <td valign="top">
 
+SAP Datasphere 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>
@@ -5230,7 +5298,7 @@ Change and Deployment Management
 <tr>
 <td valign="top">
 
-SAP Business Suite 
+SAP Business Suite 7 
 
 </td>
 <td valign="top">
