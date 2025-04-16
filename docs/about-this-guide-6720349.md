@@ -26,6 +26,8 @@ This guide describes the steps you need to perform to set up, configure, and adm
 
 -   [Supported Solutions](supported-solutions-3ebab44.md): Explore the ways in which your SAP products are supported by SAP Cloud ALM.
 
+-   [General Concepts](general-concepts-9cdf234.md): Learn about the basic concepts related to the setup and administration of SAP Cloud ALM.
+
 -   [Fair Use](fair-use-94cd95e.md): See which resources in SAP Cloud ALM you're entitled to.
 
 -   [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md): Find out how to request an SAP Cloud ALM tenant on SAP for Me.

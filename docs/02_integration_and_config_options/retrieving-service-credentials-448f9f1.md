@@ -46,7 +46,7 @@ Service credentials that can be used to connect managed services to SAP Cloud AL
 
 You can access them in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md).
 
-You only need to carry out the steps on the subsequent pages if you want to set up transport management, but you no longer have to configure your entitlements.
+You only need to carry out the steps in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) if you want to set up transport management, but you no longer have to configure your entitlements.
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ Before June 12, 2023
 </td>
 <td valign="top">
 
-No service credentials have been created as part of the provisioning of your SAP Cloud ALM tenant. To create one manually, carry out the steps on the subsequent pages.
+No service credentials have been created as part of the provisioning of your SAP Cloud ALM tenant. To create one manually, carry out the steps in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
 </td>
 </tr>

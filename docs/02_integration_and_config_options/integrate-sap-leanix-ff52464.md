@@ -33,11 +33,11 @@ If you don't have this role, the global account administrator can assign it to y
 ### Create an Instance
 
 > ### Caution:  
-> Make sure that you create a new API instance and **do not update an existing instance**. Updating an existing instance may interfere with the connection between managed systems and SAP Cloud ALM, as they also use a service key.
+> Make sure that you create a new API instance and **do not update an existing instance**. Updating an existing instance can interfere with the connection between managed systems and SAP Cloud ALM, as they also use a service key.
 
 To consume the SAP Cloud ALM API, you need to create a service instance for the SAP Cloud ALM tenant in the SAP BTP cockpit:
 
-1.  In the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/), select the global account that contains your SAP Cloud ALM entitlement and open the subaccount that contains your SAP Cloud ALM subscription.
+1.  In the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/) from *Account Explorer*, select the global account that contains your SAP Cloud ALM entitlement and open the subaccount that contains your SAP Cloud ALM subscription.
 2.  Choose *Services* \> *Instances and Subscriptions*.
 
 3.  Choose *Create*.
@@ -68,16 +68,18 @@ To consume the SAP Cloud ALM API, you need to create a service instance for the 
     -   Configuring SAP Cloud ALM Integration For Managing Projects: [Enabling API Access to SAP Cloud ALM](https://docs-eam.leanix.net/docs/configuring-sap-cloud-alm-integration-for-managing-projects#enabling-api-access-to-sap-cloud-alm)
 
 
-    To add the scopes, insert the following JSON and replace the relevant parameters with your instance name and the required scopes, respectively. Optional: If you want to use just one service binding for the SAP LeanIX integration, you need to merge the scopes.
+    To add the scopes, insert the following JSON and replace the relevant parameters with your instance name and the required scopes, respectively. The instance name must be the **same** one that you entered under *Basic Info*, in step 4.
+
+    Optional: If you want to use just one service binding for the SAP LeanIX integration, you need to merge the scopes.
 
     ```
+    
     {
         "xs-security": {
             "xsappname": "<your-instance-name>",
             "authorities": [
-               "<Required Scope 1>",
-               "<Required Scope 2>",
-               "<Required Scope 3>"
+               "$XSMASTERAPPNAME.calm-api.landscape.read",
+               "$XSMASTERAPPNAME.calm-api.subscriptions.read"
             ],
             "oauth2-configuration": {
                 "credential-types": [
@@ -131,6 +133,8 @@ You can now see your service credentials in JSON format. They include the follow
 
 > ### Caution:  
 > Outside of the SAP BTP cockpit, service credentials must be stored securely. If you need new ones, create them directly in the SAP BTP cockpit, and access it from there whenever you need it.
+
+If you encounter issues with the connection in SAP Cloud ALM, please contact support under component SV-CLM-INF-LMS \(*Landscape Management*\) or SV-CLM-IMP-PRJ \(*Projects and Setup*\).
 
 
 

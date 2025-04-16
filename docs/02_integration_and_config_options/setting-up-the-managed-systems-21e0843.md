@@ -12,15 +12,230 @@ Learn which prerequisites you have to fulfill for all systems you want to manage
 
 After you've created your SAP Cloud ALM API key/binding, you have to prepare the managed systems included in the transport track.
 
-SAP Cloud ALM doesn't directly perform actions on the ABAP system itself. Instead, actions such as create, release, and import are triggered from your feature. Such tasks are executed by TMS using the tp command to create, release, or import the TR, ToC. So, if you encounter any issues in the managed ABAP system related to the TR release or import, you should inspect this in the TMS.
+SAP Cloud ALM doesn't directly perform actions on the ABAP system itself. Instead, actions such as create, release, and import are triggered from your feature. Such tasks are performed by TMS using the tp command to create, release, or import the TR, ToC. So, if you encounter any issues in the managed ABAP system related to the TR release or import, you should inspect this in the TMS.
 
 
 
-<a name="loio21e0843b2009480282487a08044f3f34__section_gpk_14r_zbc"/>
+<a name="loio21e0843b2009480282487a08044f3f34__section_zj1_fry_kdc"/>
 
 ## Prerequisites and Authorizations
 
-On the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html), you find the prerequisites for each managed system:
+The following sections show you the prerequisites and authorizations for the setup on your managed system.
+
+
+
+### Technical Prerequisites
+
+Technical Prerequisites for the ABAP system \(setup is done in transaction `/SDF/ALM_SETUP`\):
+
+-   SAP\_BASIS Release:
+
+    -   Either 7.40 SP16 or higher \(accordingly 7.50 SP05\)
+
+    -   Or 7.40 SP09 - SP15 \(7.50 SP00 - 7.50 SP04\) with SAP Note [2283880](https://me.sap.com/notes/2283880) - Logon Username not used in RFC API
+
+
+-   SAP\_UI Version:
+
+    -   Either SAP\_UI 740 SP15 or higher
+
+
+-   Implement ST-PI 7.40 Support Packages and keep them up-to-date, including the collective corrections suited for your ST-PI support package from the required SAP Notes mentioned below. For instance, make sure to operate your ABAP managed system with at minimum the latest or second latest Support Package, as available on the SAP Support Portal.
+
+-   Check that profile parameter `icm/HTTPS/client_sni_enabled` is set to TRUE \(see also SAP Note [510007](https://me.sap.com/notes/510007) - Additional considerations for setting up SSL on Application Server ABAP\)
+
+    > ### Note:  
+    > You can use transaction `RZ11` and `TU02` in the managed system for the profile parameter check.
+
+-   Check that profile parameter `ssl/client_ciphersuites` is set as described in section 7 of SAP Note[510007](https://me.sap.com/notes/510007) - Additional considerations for setting up SSL on Application Server ABAP.
+
+-   Check that [DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in STRUST under SSL Client \(Anonymous\) and SSL Client \(Standard\).
+
+-   Check that [DigiCert Global Root G2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in STRUST under SSL Client \(Anonymous\) and SSL Client \(Standard\).
+
+-   Check that [DigiCert RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in STRUST under SSL Client \(Anonymous\) and SSL Client \(Standard\).
+
+
+Additionally, please make sure you've installed the latest version of the following SAP Notes:
+
+-   [3502641](https://me.sap.com/notes/3502641) - Collective corrections as of ST-PI 7.40 SP28 for SAP Cloud ALM
+
+-   [3421256](https://me.sap.com/notes/3421256) - Collective corrections as of ST-PI 7.40 SP26 for SAP Cloud ALM \(including SP27\)
+
+-   [3374186](https://me.sap.com/notes/3374186) - Collective corrections as of ST-PI 7.40 SP24 for SAP Cloud ALM \(including SP25\)
+
+-   [3312428](https://me.sap.com/notes/3312428) - Collective corrections for Integration & Exception Monitoring in SAP Cloud ALM
+
+-   [3281776](https://me.sap.com/notes/3281776) - Job & Automation Monitoring: ST-PI 740 SP21+ fixes for on-premise jobs \(ABAP jobs and BW process chains\)
+
+
+
+
+### Network Prerequisites
+
+The communication between your ABAP system and SAP Cloud ALM happens from the ABAP system towards SAP Cloud ALM. You don't need to install an SAP Cloud Connector if you only want to use monitoring or transport management use cases. You only need an SAP Cloud Connector if your use case required an endpoint to be created from SAP Cloud ALM towards the ABAP system. Currently, this is only the case for ABAP systems of type SAP Focused Run and SAP Solution Manager or if you want to use the use case Business Transformation Center.
+
+To successfully establish the connection from the ABAP system to SAP Cloud ALM:
+
+-   You need to obtain the [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) to connect to the SAP Cloud ALM system.
+
+-   You need to make sure that the following URLs can be reached:
+
+    -   The Cloud ALM API URL \(service key "endpoints":"Api" without /api\)
+
+    -   The Cloud ALM OAuth URL \(service key "uaa":"url" extended by /oauth/token\)
+
+
+-   In case you use a proxy in your network, please make sure that it's configured to allow calls to these URLs.
+
+-   If your SAP ABAP system is hosted with SAP Enterprise Cloud Services \(ECS\), please open a service request with SAP ECS to add the following URLs to the "Allow-List" for your environment \(Please note: This doesn’t apply to SAP SuccessFactors Employee Central Payroll\):
+
+    -   Root URL: SAP Cloud ALM service key parameter "endpoints":"Api" without /api
+
+    -   OAuth URL: SAP Cloud ALM service key parameter "uaa":"url"
+
+
+
+
+
+### Required Authorizations
+
+You need to consider two users in the managed ABAP system for the setup.
+
+-   The user performing the setup: To run transaction /SDF/ALM\_SETUP your personal user needs the PFCG role SAP\_SDF\_ALM\_SETUP.
+
+    > ### Note:  
+    > In this role you need to maintain the authorization field S\_BTCH\_NAM \> BTCUNAME either with '\*' or with the user name of the user you plan to use as data collection background job user.
+
+-   User to run the data collection background job: Please assign the roles as per the table below.
+
+
+
+<table>
+<tr>
+<th valign="top">
+
+ST-PI Release
+
+</th>
+<th valign="top">
+
+Required Authorizations
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+ST-PI 7.40 SP25 and higher
+
+</td>
+<td valign="top">
+
+In addition to the authorizations for ST-PI 7.40 SP24, you need:
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_CSA
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_CSA\_S
+
+    This role allows the detection of special users \(such as SAP\*\) using default passwords.
+
+
+Before ST-PI 7.40 SP25 you can either use the existing SAP Focused Run roles for Configuration & Security Analysis or the ones delivered by the SAP Note [3372078](https://me.sap.com/notes/3372078) \(recommended\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ST-PI 7.40 SP18 and higher
+
+</td>
+<td valign="top">
+
+In addition to the authorizations for ST-PI 7.40 SP16, you need:
+
+-   SAP\_FRN\_SDAGENT\_CSA\_MS
+
+    This role contains authorization objects delivered by SAP with no authorization. To use the SAP Cloud ALM scenario Configuration & Security Analysis, please maintain make sure the following authorization objects are maintained:
+
+    -   S\_RFC\_ADM: ICF\_VALUE = '\*'
+
+    -   S\_DATASET: FILENAME = '\*', PROGRAM = '\*'
+
+    -   S\_LOG\_COM: HOST = '\*', OPSYSTEM = '\*'
+
+
+-   SAP\_FRN\_SDAGENT\_CSA\_SEC\_MS
+
+    This role allows the detection of special users \(such as SAP\*\) using default passwords
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ST-PI 7.40 SP16 and higher
+
+</td>
+<td valign="top">
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_FND\*
+
+
+Assign the following authorizations depending on the use cases you plan to activate:
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_BPMON
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_EXMON\*
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_HEALTH\*
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_INTMON
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_JOBMON
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_PERF
+
+-   SAP\_BC\_TRANSPORT\_ADMINISTRATOR \(only in client 000\)
+
+
+\*Please download the latest version of the roles from SAP Note [3372078](https://me.sap.com/notes/3372078).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ST-PI 7.40 SP15
+
+</td>
+<td valign="top">
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_FND
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_BPMON
+
+-   SAP\_SDF\_ALM\_METRIC\_PUSH\_EXMON
+
+
+Please download the latest version of the roles from SAP Note [3054258](https://me.sap.com/notes/3054258).
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> For SAP S/4HANA Cloud Private Edition:
+> 
+> -   You can request user `CUST_TC` for client 000. This user is authorized to run the setup transaction.
+> 
+> -   `BATCH_USER` is always available in the managed system and doesn't expire. You can also specifiy it as background user.
+
+You can also check the prerequisites for each managed system on the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html):
 
 -   [SAP NetWeaver Application Server for ABAP \(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html#section_406552075_co_80551802)
 
@@ -29,22 +244,6 @@ On the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/e
 -   [Setup for SAP S/4HANA Cloud Private Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-priv-cloud.html#section_406552075_co)
 
 
-Each page includes a *Prerequisites* tab which shows you the required prerequisites and authorizations:
-
-![](images/prereqs_9f5bddf.png)
-
-Make sure that you fulfill the *Technical Prerequisites*, *Network Prerequisites*, and *Required Authorizations*.
-
-> ### Note:  
-> For the profile parameter check, you can use transaction `RZ11` and `TU02` in the managed system.
-
-> ### Note:  
-> For SAP S/4 HANA Cloud Private Edition:
-> 
-> -   You can request user `CUST_TC` for client 000. This user is authorized to run the setup transaction.
-> 
-> -   `BATCH_USER` is always available in the managed system and doesn't expire. You can also specifiy it as background user.
-
 
 
 ## Required SAP Notes
@@ -52,6 +251,8 @@ Make sure that you fulfill the *Technical Prerequisites*, *Network Prerequisites
 The following list shows you the required SAP Notes. We recommend always installing the latest ST-PI version.
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
+
+-   For ST-PI 740 SP 30, install [3575903](https://me.sap.com/notes/3575903) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
 -   For ST-PI 740 SP 26 and SP 27, install [3421256](https://me.sap.com/notes/3421256) and follow SAP Note [3425282](https://me.sap.com/notes/3425282) .
 
@@ -207,11 +408,11 @@ client 000: activate the following tasks:
 > 
 > -   *Manage Transport per Client* changed to *Transports: Create & Export \(client-specific\)*
 
-It's only necessary to set up on one system per domainIn case you don't find these use cases in the list, try to rule out connection issues. For example, your service key could be outdated and has to be generated again, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md). For more solutions about connection problems, see [Issues and Solutions](issues-and-solutions-240043a.md).
+It's only necessary to set up on one system per domain. In case you don't find these use cases in the list, try to rule out connection issues. For example, your service key could be outdated and has to be generated again, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md). For more solutions about connection problems, see [Issues and Solutions](issues-and-solutions-240043a.md).
 
-In case of issues, open the *Analyze Application Log* `SLG1`. This system log shows you details about the use cases and jobs. For example, a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation is not resolved manually at TMS level. For more information, see [Analyze Application Log](solutions-for-errors-in-the-managed-system-setup-check-93ae080.md#loio93ae080ec391461bb4d56579deaa0b00__section_uns_nj3_hdc).
+In case of issues, open the *Analyze Application Log* `SLG1`. This system log shows you details about the use cases and jobs. For example, a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level. For more information, see [Analyze Application Log](solutions-for-errors-in-the-managed-system-setup-check-93ae080.md#loio93ae080ec391461bb4d56579deaa0b00__section_uns_nj3_hdc).
 
-In case of import issues, you can have a look at the job log. Sometimes a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation is not resolved manually at TMS level.
+In case of import issues, you can have a look at the job log. Sometimes a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level.
 
 In case several features are deployed together, all assigned transports are imported as import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
 
@@ -228,7 +429,7 @@ For this, follow the steps in the [Activating the Web Service for Transport Orga
 > ### Note:  
 > If the transport organizer web UI shows exceptions, check the following:
 > 
-> -   Make sure that you've configured the start authorization according to the following SAP notes: [1413011](https://me.sap.com/notes/1413011) and/or [3064888](https://me.sap.com/notes/3064888) respectively.
+> -   Make sure that you've configured the start authorization according to the following SAP Notes: [1413011](https://me.sap.com/notes/1413011) and/or [3064888](https://me.sap.com/notes/3064888) respectively.
 > 
 > -   Check the HTTP\_WHITELIST [0002578665](https://me.sap.com/notes/0002578665) and the UCON\_CHW allowlist [0003290787](https://me.sap.com/notes/0003290787).
 > 

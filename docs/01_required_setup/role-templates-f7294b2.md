@@ -2,7 +2,7 @@
 
 # Role Templates
 
-Besides predefined role collections, which are ready to use, some areas also offer single role templates. Before you can use these role templates, you need to assign them to a role collection.
+For most SAP Cloud ALM capabilites, you can use the predefined and ready-to-use role collections, which correspond to a single role template. Some areas also offer role templates without a 1:1 relationship with a role collection. Before you can use these role templates, you need to assign them to a custom role collection.
 
 
 
@@ -133,6 +133,94 @@ Implementation
 <td valign="top">
 
 Deploy transports into production systems
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_DeveloperCore` 
+
+</td>
+<td valign="top">
+
+Create and assign transports and transport references, and create transport of copies
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_StartImplementation` 
+
+</td>
+<td valign="top">
+
+Change feature status to *In Implementation* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_HandoverToTest` 
+
+</td>
+<td valign="top">
+
+Change feature status to *In Testing* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_Tester` 
+
+</td>
+<td valign="top">
+
+Change feature status to *Successfully Tested* 
 
 </td>
 </tr>

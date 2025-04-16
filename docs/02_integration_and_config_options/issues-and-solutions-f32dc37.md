@@ -210,5 +210,30 @@ For example, you set the minimum percentage to 50%. When you start a transport c
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Transports with already scheduled deployments to virtual systems
+
+</td>
+<td valign="top">
+
+If you have transports with already scheduled deployments to virtual systems, do the following:
+
+1.  Replace the virtual system by a physical system.
+
+2.  Remove buffer entries of the transports managed by SAP Cloud ALM.
+
+3.  Activate the use case task *Transports: Import*. As a result, all imports of the transports are shown as failed in CALM.
+
+4.  Add the transports to the buffer again and import them manually through STMS.
+
+5.  The import feedback job updates the status of the transports in SAP Cloud ALM.
+
+
+
+
+</td>
+</tr>
 </table>
 

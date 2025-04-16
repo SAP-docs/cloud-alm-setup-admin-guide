@@ -84,7 +84,9 @@ To consume the selected service plan, you need to create a service instance.
 
 4.  Choose *Next*.
 
-5.  \(Optional\) If you want to use the service binding to access APIs, you need to add the appropriate scopes to it. You can find an overview of all available scopes and their use cases under [API Scopes](https://help.sap.com/viewer/fe419bfabbdc46dfbddbfd78b21483d5/latest/en-US/a111fd3cdaef4f36801eb43fff23ef20.html "") :arrow_upper_right:.
+5.  \(Optional\) Add appropriate scopes to it.
+
+    You can find an overview of all available scopes and their use cases under [API Scopes](https://help.sap.com/viewer/fe419bfabbdc46dfbddbfd78b21483d5/latest/en-US/a111fd3cdaef4f36801eb43fff23ef20.html "") :arrow_upper_right:. We recommend including the `cdm` scopes if you intend to enable transport management with the resulting service binding at any point in the future.
 
     To add the scopes, insert the following JSON and replace the relevant parameters with your instance name and the required scopes, respectively.
 
@@ -93,9 +95,11 @@ To consume the selected service plan, you need to create a service instance.
         "xs-security": {
             "xsappname": "<your-instance-name>",
             "authorities": [
-               "<Required Scope 1>",
-               "<Required Scope 2>",
-               "<Required Scope 3>"
+              "$XSMASTERAPPNAME.imp-cdm-feature-display-ui",
+              "$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
+              "<Required Scope 1>",
+              "<Required Scope 2>",
+              "<Required Scope 3>"
             ],
             "oauth2-configuration": {
                 "credential-types": [
@@ -149,6 +153,14 @@ You can now see your service credentials in JSON format. They include the follow
 
 > ### Caution:  
 > Outside of the SAP BTP cockpit, service credentials must be stored securely. If you need new ones, create them directly in the SAP BTP cockpit, and access it from there whenever you need it.
+
+
+
+<a name="loio704b5dc854f549888a238f94015e1eac__section_sf3_rht_52c"/>
+
+## Need Support?
+
+If you encounter issues or need support, [schedule an expert session](https://me.sap.com/app/sae) or [create a case](https://me.sap.com/app/casecreate) on component SV-CLM-API.
 
 **Related Information**  
 

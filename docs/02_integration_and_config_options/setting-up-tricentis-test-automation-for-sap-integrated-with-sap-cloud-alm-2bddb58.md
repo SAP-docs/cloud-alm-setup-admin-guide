@@ -24,6 +24,10 @@ Before you can start your automated testing activities, a Tricentis tenant needs
 
     You can evaluate valid S-users for your organization in SAP for Me, under [Important Contacts](https://me.sap.com/userscontacts/impcont).
 
+-   No endpoint named `TTA_for_SAP` exists in the *Landscape Management* app.
+
+    If it does, navigate to the *Administration* tab of the SAP Cloud ALM launchpad and open the *Landscape Management* app. Select the Tricentis service `TTA_for_SAP` and delete the endpoint before you start the provisioning process.
+
 -   You're using an Identity Authentication tenant as your identity provider and you haven't changed the hierarchy of the SAP Cloud ALM application within it.
 
     > ### Note:  
@@ -35,8 +39,6 @@ Before you can start your automated testing activities, a Tricentis tenant needs
     > 
     > **Tip**: You can check the identity providers that are assigned to your SAP Cloud ALM subaccount in the SAP BTP cockpit by choosing *Security* \> *Trust Configuration*.
 
-
-If you were the one who requested SAP Cloud ALM and you haven't changed any roles and trust configurations, these prerequisites are met.
 
 
 

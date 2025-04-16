@@ -35,7 +35,7 @@ Australia: Sydney
 </td>
 <td valign="top">
 
-Australia \(Sydney\) - `cf-ap10`
+Australia \(Sydney\) – `cf-ap10`
 
 </td>
 <td valign="top">
@@ -52,7 +52,7 @@ Canada: Central
 </td>
 <td valign="top">
 
-Canada \(Montreal\) - `cf-ca10`
+Canada \(Montreal\) – `cf-ca10`
 
 </td>
 <td valign="top">
@@ -69,7 +69,7 @@ Germany: Frankfurt
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\) - `cf-eu10`
+Europe \(Frankfurt\) – `cf-eu10`
 
 </td>
 <td valign="top">
@@ -86,7 +86,7 @@ Germany: Frankfurt \(EU Access\)
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\) EU Access - `cf-eu11`
+Europe \(Frankfurt\) EU Access – `cf-eu11`
 
 </td>
 <td valign="top">
@@ -105,7 +105,7 @@ Japan: Tokyo
 </td>
 <td valign="top">
 
-Japan \(Tokyo\) - `cf-jp10`
+Japan \(Tokyo\) – `cf-jp10`
 
 </td>
 <td valign="top">
@@ -122,7 +122,7 @@ USA: N. Virginia
 </td>
 <td valign="top">
 
-US East \(VA\) - `cf-us10`
+US East \(VA\) – `cf-us10`
 
 </td>
 <td valign="top">

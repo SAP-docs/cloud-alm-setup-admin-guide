@@ -37,6 +37,28 @@ Notes
 <tr>
 <td valign="top">
 
+Industry Value Scenarios
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+SAP Utilities Core Intelligent Meter-to-Cash
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 IT and Application Platform
 
 </td>
@@ -426,6 +448,8 @@ Process Management
 
 </td>
 <td valign="top">
+
+-   SAP Services Content for Airline Backoffice
 
 -   SAP Services Content for Automotive
 

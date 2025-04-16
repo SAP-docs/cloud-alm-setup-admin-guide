@@ -50,8 +50,6 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > 
 > -   Do not perform buffer manipulations in CTS with transports managed by SAP Cloud ALM. There is no self-healing mechanism available.
 > 
-> -   Virtual systems are currently not supported.
-> 
 > -   We don't support client copies in the *Features* app. If you're creating a client copy, we suggest you first create a new client. Then, you should wait until you connect the newly created client using TMS transport routes, making it available in SAP Cloud ALM. Once you have completed the distribution into the production system of transport requests released before the client copy, you can activate the transport routes to make the new client available in SAP Cloud ALM. Mind that you need to adjust the transport buffers manually.
 
 The following steps show you how to create a test landscape to try out the SAP Cloud ALM Deployment Management scenario without interfering with the productive TMS landscapes. You can also follow the steps to create your productive landscape. For this, you just have to use your systems instead of the described test systems.
@@ -66,6 +64,31 @@ The following steps show you how to create a test landscape to try out the SAP C
 When you finished the steps above, you can start with the setup in the SAP Cloud ALM apps. First, you have to create a project in the *Projects and Setup* app, for this see [Projects and Setup](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/6dd14269bc6e48ec81875f38d920ea6e.html "In the Projects and Setup app, you can manage your projects in SAP Cloud ALM.") :arrow_upper_right:. Then, you can create a feature in the *Features* app to document changes and manage the deployment to your system. For more information, see [Features](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/1a6c29ffb3f74f0789d4bb76081eb834.html "The Features app allows you to deploy transports assigned to a feature across your system landscape. It also helps you document changes for audit purposes.") :arrow_upper_right:.
 
 For in-depth information on the workflow of implementation in SAP Cloud ALM, see [SAP Cloud ALM for Implementation](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal.html).
+
+
+
+<a name="loio5aa24f076e3b4b47839f762baa7d089a__section_o5h_gl5_q2c"/>
+
+## Virtual Systems
+
+Before you're using virtual systems, make sure to fulfill the following prerequisites:
+
+-   You've implemented SAP Note [3532762](https://me.sap.com/notes/3532762) in all your managed systems.
+
+-   After implementing the note, you've deactivated and activated use case task *Transports: Read Landscape* in your domain controller system and client 000 again. For more information, see [Activating the Use Case Transports](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_otj_mgq_mdc).
+
+-   Diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` has run after implementing the note.
+
+    > ### Note:  
+    > Diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` runs once a day. Check if it has run after the note implementation. If not, run it again.
+
+
+When you've implemented SAP Note [3532762](https://me.sap.com/notes/3532762), virtual systems are detected and imports to virtual systems aren't scheduled. This means, if a virtual system is part of a CTS transport route, deployments to this virtual system aren’t scheduled.
+
+If virtual systems are part of a transport route, your feature can only be confirmed when you replace all virtual systems by physical systems. Then, the deployment can be triggered again to deploy the transports to all systems.
+
+> ### Caution:  
+> If you have transports with already scheduled deployments to a virtual system, the deployment is performed as soon as the virtual system is replaced by a physical system in which the use case task *Transports: Import* is activated. For more information, see [Issues and Solutions](issues-and-solutions-f32dc37.md).
 
 
 

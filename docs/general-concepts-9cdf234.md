@@ -92,7 +92,7 @@ In general, each application role in SAP Cloud ALM represents a role collection 
 > ### Note:  
 > Some SAP Cloud ALM areas also offer single role templates. Before you can use these role templates, you need to assign them to a role collection. For more information, see [Role Templates](https://help.sap.com/docs/cloud-alm/setup-administration/role-templates).
 
-Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in apps other than *Health Monitoring* because someone in that role also needs to be able to configure events and set up notifications.
+Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in the *Intelligent Event Processing* and *Notification Management* apps because someone in that role also needs to be able to configure events and set up notifications.
 
 For a full list of all SAP Cloud ALM roles and their corresponding role collections, see [Role Collections](01_required_setup/role-collections-e1915af.md).
 

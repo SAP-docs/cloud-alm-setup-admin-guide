@@ -40,30 +40,72 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 3.  Choose *Start Provisioning*.
 
-4.  Select the geographical region in which you would like to have SAP Cloud ALM provisioned. The region that you select here corresponds to the location of the data center where your SAP Cloud ALM tenant will be operated.
+4.  In the dialog, provide the following information:
 
-    The *Region* drop-down menu offers a complete list of all data center locations that are currently available for SAP Cloud ALM. To find out which data center locations are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
+    ****
 
-    **EU Access**: If you have a valid EU Access contract, your SAP Cloud ALM entitlement is flagged accordingly in SAP for Me, enabling you to request the provisioning of your SAP Cloud ALM tenant in an EU Access data center. The region that allows for EU Access is labeled as such in the drop-down menu. Please note that to comply with EU Access requirements, you need to select an Identity Authentication tenant that is also located in Europe in step 6.
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Attribute Selection
+    
+    </th>
+    <th valign="top">
+
+    Notes and Recommendations
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Region*:
+
+    Specify the geographical region in which you would like to have SAP Cloud ALM provisioned. This region corresponds to the location of the data center where your SAP Cloud ALM tenant will be deployed.
 
     After the system has been provisioned, **the region can't be changed**.
+    
+    </td>
+    <td valign="top">
+    
+    In SAP for Me, the optimal region is selected for you by default, based on factors such as latency and data center utilization. However, you can also make a different selection from the drop-down menu, which offers a complete list of all regions that are currently available for SAP Cloud ALM.
 
-5.  Enter a unique subdomain name.
+    In general, we recommend selecting a region that is close to your other main business applications, especially the ones you're planning to manage with SAP Cloud ALM for operations.
 
-    The subdomain name is used for the creation of an SAP Cloud ALM-specific subaccount on SAP BTP. It's also part of the URL that is used to access SAP Cloud ALM, as in `https://<subdomain>.<region>.alm.cloud.sap`.
+    To find out which data center locations are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
+
+    **EU Access**: If you have a valid EU Access contract, your SAP Cloud ALM entitlement is flagged accordingly in SAP for Me, enabling you to request the provisioning of your SAP Cloud ALM tenant in an EU Access data center. The region that allows for EU Access is labeled as such in the drop-down menu. Please note that to comply with EU Access requirements, you need to select an Identity Authentication tenant that is also located in Europe under *SAP Cloud Identity Services*.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Subdomain*:
+
+    Enter a unique subdomain name. The subdomain name is used for the creation of an SAP Cloud ALM-specific subaccount on SAP BTP. It's also part of the URL that is used to access SAP Cloud ALM.
 
     After the tenant has been provisioned, **the subdomain can't be changed**.
+    
+    </td>
+    <td valign="top">
+    
+    Don't use a pre-existing subdomain. Choose a new and unique subdomain name specifically for SAP Cloud ALM.
 
-    > ### Note:  
-    > -   Don't use a pre-existing subdomain. Choose a new subdomain name specifically for SAP Cloud ALM.
-    > 
-    > -   Companies with multiple international subsidiaries or working in multiple industries should use different subdomains for each unit.
-    > 
-    > -   We strongly recommend using the suffix `-cloudalm` at the end of the subdomain name, for example, `company-cloudalm`.
-    > 
-    > -   Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the name mustn't exceed 56 characters.
+    Companies with multiple international subsidiaries or working in multiple industries should use different subdomains for each unit.
 
-6.  Under *SAP Cloud Identity Services*, select an Identity Authentication tenant:
+    We strongly recommend using the suffix `-cloudalm` at the end of the subdomain name, for example, `company-cloudalm`.
+
+    Allowed characters for the name are lowercase letters, digits, and hyphens. The length of the name mustn't exceed 56 characters.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SAP Cloud Identity Services*:
 
     -   If you don’t have an existing productive Identity Authentication tenant, a new one will be created for you in the region you've selected above.
 
@@ -72,20 +114,31 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
     -   If you already have a productive Identity Authentication tenant, select it from the list.
 
 
-    > ### Tip:  
-    > If you have multiple Identity Authentication tenants and you're unsure about which one to select, look up the administrators of the Identity Authentication tenants that are assigned to your customer ID at [SAP Cloud Identity Services - Tenants](https://iamtenants.accounts.cloud.sap). The administrators can give you more guidance. Also, to simplify the maintenance of administrators in your Identity Authentication tenant, consider selecting an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
-    > 
-    > To ensure the best performance, we generally recommend selecting an Identity Authentication tenant in a region that is close to the region of your SAP Cloud ALM tenant. If you've selected the EU Access region, select an Identity Authentication tenant that is also located in Europe.
-    > 
-    > If none of the tenants are in your desired region, you can request to migrate a specific tenant by opening a case on the `BC-IAM-IDS` component. If you don't want to use any of the listed Identity Authentication tenants, you can request a new one as described in [Get Additional Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud#get-additional-tenant).
-    > 
+
+    
+    </td>
+    <td valign="top">
+    
+    If you have multiple Identity Authentication tenants and you're unsure about which one to select, look up the administrators of the Identity Authentication tenants that are assigned to your customer ID at [SAP Cloud Identity Services - Tenants](https://iamtenants.accounts.cloud.sap). The administrators can give you more guidance. Also, to simplify the maintenance of administrators in your Identity Authentication tenant, consider selecting an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
+
+    To ensure the best performance, we generally recommend selecting an Identity Authentication tenant in a region that is close to the region of your SAP Cloud ALM tenant. If you've selected the EU Access region, select an Identity Authentication tenant that is also located in Europe.
+
+    If none of the tenants are in your desired region, you can request to migrate a specific tenant by opening a case on the `BC-IAM-IDS` component. If you don't want to use any of the listed Identity Authentication tenants, you can request a new one as described in [Get Additional Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud#get-additional-tenant).
+
+    > ### Note:  
     > If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 
+
+    
+    </td>
+    </tr>
+    </table>
+    
+5.  If you agree to the terms and conditions stated in the linked order document, mark the checkbox.
+
+6.  Choose *Submit*.
+
     ![](images/SUI-ProvisioningRequest_6df45a1.jpg)
-
-7.  If you agree to the terms and conditions stated in the linked order document, mark the checkbox.
-
-8.  Choose *Submit*.
 
 
 

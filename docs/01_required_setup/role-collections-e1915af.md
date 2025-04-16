@@ -15,7 +15,7 @@ In general, each application role in SAP Cloud ALM represents a role collection 
 > ### Note:  
 > Some SAP Cloud ALM areas also offer single role templates. Before you can use these role templates, you need to assign them to a role collection. For more information, see [Role Templates](https://help.sap.com/docs/cloud-alm/setup-administration/role-templates).
 
-Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in apps other than *Health Monitoring* because someone in that role also needs to be able to configure events and set up notifications.
+Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in the *Intelligent Event Processing* and *Notification Management* apps because someone in that role also needs to be able to configure events and set up notifications.
 
 
 
@@ -35,7 +35,7 @@ SAP Cloud ALM Area
 </th>
 <th valign="top">
 
-Capability
+SAP Cloud ALM Capability
 
 </th>
 <th valign="top">
@@ -78,11 +78,6 @@ Cross Application
 <td valign="top">
 
 Create and manage all SAP Cloud ALM objects, except for personal or sensitive data
-
-> ### Caution:  
-> This role provides the complete set of authorizations. We recommend assigning suitable roles to your users.
-
-
 
 </td>
 <td valign="top">
@@ -504,7 +499,9 @@ Change & Deployment Management
 </td>
 <td valign="top">
 
-Approve features for production deployment
+Approve features for production deployment.
+
+This role has to be combined with either the *Project Member* or the *Project Lead* role.
 
 </td>
 <td valign="top">
@@ -536,7 +533,9 @@ Change & Deployment Management
 </td>
 <td valign="top">
 
-Deploy transports into test and production systems
+Deploy transports into test and production systems.
+
+This role has to be combined with either the *Project Member* or the *Project Lead* role.
 
 </td>
 <td valign="top">
@@ -549,6 +548,44 @@ Deploy transports into test and production systems
 `imp_cdm_DeploymentManagerTest`
 
 `imp_cdm_DeploymentManagerProd`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change & Deployment Management
+
+</td>
+<td valign="top">
+
+*Developer* 
+
+</td>
+<td valign="top">
+
+Create and assign transports and transport references, and create transport of copies.
+
+This role has to be combined with the *Project Viewer* role.
+
+</td>
+<td valign="top">
+
+*Change & Deployment Management Developer* 
+
+</td>
+<td valign="top">
+
+`imp_cdm_DeveloperCore`
+
+`imp_cdm_StartImplementation`
+
+`imp_cdm_HandoverToTest`
 
 </td>
 </tr>
@@ -1851,6 +1888,70 @@ Consume digital blueprint content, view company code scoping and transformation 
 <td valign="top">
 
 `btc_bdts_DigitalBlueprintViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center
+
+</td>
+<td valign="top">
+
+Transformation
+
+</td>
+<td valign="top">
+
+*Transformation Project Administrator* 
+
+</td>
+<td valign="top">
+
+Create and edit transformation projects and all associated tasks
+
+</td>
+<td valign="top">
+
+*Transformation Project Administrator* 
+
+</td>
+<td valign="top">
+
+`btc_transformation_TransformationProjectAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Transformation Center
+
+</td>
+<td valign="top">
+
+Transformation
+
+</td>
+<td valign="top">
+
+*Transformation Project Viewer* 
+
+</td>
+<td valign="top">
+
+Consume and edit transformation projects and all associated tasks
+
+</td>
+<td valign="top">
+
+*Transformation Project Viewer* 
+
+</td>
+<td valign="top">
+
+`btc_transformation_TransformationProjectViewer` 
 
 </td>
 </tr>

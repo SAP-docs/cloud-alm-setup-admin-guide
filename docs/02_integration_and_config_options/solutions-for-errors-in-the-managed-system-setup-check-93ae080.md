@@ -10,6 +10,287 @@ The following sections explain the checks and messages that can appear in the ma
 
 
 
+<a name="loio93ae080ec391461bb4d56579deaa0b00__section_wgb_w1s_pdc"/>
+
+## General System Information Check
+
+This shows in which system and client the check has been performed.
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Message
+
+</th>
+<th valign="top">
+
+Message Explanation
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+The check is running in &1/&2 for destination &3
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio93ae080ec391461bb4d56579deaa0b00__section_u1x_y1s_pdc"/>
+
+## Active Tasks Check
+
+This check displays which tasks are active in which systems and when they last ran. You can also see whether a system has an export/import route or not.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Message
+
+</th>
+<th valign="top">
+
+Message Explanation
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Task "&1" is active in client &2 and last ran &3
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System has an export route
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System has no export route
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Export Task is active in client &1
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Export Task is inactive in client &1
+
+</td>
+<td valign="top">
+
+If you want transports in this client to be managed by SAP Cloud ALM activate task *Transports: Create & Export \(client-specific\)*.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System has an import route
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System has no import route
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Import Task is active in client &1 and valid for all clients
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Import Task is inactive in client &1 and no imports will be processed
+
+</td>
+<td valign="top">
+
+If you want imports in this system to be managed by SAP Cloud ALM activate the task*Transports: Import*.
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio93ae080ec391461bb4d56579deaa0b00__section_q5v_z1s_pdc"/>
+
+## Timezone Check
+
+This checks if your timezone settings are correct.
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Message
+
+</th>
+<th valign="top">
+
+Message Explanation
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Timezone settings ok. Current time: &1
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System &2: multiple system time zones found in different clients \(&1\)
+
+</td>
+<td valign="top" rowspan="8">
+
+Check your timezone settings. For more information, see SAP Note [481835](https://me.sap.com/notes/481835).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System &2: system time zone for client &1 not specified \(table TTZCU\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System &3: no definition for time zone &2 in client &1 \(table TTZZ\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System &3: definition for time zone &2 in client &1 inactive \(table TTZZ\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System &2: system time zone or UTC time not correct \(client &1\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System &3: user time zone or UTC time incorrect \(client &1, user &2\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System &1: UTC timer is not correct \(difference = &2 s\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+No timezone check could be performed due to RFC failures
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+No issue detected for time zone and UTC timer in any managed system
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loio93ae080ec391461bb4d56579deaa0b00__section_uns_nj3_hdc"/>
 
 ## Analyze Application Log
@@ -198,7 +479,7 @@ The batch job check, checks if a job for the program `/SDF/CALM_SCHEDULER` is sc
 
 The `/SDF/CALM_SCHEDULER` program is the central scheduling mechanism for all active use cases. The frequency of the scheduling determines the overall interval between the use-case executions.
 
-The batch job check that a job for the program `/SDF/CALM_CDM_DIAGNOSTICS` is scheduled and did run today.
+The batch job check, checks if a job for the program `/SDF/CALM_CDM_DIAGNOSTICS` is scheduled and did run today.
 
 -   This program informs SAP Cloud ALM about the capabilities of the system according to the installed ST-PI service level and certain notes \(For example: Transport creation, release, ToC, and so on\).
 -   It runs once after the use-case activation and then once daily. Check transaction `/SDF/ALM_SETUP` that at least one transport-related use-case is active.

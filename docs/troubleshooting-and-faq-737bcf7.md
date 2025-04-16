@@ -115,11 +115,11 @@ You have questions about which region \(data center location\) to use for your S
 
 The region that you select when requesting SAP Cloud ALM corresponds to the location of the data center where your SAP Cloud ALM tenant will be operated.
 
-The *Region* drop-down menu on SAP for Me offers a complete list of all data center locations that are currently available for SAP Cloud ALM. You can also find them under [Supported Data Centers](supported-data-centers-79af00d.md).
+In SAP for Me, the optimal region is selected for you by default, based on factors such as latency and data center utilization. However, you can also make a different selection from the drop-down menu, which offers a complete list of all regions that are currently available for SAP Cloud ALM.
 
-For an overview of the data centers that are currently available and those that are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
+In general, we recommend selecting a region that is close to your other main business applications, especially the ones you're planning to manage with SAP Cloud ALM for operations.
 
-[Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) under SAP Security and Trust contains a full list of all **live** data centers, even ones that are no longer supported for new SAP Cloud ALM tenants \(see next FAQ entry\).
+For an overview of the data centers that are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
 
 </td>
 </tr>
@@ -283,7 +283,7 @@ You want to find the welcome emails and activation emails that were sent to you 
 
 **Activation Emails from the Identity Authentication Service**
 
--   If you didn't have a productive Identity Authentication tenant when you requested SAP Cloud ALM, a new Identity Authentication tenant was created for you. You've received an email with the subject **Activate Your Account for Identity Authentication Service**.
+-   If you didn't have a productive Identity Authentication tenant when SAP Cloud ALM was requested, a new Identity Authentication tenant was created for you. You've received an email with the subject **Activate Your Account for Identity Authentication Service**.
 
 -   If someone added your user to a productive Identity Authentication tenant, you've received an email with the subject **Activate Your Account for User Profile**.
 
@@ -305,6 +305,22 @@ You can't find or didn't receive your activation email for your Identity Authent
 Search for an email with the subject **Activate Your Account for...** Don't forget to also check your spam folder.
 
 If you still can't find it, create a case on component SV-CLM-INF-ONB to have the activation email resent to you.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You can't find the global account that contains your SAP Cloud ALM entitlement.
+
+You can't find the subaccount that contains your SAP Cloud ALM subscription in your global account.
+
+</td>
+<td valign="top">
+
+Make sure you have the required authorizations in the global account and/or the subaccount.
+
+For more information, refer to KBA [3342350](https://me.sap.com/notes/3342350).
 
 </td>
 </tr>
@@ -1157,7 +1173,7 @@ Refer to KBA [2900069](https://me.sap.com/notes/2900069).
 
 ## Further Support
 
-If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, [schedule an expert session](https://me.sap.com/app/sae) or [create a support ticket](https://me.sap.com/app/casecreate) on the following components:
+If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, [schedule an expert session](https://me.sap.com/app/sae) or [create a support case](https://me.sap.com/app/casecreate) on one of the following components:
 
 
 <table>

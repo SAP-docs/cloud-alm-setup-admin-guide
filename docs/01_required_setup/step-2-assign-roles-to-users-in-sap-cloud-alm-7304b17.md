@@ -197,8 +197,9 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 
 -   **[Role Collections](role-collections-e1915af.md "Role collections in SAP Cloud ALM are delivered predefined and ready to use.")**  
 Role collections in SAP Cloud ALM are delivered predefined and ready to use.
--   **[Role Templates](role-templates-f7294b2.md "Besides predefined role collections, which are ready to use, some areas also offer
-		single role templates. Before you can use these role templates, you need to assign them to a
-		role collection.")**  
-Besides predefined role collections, which are ready to use, some areas also offer single role templates. Before you can use these role templates, you need to assign them to a role collection.
+-   **[Role Templates](role-templates-f7294b2.md "For most SAP Cloud ALM capabilites, you can use the predefined and ready-to-use role
+		collections, which correspond to a single role template. Some areas also offer role
+		templates without a 1:1 relationship with a role collection. Before you can use these role
+		templates, you need to assign them to a custom role collection.")**  
+For most SAP Cloud ALM capabilites, you can use the predefined and ready-to-use role collections, which correspond to a single role template. Some areas also offer role templates without a 1:1 relationship with a role collection. Before you can use these role templates, you need to assign them to a custom role collection.
 
