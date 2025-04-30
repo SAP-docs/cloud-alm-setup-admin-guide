@@ -100,6 +100,50 @@ Implementation
 </td>
 <td valign="top">
 
+**Task Management** 
+
+</td>
+<td valign="top">
+
+`imp_tkm_TaskManager` 
+
+</td>
+<td valign="top">
+
+Manage user stories, project tasks, requirements, test cases, defects, and quality gates
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+imp\_cdm\_ChangeManager
+
+</td>
+<td valign="top">
+
+Change feature status to *Ready for Production* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
 **Change & Deployment Management** 
 
 </td>

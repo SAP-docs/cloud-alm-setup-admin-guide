@@ -41,7 +41,7 @@ To use this integration in your project, you need to configure a service and an 
 
 2.  On the *Administration* page of the SAP Cloud ALM launchpad, open the *Landscape Management* app.
 
-3.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP S/4HANA Cloud* is selected.
+3.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service type *SAP S/4HANA Cloud* is selected.
 
 4.  On the *Services & Systems* page, choose <span class="SAP-icons-V5"></span> \(Cloud Service Filter\) and filter by the service type *SAP S/4HANA Cloud* and by the tenant role *Test*.
 

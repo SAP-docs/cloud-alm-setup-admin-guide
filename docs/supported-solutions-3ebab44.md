@@ -3540,6 +3540,30 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
+SAP BTP, Cloud Foundry environment 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+Custom KPIs
+
+More under [Custom KPIs](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/ebd1a39f66bf4780905ffd576435ea03.html "In addition to the predefined standard KPIs provided out of the box by business process monitoring, you can create up to 15 custom KPIs.") :arrow_upper_right:.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Private Edition 
 
 </td>
@@ -5279,6 +5303,28 @@ More under [Configuration and Security Analysis](https://support.sap.com/en/alm/
 <td valign="top">
 
 SAP Datasphere 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Custom Domain service, Cloud Foundry environment 
 
 </td>
 <td valign="top">

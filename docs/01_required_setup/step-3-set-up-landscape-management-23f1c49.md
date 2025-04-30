@@ -40,6 +40,8 @@ For more information on how services and systems are connected to SAP Cloud ALM,
 
 
 
+
+
 <a name="loio23f1c49b224b4f17b2d959e01ae9c930__section_wkm_pxg_mcc"/>
 
 ## Access Control
@@ -58,6 +60,7 @@ If you encounter issues while working with the *Landscape Management* app, take 
 
 -   **[Services](services-d5f36cc.md "The import method of services in SAP Cloud ALM depends on the service type of your solution.")**  
 The import method of services in SAP Cloud ALM depends on the service type of your [solution](../supported-solutions-3ebab44.md).
--   **[Systems](systems-d9d672a.md "Most systems can be registered with an ABAP report.")**  
-Most systems can be registered with an ABAP report.
+-   **[Systems](systems-d9d672a.md "The registration method of systems in SAP Cloud ALM depends on the system type of your
+			solution.")**  
+The registration method of systems in SAP Cloud ALM depends on the system type of your [solution](../../../../../../../../https://help.sap.com/docs/cloud-alm/setup-administration-dev/supported-solutions?state=DRAFT&version=DEV).
 

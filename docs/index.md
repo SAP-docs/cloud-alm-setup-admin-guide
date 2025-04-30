@@ -41,6 +41,7 @@
     -   [Integrating Test Automation Providers](02_integration_and_config_options/integrating-test-automation-providers-82b04bb.md)
         -   [Integrating the Test Automation Tool for SAP S/4HANA Cloud Public Edition](02_integration_and_config_options/integrating-the-test-automation-tool-for-sap-s-4hana-cloud-public-edition-0712254.md)
         -   [Setting Up Tricentis Test Automation for SAP Integrated with SAP Cloud ALM](02_integration_and_config_options/setting-up-tricentis-test-automation-for-sap-integrated-with-sap-cloud-alm-2bddb58.md)
+        -   [Integrating Other Test Automation Providers](02_integration_and_config_options/integrating-other-test-automation-providers-f6df4f3.md)
     -   [Connecting SAP Document Management Service](02_integration_and_config_options/connecting-sap-document-management-service-b788f20.md)
     -   [Enabling Service Delivery](02_integration_and_config_options/enabling-service-delivery-a1b2494.md)
     -   [Integrate SAP LeanIX](02_integration_and_config_options/integrate-sap-leanix-ff52464.md)

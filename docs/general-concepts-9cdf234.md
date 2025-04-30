@@ -20,7 +20,7 @@ Therefore, don't use them for any other products, applications, or services.
 
 A global account is the realization of a contract you made with SAP. It's region-independent and is used to manage subaccounts, members, entitlements, and quotas.
 
-In the case of SAP Cloud ALM, your entitlement is based on the existence of other contracts or purchased solutions that are connected to your customer number. The entitlement also comes with other parameters, such as fair use rights for memory, which are provided free of charge. These unique factors require a separate "contract" to be established specifically for SAP Cloud ALM, which is separated from the other contracts that you pay for. To achieve this, we provide you with a separate global account for SAP Cloud ALM.
+In the case of SAP Cloud ALM, your entitlement is based on the existence of other contracts or purchased solutions that are connected to your customer number. The entitlement also comes with other parameters, such as fair use rights for memory, which are provided free of charge. These factors require an own global account to be established specifically for SAP Cloud ALM, which is separated from other global accounts containing chargeable entitlements.
 
 
 

@@ -75,7 +75,7 @@ Before you're using virtual systems, make sure to fulfill the following prerequi
 
 -   You've implemented SAP Note [3532762](https://me.sap.com/notes/3532762) in all your managed systems.
 
--   After implementing the note, you've deactivated and activated use case task *Transports: Read Landscape* in your domain controller system and client 000 again. For more information, see [Activating the Use Case Transports](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_otj_mgq_mdc).
+-   After implementing the note, deactivate and activate use case task *Transports: Read Landscape* in your domain controller system and client 000 again. You only have to do this for systems in client 000 where the use case task is already active. For more information, see [Activating the Use Case Transports](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_otj_mgq_mdc).
 
 -   Diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` has run after implementing the note.
 

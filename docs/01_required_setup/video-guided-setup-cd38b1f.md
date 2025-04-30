@@ -42,3 +42,15 @@ Corresponding documentation: [Step 2: Assign Roles to Users in SAP Cloud ALM](st
 
 
 
+
+
+<a name="loiocd38b1f8e2494707b6a1368b39cc8767__section_qrn_zpr_dfc"/>
+
+## Setting Up Landscape Management
+
+Find out how to check the daily sync job in the *Landscape Management* app and how to maintain a CCC S-user for global ultimate customers.
+
+Corresponding documentation: [Step 3: Set Up Landscape Management](step-3-set-up-landscape-management-23f1c49.md)
+
+
+

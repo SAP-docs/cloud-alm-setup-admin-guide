@@ -223,6 +223,13 @@ For auditability reasons, you can still correlate the user to the performed acti
 
 You can activate a deactivated user again, but they will then be treated like a new user, so role assignments are not restored.
 
+> ### Remember:  
+> In other apps, users with the *User Administrator* or *User Viewer* roles can view a deactivated user's history and actions, including full name and email. Users without these roles will only see the deactivated user as a *Former Member*.
+> 
+> ![](images/User_History_Deactivated_User_b1ca91c.png)
+
+
+
 </td>
 </tr>
 </table>
@@ -251,8 +258,10 @@ If you want to delete a user who has logged into SAP Cloud ALM before, you have 
 2.  You can see the user details now. Choose *Delete* and confirm the control query.
 
 
-> ### Note:  
-> After a deletion, actions can no longer be traced back to this user.
+> ### Remember:  
+> In other apps, users with the *User Administrator* or *User Viewer* roles can view a deleted user's history and actions, including user ID. Users without these roles will only see the deleted user as a *Former Member*.
+> 
+> ![](images/User_History_Deleted_User_f0ae10c.png)
 
 
 

@@ -17,7 +17,7 @@ To integrate certain products with SAP Cloud ALM, you need to create a service b
 
 ## Prerequisites
 
-Your user has the role *Global Account Administrator* in the global account that was created when you requested SAP Cloud ALM, and is a member of the subaccount containing your SAP Cloud ALM subscription.
+Your user has the role *Global Account Administrator* in the SAP Cloud ALM global account and is a member of the subaccount containing the SAP Cloud ALM subscription.
 
 If you don't have this role, the global account administrator can assign it to you by following the steps described in [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/4a0491330a164f5a873fa630c7f45f06.html).
 
@@ -79,7 +79,7 @@ To consume the selected service plan, you need to create a service instance.
 
         The length of the instance name must not exceed 32 characters. Use only alphanumeric characters, numbers from 0 to 9, periods, and hyphens. Instead of spaces, use underscores.
 
-        ![](images/NOCF-NewInstance_85b4cb4.png)
+        ![](images/New_Instance_a1c66a5.png)
 
 
 4.  Choose *Next*.
@@ -88,7 +88,7 @@ To consume the selected service plan, you need to create a service instance.
 
     You can find an overview of all available scopes and their use cases under [API Scopes](https://help.sap.com/viewer/fe419bfabbdc46dfbddbfd78b21483d5/latest/en-US/a111fd3cdaef4f36801eb43fff23ef20.html "") :arrow_upper_right:. We recommend including the `cdm` scopes if you intend to enable transport management with the resulting service binding at any point in the future.
 
-    To add the scopes, insert the following JSON and replace the relevant parameters with your instance name and the required scopes, respectively.
+    To add the scopes, insert the following JSON and replace the relevant parameters with your instance name specified above and the required scopes, respectively. If you're updating an existing instance, replace `<your-instance-name>` with your instance ID \(GUID\).
 
     ```
     {

@@ -33,6 +33,12 @@ SAP Cloud ALM supports the browsers listed in the [Feature Scope Description for
 
 SAP Cloud ALM is available in the following languages:
 
+-   Czech
+
+-   Croatian
+
+-   Dutch
+
 -   English
 
 -   French
@@ -45,13 +51,23 @@ SAP Cloud ALM is available in the following languages:
 
 -   Korean
 
+-   Polish
+
 -   Portuguese
 
 -   Russian
 
 -   Simplified Chinese
 
+-   Slovak
+
 -   Spanish
+
+-   Thai
+
+-   Ukrainian
+
+-   Vietnamese
 
 
 The default display language of the solution is based on the language that is maintained in your browser settings.
