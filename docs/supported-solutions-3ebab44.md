@@ -5346,6 +5346,28 @@ More under [Configuration and Security Analysis](https://support.sap.com/en/alm/
 <tr>
 <td valign="top">
 
+SAP Cloud Logging 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP NetWeaver Application Server for ABAP \(7.40 and higher\) 
 
 </td>

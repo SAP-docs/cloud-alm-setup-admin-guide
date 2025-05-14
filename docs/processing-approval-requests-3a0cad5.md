@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
 
-# Processing Approval Requests
+# Processing Approval Requests 
 
 Approval requests are tasks for user administrators generated from a user, without user administrator authorizations, to change the role assignment of a user.
 

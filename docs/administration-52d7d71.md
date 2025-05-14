@@ -11,6 +11,9 @@ If you originally requested the provisioning of SAP Cloud ALM, you've received a
 -   **[Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me-9d4aa2a.md "The Systems & Provisioning dashboard on SAP for Me is your
 		one-stop place for all your active public cloud systems on SAP BTP.")**  
 The *Systems & Provisioning* dashboard on SAP for Me is your one-stop place for all your active public cloud systems on SAP BTP.
+-   **[Changing Your Connected Identity Authentication Tenant](changing-your-connected-identity-authentication-tenant-7869cbc.md "If necessary, you can change the Identity Authentication tenant that is connected to SAP
+		Cloud ALM.")**  
+If necessary, you can change the Identity Authentication tenant that is connected to SAP Cloud ALM.
 -   **[Managing Users](managing-users-04a9231.md "After the initial onboarding of users during the required setup, other tasks may
 		arise for the administration of users in SAP Cloud ALM.")**  
 After the initial onboarding of users during the [required setup](01_required_setup/step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md), other tasks may arise for the administration of users in SAP Cloud ALM.

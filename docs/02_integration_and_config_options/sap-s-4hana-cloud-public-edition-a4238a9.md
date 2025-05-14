@@ -162,11 +162,13 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
         Make sure that the *Service Status* is marked as *Active* and that the *Port* entry is filled out with 443.
 
-        In the *Job Execution Details* section, the *Job Status* doesn't have to be checked as this will be scheduled automatically in the background. Enter 5 minutes in the *Run Every* field.
+        In the *Job Execution Details* section, the *Job Status* doesn't have to be checked as this will be scheduled automatically in the background.
+
+    3.  In the *Run Every* field, enter 5 minutes.
 
         The *Package Size* entry can be ignored.
 
-    3.  Choose *Save*.
+    4.  Choose *Save*.
 
 
 
@@ -199,4 +201,15 @@ The following list contains the outbound services that are currently available:
 If you encounter issues while using this app, open <span class="SAP-icons-V5"></span> \(Built-In Support\) to find helpful resources and context-sensitive information, and to chat with SAP experts. You can also book a live session with the [Schedule an Expert](https://me.sap.com/app/sae) function in SAP for Me.
 
 Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/casecreate), under component SV-CLM-IMP-FTR .
+
+**Parent topic:**[Enabling Transport Management](enabling-transport-management-4b74b16.md "Learn how to enable the transport management of different transport environments for SAP Cloud ALM.")
+
+**Related Information**  
+
+
+[SAP S/4HANA Cloud Private Edition and On-Premise Systems](sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md "Learn how to configure your SAP Cloud ALM deployment scenario for CTS integration.")
+
+[SAP Cloud Transport Management Service](sap-cloud-transport-management-service-8b4af2f.md "Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM.")
+
+[Tips and Troubleshooting for Your Setups](tips-and-troubleshooting-for-your-setups-0fb29d9.md "Find information on how to fix issues.")
 

@@ -175,6 +175,11 @@ When the status is *Provisioning Triggered*, SAP automatically prepares your SAP
 
     If you want to know more about the role of SAP Cloud ALM and your Identity Authentication tenant in the context of SAP S/4HANA Cloud, see [Identity and Access Management](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/c643b8e94c1e4d5ba675ce167d2926b1).
 
+    > ### Note:  
+    > Additional technical administrator users with names such as *SAP Cockpit* or *Service Cockpit* may be created in your Identity Authentication tenant. You'll receive a notification email if such a user is created.
+    > 
+    > These users are needed to onboard applications in back-end management systems. Please don't change or delete them. For more information, refer to KBA [3281767](https://me.sap.com/notes/3281767).
+
 -   You receive emails containing sign in information, configuration guidance, and links to support resources.
 
 -   You're automatically signed up for cloud email notifications. This way, you can stay informed and receive timely updates for SAP Cloud ALM. You can manage your notification settings in SAP for Me, as described in KBA [2900069](https://me.sap.com/notes/2900069).

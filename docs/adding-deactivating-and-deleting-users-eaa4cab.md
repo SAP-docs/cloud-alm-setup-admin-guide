@@ -63,7 +63,7 @@ There is at least one approval request pending for this user. To process the req
 </td>
 <td valign="top">
 
-The user has logged into SAP Cloud ALM, is not deactivated, and there are no open approval requests for this user.
+The user has logged into SAP Cloud ALM, is not deactivated, and there are no open approval requestsrole assignment requests for this user.
 
 </td>
 </tr>

@@ -23,23 +23,14 @@ When you requested SAP Cloud ALM, you either selected an existing Identity Authe
 
     Your authorizations in the Identity Authentication tenant remain the same.
 
-    Your pre-existing tenant may already contain identity information. If you don't need new users in the tenant, you can proceed directly to [Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md) to add these users to SAP Cloud ALM and assign roles to them.
-
-    If you do want to create new users in the tenant, follow the procedure below.
+    Your pre-existing tenant may already contain identity information. If you don't need new users in the tenant, you can proceed directly to [Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md) to add these users to SAP Cloud ALM and assign roles to them. If you do want to create new users in the tenant, follow the procedure below.
 
 -   **New Identity Authentication tenant**:
 
     If you didn't have a productive Identity Authentication tenant before, a new tenant was automatically created for you. This tenant was then assigned to the SAP Cloud ALM subaccount.
 
-    **Tip**: The productive Identity Authentication tenant that you received for SAP Cloud ALM may also be used for other productive SAP cloud offerings \(such as SAP S/4HANA Cloud\) that you may want to use in the future.
-
     As the requesting user, you were made an administrator in this new tenant and received an email asking you to activate your account in the Identity Authentication service. Once activated, the tenant contains no identity information. Before SAP Cloud ALM can be used, users have to be created or imported, as described below.
 
-
-> ### Note:  
-> During the provisioning of SAP Cloud ALM, additional technical administrator users with names such as *SAP Cockpit* or *Service Cockpit* may be created in your Identity Authentication tenant. You'll receive a notification email if such a user is created.
-> 
-> These users are needed to onboard applications in back-end management systems. Please don't change or delete them. For more information, refer to KBA [3281767](https://me.sap.com/notes/3281767).
 
 
 

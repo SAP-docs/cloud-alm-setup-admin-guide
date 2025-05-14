@@ -6,6 +6,10 @@ You can integrate and activate the SAP Document Management service for document 
 
 If you want to upload [External Files](https://help.sap.com/docs/cloud-alm/applicationhelp/external-files) in the *Documents* app of SAP Cloud ALM, first establish a connection between your SAP Document Management service \(SAP BTP DMS\) and your SAP Cloud ALM tenant.
 
+The following video guides you through the SAP BTP DMS onboarding process.
+
+
+
 > ### Caution:  
 > Choose your DMS instance carefully beforehand. It is not possible to change it afterward. Also, the automatic creation of a repository is a one-time action that can't be reversed.
 > 

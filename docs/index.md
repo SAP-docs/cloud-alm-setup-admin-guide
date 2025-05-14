@@ -47,6 +47,7 @@
     -   [Integrate SAP LeanIX](02_integration_and_config_options/integrate-sap-leanix-ff52464.md)
 -   [Administration](administration-52d7d71.md)
     -   [Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me-9d4aa2a.md)
+    -   [Changing Your Connected Identity Authentication Tenant](changing-your-connected-identity-authentication-tenant-7869cbc.md)
     -   [Managing Users](managing-users-04a9231.md)
         -   [Adding, Deactivating, and Deleting Users](adding-deactivating-and-deleting-users-eaa4cab.md)
         -   [Processing Approval Requests](processing-approval-requests-3a0cad5.md)
