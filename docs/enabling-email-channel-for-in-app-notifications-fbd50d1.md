@@ -43,6 +43,188 @@ You can only select the notification types that are relevant to you, that is, fo
 
 
 
+<a name="loiofbd50d1ee4694e4eb1e94e387a28ec7f__section_zmf_cfd_kfc"/>
+
+## Notification Types
+
+This table shows you the available notification types.
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Notification Type
+
+</th>
+<th valign="top">
+
+Notification Trigger
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Defects: Assigned to You
+
+</td>
+<td valign="top">
+
+notification to defect responsible on assignment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Defects: New Comment
+
+</td>
+<td valign="top">
+
+notification to defect responsible if new comment is added
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Features: Assigned to You
+
+</td>
+<td valign="top">
+
+notification to feature responsible on assignment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Features: Transport Checks Completed
+
+</td>
+<td valign="top">
+
+notification to user who performed the check when completed
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Features: Transports of Copies Failed
+
+</td>
+<td valign="top">
+
+notification to user who created the ToC in case of an error
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Projects: New Updates
+
+</td>
+<td valign="top">
+
+notification to project lead if SAP Activate Roadmap tasks were updated
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Requirements: Assigned to You
+
+</td>
+<td valign="top">
+
+notification to requirement responsible on assignment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Requirements: Assigned to You as Involved Party
+
+</td>
+<td valign="top">
+
+notification to users added as involved party to a requirement
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Requirements: New Comment
+
+</td>
+<td valign="top">
+
+notification to requirement responsible if new comment added
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Tasks: Assigned to You
+
+</td>
+<td valign="top">
+
+notification to user story or project task responsible on assignment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Tasks: Assigned to You as Involved Party
+
+</td>
+<td valign="top">
+
+notification to users added as involved party to a user story or project task
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Tasks: New Comment
+
+</td>
+<td valign="top">
+
+notification to user story or project task responsible if new comment added
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+User Management: Open Authorization Requests
+
+</td>
+<td valign="top">
+
+notification to user administrator in case of open authorization requests
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loiofbd50d1ee4694e4eb1e94e387a28ec7f__section_tyw_d5b_kbc"/>
 
 ## Result

@@ -50,7 +50,7 @@
     -   [Changing Your Connected Identity Authentication Tenant](changing-your-connected-identity-authentication-tenant-7869cbc.md)
     -   [Managing Users](managing-users-04a9231.md)
         -   [Adding, Deactivating, and Deleting Users](adding-deactivating-and-deleting-users-eaa4cab.md)
-        -   [Processing Approval Requests](processing-approval-requests-3a0cad5.md)
+        -   [Processing Role Assignment Requests](processing-role-assignment-requests-3a0cad5.md)
     -   [Configuring Advanced Access Authorizations](configuring-advanced-access-authorizations-b7c1490.md)
         -   [Activating Access Control](activating-access-control-4d0162b.md)
         -   [Configuring Project User Permissions](configuring-project-user-permissions-a2c0029.md)

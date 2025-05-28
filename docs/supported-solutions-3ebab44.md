@@ -453,6 +453,8 @@ Process Management
 
 -   SAP Services Content for Automotive
 
+-   SAP Services Content for Consumer Products
+
 -   SAP Services Content for Connected Assets
 
 -   SAP Services Content for Core Retail
@@ -3320,6 +3322,50 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Service Cloud Version 2
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Sales Cloud Version 2
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Public Edition 
 
 </td>
@@ -4357,6 +4403,28 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <td valign="top">
 
 SAP BW/4HANA 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Job and Automation Monitoring
+
+</td>
+<td valign="top">
+
+More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Job Scheduling service 
 
 </td>
 <td valign="top">

@@ -63,13 +63,13 @@ If no service credentials have been uploaded yet, you can add it as follows:
 
     Make sure that the file has the following characteristics:
 
-    -   The service key in the TXT file is in valid JSON format.
+    -   The service credentials in the TXT file are in valid JSON format.
 
-    -   The service key belongs to the SAP Cloud ALM tenant you're working in. Verify the field `uaa.identityzone`.
+    -   The service credentials belong to the SAP Cloud ALM tenant you're working in. Verify the field `uaa.identityzone`.
 
-    -   The service key contains the fields `uaa.clientid` and `uaa.clientsecret`.
+    -   The service credentials contain the fields `uaa.clientid` and `uaa.clientsecret`.
 
-    -   The value for the field `uaa.credential-type` is `instance-secret`.
+    -   The value for the field `uaa.credential-type` is `binding-secret` \(approach without Cloud Foundry\) or `instance-secret` \(approach with Cloud Foundry\).
 
 
     > ### Note:  

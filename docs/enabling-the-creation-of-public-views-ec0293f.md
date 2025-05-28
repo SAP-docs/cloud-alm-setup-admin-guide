@@ -40,6 +40,9 @@ Your user has the role *Subaccount Administrator* in the subaccount that contain
 
 7.  Under *Roles*, select the role `FlexPublicViewEditor` and choose *Add*.
 
+    > ### Note:  
+    > To additionally include the authorization to delete public views, also add the role `FlexKeyUser`.
+
     ![](images/SUI_PublicViewEditor_4238a2e.png)
 
 8.  Under *Users*, select all users who should be able to create public views.

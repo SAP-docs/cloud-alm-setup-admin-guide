@@ -77,10 +77,10 @@ Before you're using virtual systems, make sure to fulfill the following prerequi
 
 -   After implementing the note, deactivate and activate use case task *Transports: Read Landscape* in your domain controller system and client 000 again. You only have to do this for systems in client 000 where the use case task is already active. For more information, see [Activating the Use Case Transports](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_otj_mgq_mdc).
 
--   Diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` has run after implementing the note.
+-   Diagnostic job `/SDF/CALM_CDM_DIAGNOSTIC` has run after implementing the note.
 
     > ### Note:  
-    > Diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` runs once a day. Check if it has run after the note implementation. If not, run it again.
+    > Diagnostic job `/SDF/CALM_CDM_DIAGNOSTIC` runs once a day. Check if it has run after the note implementation. If not, run it again.
 
 
 When you've implemented SAP Note [3532762](https://me.sap.com/notes/3532762), virtual systems are detected and imports to virtual systems aren't scheduled. This means, if a virtual system is part of a CTS transport route, deployments to this virtual system aren’t scheduled.

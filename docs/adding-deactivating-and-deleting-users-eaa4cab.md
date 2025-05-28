@@ -39,7 +39,7 @@ Description
 </td>
 <td valign="top">
 
-The user has never logged into SAP Cloud ALM. If an approval request is pending for this user, then only *Waiting for Approval* is displayed as status.
+The user has never logged into SAP Cloud ALM. If a role assignment request is pending for this user, then only *Waiting for Approval* is displayed as status.
 
 </td>
 </tr>
@@ -51,7 +51,7 @@ The user has never logged into SAP Cloud ALM. If an approval request is pending 
 </td>
 <td valign="top">
 
-There is at least one approval request pending for this user. To process the request, select *Approve* or *Reject* in the *Approval Request* section of the user details \(see [Processing Approval Requests](processing-approval-requests-3a0cad5.md)\).
+There is at least one role assignment request pending for this user. To process the request, select *Approve* or *Reject* in the *Role Assignment Requests* section of the user details \(see [Processing Role Assignment Requests](processing-role-assignment-requests-3a0cad5.md)\).
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ There is at least one approval request pending for this user. To process the req
 </td>
 <td valign="top">
 
-The user has logged into SAP Cloud ALM, is not deactivated, and there are no open approval requestsrole assignment requests for this user.
+The user has logged into SAP Cloud ALM, is not deactivated, and there are no open for this user.
 
 </td>
 </tr>
