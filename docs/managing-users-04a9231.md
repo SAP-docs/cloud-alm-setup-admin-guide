@@ -11,8 +11,8 @@ For a complete guide to user management activities in SAP Cloud ALM, see [User M
 -   **[Adding, Deactivating, and Deleting Users](adding-deactivating-and-deleting-users-eaa4cab.md "To manage users in the user management of SAP Cloud ALM, the identity of the user has
 		to exist in the identity provider.")**  
 To manage users in the user management of SAP Cloud ALM, the identity of the user has to exist in the identity provider.
--   **[Processing Role Assignment Requests](processing-role-assignment-requests-3a0cad5.md "Role assignment requests are tasks
-		for user administrators generated from a user, without user administrator authorizations, to
-		change the role assignment of a user.")**  
+-   **[Processing Role Assignment Requests](processing-role-assignment-requests-3a0cad5.md "Role assignment requests are tasks for user administrators generated from a user,
+		without user administrator authorizations, to change the role assignment of a
+		user.")**  
 Role assignment requests are tasks for user administrators generated from a user, without user administrator authorizations, to change the role assignment of a user.
 

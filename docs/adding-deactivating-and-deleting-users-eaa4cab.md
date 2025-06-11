@@ -63,7 +63,7 @@ There is at least one role assignment request pending for this user. To process 
 </td>
 <td valign="top">
 
-The user has logged into SAP Cloud ALM, is not deactivated, and there are no open for this user.
+The user has logged into SAP Cloud ALM, is not deactivated, and there are no open role assignment requests for this user.
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ For auditability reasons, you can still correlate the user to the performed acti
 2.  You can see the user details now. Choose *Deactivate* and confirm the control query.
 
 
-You can activate a deactivated user again, but they will then be treated like a new user, so role assignments are not restored.
+You can activate a deactivated user again by choosing the *Reactivate* button. They will then, however, be treated like a new user, so role assignments are not restored. This action can only be performed by *User Administrators*.
 
 > ### Remember:  
 > In other apps, users with the *User Administrator* or *User Viewer* roles can view a deactivated user's history and actions, including full name and email. Users without these roles will only see the deactivated user as a *Former Member*.

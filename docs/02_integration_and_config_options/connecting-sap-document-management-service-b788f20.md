@@ -11,9 +11,9 @@ The following video guides you through the SAP BTP DMS onboarding process.
 
 
 > ### Caution:  
-> Choose your DMS instance carefully beforehand. It is not possible to change it afterward. Also, the automatic creation of a repository is a one-time action that can't be reversed.
+> Choose your DMS instance carefully beforehand. It isn’t possible to change it afterward. Also, the automatic creation of a repository is a one-time action that can't be reversed.
 > 
-> Please use only this automatically created repository. It is currently **NOT** possible to use your **external** repository.
+> Use only this automatically created repository. It's currently **NOT** possible to use your **external** repository.
 > 
 > For more information, see [Repository Handling](https://help.sap.com/docs/cloud-alm/setup-administration/connecting-sap-document-management-service#repository-handling).
 
@@ -31,7 +31,7 @@ The following video guides you through the SAP BTP DMS onboarding process.
 -   You need to provide your own SAP Document Management service instance and establish a connection to SAP Cloud ALM. You can use an existing service instance for SAP Cloud ALM use. For more information, see [Initial Setup for Document Management Service, Integration Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/initial-setup-for-document-management-service-integration-option?version=Cloud).
 
     > ### Note:  
-    > Do not use your SAP Cloud ALM global account. Use your global account for SAP BTP DMS.
+    > Don't use your SAP Cloud ALM global account. Use your global account for SAP BTP DMS.
 
 -   You've done the initial setup for the SAP Document Management integration option and you've obtained all the necessary login data.
 
@@ -46,25 +46,29 @@ The following video guides you through the SAP BTP DMS onboarding process.
 
 ## Procedure 
 
+
+
+### Variant 1: Using a service key based on client credentials for SAP BTP DMS
+
 1.  Set up the HTTP destination.
 
     In the SAP BTP subaccount, **where your SAP Cloud ALM is hosted**, create a destination targeted at your SAP BTP DMS instance.
 
-    -   You can download and use the following template to import a new SAP BTP destination: [https://help.sap.com/doc/sapcloudalmsolutiondocumentationdmsintegration](https://help.sap.com/doc/sapcloudalmsolutiondocumentationdmsintegration): It is a zipped TXT file that you need to unzip and import.
+    -   You can download and use the following template to import a new SAP BTP destination: [https://help.sap.com/doc/sapcloudalmsolutiondocumentationdmsintegration](https://help.sap.com/doc/sapcloudalmsolutiondocumentationdmsintegration): It's a zipped TXT file that you need to unzip and import.
 
         ![](images/BTP_Import_destination_e293406.png)
 
         It already contains some prefilled values for the destination settings for your convenience.
 
-        After the import, you will see this screen:
+        After the import, you'll see this screen:
 
         ![](images/DMS_screen_after_import_4196358.png)
 
-        Please do not deselect the *Use default JDK truststore*:
+        Do not deselect the *Use default JDK truststore*:
 
         ![](images/DMS_JDK_truststore_423daf9.png)
 
-    -   Afterward, proceed with the manual steps described below.
+    -   Afterward, proceed with the manual steps described in the following.
 
 
     > ### Note:  
@@ -115,6 +119,36 @@ You can now start to use the [External Files](https://help.sap.com/docs/cloud-al
 
 
 
+### Variant 2: Using a certificate-based service key for SAP BTP DMS
+
+In addition to the SAP BTP DMS service key that is based on the combination of client ID and client secret, you can also use a service key with a X509 certificate. Mutual Transport Layer Security \(mTLS\) is considered more secure than the combination of client ID and client secret.
+
+The procedure to generate a service key for your SAP BTP DMS instance with a X509 certificate is documented under [Creating Service Key for Cloud Foundry Application Document Management Service, Integration Option with X509 Certificate](https://help.sap.com/docs/document-management-service/sap-document-management-service/enable-mtls-authentication-for-document-management-service?q=x509#creating-service-key-for-cloud-foundry-application-document-management-service-integration-option-with-x509-certificate).
+
+1.  Based on this service key, follow the same steps as outlined in variant 1, but omit the client secret because it’s not included in a service key with a X509 certificate, and omit the token service URL for now. Instead, enable the option *Use mTLS for token retrieval*:
+
+    ![](images/CALM_SD_DMS_setup_service_key_01_1233104.png)
+
+2.  Enabling this option makes the following fields visible:
+
+    -   *Token Service Key Store Location*
+    -   *Token Service Key Store Password*
+
+    To fill these fields, you first need to create a key store from your SAP BTP DMS service key with X509 certificate: Follow steps 1–3 in [Create SAP BTP Destinations with mTLS Authentication \(X.509 Certificate\)](https://help.sap.com/docs/cloud-alm/apis/creating-destinations-mtls?locale=en-US). We recommend choosing a different name for the generated `PKCS#12` keystore file by altering the following command:
+
+    `openssl pkcs12 -export -in <location of certificate file> -inkey <location of key file> -out <name of keystore file>`
+
+    To obtain the `certificate.pem` and `key.pem` files that are required for the command, copy the value of the corresponding fields in the x509 section of the SAP BTP DMS service key to new text files.
+
+3.  Select the uploaded `PKCS#12` key store and enter the export password you entered in the *Token Service Key Store Password* field.
+
+4.  Under *Token Service URL*, enter the value from the *certurl* field from the *uaa* section of your SAP BTP DMS service key, followed by the suffix `/oauth/token`.
+
+5.  Choose *Check Connection*. When the check is successful, you can ignore the 401: Unauthorized warning.
+
+
+
+
 <a name="loiob788f20e1d71444eb5568b3c2153087b__section_fl1_gv1_qdc"/>
 
 ## Repository Handling
@@ -122,7 +156,7 @@ You can now start to use the [External Files](https://help.sap.com/docs/cloud-al
 During the initial communication between SAP Cloud ALM and the SAP Document Management service, the *Documents* app automatically creates a new repository in the SAP Document Management service.
 
 > ### Caution:  
-> Do **not** change this repository or any other repositories created by the *Documents* app. As previously stated, the choice of a repository is irreversible. You might lose your documents if you decide to change the repository at a later point in time. The property external ID of a repository is always identical with the tenant ID of the tenant that created it. With this information, the user can always trace which repository belongs to which tenant.
+> Do **not** change this repository or any other repositories created by the *Documents* app. As previously stated, the choice of a repository is irreversible. You can lose your documents if you decide to change the repository at a later point in time. The property external ID of a repository is always identical with the tenant ID of the tenant that created it. With this information, the user can always trace which repository belongs to which tenant.
 > 
 > Changes done in the repository directly aren't reflected in SAP Cloud ALM and they disrupt the integration.
 

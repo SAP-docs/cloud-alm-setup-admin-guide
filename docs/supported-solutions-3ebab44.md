@@ -260,29 +260,7 @@ SAP Best Practices for SAP Marketing Cloud
 <tr>
 <td valign="top">
 
-SAP Sales Cloud 
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Process Management
-
-</td>
-<td valign="top">
-
-SAP Cloud for Customer
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud 
+SAP Sales Cloud and SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -585,7 +563,7 @@ Task template: [SAP Activate Methodology for SAP SuccessFactors](https://go.supp
 <tr>
 <td valign="top">
 
-SAP Sales Cloud 
+SAP Sales Cloud and SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -600,29 +578,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Sales Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/21471841d1684e148c7193ad39c6bf54) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud 
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Task Management
-
-</td>
-<td valign="top">
-
-Task template: [SAP Activate Methodology for SAP Service Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPHYBRISC4C) 
+Task templates: [SAP Activate Methodology for SAP Sales Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/21471841d1684e148c7193ad39c6bf54)[SAP Activate Methodology for SAP Service Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPHYBRISC4C) 
 
 </td>
 </tr>
@@ -959,29 +915,7 @@ More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee
 <tr>
 <td valign="top">
 
-SAP Sales Cloud 
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Requirement Management
-
-</td>
-<td valign="top">
-
-More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/486b3301a36f49e38eacd9535ecbd9ff) \(SAP Help Portal\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud 
+SAP Sales Cloud and SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -1201,29 +1135,7 @@ More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0
 <tr>
 <td valign="top">
 
-SAP Sales Cloud 
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Document Management
-
-</td>
-<td valign="top">
-
-More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/f2a19facf58745ecbd4495892eb8e735) \(SAP Help Portal\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud 
+SAP Sales Cloud and SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -1869,34 +1781,7 @@ More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b
 <tr>
 <td valign="top">
 
-SAP Sales Cloud 
-
-</td>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-Test Management
-
-</td>
-<td valign="top">
-
--   Manual testing
-
--   Automated testing with Tricentis Test Automation for SAP integrated with SAP Cloud ALM
-
-
-More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) \(SAP Help Portal\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud 
+SAP Sales Cloud and SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -3322,29 +3207,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Service Cloud Version 2
-
-</td>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Integration and Exception Monitoring
-
-</td>
-<td valign="top">
-
-More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Sales Cloud Version 2
+SAP Sales Cloud and SAP Service Cloud Version 2
 
 </td>
 <td valign="top">
@@ -3514,31 +3377,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP Sales Cloud 
-
-</td>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Business Process Monitoring
-
-</td>
-<td valign="top">
-
-Supported KPIs for the business scenario *Lead to Cash*
-
-More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html) \(Expert Portal\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Service Cloud 
+SAP Sales Cloud and SAP Service Cloud 
 
 </td>
 <td valign="top">

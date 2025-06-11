@@ -1,5 +1,7 @@
 <!-- loio7869cbcd86a24c79b496f0ffcbab76f3 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Changing Your Connected Identity Authentication Tenant
 
 If necessary, you can change the Identity Authentication tenant that is connected to SAP Cloud ALM.
@@ -58,7 +60,7 @@ Each Identity Authentication tenant is an individual repository of user accounts
 
 5.  Choose *Edit*.
 
-6.  Next to *Host Name of Identity Authentication Tenant*, choose *Edit*.
+6.  Next to *Host Name of Identity Authentication Tenant*, choose :pencil2:.
 
     ![](images/ChangeIAS_e2f204b.png)
 
