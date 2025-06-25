@@ -33,7 +33,7 @@ You can integrate and activate the SAP Document Management service for document 
 -   **[Enabling Service Delivery](enabling-service-delivery-a1b2494.md "An SAP service is usually delivered as part of a service contract like SAP MaxAttention,
 		SAP ActiveAttention or SAP Enterprise Support.")**  
 An SAP service is usually delivered as part of a service contract like SAP MaxAttention, SAP ActiveAttention or SAP Enterprise Support.
--   **[Integrate SAP LeanIX](integrate-sap-leanix-ff52464.md "You can integrate SAP LeanIX with SAP Cloud ALM for an integration of project and task
+-   **[Integrating SAP LeanIX](integrating-sap-leanix-ff52464.md "You can integrate SAP LeanIX with SAP Cloud ALM for an integration of project and task
 		management, as well as landscape management.")**  
 You can integrate SAP LeanIX with SAP Cloud ALM for an integration of project and task management, as well as landscape management.
 

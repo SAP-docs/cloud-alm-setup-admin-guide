@@ -44,7 +44,7 @@
         -   [Integrating Other Test Automation Providers](02_integration_and_config_options/integrating-other-test-automation-providers-f6df4f3.md)
     -   [Connecting SAP Document Management Service](02_integration_and_config_options/connecting-sap-document-management-service-b788f20.md)
     -   [Enabling Service Delivery](02_integration_and_config_options/enabling-service-delivery-a1b2494.md)
-    -   [Integrate SAP LeanIX](02_integration_and_config_options/integrate-sap-leanix-ff52464.md)
+    -   [Integrating SAP LeanIX](02_integration_and_config_options/integrating-sap-leanix-ff52464.md)
 -   [Administration](administration-52d7d71.md)
     -   [Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me-9d4aa2a.md)
     -   [Changing Your Connected Identity Authentication Tenant](changing-your-connected-identity-authentication-tenant-7869cbc.md)

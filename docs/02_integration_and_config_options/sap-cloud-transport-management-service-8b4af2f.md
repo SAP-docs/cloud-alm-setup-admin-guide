@@ -63,7 +63,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
     > 
     > -   only connect demo and sandbox SAP Cloud Transport Management service instances to your test SAP Cloud ALM instance
 
-    1.  Go to your SAP BTP subaccount, choose *Connectivity*, then *Destination*, then *Create Destination*.![](images/Standalone_CTMS_1_193b0a6.png)
+    1.  Go to your SAP BTP subaccount of your SAP Cloud ALM instance, choose *Connectivity*, then *Destination*, then *Create Destination*.![](images/Standalone_CTMS_1_193b0a6.png)
     2.  In the *Destination Configuration* section, enter the values in the respective fields based on the description that is provided in the table below.
 
         ![](images/Standalone_CTMS_2_1b347bc.png)

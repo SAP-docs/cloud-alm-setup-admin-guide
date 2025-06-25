@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Integrate SAP LeanIX
+# Integrating SAP LeanIX
 
 You can integrate SAP LeanIX with SAP Cloud ALM for an integration of project and task management, as well as landscape management.
 

@@ -189,7 +189,7 @@ Create a new SAP Cloud ALM user and assign roles to the user. Besides the email 
     </tr>
     </table>
     
-4.  Usually, you now assign one or multiple roles to the user. For detailed information, see [Changing the Role Assignment of a User](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/63c3a1399cff436db56bbd4b709b0610.html "As a user manager, you can assign roles of different application areas to specific users.") :arrow_upper_right:.
+4.  Usually, you now assign one or multiple roles to the user. For detailed information, see [Changing the Role Assignment of a User](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/63c3a1399cff436db56bbd4b709b0610.html "As a user manager, you can assign roles of different SAP Cloud ALM capabilities to specific users.") :arrow_upper_right:.
 
 5.  Save your settings. The user is given the status *New*, and a welcome email is sent to this user containing introductory information for SAP Cloud ALM.
 

@@ -1600,6 +1600,38 @@ View performance and availability of scenario executions
 <tr>
 <td valign="top">
 
+RISE with SAP
+
+</td>
+<td valign="top">
+
+Operations View
+
+</td>
+<td valign="top">
+
+*Operations Dashboard Viewer* 
+
+</td>
+<td valign="top">
+
+View operations-related scores, KPIs, and metrics
+
+</td>
+<td valign="top">
+
+*Operations Dashboard Viewer* 
+
+</td>
+<td valign="top">
+
+`rdp_dashboard_ccOperationsViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Service
 
 </td>

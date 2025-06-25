@@ -6,14 +6,74 @@
 
 Role assignment requests are tasks for user administrators generated from a user, without user administrator authorizations, to change the role assignment of a user.
 
-As a user administrator, you can assign roles to users directly. The process is described here: [Changing the Role Assignment of a User](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/63c3a1399cff436db56bbd4b709b0610.html "As a user manager, you can assign roles of different application areas to specific users.") :arrow_upper_right:.
 
-In addition, role assignment requests can be generated when an application owner, without user administration authorizations, assigns a role to a user. This role assignment then generates a role assignment request.
 
-> ### Example:  
-> In the app *Projects and Setup*, the project lead assigns team members to project tasks, which are then assigned to roles. If the project lead does not have permission to assign roles in user management, a corresponding role assignment request is created automatically.
+<a name="loio3a0cad574216483bb9d80e3a9cf72867__section_djb_bpf_qfc"/>
 
-Open role assignment requests are displayed in the card *Role Assignment Requests* of the user management *Overview*. Also, the status *Waiting for Approval* is displayed for the corresponding user in the user list.
+## Context
+
+As a user administrator, you can assign roles to users directly. The process is described here: [Changing the Role Assignment of a User](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/63c3a1399cff436db56bbd4b709b0610.html "As a user manager, you can assign roles of different SAP Cloud ALM capabilities to specific users.") :arrow_upper_right:.
+
+In addition, role assignment requests can be generated when an application owner, without user administration authorizations, assigns a role to a user directly from an application. This role assignment then generates a role assignment request.
+
+The following actions generate such a role assignment request:
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Projects and Setup*
+
+</td>
+<td valign="top">
+
+A user with the role *Project Administrator* or *Project Lead* assigns team members to project tasks, which are then assigned to project roles.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Landscape Management*
+
+</td>
+<td valign="top">
+
+A user with the role *Landscape Access Controller* adds users to an access control list and/or checks the box *Grant added users change access to Landscape Objects on Access Control List in Landscape Management*.
+
+</td>
+</tr>
+</table>
+
+If the application owner has the *User Administrator* role, no role assignment request is generated. The role is assigned to the user without further approval.
+
+> ### Note:  
+> If you don't want to allow the automatic assignment of roles, you can deactivate this feature on the *Role Assignment Configuration* card.
+> 
+> ![](images/AutoRoleAssignment_2906c11.png)
+
+
+
+<a name="loio3a0cad574216483bb9d80e3a9cf72867__section_yl1_4pf_qfc"/>
+
+## Working with Role Assignment Requests
+
+Open role assignment requests are displayed in the card *Role Assignment Requests*. Also, the status *Waiting for Approval* is displayed for the corresponding user in the user list.
 
 If a role assignment request is created, all users with authorization to approve this request are also notified via the SAP Cloud ALM launchpad. To process the role assignment request, you can click the corresponding notification.
 
@@ -23,7 +83,7 @@ The role assignment request contains the following information:
 
 -   Name of the user whose role assignment is to be changed
 
--   Application area of the affected roles
+-   SAP Cloud ALM Capability of the affected roles
 
 -   Role titles:
 
@@ -32,7 +92,7 @@ The role assignment request contains the following information:
     -   Roles that are to be removed from the user are indicated by a minus icon \(<span class="SAP-icons-V5"></span>\).
 
 
--   Name of the requestor and time of the request
+-   Name of the requester and time of the request
 
 
 The requests form a task list that the user administrator processes by approving or rejecting them.
@@ -49,7 +109,11 @@ You can also navigate directly from this card to a list of users with pending ro
 > ### Note:  
 > If your identity provider does not use the email address as the user ID, you have to specify the user ID to approve the request.
 
-Additional information:
+
+
+<a name="loio3a0cad574216483bb9d80e3a9cf72867__section_rvd_1qf_qfc"/>
+
+## Additional Information
 
 -   Processed requests are displayed in the history \(see [Displaying the History of User Administration Actions](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/e495d970a3b244aa82a83e0553f03b3d.html "You can display a history of user administration actions, globally or user-specific, in chronological order.") :arrow_upper_right:\).
 

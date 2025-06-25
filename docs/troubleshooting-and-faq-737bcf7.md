@@ -1064,6 +1064,18 @@ For more information about SAP Cloud ALM data center locations, refer to the FAQ
 <tr>
 <td valign="top">
 
+You want to rename your SAP Cloud ALM global account.
+
+</td>
+<td valign="top">
+
+Refer to [Change the Display Name of Your Global Account](https://help.sap.com/docs/btp/sap-business-technology-platform/change-display-name-of-your-global-account).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to change or rename the subdomain of your SAP Cloud ALM tenant.
 
 </td>

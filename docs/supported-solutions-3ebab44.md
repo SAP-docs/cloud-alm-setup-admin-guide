@@ -3933,6 +3933,28 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
+SAP Cloud Application Event Hub 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite 7
 
 </td>

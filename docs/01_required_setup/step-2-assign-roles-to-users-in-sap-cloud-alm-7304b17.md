@@ -10,10 +10,10 @@ You can add users and assign roles to them directly in the SAP Cloud ALM *User M
 
 To assign role templates to users, first create a role collection and add the role template to it. After a daily sync job, the role collection you've created also appears under *Custom Roles* in the *User Management* app and can be assigned to other users from there.
 
+
+
 > ### Note:  
-> If you're working with role mapping to user groups in your identity provider, you need to assign role collections in the SAP BTP cockpit. In this case, you can't view or change roles in the *User Management* app. You also can't use the role request and assignment features in SAP Cloud ALM, so we don't recommend this method.
-
-
+> If you're working with role mapping to user groups in your identity provider, you need to assign role collections in the SAP BTP cockpit. In this case, you can't view or change roles in the *User Management* app and use the role request and assignment features in SAP Cloud ALM, so we don't recommend this method.
 
 
 

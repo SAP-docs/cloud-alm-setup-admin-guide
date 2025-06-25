@@ -200,7 +200,7 @@ Assign the following authorizations depending on the use cases you plan to activ
 
 -   SAP\_SDF\_ALM\_METRIC\_PUSH\_PERF
 
--   SAP\_BC\_TRANSPORT\_ADMINISTRATOR \(only in client 000\)
+-   SAP\_BC\_TRANSPORT\_ADMINISTRATOR
 
 
 \*Please download the latest version of the roles from SAP Note [3372078](https://me.sap.com/notes/3372078).
@@ -364,6 +364,8 @@ For each system you're using, you have to activate different tasks. For example,
     -   Delete empty transports \(during release\)
 
 
+-   activate *Transports: Export Checks \(client-specific\)* on all clients on which you want to perform export checks.
+
 
 *QUA*
 
@@ -395,7 +397,7 @@ client 000: activate the following tasks:
 > For your test or productive landscape, set the collection interval to 1 min for these tasks if you want a quicker reaction to your testing of creating transport request, transport of copies, and triggering the deploy in the features.
 
 > ### Note:  
-> Once you've activated any of the tasks, the diagnostic job `/SF/CALM_CDM_DIAGNOSTIC` is started. This job runs daily in the background and sends diagnostic data. It's only necessary to set up on one system per domain \(preferably the domain controller system\)
+> Once you've activated any of the tasks, the diagnostic job `/SDF/CALM_CDM_DIAGNOSTIC` is started. This job runs daily in the background and sends diagnostic data. It's only necessary to set up on one system per domain \(preferably the domain controller system\).
 
 > ### Note:  
 > With ST-PI 740 SP 27, the names of the tasks have been changed.
@@ -415,6 +417,65 @@ In case of issues, open the *Analyze Application Log* `SLG1`. This system log sh
 In case of import issues, you can have a look at the job log. Sometimes a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level.
 
 In case several features are deployed together, all assigned transports are imported as import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
+
+
+
+<a name="loio21e0843b2009480282487a08044f3f34__section_a1d_qyp_rfc"/>
+
+## Setting up Transport Checks for Import Checks
+
+This section is only relevant if you want to use transport checks.
+
+1.  In the *Features* app, you get the required information to create a dedicated RFC destination for transport checks:
+
+    -   `PRDSYS`: Production Tenant \(production system with client\)
+
+    -   `SOUSYS`: Source Tenant \(development system with client\)
+
+2.  Provide RFC connections for your <PRDSYS\> to your <SOUSYS\>. You can use the RFC authorization or the system user with the template role `SAP_SDF_ALM_TRCHK.SAP` of SAP Note [2475591](https://me.sap.com/notes/2475591).
+
+    Follow these steps to create or update the role:
+
+    1.  Download the `SAP_SDF_ALM_TRCHK.SAP` role from the *Attachments* tab of SAP Note [2475591](https://me.sap.com/notes/2475591).
+
+    2.  Upload the `SAP_SDF_ALM_TRCHK.SAP` role in `SOUSYS`. Run transaction `PFCG`, then select *Role* \> *Upload* \> *Choose file SAP\_SDF\_ALM\_TRCHK.SAP*.
+
+        > ### Note:  
+        > If you receive a message that roles already exist in the system, select *Transport* \> *Change* \> *Tab Authorizations* \> *Change Authorization Date* \> *Generate* to overwrite the existing data.
+
+
+3.  Assign the role to a user in `SOUSYS` with transaction `SU01`. You can also create a new RFC communication user.
+
+4.  Create an RFC destination in `PRDSYS`:
+
+    1.  Run transaction `SM59` and choose *Create*.
+
+    2.  Enter the destination name as `RFC` and choose connection type *3 RFC Connection to ABAP System*.
+
+    3.  On the *Technical Settings* tab, enter your source system host in *Target Host*. You can find your host value via right-click on `SOUSYS` on SAPLogin. Then select *Properties* to see the value in *Message Server*.
+
+    4.  On the *Logon & Security*tab, enter the RFC communication user you assigned with role `SAP_SDF_ALM_TRCHK.SAP` in *User* and enter the source system client in *Client*. Then select *Save*.
+
+    5.  On the *Logon & Security* tab, select *Hide if logon error* for SAPGUI logon screen.
+
+    6.  Perform a connection and authorization test via *Utilities* \> *Test*.
+
+
+5.  Maintain your RFC destination in customizing table `/SDF/CMO_TARGET` in the `PRDSYS` client 000:
+
+    1.  Run transaction `/nSM30`.
+
+    2.  Enter table name `/SDF/CMO_TARGET` and choose *Edit*.
+
+    3.  Select *New Entries*.
+
+    4.  Assign the source tenant SID `SOUSYS` without client to the *Target* field and the RFC destination to the *RFC Destination* field.
+
+    5.  Save your configuration.
+
+
+
+You can use the RFC destination for the same tenant across different clients. If you’re using different clients of the same source tenant, creating just one entry for one client is enough in this case. Please remember that the transport check doesn’t support different source tenants \(with clients\) pointing to the same target tenant.
 
 
 

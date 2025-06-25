@@ -212,12 +212,12 @@ notification to user story or project task responsible if new comment added
 <tr>
 <td valign="top">
 
-User Management: Open Authorization Requests
+User Management: Open Role Assignment Requests
 
 </td>
 <td valign="top">
 
-notification to user administrator in case of open authorization requests
+notification to user administrator in case of open role assignment requests
 
 </td>
 </tr>

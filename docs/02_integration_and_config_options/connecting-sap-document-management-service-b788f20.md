@@ -19,8 +19,6 @@ The following video guides you through the SAP BTP DMS onboarding process.
 
 > ### Note:  
 > Make sure you have an entitlement for both the [SAP Document Management Service, Repository Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/document-management-service-repository-option) and the [SAP Document Management Service, Integration Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/initial-setup-for-document-management-service-integration-option?version=Cloud).
-> 
-> You don't need to subscribe for the [SAP Document Management Service, Repository Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/document-management-service-repository-option).
 
 
 
