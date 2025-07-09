@@ -18,7 +18,7 @@ Before you can start your automated testing activities, a Tricentis tenant needs
 
 ## Prerequisites
 
--   Your user in SAP Cloud ALM has the role *Global Administrator* or *Project Administrator*.
+-   Your user in SAP Cloud ALM has the role *Project Administrator*.
 
 -   You have an S-user with the role `Edit Cloud Data` and an email address that corresponds to the email address used in SAP Cloud ALM.
 

@@ -109,6 +109,9 @@ Create a new SAP Cloud ALM user and assign roles to the user. Besides the email 
 
 2.  Enter the *User ID* or *Email* as you've defined them in the settings of your identity provider. If, as per our recommendations, you've selected your email address as your user ID in your identity provider, you only need to enter the email address.
 
+    > ### Caution:  
+    > The *User ID* and *Email* fields are case-sensitive. Ensure they match exactly with the value of the attribute used as the subject name identifier in your identity provider, even if it's an email address.
+
 3.  Select a type for your user. Possible types are:
 
     ****

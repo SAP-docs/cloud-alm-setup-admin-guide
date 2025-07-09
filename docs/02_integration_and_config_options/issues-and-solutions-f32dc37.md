@@ -147,7 +147,7 @@ Go to the managed system:
 <tr>
 <td valign="top">
 
-My import jobs are stuck
+Import jobs are stuck
 
 </td>
 <td valign="top">
@@ -160,6 +160,20 @@ Go to the managed system:
 
 
 To resolve the mismatch issue see SAP Note [1688610](https://me.sap.com/notes/1688610).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CTS transports are shown as imported successfully even though the imports failed
+
+</td>
+<td valign="top">
+
+When CTS transport requests are imported, the *Features* app shows the imports as successful even though errors occurred.
+
+To solve this, make sure you've installed ST-PI 740 SP31 and SAP Note [3623614](https://me.sap.com/notes/3623614).
 
 </td>
 </tr>

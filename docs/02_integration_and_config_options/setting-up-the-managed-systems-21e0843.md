@@ -441,7 +441,7 @@ This section is only relevant if you want to use transport checks.
     2.  Upload the `SAP_SDF_ALM_TRCHK.SAP` role in `SOUSYS`. Run transaction `PFCG`, then select *Role* \> *Upload* \> *Choose file SAP\_SDF\_ALM\_TRCHK.SAP*.
 
         > ### Note:  
-        > If you receive a message that roles already exist in the system, select *Transport* \> *Change* \> *Tab Authorizations* \> *Change Authorization Date* \> *Generate* to overwrite the existing data.
+        > If you receive a message that roles already exist in the system, select *Transport* \> *Change* \> *Authorizations* \> *Change Authorization Data* \> *Generate* to overwrite the existing data.
 
 
 3.  Assign the role to a user in `SOUSYS` with transaction `SU01`. You can also create a new RFC communication user.

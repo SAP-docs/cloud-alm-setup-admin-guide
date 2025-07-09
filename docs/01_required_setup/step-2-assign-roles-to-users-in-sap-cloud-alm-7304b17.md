@@ -132,6 +132,8 @@ To assign role templates to users, first create a role collection and add the ro
 
 8.  Save your settings.
 
+9.  If you want the added user to receive updates regarding SAP Cloud ALM and your other SAP cloud services, for example, about planned and unplanned downtimes and other customer communications, consider signing them up for cloud availability notifications. For more information, refer to KBA [2900069](https://me.sap.com/notes/2900069).
+
 
 
 
@@ -193,6 +195,8 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
         > ### Caution:  
         > Don't use the identity provider *Default identity provider*, *SAP ID Service*, or *sap.default*.
 
+
+8.  If you want the added users to receive updates regarding SAP Cloud ALM and your other SAP cloud services, for example, about planned and unplanned downtimes and other customer communications, consider signing them up for cloud availability notifications. For more information, refer to KBA [2900069](https://me.sap.com/notes/2900069).
 
 
 -   **[Role Collections](role-collections-e1915af.md "Role collections in SAP Cloud ALM are delivered predefined and ready to use.")**  

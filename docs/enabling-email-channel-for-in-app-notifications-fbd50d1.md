@@ -6,9 +6,6 @@ You can enable the email channel for the in-app notifications that are sent by S
 
 ![](images/Screenshot_Enabling_Email_Channel_for_SAP_Cloud_ALM_In-app_Notifications_1_d147bf0.png)
 
-> ### Note:  
-> In SAP Cloud ALM for operations, email notifications are sent based on events using [Intelligent Event Processing](https://help.sap.com/docs/cloud-alm/applicationhelp/intelligent-event-processing) and [Notification Management](https://help.sap.com/docs/cloud-alm/applicationhelp/notification-management). These notifications aren't the subject of this page because they aren't displayed in the in-app notifications.
-
 
 
 <a name="loiofbd50d1ee4694e4eb1e94e387a28ec7f__section_sxg_srj_5bc"/>
@@ -134,6 +131,78 @@ Projects: New Updates
 <td valign="top">
 
 notification to project lead if SAP Activate Roadmap tasks were updated
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Quality Gates: Assigned to You
+
+</td>
+<td valign="top">
+
+notification to quality gate responsible on assignment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Quality Gates: Assigned to Your Team
+
+</td>
+<td valign="top">
+
+notification to quality gate team responsible on assignment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Quality Gates: Assigned to You as Involved Party
+
+</td>
+<td valign="top">
+
+notification to quality gate responsible on assignment as involved party
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Quality Gates: New Comment
+
+</td>
+<td valign="top">
+
+notification to quality gate responsible if new comment added
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Quality Gates: Service Created
+
+</td>
+<td valign="top">
+
+notification to quality gate responsible if service created
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Quality Gates: Service Creation Failed
+
+</td>
+<td valign="top">
+
+notification to quality gate responsible if service couldn't be created
 
 </td>
 </tr>

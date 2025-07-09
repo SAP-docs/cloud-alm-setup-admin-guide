@@ -91,7 +91,3 @@ NS2 Access, which restricts the access to and the processing of personal data to
 
 For more information, refer to [SAP Business Technology Platform – Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions?version=Cloud#eu-access).
 
--   **[Supported Data Centers](supported-data-centers-79af00d.md "The region that you select when requesting SAP Cloud ALM corresponds to the physical
-		location of the data center where your SAP Cloud ALM tenant will be operated.")**  
-The region that you select when requesting SAP Cloud ALM corresponds to the physical location of the data center where your SAP Cloud ALM tenant will be operated.
-

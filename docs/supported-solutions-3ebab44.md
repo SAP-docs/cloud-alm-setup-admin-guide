@@ -192,6 +192,8 @@ Process Management
 
 -   SAP SFSF Benefits
 
+-   SAP SFSF Career and Talent Development
+
 -   SAP SFSF Compensation
 
 -   SAP SFSF Dynamic Teams

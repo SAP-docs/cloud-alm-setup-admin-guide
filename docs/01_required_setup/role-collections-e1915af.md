@@ -888,6 +888,38 @@ View all SAP Readiness Check analyses
 <tr>
 <td valign="top">
 
+Implementation
+
+</td>
+<td valign="top">
+
+SAP Readiness Check
+
+</td>
+<td valign="top">
+
+*Readiness Check Follow-Up Manager* 
+
+</td>
+<td valign="top">
+
+Create, unassign and reassign follow-ups
+
+</td>
+<td valign="top">
+
+*Readiness Check Follow-Up Manager* 
+
+</td>
+<td valign="top">
+
+`imp_rc_FollowUpManager` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Operations
 
 </td>
