@@ -92,7 +92,7 @@ You can integrate automated test cases from any external test automation provide
 
 ## Result and Next Steps
 
-The connection between SAP Cloud ALM and the external test automation provider has been established. A synchronization with the automation provider takes place to retrieve the existing automated test cases whenever new processes are scoped in your SAP Cloud ALM projects.
+The connection between SAP Cloud ALM and the external test automation provider has been established. Whenever new processes are scoped in your SAP Cloud ALM projects, a synchronization with the automation provider takes place to retrieve the existing automated test cases.
 
 
 

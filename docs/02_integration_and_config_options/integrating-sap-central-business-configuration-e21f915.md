@@ -4,11 +4,11 @@
 
 # Integrating SAP Central Business Configuration
 
-By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be executed, and lets you navigate directly to SAP Central Business Configuration as needed.
+By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be carried out, and lets you navigate directly to SAP Central Business Configuration as needed.
 
-SAP Central Business Configuration \(CBC\) is a solution that supports the configuration of SAP S/4HANA Cloud Public Edition. SAP S/4HANA Cloud Private Edition is not supported.
+SAP Central Business Configuration is a solution that supports the configuration of SAP S/4HANA Cloud Public Edition. SAP S/4HANA Cloud Private Edition is not supported.
 
-While an SAP Cloud ALM project applies the SAP Activate methodology to provide end-to-end procedural guidance on how to start and execute an implementation project, an SAP Central Business Configuration workspace shows the project and configuration activities focused on your specific business configuration.
+While an SAP Cloud ALM project applies the SAP Activate methodology to provide end-to-end procedural guidance on how to start and run an implementation project, an SAP Central Business Configuration workspace shows the activities focused on your specific business configuration.
 
 To use SAP Central Business Configuration in SAP Cloud ALM, you first need to carry out the following setup procedure.
 

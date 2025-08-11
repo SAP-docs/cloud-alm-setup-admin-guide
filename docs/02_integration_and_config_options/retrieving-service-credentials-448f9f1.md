@@ -2,7 +2,7 @@
 
 # Retrieving Service Credentials
 
-To integrate certain products with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
+To integrate certain products or connect on-premise systems with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
 
 Depending on the provisioning date of your SAP Cloud ALM tenant, different steps may be needed:
 
@@ -46,7 +46,7 @@ Service credentials that can be used to connect managed services to SAP Cloud AL
 
 You can access them in the SAP BTP cockpit or in the *Landscape Management* app, as described in [Managing Your Service Credentials](managing-your-service-credentials-87b7851.md).
 
-You only need to carry out the steps in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) if you want to set up transport management, but you no longer have to configure your entitlements.
+These credentials only work for monitoring applications. If you want to set up transport management in the ABAP system, you need to create a new instance and credentials, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md).
 
 </td>
 </tr>
@@ -64,9 +64,10 @@ No service credentials have been created as part of the provisioning of your SAP
 </tr>
 </table>
 
--   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "To integrate certain products with SAP Cloud ALM, you need to create a service binding
-		from the SAP Cloud ALM API instance.")**  
-To integrate certain products with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
+-   **[Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md "To integrate certain products or connect on-premise systems with SAP Cloud ALM, you need
+		to create a service binding from the SAP Cloud ALM API
+		instance.")**  
+To integrate certain products or connect on-premise systems with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
 -   **[Managing Your Service Credentials](managing-your-service-credentials-87b7851.md "If you requested SAP Cloud ALM on or after June 14, 2023, automatically generated SAP
 		Cloud ALM service credentials were uploaded to the Landscape
 			Management app for you. These credentials can be used to connect managed

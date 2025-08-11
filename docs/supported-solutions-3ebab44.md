@@ -350,7 +350,7 @@ SAP Best Practices for SAP Integrated Business Planning for Supply Chain
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -439,9 +439,13 @@ Process Management
 
 -   SAP Services Content for Core Retail
 
+-   SAP Services Content for Environment, Health and Safety
+
 -   SAP Services Content for Integrated Utilities
 
 -   SAP Services Content for Oil and Gas
+
+-   SAP Services Content for R&D/Engineering and Sustainability
 
 
 
@@ -510,7 +514,7 @@ Task templates:
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -873,7 +877,7 @@ More under [Requirements](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -1093,7 +1097,7 @@ More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -1357,7 +1361,7 @@ More under [SAP S/4HANA Cloud Private Edition and On-Premise Systems](02_integra
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -1756,7 +1760,7 @@ More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -2043,7 +2047,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -2153,7 +2157,7 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
-SAP Cloud for Customer 
+SAP Sales Cloud and SAP Service Cloud 
 
 </td>
 <td valign="top">
@@ -3262,7 +3266,7 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -3473,7 +3477,7 @@ More under [Health Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/oper
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -4045,7 +4049,7 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -4419,7 +4423,7 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -5079,7 +5083,7 @@ More under [Configuration and Security Analysis](https://support.sap.com/en/alm/
 <tr>
 <td valign="top">
 
-SAP S/4HANA \(on premise\) 
+SAP S/4HANA 
 
 </td>
 <td valign="top">
@@ -5278,6 +5282,72 @@ More under [Configuration and Security Analysis](https://support.sap.com/en/alm/
 <td valign="top">
 
 SAP Cloud Logging 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Automation Pilot 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Destination service 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration and Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Configuration and Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP SuccessFactors Incentive Management 
 
 </td>
 <td valign="top">

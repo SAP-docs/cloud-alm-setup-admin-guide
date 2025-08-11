@@ -27,7 +27,7 @@ To assign role templates to users, first create a role collection and add the ro
 
 -   Your user has the role *Global Administrator* or *User Administrator*.
 
-    If you've requested SAP Cloud ALM, you've automatically received the role *Global Administrator*. If someone else has requested SAP Cloud ALM, they can assign one of the required roles to you by following the process below.
+    As the *Main IT Contact* for SAP Cloud ALM, you've automatically received the role *Global Administrator*. If you don't have this role, another *Global Administrator* or *User Administrator* can assign one of the required roles to you by following the process below.
 
 -   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
 
@@ -162,7 +162,7 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 
 -   Your user has the role *Subaccount Administrator* in the subaccount that contains your SAP Cloud ALM subscription.
 
-    If you've requested SAP Cloud ALM, your user has received this authorization during the creation of the subaccount. If you don't have this authorization, the subaccount administrator can assign the role to you by following [Add Members to Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
+    As the *Main IT Contact* for SAP Cloud ALM, your user has received this authorization during the creation of the subaccount. If you don't have this authorization, the *Subaccount Administrator* can assign the role to you by following [Add Members to Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/LATEST/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
 
 -   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
 
@@ -199,11 +199,12 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 8.  If you want the added users to receive updates regarding SAP Cloud ALM and your other SAP cloud services, for example, about planned and unplanned downtimes and other customer communications, consider signing them up for cloud availability notifications. For more information, refer to KBA [2900069](https://me.sap.com/notes/2900069).
 
 
--   **[Role Collections](role-collections-e1915af.md "Role collections in SAP Cloud ALM are delivered predefined and ready to use.")**  
+-   **[Role Collections](role-collections-e1915af.md "Role collections in SAP Cloud ALM are delivered predefined and ready to
+		use.")**  
 Role collections in SAP Cloud ALM are delivered predefined and ready to use.
--   **[Role Templates](role-templates-f7294b2.md "For most SAP Cloud ALM capabilites, you can use the predefined and ready-to-use role
+-   **[Role Templates](role-templates-f7294b2.md "For most SAP Cloud ALM capabilities, you can use the predefined and ready-to-use role
 		collections, which correspond to a single role template. Some areas also offer role
 		templates without a 1:1 relationship with a role collection. Before you can use these role
 		templates, you need to assign them to a custom role collection.")**  
-For most SAP Cloud ALM capabilites, you can use the predefined and ready-to-use role collections, which correspond to a single role template. Some areas also offer role templates without a 1:1 relationship with a role collection. Before you can use these role templates, you need to assign them to a custom role collection.
+For most SAP Cloud ALM capabilities, you can use the predefined and ready-to-use role collections, which correspond to a single role template. Some areas also offer role templates without a 1:1 relationship with a role collection. Before you can use these role templates, you need to assign them to a custom role collection.
 

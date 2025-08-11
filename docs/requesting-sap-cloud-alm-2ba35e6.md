@@ -114,14 +114,30 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
     
     If you have multiple Identity Authentication tenants and you're unsure about which one to select, look up the administrators of the Identity Authentication tenants that are assigned to your customer ID at [SAP Cloud Identity Services - Tenants](https://iamtenants.accounts.cloud.sap). The administrators can give you more guidance. Also, to simplify the maintenance of administrators in your Identity Authentication tenant, consider selecting an Identity Authentication tenant whose administrators will also govern the identity information for SAP Cloud ALM.
 
-    To ensure the best performance, we generally recommend selecting an Identity Authentication tenant in a region that is close to the region of your SAP Cloud ALM tenant. If you've selected the EU Access region, select an Identity Authentication tenant that is also located in Europe.
+    To ensure the best performance, we generally recommend selecting an Identity Authentication tenant in a region that is close to the region of your SAP Cloud ALM tenant. If none of the tenants are in your desired region, you can request to migrate a specific tenant by opening a case on the `BC-IAM-IDS` component. If you don't want to use any of the listed Identity Authentication tenants, you can request a new one as described in [Get Additional Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud#get-additional-tenant).
 
-    If none of the tenants are in your desired region, you can request to migrate a specific tenant by opening a case on the `BC-IAM-IDS` component. If you don't want to use any of the listed Identity Authentication tenants, you can request a new one as described in [Get Additional Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud#get-additional-tenant).
+    **EU Access**: If you've selected the EU Access region, only Identity Authentication tenants that are also located in Europe are available for selection. However, you can also enable the selection of Identity Authentication tenants outside of Europe, for example, if you're planning to migrate one of them to a European data center in the future.
 
     > ### Note:  
     > If you've already been working with an Identity Authentication tenant but it isn't listed here, it may not be a **productive** tenant or it may be assigned to a different customer ID.
 
     To learn more about the SAP Cloud Identity Services bundling that you receive as part of the SAP Cloud ALM provisioning, see [SAP Cloud ALM Bundle](https://help.sap.com/docs/cloud-identity-services/aa08922a434a456ba44982c9f4f4d790/sap-cloud-alm-bundle?locale=en-US).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Main IT Contact*:
+
+    As the requesting user, you're assigned as the *Main IT Contact* for SAP Cloud ALM by default.
+    
+    </td>
+    <td valign="top">
+    
+    After the provisioning, the selected *Main IT Contact* receives the SAP Cloud ALM welcome email and all authorizations that are required for the initial setup and for further administrative tasks.
+
+    Additionally, the selected user is assigned as the **default** Main IT Contact and the **main** Contact Person IT for the created SAP Cloud ALM tenant.
     
     </td>
     </tr>
@@ -131,7 +147,7 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 6.  Choose *Submit*.
 
-    ![](images/SUI-ProvisioningRequest_6df45a1.jpg)
+    ![](images/SUI-ProvisioningRequest_MainITContact_1ecd93f.jpg)
 
 
 

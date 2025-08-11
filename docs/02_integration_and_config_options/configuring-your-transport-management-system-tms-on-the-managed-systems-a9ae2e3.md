@@ -33,21 +33,18 @@ First, make sure that you've set the correct parameters in the ABAP system at TM
 ![](images/abap-parameters_8131f4b.png)
 
 > ### Note:  
-> If you would like to import into different systems and clients other than the export system and client you need to activate the Extended Transport Control, which means that `CTC`=1. For more information about this, see [Extended Transport Control](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html).
-
-> ### Tip:  
-> We strongly recommend using always client-dependent transport routes \(TMS option `CTC`\) from the very beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes at a later point in time is a complete landscape change that isn't supported while there are still transports open.
+> It's mandatory to use client-dependent transport routs \(TMS option **CTC=1**\) from the beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes later is a complete landscape change. This isn't supported if there are still open transports.
 > 
-> We strongly recommend using a transport target group as a consolidation target. By using the transport target group, you can always change your consolidation systems by just changing the systems within the consolidation target group while technically the consolidation target \(which is the consolation target group\) stays stable.
+> We strongly recommend using a transport target group as a consolidation target. By using the transport target group, you can always change your consolidation systems by changing the systems within the consolidation target group while technically the consolidation target \(which is the consolation target group\) stays stable.
 > 
 > ![](images/System_Landscape_22cfc8a.png)
 
 > ### Note:  
-> If released transport requests pointing to a target system without a client, as `CTC` was not set to 1, and then you add `CTC`=1 afterwards and rebuild your transport track using clients in the feature for the transport request, the target tenant will be empty and the deployment could not be triggered.
+> If released transport requests point to a target system without a client, as `CTC` was not set to 1, and then you add `CTC`=1 afterward and rebuild your transport track using clients in the feature for the transport request, the target tenant will be empty and the deployment cannot be triggered.
 > 
-> Unfortunately, the target tenant for the transport requests released before the TMS configuration change can't be derived on SAP Cloud ALM end.
+> The target tenant for the transport requests released before the TMS configuration change can't be derived on SAP Cloud ALM.
 > 
-> In this case, the only option is to export the list of all features from the Features Overview. In the Transports column you can select all transports and filter for them in the target system import queue.
+> In this case, the only option is to export the list of all features from the *Features Overview*. In the *Transports* column you can select all transports and filter for them in the target system import queue.
 > 
 > You should only import released transport requests through `STMS`.
 > 

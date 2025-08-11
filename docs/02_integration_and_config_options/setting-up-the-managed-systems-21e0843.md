@@ -364,12 +364,15 @@ For each system you're using, you have to activate different tasks. For example,
     -   Delete empty transports \(during release\)
 
 
--   activate *Transports: Export Checks \(client-specific\)* on all clients on which you want to perform export checks.
+-   activate *Transports: Export Checks \(client-specific\)* on all clients on which you want to perform ATC checks.
 
 
 *QUA*
 
-client 000: activate *Transports: Import*. You have to activate this task in all systems you want to import to as this triggers the import job`/SDF/CALM_CDM_IMPORT_TRANSPORTS`. This queries to-be-imported transports from SAP Cloud ALM and imports them.
+client 000: activate *Transports: Import*. You have to activate this task in all systems you want to import to as this triggers the import job `/SDF/CALM_CDM_IMPORT_TRANSPORTS`. This queries to-be-imported transports from SAP Cloud ALM and imports them.
+
+> ### Note:  
+> Target tenants include quality assurance, pre-production, and production systems from a system group, which are assigned to the project via the deployment plan. The deployment is performed using the landscape defined in TMS, not the one defined in the System Groups. If your working client isn't available in LMS we recommend to activate the use case Health Monitoring in the needed working clients since they're part of the transport landscape and should be monitored. This is relevant for clients where you haven’t run transaction `/sdf/alm_setup` as these clients aren’t monitored and registered in Landscape Management.
 
 *PRD*
 
@@ -392,6 +395,9 @@ client 000: activate the following tasks:
 
     For more information, see [Transport Checks](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/2ae5a1bf1b6f4d46a38b11f6c6792425.html "With the Transport Checks, you can check a CTS-managed transport set to evaluate the impact on your production tenant. Transport checks can be performed based on a feature which defines the set of CTS-managed transports.") :arrow_upper_right:.
 
+
+> ### Note:  
+> Target tenants include quality assurance, pre-production, and production systems from a system group, which are assigned to the project via the deployment plan. The deployment is performed using the landscape defined in TMS, not the one defined in the System Groups. If your working client isn't available in LMS we recommend to activate the use case Health Monitoring in the needed working clients since they're part of the transport landscape and should be monitored. This is relevant for clients where you haven’t run transaction `/sdf/alm_setup` as these clients aren’t monitored and registered in Landscape Management.
 
 > ### Note:  
 > For your test or productive landscape, set the collection interval to 1 min for these tasks if you want a quicker reaction to your testing of creating transport request, transport of copies, and triggering the deploy in the features.
@@ -432,7 +438,7 @@ This section is only relevant if you want to use transport checks.
 
     -   `SOUSYS`: Source Tenant \(development system with client\)
 
-2.  Provide RFC connections for your <PRDSYS\> to your <SOUSYS\>. You can use the RFC authorization or the system user with the template role `SAP_SDF_ALM_TRCHK.SAP` of SAP Note [2475591](https://me.sap.com/notes/2475591).
+2.  Provide RFC connections from your <PRDSYS\> to your <SOUSYS\>. You can use the RFC authorization or the system user with the template role `SAP_SDF_ALM_TRCHK.SAP` of SAP Note [2475591](https://me.sap.com/notes/2475591).
 
     Follow these steps to create or update the role:
 
@@ -454,7 +460,7 @@ This section is only relevant if you want to use transport checks.
 
     3.  On the *Technical Settings* tab, enter your source system host in *Target Host*. You can find your host value via right-click on `SOUSYS` on SAPLogin. Then select *Properties* to see the value in *Message Server*.
 
-    4.  On the *Logon & Security*tab, enter the RFC communication user you assigned with role `SAP_SDF_ALM_TRCHK.SAP` in *User* and enter the source system client in *Client*. Then select *Save*.
+    4.  On the *Logon & Security* tab, enter the RFC communication user you assigned with role `SAP_SDF_ALM_TRCHK.SAP` in *User* and enter the source system client in *Client*. Then select *Save*.
 
     5.  On the *Logon & Security* tab, select *Hide if logon error* for SAPGUI logon screen.
 

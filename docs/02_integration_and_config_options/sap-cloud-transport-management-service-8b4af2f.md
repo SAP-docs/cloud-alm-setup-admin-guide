@@ -76,10 +76,13 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
     > 
     > -   only connect demo and sandbox SAP Cloud Transport Management service instances to your test SAP Cloud ALM instance
 
-    1.  Go to your SAP BTP subaccount of your SAP Cloud ALM instance, choose *Connectivity*, then *Destination*, then *Create Destination*.![](images/Standalone_CTMS_1_193b0a6.png)
+    1.  Go to your SAP BTP subaccount of your SAP Cloud ALM instance, choose *Connectivity*, then *Destinations*, then *Create*.
+
+        ![](images/btp_a17b1b6.png)
+
     2.  In the *Destination Configuration* section, enter the values in the respective fields based on the description that is provided in the table below.
 
-        ![](images/Standalone_CTMS_2_1b347bc.png)
+        ![](images/btp2_f53bf4c.png)
 
         **Destination Configuration Values**
 
@@ -614,7 +617,7 @@ For export configuration, follow these steps:
 
 8.  Save your communication system.
 
-9.  In the *Communication Arrangement*, go to the *Additional Properties* section and define a CTMS node name for the export. The selected transport node must allow uploads. You should use the name of an existing node in CTMS or create a node with the same name in CTMS. For more information, see [https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes?version=Cloud](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes?version=Cloud).
+9.  In the *Communication Arrangement*, go to the *Additional Properties* section and define a CTMS node name for the export. The selected transport node must allow uploads. You should use the name of an existing node in CTMS or create a node with the same name in CTMS. For more information, see [Create Transport Nodes](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/create-transport-nodes?version=Cloud).
 
 10. Go to the *Outbound Services* section and enter `/api/imp-cdm-transport-management-api/v1/` for the *Path*.
 

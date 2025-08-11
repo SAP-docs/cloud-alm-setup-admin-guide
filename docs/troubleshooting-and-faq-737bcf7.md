@@ -6,34 +6,13 @@
 
 In this document, you can find answers to some of the most common questions and issues that may arise while requesting and setting up SAP Cloud ALM.
 
-To get started, find your current phase or the subject of your issue and jump to the corresponding section:
+<a name="loiof345b25118b84bf185d374a577c4e579"/>
 
--   [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb)
-
--   [After the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_gxf_dyk_swb)
-
--   [Identity Authentication](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_vhr_kyk_swb)
-
--   [User Management](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_egv_g1l_swb)
-
--   [Logon Issues \(Administrators\)](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_zxf_ntv_ryb)
-
--   [Logon Issues \(Users\)](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w23_pgp_ryb)
-
--   [Your SAP Cloud ALM Subaccount](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb)
-
--   [Lifecycle Management of Your SAP Cloud ALM Tenant](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb)
-
--   [Related FAQs and Troubleshooting Guides](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb)
-
--   [Further Support](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb)
-
-
-
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb"/>
+<!-- loiof345b25118b84bf185d374a577c4e579 -->
 
 ## Before the Provisioning
+
+
 
 
 <table>
@@ -149,7 +128,7 @@ For more information and recommendations, take a look at the following resources
 
 -   In the *Start New Provisioning Request* dialog on SAP for Me, choose <span class="SAP-icons-V5"></span> *Help* in the *Subdomain* section.
 
--   Refer to step 5 in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
+-   Refer to step 4 in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
 
 
 
@@ -202,7 +181,9 @@ You've selected the EU Access region but don't have an Identity Authentication t
 </td>
 <td valign="top">
 
-You can either request to migrate one of your existing Identity Authentication tenants to Europe or request a new one, as described in [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant#loio460766b1b08d48a0b4adfb230c60a001__note_dd4_jk4_12c).
+You can request a new Identity Authentication tenant in a region of your choice, as described in [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant#loio460766b1b08d48a0b4adfb230c60a001__note_dd4_jk4_12c).
+
+You can also enable the selection of Identity Authentication tenants outside of Europe, for example, if you're planning to migrate one of them to a European data center in the future.
 
 </td>
 </tr>
@@ -246,11 +227,13 @@ Refer to KBA [3066901](https://me.sap.com/notes/3066901).
 </tr>
 </table>
 
+<a name="loio96543ab033b143b29264c061c945a28b"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_gxf_dyk_swb"/>
+<!-- loio96543ab033b143b29264c061c945a28b -->
 
 ## After the Provisioning
+
+
 
 
 <table>
@@ -276,14 +259,14 @@ You want to find the welcome emails and activation emails that were sent to you 
 
 **Welcome Emails from SAP Cloud ALM**
 
--   If you requested SAP Cloud ALM, you've received a welcome email with the subject **Access information for SAP Cloud ALM**.
+-   The *Main IT Contact* for SAP Cloud ALM has received a welcome email with the subject **Access information for SAP Cloud ALM**.
 
--   If someone else requested SAP Cloud ALM and added you to the system, you've received a welcome email with the subject **Welcome to SAP Cloud ALM**.
+-   If you were added to SAP Cloud ALM by the *Main IT Contact*, you've received a welcome email with the subject **Welcome to SAP Cloud ALM**.
 
 
 **Activation Emails from the Identity Authentication Service**
 
--   If you didn't have a productive Identity Authentication tenant when SAP Cloud ALM was requested, a new Identity Authentication tenant was created for you. You've received an email with the subject **Activate Your Account for Identity Authentication Service**.
+-   If you didn't have a productive Identity Authentication tenant when SAP Cloud ALM was requested, a new Identity Authentication tenant was created for you. The *Main IT Contact* for SAP Cloud ALM has received an email with the subject **Activate Your Account for Identity Authentication Service**.
 
 -   If someone added your user to a productive Identity Authentication tenant, you've received an email with the subject **Activate Your Account for User Profile**.
 
@@ -400,11 +383,13 @@ Refer to [Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me
 </tr>
 </table>
 
+<a name="loio3df06973559744beb4e057a19dbf1dee"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_vhr_kyk_swb"/>
+<!-- loio3df06973559744beb4e057a19dbf1dee -->
 
 ## Identity Authentication
+
+
 
 
 <table>
@@ -428,7 +413,7 @@ You have questions about which Identity Authentication tenant to select for the 
 </td>
 <td valign="top">
 
-Refer to the section [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb).
+Refer to the section [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loiof345b25118b84bf185d374a577c4e579).
 
 </td>
 </tr>
@@ -585,11 +570,13 @@ Refer to KBA [3281767](https://me.sap.com/notes/3281767).
 </tr>
 </table>
 
+<a name="loioa1b5954fc69a405b84779b9a426b40dc"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_egv_g1l_swb"/>
+<!-- loioa1b5954fc69a405b84779b9a426b40dc -->
 
 ## User Management
+
+
 
 
 <table>
@@ -700,11 +687,13 @@ For more information, see the following blog post [Centralize Authorization Mana
 </tr>
 </table>
 
+<a name="loio35cfa28f9832449aa7de09a8d16be694"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_zxf_ntv_ryb"/>
+<!-- loio35cfa28f9832449aa7de09a8d16be694 -->
 
 ## Logon Issues \(Administrators\)
+
+
 
 
 <table>
@@ -792,11 +781,13 @@ Check whether you have a firewall setting that prevents you from accessing the a
 </tr>
 </table>
 
+<a name="loiodcb8cb9ac5504a4387fa6cd358caa78c"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_w23_pgp_ryb"/>
+<!-- loiodcb8cb9ac5504a4387fa6cd358caa78c -->
 
 ## Logon Issues \(Users\)
+
+
 
 
 <table>
@@ -894,11 +885,13 @@ Refer to [Viewing Assigned Tenants and Administrators](https://help.sap.com/view
 </tr>
 </table>
 
+<a name="loio24221d6153144a269fc2699b1c1adb23"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb"/>
+<!-- loio24221d6153144a269fc2699b1c1adb23 -->
 
 ## Your SAP Cloud ALM Subaccount
+
+
 
 
 <table>
@@ -987,11 +980,13 @@ If you may want to use SAP Cloud ALM again in the future, consider temporarily s
 </tr>
 </table>
 
+<a name="loiobd5d512dbc294031b2146b467e5f72c2"/>
+
+<!-- loiobd5d512dbc294031b2146b467e5f72c2 -->
+
+## Lifecycle of Your SAP Cloud ALM Tenant
 
 
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_w4v_qq5_tyb"/>
-
-## Lifecycle Management of Your SAP Cloud ALM Tenant
 
 
 <table>
@@ -1057,7 +1052,7 @@ Refer to KBA [3352417](https://me.sap.com/notes/3352417).
 
 Please also consider the data center restrictions listed in KBA [3257720](https://me.sap.com/notes/3257720).
 
-For more information about SAP Cloud ALM data center locations, refer to the FAQ entries about data centers in the section [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_epf_hxk_swb).
+For more information about SAP Cloud ALM data center locations, refer to the FAQ entries about data centers in the section [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loiof345b25118b84bf185d374a577c4e579).
 
 </td>
 </tr>
@@ -1090,6 +1085,18 @@ However, if you're willing to accept loss of data in your current SAP Cloud ALM 
 <tr>
 <td valign="top">
 
+You want to change the *Main IT Contact* of your SAP Cloud ALM tenant.
+
+</td>
+<td valign="top">
+
+Refer to KBA [2991636](https://me.sap.com/notes/2991636).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 After deleting your SAP Cloud ALM application, you want to set it up again from scratch.
 
 </td>
@@ -1102,7 +1109,7 @@ Refer to KBA [3257720](https://me.sap.com/notes/3257720).
 <tr>
 <td valign="top">
 
-You want to decommission SAP Cloud ALM.
+You want to decommission or delete your SAP Cloud ALM tenant.
 
 </td>
 <td valign="top">
@@ -1111,7 +1118,7 @@ Official decommissioning of SAP Cloud ALM isn't yet available.
 
 However, you can use a housekeeping job to delete services from the *Landscape Management* app.
 
-You can also delete your SAP Cloud ALM subscription in your subaccount and then delete your subaccount. For more information, refer to the corresponding FAQ entries in the section [Your SAP Cloud ALM Subaccount](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8__section_a1p_nyk_swb).
+You can also delete your SAP Cloud ALM subscription in your subaccount and then delete your subaccount. For more information, refer to the corresponding FAQ entries in the section [Your SAP Cloud ALM Subaccount](troubleshooting-and-faq-737bcf7.md#loio24221d6153144a269fc2699b1c1adb23).
 
 </td>
 </tr>
@@ -1164,11 +1171,13 @@ Refer to KBA [2900069](https://me.sap.com/notes/2900069).
 </tr>
 </table>
 
+<a name="loio4b3992c280c14c358aca1648fa0c0b2b"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_lzj_qcp_wwb"/>
+<!-- loio4b3992c280c14c358aca1648fa0c0b2b -->
 
 ## Related FAQs and Troubleshooting Guides
+
+
 
 -   [Most Common Onboarding Issues \(KBA\)](https://launchpad.support.sap.com/#/notes/3270970)
 
@@ -1179,11 +1188,13 @@ Refer to KBA [2900069](https://me.sap.com/notes/2900069).
 -   [Application Lifecycle Management – Questions & Answers \(PDF\)](https://support.sap.com/content/dam/support/en_us/library/ssp/alm/QA_ALM.pdf) \(for general SAP ALM and SAP Cloud ALM questions\)
 
 
+<a name="loio0486ef28d1d745bd95d481aec66dece0"/>
 
-
-<a name="loio737bcf73077c4ed1bc3400648a60f1a8__section_ayj_ccr_crb"/>
+<!-- loio0486ef28d1d745bd95d481aec66dece0 -->
 
 ## Further Support
+
+
 
 If you encounter issues that aren't listed here or if you're unable to perform the described resolutions yourself, [schedule an expert session](https://me.sap.com/app/sae) or [create a support case](https://me.sap.com/app/casecreate) on one of the following components:
 

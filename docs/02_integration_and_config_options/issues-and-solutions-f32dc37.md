@@ -8,7 +8,7 @@
 
 ## Issues and Solutions
 
-In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition, SAP S/4HANA \(on premise\) and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\).
+In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\).
 
 ****
 

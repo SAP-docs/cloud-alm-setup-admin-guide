@@ -1664,6 +1664,38 @@ View operations-related scores, KPIs, and metrics
 <tr>
 <td valign="top">
 
+RISE with SAP
+
+</td>
+<td valign="top">
+
+System View
+
+</td>
+<td valign="top">
+
+*System Dashboard Viewer* 
+
+</td>
+<td valign="top">
+
+View software stack information and extensibility-related KPIs
+
+</td>
+<td valign="top">
+
+*System Dashboard Viewer* 
+
+</td>
+<td valign="top">
+
+`rdp_dashboard_ccSystemView` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Service
 
 </td>

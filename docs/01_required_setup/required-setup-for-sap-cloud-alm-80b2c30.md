@@ -16,7 +16,7 @@ If you need support, take a look at the following resources:
 
 -   [Services for SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/services-for-sap-cloud-alm.html)
 
--   [Troubleshooting and FAQ](../troubleshooting-and-faq-737bcf7.md)
+-   [Troubleshooting and FAQ](../troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8)
 
 -   [Schedule an Expert](https://me.sap.com/app/sae)
 
@@ -27,7 +27,7 @@ If you need support, take a look at the following resources:
 
 ## Required Authorizations
 
-If you requested SAP Cloud ALM, your user has received all authorizations required to perform the initial setup. However, we recommend also manually assigning these authorizations to at least one more user.
+The person defined as *Main IT Contact* in the provisioning request has received all authorizations required to perform the initial setup and further administrative tasks. However, we recommend also manually assigning these authorizations to at least one more user.
 
 The following authorizations are required to perform the initial setup of SAP Cloud ALM:
 

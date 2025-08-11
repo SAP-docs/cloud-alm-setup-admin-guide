@@ -18,12 +18,11 @@ To use the Change and Transport System \(CTS\) for SAP S/4HANA Cloud Private Edi
 Currently any kind of consistent Transport Management System \(TMS\) landscape is supported. The last system in a track is always treated as a production system.
 
 > ### Note:  
-> CTS+ is not supported.
-
-> ### Note:  
-> Client-specific transport routes \(TMS option CTC\) are recommended.
+> It's mandatory to set **CTC=1** to enable the Export Transport Control for imports into different systems and clients other than the export system and client. For more information, see [Extended Transport Control](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html).
 > 
 > TMS transport groups are supported.
+> 
+> CTS+ is not supported.
 
 > ### Caution:  
 > If you want to implement landscape changes, please note the following:

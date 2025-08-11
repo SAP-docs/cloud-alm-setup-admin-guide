@@ -2,7 +2,7 @@
 
 # Role Templates
 
-For most SAP Cloud ALM capabilites, you can use the predefined and ready-to-use role collections, which correspond to a single role template. Some areas also offer role templates without a 1:1 relationship with a role collection. Before you can use these role templates, you need to assign them to a custom role collection.
+For most SAP Cloud ALM capabilities, you can use the predefined and ready-to-use role collections, which correspond to a single role template. Some areas also offer role templates without a 1:1 relationship with a role collection. Before you can use these role templates, you need to assign them to a custom role collection.
 
 
 
@@ -132,7 +132,11 @@ Implementation
 </td>
 <td valign="top">
 
-Change feature status to *Ready for Production* 
+Change feature status to *Ready for Production*
+
+Perform transport checks
+
+Display transport check results
 
 </td>
 </tr>
@@ -156,6 +160,10 @@ Implementation
 
 Deploy transports into test systems
 
+Perform transport checks
+
+Display transport check results
+
 </td>
 </tr>
 <tr>
@@ -178,6 +186,10 @@ Implementation
 
 Deploy transports into production systems
 
+Perform transport checks
+
+Display transport check results
+
 </td>
 </tr>
 <tr>
@@ -198,7 +210,17 @@ Implementation
 </td>
 <td valign="top">
 
-Create and assign transports and transport references, and create transport of copies
+Access to *Features* app
+
+Edit features
+
+Create transports
+
+Assign or unassign transports
+
+Create transport of copies
+
+Add or remove transport references
 
 </td>
 </tr>

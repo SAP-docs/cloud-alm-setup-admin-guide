@@ -4,7 +4,7 @@
 
 # Enabling SAP Cloud ALM API
 
-To integrate certain products with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
+To integrate certain products or connect on-premise systems with SAP Cloud ALM, you need to create a service binding from the SAP Cloud ALM API instance.
 
 > ### Note:  
 > This document describes how to retrieve service credentials without Cloud Foundry.
@@ -13,7 +13,7 @@ To integrate certain products with SAP Cloud ALM, you need to create a service b
 
 
 
-<a name="loio704b5dc854f549888a238f94015e1eac__section_wpy_rnj_jmb"/>
+<a name="loio704b5dc854f549888a238f94015e1eac__section_zvy_ttj_yfc"/>
 
 ## Prerequisites
 
@@ -84,11 +84,9 @@ To consume the selected service plan, you need to create a service instance.
 
 4.  Choose *Next*.
 
-5.  \(Optional\) Add appropriate scopes to it.
+5.  \(Optional\) If you intend to enable transport management with the resulting service binding at any point in the future, we recommend already adding the relevant `cdm` scopes now.
 
-    You can find an overview of all available scopes and their use cases under [API Scopes](https://help.sap.com/viewer/fe419bfabbdc46dfbddbfd78b21483d5/latest/en-US/a111fd3cdaef4f36801eb43fff23ef20.html "") :arrow_upper_right:. We recommend including the `cdm` scopes if you intend to enable transport management with the resulting service binding at any point in the future.
-
-    To add the scopes, insert the following JSON and replace the relevant parameters with your instance name specified above and the required scopes, respectively. If you're updating an existing instance, replace `<your-instance-name>` with your instance ID \(GUID\).
+    To add the scopes, insert the following JSON. If you're updating an existing instance, replace `<your-instance-name>` with your instance ID \(GUID\).
 
     ```
     {
@@ -97,9 +95,6 @@ To consume the selected service plan, you need to create a service instance.
             "authorities": [
               "$XSMASTERAPPNAME.imp-cdm-feature-display-ui",
               "$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
-              "<Required Scope 1>",
-              "<Required Scope 2>",
-              "<Required Scope 3>"
             ],
             "oauth2-configuration": {
                 "credential-types": [
@@ -136,9 +131,9 @@ To consume the selected service plan, you need to create a service instance.
 
 
 
-<a name="loio704b5dc854f549888a238f94015e1eac__section_eb3_y5b_kbc"/>
+<a name="loio704b5dc854f549888a238f94015e1eac__section_obt_b5j_yfc"/>
 
-## Result and Next Steps
+## Result
 
 You can now see your service credentials in JSON format. They include the following information:
 
@@ -153,14 +148,6 @@ You can now see your service credentials in JSON format. They include the follow
 
 > ### Caution:  
 > Outside of the SAP BTP cockpit, service credentials must be stored securely. If you need new ones, create them directly in the SAP BTP cockpit, and access it from there whenever you need it.
-
-
-
-<a name="loio704b5dc854f549888a238f94015e1eac__section_sf3_rht_52c"/>
-
-## Need Support?
-
-If you encounter issues or need support, [schedule an expert session](https://me.sap.com/app/sae) or [create a case](https://me.sap.com/app/casecreate) on component SV-CLM-API.
 
 **Related Information**  
 

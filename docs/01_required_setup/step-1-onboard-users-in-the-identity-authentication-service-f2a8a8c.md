@@ -21,7 +21,7 @@ When you requested SAP Cloud ALM, you either selected an existing Identity Authe
 
     If you selected one of your existing productive Identity Authentication tenants, it was assigned to your SAP Cloud ALM subaccount during the provisioning and can be reused for user authentication in SAP Cloud ALM.
 
-    Your authorizations in the Identity Authentication tenant remain the same.
+    Your authorizations in the Identity Authentication tenant remain the same. If the *Main IT Contact* of SAP Cloud ALM didn't have a user in the tenant before, they were added as a member.
 
     Your pre-existing tenant may already contain identity information. If you don't need new users in the tenant, you can proceed directly to [Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md) to add these users to SAP Cloud ALM and assign roles to them. If you do want to create new users in the tenant, follow the procedure below.
 
@@ -29,7 +29,7 @@ When you requested SAP Cloud ALM, you either selected an existing Identity Authe
 
     If you didn't have a productive Identity Authentication tenant before, a new tenant was automatically created for you. This tenant was then assigned to the SAP Cloud ALM subaccount.
 
-    As the requesting user, you were made an administrator in this new tenant and received an email asking you to activate your account in the Identity Authentication service. Once activated, the tenant contains no identity information. Before SAP Cloud ALM can be used, users have to be created or imported, as described below.
+    As the *Main IT Contact*, you were made an administrator in this new tenant and received an email asking you to activate your account in the Identity Authentication service. Once activated, the tenant contains no identity information. Before SAP Cloud ALM can be used, users have to be created or imported, as described below.
 
 
 
@@ -40,11 +40,11 @@ When you requested SAP Cloud ALM, you either selected an existing Identity Authe
 
 -   Your Identity Authentication tenant has been activated.
 
-    If your Identity Authentication tenant was created when you requested SAP Cloud ALM, you've received an email with the subject **Activate Your Account for Identity Authentication Service**. Follow the steps to activate the account and create a user profile for yourself.
+    If your Identity Authentication tenant was created when your SAP Cloud ALM was requested, the *Main IT Contact* has received an email with the subject **Activate Your Account for Identity Authentication Service**.
 
 -   In your Identity Authentication tenant, you have a user with the role *Manage Users*.
 
-    If you've requested SAP Cloud ALM and a new Identity Authentication tenant was created for you, you've received this role during the creation of the tenant. If someone else requested SAP Cloud ALM or if you're using an existing Identity Authentication tenant in which you don't have this role, the tenant administrator can assign it to you by following [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/786eea2e06fa4bef84d914a7c319d74c.html).
+    If you don't have this role, the tenant administrator can assign it to you by following [Managing Administrators in Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/786eea2e06fa4bef84d914a7c319d74c.html). To find the administrator of your Identity Authentication tenant, see [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
 
 
 

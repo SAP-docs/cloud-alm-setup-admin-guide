@@ -32,7 +32,7 @@ This guide describes the steps you need to perform to set up, configure, and adm
 
 -   [Administration](administration-52d7d71.md): Find out how to efficiently administer your SAP Cloud ALM tenant.
 
--   [Troubleshooting and FAQ](troubleshooting-and-faq-737bcf7.md): Find answers to the most common questions and issues that may arise during the setup and administration of SAP Cloud ALM.
+-   [Troubleshooting and FAQ](troubleshooting-and-faq-737bcf7.md#loio737bcf73077c4ed1bc3400648a60f1a8): Find answers to the most common questions and issues that may arise during the setup and administration of SAP Cloud ALM.
 
 
 
