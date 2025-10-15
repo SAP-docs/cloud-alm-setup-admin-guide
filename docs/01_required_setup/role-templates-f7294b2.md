@@ -66,31 +66,9 @@ Name
 </th>
 <th valign="top">
 
-Description
+Actions
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
-RISE with SAP
-
-</td>
-<td valign="top">
-
-*System View* 
-
-</td>
-<td valign="top">
-
-`rdp_dashboard_ccSystemViewer` 
-
-</td>
-<td valign="top">
-
-Access to the System View dashboard \(RISE with SAP\)
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -110,7 +88,29 @@ Implementation
 </td>
 <td valign="top">
 
-Manage user stories, project tasks, requirements, test cases, defects, and quality gates
+Manage tasks, defects, quality gates, requirements, risks, and test cases
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Task Management** 
+
+</td>
+<td valign="top">
+
+`imp_tkm_TaskViewer` 
+
+</td>
+<td valign="top">
+
+View tasks, defects, quality gates, requirements, and risks
 
 </td>
 </tr>

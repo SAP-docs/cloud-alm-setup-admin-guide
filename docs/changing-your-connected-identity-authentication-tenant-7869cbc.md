@@ -33,6 +33,8 @@ Each Identity Authentication tenant is an individual repository of user accounts
 
 ## Prerequisites
 
+-   Your identity provider configuration is set up according to **State A**, as outlined in [Connected Identity Provider](https://help.sap.com/docs/cloud-alm/applicationhelp/connected-identity-provider#nicely-done).
+
 -   The Identity Authentication tenant is associated with the customer ID of the SAP Cloud ALM global account.
 
 -   The Identity Authentication tenant that you want to connect to SAP Cloud ALM is a **productive** tenant.

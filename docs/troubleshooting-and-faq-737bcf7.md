@@ -87,6 +87,20 @@ Open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) das
 <tr>
 <td valign="top">
 
+You want to know which regions \(data center locations\) are available for SAP Cloud ALM.
+
+</td>
+<td valign="top">
+
+You can find a complete list of all data centers currently available for SAP Cloud ALM under [Supported Data Centers](supported-data-centers-79af00d.md).
+
+For an overview of the data centers that are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You have questions about which region \(data center location\) to use for your SAP Cloud ALM tenant.
 
 </td>
@@ -97,8 +111,6 @@ The region that you select when requesting SAP Cloud ALM corresponds to the loca
 In SAP for Me, the optimal region is selected for you by default, based on factors such as latency and data center utilization. However, you can also make a different selection from the drop-down menu, which offers a complete list of all regions that are currently available for SAP Cloud ALM.
 
 In general, we recommend selecting a region that is close to your other main business applications, especially the ones you're planning to manage with SAP Cloud ALM for operations.
-
-For an overview of the data centers that are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
 
 </td>
 </tr>
@@ -252,6 +264,20 @@ Resolution
 <tr>
 <td valign="top">
 
+Your SAP Cloud ALM tenant URL doesn't work anymore.
+
+</td>
+<td valign="top">
+
+Contact the main IT contact of your SAP Cloud ALM tenant. They've received a new welcome email with the new URL to your SAP Cloud ALM tenant.
+
+Alternatively, you can also access your SAP Cloud ALM tenant via SAP for Me. For more information, see [Finding Your Systems on SAP for Me](finding-your-systems-on-sap-for-me-9d4aa2a.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 You want to find the welcome emails and activation emails that were sent to you when you requested SAP Cloud ALM.
 
 </td>
@@ -261,7 +287,7 @@ You want to find the welcome emails and activation emails that were sent to you 
 
 -   The *Main IT Contact* for SAP Cloud ALM has received a welcome email with the subject **Access information for SAP Cloud ALM**.
 
--   If you were added to SAP Cloud ALM by the *Main IT Contact*, you've received a welcome email with the subject **Welcome to SAP Cloud ALM**.
+-   If you were added to SAP Cloud ALM by an administrator, you've received a welcome email with the subject **Welcome to SAP Cloud ALM**.
 
 
 **Activation Emails from the Identity Authentication Service**
@@ -600,28 +626,32 @@ You want to create a large number of users for SAP Cloud ALM.
 </td>
 <td valign="top">
 
-There is no limit to the number of users that can be created for an SAP Cloud ALM system.
+There is no limit to the number of users that can be created for an SAP Cloud ALM tenant.
 
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
 You've added users in the *User Management* app in SAP Cloud ALM, but they haven't received a welcome email.
 
 </td>
 <td valign="top">
 
-The onboarding of users consists of two steps that take place in two different applications:
-
--   *User Management* in your Identity Authentication \(IAS\) tenant
-
--   *User Management* in SAP Cloud ALM
-
-
-Before you can add users in SAP Cloud ALM and assign roles to them, you need to create them in your Identity Authentication tenant.
+Make sure that the users have also been added to your Identity Authentication \(IAS\) tenant.
 
 For more information, refer to [Step 1: Onboard Users in the Identity Authentication Service](01_required_setup/step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Additional requirement for EU Access tenants**:
+
+If your SAP Cloud ALM tenant is hosted in the region `eu11` \(EU Access\), no email service is provided by the data center. Your users do not automatically receive a welcome email. You need to use your own email server that you are operating under your responsibility.
+
+Set up an SMTP mail destination named **SAP\_Business\_Notifications\_Mail** in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
 
 </td>
 </tr>

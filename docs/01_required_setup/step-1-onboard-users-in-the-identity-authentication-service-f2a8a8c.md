@@ -13,7 +13,7 @@ To give further users access to SAP Cloud ALM, you need to create or import user
 In SAP Cloud ALM, the Identity Authentication service \(IAS\) assumes the role of the identity provider. This means that business users sign in to SAP Cloud ALM with the mechanisms and credentials defined in the Identity Authentication tenant.
 
 > ### Note:  
-> You can also use an already existing corporate identity provider \(LDAP\), in which case we strongly recommend using Identity Authentication as a proxy. Changing to a corporate identity provider while already using SAP Cloud ALM productively can result in invalidated user IDs and can cause users in SAP Cloud ALM to be deactivated. For more information, see [Onboard to SAP Cloud Identity Services](https://help.sap.com/docs/btp/best-practices/onboard-to-sap-cloud-identity-services) and [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/19f3eca47db643b6aad448b5dc1075ad.html).
+> You can also use an already existing corporate identity provider \(LDAP\), in which case you need to set up Identity Authentication as a proxy. Changing to a corporate identity provider while already using SAP Cloud ALM productively can result in invalidated user IDs and can cause users in SAP Cloud ALM to be deactivated. For more information, see [Onboard to SAP Cloud Identity Services](https://help.sap.com/docs/btp/best-practices/onboard-to-sap-cloud-identity-services) and [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/19f3eca47db643b6aad448b5dc1075ad.html).
 
 When you requested SAP Cloud ALM, you either selected an existing Identity Authentication tenant or received a new one:
 

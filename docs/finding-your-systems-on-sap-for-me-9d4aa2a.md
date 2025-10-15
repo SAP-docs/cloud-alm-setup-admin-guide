@@ -10,7 +10,7 @@ When SAP Cloud ALM was provisioned, several entities were created in addition to
 
 From the *Systems* page, you can also navigate to your global account on SAP BTP and to your SAP Cloud ALM tenant:
 
-1.  Under *Public Cloud Systems on BTP*, filter by cloud service *SAP Cloud ALM*.
+1.  Under *BTP Systems*, search for *SAP Cloud ALM*.
 
 2.  You can now see two entries for SAP Cloud ALM:
 
@@ -24,9 +24,9 @@ From the *Systems* page, you can also navigate to your global account on SAP BTP
 
     ![](images/SystemsProvisioning_ee8e743.png)
 
-3.  To launch SAP Cloud ALM, click on the system number of the entry with the data center region <Region of the subaccount\>. Then choose *Launch System*.
+3.  To open SAP Cloud ALM, click on the system number of the entry with the data center region <Region of the subaccount\>. Then choose *Launch System*.
 
-4.  To launch your global account on SAP BTP, click on the GUID in the *Global Account* column. Then choose *Launch System*.
+4.  To open your global account on SAP BTP, click on the GUID in the *Global Account* column. Then choose *Launch System*.
 
 
 

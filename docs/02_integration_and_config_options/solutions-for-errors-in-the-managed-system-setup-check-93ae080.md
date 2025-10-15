@@ -54,39 +54,41 @@ Confirmation message. No action is needed.
 
 We recommend monitoring the ABAP Application Log and ABAP Job Log. This helps you to detect communication issues.
 
-1.  Register all systems configured for Change and Deployment Management via the ST-PI setup and enable Change and Deployment Management and Exception Monitoring.
+1.  You've configured the push data provider for Operations and activated the use case task *Integration Monitoring*. For more information, see [SAP NetWeaver Application Server for ABAP\(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html).
 
-2.  Check if the system is registered in Landscape Management.
+2.  Register all systems configured for Change and Deployment Management via the ST-PI setup and enable Change and Deployment Management and Exception Monitoring.
 
-3.  Open the *Integration & Exception Monitoring* app.
+3.  Check if the system is registered in Landscape Management.
 
-4.  Select a scope by choosing your systems.
+4.  Open the *Integration & Exception Monitoring* app.
 
-5.  Select *Configuration*.
+5.  Select a scope by choosing your systems.
+
+6.  Select *Configuration*.
 
     ![](images/config_b780893.png)
 
     > ### Note:  
     > Make sure that the configuration is active for your systems.
 
-6.  Enter the individual system configuration.
+7.  Enter the individual system configuration.
 
     ![](images/system_config_8dd115c.gif)
 
-7.  Set the *ABAP Application Log* and *ABAP Job Log* to active.
+8.  Set the *ABAP Application Log* and *ABAP Job Log* to active.
 
-8.  Enter the filter configuration menu.
+9.  Enter the filter configuration menu.
 
-9.  For the ABAP Application Log, enter the following filters:
+10. For the ABAP Application Log, enter the following filters:
 
     -   *object*: /SDF/CALM
     -   *subobject*: BUILD\_CDM
 
-10. For the ABAP Job Log, enter a *Batch-User* filter with the user you used for configuring the batch job.
+11. For the ABAP Job Log, enter a *Batch-User* filter with the user you used for configuring the batch job.
 
-11. You can also specify the filters in more detail if needed.
+12. You can also specify the filters in more detail if needed.
 
-12. Ensure that the monitoring entry *Active* and overall system entry *Data Collection* switches are set *ON*.
+13. Ensure that the monitoring entry *Active* and overall system entry *Data Collection* switches are set *ON*.
 
 
 For more general information about monitoring and creating alerts, see [Monitoring Configuration](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/int-mon-setup-support.html?anchorId=section_1683886374_c).
@@ -1306,7 +1308,7 @@ RFC configuration is missing in view &1 for transport checks
 </td>
 <td valign="top" rowspan="6">
 
-Configured RFC isn't working properly, see SAP Note [3447901](https://me.sap.com/notes/3447901) to solve the error.
+Configured RFC isn't working properly, see [Setting up Transport Checks for Import Checks](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_a1d_qyp_rfc) to solve the error.
 
 </td>
 </tr>

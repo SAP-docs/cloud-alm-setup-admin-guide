@@ -178,7 +178,7 @@ Files in this repository are automatically managed as follows:
 -   The `cmis:name` only contains a technical ID. The real file name is stored in the property `cmis:contentStreamFileName`.
 -   SAP Cloud ALM doesn't replicate any additional metadata, for example, the extension field `sap:owner` and other extension fields aren't filled.
 -   With every upload of an external file, SAP Cloud ALM creates a new major version in SAP BTP DMS: 1.0, 2.0, … X.0. No minor versions are created.
--   The maximum size for files to upload is 10 MB.
+-   The maximum size for files to upload is 120 MB.
 -   Which file types are supported, you can see in [External Files](https://help.sap.com/docs/cloud-alm/applicationhelp/external-files).
 
 

@@ -233,7 +233,7 @@ Please download the latest version of the roles from SAP Note [3054258](https://
 > 
 > -   You can request user `CUST_TC` for client 000. This user is authorized to run the setup transaction.
 > 
-> -   `BATCH_USER` is always available in the managed system and doesn't expire. You can also specifiy it as background user.
+> -   `BATCH_USER` is always available in the managed system and doesn't expire. You can also specify it as background user.
 
 You can also check the prerequisites for each managed system on the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html):
 
@@ -372,7 +372,7 @@ For each system you're using, you have to activate different tasks. For example,
 client 000: activate *Transports: Import*. You have to activate this task in all systems you want to import to as this triggers the import job `/SDF/CALM_CDM_IMPORT_TRANSPORTS`. This queries to-be-imported transports from SAP Cloud ALM and imports them.
 
 > ### Note:  
-> Target tenants include quality assurance, pre-production, and production systems from a system group, which are assigned to the project via the deployment plan. The deployment is performed using the landscape defined in TMS, not the one defined in the System Groups. If your working client isn't available in LMS we recommend to activate the use case Health Monitoring in the needed working clients since they're part of the transport landscape and should be monitored. This is relevant for clients where you haven’t run transaction `/sdf/alm_setup` as these clients aren’t monitored and registered in Landscape Management.
+> Target systems include quality assurance, pre-production, and production systems from a system group, which are assigned to the project via the deployment plan. The deployment is performed using the landscape defined in TMS, not the one defined in the system groups. If your working client isn't available in LMS we recommend to activate the use case Health Monitoring in the needed working clients since they're part of the transport landscape and should be monitored. This is relevant for clients where you haven’t run transaction `/sdf/alm_setup` as these clients aren’t monitored and registered in Landscape Management.
 
 *PRD*
 
@@ -389,15 +389,15 @@ client 000: activate the following tasks:
     -   TMS transport groups are supported
 
 
--   *Transports: Check* This enables the *Transport Check* functionality to check a transport set before import to evaluate the impact on your production tenant.
+-   *Transports: Check* This enables the *Transport Check* functionality to check a transport set before import to evaluate the impact on your production system.
 
     To activate this task, you need to have installed at least ST-PI 740 SP 27 and implemented the latest versions of SAP Notes [3497169](https://me.sap.com/notes/3497169) and [3497168](https://me.sap.com/notes/3497168).
 
-    For more information, see [Transport Checks](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/2ae5a1bf1b6f4d46a38b11f6c6792425.html "With the Transport Checks, you can check a CTS-managed transport set to evaluate the impact on your production tenant. Transport checks can be performed based on a feature which defines the set of CTS-managed transports.") :arrow_upper_right:.
+    For more information, see [Transport Checks](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/2ae5a1bf1b6f4d46a38b11f6c6792425.html "With the Transport Checks, you can check a CTS-managed transport set to evaluate the impact on your production system. Transport checks can be performed based on a feature which defines the set of CTS-managed transports.") :arrow_upper_right:.
 
 
 > ### Note:  
-> Target tenants include quality assurance, pre-production, and production systems from a system group, which are assigned to the project via the deployment plan. The deployment is performed using the landscape defined in TMS, not the one defined in the System Groups. If your working client isn't available in LMS we recommend to activate the use case Health Monitoring in the needed working clients since they're part of the transport landscape and should be monitored. This is relevant for clients where you haven’t run transaction `/sdf/alm_setup` as these clients aren’t monitored and registered in Landscape Management.
+> Target systems include quality assurance, pre-production, and production systems from a system group, which are assigned to the project via the deployment plan. The deployment is performed using the landscape defined in TMS, not the one defined in the system groups. If your working client isn't available in LMS we recommend to activate the use case Health Monitoring in the needed working clients since they're part of the transport landscape and should be monitored. This is relevant for clients where you haven’t run transaction `/sdf/alm_setup` as these clients aren’t monitored and registered in Landscape Management.
 
 > ### Note:  
 > For your test or productive landscape, set the collection interval to 1 min for these tasks if you want a quicker reaction to your testing of creating transport request, transport of copies, and triggering the deploy in the features.
@@ -426,62 +426,106 @@ In case several features are deployed together, all assigned transports are impo
 
 
 
+<a name="loio21e0843b2009480282487a08044f3f34__section_jwc_5f1_xgc"/>
+
+## Recommended: Monitoring ABAP Application Log and ABAP Job Log
+
+We recommend monitoring the ABAP Application Log and ABAP Job Log. This helps you to detect communication issues.
+
+1.  You've configured the push data provider for Operations and activated the use case task *Integration Monitoring*. For more information, see [SAP NetWeaver Application Server for ABAP\(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html).
+
+2.  Register all systems configured for Change and Deployment Management via the ST-PI setup and enable Change and Deployment Management and Exception Monitoring.
+
+3.  Check if the system is registered in Landscape Management.
+
+4.  Open the *Integration & Exception Monitoring* app.
+
+5.  Select a scope by choosing your systems.
+
+6.  Select *Configuration*.
+
+    ![](images/config_b780893.png)
+
+    > ### Note:  
+    > Make sure that the configuration is active for your systems.
+
+7.  Enter the individual system configuration.
+
+    ![](images/system_config_8dd115c.gif)
+
+8.  Set the *ABAP Application Log* and *ABAP Job Log* to active.
+
+9.  Enter the filter configuration menu.
+
+10. For the ABAP Application Log, enter the following filters:
+
+    -   *object*: /SDF/CALM
+    -   *subobject*: BUILD\_CDM
+
+11. For the ABAP Job Log, enter a *Batch-User* filter with the user you used for configuring the batch job.
+
+12. You can also specify the filters in more detail if needed.
+
+13. Ensure that the monitoring entry *Active* and overall system entry *Data Collection* switches are set *ON*.
+
+
+For more general information about monitoring and creating alerts, see [Monitoring Configuration](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/int-mon-setup-support.html?anchorId=section_1683886374_c).
+
+
+
 <a name="loio21e0843b2009480282487a08044f3f34__section_a1d_qyp_rfc"/>
 
 ## Setting up Transport Checks for Import Checks
 
 This section is only relevant if you want to use transport checks.
 
-1.  In the *Features* app, you get the required information to create a dedicated RFC destination for transport checks:
+> ### Note:  
+> You can only perform transport checks for production systems and ABAP systems with CTC = 1 configuration.
 
-    -   `PRDSYS`: Production Tenant \(production system with client\)
+You have to create an RFC connection from your production system to your source system to use import checks. This is required as the transport checks are performed on your production system and read transport and object data from your source system.
 
-    -   `SOUSYS`: Source Tenant \(development system with client\)
+1.  Create or update a system user to establish an RFC connection from your production system to your source system. You can add the required authorizations, mentioned in SAP Note [2475591](https://me.sap.com/notes/2475591), to your own role or use the `SAP_SDF_ALM_TRCHK.SAP` role template.
 
-2.  Provide RFC connections from your <PRDSYS\> to your <SOUSYS\>. You can use the RFC authorization or the system user with the template role `SAP_SDF_ALM_TRCHK.SAP` of SAP Note [2475591](https://me.sap.com/notes/2475591).
+    1.  Download the `SAP_SDF_ALM_TRCHK.SAP` role template from the *Attachments* tab of SAP Note [2475591](https://me.sap.com/notes/2475591).
 
-    Follow these steps to create or update the role:
-
-    1.  Download the `SAP_SDF_ALM_TRCHK.SAP` role from the *Attachments* tab of SAP Note [2475591](https://me.sap.com/notes/2475591).
-
-    2.  Upload the `SAP_SDF_ALM_TRCHK.SAP` role in `SOUSYS`. Run transaction `PFCG`, then select *Role* \> *Upload* \> *Choose file SAP\_SDF\_ALM\_TRCHK.SAP*.
+    2.  In your source system, run transaction `PFCG` to upload the role template. Select *Role* \> *Upload* and choose the `SAP_SDF_ALM_TRCHK.SAP` role template.
 
         > ### Note:  
         > If you receive a message that roles already exist in the system, select *Transport* \> *Change* \> *Authorizations* \> *Change Authorization Data* \> *Generate* to overwrite the existing data.
 
+    3.  In your source system, run transaction `SU01` to assign the role template to a user. You can use an existing RFC communication user or create a new one.
 
-3.  Assign the role to a user in `SOUSYS` with transaction `SU01`. You can also create a new RFC communication user.
 
-4.  Create an RFC destination in `PRDSYS`:
+2.  In your production system, run transaction `SM59` to create an RFC destination:
 
-    1.  Run transaction `SM59` and choose *Create*.
+    1.  Choose *Create*.
 
-    2.  Enter the destination name as `RFC` and choose connection type *3 RFC Connection to ABAP System*.
+    2.  Enter a destination name for the RFC and choose connection type *3 RFC Connection to ABAP System*.
 
-    3.  On the *Technical Settings* tab, enter your source system host in *Target Host*. You can find your host value via right-click on `SOUSYS` on SAPLogin. Then select *Properties* to see the value in *Message Server*.
+    3.  On the *Technical Settings* tab, enter your source system host in *Target Host*.
 
-    4.  On the *Logon & Security* tab, enter the RFC communication user you assigned with role `SAP_SDF_ALM_TRCHK.SAP` in *User* and enter the source system client in *Client*. Then select *Save*.
+    4.  On the *Logon & Security* tab, in the *User* field, enter the RFC communication user with the `SAP_SDF_ALM_TRCHK.SAP` role template. In the *Client* field, enter the client of your source system.
 
     5.  On the *Logon & Security* tab, select *Hide if logon error* for SAPGUI logon screen.
 
     6.  Perform a connection and authorization test via *Utilities* \> *Test*.
 
 
-5.  Maintain your RFC destination in customizing table `/SDF/CMO_TARGET` in the `PRDSYS` client 000:
+3.  In client 000 of your production system, maintain your RFC destination in customizing table `/SDF/CMO_TARGET`:
 
-    1.  Run transaction `/nSM30`.
+    1.  Run transaction `SM30`.
 
     2.  Enter table name `/SDF/CMO_TARGET` and choose *Edit*.
 
     3.  Select *New Entries*.
 
-    4.  Assign the source tenant SID `SOUSYS` without client to the *Target* field and the RFC destination to the *RFC Destination* field.
-
-    5.  Save your configuration.
+    4.  Enter your source system without client in the *Target* field and your RFC destination in the *RFC Destination* field.
 
 
+4.  On your production system in client 000, activate the use case task *Transports: Check*. For more information, see [Activating the Use Case Transports](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_otj_mgq_mdc).
 
-You can use the RFC destination for the same tenant across different clients. If you’re using different clients of the same source tenant, creating just one entry for one client is enough in this case. Please remember that the transport check doesn’t support different source tenants \(with clients\) pointing to the same target tenant.
+
+You can use the RFC destination for the same system across different clients as the RFC destination is client independent. If you’re using different clients of the same source system, creating just one entry for one client is enough in this case. Please remember that the transport check doesn’t support different source systems \(with clients\) pointing to the same target system.
 
 
 

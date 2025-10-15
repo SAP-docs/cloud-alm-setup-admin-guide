@@ -31,6 +31,9 @@ You have two options for sending email notifications:
 
     For this case, you need to set up an SMTP mail destination in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination). If that destination is configured, then the notification emails will only be sent via your own email server.
 
+    > ### Note:  
+    > You need to set up the Custom SMTP Destination Name as **SAP\_Business\_Notifications\_Mail**to receive the notifications emails from your custom SMTP destination server.
+
 
 
 

@@ -52,7 +52,12 @@ Process Management
 </td>
 <td valign="top">
 
-SAP Utilities Core Intelligent Meter-to-Cash
+-   Automotive JIT Integration with Logistics Component Groups
+
+-   SAP Utilities Core Intelligent Meter-to-Cash
+
+
+
 
 </td>
 </tr>
@@ -98,8 +103,6 @@ Process Management
 
 SAP Best Practices for analytics with SAP S/4HANA Cloud Private Edition
 
-More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
-
 </td>
 </tr>
 <tr>
@@ -127,7 +130,7 @@ Process Management
 -   SAP Best Practices for SAP S/4HANA Cloud Public Edition, Public Sector
 
 
-More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
+
 
 </td>
 </tr>
@@ -168,7 +171,7 @@ Process Management
 -   SAP Business Network for Supply Chain
 
 
-More under [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
+
 
 </td>
 </tr>
@@ -233,7 +236,7 @@ Process Management
 -   SAP SFSF Workforce Planning
 
 
-More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\) and [Business Process Content in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/implementation/sap-cloud-alm-implementation-expert-portal/process-scoping.html#panel-section-accordion-accordionitem_232501699-body) \(Expert Portal\).
+More under [SAP SuccessFactors Process Library](https://community.successfactors.com/t5/SAP-SuccessFactors-Process/ct-p/ProcessLibrary) \(S-user required\).
 
 </td>
 </tr>
@@ -429,6 +432,7 @@ Process Management
 </td>
 <td valign="top">
 
+-   Model Company for Fashion and Vertical Business
 -   SAP Services Content for Airline Backoffice
 
 -   SAP Services Content for Automotive
@@ -447,6 +451,9 @@ Process Management
 
 -   SAP Services Content for R&D/Engineering and Sustainability
 
+
+> ### Note:  
+> In the SAP Signavio Process Navigator, the scenarios listed above have been renamed to “Model Company for...”. These new names will only be visible in SAP Cloud ALMonce the next available versions are published.
 
 
 
@@ -470,7 +477,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for RISE with SAP S/4HANA Cloud Private Edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – Implementation and System Conversion 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -492,22 +499,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task templates:
-
--   [SAP Activate for SAP S/4HANA Cloud Public Edition \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/82b2db84548d41209cda972f0fac428b) – Implementation
-
--   [SAP Activate for Upgrade of SAP S/4HANA Cloud Public Edition, 3-system landscape](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/b6cc8dc5bbb749a59e1e21a4796c796f) – Upgrade
-
--   [Baseline Activation Service for SAP S/4HANA Cloud \(3-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/d9ffcd6438ab4ee9a02bfcf682502892)
-
--   [SAP Activate for SAP S/4HANA Cloud Public Edition \(3-system landscape\) - Early Adopters](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/0894b61141a74a65b8da92db32685da5)
-
--   [SAP Activate for SAP S/4HANA Cloud Public Edition \(2-system landscape\)](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPS4HANACLDENMGMT) – Implementation
-
--   [SAP Activate for Conversion of SAP S/4HANA Cloud Public Edition 2-system to 3-system landscape](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/91d1bd3eb586432699e2a9912e8b708f)
-
-
-
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -529,18 +521,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task templates:
-
--   [SAP Activate Methodology for Transition to SAP S/4HANA](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/S4HANATRANSONPRE) 
-
--   [SAP Activate Methodology for RISE with SAP S/4HANA Cloud Private Edition](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a11ec6d657054bf9) – New Implementation, System Conversion, and Selective Data Transition
-
--   [SAP Activate Methodology for SAP S/4HANA Upgrades](https://go.support.sap.com/roadmapviewer/#/group/1B9D1B79-D03B-42F6-937C-08DE7C252BB6/roadmapOverviewPage/MATS4HANA) – Technical Upgrade and Upgrade and Product Integration
-
--   [SAP Activate methodology for S/4HANA Central Finance](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/S4HANACFIN)
-
-
-
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -562,7 +543,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP SuccessFactors](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHCLDSF) – Implementation 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -584,7 +565,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task templates: [SAP Activate Methodology for SAP Sales Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/21471841d1684e148c7193ad39c6bf54)[SAP Activate Methodology for SAP Service Cloud Roadmap](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/IMPHYBRISC4C) 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -606,7 +587,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for the Intelligent Enterprise](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/3f599fdbad8546d6) – Implementation 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -628,7 +609,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Ariba](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/METHSAPARIBA) – Implementation 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -650,7 +631,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Fieldglass](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/68834e2da72e4404b1efc4d0f533eb32) – Implementation 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -672,7 +653,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Concur](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/16ac619c5b1e442e8b1b5d01fd3bd38f) 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -694,7 +675,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate for SAP Integrated Business Planning for Supply Chain](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/a86c071e2b9143e7a3345213106b4dea) – Implementation 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -716,7 +697,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Analytics Cloud](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/53f16d03e7274d49) 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -738,7 +719,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Datasphere](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/roadmapOverviewPage/e1fe45d654ef42e2aed42c8d13aca4d5) 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -760,7 +741,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for Transition to SAP BW/4HANA](https://go.support.sap.com/roadmapviewer/#/group/AAE80671-5087-430B-9AA7-8FBE881CF548/roadmapOverviewPage/BWHANATRANSONPRE) 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -782,7 +763,7 @@ Task Management
 </td>
 <td valign="top">
 
-Task template: [SAP Activate Methodology for SAP Business Technology Platform](https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F1E40F/phaseAccelerator/56a072afc5fe4cf5a3a8d2cdb0b75c53) 
+Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roadmapviewer](https://me.sap.com/roadmapviewer).
 
 </td>
 </tr>
@@ -3213,7 +3194,95 @@ More under [Integration and Exception Monitoring](https://support.sap.com/en/alm
 <tr>
 <td valign="top">
 
+SAP Integration Suite, managed gateway for spend management and SAP Business Network
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Sales Cloud and SAP Service Cloud Version 2
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Agriculture
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Process Automation
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration and Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Omnichannel Sales Transfer and Audit
 
 </td>
 <td valign="top">
@@ -3352,6 +3421,30 @@ More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap
 <tr>
 <td valign="top">
 
+SAP SuccessFactors Payroll 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+Supported KPIs for the business scenario *Recruit to Retire*
+
+More under [Business Process Monitoring KPIs](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/business-process-monitoring/bpmon-content.html#section_232382677_co) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Private Edition 
 
 </td>
@@ -3448,7 +3541,7 @@ Business Process Monitoring
 
 Custom KPIs
 
-More under [Custom KPIs](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/ebd1a39f66bf4780905ffd576435ea03.html "In addition to the predefined standard KPIs provided out of the box by business process monitoring, you can create up to 15 custom KPIs.") :arrow_upper_right:.
+More under [Setting Up Custom KPIs](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/ebd1a39f66bf4780905ffd576435ea03.html "In addition to the predefined standard KPIs provided out of the box by business process monitoring, you can create up to 15 custom KPIs.") :arrow_upper_right:.
 
 </td>
 </tr>
@@ -4335,6 +4428,28 @@ More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cl
 <tr>
 <td valign="top">
 
+SAP Datasphere
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Job and Automation Monitoring
+
+</td>
+<td valign="top">
+
+More under [Job and Automation Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP BTP, Neo environment
 
 </td>
@@ -5039,6 +5154,72 @@ More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/o
 <tr>
 <td valign="top">
 
+SAP Business Network Supply Chain Collaboration, clinical trials add-on
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Digital Currency Hub
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Agriculture
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring.html) \(Expert Portal\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Suite 7
 
 </td>
@@ -5325,7 +5506,7 @@ More under [Configuration and Security Analysis](https://support.sap.com/en/alm/
 <tr>
 <td valign="top">
 
-SAP Destination service 
+SAP SuccessFactors Incentive Management 
 
 </td>
 <td valign="top">
@@ -5347,7 +5528,7 @@ More under [Configuration and Security Analysis](https://support.sap.com/en/alm/
 <tr>
 <td valign="top">
 
-SAP SuccessFactors Incentive Management 
+SAP SuccessFactors Agent Connection
 
 </td>
 <td valign="top">

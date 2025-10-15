@@ -58,5 +58,5 @@ Other services types \(such as *SAP SuccessFactors* and *SAP S/4HANA Cloud*\) ar
 
 ## Case 3: Manual Creation
 
-Only some service types \(for example, *Unspecific Cloud Service \(HTTP\)* or *Managed Gateway for Spend & Network*\) must be added to the *Landscape Management* app manually.
+Only some service types \(for example, *Unspecific Cloud Service \(HTTP\)* or *Managed Gateway for Spend&Network*\) must be added to the *Landscape Management* app manually.
 

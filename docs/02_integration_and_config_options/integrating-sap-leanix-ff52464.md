@@ -32,10 +32,14 @@ If you don't have this role, the global account administrator can assign it to y
 
 ### Create an Instance
 
+To consume the SAP Cloud ALM API, you need to create a service instance for the SAP Cloud ALM tenant in the SAP BTP cockpit.
+
+If you have several subaccounts under your global account, you need to know under which subaccount your SAP Cloud ALM has been provisioned. You can find this information in the *Landscape Management* app of SAP Cloud ALM: Add SAP Cloud ALM to the scope, go to *Systems and Services*, and check the *Details* view for your SAP Cloud ALM tenant:
+
+![](images/Cloud_ALM_-_find_subaccount_in_Landscape_Management_7e2b8d7.png)
+
 > ### Caution:  
 > Make sure that you create a new API instance and **do not update an existing instance**. Updating an existing instance can interfere with the connection between managed systems and SAP Cloud ALM, as they also use a service key.
-
-To consume the SAP Cloud ALM API, you need to create a service instance for the SAP Cloud ALM tenant in the SAP BTP cockpit:
 
 1.  In the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/) from *Account Explorer*, select the global account that contains your SAP Cloud ALM entitlement and open the subaccount that contains your SAP Cloud ALM subscription.
 2.  Choose *Services* \> *Instances and Subscriptions*.

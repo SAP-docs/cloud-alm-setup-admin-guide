@@ -8,7 +8,7 @@
 
 ## Issues and Solutions
 
-In this document, you can find answers to some of the most common questions and issues that may arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\).
+In this document, you find answers to some of the most common questions and issues that could arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\).
 
 ****
 
@@ -43,16 +43,16 @@ Go to the managed system:
 
     If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
 
-2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source tenant \(working client shouldn't be 000\).
+2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source system \(working client shouldn't be 000\).
 
-3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source tenant.
+3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source system.
 
 4.  Check if the job` /SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
 
 In SAP Cloud ALM check the following:
 
-Source tenant is in the system group and is assigned to the project through the deployment plan.
+Source system is in the system group and is assigned to the project through the deployment plan.
 
 </td>
 </tr>
@@ -68,9 +68,9 @@ Go to the managed system:
 
 1.  Check if the service key is missing the auth scopes.
 
-2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source tenant \(working client shouldn't be 000\).
+2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source system \(working client shouldn't be 000\).
 
-3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source tenant.
+3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source system.
 
 4.  Check if the job `/SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
@@ -91,9 +91,9 @@ Go to the managed system:
 
 1.  Check if the service key is missing auth scopes.
 
-2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source tenant\(working client shouldn't be 000\).
+2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source system\(working client shouldn't be 000\).
 
-3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released / and is running frequently in the source tenant.
+3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released / and is running frequently in the source system.
 
 4.  Check if the job `/SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
@@ -215,7 +215,7 @@ You can customize the minimum percentage in cross-client table `/SDF/CDM_PARAM` 
 
 ![](images/percentage_d681a48.png)
 
-For example, you set the minimum percentage to 50%. When you start a transport check, the current percentage of free work process is compared to the minimum percentage of 50%. Only if 50% or more free work process is available, the job is scheduled immeditaley. If there's less free work process available, the job will start as soon as free work process is available.
+For example, you set the minimum percentage to 50%. When you start a transport check, the current percentage of free work process is compared to the minimum percentage of 50%. Only if 50% or more free work process is available, the job is scheduled immediately. If there's less free work process available, the job will start as soon as free work process is available.
 
 > ### Note:  
 > In case of no free work process, the system performs 3 retires. The job is canceled if there's still no free work process after the retries.

@@ -31,6 +31,10 @@ To assign role templates to users, first create a role collection and add the ro
 
 -   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
 
+-   Only relevant for EU Access: You've set up an SMTP mail destination named **SAP\_Business\_Notifications\_Mail** in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
+
+    Context: If your SAP Cloud ALM tenant is hosted in the region `eu11` \(EU Access\), no email service is provided by the data center. You need to use your own email server that you are operating under your responsibility, or your users won't receive a welcome email after they've been created.
+
 
 
 
@@ -128,7 +132,7 @@ To assign role templates to users, first create a role collection and add the ro
     
 7.  Assign one or multiple roles to the user.
 
-    For an overview of all predefined role collections that are available in SAP Cloud ALM, refer to [Role Collections](role-collections-e1915af.md).
+    For an overview of all predefined role collections that are available in SAP Cloud ALM, refer to [Role Collections](roles-e1915af.md).
 
 8.  Save your settings.
 
@@ -199,9 +203,8 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 8.  If you want the added users to receive updates regarding SAP Cloud ALM and your other SAP cloud services, for example, about planned and unplanned downtimes and other customer communications, consider signing them up for cloud availability notifications. For more information, refer to KBA [2900069](https://me.sap.com/notes/2900069).
 
 
--   **[Role Collections](role-collections-e1915af.md "Role collections in SAP Cloud ALM are delivered predefined and ready to
-		use.")**  
-Role collections in SAP Cloud ALM are delivered predefined and ready to use.
+-   **[Roles](roles-e1915af.md "Roles in SAP Cloud ALM are delivered predefined and ready to use.")**  
+Roles in SAP Cloud ALM are delivered predefined and ready to use.
 -   **[Role Templates](role-templates-f7294b2.md "For most SAP Cloud ALM capabilities, you can use the predefined and ready-to-use role
 		collections, which correspond to a single role template. Some areas also offer role
 		templates without a 1:1 relationship with a role collection. Before you can use these role

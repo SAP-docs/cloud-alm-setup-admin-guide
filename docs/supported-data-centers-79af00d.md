@@ -35,7 +35,7 @@ Australia: Sydney
 </td>
 <td valign="top">
 
-Australia \(Sydney\) – `cf-ap10`
+Australia \(Sydney\) – `cf-ap10` 
 
 </td>
 <td valign="top">
@@ -52,7 +52,7 @@ Canada: Central
 </td>
 <td valign="top">
 
-Canada \(Montreal\) – `cf-ca10`
+Canada \(Montreal\) – `cf-ca10` 
 
 </td>
 <td valign="top">
@@ -69,7 +69,7 @@ Germany: Frankfurt
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\) – `cf-eu10`
+Europe \(Frankfurt\) – `cf-eu10` 
 
 </td>
 <td valign="top">
@@ -86,7 +86,7 @@ Germany: Frankfurt \(EU Access\)
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\) EU Access – `cf-eu11`
+Europe \(Frankfurt\) EU Access – `cf-eu11` 
 
 </td>
 <td valign="top">
@@ -105,7 +105,7 @@ Japan: Tokyo
 </td>
 <td valign="top">
 
-Japan \(Tokyo\) – `cf-jp10`
+Japan \(Tokyo\) – `cf-jp10` 
 
 </td>
 <td valign="top">
@@ -122,7 +122,7 @@ USA: N. Virginia
 </td>
 <td valign="top">
 
-US East \(VA\) – `cf-us10`
+US East \(VA\) – `cf-us10` 
 
 </td>
 <td valign="top">
@@ -137,4 +137,14 @@ To find out which data center locations are planned in the future, see [SAP Clou
 
 > ### Note:  
 > It's currently not possible to move your SAP Cloud ALM tenant from the data center in which it was originally provisioned to a different data center. However, if you're willing to accept loss of data, you can dismantle and resubscribe SAP Cloud ALM in a different data center by following the steps described in KBA [3352417](https://me.sap.com/notes/3352417).
+
+-   **[Region-Specific IP Address Ranges](region-specific-ip-address-ranges-dc1085a.md "To ensure successful connectivity between SAP Cloud ALM and your services and systems,
+		your network and firewall configurations must allow access to the IP addresses that SAP
+		Cloud ALM uses in your region.")**  
+To ensure successful connectivity between SAP Cloud ALM and your services and systems, your network and firewall configurations must allow access to the IP addresses that SAP Cloud ALM uses in your region.
+
+**Related Information**  
+
+
+[Data Center Locations – SAP Trust Center](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842)
 

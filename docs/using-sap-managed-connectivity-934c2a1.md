@@ -4,7 +4,7 @@
 
 The integration between SAP Cloud ALM and several SAP cloud services is orchestrated by SAP-Managed Connectivity.
 
-This uses the [OpenTelemetry](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/data-collection-infrastructure.html?anchorId=section)\(OTEL\)-based Data collection infrastructure to report monitoring data to SAP Cloud ALM. It is mandatory for you to give consent for the data exchange by activating monitoring in the respective monitoring application.
+This uses [OpenTelemetry](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/data-collection-infrastructure.html?anchorId=section)\(OTEL\). Next Generation-based Data Collection Infrastructure \(NG-DCI\) to report monitoring data to SAP Cloud ALM. It is mandatory for you to give consent for the data exchange by activating monitoring in the respective monitoring application.
 
 
 
@@ -12,34 +12,72 @@ This uses the [OpenTelemetry](https://support.sap.com/en/alm/sap-cloud-alm/opera
 
 ## SAP-Managed Connectivity
 
-SAP-Managed Connectivity provides an automated connectivity setup and minimizes the latency. Data collection instrumentation takes care to implicitly connect the managed cloud data center to the nearest SAP Cloud ALM data center when routing the data to your customer SAP Cloud ALM tenant. The data is only routed through and not stored in the transit data centers. This sort of data transfer from one managed cloud data center to the target SAP Cloud ALM data center is a data transfer across data-centers and might cross regional borders.
+SAP-Managed Connectivity provides an automated connectivity setup and minimizes latency.
+
+Data Collection Instrumentation connects the managed cloud data-center to the nearest SAP Cloud ALM data-center using the information in **Next Generation - Data Collection Infrastructure \(NG-DCI\)** to route the data to your customer SAP Cloud ALM tenant. To fetch this information, an initial communication is made to data collection infrastructure in SAP Cloud ALM **EU10** data-center.
+
+Once the nearest SAP Cloud ALM data-center information is fetched, actual data routing calls are performed as mentioned in the table below. The data is only routed through and not stored in the transit data-centers. This sort of data transfer from one managed cloud data-center to the target SAP Cloud ALM data-center is a data transfer across data-centers and might cross regional borders.
 
 > ### Note:  
-> The data transfer from the managed cloud is enabled once you provide consent by turning on the data collection for that tenant in the SAP Cloud ALM tenant.
+> The data transfer from the managed cloud is enabled once you provide consent, that is, when you turn on the data collection for that tenant in the SAP Cloud ALM tenant.
 
 > ### Caution:  
-> Cyber security laws are different for each region. Even if your data is transient in nature, the local laws and regulations of the regional data center must be obliged. Before you give your consent, please consult with your legal advisor.
+> Cyber security laws are different for each region. Even if your data is transient in nature, the local laws and regulations of the regional data-center must be obliged. Before you give your consent, please consult with your legal advisory.
 
-*For example:* If the customer’s data center is in CA10 and data collection is enabled in EU10, the data is first routed to US10 \(nearest to CA10\) and then routed to EU10. If EU10 is temporarily not available, then the data is routed to an alternate data center and rerouted back when it is available. In this case it is EU20.![](images/Data_connectivity_68f6a07.png)
+*For example:* If the customer’s data-center is in CA10 and data collection is enabled in EU10, the data is first routed to US10 \(nearest to CA10\) and then routed to EU10. If EU10 is temporarily not available, then the data is routed to an alternate data-center and rerouted back when it is available. In this case it is EU20.![](images/SMC_4f07cb5.jpg)
 
-The below table provides an index of the managed cloud service data centers, the connected SAP Cloud ALM data center for data routing, and the alternative data centers for a fallback option. The alternative data center for resilience fallback option is for scenarios in which the connected SAP Cloud ALM data center for data routing is temporarily not available. Please note that this list is subjected to changes as data-centers are added.
+The below table provides an index of the managed cloud service data-centers, the connected SAP Cloud ALM data-center for data routing, and the alternative data-centers for a fallback option. The alternative data-center for resilience fallback option is for scenarios in which the connected SAP Cloud ALM data-center for data routing is temporarily not available. Please note that this list is subjected to changes as data-centers are added.
 
 
 <table>
 <tr>
 <td valign="top">
 
-Managed Cloud Service Data Center \(Source\)\*
+Managed Cloud Service Data-Center \(Source\)\*
 
 </td>
 <td valign="top">
 
-Connected SAP Cloud ALM Data Center for Data Routing
+Connected SAP Cloud ALM Data-Center for Data Routing
 
 </td>
 <td valign="top">
 
-Alternative Data Center for Resilience Fallback Option
+Alternative Data-Center for Resilience Fallback Option
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AB3
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AM7
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
 
 </td>
 </tr>
@@ -56,7 +94,7 @@ AP10
 </td>
 <td valign="top">
 
-JP10
+EU20
 
 </td>
 </tr>
@@ -73,7 +111,7 @@ AP10
 </td>
 <td valign="top">
 
-JP10
+EU20
 
 </td>
 </tr>
@@ -90,7 +128,7 @@ AP10
 </td>
 <td valign="top">
 
-JP10
+EU20
 
 </td>
 </tr>
@@ -107,7 +145,7 @@ AP10
 </td>
 <td valign="top">
 
-JP10
+EU20
 
 </td>
 </tr>
@@ -124,7 +162,24 @@ AP10
 </td>
 <td valign="top">
 
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AP30
+
+</td>
+<td valign="top">
+
 JP10
+
+</td>
+<td valign="top">
+
+EU20
 
 </td>
 </tr>
@@ -165,12 +220,63 @@ EU20
 <tr>
 <td valign="top">
 
+CCC
+
+</td>
+<td valign="top">
+
+CN40
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCE
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CH20
 
 </td>
 <td valign="top">
 
 EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CN20-Canary
+
+</td>
+<td valign="top">
+
+EU12
 
 </td>
 <td valign="top">
@@ -199,7 +305,228 @@ EU10
 <tr>
 <td valign="top">
 
+CN40-Canary
+
+</td>
+<td valign="top">
+
+EU12
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CS1
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+D10
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+D11
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+D17
+
+</td>
+<td valign="top">
+
+CA10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DB1
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
 EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DC4
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU1
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU01-Canary
+
+</td>
+<td valign="top">
+
+EU12
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10-Canary
+
+</td>
+<td valign="top">
+
+EU12
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10-001
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10-002
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10-003
 
 </td>
 <td valign="top">
@@ -233,9 +560,21 @@ EU20
 <tr>
 <td valign="top">
 
-EU11
+EU10-005
 
 </td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 EU11
@@ -243,7 +582,12 @@ EU11
 </td>
 <td valign="top">
 
-EU11
+EU10
+
+</td>
+<td valign="top">
+
+EU20
 
 </td>
 </tr>
@@ -256,6 +600,57 @@ EU12
 <td valign="top">
 
 EU12
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU12-001
+
+</td>
+<td valign="top">
+
+EU12
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU12-002
+
+</td>
+<td valign="top">
+
+EU12
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU20
 
 </td>
 <td valign="top">
@@ -267,7 +662,24 @@ EU10
 <tr>
 <td valign="top">
 
+EU20-001
+
+</td>
+<td valign="top">
+
 EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU21
 
 </td>
 <td valign="top">
@@ -301,6 +713,40 @@ EU10
 <tr>
 <td valign="top">
 
+FR4
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IL30
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 IN30
 
 </td>
@@ -328,7 +774,7 @@ JP10
 </td>
 <td valign="top">
 
-AP10
+EU20
 
 </td>
 </tr>
@@ -345,7 +791,41 @@ JP10
 </td>
 <td valign="top">
 
-AP10
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+JP30
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RI1
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
 
 </td>
 </tr>
@@ -369,12 +849,148 @@ EU10
 <tr>
 <td valign="top">
 
+SA31
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SH6
+
+</td>
+<td valign="top">
+
+CN40
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SP3
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+STL
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TO2
+
+</td>
+<td valign="top">
+
+CA10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TYO
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 US10
 
 </td>
 <td valign="top">
 
-US10
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+US10-002
+
+</td>
+<td valign="top">
+
+US10-001
 
 </td>
 <td valign="top">
@@ -403,12 +1019,46 @@ EU20
 <tr>
 <td valign="top">
 
+US11
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+US20
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 US21
 
 </td>
 <td valign="top">
 
-US10
+US10-001
 
 </td>
 <td valign="top">
@@ -425,7 +1075,7 @@ US30
 </td>
 <td valign="top">
 
-US10
+US10-001
 
 </td>
 <td valign="top">
@@ -442,7 +1092,24 @@ US50
 </td>
 <td valign="top">
 
-US10
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+WD4
+
+</td>
+<td valign="top">
+
+EU10
 
 </td>
 <td valign="top">
@@ -453,5 +1120,5 @@ EU20
 </tr>
 </table>
 
-\* The list of supported managed cloud services is increasing and so is the list of data centers where the supported service is rolled out. Please check the location of the managed cloud service in *Landscape Management* app.
+\* The list of supported managed cloud services is increasing and so is the list of data-centers where the supported service is rolled out. Please check the location of the managed cloud service in *Landscape Management* app.
 

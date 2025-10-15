@@ -27,7 +27,7 @@ For step-by-step guidance of the registration, find your system in the Expert Po
 
 ## Case 2: Manual Creation
 
-Some system types \(for example, *SAP Focused Run*, *Cloud Connector*, and *SAP Process Integration*\) can't be registered but need to be set up manually.
+Some system types \(for example, *SAP Focused Run* and *Cloud Connector*\) can't be registered but need to be set up manually.
 
-For step-by-step guidance of the manual creation \(if required\), find your system find your system in the Expert Portal linked above.
+For step-by-step guidance of the manual creation \(if required\), find your system in the Expert Portal linked above.
 
