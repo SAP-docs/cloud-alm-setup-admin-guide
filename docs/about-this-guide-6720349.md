@@ -28,6 +28,8 @@ This guide describes the steps you need to perform to set up, configure, and adm
 
 -   [Required Setup for SAP Cloud ALM](01_required_setup/required-setup-for-sap-cloud-alm-80b2c30.md): Complete the mandatory steps that are required to set up SAP Cloud ALM for productive use.
 
+-   [Connecting Systems and Services](connecting-systems-and-services-31159aa.md): Find detailed product-specific guides that describe how you can connect your solution to SAP Cloud ALM.
+
 -   [Integration and Configuration Options](02_integration_and_config_options/integration-and-configuration-options-a4ea6fa.md): Learn about additional integration and configuration options for SAP Cloud ALM.
 
 -   [Administration](administration-52d7d71.md): Find out how to efficiently administer your SAP Cloud ALM tenant.
@@ -45,7 +47,7 @@ Collaboration is one of the core values that helps us grow and improve. Your fee
 
 To leave feedback and contribute to this guide, choose <span class="SAP-icons-V5"></span> Feedback and select from one of the following options:
 
--   *Comments*: Leave a comment about a documentation page directly on SAP Help Portal. Before you can comment, you need to sign in with your S-user or P-user.
+-   *Comments*: Leave a comment about a documentation page directly on the SAP Help Portal. Before you can comment, you need to sign in with your S-user or P-user.
 
 -   *Create issue* \(English version only\): Provide feedback about a documentation page via issue on GitHub. To create an issue, you need to sign in to your GitHub account.
 

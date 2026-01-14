@@ -83,12 +83,12 @@ Implementation
 </td>
 <td valign="top">
 
-`imp_tkm_TaskManager` 
+`imp_tkm_TaskViewer` 
 
 </td>
 <td valign="top">
 
-Manage tasks, defects, quality gates, requirements, risks, and test cases
+View tasks, defects, quality gates, requirements, and risks
 
 </td>
 </tr>
@@ -105,12 +105,12 @@ Implementation
 </td>
 <td valign="top">
 
-`imp_tkm_TaskViewer` 
+`imp_tkm_TaskManager` 
 
 </td>
 <td valign="top">
 
-View tasks, defects, quality gates, requirements, and risks
+Manage tasks, defects, quality gates, requirements, risks, and test cases
 
 </td>
 </tr>
@@ -287,6 +287,126 @@ Implementation
 <td valign="top">
 
 Change feature status to *Successfully Tested* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_RetrofitConfigurator` 
+
+</td>
+<td valign="top">
+
+Access to *Projects and Setup* app
+
+View, create, and update retrofit configurations in deployment plans
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_RetrofitPerformer` 
+
+</td>
+<td valign="top">
+
+Perform retrofit
+
+Create features
+
+Create transports
+
+Access to *Projects and Setup* app
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Library Management** 
+
+</td>
+<td valign="top">
+
+`imp_lib_LibraryViewer` 
+
+</td>
+<td valign="top">
+
+View library elements
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Library Management** 
+
+</td>
+<td valign="top">
+
+`imp_lib_LibraryManager` 
+
+</td>
+<td valign="top">
+
+Manage library elements
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Library Management** 
+
+</td>
+<td valign="top">
+
+`imp_lib_LibraryAdministrator` 
+
+</td>
+<td valign="top">
+
+Manage library elements
+
+Permanently delete library elements
 
 </td>
 </tr>

@@ -26,6 +26,8 @@ To solve this, unassign the transport and create a new transport in your CTMS no
 
 If transports don't show up when you want to assign them to a feature, choose the *Refresh* button in the *Transports* section. If transports are still not shown, it indicates that the *Features* app hasn't received data from CTMS. In such a case, you get an error message explaining that there's a connection issue. To solve this, check if the CTMS destination is working. For more information, see [SAP Cloud Transport Management Service](sap-cloud-transport-management-service-8b4af2f.md).
 
+Also, make sure that you meet the CTMS service landscape requirements. For both the export and upload use case, you need a dummy development system. For more information, see [SAP Cloud Transport Management Service Landscape Requirements](sap-cloud-transport-management-service-landscape-requirements-235276e.md).
+
 
 
 <a name="loio240043adc3d240629d37eea7ca8348ff__section_wtx_b3b_y2c"/>

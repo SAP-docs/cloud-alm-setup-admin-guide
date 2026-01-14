@@ -601,6 +601,70 @@ Implementation
 </td>
 <td valign="top">
 
+Change & Deployment Management
+
+</td>
+<td valign="top">
+
+*Retrofit Configurator* 
+
+</td>
+<td valign="top">
+
+*Change & Deployment Management Retrofit Executor* 
+
+</td>
+<td valign="top">
+
+View, create, or update retrofit configurations in deployment plans
+
+</td>
+<td valign="top">
+
+`imp_cdm_RetrofitConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Change & Deployment Management
+
+</td>
+<td valign="top">
+
+*Retrofit Performer* 
+
+</td>
+<td valign="top">
+
+*Change & Deployment Management Retrofit Configurator* 
+
+</td>
+<td valign="top">
+
+Perform retrofit execution and administration
+
+</td>
+<td valign="top">
+
+`imp_cdm_RetrofitPerformer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
 Process Management
 
 </td>
@@ -1732,7 +1796,7 @@ Access the monitoring dashboards
 <tr>
 <td valign="top">
 
-RISE with SAP
+RISE with SAP Methodology
 
 </td>
 <td valign="top">
@@ -1764,7 +1828,7 @@ View operations-related scores, KPIs, and metrics
 <tr>
 <td valign="top">
 
-RISE with SAP
+RISE with SAP Methodology
 
 </td>
 <td valign="top">
@@ -1789,7 +1853,39 @@ View software stack information and different KPIs related to the clean core com
 </td>
 <td valign="top">
 
-`rdp_dashboard_ccSystemView` 
+`rdp_dashboard_ccSystemViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RISE with SAP Methodology
+
+</td>
+<td valign="top">
+
+System View
+
+</td>
+<td valign="top">
+
+*System Dashboard Administrator* 
+
+</td>
+<td valign="top">
+
+*System Dashboard Administrator* 
+
+</td>
+<td valign="top">
+
+Manage display of extensibility-related data
+
+</td>
+<td valign="top">
+
+`rdp_dashboard_ccSystemAdministrator` 
 
 </td>
 </tr>
@@ -2153,12 +2249,12 @@ Consume and edit transformation projects and all associated tasks
 </tr>
 </table>
 
--   **[Implementation](implementation-782a563.md "In the following sections, you can find detailed breakdowns of all roles related to SAP
-		Cloud ALM for implementation, mapped to the individual actions they allow users to
+-   **[Implementation](implementation-782a563.md "In the following sections, you can find detailed breakdowns of all roles related to
+		SAP Cloud ALM for implementation, mapped to the individual actions they allow users to
 		perform.")**  
 In the following sections, you can find detailed breakdowns of all roles related to SAP Cloud ALM for implementation, mapped to the individual actions they allow users to perform.
--   **[Transformation](transformation-6016348.md "In the following sections, you can find detailed breakdowns of all roles related to SAP
-		Business Transformation Center, mapped to the individual actions they allow users to
+-   **[Transformation](transformation-6016348.md "In the following sections, you can find detailed breakdowns of all roles related to
+		SAP Business Transformation Center, mapped to the individual actions they allow users to
 		perform.")**  
 In the following sections, you can find detailed breakdowns of all roles related to SAP Business Transformation Center, mapped to the individual actions they allow users to perform.
 -   **[Operations](operations-c866719.md "In the following sections, you can find detailed breakdowns of all roles related to SAP
@@ -2169,10 +2265,11 @@ In the following sections, you can find detailed breakdowns of all roles related
 		Cloud ALM for service, mapped to the individual actions they allow users to
 		perform.")**  
 In the following sections, you can find detailed breakdowns of all roles related to SAP Cloud ALM for service, mapped to the individual actions they allow users to perform.
--   **[Administration](administration-4a7d8ba.md "In the following sections, you can find detailed breakdowns of all administrative roles
-		in SAP Cloud ALM, mapped to the individual actions they allow users to perform.")**  
+-   **[Administration](administration-4a7d8ba.md "In the following sections, you can find detailed breakdowns of all administrative
+		roles in SAP Cloud ALM, mapped to the individual actions they allow users to
+		perform.")**  
 In the following sections, you can find detailed breakdowns of all administrative roles in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
--   **[RISE with SAP](rise-with-sap-b058001.md "In the following sections, you can find detailed breakdowns of all roles related to RISE
+-   **[RISE with SAP Methodology](rise-with-sap-methodology-b058001.md "In the following sections, you can find detailed breakdowns of all roles related to RISE
 		with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to
 		perform.")**  
 In the following sections, you can find detailed breakdowns of all roles related to RISE with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to perform.

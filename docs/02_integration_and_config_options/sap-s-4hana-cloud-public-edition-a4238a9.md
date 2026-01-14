@@ -14,9 +14,6 @@ By enabling the transport management for SAP S/4HANA Cloud Public Edition with t
 To use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the ATO.
 
 > ### Note:  
-> Only transports exported after you established the connection of your SAP S/4HANA Cloud development and customizing system to SAP Cloud ALM are pushed to SAP Cloud ALM. Currently, there is no historic data available.
-
-> ### Note:  
 > If you have multiple SAP Cloud ALM tenants, you should only connect your SAP S/4HANA Cloud Public Edition tenants to your productive SAP Cloud ALM tenant.
 
 
@@ -86,6 +83,11 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 <a name="loioa4238a9e586046268a1de5ea03ec6930__section_i1h_2n3_wwb"/>
 
 ## Procedure
+
+> ### Caution:  
+> To enable the assignment of SAP S/4HANA Cloud Public Edition transports, you have to establish a communication arrangement for your development tenants and test tenants with SAP Cloud ALM. This is important as transports exported from your development system or imported to your test system only show the correct transport status after you’ve established the communication arrangement for **both** your development and test tenant.
+> 
+> In case you provision a production tenant later, make sure to establish the communication arrangement before the first import to production. Otherwise, you loose the transport status. There is no option to resynchronize the data.
 
 1.  **Create communication system**: Create a communication system using the *Communication System* app that represents the SAP Cloud ALM tenant you want to communicate with.
 

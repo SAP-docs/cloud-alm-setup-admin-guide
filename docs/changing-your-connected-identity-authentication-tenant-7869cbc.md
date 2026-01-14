@@ -50,7 +50,7 @@ Each Identity Authentication tenant is an individual repository of user accounts
 
 ## Procedure
 
-1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/).
+1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap).
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement and open the subaccount that contains your SAP Cloud ALM subscription.
 

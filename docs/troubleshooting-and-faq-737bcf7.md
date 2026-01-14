@@ -216,18 +216,6 @@ For the reasoning behind this, refer to KBA [3152095](https://me.sap.com/notes/3
 <tr>
 <td valign="top">
 
-You're a customer based in China and can't request SAP Cloud ALM because the *Start Provisioning* button on SAP for Me is grayed out.
-
-</td>
-<td valign="top">
-
-Refer to KBA [3451531](https://me.sap.com/notes/3451531).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 You're looking for general information on how to start the provisioning for cloud products on SAP for Me.
 
 </td>
@@ -391,7 +379,7 @@ You're an Ultimate Global Customer with multiple customer numbers and want to im
 </td>
 <td valign="top">
 
-Refer to SAP Note [3070306](https://me.sap.com/notes/3070306).
+Refer to [Case 1: Automatic Import](01_required_setup/services-d5f36cc.md#loiod5f36cc72b4443f6abfa95f6e1a17782__section_lfz_rng_cfc) and [Troubleshooting for Landscape Management](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/9d68fc2749c84c4a8d3c9bc1b7ddfb89.html "This page helps you to analyze common errors in the Landscape Management app of SAP Cloud ALM.") :arrow_upper_right:.
 
 </td>
 </tr>
@@ -647,11 +635,11 @@ For more information, refer to [Step 1: Onboard Users in the Identity Authentica
 <tr>
 <td valign="top">
 
-**Additional requirement for EU Access tenants**:
+**Additional requirement for `eu11` and `cn20` tenants**:
 
-If your SAP Cloud ALM tenant is hosted in the region `eu11` \(EU Access\), no email service is provided by the data center. Your users do not automatically receive a welcome email. You need to use your own email server that you are operating under your responsibility.
+If your SAP Cloud ALM tenant is hosted in the region Europe \(Frankfurt\) EU Access – `eu11` or China \(North 3\) – `cn20`, no email service is provided by the data center. Your users do not automatically receive a welcome email. You need to use your own email server that you are operating under your responsibility.
 
-Set up an SMTP mail destination named **SAP\_Business\_Notifications\_Mail** in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
+Set up an SMTP mail destination named `SAP_Business_Notifications_Mail` in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
 
 </td>
 </tr>
@@ -1040,9 +1028,25 @@ You want to set up a second SAP Cloud ALM tenant.
 </td>
 <td valign="top">
 
-By purchasing *SAP Cloud ALM, tenant extension*, you're entitled to request additional SAP Cloud ALM tenants for the same customer number.
+By purchasing the *SAP Cloud ALM, tenant extension*, you're entitled to request an additional SAP Cloud ALM tenant for the same customer number.
 
 There's no restriction on the number of tenants that you can purchase. You can get as many as you need for your organization and purposes.
+
+For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to get additional memory usage and data transfer volume for your SAP Cloud ALM tenant.
+
+</td>
+<td valign="top">
+
+By purchasing the *SAP Cloud ALM, tenant extension*, you're entitled to an additional 8 GB of SAP HANA memory and 8 GB of monthly outbound API data transfer.
+
+If you do not request the provisioning of an additional SAP Cloud ALM tenant, the associated resources are automatically used on your existing SAP Cloud ALM tenant. No further action is required.
 
 For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md).
 

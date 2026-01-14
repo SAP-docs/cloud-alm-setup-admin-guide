@@ -344,7 +344,9 @@ Confirmation message. No action is needed.
 
 The *Analyze Application Log* is an extended system log which shows you more details about use case tasks and jobs. For example, you can check if a job has already been scheduled.
 
-To open the *Analyze Application Log*, run transaction `SLG1`. In the *Object* field, enter `/SDF/CALM`. In the *Subobject* field, enter `Build_CDM`.
+To open the *Analyze Application Log*, run transaction `SLG1` in the system where you activated the use case task you want to check. `SLG1` is client independent.
+
+In the *Object* field, enter `/SDF/CALM`. In the *Subobject* field, enter `Build_CDM`.
 
 The following table shows you which External IDs you can use for filtering:
 
@@ -440,7 +442,7 @@ CLIENT DEPENDENT
 </td>
 <td valign="top" rowspan="5">
 
-Transports: Create & Export \(client-specific
+Transports: Create & Export \(client-specific\)
 
 </td>
 <td valign="top">
@@ -505,12 +507,63 @@ TR CHECK
 </td>
 <td valign="top">
 
-TR CHECK
+Transports: Check
 
 </td>
 <td valign="top">
 
-Execute transport checks
+Perform transport checks
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RETRO
+
+</td>
+<td valign="top">
+
+Transports: Retrofit
+
+</td>
+<td valign="top">
+
+Perform retrofit
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RETRO\_CATE
+
+</td>
+<td valign="top">
+
+Transports: Retrofit
+
+</td>
+<td valign="top">
+
+Perform retrofit categorization
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RETRO\_AUTO
+
+</td>
+<td valign="top">
+
+Transports: Retrofit
+
+</td>
+<td valign="top">
+
+Perform automatic retrofit
 
 </td>
 </tr>

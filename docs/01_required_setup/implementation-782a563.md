@@ -687,7 +687,7 @@ Libraries
 </td>
 <td valign="top">
 
-Access the app
+View libraries
 
 </td>
 <td valign="top">
@@ -719,7 +719,7 @@ Libraries
 </td>
 <td valign="top">
 
-View library elements
+Create libraries
 
 </td>
 <td valign="top">
@@ -734,12 +734,12 @@ Yes
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 </tr>
@@ -751,7 +751,7 @@ Libraries
 </td>
 <td valign="top">
 
-Create, edit, and delete library elements
+Edit libraries
 
 </td>
 <td valign="top">
@@ -762,6 +762,38 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Libraries
+
+</td>
+<td valign="top">
+
+Delete libraries
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3151,7 +3183,7 @@ Documents
 </td>
 <td valign="top">
 
-Mark documents for deletion
+Move documents to deleted items
 
 </td>
 <td valign="top">
@@ -7788,6 +7820,16 @@ Deployment Manager
 Developer
 
 </th>
+<th valign="top">
+
+Retrofit Configurator
+
+</th>
+<th valign="top">
+
+Retrofit Performer
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -7813,6 +7855,16 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -7842,6 +7894,16 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7852,6 +7914,16 @@ Features
 <td valign="top">
 
 Create features
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7896,6 +7968,16 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7906,6 +7988,16 @@ Features
 <td valign="top">
 
 Delete features
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7950,6 +8042,16 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7977,6 +8079,16 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7987,6 +8099,16 @@ Features
 <td valign="top">
 
 Assign and unassign user stories
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8031,6 +8153,16 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8056,6 +8188,16 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -8085,6 +8227,16 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8095,6 +8247,16 @@ Features
 <td valign="top">
 
 Release transports
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8139,6 +8301,16 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8164,6 +8336,16 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -8193,6 +8375,16 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8203,6 +8395,16 @@ Features
 <td valign="top">
 
 Set to *Not Planned* 
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8247,6 +8449,16 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8274,6 +8486,16 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8284,6 +8506,16 @@ Features
 <td valign="top">
 
 Confirm for *Successfully Tested* 
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8328,6 +8560,16 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8355,6 +8597,53 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Features
+
+</td>
+<td valign="top">
+
+Navigation to *Retrofit* app
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8375,6 +8664,16 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8409,6 +8708,16 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8429,6 +8738,16 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8463,6 +8782,16 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8490,6 +8819,16 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8500,6 +8839,16 @@ Deployment
 <td valign="top">
 
 Perform transport checks
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8542,6 +8891,238 @@ Yes
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Projects and Setup
+
+</td>
+<td valign="top">
+
+Access to app
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Projects and Setup
+
+</td>
+<td valign="top">
+
+Edit retrofit configurations in deployment plans
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Retrofit
+
+</td>
+<td valign="top">
+
+Access to app
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Retrofit
+
+</td>
+<td valign="top">
+
+Perform retrofit
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Retrofit
+
+</td>
+<td valign="top">
+
+Create feature
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Retrofit
+
+</td>
+<td valign="top">
+
+Create transport
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>

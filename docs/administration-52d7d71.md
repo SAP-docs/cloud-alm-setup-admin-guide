@@ -22,15 +22,15 @@ After the initial onboarding of users during the [required setup](01_required_se
 		you can also restrict access to certain objects.")**  
 In addition to the role management options in the *User Management* app, with which you can give users the authorizations for certain tasks and to certain apps, you can also restrict access to certain objects.
 -   **[Setting Up Email Notifications](setting-up-email-notifications-1d1fa37.md "To make sure that users are aware of tasks or monitoring events that require their
-		attention, you can set up two different kinds of email notifications.")**  
-To make sure that users are aware of tasks or monitoring events that require their attention, you can set up two different kinds of email notifications.
+		attention, you can set up email notifications.")**  
+To make sure that users are aware of tasks or monitoring events that require their attention, you can set up email notifications.
 -   **[Enabling the Creation of Public Views](enabling-the-creation-of-public-views-ec0293f.md "In many SAP Cloud ALM apps, users can save common filter and table settings as personal
 		views. To allow them to also create public views, which can be used by all users within your
 		SAP Cloud ALM tenant, you need to create a custom role collection and assign it to
 		them.")**  
 In many SAP Cloud ALM apps, users can save common filter and table settings as personal views. To allow them to also create public views, which can be used by all users within your SAP Cloud ALM tenant, you need to create a custom role collection and assign it to them.
--   **[Using SAP-Managed Connectivity](using-sap-managed-connectivity-934c2a1.md "The integration between SAP Cloud ALM and several SAP cloud services is orchestrated by
-		SAP-Managed Connectivity.")**  
+-   **[Using SAP-Managed Connectivity](using-sap-managed-connectivity-934c2a1.md "The integration between SAP Cloud ALM and several SAP cloud services is orchestrated
+		by SAP-Managed Connectivity.")**  
 The integration between SAP Cloud ALM and several SAP cloud services is orchestrated by SAP-Managed Connectivity.
 -   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By using the SAP Audit Log Viewer service for SAP BTP, you can view the
 		audit logs to track the end user activity in SAP Cloud ALM.")**  

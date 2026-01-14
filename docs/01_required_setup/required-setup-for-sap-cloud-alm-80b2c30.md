@@ -111,12 +111,13 @@ If you don't have this authorization, the *Global Administrator* can assign the 
 		step-by-step how-to videos (English only).")**  
 To learn how to set up SAP Cloud ALM for productive use, you can watch the following step-by-step how-to videos \(English only\).
 -   **[Step 1: Onboard Users in the Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md "To give further users access to SAP Cloud ALM, you need to create or import users in
-		your Identity Authentication tenant. For users to be able to sign in to SAP Cloud ALM, they
+		your SAP Cloud Identity Services – Identity
+			Authentication tenant. For users to be able to sign in to SAP Cloud ALM, they
 		need to be maintained both in the Identity Authentication tenant and in SAP Cloud
 		ALM.")**  
-To give further users access to SAP Cloud ALM, you need to create or import users in your Identity Authentication tenant. For users to be able to sign in to SAP Cloud ALM, they need to be maintained both in the Identity Authentication tenant and in SAP Cloud ALM.
--   **[Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md "After onboarding your users to your Identity Authentication tenant, you need to add them
-		to SAP Cloud ALM and assign roles to them.")**  
+To give further users access to SAP Cloud ALM, you need to create or import users in your [SAP Cloud Identity Services – Identity Authentication](../../../../../../../../https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/what-is-identity-authentication?version=LATEST&locale=en-US) tenant. For users to be able to sign in to SAP Cloud ALM, they need to be maintained both in the Identity Authentication tenant and in SAP Cloud ALM.
+-   **[Step 2: Assign Roles to Users in SAP Cloud ALM](step-2-assign-roles-to-users-in-sap-cloud-alm-7304b17.md "After onboarding your users to your Identity Authentication tenant, you need to add
+		them to SAP Cloud ALM and assign roles to them.")**  
 After onboarding your users to your Identity Authentication tenant, you need to add them to SAP Cloud ALM and assign roles to them.
 -   **[Step 3: Set Up Landscape Management](step-3-set-up-landscape-management-23f1c49.md "As the last step of the required setup, services and systems need to be set up in the
 			Landscape Management app in SAP Cloud ALM.")**  

@@ -4,7 +4,7 @@
 
 The registration method of systems in SAP Cloud ALM depends on the system type of your solution.
 
-To find out which setup steps are required for your system, refer to [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the SAP Cloud ALM for Operations Expert Portal.
+To find out which setup steps are required for your system, refer to [Connecting Systems and Services](../connecting-systems-and-services-31159aa.md).
 
 > ### Note:  
 > Observability data from your connected systems isn't automatically sent to your SAP Cloud ALM tenant. If you want to start monitoring observability data, the data transfer to SAP Cloud ALM first needs to be configured.

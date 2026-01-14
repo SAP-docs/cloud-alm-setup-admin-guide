@@ -41,7 +41,16 @@ For recommendations on how to leverage multiple SAP Cloud ALM tenants in your la
 
 ## Procedure
 
-To get an additional tenant, first purchase the *SAP Cloud ALM, tenant extension*. To do so, please get in touch with your account executive or your sales representative.
+You can purchase the *SAP Cloud ALM, tenant extension* by getting in touch with your account executive or your sales representative.
 
-Then, you can request the provisioning of your additional tenant or tenants on SAP for Me, as described in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
+Then, you have the following options on how to use the additional quota:
+
+-   Request the provisioning of an additional SAP Cloud ALM tenant on SAP for Me, as described in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
+
+-   If you want to use the additional memory and data transfer volume on your existing SAP Cloud ALM tenant, no further action is required. They're automatically applied to your SAP Cloud ALM tenant.
+
+    To get an overview of your current consumption, visit the [Finance & Legal](https://me.sap.com/financelegal) dashboard on SAP for Me. In the *Consumption* tab, you can find both the subscribed value and your current consumption.
+
+    ![](images/Consumption_CALT_2dfda02.png)
+
 

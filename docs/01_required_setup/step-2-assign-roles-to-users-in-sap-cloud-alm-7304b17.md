@@ -31,9 +31,9 @@ To assign role templates to users, first create a role collection and add the ro
 
 -   The identities of the users to whom you want to assign roles already exist in the identity provider, as described in [Step 1: Onboard Users in Your Identity Authentication Service](step-1-onboard-users-in-the-identity-authentication-service-f2a8a8c.md).
 
--   Only relevant for EU Access: You've set up an SMTP mail destination named **SAP\_Business\_Notifications\_Mail** in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
+-   Only relevant for `eu11` and `cn20` tenants: You've set up an SMTP mail destination named `SAP_Business_Notifications_Mail` in your SAP BTP subaccount for SAP Cloud ALM, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
 
-    Context: If your SAP Cloud ALM tenant is hosted in the region `eu11` \(EU Access\), no email service is provided by the data center. You need to use your own email server that you are operating under your responsibility, or your users won't receive a welcome email after they've been created.
+    Context: If your SAP Cloud ALM tenant is hosted in the region Europe \(Frankfurt\) EU Access – `eu11` or China \(North 3\) – `cn20`, no email service is provided by the data center. You need to use your own email server that you are operating under your responsibility, or your users won't receive a welcome email after they've been created.
 
 
 

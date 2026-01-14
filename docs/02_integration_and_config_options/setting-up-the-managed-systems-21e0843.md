@@ -26,207 +26,196 @@ The following sections show you the prerequisites and authorizations for the set
 
 ### Technical Prerequisites
 
-Technical Prerequisites for the ABAP system \(setup is done in transaction `/SDF/ALM_SETUP`\):
+Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following requirements:
 
--   SAP\_BASIS Release:
-
-    -   Either 7.40 SP16 or higher \(accordingly 7.50 SP05\)
-
+-   SAP\_BASIS release:
+    -   7.40 SP16 or higher \(accordingly 7.50 SP05\)
     -   Or 7.40 SP09 - SP15 \(7.50 SP00 - 7.50 SP04\) with SAP Note [2283880](https://me.sap.com/notes/2283880) - Logon Username not used in RFC API
 
+-   SAP\_UI version: SAP\_UI 740 SP15 or higher
+-   Implement ST-PI 7.40 support packages and keep them up to date, including the collective corrections suited for your ST-PI support package from the required SAP Notes listed after this.
 
--   SAP\_UI Version:
+    Operate your ABAP managed system with at least the latest or second latest support package that's available on the SAP Support Portal.
 
-    -   Either SAP\_UI 740 SP15 or higher
+-   For Business Process Monitoring in SAP S/4HANA and SAP Business Suite 7, at least ST-A/PI version higher that 01U\_731 must be available. Always keep it up to date.
 
+    If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed here.
 
--   Implement ST-PI 7.40 Support Packages and keep them up-to-date, including the collective corrections suited for your ST-PI support package from the required SAP Notes mentioned below. For instance, make sure to operate your ABAP managed system with at minimum the latest or second latest Support Package, as available on the SAP Support Portal.
+-   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\).
+-   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
+-   [DigiCert Global Root G2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
+-   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
+-   You've installed the latest version of the following SAP Notes for ST-PI:
 
--   Check that profile parameter `icm/HTTPS/client_sni_enabled` is set to TRUE \(see also SAP Note [510007](https://me.sap.com/notes/510007) - Additional considerations for setting up SSL on Application Server ABAP\)
-
-    > ### Note:  
-    > You can use transaction `RZ11` and `TU02` in the managed system for the profile parameter check.
-
--   Check that profile parameter `ssl/client_ciphersuites` is set as described in section 7 of SAP Note[510007](https://me.sap.com/notes/510007) - Additional considerations for setting up SSL on Application Server ABAP.
-
--   Check that [DigiCert Global Root CA](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in STRUST under SSL Client \(Anonymous\) and SSL Client \(Standard\).
-
--   Check that [DigiCert Global Root G2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in STRUST under SSL Client \(Anonymous\) and SSL Client \(Standard\).
-
--   Check that [DigiCert RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) is imported in STRUST under SSL Client \(Anonymous\) and SSL Client \(Standard\).
-
-
-Additionally, please make sure you've installed the latest version of the following SAP Notes:
-
--   [3502641](https://me.sap.com/notes/3502641) - Collective corrections as of ST-PI 7.40 SP28 for SAP Cloud ALM
-
--   [3421256](https://me.sap.com/notes/3421256) - Collective corrections as of ST-PI 7.40 SP26 for SAP Cloud ALM \(including SP27\)
-
--   [3374186](https://me.sap.com/notes/3374186) - Collective corrections as of ST-PI 7.40 SP24 for SAP Cloud ALM \(including SP25\)
-
--   [3312428](https://me.sap.com/notes/3312428) - Collective corrections for Integration & Exception Monitoring in SAP Cloud ALM
-
--   [3281776](https://me.sap.com/notes/3281776) - Job & Automation Monitoring: ST-PI 740 SP21+ fixes for on-premise jobs \(ABAP jobs and BW process chains\)
+    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** for SAP Cloud ALM
+    -   SAP Note [3575903](https://me.sap.com/notes/3575903) – Collective corrections as of ST-PI 7.40 **SP30** for SAP Cloud ALM \(including SP31\)
+    -   SAP Note [3502641](https://me.sap.com/notes/3502641) – Collective corrections as of ST-PI 7.40 **SP28** for SAP Cloud ALM \(including SP29\)
+    -   SAP Note [3421256](https://me.sap.com/notes/3421256) – Collective corrections as of ST-PI 7.40 **SP26** for SAP Cloud ALM \(including SP27\)
+    -   SAP Note [3374186](https://me.sap.com/notes/3374186) – Collective corrections as of ST-PI 7.40 **SP24** for SAP Cloud ALM \(including SP25\)
+    -   SAP Note [3312428](https://me.sap.com/notes/3312428) – Collective corrections for Integration & Exception Monitoring in SAP Cloud ALM
+    -   SAP Note [3281776](https://me.sap.com/notes/3281776) – Job & Automation Monitoring: ST-PI 740 SP21+ fixes for on-premise jobs \(ABAP jobs and BW process chains\)
 
 
 
 
 ### Network Prerequisites
 
-The communication between your ABAP system and SAP Cloud ALM happens from the ABAP system towards SAP Cloud ALM. You don't need to install an SAP Cloud Connector if you only want to use monitoring or transport management use cases. You only need an SAP Cloud Connector if your use case required an endpoint to be created from SAP Cloud ALM towards the ABAP system. Currently, this is only the case for ABAP systems of type SAP Focused Run and SAP Solution Manager or if you want to use the use case Business Transformation Center.
+The communication between your ABAP system and SAP Cloud ALM happens from the ABAP system towards SAP Cloud ALM. You don't need to install an SAP Cloud Connector if you only want to set up monitoring or transport management in SAP Cloud ALM.
 
-To successfully establish the connection from the ABAP system to SAP Cloud ALM:
+You only need an SAP Cloud Connector if your use case requires an endpoint to be created from SAP Cloud ALM towards the ABAP system. Currently, this is only the case for ABAP systems of the type SAP Focused Run and SAP Solution Manager or if you want to use the use SAP Business Transformation Center.
 
--   You need to obtain the [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) to connect to the SAP Cloud ALM system.
+To establish the connection from the ABAP system to SAP Cloud ALM:
 
--   You need to make sure that the following URLs can be reached:
+-   You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 
-    -   The Cloud ALM API URL \(service key "endpoints":"Api" without /api\)
+-   Ensure the following URLs can be reached:
+    -   The SAP Cloud ALM API URL, service key `endpoints:Api`, without `/api`.
+    -   The SAP Cloud ALM OAuth URL, service key `uaa:url` followed by `/oauth/token`.
+    -   If you want to activate mTLS-based authentication, you also need the SAP Cloud ALM OAuth cert URL, service key `uaa:certurl` extended by `/oauth/token`. You find this URL in the X.509-enabled service key, which is created after the mTLS-based authentication has been activated in the next section, where the PUSH Data Provider is configured.
 
-    -   The Cloud ALM OAuth URL \(service key "uaa":"url" extended by /oauth/token\)
-
-
--   In case you use a proxy in your network, please make sure that it's configured to allow calls to these URLs.
-
--   If your SAP ABAP system is hosted with SAP Enterprise Cloud Services \(ECS\), please open a service request with SAP ECS to add the following URLs to the "Allow-List" for your environment \(Please note: This doesn’t apply to SAP SuccessFactors Employee Central Payroll\):
-
-    -   Root URL: SAP Cloud ALM service key parameter "endpoints":"Api" without /api
-
-    -   OAuth URL: SAP Cloud ALM service key parameter "uaa":"url"
-
+-   If you use a proxy in your network, ensure it's configured to allow calls to these URLs. For more information, check the [Region-Specific IP Address Ranges](https://help.sap.com/docs/cloud-alm/setup-administration/region-specific-ip-address-ranges?locale=en-US&version=LATEST).
+-   If your SAP ABAP system is hosted with SAP Enterprise Cloud Services \(ECS\), create a service request with SAP ECS to add the following URLs to the allowlist for your environment. This does not apply for SAP SuccessFactors Employee Central Payroll.
+    -   Root URL: SAP Cloud ALM service key parameter `endpoints:api` without `/api`.
+    -   OAuth URL: SAP Cloud ALM service key parameter `uaa:URL`.
+    -   If you want to activate mTLS-based authentication, you also need the OAuth Cert URL: SAP Cloud ALM service key parameter `uaa:certurl`. You find this URL in the X.509-enabled service key, which is created in the next section, where the PUSH Data Provider is configured.
 
 
 
 
 ### Required Authorizations
 
-You need to consider two users in the managed ABAP system for the setup.
+For the setup, consider two users in the managed ABAP system:
 
--   The user performing the setup: To run transaction /SDF/ALM\_SETUP your personal user needs the PFCG role SAP\_SDF\_ALM\_SETUP.
+-   The user performing the setup: To run transaction */SDF/ALM\_SETUP*, your personal user needs the PFCG role *SAP\_SDF\_ALM\_SETUP*.
 
-    > ### Note:  
-    > In this role you need to maintain the authorization field S\_BTCH\_NAM \> BTCUNAME either with '\*' or with the user name of the user you plan to use as data collection background job user.
+    **Note**: In this role, maintain the authorization field *S\_BTCH\_NAM \> BTCUNAME* either with an asterisk \(\*\) or with the user name of the user that you plan to use for the background job for the data collection.
 
--   User to run the data collection background job: Please assign the roles as per the table below.
-
+-   The user to run the background job for the data collection: Assign the roles as described in the following table:
 
 
-<table>
-<tr>
-<th valign="top">
+    <table>
+    <tr>
+    <th valign="top">
 
-ST-PI Release
+    ST-PI Release
+    
+    </th>
+    <th valign="top">
 
-</th>
-<th valign="top">
+    Required Authorizations
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ST-PI 7.40 SP31 for DVM
+    
+    </td>
+    <td valign="top">
+    
+    The Data Volume Efficiency \(also known as Data Volume Management\) KPIs featured on the RISE with SAP Methodology dashboard require data collection through the data collector available from **ST-PI 7.40 SP31**.
 
-Required Authorizations
+    To ensure data collection runs without errors, assign the following role to the existing batch user: `SAP_SDF_ALM_METRIC_PUSH_DVM`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ST-PI 7.40 SP29 for certificate-based authentication
+    
+    </td>
+    <td valign="top">
+    
+    If you want to use certificate-based authentication, you can either create a dedicated user for the certificate rotation or assign the following role to the existing background user:
 
-</th>
-</tr>
-<tr>
-<td valign="top">
+    SAP\_SDF\_ALM\_MTLS. For systems with SAP\_BASIS below 7.51, you can ignore S\_PSE\_ADM.
 
-ST-PI 7.40 SP25 and higher
+    **Note**: With ST-PI 7.40 SP29, Exception Monitoring is no longer a standalone use case. Therefore, the PFCG role SAP\_SDF\_ALM\_METRIC\_PUSH\_EXMON has been removed and the Exception Monitoring permissions are now included in the respective PCFG roles for Integration Monitoring and Job and Automation Monitoring.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ST-PI 7.40 **SP25 and higher**
+    
+    </td>
+    <td valign="top">
+    
+    In addition to the authorizations for **ST-PI 7.40 SP24**, you need:
 
-</td>
-<td valign="top">
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_CSA
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_CSA\_S. This role allows the detection of special users \(such as SAP\*\) that use default passwords.
 
-In addition to the authorizations for ST-PI 7.40 SP24, you need:
+    In versions below ST-PI 7.40 SP25, you can either use the existing SAP Focused Run roles for Configuration and Security Analysis or the roles that are delivered with SAP Note [3372078](https://me.sap.com/notes/3372078) \(recommended\).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ST-PI 7.40 SP18 and higher
+    
+    </td>
+    <td valign="top">
+    
+    In addition to the authorizations for **ST-PI 7.40 SP16**, you need:
 
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_CSA
+    -   SAP\_FRN\_SDAGENT\_CSA\_MS. This role contains authorization objects that are delivered by SAP without an authorization. To use *Configuration and Security Analysis* in SAP Cloud ALM, maintain the following authorization objects:
+        -   S\_RFC\_ADM: ICF\_VALUE = '\*'
+        -   S\_DATASET: FILENAME = '\*', PROGRAM = '\*'
+        -   S\_LOG\_COM: HOST = '\*', OPSYSTEM = '\*'
 
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_CSA\_S
-
-    This role allows the detection of special users \(such as SAP\*\) using default passwords.
-
-
-Before ST-PI 7.40 SP25 you can either use the existing SAP Focused Run roles for Configuration & Security Analysis or the ones delivered by the SAP Note [3372078](https://me.sap.com/notes/3372078) \(recommended\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-ST-PI 7.40 SP18 and higher
-
-</td>
-<td valign="top">
-
-In addition to the authorizations for ST-PI 7.40 SP16, you need:
-
--   SAP\_FRN\_SDAGENT\_CSA\_MS
-
-    This role contains authorization objects delivered by SAP with no authorization. To use the SAP Cloud ALM scenario Configuration & Security Analysis, please maintain make sure the following authorization objects are maintained:
-
-    -   S\_RFC\_ADM: ICF\_VALUE = '\*'
-
-    -   S\_DATASET: FILENAME = '\*', PROGRAM = '\*'
-
-    -   S\_LOG\_COM: HOST = '\*', OPSYSTEM = '\*'
-
-
--   SAP\_FRN\_SDAGENT\_CSA\_SEC\_MS
-
-    This role allows the detection of special users \(such as SAP\*\) using default passwords
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-ST-PI 7.40 SP16 and higher
-
-</td>
-<td valign="top">
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_FND\*
-
-
-Assign the following authorizations depending on the use cases you plan to activate:
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_BPMON
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_EXMON\*
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_HEALTH\*
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_INTMON
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_JOBMON
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_PERF
-
--   SAP\_BC\_TRANSPORT\_ADMINISTRATOR
+    -   SAP\_FRN\_SDAGENT\_CSA\_SEC\_MS. This role allows the detection of special users \(such as SAP\*\) that use default passwords.
 
 
-\*Please download the latest version of the roles from SAP Note [3372078](https://me.sap.com/notes/3372078).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ST-PI 7.40 SP16 and higher
+    
+    </td>
+    <td valign="top">
+    
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_FND\*
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+    Assign the following authorizations depending on the SAP Cloud ALM use cases that you plan to activate:
 
-ST-PI 7.40 SP15
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_BPMON
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_EXMON \*
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_HEALTH \*
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_INTMON
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_JOBMON
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_PERF
+    -   SAP\_BC\_TRANSPORT\_ADMINISTRATOR \(in client 000 and in the client of your development system where the target is created\)
 
-</td>
-<td valign="top">
+    \* Download the latest version of the roles from SAP Note [3372078](https://me.sap.com/notes/3372078).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ST-PI 7.40 SP15
+    
+    </td>
+    <td valign="top">
+    
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_FND \*
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_BPMON \*
+    -   SAP\_SDF\_ALM\_METRIC\_PUSH\_EXMON \*
 
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_FND
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_BPMON
-
--   SAP\_SDF\_ALM\_METRIC\_PUSH\_EXMON
-
-
-Please download the latest version of the roles from SAP Note [3054258](https://me.sap.com/notes/3054258).
-
-</td>
-</tr>
-</table>
+    \* Download the latest version of the roles from SAP Note [3054258](https://me.sap.com/notes/3054258).
+    
+    </td>
+    </tr>
+    </table>
+    
 
 > ### Note:  
 > For SAP S/4HANA Cloud Private Edition:
@@ -237,11 +226,11 @@ Please download the latest version of the roles from SAP Note [3054258](https://
 
 You can also check the prerequisites for each managed system on the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html):
 
--   [SAP NetWeaver Application Server for ABAP \(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html#section_406552075_co_80551802)
+-   [SAP NetWeaver Application Server for ABAP \(7.40 and higher\), including SAP BW/4HANA](../sap-netweaver-application-server-for-abap-7-40-and-higher-including-sap-bw-4hana-14001e1.md)
 
--   [Setup for SAP S/4HANA and SAP Business Suite 7](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-onprem.html#section_406552075_co)
+-   [SAP S/4HANA and SAP Business Suite 7](../sap-s-4hana-and-sap-business-suite-7-87ec319.md)
 
--   [Setup for SAP S/4HANA Cloud Private Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-priv-cloud.html#section_406552075_co)
+-   [SAP S/4HANA Cloud Private Edition](../sap-s-4hana-cloud-private-edition-20bb800.md)
 
 
 
@@ -251,6 +240,8 @@ You can also check the prerequisites for each managed system on the [Expert Port
 The following list shows you the required SAP Notes. We recommend always installing the latest ST-PI version.
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
+
+-   For ST-PI 740 SP 31 and SP 32, follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
 -   For ST-PI 740 SP 30, install [3575903](https://me.sap.com/notes/3575903) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
@@ -265,13 +256,27 @@ The following list shows you the required SAP Notes. We recommend always install
 
 
 
-<a name="loio21e0843b2009480282487a08044f3f34__section_c3v_h4r_zbc"/>
+<a name="loio21e0843b2009480282487a08044f3f34__section_hbq_rzy_kdc"/>
 
 ## Configuring the PUSH Data Provider
 
 After getting the system ready at ST-PI level, continue with establishing the connection from the managed system to SAP Cloud ALM.
 
-SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 or higher\) use a PUSH mechanism to push transport management data to SAP Cloud ALM.
+SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\) use a PUSH mechanism to push transport management and monitoring data to SAP Cloud ALM.
+
+
+
+### Use of Cloud Connector
+
+Please note that it isn't possible to use the Cloud Connector from SAP to establish the connection between your SAP ABAP on-premise system and SAP Cloud ALM.
+
+The Cloud Connector acts as a reverse invoke proxy between the on-premise network and SAP BTP. This means after connecting the subaccount to the Cloud Connector the tunnel between SAP BTP and the on-premise landscape is triggered by the BTP destination service in the connected subaccount. The Cloud Connector isn't designed to act in the opposite direction.
+
+The connectivity from On-premise to Cloud is only possible for ABAP cloud systems, HANA Cloud databases, and specific SAP BTP services like K8s clusters. It cannot be used for SAP BTP services like SAP Cloud ALM.
+
+For more information see [Cloud Connector FAQ](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector-faq?version=Cloud) \> Features \> Can I use the Cloud Connector from on-premise to cloud for any protocol?
+
+It is possible to use other proxy solutions between your ABAP on-premise system and SAP Cloud ALM. If you do this please make sure to add the relevant URLs to the allow list for the proxy as described under Prerequisites \> Network Prerequisites.
 
 > ### Note:  
 > If you have multiple SAP Cloud ALM tenants, you need to decide which SAP Cloud ALM instance the managed system connects to.
@@ -283,12 +288,6 @@ SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP
 > -   don't connect your productive environment to both SAP Cloud ALM instances
 > 
 > -   only connect demo and sandbox environments to your test SAP Cloud ALM instance
-
-On the Export Portal, choose the tab *Configure the PUSH Data Provider*.
-
-Then, follow the steps to configure the PUSH data provider.
-
-![](images/push_e848532.png)
 
 > ### Note:  
 > The setup must always be performed in client 000 and the source system and client where the transport request is created.
@@ -303,6 +302,76 @@ Then, follow the steps to configure the PUSH data provider.
 > -   Proxy Host: Enter value `proxy`
 > 
 > -   Proxy Port: Enter value `3128`
+
+1.  Log on to the relevant client
+
+    > ### Note:  
+    > Transport Management: The setup must always be performed in client 000 and in the client where transport requests are created.
+    > 
+    > All other use-cases: The setup must be performed in the client, for which you want to collect monitoring data \(for example, the production client\). You can perform the setup in more than one client.
+
+2.  Call transaction `/n/SDF/ALM_SETUP` 
+
+3.  Enter "Target ALM Description"
+
+    > ### Note:  
+    > To create a new ALM destination, enter a name \(for example, CALM\) and press the "Enter" key.
+    > 
+    > To change an existing ALM destination, select one from the F4 input help and press the "Enter" key.
+    > 
+    > After pressing the "Enter" key the subsequent fields are filled.
+
+4.  Maintain HTTP Destination
+
+    1.  Choose *Update Destination*
+
+    2.  You can copy & paste the content from the JSON file created during the [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md) by choosing*Paste Service Keys*
+
+    3.  Or you can enter the required fields for connecting Cloud ALM manually:
+
+        1.  Token Endpoint: SAP Cloud ALM service key parameter "url" + /oauth/token
+
+        2.  Client ID: SAP Cloud ALM service key parameter "clientid"
+
+        3.  Client Secret: SAP Cloud ALM service key parameter "clientsecret"
+
+        4.  Proxy User \(if required by your network infrastructure\)
+
+        5.  Proxy Password \(if required by your network infrastructure\)
+
+        6.  Proxy Host \(if required by your network infrastructure\)
+
+            If your system is hosted by SAP please enter the value `proxy` 
+
+        7.  Proxy Port \(if required by your network infrastructure\)
+
+            If your system is hosted by SAP please enter the value `3128` 
+
+        8.  Root URL: Enter the SAP Cloud ALM service key parameter "Api" without /api, for example, https://eu10.alm.cloud.sap
+
+
+    4.  Choose *Ok* to close the pop-up
+
+    5.  To delete a destination choose *Delete Destination* 
+
+
+5.  Enter background user and register system
+
+    1.  Enter the background user you created to perform the data collection
+
+        Make sure that it has the authorizations as described in the *Required Authorizations* in *Prerequisites* section
+
+    2.  Choose *Register* to call SAP Cloud ALM and register the system. If it's successful, a LMS ID is retrieved and is displayed.
+
+    3.  To unregister a system, choose *Unregister*. Caution: This stops all data collection and heartbeat measurements
+
+
+6.  Select the use cases you want to collect and push data for
+
+
+After the successful setup, the SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\) system shows up as "Registered" service in the Landscape Management application of your SAP Cloud ALM tenant.
+
+The data collection for the selected use-cases is activated automatically. In general it's recommended to use the standard collection interval. Only for specific requirements, you are able to change the “Collection interval” for the different use cases. Please be aware that Business Process Monitoring is using a separate scheduler, therefore, this specific value cannot be changed.
 
 
 
@@ -366,6 +435,12 @@ For each system you're using, you have to activate different tasks. For example,
 
 -   activate *Transports: Export Checks \(client-specific\)* on all clients on which you want to perform ATC checks.
 
+    To activate this task, you need to have installed ST-PI 740 SP 31 or ST-PI 740 SP 30 with SAP Note [3569187](https://me.sap.com/notes/3569187)and [3569295](https://me.sap.com/notes/3569295). For ST-PI 740 SP 31 you also need to install SAP Note [3621761](https://me.sap.com/notes/3621761).
+
+    For more information, see [Transport Checks](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/2ae5a1bf1b6f4d46a38b11f6c6792425.html "With the Transport Checks, you can check a CTS-managed transport set to evaluate the impact on your production system. Transport checks can be performed based on a feature which defines the set of CTS-managed transports.") :arrow_upper_right:.
+
+-   activate *Transports: Retrofit \(client-specific\)* on your development system of your maintenance track if you want to perform retrofit.
+
 
 *QUA*
 
@@ -424,6 +499,8 @@ In case of import issues, you can have a look at the job log. Sometimes a compon
 
 In case several features are deployed together, all assigned transports are imported as import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
 
+In the import history of the target system, the *User* column shows you the user who initiated the */SDF/CALM\_CDM\_IMPORT\_TRANSPORTS* job. This is the background user you entered during the setup using transaction */SDF/ALM\_SETUP* in your target system in client 000 .
+
 
 
 <a name="loio21e0843b2009480282487a08044f3f34__section_jwc_5f1_xgc"/>
@@ -432,7 +509,7 @@ In case several features are deployed together, all assigned transports are impo
 
 We recommend monitoring the ABAP Application Log and ABAP Job Log. This helps you to detect communication issues.
 
-1.  You've configured the push data provider for Operations and activated the use case task *Integration Monitoring*. For more information, see [SAP NetWeaver Application Server for ABAP\(7.40 or higher\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html).
+1.  You've configured the push data provider for Operations and activated the use case task *Integration Monitoring*. For more information, see [SAP NetWeaver Application Server for ABAP \(7.40 and higher\), including SAP BW/4HANA](../sap-netweaver-application-server-for-abap-7-40-and-higher-including-sap-bw-4hana-14001e1.md).
 
 2.  Register all systems configured for Change and Deployment Management via the ST-PI setup and enable Change and Deployment Management and Exception Monitoring.
 
@@ -526,6 +603,159 @@ You have to create an RFC connection from your production system to your source 
 
 
 You can use the RFC destination for the same system across different clients as the RFC destination is client independent. If you’re using different clients of the same source system, creating just one entry for one client is enough in this case. Please remember that the transport check doesn’t support different source systems \(with clients\) pointing to the same target system.
+
+
+
+<a name="loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc"/>
+
+## Setting up Retrofit
+
+This section is only relevant if you want to use retrofit.
+
+
+
+### Prerequisites
+
+-   You've installed at least ST-PI 740 SP31 and implemented SAP Note [3688071](https://me.sap.com/notes/3688071) and [3639096](https://me.sap.com/notes/3639096) on your development systems of your implementation and maintenance track
+
+-   Your development systems of your implementation and maintenance track have a domain link between their domain controllers or are in the same transport domain
+
+
+
+
+### 1. Upload PFCG Roles on Your Development System and Client of your Implementation Track
+
+1.  Download the `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` role template from the *Attachments* tab of SAP Note [3639096](https://me.sap.com/notes/3639096).
+
+2.  Run transaction `PFCG`.
+
+3.  Select *Role* \> *Upload*.
+
+4.  Choose the `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` role template and select *Open*.
+
+5.  Select *Transfer*.
+
+6.  Select the *Authorizations* tab and select *Continue*.
+
+7.  Select *Change Authorization Data*.
+
+8.  Make sure that all authorization objects are green and select *Generate*.
+
+9.  Keep the default *Profile* name and Text, then select *Execute*.
+
+10. Check if the *Authorizations* tab is green.
+
+
+
+
+### 2. Create RFC User Retrofit
+
+1.  On your development system and client of your implementation track, run transaction `SU01`.
+
+2.  Enter a user name and then select the *Technical User* or *User* button.
+
+    ![](images/user_24fc3aa.png)
+
+3.  Select the *Logon Data* tab. Select *User Type* for *System* and enter a password.
+
+4.  Select the *Roles* tab and assign `SAP_SDF_CALM_CDM_RETROFIT_RFC` in the *Role* column.
+
+5.  Save your changes.
+
+
+
+
+### 3. Create RFC Destination
+
+1.  On your development system of your maintenance track, run transaction `SM59.`
+
+2.  Select *Create*.
+
+3.  Enter a destination name for RFC and select connection type *3 RFC Connection to ABAP System*.
+
+4.  On the *Technical Settings* tab, enter the target system host \(development system of your implementation track\) in *Target Host*.
+
+5.  On the *Logon & Security* tab, enter the RFC user you created in *User*. In *Client*, enter the client of your target system.
+
+6.  Perform a connection and authorization test via *Utilities* \> *Test*.
+
+
+
+
+### 4. Maintain RFC Destination in Customizing Table for Retrofit
+
+1.  On your development system of your maintenance track, run transaction `SM30`.
+
+2.  Enter table name `/SDF/CMO_TARGET` and select *Edit*.
+
+3.  Select *New Entries*.
+
+4.  Enter the retrofit target system with client in the *Target* field and the RFC destination in the *RFC Destination* field.
+
+
+
+
+### 5. Assign PFCG Role
+
+In this step, you have to assign the PFCG role to the background user you used in the SAP Cloud ALM setup `/n/SDF/ALM_SETUP`.
+
+![](images/setup_5b869f1.png)
+
+1.  Download the `SAP_SDF_CALM_CDM_RETROFIT_UC.SAP` role template from the *Attachments* tab of SAP Note [3639096](https://me.sap.com/notes/3639096).
+
+2.  On your development system of your maintenance track, run transaction `PFCG`.
+
+3.  Upload the `SAP_SDF_CALM_CDM_RETROFIT_UC.SAP` role template on your development system of your maintenance track.
+
+4.  Run transaction `SU01` and assign the `SAP_SDF_CALM_CDM_RETROFIT_UC.SAP` role to the background user of the SAP Cloud ALM setup.
+
+
+
+
+### 6. Maintain Production Systems for Retrofit
+
+1.  On the development system for your maintenance track, run transaction `SE16`.
+
+2.  Enter table name `/SDF/CDM_PARAM`.
+
+3.  Add a new entry for *PARAMETER\_ID* and assign value `RETROFIT_PROD_SYS_OF_XXX.XXX` \(the XXX.XXX represents the development system ID and client of your maintenance track\).
+
+4.  For *PARAMETER\_VALUE*, assign value `XXX.XXX` \(this represents the production system ID and client of your maintenance track\). You can enter multiple production systems with delimiter “,”.
+
+5.  Save your changes.
+
+
+
+
+### 7. Maintain Analysis Period for Retrofit
+
+1.  On the development system of your implementation track, run transaction `SE16`.
+
+2.  Enter table name `/SDF/CMO_TR_CONF`.
+
+3.  Choose *Create Entries*, then select *New Entries*.
+
+4.  Select *Number of days in analysis period* for *Configuration Parameter*.
+
+5.  Mark the checkbox for *Indicator*.
+
+6.  Enter your preferred number of days for retrofit. The default is 180 days.
+
+7.  Save your changes.
+
+
+
+
+### 8. Activate Retrofit Use Case Task Transports: Retrofit \(client-specific\)
+
+1.  On your development system of your maintenance track, run transaction `/SDF/ALM_SETUP`.
+
+2.  Enter your *Target ALM Destination*.
+
+3.  Select *Activate use-cases*.
+
+4.  Activate the use case task *Transports: Retrofit \(client-specific\)*.
+
 
 
 

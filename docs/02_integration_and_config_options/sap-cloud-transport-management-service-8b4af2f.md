@@ -626,8 +626,8 @@ For export configuration, follow these steps:
 11. Save your entries.
 
 
--   **[SAP Cloud Transport Management Service and the CI/CD Use Case](sap-cloud-transport-management-service-and-the-ci-cd-use-case-235276e.md "SAP Cloud Transport Management Service and the CI/CD Use Case")**  
-SAP Cloud Transport Management Service and the CI/CD Use Case
+-   **[SAP Cloud Transport Management Service Landscape Requirements](sap-cloud-transport-management-service-landscape-requirements-235276e.md "")**  
+
 
 **Parent topic:**[Enabling Transport Management](enabling-transport-management-4b74b16.md "Learn how to enable the transport management of different transport environments for SAP Cloud ALM.")
 

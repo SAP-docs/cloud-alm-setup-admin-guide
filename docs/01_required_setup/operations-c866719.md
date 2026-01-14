@@ -3552,7 +3552,7 @@ No
 
 ## Configuration & Security Analysis
 
-The capabilities of **Configuration & Security Analysis**: **Configuration & Security Analysis - Data Stores** and **Configuration & Security Analysis - Validation have the same roles. The privileges of both the apps are listed in the table below.**
+The capabilities of **Configuration & Security Analysis**: **Configuration & Security Analysis - Data Stores** and **Configuration & Security Analysis - Validation** have the same roles. The privileges of both the apps are listed in the table below.
 
 ****
 
@@ -4590,51 +4590,7 @@ Health Monitoring
 </td>
 <td valign="top">
 
-Add metrics
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
 Configure metrics
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
-Remove metrics
 
 </td>
 <td valign="top">

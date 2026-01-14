@@ -21,9 +21,14 @@ You can monitor usage metrics related to your SAP Cloud ALM tenant, such as your
 
 ![](images/WN-TenantInfo_af0ab8a.png)
 
-To reduce your memory usage, you can change your housekeeping settings in SAP Cloud ALM for operations apps. For more information, see [Housekeeping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/housekeeping.html) on SAP Support Portal.
+> ### Note:  
+> If you've purchased the *SAP Cloud ALM, tenant extension* and used the additional memory and data transfer volume on your existing SAP Cloud ALM tenant, this is not reflected here.
+> 
+> In that case, to get an overview of your current consumption, visit the [Finance & Legal](https://me.sap.com/financelegal) dashboard on SAP for Me. In the *Consumption* tab, you can find both the subscribed value and your current consumption.
+> 
+> ![](images/Consumption_CALT_2dfda02.png)
 
-To cover extended use scenarios, you can subscribe to additional services.
+To reduce your memory usage, you can change your housekeeping settings in SAP Cloud ALM for operations apps. For more information, see [Housekeeping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/housekeeping.html) on SAP Support Portal.
 
 
 

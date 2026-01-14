@@ -1,7 +1,5 @@
 <!-- loioe21f91558ab145378c0c6de77516cec6 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Integrating SAP Central Business Configuration
 
 By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be carried out, and lets you navigate directly to SAP Central Business Configuration as needed.
@@ -33,18 +31,7 @@ To use SAP Central Business Configuration in SAP Cloud ALM, you first need to ca
 
 ### Technical Setup
 
-Create an endpoint for SAP Central Business Configuration by carrying out the following steps:
-
-1.  In the SAP Cloud ALM launchpad, open the *Administration* tab.
-
-2.  Open the *Landscape Management* app.
-
-3.  In the <span class="SAP-icons-V5"></span> *Select a Scope* dialog, make sure that the service *SAP Central Business Configuration* is selected.
-
-4.  On the *Services & Systems* page, use the search or filter options to find your SAP Central Business Configuration service and open it.
-
-5.  Under *Endpoints*, choose *Create Endpoint Automatically*.
-
+For guidance on the connection of your SAP Central Business Configuration tenant to SAP Cloud ALM, see [SAP Central Business Configuration](../sap-central-business-configuration-e1efb9e.md).
 
 Please note that you can maintain only one service and one endpoint for the integration of SAP Central Business Configuration.
 

@@ -36,7 +36,7 @@ For more information on how services and systems are connected to SAP Cloud ALM,
 > 
 > When you activate your SAP Cloud ALM tenant and register your systems and services in the *Landscape Management* app of SAP Cloud ALM, the collection of observability data is not started automatically. SAP Cloud ALM follows a central configuration approach: You need to explicitly configure the data collection processes.
 > 
-> In addition, SAP is moving from customer-managed connectivity \(established by customers\) to SAP-managed connectivity \(established by SAP\). To find out which additional steps are necessary to establish customer-managed connectivity, see [Setup Managed Services / Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html) in the operations expert portal.
+> In addition, SAP is moving from customer-managed connectivity \(established by customers\) to SAP-managed connectivity \(established by SAP\). To find out which additional steps are necessary to establish customer-managed connectivity, see [Connecting Systems and Services](https://help.sap.com/docs/cloud-alm/setup-administration/connecting-systems-and-services).
 
 
 

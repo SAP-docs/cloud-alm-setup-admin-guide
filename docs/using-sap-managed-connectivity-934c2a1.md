@@ -24,9 +24,20 @@ Once the nearest SAP Cloud ALM data-center information is fetched, actual data r
 > ### Caution:  
 > Cyber security laws are different for each region. Even if your data is transient in nature, the local laws and regulations of the regional data-center must be obliged. Before you give your consent, please consult with your legal advisory.
 
-*For example:* If the customer’s data-center is in CA10 and data collection is enabled in EU10, the data is first routed to US10 \(nearest to CA10\) and then routed to EU10. If EU10 is temporarily not available, then the data is routed to an alternate data-center and rerouted back when it is available. In this case it is EU20.![](images/SMC_4f07cb5.jpg)
+*For example:* If the customer’s data-center is in CA10 and data collection is enabled in EU10, the following occurs:
+
+1.  CA10 sends a request to EU10 for the information on the nearest data-center
+2.  CA10 receives the information that US10 is the nearest data center.
+3.  CA10 routes the data to its interim data-center, US10.
+4.  US10 checks if EU10 is available to send the data, if not data is routed to EU20.
+5.  EU20 checks if EU10 is available to send the data, else it retains the data and performs the check again after an interval.
+
+![](images/SMC_b8b9b0b.png)
 
 The below table provides an index of the managed cloud service data-centers, the connected SAP Cloud ALM data-center for data routing, and the alternative data-centers for a fallback option. The alternative data-center for resilience fallback option is for scenarios in which the connected SAP Cloud ALM data-center for data routing is temporarily not available. Please note that this list is subjected to changes as data-centers are added.
+
+> ### Note:  
+> The data-centers in the following table are supported. The list is regularly updated to accommodate the supported data-centers.
 
 
 <table>
@@ -225,7 +236,7 @@ CCC
 </td>
 <td valign="top">
 
-CN40
+CN20
 
 </td>
 <td valign="top">
@@ -271,17 +282,17 @@ EU20
 <tr>
 <td valign="top">
 
-CN20-Canary
+CN20
 
 </td>
 <td valign="top">
 
-EU12
+CN20
 
 </td>
 <td valign="top">
 
-EU20
+CN20
 
 </td>
 </tr>
@@ -293,29 +304,12 @@ CN40
 </td>
 <td valign="top">
 
-EU20
+CN20
 
 </td>
 <td valign="top">
 
-EU10
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN40-Canary
-
-</td>
-<td valign="top">
-
-EU12
-
-</td>
-<td valign="top">
-
-EU20
+CN20
 
 </td>
 </tr>
@@ -441,46 +435,12 @@ EU10
 <tr>
 <td valign="top">
 
-EU01-Canary
-
-</td>
-<td valign="top">
-
-EU12
-
-</td>
-<td valign="top">
-
-EU20
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 EU10
 
 </td>
 <td valign="top">
 
 EU10
-
-</td>
-<td valign="top">
-
-EU20
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-EU10-Canary
-
-</td>
-<td valign="top">
-
-EU12
 
 </td>
 <td valign="top">
@@ -871,7 +831,7 @@ SH6
 </td>
 <td valign="top">
 
-CN40
+CN20
 
 </td>
 <td valign="top">
@@ -1081,23 +1041,6 @@ US10-001
 <td valign="top">
 
 EU20
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-US50
-
-</td>
-<td valign="top">
-
-EU20
-
-</td>
-<td valign="top">
-
-EU10
 
 </td>
 </tr>

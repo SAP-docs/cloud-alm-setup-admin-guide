@@ -1635,6 +1635,72 @@ No
 <tr>
 <td valign="top">
 
+Transformation Project Overview
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transformation Project Overview
+
+</td>
+<td valign="top">
+
+View the transformation project details and the associated project tasks.
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transformation Project Overview
+
+</td>
+<td valign="top">
+
+Open the detail view of a task.
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Projects and Setup
 
 </td>
@@ -2597,6 +2663,260 @@ Yes
 <td valign="top">
 
 No
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio60163481d5af4e728dcd68c5ed3ab361__section_qsf_bmy_wgc"/>
+
+## Data Management
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Data Assessment Administrator
+
+</th>
+<th valign="top">
+
+Data Assessment Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Data Assessments
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Data Assessments
+
+</td>
+<td valign="top">
+
+View data assessments
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Data Assessments
+
+</td>
+<td valign="top">
+
+Create data assessments
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Data Assessments
+
+</td>
+<td valign="top">
+
+Edit data assessments
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Runs
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Runs
+
+</td>
+<td valign="top">
+
+View quality check runs
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Runs
+
+</td>
+<td valign="top">
+
+Create quality check runs
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Runs
+
+</td>
+<td valign="top">
+
+Edit quality check runs
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Analyze Data Quality
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Analyze Data Quality
+
+</td>
+<td valign="top">
+
+View the data assessment metrics and track issues.
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>

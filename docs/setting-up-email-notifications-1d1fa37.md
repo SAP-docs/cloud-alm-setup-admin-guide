@@ -2,10 +2,12 @@
 
 # Setting Up Email Notifications
 
-To make sure that users are aware of tasks or monitoring events that require their attention, you can set up two different kinds of email notifications.
+To make sure that users are aware of tasks or monitoring events that require their attention, you can set up email notifications.
 
 > ### Note:  
 > For concerns about data protection and privacy surrounding email notifications, see [Email Notifications in SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/security/email-notifications) in the Security Guide.
+
+
 
 -   **[Enabling Email Channel for In-App Notifications](enabling-email-channel-for-in-app-notifications-fbd50d1.md "You can enable the email channel for the in-app notifications that are sent by SAP
 		Cloud ALM.")**  

@@ -81,7 +81,7 @@ For more information about the Identity Authentication service, see [What are Cl
 
 <a name="loio9cdf23482443424291d536344b1bb10e__section_wcq_szl_b2c"/>
 
-## Roles and Role Collections
+## Roles, Role Collections, and Role Templates
 
 Roles in SAP Cloud ALM are delivered predefined and ready to use.
 
@@ -93,7 +93,9 @@ In general, each application role in SAP Cloud ALM represents a role collection 
 
 Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in the *Intelligent Event Processing* and *Landscape Management* apps because someone in that role also needs to be able to configure events and the landscape.
 
-For a full list of all SAP Cloud ALM roles and their corresponding role collections, see [Roles](01_required_setup/roles-e1915af.md).
+Some areas also offer role templates without a 1:1 relationship with a role collection. Before you can use these role templates, you need to assign them to a custom role collection.
+
+For a full list of all SAP Cloud ALM roles and their corresponding role collections, see [Roles](01_required_setup/roles-e1915af.md). For a list of all SAP Cloud ALM role templates and instructions on how to use them, see [Role Templates](01_required_setup/role-templates-f7294b2.md).
 
 
 
@@ -105,7 +107,7 @@ In SAP Cloud ALM, services are understood as subscribed cloud services, that is,
 
 Systems are defined as on-premise systems, that is, solutions and applications that are provided by SAP but installed and run on the premises of the company or organization using them, or in a private cloud solution.
 
-To work with your services and systems in SAP Cloud ALM, they need to be set up in the *Landscape Management* app in SAP Cloud ALM. For more information, see [Step 3: Set Up Landscape Management](01_required_setup/step-3-set-up-landscape-management-23f1c49.md) and [Setup Managed Components](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services.html).
+To work with your services and systems in SAP Cloud ALM, they need to be set up in the *Landscape Management* app in SAP Cloud ALM. For more information, see [Step 3: Set Up Landscape Management](01_required_setup/step-3-set-up-landscape-management-23f1c49.md) and [Connecting Systems and Services](connecting-systems-and-services-31159aa.md).
 
 However, you have full control over which data is transferred from your services and systems to SAP Cloud ALM. When you activate your SAP Cloud ALM tenant and register your systems and services in the *Landscape Management* app of SAP Cloud ALM, the collection of observability data is not started automatically. SAP Cloud ALM follows a central configuration approach: You need to explicitly configure the data collection processes.
 

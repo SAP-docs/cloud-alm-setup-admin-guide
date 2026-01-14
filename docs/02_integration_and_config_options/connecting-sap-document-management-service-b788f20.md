@@ -110,7 +110,7 @@ The following video guides you through the SAP BTP DMS onboarding process.
 
 2.  When you've established the connection, it can take up to 5 minutes before you can start uploading external files with the *Documents* app in SAP Cloud ALM. Choose *External File* on the object page of a document, and you see the following:
 
-    ![](images/External_File_d05b6c9.jpg)
+    ![](images/External_File_d05b6c9.png)
 
 
 You can now start to use the [External Files](https://help.sap.com/docs/cloud-alm/applicationhelp/external-files) feature in the *Documents* app of SAP Cloud ALM.

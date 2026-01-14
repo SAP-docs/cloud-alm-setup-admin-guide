@@ -12,6 +12,9 @@ It combines the application lifecycle management capabilities of SAP Cloud ALM w
 
 Before you can start your automated testing activities, a Tricentis tenant needs to be set up and connected to SAP Cloud ALM for you.
 
+> ### Note:  
+> Tricentis Test Automation for SAP integrated with SAP Cloud ALM is currently not available in tenants located in the region *China: North 3*.
+
 
 
 <a name="loio2bddb584d07d4833b7e33454c3c4a79d__section_bc3_rq2_3fc"/>

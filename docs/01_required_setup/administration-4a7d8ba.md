@@ -462,6 +462,48 @@ Landscape Management
 </td>
 <td valign="top">
 
+Perform central clean-up
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
 Add and delete endpoints
 
 </td>
@@ -546,7 +588,7 @@ Landscape Management
 </td>
 <td valign="top">
 
-Perform SLIS import
+Import SAP services \(Ad-hoc Import\)
 
 </td>
 <td valign="top">
@@ -556,69 +598,27 @@ Yes
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
 
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Landscape Management
-
-</td>
-<td valign="top">
-
-Import SAP services
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
+No
 
 </td>
 </tr>
@@ -661,48 +661,6 @@ Yes
 <td valign="top">
 
 Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Landscape Management 
-
-</td>
-<td valign="top">
-
-Delete imported customer numbers
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
 
 </td>
 </tr>
@@ -882,7 +840,7 @@ Landscape Management
 </td>
 <td valign="top">
 
-View landscape synchronization
+View SAP Focused Run landscape synchronization status
 
 </td>
 <td valign="top">
@@ -924,7 +882,7 @@ Landscape Management
 </td>
 <td valign="top">
 
-Start landscape synchronization
+Start SAP Focused Run landscape synchronization
 
 </td>
 <td valign="top">
@@ -1386,6 +1344,48 @@ Landscape Management
 </td>
 <td valign="top">
 
+Create and edit customer units
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
 View attribute-based access control
 
 </td>
@@ -1554,7 +1554,7 @@ Landscape Management
 </td>
 <td valign="top">
 
-Edit access control user assignment
+Edit if user is affected by access control
 
 </td>
 <td valign="top">
@@ -2829,6 +2829,28 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+User Management
+
+</td>
+<td valign="top">
+
+Update the identity provider configuration
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>

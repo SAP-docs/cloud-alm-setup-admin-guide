@@ -39,7 +39,7 @@ Here, you can manage your service credentials as follows:
 
 ## Uploading Service Credentials
 
-If no service credentials have been uploaded yet, you can add it as follows:
+If no service credentials have been uploaded to SAP Cloud ALM yet, you can add them manually. To access your credentials in the SAP BTP cockpit, you need administrator permissions in the global account and the subaccount.
 
 1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/).
 

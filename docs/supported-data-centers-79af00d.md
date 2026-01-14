@@ -64,6 +64,23 @@ Canada \(Montreal\) – `cf-ca10`
 <tr>
 <td valign="top">
 
+China: North 3
+
+</td>
+<td valign="top">
+
+China \(North 3\) – `cf-cn20` 
+
+</td>
+<td valign="top">
+
+This region is only available for customers based in China.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Germany: Frankfurt
 
 </td>

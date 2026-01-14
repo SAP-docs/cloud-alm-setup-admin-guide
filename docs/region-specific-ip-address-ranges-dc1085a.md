@@ -37,12 +37,12 @@ Refer to the IP address ranges listed under [Regions and API Endpoints Available
 <tr>
 <th valign="top">
 
-Region Name on SAP for Me
+Region Name of Your SAP Cloud ALM Tenant on SAP for Me
 
 </th>
 <th valign="top">
 
-Region Name on SAP BTP
+Region Name of Your SAP Cloud ALM Tenant on SAP BTP
 
 </th>
 <th valign="top">
@@ -82,6 +82,23 @@ Canada \(Montreal\) – `cf-ca10`
 <td valign="top">
 
 15.156.129.170, 15.156.178.7, 15.157.147.5, 15.157.201.135, 15.157.217.66, 15.157.219.64, 15.222.108.177, 15.222.129.179, 15.222.215.55, 15.222.227.127, 15.222.71.77, 3.96.75.199, 3.97.104.33, 3.97.136.43, 3.97.146.62, 3.97.164.139, 3.97.241.146, 3.98.100.88, 3.98.156.54, 3.98.242.58, 3.98.48.74, 35.182.184.107, 35.182.3.215, 35.183.172.216, 35.183.175.89, 35.183.191.152, 35.183.201.214, 35.183.242.37, 52.60.164.123, 99.79.108.153
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+China: North 3
+
+</td>
+<td valign="top">
+
+China \(North 3\) – `cf-cn20` 
+
+</td>
+<td valign="top">
+
+40.162.10.196, 40.162.11.40, 40.162.25.28, 40.162.26.57
 
 </td>
 </tr>

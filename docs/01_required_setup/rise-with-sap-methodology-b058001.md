@@ -1,6 +1,6 @@
 <!-- loiob05800100570426a8f2de9dd80ac5adf -->
 
-# RISE with SAP
+# RISE with SAP Methodology
 
 In the following sections, you can find detailed breakdowns of all roles related to RISE with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
 
@@ -50,6 +50,11 @@ Action
 System Dashboard Viewer
 
 </th>
+<th valign="top">
+
+System Dashboard Administrator
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -59,7 +64,12 @@ System View
 </td>
 <td valign="top">
 
-View the RISE with SAP page
+View the RISE with SAP Methodology page
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -84,6 +94,11 @@ Access the app
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -94,6 +109,11 @@ System View
 <td valign="top">
 
 Search and select for eligible systems
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -118,6 +138,11 @@ View software stack information
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -128,6 +153,11 @@ System View
 <td valign="top">
 
 View status of clean-core-related data collection tools
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -150,6 +180,143 @@ View different KPIs
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System View
+
+</td>
+<td valign="top">
+
+Manage display of extensibility-related data
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System View
+
+</td>
+<td valign="top">
+
+File import of check results created in the ABAP Test Cockpit
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System View
+
+</td>
+<td valign="top">
+
+Navigate to the Customer Objects app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Customer Objects
+
+</td>
+<td valign="top">
+
+View the RISE with SAP Methodology page
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Customer Objects
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Customer Objects
+
+</td>
+<td valign="top">
+
+View detailed information about a system's customer objects
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -190,7 +357,7 @@ Operations View
 </td>
 <td valign="top">
 
-View the RISE with SAP page
+View the RISE with SAP Methodology page
 
 </td>
 <td valign="top">
