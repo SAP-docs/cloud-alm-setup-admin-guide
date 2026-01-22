@@ -12,10 +12,10 @@ SAP NetWeaver Application Server for ABAP \(7.40 or higher\) can be an SAP S/4HA
 
 To use the Change and Transport System \(CTS\) for SAP S/4HANA Cloud Private Edition and SAP NetWeaver Application Server for ABAP on-premise in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the CTS.
 
+Currently any kind of consistent Transport Management System \(TMS\) landscape is supported. Please note that the *Features* app always considers the last system in your landscape configuration as the production system. For more information, see [How the Features App Determines the Roles of Your Systems](https://help.sap.com/docs/cloud-alm/applicationhelp/features-status-flow#how-the-features-app-determines-the-roles-of-your-systems).
+
 > ### Note:  
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner. For more information, see SAP Note [3429058](https://me.sap.com/notes/3429058).
-
-Currently any kind of consistent Transport Management System \(TMS\) landscape is supported. The last system in a track is always treated as a production system.
 
 > ### Note:  
 > It's mandatory to set **CTC=1** to enable the Export Transport Control for imports into different systems and clients other than the export system and client. For more information, see [Extended Transport Control](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html).

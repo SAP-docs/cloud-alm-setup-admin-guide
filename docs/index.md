@@ -38,6 +38,7 @@
     -   [SAP Automation Pilot](sap-automation-pilot-60f0977.md)
         -   [Configure SAP Automation Pilot for Operation Automation](configure-sap-automation-pilot-for-operation-automation-1441c68.md)
     -   [SAP Batch Release Hub for Life Sciences](sap-batch-release-hub-for-life-sciences-481ff40.md)
+    -   [SAP Business Network](sap-business-network-c98bf84.md)
     -   [SAP Business Network for Procurement \(old: SAP Ariba Network\)](sap-business-network-for-procurement-old-sap-ariba-network-1edae06.md)
     -   [SAP Business Network Supply Chain Collaboration, clinical trials add-on](sap-business-network-supply-chain-collaboration-clinical-trials-add-on-8637dcf.md)
     -   [SAP Broker Reconciliation for Commodity Derivatives](sap-broker-reconciliation-for-commodity-derivatives-aca4a45.md)

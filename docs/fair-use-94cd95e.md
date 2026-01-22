@@ -6,9 +6,9 @@ SAP Cloud ALM is included in cloud subscriptions with SAP Enterprise Support as 
 
 Sufficient resources for standard use are included, per default:
 
--   SAP HANA memory: 8 GB
+-   SAP HANA memory: 24 GB
 
--   API usage: 8 GB outbound data transfer per month
+-   API usage: 24 GB outbound data transfer per month
 
 -   Cloud operations at SAP
 
@@ -19,7 +19,7 @@ Sufficient resources for standard use are included, per default:
 
 You can monitor usage metrics related to your SAP Cloud ALM tenant, such as your memory consumption and your outbound API usage, in the *Tenant Information* app.
 
-![](images/WN-TenantInfo_af0ab8a.png)
+![](images/WN-TenantInfo_af0ab8a.jpg)
 
 > ### Note:  
 > If you've purchased the *SAP Cloud ALM, tenant extension* and used the additional memory and data transfer volume on your existing SAP Cloud ALM tenant, this is not reflected here.
@@ -36,7 +36,7 @@ To reduce your memory usage, you can change your housekeeping settings in SAP Cl
 
 ## SAP Cloud ALM, Tenant Extension
 
-For additional memory usage, beyond the standard, you can subscribe to *SAP Cloud ALM, tenant extension*. This service provides you with an additional SAP Cloud ALM tenant, which comes with 8 GB of SAP HANA memory and 8 GB of monthly outbound API data transfer.
+For additional memory usage, beyond the standard, you can subscribe to *SAP Cloud ALM, tenant extension*. This service provides you with an additional 24 GB of SAP HANA memory and 24 GB of monthly outbound API data transfer, which you can either use on your existing SAP Cloud ALM tenant or on a new SAP Cloud ALM tenant.
 
 For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md).
 

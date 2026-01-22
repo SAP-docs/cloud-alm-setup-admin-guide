@@ -16,7 +16,7 @@ Roles in SAP Cloud ALM are delivered predefined and ready to use.
 
 In general, each application role in SAP Cloud ALM represents a role collection in your SAP BTP subaccount. This means that most SAP Cloud ALM role collections correspond 1:1 to the respective role template and can be assigned to users without any further configuration.
 
-Each application role contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Health Monitoring Administrator* also contains authorizations in the *Intelligent Event Processing* and *Landscape Management* apps because someone in that role also needs to be able to configure events and the landscape.
+Most application roles contains all the necessary authorizations that are required for all tasks that belong to a certain business role, rather than being confined to a single task. For example, the role *Project Administrator* doesn't just contain authorizations in the *Projects and Setup* app but also in other apps that are typically used as part of an implementation project.
 
 
 
@@ -1848,7 +1848,7 @@ System View
 </td>
 <td valign="top">
 
-View software stack information and different KPIs related to the clean core compliance of your systems
+View different KPIs related to the clean core compliance of your systems and customer object details
 
 </td>
 <td valign="top">

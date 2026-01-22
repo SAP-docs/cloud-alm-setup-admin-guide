@@ -86,6 +86,28 @@ Tools and Technologies
 <tr>
 <td valign="top">
 
+SAP Best Practices for SAP Integrated Business Planning
+
+</td>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+SAP Logistics Management
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Private Edition 
 
 </td>
@@ -1780,7 +1802,29 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-More under [SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-84602a5.md)
+More under [SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-84602a5.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Business Network
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Business Network](sap-business-network-c98bf84.md).
 
 </td>
 </tr>
@@ -3455,6 +3499,56 @@ Business Process Monitoring
 Custom KPIs
 
 More under [Setting Up Custom KPIs](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/ebd1a39f66bf4780905ffd576435ea03.html "In addition to the predefined standard KPIs provided out of the box by business process monitoring, you can create up to 15 custom KPIs.") :arrow_upper_right:.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Commodity expense management 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+> ### Note:  
+> The KPIs belonging to this solution are not part of the standard end-to-end processes. To monitor these KPIs, you first need to create a custom process and assign them to it, as described in [Creating Custom Processes](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/372d08d908af48dd80d93cd5a202b3f6.html "If the predefined standard processes don't reflect your organization, you can create custom ones.") :arrow_upper_right:.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Foreign exchange risk management for commodity businesses
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+> ### Note:  
+> The KPIs belonging to this solution are not part of the standard end-to-end processes. To monitor these KPIs, you first need to create a custom process and assign them to it, as described in [Creating Custom Processes](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/372d08d908af48dd80d93cd5a202b3f6.html "If the predefined standard processes don't reflect your organization, you can create custom ones.") :arrow_upper_right:.
+
+
 
 </td>
 </tr>

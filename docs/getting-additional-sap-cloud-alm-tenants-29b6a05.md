@@ -8,15 +8,15 @@ Here's what you get by purchasing a tenant extension:
 
 -   An entitlement for one additional SAP Cloud ALM tenant
 
--   An additional 8 GB of SAP HANA memory
+-   An additional 24 GB of SAP HANA memory
 
--   An additional 8 GB of monthly outbound API data transfer
+-   An additional 24 GB of monthly outbound API data transfer
 
 -   An entitlement for an additional Tricentis test automation for SAP tenant that is integrated with your additional tenant
 
 
 > ### Note:  
-> You don't have to request the provisioning of your additional SAP Cloud ALM tenant. Instead, you can also use the additional memory and data transfer volume on your existing SAP Cloud ALM tenant.
+> You don't have to request the provisioning of your additional SAP Cloud ALM tenant. Instead, you can also use the additional resources on your existing SAP Cloud ALM tenant.
 > 
 > Each additional SAP Cloud ALM tenant will be provisioned in its own dedicated SAP BTP global account.
 
@@ -45,7 +45,7 @@ You can purchase the *SAP Cloud ALM, tenant extension* by getting in touch with 
 
 Then, you have the following options on how to use the additional quota:
 
--   Request the provisioning of an additional SAP Cloud ALM tenant on SAP for Me, as described in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
+-   If you want an additional SAP Cloud ALM tenant, start the provisioning on SAP for Me, as described in [Requesting SAP Cloud ALM](requesting-sap-cloud-alm-2ba35e6.md).
 
 -   If you want to use the additional memory and data transfer volume on your existing SAP Cloud ALM tenant, no further action is required. They're automatically applied to your SAP Cloud ALM tenant.
 

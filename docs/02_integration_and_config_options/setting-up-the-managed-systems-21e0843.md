@@ -623,7 +623,7 @@ This section is only relevant if you want to use retrofit.
 
 
 
-### 1. Upload PFCG Roles on Your Development System and Client of your Implementation Track
+### 1. Upload PFCG Roles on Your Development System and Client of Your Implementation Track
 
 1.  Download the `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` role template from the *Attachments* tab of SAP Note [3639096](https://me.sap.com/notes/3639096).
 
@@ -648,7 +648,7 @@ This section is only relevant if you want to use retrofit.
 
 
 
-### 2. Create RFC User Retrofit
+### 2. Create RFC User for Retrofit
 
 1.  On your development system and client of your implementation track, run transaction `SU01`.
 

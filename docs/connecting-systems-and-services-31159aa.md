@@ -50,6 +50,9 @@ This document provides guidance on connecting SAP Automation Pilot to SAP Cloud 
 			SAP Cloud ALM for monitoring
 		purposes.")**  
 This document provides guidance on connecting SAP Batch Release Hub for Life Sciences to SAP Cloud ALM for monitoring purposes.
+-   **[SAP Business Network](sap-business-network-c98bf84.md "This document provides guidance on connecting SAP Business Network to SAP Cloud ALM for monitoring
+		purposes.")**  
+This document provides guidance on connecting SAP Business Network to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Business Network for Procurement \(old: SAP Ariba Network\)](sap-business-network-for-procurement-old-sap-ariba-network-1edae06.md "This document provides guidance on connecting SAP Business Network for
                         Procurement to SAP Cloud ALM for monitoring
     purposes.")**  

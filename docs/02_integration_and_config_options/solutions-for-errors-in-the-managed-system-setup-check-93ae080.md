@@ -1402,3 +1402,180 @@ Trusted RFC &1 isn't allowed
 </tr>
 </table>
 
+
+
+## Retrofit Configuration Checks
+
+The following table shows error messages that can occur during the retrofit configuration and how to resolve them:
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Error Message
+
+</th>
+<th valign="top">
+
+Message Explanation
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Production system information isn't configured for retrofit in table `/SDF/CDM_PARAM` 
+
+</td>
+<td valign="top">
+
+See *6. Maintain Production Systems for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the production systems for retrofit.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Retrofit production system configuration in table `/SDF/CDM_PARAM`has been validated
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Invalid production system is configured for Retrofit in table `/SDF/CDM_PARAM` 
+
+</td>
+<td valign="top">
+
+See *6. Maintain Production Systems for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the production systems for retrofit.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RFC configuration is missing in view `/SDF/CMO_TARGET` for retrofit
+
+</td>
+<td valign="top">
+
+See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RFC destination is missing in view `/SDF/CMO_TARGET` for target &1
+
+</td>
+<td valign="top">
+
+See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The configured RFC &1 in the table view `/SDF/CMO_TARGET` has no user assigned.
+
+</td>
+<td valign="top">
+
+See *2. Create RFC User for Retrofit* and *3. Create RFC Destination* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Trusted RFC &1 isn't allowed
+
+</td>
+<td valign="top">
+
+See *3. Create RFC Destination* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+
+On the tab *Logon and Security*, navigate to *Logon Procedure*. In the field *Trust Relationship*, set *No* for *Trust Relationship* of RFC &1.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The configured RFC &1 in the table view `/SDF/CMO_TARGET` doesn’t exist.
+
+</td>
+<td valign="top">
+
+See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Other errors returned from RFC\_READ\_R3\_DESTINATION that we can't predict
+
+</td>
+<td valign="top">
+
+No immediate solution is available. Search for similar issues with the SAP4Me help search or open a ticket at [SAP For Me](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fme.sap.com%2Fgetassistance%2Foverview)
+
+with component *SV-CLM-IMP-FTR*.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   Not authorized to call `TMW_ADJUST_ORIGINAL_SYSTEM` with configured RFC &1
+
+-   Not authorized to call `TMW_COPY_TO_TARGET_REQUEST` with configured RFC &1
+
+-   Not authorized to call `/SDF/CALM_CDM_RETRO_DELTOC` with configured RFC &1
+
+-   Not authorized to call `/SDF/CALM_CDM_CSOL_FOR_RETRO` with configured RFC &1
+
+-   Not authorized to call `/SDF/CALM_CDM_RETRO_GETLAYER` with configured RFC &1
+
+-   Not authorized to call `SDF/CALM_CDM_RETRO_SETTRATTR` with configured RFC &1
+
+-   Not authorized to call `TMW_IMPORT_REQUESTS` with configured RFC &1
+
+
+
+
+</td>
+<td valign="top">
+
+The authorization for retrofit is missing, or function code for retrofit is not ready.
+
+Check the *Prerequisites* and *1. Upload PFCG Roles on Your Development System and Clkient of Your Implementation Track* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Retrofit RFC configuration in view &1 has been validated successfully.
+
+</td>
+<td valign="top">
+
+Confirmation message. No action is needed.
+
+</td>
+</tr>
+</table>
+

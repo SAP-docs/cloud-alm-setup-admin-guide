@@ -10,9 +10,9 @@ Before you request your own SAP Cloud ALM tenant, read up on the following topic
 
 -   [Supported Data Centers](supported-data-centers-79af00d.md): Find out which regions and data centers are available for SAP Cloud ALM.
 
--   [Fair Use](fair-use-94cd95e.md): See which resources in SAP Cloud ALM you're entitled to.
-
 -   [Availability](availability-288d15a.md): Learn about the technical prerequisites of SAP Cloud ALM, the available system languages, regions \(data centers\), and EU and NS2 access.
+
+-   [Fair Use](fair-use-94cd95e.md): See which resources in SAP Cloud ALM you're entitled to.
 
 -   [General Concepts](general-concepts-9cdf234.md): Learn about the basic concepts related to the setup and administration of SAP Cloud ALM.
 

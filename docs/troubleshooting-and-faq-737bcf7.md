@@ -1044,7 +1044,7 @@ You want to get additional memory usage and data transfer volume for your SAP Cl
 </td>
 <td valign="top">
 
-By purchasing the *SAP Cloud ALM, tenant extension*, you're entitled to an additional 8 GB of SAP HANA memory and 8 GB of monthly outbound API data transfer.
+By purchasing the *SAP Cloud ALM, tenant extension*, you're entitled to an additional 24 GB of SAP HANA memory and 24 GB of monthly outbound API data transfer.
 
 If you do not request the provisioning of an additional SAP Cloud ALM tenant, the associated resources are automatically used on your existing SAP Cloud ALM tenant. No further action is required.
 

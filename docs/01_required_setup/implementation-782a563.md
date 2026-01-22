@@ -3439,7 +3439,7 @@ Test Preparation
 </td>
 <td valign="top">
 
-Create and edit test cases
+Create, edit, and upload test cases
 
 </td>
 <td valign="top">
