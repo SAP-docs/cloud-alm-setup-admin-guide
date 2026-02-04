@@ -1432,7 +1432,7 @@ Production system information isn't configured for retrofit in table `/SDF/CDM_P
 </td>
 <td valign="top">
 
-See *6. Maintain Production Systems for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the production systems for retrofit.
+See *6. Maintain Production Systems for Retrofit* in [Setting up Retrofit](https://help.sap.com/docs/cloud-alm/setup-administration/setting-up-managed-systems#setting-up-retrofit) on how to configure the production systems for retrofit.
 
 </td>
 </tr>
@@ -1456,7 +1456,7 @@ Invalid production system is configured for Retrofit in table `/SDF/CDM_PARAM`
 </td>
 <td valign="top">
 
-See *6. Maintain Production Systems for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the production systems for retrofit.
+See *6. Maintain Production Systems for Retrofit* in [Setting up Retrofit](https://help.sap.com/docs/cloud-alm/setup-administration/setting-up-managed-systems#setting-up-retrofit) on how to configure the production systems for retrofit.
 
 </td>
 </tr>
@@ -1468,7 +1468,7 @@ RFC configuration is missing in view `/SDF/CMO_TARGET` for retrofit
 </td>
 <td valign="top">
 
-See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](https://help.sap.com/docs/cloud-alm/setup-administration/setting-up-managed-systems#setting-up-retrofit) on how to configure the RFC destination.
 
 </td>
 </tr>
@@ -1480,7 +1480,7 @@ RFC destination is missing in view `/SDF/CMO_TARGET` for target &1
 </td>
 <td valign="top">
 
-See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](https://help.sap.com/docs/cloud-alm/setup-administration/setting-up-managed-systems#setting-up-retrofit) on how to configure the RFC destination.
 
 </td>
 </tr>
@@ -1492,7 +1492,7 @@ The configured RFC &1 in the table view `/SDF/CMO_TARGET` has no user assigned.
 </td>
 <td valign="top">
 
-See *2. Create RFC User for Retrofit* and *3. Create RFC Destination* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+See *2. Create RFC User for Retrofit* and *3. Create RFC Destination* in [Setting up Retrofit](https://help.sap.com/docs/cloud-alm/setup-administration/setting-up-managed-systems#setting-up-retrofit) on how to configure the RFC destination.
 
 </td>
 </tr>
@@ -1518,7 +1518,7 @@ The configured RFC &1 in the table view `/SDF/CMO_TARGET` doesn’t exist.
 </td>
 <td valign="top">
 
-See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc) on how to configure the RFC destination.
+See *3. Create RFC Destination* and *4. Maintain RFC Destination in Customizing Table for Retrofit* in [Setting up Retrofit](https://help.sap.com/docs/cloud-alm/setup-administration/setting-up-managed-systems#setting-up-retrofit) on how to configure the RFC destination.
 
 </td>
 </tr>
@@ -1561,7 +1561,7 @@ with component *SV-CLM-IMP-FTR*.
 
 The authorization for retrofit is missing, or function code for retrofit is not ready.
 
-Check the *Prerequisites* and *1. Upload PFCG Roles on Your Development System and Clkient of Your Implementation Track* in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc).
+Check the *Prerequisites* and *1. Upload PFCG Roles on Your Development System and Client of Your Implementation Track* in [Setting up Retrofit](https://help.sap.com/docs/cloud-alm/setup-administration/setting-up-managed-systems#setting-up-retrofit).
 
 </td>
 </tr>
@@ -1574,6 +1574,88 @@ Retrofit RFC configuration in view &1 has been validated successfully.
 <td valign="top">
 
 Confirmation message. No action is needed.
+
+</td>
+</tr>
+</table>
+
+
+
+## Prerequisites Check for Export Checks
+
+The system performs a check of the prerequisites of the activated use case tasks and provides information in case of errors.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Error Message
+
+</th>
+<th valign="top">
+
+Message Explanation
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP\_BASIS Version is lower than the minimum version ST740 SP13.
+
+</td>
+<td valign="top">
+
+SAP Basis version of the system does not meet the required version. For more information, [Prerequisites for Export Checks](https://help.sap.com/docs/cloud-alm/applicationhelp/transport-checks#prerequisites-for-export-checks).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP\_BASIS Version check failed.
+
+</td>
+<td valign="top">
+
+No immediate solution is available. Please search for similar issues with the SAP4Me help search or open a ticket at [SAP For Me](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fme.sap.com%2Fgetassistance%2Foverview) with component *SV-CLM-IMP-FTR*.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ATC SAP Note [3569187](https://me.sap.com/notes/3569187) is not implemented in this system
+
+</td>
+<td valign="top">
+
+SAP Note for export check is not implemented in the system. See [Prerequisites for Export Checks](https://help.sap.com/docs/cloud-alm/applicationhelp/transport-checks#prerequisites-for-export-checks) for the required SAP Notes.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Read ATC check flag failed. ATC is switched off.
+
+</td>
+<td valign="top">
+
+ATC functionality does not exist in the system. For more information, [Quality Checking with the ABAP Test Cockpit \(ATC\)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/62c41ad841554516bb06fb3620540e47.html?version=202510.000).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP\_BASIS version successfully checked.
+
+</td>
+<td valign="top">
+
+Confirmation message. No action needed.
 
 </td>
 </tr>

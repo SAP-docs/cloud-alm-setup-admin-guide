@@ -338,6 +338,43 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
+View the memory consumption by service and system
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
 Export configuration data
 
 </td>

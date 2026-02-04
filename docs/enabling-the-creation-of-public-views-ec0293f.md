@@ -21,7 +21,7 @@ Your user has the role *Subaccount Administrator* in the subaccount that contain
 
 ## Procedure
 
-1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/).
+1.  Open the [SAP BTP cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/access-cockpit).
 
 2.  In the global account that contains your SAP Cloud ALM entitlement, open the subaccount that contains your SAP Cloud ALM subscription.
 

@@ -15,11 +15,6 @@ To integrate certain products or connect on-premise systems with SAP Cloud ALM, 
 		order in which the tasks need to be carried out, and lets you navigate directly to SAP
 		Central Business Configuration as needed.")**  
 By integrating SAP Central Business Configuration with SAP Cloud ALM, you can import roadmap content into the *Tasks* app. This helps you understand the order in which the tasks need to be carried out, and lets you navigate directly to SAP Central Business Configuration as needed.
--   **[Integrating the Cloud Integration Automation Service](integrating-the-cloud-integration-automation-service-eafcc2f.md "The Cloud Integration Automation service (CIAS) provides you with a
-		guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud
-		solutions. The guided workflow contains instructions for manual and automated tasks to
-		enable an easy and quick integration configuration setup.")**  
-The Cloud Integration Automation service \(CIAS\) provides you with a guided workflow to integrate SAP cloud solutions to on-premise and other SAP cloud solutions. The guided workflow contains instructions for manual and automated tasks to enable an easy and quick integration configuration setup.
 -   **[Enabling Transport Management](enabling-transport-management-4b74b16.md "Learn how to enable the transport management of different transport environments for SAP
 		Cloud ALM. ")**  
 Learn how to enable the transport management of different transport environments for SAP Cloud ALM.

@@ -17,7 +17,7 @@ Currently, products that are related to SAP Build Work Zone support the followin
 
 
 
-<a name="loiodcd20b57b7124f67a64e3dab44671893__d62e413"/>
+<a name="loiodcd20b57b7124f67a64e3dab44671893__d64e466"/>
 
 ## Setup in SAP Build Work Zone
 
@@ -46,7 +46,7 @@ Iframe-embedded applications, such as SAP Fiori applications from on-premise sys
 
 
 
-<a name="loiodcd20b57b7124f67a64e3dab44671893__d62e492"/>
+<a name="loiodcd20b57b7124f67a64e3dab44671893__d64e545"/>
 
 ## Setup in SAP Cloud ALM
 

@@ -844,7 +844,7 @@ Project Management
 </td>
 <td valign="top">
 
-Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/features#roles-and-authorizations)\), documents, test cases, and defects. View projects, deployment plans, SAP Readiness Check analyses, and process hierarchy nodes.
+Manage tasks, scopes, requirements, features \([with restrictions](https://help.sap.com/docs/cloud-alm/applicationhelp/roles-and-authorizations)\), documents, test cases, and defects. View projects, deployment plans, SAP Readiness Check analyses, and process hierarchy nodes.
 
 The permissions of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
 
@@ -2265,10 +2265,9 @@ In the following sections, you can find detailed breakdowns of all roles related
 		Cloud ALM for service, mapped to the individual actions they allow users to
 		perform.")**  
 In the following sections, you can find detailed breakdowns of all roles related to SAP Cloud ALM for service, mapped to the individual actions they allow users to perform.
--   **[Administration](administration-4a7d8ba.md "In the following sections, you can find detailed breakdowns of all administrative
-		roles in SAP Cloud ALM, mapped to the individual actions they allow users to
-		perform.")**  
-In the following sections, you can find detailed breakdowns of all administrative roles in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
+-   **[Cross Topics](cross-topics-4a7d8ba.md "In the following sections, you can find detailed breakdowns of all cross-topic roles in
+		SAP Cloud ALM, mapped to the individual actions they allow users to perform.")**  
+In the following sections, you can find detailed breakdowns of all cross-topic roles in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
 -   **[RISE with SAP Methodology](rise-with-sap-methodology-b058001.md "In the following sections, you can find detailed breakdowns of all roles related to RISE
 		with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to
 		perform.")**  

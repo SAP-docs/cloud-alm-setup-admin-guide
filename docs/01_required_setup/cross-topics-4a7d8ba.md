@@ -1,8 +1,8 @@
 <!-- loio4a7d8bae7e97456680aefde78805b372 -->
 
-# Administration
+# Cross Topics
 
-In the following sections, you can find detailed breakdowns of all administrative roles in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
+In the following sections, you can find detailed breakdowns of all cross-topic roles in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
 
 
 

@@ -722,12 +722,17 @@ In this step, you have to assign the PFCG role to the background user you used i
 
 4.  For *PARAMETER\_VALUE*, assign value `XXX.XXX` \(this represents the production system ID and client of your maintenance track\). You can enter multiple production systems with delimiter “,”.
 
+    > ### Note:  
+    > This parameter value is used to exclude transports which have already been synchronized to the maintenance track.
+
 5.  Save your changes.
 
 
 
 
 ### 7. Maintain Analysis Period for Retrofit
+
+This analysis period determines the time frame of the conflict determination for the retrofit categorization. For more information, see [Conflict Determination for Categorization](https://help.sap.com/docs/cloud-alm/applicationhelp/retrofit-categories#conflict-determination-for-categorization).
 
 1.  On the development system of your implementation track, run transaction `SE16`.
 
@@ -741,6 +746,9 @@ In this step, you have to assign the PFCG role to the background user you used i
 
 6.  Enter your preferred number of days for retrofit. The default is 180 days.
 
+    > ### Note:  
+    > This means only transport requests which have been modified on your development system of your implementation track within this period are selected for the retrofit calculation.
+
 7.  Save your changes.
 
 
@@ -748,13 +756,13 @@ In this step, you have to assign the PFCG role to the background user you used i
 
 ### 8. Activate Retrofit Use Case Task Transports: Retrofit \(client-specific\)
 
-1.  On your development system of your maintenance track, run transaction `/SDF/ALM_SETUP`.
+1.  On your development system of your maintenance track, run transaction `/n/SDF/ALM_SETUP`.
 
 2.  Enter your *Target ALM Destination*.
 
 3.  Select *Activate use-cases*.
 
-4.  Activate the use case task *Transports: Retrofit \(client-specific\)*.
+4.  Activate the use case task *Transports: Retrofit \(client-specific\)* with your preferred interval.
 
 
 

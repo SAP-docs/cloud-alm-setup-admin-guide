@@ -33,7 +33,7 @@ If you don't have this role, the global account administrator can assign it to y
 
 An entitlement is your right to provision and consume a resource. In other words, entitlements are the service plans that you're entitled to use.
 
-1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/).
+1.  Open the [SAP BTP cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/access-cockpit).
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement and open the subaccount that contains your SAP Cloud ALM subscription.
 

@@ -3530,31 +3530,6 @@ Business Process Monitoring
 <tr>
 <td valign="top">
 
-Foreign exchange risk management for commodity businesses
-
-</td>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Business Process Monitoring
-
-</td>
-<td valign="top">
-
-> ### Note:  
-> The KPIs belonging to this solution are not part of the standard end-to-end processes. To monitor these KPIs, you first need to create a custom process and assign them to it, as described in [Creating Custom Processes](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/372d08d908af48dd80d93cd5a202b3f6.html "If the predefined standard processes don't reflect your organization, you can create custom ones.") :arrow_upper_right:.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SAP Revenue Growth Management
 
 </td>

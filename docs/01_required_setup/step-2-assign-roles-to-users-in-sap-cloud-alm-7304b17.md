@@ -175,7 +175,7 @@ The roles in SAP Cloud ALM are available as role collections in your subaccount 
 
 ### Procedure
 
-1.  Open the [SAP BTP cockpit](https://cockpit.btp.cloud.sap/).
+1.  Open the [SAP BTP cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/access-cockpit).
 
 2.  Select the global account that contains your SAP Cloud ALM entitlement, which was created when you requested SAP Cloud ALM.
 

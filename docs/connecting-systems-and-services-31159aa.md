@@ -21,11 +21,6 @@ This document provides guidance on connecting SAP Analytics Cloud to SAP Cloud A
 -   **[SAP Ariba Category Management](sap-ariba-category-management-392e3f8.md "This document provides guidance on connecting SAP Ariba Category Management to SAP Cloud ALM for monitoring
 		purposes.")**  
 This document provides guidance on connecting SAP Ariba Category Management to SAP Cloud ALM for monitoring purposes.
--   **[SAP Integration Suite, managed gateway for spend management and SAP Business Network](sap-integration-suite-managed-gateway-for-spend-management-and-sap-business-network-52e38d8.md "This document provides guidance on connecting SAP Integration Suite, managed gateway
-                                for spend management and SAP Business Network to
-            SAP Cloud ALM for monitoring
-        purposes.")**  
-This document provides guidance on connecting SAP Integration Suite, managed gateway for spend management and SAP Business Network to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Ariba contract price renegotiation add-on](sap-ariba-contract-price-renegotiation-add-on-8780857.md "This document provides guidance on connecting SAP Ariba contract price renegotiation
                                 add-on add-on to SAP Cloud ALM, for monitoring
 		purposes.")**  
@@ -134,6 +129,9 @@ This page explains how to connect SAP Cloud Logging to SAP Cloud ALM to enable m
 			Foundry environment to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect products that are related SAP Build Work Zone in **SAP BTP, Cloud Foundry environment** to SAP Cloud ALM to enable monitoring.
+-   **[Commodity Expense ManagementCommodity expense management](commodity-expense-managementcommodity-expense-management-7940f54.md "This page explains how to connect commodity expense management to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect commodity expense management to SAP Cloud ALM to enable monitoring.
 -   **[SAP Concur](sap-concur-1b896e6.md "This document provides guidance on connecting SAP Concur, to SAP Cloud ALM for monitoring
 		purposes.")**  
 This document provides guidance on connecting SAP Concur, to SAP Cloud ALM for monitoring purposes.
@@ -176,6 +174,10 @@ This page explains how to connect SAP Fieldglass to SAP Cloud ALM to enable moni
 -   **[SAP Field Service Management](sap-field-service-management-d122ae8.md "This page explains how to connect SAP Field Service Management to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Field Service Management to SAP Cloud ALM to enable monitoring.
+-   **[Foreign exchange risk management for commodity businesses](foreign-exchange-risk-management-for-commodity-businesses-d4c7348.md "This page explains how to connect foreign exchange risk management for commodity
+			businesses  to SAP Cloud ALM to
+		enable monitoring.")**  
+This page explains how to connect *foreign exchange risk management for commodity businesses* to SAP Cloud ALM to enable monitoring.
 -   **[SAP HANA Cloud, data lake](sap-hana-cloud-data-lake-74e6b1e.md "This page explains how to connect SAP HANA Cloud, data lake to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP HANA Cloud, data lake to SAP Cloud ALM to enable monitoring.
@@ -187,13 +189,18 @@ This page explains how to connect SAP HANA Cloud SAP HANA database to SAP Cloud 
                         Hub to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Traceability Hub to SAP Cloud ALM to enable monitoring.
+-   **[Integration Hub for Life Sciences](integration-hub-for-life-sciences-27051d5.md "This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable monitoring.
 -   **[SAP Integrated Business Planning for Supply Chain \(SAP IBP\)](sap-integrated-business-planning-for-supply-chain-sap-ibp-25dd0b7.md "This page explains how to connect SAP Integrated Business Planning for Supply Chain (SAP
                         IBP) SAP HANA database to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Integrated Business Planning for Supply Chain \(SAP IBP\) SAP HANA database to SAP Cloud ALM to enable monitoring.
--   **[Integration Hub for Life Sciences](integration-hub-for-life-sciences-27051d5.md "This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable
-		monitoring.")**  
-This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable monitoring.
+-   **[SAP Integration Suite, managed gateway for spend management and SAP Business Network](sap-integration-suite-managed-gateway-for-spend-management-and-sap-business-network-52e38d8.md "This document provides guidance on connecting SAP Integration Suite, managed gateway
+                                for spend management and SAP Business Network to
+            SAP Cloud ALM for monitoring
+        purposes.")**  
+This document provides guidance on connecting SAP Integration Suite, managed gateway for spend management and SAP Business Network to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Integration Suite \(API Management\)](sap-integration-suite-api-management-f785e26.md "This page explains how to connect SAP Integration Suite (API Management) to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Integration Suite \(API Management\) to SAP Cloud ALM to enable monitoring.
