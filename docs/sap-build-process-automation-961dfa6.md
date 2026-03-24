@@ -13,7 +13,7 @@ The following monitoring applications are supported for SAP Cloud ALM:
 
 ## Prerequisites
 
--   You have a user with the *Destination Administrator* authorizations in the SAP BTP subaccount for your SAP Build Process Automation subscription.
+-   You have a user with *Destination Administrator* authorizations in the SAP BTP subaccount for your SAP Build Process Automation subscription.
 -   You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 
 

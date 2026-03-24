@@ -1,7 +1,5 @@
 <!-- loio84602a521c5946f88a409b39587dd70e -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # SAP S/4HANA Cloud Public Edition
 
 This page explains how to connect SAP S/4HANA Cloud Public Edition to SAP Cloud ALM to enable monitoring.
@@ -11,122 +9,109 @@ Currently, SAP S/4HANA Cloud Public Edition supports the following monitoring ap
 -   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
--   [Job & Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
+-   [Job and Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
-
-The following video demonstrates the setup steps for integration and business process monitoring for SAP S/4HANA Cloud Public Edition. A textual step-by-step description of all setup steps is provided after the video on this site.
-
-
-
-
-
-
-
-<a name="loio84602a521c5946f88a409b39587dd70e__section_i2g_yh5_bhc"/>
-
-## Prerequisites
-
-You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
-
-You have a user with administrator authorization \(for example, *SAP\_BR\_ADMINISTRATOR*\) in your SAP S/4HANA Cloud Public Edition tenant.
-
-
-
-<a name="loio84602a521c5946f88a409b39587dd70e__section_vyt_335_bhc"/>
-
-## Setup in SAP S/4HANA Cloud Public Edition
-
-
-
-### Create Communication System
-
-1.  Log on to your service.
-2.  Navigate to the *Communication Management* group and choose the *Communication Systems* tile.
-3.  Check if there is already a communication system for this SAP Cloud ALM tenant.
-    1.  In the *Search* field, search for the endpoint host, for example, `eu10.alm.cloud.sap`.
-    2.  To verify that the correct SAP Cloud ALM tenant is addressed, compare the value in the *Token Endpoint* field.
-    3.  If a communication system exists, you can move on to the section *Create Communication Arrangement*.
-
-4.  Choose *New* to create a new communication system.
-5.  Enter a system ID and description, then choose *Create*.
-6.  Enter the following values:
-    1.  *Host Name*: The host part of the SAP Cloud ALM service key parameter "Api", for example, `eu10.alm.cloud.sap`.
-    2.  *Port*: `443`
-    3.  Under *OAuth 2.0 Settings*, for the *Token Endpoint*, enter the SAP Cloud ALM service key parameter `url` followed by `/oauth/token`.
-    4.  Under *Users for Outbound Communication*, choose :heavy_plus_sign:to create a new user:
-        1.  *Authentication Method*: *OAuth 2.0*
-        2.  *OAuth 2.0 Client ID*: SAP Cloud ALM service key parameter *clientid*
-        3.  *Client Secret*: SAP Cloud ALM service key parameter *clientsecret*
-
-
-7.  Choose *Save*.
-
-
-
-### Create Communication Arrangement for Application Monitoring
-
-The communication arrangement is necessary to schedule the collectors.
-
-1.  In SAP Integrated Business Planning for Supply Chain \(SAP IBP\), navigate to *Communication Management* and choose *Communication Arrangements*.
-2.  Check if there already is a communication arrangement for scenario *SAP\_COM\_0527* for this SAP Cloud ALM tenant: Enter `0527` in the *Search* field.
-
-    If you find a communication arrangement, check if it uses the communication system for the SAP Cloud ALM tenant you want to connect.
-
-    If a communication arrangement already exists, you can skip the next two steps.
-
-3.  Choose *New* to create a new communication arrangement:
-    1.  *Scenario*: Select *SAP\_COM\_0527 - Application Monitoring Push Integration*.
-    2.  *Arrangement Name*: Enter a name.
-
-4.  Enter the communication system for your SAP Cloud ALM tenant in the *Communication System* field.
-5.  Select each use-case for which you want to collect data.
-6.  The *Outbound Communication* fields are automatically propagated from the communication system.
-7.  Under *Outbound Services*:
-    1.  *Scheduler*: Enter a slash \(/\) in the *Path* field and choose *Enter*. This triggers the propagation of the fields.
-    2.  *Job Execution Details*: Schedule the job to run every minute. The job is activated after saving.
-
-8.  Choose *Save* to save the communication arrangement.
-
-
-
-### Create Communication Arrangement for Business Process Monitoring
-
-> ### Note:  
-> Before you can create this communication arrangement, you must have created the SAP\_COM\_0527 communication arrangement that's described in the previous section. This is necessary even if you don't want to use any of the use cases in SAP\_COM\_0527. Create the SAP\_COM\_0527 communication arrangement anyway and deselect all use cases.
-
-1.  In your service tenant, navigate to *Communication Management* and choose *Communication Arrangements*.
-2.  Choose *New* to create a new communication arrangement:
-    1.  *Scenario*: Select *SAP\_COM\_0523 - Business Process Monitoring Push Integration*.
-    2.  *Arrangement Name*: Enter a name.
-    3.  Choose *Create*.
-
-3.  On the *Communication Arrangements* tab, in the *Communication System* field, choose the communication system you've created before.
-4.  In the *Outbound Services* section, enter the path and service URL for each of the outbound services:
-    1.  *SAP Cloud ALM - BPMon Configuration*:
-
-        *Scheduler*: Enter in the *Path* field choose enter. This triggers the propagation of the following fields.
-
-        *Job Execution Details*: Run every hour
-
-    2.  *SAP Cloud ALM - BPMon Data*
-
-        *Scheduler*: Enter in the *Path* field choose enter. This triggers the propagation of the following fields.
-
-        *Job Execution Details*: Run every minute
-
-
-5.  Choose *Save* to save the communication arrangement.
-6.  After the successful activation, the data collection starts, and the tenant for SAP S/4HANA Cloud Public Edition appears in the configuration pane in the *Business Process Monitoring* app of SAP Cloud ALM.
 
 
 
 <a name="loio84602a521c5946f88a409b39587dd70e__section_mzk_yn5_bhc"/>
 
-## Setup in SAP Cloud ALM
+## Standard Setup in SAP Cloud ALM
 
-When you have set up the monitoring push to SAP Cloud ALM in SAP BTP cockpit for your managed service, the data collection is active, with default monitoring configurations.
+An automated standard setup is available for SAP S/4HANA Cloud public edition systems. must be imported from the backend; it will not work for manually created ones
 
-You can adjust the monitoring setup within the monitoring app in SAP Cloud ALM. Find more information on the configuration for the apps under [SAP Cloud ALM for Operations](https://help.sap.com/docs/cloud-alm/applicationhelp/operations).
+**Prerequisite**: The system information has been imported from the SAP backend \(system landscape information\). In this case, the source is displayed as `SLIS` or `XSLIS`. The automatic setup doesn't work for system information that has been created manually in the *Landscape Management* app of SAP Cloud ALM.
+
+To activate monitoring in SAP Cloud ALM, follow these steps:
+
+1.  Open SAP S/4HANA Cloud public edition in the *Landscape Management* app in SAP Cloud ALM. Enable *Central Monitoring*. \(The toggle is only visible if the system information source is `SLIS` or `XSLIS`.
+
+    ![SAP Cloud ALM system details page with Central Monitoring toggle set to off.](images/LMS_Toggle_Central_Monitoring_3ccda12.png)
+
+2.  In the dialog that opens, confirm consent and start the activation process.
+
+    ![Central Monitoring setup wizard displaying the Consent step with setup details and a checked consent box.](images/LMS_Toggle_Central_Monitoring_dialog_4bcbaf1.png)
+
+3.  In the background, the following steps occur automatically:
+    1.  In the SAP BTP cockpit, the system sets up formations between SAP Cloud ALM and SAP S/4HANA Cloud public edition.
+    2.  The formation calls back to the *Landscape Management* service in SAP Cloud ALM. It retrieves the monitoring use cases and API key and forwards them to the *Communication Systems* management function in SAP S/4HANA Cloud public edition.
+    3.  *Communication Systems* management creates the communication arrangements in SAP S/4HANA Cloud.
+
+4.  In the *Landscape Management* service in SAP Cloud ALM, the supported use cases become active.
+
+    ![List of supported and activated use cases for SAP S/4HANA Cloud public edition with central monitoring switched on.](images/LMS_Toggle_Central_Monitoring_active_2cf8c23.png)
+
+
+Adjust the monitoring setup within the monitoring apps in SAP Cloud ALM as needed. For more details on configuration, see [SAP Cloud ALM for Operations](https://help.sap.com/docs/cloud-alm/applicationhelp/operations).
+
+**Deactivation**: Deactivate the connection in the Landscape Management service by toggling off central monitoring.
+
+
+
+## Special Setup of SAP S/4HANA Cloud with a Different Customer Number
+
+If your SAP S/4HANA Cloud system uses a different customer number than your SAP Cloud ALM system, register and activate it through central monitoring.
+
+This scenario occurs, for example, if customers have a global CCC/ultimate setup where an S-user has access to several customer numbers.
+
+In such cases, the SAP S/4HANA Cloud system doesn't appear automatically in the *System Landscape* application in the SAP BTP global account. The automatic central monitoring setup can't be used.
+
+
+
+### Prerequisites
+
+-   You have access to the SAP Cloud ALM global account in SAP BTP for your company.
+-   You know details of the SAP S/4HANA Cloud system, such as the system name and URL.
+-   You have the necessary authorizations in both SAP Cloud ALM and the SAP S/4HANA Cloud tenant to maintain system landscape, extensions, and integrations.
+
+
+
+### 1. Manually add SAP S/4HANA Cloud to the System Landscape
+
+1.  On SAP BTP, log in to your SAP Cloud ALM global account.
+2.  Navigate to *System Landscape* and open *Systems*.
+3.  Select *Add* to create a new system entry.
+4.  For *System Type*, select *S/4HANA Cloud*.
+5.  Enter a system name:
+    -   You can use the system URL as the name.
+    -   Alternatively, copy the system name from your landscape or documentation and paste it into the name field.
+
+6.  Save the new system entry.
+
+
+
+### 2. Generate a registration token for the system
+
+1.  In the same system entry in *System Landscape*, go to the *Communication Scenario Group* section.
+2.  Select *Get Token* to generate a registration token for SAP S/4HANA Cloud.
+3.  Copy the generated registration token for later use.
+
+
+
+### 3. Register SAP S/4HANA Cloud using the token
+
+1.  Log on to the SAP S/4HANA Cloud target tenant you want to connect to SAP Cloud ALM.
+2.  In the SAP S/4HANA Cloud Fiori launchpad, search for the app used to maintain integrations and extensions for SAP BTP.
+3.  Open the app. Create a new entry for the extension or integration.
+4.  Paste the registration token in the appropriate field.
+5.  Enter a meaningful name and description. For example: “Cloud ALM integration for S/4HANA Cloud.”
+6.  Save and create the extension. This establishes the registration and connection.
+7.  Approve or activate the connection if prompted. The integration becomes active.
+
+
+
+### 4. Verify that the system is registered in SAP Cloud ALM
+
+1.  Return to your SAP Cloud ALM global account in SAP BTP.
+2.  In the *Landscape Management* app of SAP Cloud ALM, under *System Landscape*, refresh the system list.
+3.  Locate the system you created. It should now show as *Registered* and appear as a valid system in the list.
+4.  Confirm that the system isn't yet included in any formations. This is expected before central monitoring activation.
+
+
+
+### 5. Activate central monitoring setup
+
+Now you can proceed with the standard setup that's described above, under [Standard Setup in SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/setup-administration/sap-s4hana-cloud-public-edition#standard-setup-in-sap-cloud-alm).
 
 
 
@@ -134,5 +119,5 @@ You can adjust the monitoring setup within the monitoring app in SAP Cloud ALM. 
 
 ## Troubleshooting
 
-To troubleshoot any issues with the setup or the data collection for SAP BTP, ABAP environment, also refer to [Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md).
+To resolve setup or data collection issues for SAP BTP, ABAP environment, see [Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md).
 

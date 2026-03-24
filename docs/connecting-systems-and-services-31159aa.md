@@ -10,6 +10,9 @@ For more information, see [Set Up Landscape Management](https://help.sap.com/vie
 
 After your services and systems have been imported into SAP Cloud ALM, follow the product-specific setup steps described on the following pages.
 
+-   **[SAP ABAP Systems](sap-abap-systems-c00bea8.md "This page explains how to connect SAP ABAP systems to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP ABAP systems to SAP Cloud ALM to enable monitoring.
 -   **[SAP Advanced Commodity Risk Analytics](sap-advanced-commodity-risk-analytics-175ee8e.md "This page explains how to connect SAP Advanced Commodity Risk
                                 Analytics to
 			SAP Cloud ALM to enable
@@ -129,9 +132,16 @@ This page explains how to connect SAP Cloud Logging to SAP Cloud ALM to enable m
 			Foundry environment to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect products that are related SAP Build Work Zone in **SAP BTP, Cloud Foundry environment** to SAP Cloud ALM to enable monitoring.
--   **[Commodity Expense ManagementCommodity expense management](commodity-expense-managementcommodity-expense-management-7940f54.md "This page explains how to connect commodity expense management to SAP Cloud ALM to enable
+-   **[Commodity Expense Management](commodity-expense-management-7940f54.md "This page explains how to connect commodity expense management to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect commodity expense management to SAP Cloud ALM to enable monitoring.
+-   **[SAP Commodity Management, AI-assisted commodity work center](sap-commodity-management-ai-assisted-commodity-work-center-7b6fb4c.md "This page explains how to connect SAP Commodity Management,
+                                AI-assisted commodity work center to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Commodity Management, AI-assisted commodity work center to SAP Cloud ALM to enable monitoring.
+-   **[SAP Complaint Handling](sap-complaint-handling-f85cfd4.md "This document provides guidance on connecting SAP Complaint Handling, to SAP Cloud ALM for monitoring
+		purposes.")**  
+This document provides guidance on connecting SAP Complaint Handling, to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Concur](sap-concur-1b896e6.md "This document provides guidance on connecting SAP Concur, to SAP Cloud ALM for monitoring
 		purposes.")**  
 This document provides guidance on connecting SAP Concur, to SAP Cloud ALM for monitoring purposes.
@@ -213,6 +223,11 @@ This page explains how to connect SAP Integration Suite \(Cloud Integration\) on
                         Integration) on Neo to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Integration Suite \(Cloud Integration\) on Neo to SAP Cloud ALM to enable monitoring.
+-   **[SAP Integration Suite \(Edge Integration Cell\)](sap-integration-suite-edge-integration-cell-4e0cd5e.md "This page explains how to connect SAP Integration Suite (Edge Integration
+                                Cell) to
+			SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Integration Suite \(Edge Integration Cell\) to SAP Cloud ALM to enable monitoring.
 -   **[SAP Integration Suite \(Event Mesh\)](sap-integration-suite-event-mesh-567a2f8.md "This page explains how to connect SAP Integration Suite (Event Mesh) to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Integration Suite \(Event Mesh\) to SAP Cloud ALM to enable monitoring.
@@ -306,9 +321,9 @@ This page explains how to connect SAP S/4HANA Cloud Private Edition to SAP Cloud
 -   **[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-84602a5.md "This page explains how to connect SAP S/4HANA Cloud Public Edition to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP S/4HANA Cloud Public Edition to SAP Cloud ALM to enable monitoring.
--   **[SAP Sales Cloud and SAP Service Cloud version 2](sap-sales-cloud-and-sap-service-cloud-version-2-d412af0.md "This page explains how to connect SAP Sales Cloud and SAP Service Cloud version 2 to SAP Cloud ALM to enable
+-   **[SAP Cloud for Customer version 2](sap-cloud-for-customer-version-2-d412af0.md "This page explains how to connect SAP Cloud for Customer version 2 to SAP Cloud ALM to enable
 		monitoring.")**  
-This page explains how to connect SAP Sales Cloud and SAP Service Cloud version 2 to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP Cloud for Customer version 2 to SAP Cloud ALM to enable monitoring.
 -   **[SAP Subscription Billing](sap-subscription-billing-0490143.md "This page explains how to connect SAP Subscription Billing to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Subscription Billing to SAP Cloud ALM to enable monitoring.
@@ -333,6 +348,9 @@ This page explains how to connect SAP SuccessFactors Agent Performance Managemen
                                 Central Payroll to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP SuccessFactors Employee Central Payroll to SAP Cloud ALM to enable monitoring.
+-   **[SAP SuccessFactors HCM](sap-successfactors-hcm-a756eb8.md "This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable monitoring.
 -   **[SAP SuccessFactors Incentive Management](sap-successfactors-incentive-management-734bb00.md "This page explains how to connect SAP SuccessFactors Incentive
                                 Management to SAP Cloud ALM to enable
 		monitoring.")**  
@@ -351,6 +369,9 @@ This page explains how to connect SAP Task Center to SAP Cloud ALM to enable mon
                         Pricing to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Variant Configuration and Pricing to SAP Cloud ALM to enable monitoring.
+-   **[SAP Watch List Screening](sap-watch-list-screening-2bd6cf6.md "This page explains how to connect SAP Watch List Screening to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Watch List Screening to SAP Cloud ALM to enable monitoring.
 -   **[SAP Workflow Management](sap-workflow-management-d3afdbc.md "This page explains how SAP Workflow Management can be integrated with SAP Cloud ALM.")**  
 This page explains how SAP Workflow Management can be integrated with SAP Cloud ALM.
 -   **[Non-SAP Services and Systems](non-sap-services-and-systems-506cd14.md "This page explains how to connect non-SAP services and systems to SAP Cloud ALM to enable

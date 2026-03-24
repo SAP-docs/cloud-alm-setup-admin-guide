@@ -80,6 +80,9 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 
         ![](images/btp_a17b1b6.png)
 
+        > ### Caution:  
+        > Do not change the name of the HTTP destination later on. This causes issues with the assignment of transports.
+
     2.  In the *Destination Configuration* section, enter the values in the respective fields based on the description that is provided in the table below.
 
         ![](images/btp2_f53bf4c.png)

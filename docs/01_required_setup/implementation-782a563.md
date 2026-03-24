@@ -9126,6 +9126,80 @@ Yes
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Retrofit
+
+</td>
+<td valign="top">
+
+Regenerate Retrofit
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Retrofit
+
+</td>
+<td valign="top">
+
+Reject Retrofit
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
 </table>
 
 

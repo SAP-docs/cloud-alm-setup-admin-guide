@@ -1,26 +1,22 @@
-<!-- loio9840514de2194708902e9dbe07b36a84 -->
+<!-- loioa756eb8ff23147ad9414871bd22fde2e -->
 
-# SAP Omnichannel Promotion Pricing
+# SAP SuccessFactors HCM
 
-This page explains how to connect SAP Omnichannel Promotion Pricing to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable monitoring.
 
-Currently, SAP Omnichannel Promotion Pricing supports the following monitoring applications:
+Currently, SAP SuccessFactors HCM supports the following monitoring applications:
 
--   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+-   [Configuration & Security Analysis](https://help.sap.com/docs/cloud-alm/applicationhelp/configuration-security-analysis)
 
 
-
-<a name="loio9840514de2194708902e9dbe07b36a84__section_llm_dqs_bhc"/>
 
 ## Prerequisites
 
-You have a subscription for SAP Omnichannel Promotion Pricing.
+You have a subscription for SAP SuccessFactors HCM.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
-
-<a name="loio9840514de2194708902e9dbe07b36a84__section_lk2_vrs_bhc"/>
 
 ## Setup in SAP Cloud ALM
 
@@ -32,5 +28,5 @@ To activate the data collection, activate the monitoring in the respective SAP C
 
 For details, check the documentation for the supported use cases:
 
--   [Activate the data collection for Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/configuring-integration-monitoring)
+-   [Activate the data collection for Configuration & Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis/csa-setup.html)
 

@@ -1176,7 +1176,7 @@ Business Service Management
 </td>
 <td valign="top">
 
-Create and manage business services, and plan events
+Create and manage business services, and plan events.
 
 </td>
 <td valign="top">
@@ -1208,7 +1208,7 @@ Business Service Management
 </td>
 <td valign="top">
 
-View business services, their configuration, and the event calendar
+View business services, their configuration, and the event calendar.
 
 </td>
 <td valign="top">
@@ -1342,6 +1342,134 @@ View health overview and metrics of cloud services
 <td valign="top">
 
 `ops_hm_HealthMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+View health overview and metrics of cloud services
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+View health overview and metrics of cloud services, process alerts and perform follow-up actions
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringProcessor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+View health monitoring data and metrics of cloud services, maintain configuration for KPIs, filters, and events
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+View health monitoring data and metrics of cloud services. Maintain configuration for KPIs, filters, and events. Maintain global configuration
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringAdministrator` 
 
 </td>
 </tr>
@@ -2265,8 +2393,8 @@ In the following sections, you can find detailed breakdowns of all roles related
 		Cloud ALM for service, mapped to the individual actions they allow users to
 		perform.")**  
 In the following sections, you can find detailed breakdowns of all roles related to SAP Cloud ALM for service, mapped to the individual actions they allow users to perform.
--   **[Cross Topics](cross-topics-4a7d8ba.md "In the following sections, you can find detailed breakdowns of all cross-topic roles in
-		SAP Cloud ALM, mapped to the individual actions they allow users to perform.")**  
+-   **[Cross Topics](cross-topics-4a7d8ba.md "In the following sections, you can find detailed breakdowns of all cross-topic roles
+		in SAP Cloud ALM, mapped to the individual actions they allow users to perform.")**  
 In the following sections, you can find detailed breakdowns of all cross-topic roles in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
 -   **[RISE with SAP Methodology](rise-with-sap-methodology-b058001.md "In the following sections, you can find detailed breakdowns of all roles related to RISE
 		with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to

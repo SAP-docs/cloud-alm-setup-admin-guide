@@ -10,7 +10,7 @@ Gain comprehensive and consistent transparency by discovering your SAP landscape
 
 Set up SAP Cloud ALM and connect your SAP LeanIX workspace to SAP Cloud ALM via API, as described in the following sections.
 
-For the overall setup of SAP LeanIX, see [Configuring SAP Landscape Discovery](https://docs-eam.leanix.net/docs/configuring-sap-landscape-discovery#connecting-sap-leanix-to-the-sap-cloud-alm-api).
+For the overall setup of SAP LeanIX, see [Configuring the SAP Cloud ALM Integration](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdocs%2Fleanix%2Fea%2Fsap-discovery-configuring-cloud-alm%23step-2%3A-generate-a-service-key-in-your-btp-cockpit).
 
 
 
@@ -67,9 +67,9 @@ If you have several subaccounts under your global account, you need to know unde
 
     You find the required scopes for the LeanIX integrations under:
 
-    -   Configuring SAP Landscape Discovery: [Enabling API Access to SAP Cloud ALM](https://docs-eam.leanix.net/docs/configuring-sap-landscape-discovery#enabling-api-access-to-sap-cloud-alm)
+    -   Cloud ALM Integration for SAP Discovery: [Generate a Service Key in Your BTP Cockpit](https://help.sap.com/docs/leanix/ea/sap-discovery-configuring-cloud-alm?version=CLOUD#step-2:-generate-a-service-key-in-your-btp-cockpit)
 
-    -   Configuring SAP Cloud ALM Integration For Managing Projects: [Enabling API Access to SAP Cloud ALM](https://docs-eam.leanix.net/docs/configuring-sap-cloud-alm-integration-for-managing-projects#enabling-api-access-to-sap-cloud-alm)
+    -   Configuring SAP Cloud ALM: Integration for project management: [Enabling API Access to SAP Cloud ALM](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdocs%2Fleanix%2Fea%2Fconfiguring-sap-cloud-alm-integration-for-managing-projects%3Fversion%3DLATEST%26locale%3Den-US%23enabling-api-access-to-sap-cloud-alm)
 
 
     To add the scopes, insert the following JSON and replace the relevant parameters with your instance name and the required scopes, respectively. The instance name must be the **same** one that you entered under *Basic Info*, in step 4.
@@ -83,7 +83,9 @@ If you have several subaccounts under your global account, you need to know unde
             "xsappname": "<your-instance-name>",
             "authorities": [
                "$XSMASTERAPPNAME.calm-api.landscape.read",
-               "$XSMASTERAPPNAME.calm-api.subscriptions.read"
+               "$XSMASTERAPPNAME.calm-api.subscriptions.read",
+               "$XSMASTERAPPNAME.ops-im-display-ui",
+               "$XSMASTERAPPNAME.ops-im-configure-ui"
             ],
             "oauth2-configuration": {
                 "credential-types": [
@@ -148,8 +150,8 @@ If you encounter issues with the connection in SAP Cloud ALM, please contact sup
 
 For the overall setup of SAP LeanIX, see:
 
--   [Configuring SAP Landscape Discovery](https://docs-eam.leanix.net/docs/configuring-sap-landscape-discovery)
+-   [Configuring the SAP Cloud ALM Integration](https://help.sap.com/docs/leanix/ea/sap-discovery-configuring-cloud-alm)
 
--   [Configuring SAP Cloud ALM Integration For Managing Projects](https://docs-eam.leanix.net/docs/configuring-sap-cloud-alm-integration-for-managing-projects)
+-   [Configuring SAP Cloud ALM Integration For Managing Projects](https://help.sap.com/docs/leanix/ea/configuring-sap-cloud-alm-integration-for-managing-projects?version=CLOUD)
 
 

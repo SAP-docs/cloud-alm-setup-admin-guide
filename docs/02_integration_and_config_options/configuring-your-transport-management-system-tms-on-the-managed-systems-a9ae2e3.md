@@ -33,7 +33,7 @@ First, make sure that you've set the correct parameters in the ABAP system at TM
 ![](images/abap-parameters_8131f4b.png)
 
 > ### Note:  
-> It's mandatory to use client-dependent transport routs \(TMS option **CTC=1**\) from the beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes later is a complete landscape change. This isn't supported if there are still open transports.
+> It's mandatory to use client-dependent transport routes \(TMS option **CTC=1**\) from the beginning. By using client-dependent transport routes, you can always enhance your landscape with additional clients. Turning on client-dependent transport routes later is a complete landscape change. This isn't supported if there are still open transports.
 > 
 > We strongly recommend using a transport target group as a consolidation target. By using the transport target group, you can always change your consolidation systems by changing the systems within the consolidation target group while technically the consolidation target \(which is the consolation target group\) stays stable.
 > 

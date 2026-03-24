@@ -15,7 +15,7 @@ The following steps are only necessary if the database host isn't running direct
 -   You're using the latest host agent version with at least patch level \(67\). The versions on the database and on the application server must match.
 -   ST-PI 7.4 version 32 is installed and the packages are up to date.
 -   You've implemented the steps from SAP Note [2023587](https://me.sap.com/notes/2023587) \(*Maintaining SAP HANA user store using SetDatabaseProperty for SAP Host Agent*\).
--   
+
 
 
 <a name="loio03b2e1f875954ea5b9af658041c581f8__section_s1w_vw3_hhc"/>
@@ -29,7 +29,7 @@ The following steps are only necessary if the database host isn't running direct
 
 2.  Select at least one application server. You can view the entries in transaction `SM51`.
 3.  From this application server, find the host agent name with the appropriate transaction.
-4.  To continue the configuration, access the *Host Agent Login*.
+4.  To continue the configuration, access the *Host Agent Login* as described in [Using SAP Host Agent WebUI](https://help.sap.com/docs/host-agent/host-agent-webui/using-sap-host-agent-webui).
 5.  Navigate to *Configuration* \> *Federation Network*:
     1.  Select *Add New Federation Peer*.
     2.  Enter the host name. It should include the application server with the IP address.

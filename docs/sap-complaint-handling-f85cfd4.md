@@ -1,27 +1,23 @@
-<!-- loio612dedf184324af0a8d4801db8097ae2 -->
+<!-- loiof85cfd4aed954c2ba8c5d738e4769c16 -->
 
-# SAP Digital Currency Hub
+# SAP Complaint Handling
 
-This page explains how to connect SAP Digital Currency Hub to SAP Cloud ALM to enable monitoring.
+This document provides guidance on connecting SAP Complaint Handling, to SAP Cloud ALM for monitoring purposes.
 
-Currently, SAP Digital Currency Hub supports the following monitoring applications:
+The following monitoring application is supported for SAP Concur:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
--   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
+-   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
 
 
-
-<a name="loio612dedf184324af0a8d4801db8097ae2__section_gs2_q3x_ygc"/>
 
 ## Prerequisites
 
-You have a subscription for SAP Digital Currency Hub.
+You have a subscription for SAP Complaint Handling.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
-
-<a name="loio612dedf184324af0a8d4801db8097ae2__section_gcj_y3x_ygc"/>
 
 ## Setup in SAP Cloud ALM
 
@@ -33,8 +29,6 @@ To activate the data collection, activate the monitoring in the respective SAP C
 
 For details, check the documentation for the supported use cases:
 
--   [Activate data collection for Integration Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/int-mon-setup-support.html?anchorId=section_1683886374_c)
--   [Activate data collection in Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring/run-details.html?anchorId=section_194947898_co)
-
-.
+-   [Activate the data collection for Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/configuring-integration-monitoring)
+-   [Activate the data collection for Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/bpmon-connecting-services#activating-the-data-collection)
 

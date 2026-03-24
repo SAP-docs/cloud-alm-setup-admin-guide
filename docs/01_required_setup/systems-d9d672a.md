@@ -2,12 +2,12 @@
 
 # Systems
 
-The registration method of systems in SAP Cloud ALM depends on the system type of your solution.
+The registration method for systems in SAP Cloud ALM depends on the system type of your solution.
 
-To find out which setup steps are required for your system, refer to [Connecting Systems and Services](../connecting-systems-and-services-31159aa.md).
+To find out which setup steps are required for your systems, refer to [Connecting Systems and Services](../connecting-systems-and-services-31159aa.md).
 
 > ### Note:  
-> Observability data from your connected systems isn't automatically sent to your SAP Cloud ALM tenant. If you want to start monitoring observability data, the data transfer to SAP Cloud ALM first needs to be configured.
+> Observability data from your connected systems isn't automatically sent to your SAP Cloud ALM tenant. To start monitoring observability data, you need to configure the data transfer to SAP Cloud ALM first.
 
 
 
@@ -15,11 +15,11 @@ To find out which setup steps are required for your system, refer to [Connecting
 
 ## Case 1: Registration
 
-Most systems can be registered with an ABAP report.
+Most systems are registered with an ABAP report.
 
-When the registration in the system has been completed, the registered system is automatically displayed on the *Services & Systems* page. Once a technical system has been registered, a default logical system \(client\) is created and displayed in the *System Details*.
+After you complete the registration in the system, the registered system appears automatically on the *Services & Systems* page. When you register a technical system, the system creates a default logical system \(client\) and displays it in the *System Details* section.
 
-For step-by-step guidance of the registration, find your system in the Expert Portal linked above.
+For step-by-step guidance on registration, find your system in the Expert Portal linked above.
 
 
 
@@ -27,7 +27,7 @@ For step-by-step guidance of the registration, find your system in the Expert Po
 
 ## Case 2: Manual Creation
 
-Some system types \(for example, *SAP Focused Run* and *Cloud Connector*\) can't be registered but need to be set up manually.
+Certain system types, such as *SAP Focused Run* and *Cloud Connector*, can't be registered automatically. You need to set up these systems manually.
 
-For step-by-step guidance of the manual creation \(if required\), find your system in the Expert Portal linked above.
+If you need step-by-step guidance for manual creation, refer to [Connecting Systems and Services](../connecting-systems-and-services-31159aa.md).
 

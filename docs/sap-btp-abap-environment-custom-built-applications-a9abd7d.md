@@ -94,3 +94,7 @@ You can adjust the monitoring setup within the monitoring app in SAP Cloud ALM. 
 
 To troubleshoot any issues with the setup or the data collection for SAP BTP, ABAP environment, also refer to [Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md).
 
+-   **[Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md "This page gives you some hints when you run into a problem for the communication
+		scenarios SAP_COM_0523 and SAP_COM_0527.")**  
+This page gives you some hints when you run into a problem for the communication scenarios SAP\_COM\_0523 and SAP\_COM\_0527.
+

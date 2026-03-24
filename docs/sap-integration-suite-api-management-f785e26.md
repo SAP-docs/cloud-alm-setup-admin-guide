@@ -16,7 +16,7 @@ With Health Monitoring in SAP Cloud ALM, you can monitor the health of custom do
 
 ## Prerequisites
 
-You only receive monitoring data if you've requested a custom domain for the virtual host as described here.
+You only receive monitoring data if you've requested a custom domain for the virtual host as described in [Configuring a Custom Domain for a Virtual Host](https://help.sap.com/docs/sap-api-management/sap-api-management/requesting-for-custom-domain-for-virtual-host).
 
 You have access to the SAP BTP cockpit and an entitlement for the service *API Management, API portal* for the plan *apiportal-apiaccess*. You can check this in the SAP BTP cockpit under *Subaccount for Integration Suite* \> *Entitlements*.
 

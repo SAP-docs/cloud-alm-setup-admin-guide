@@ -35,7 +35,7 @@ You have a user with the role *SAP\_BR\_ADMINISTRATOR* in the SAP IBP tenant.
 
 ### Create Communication System
 
-1.  Log on to your service.
+1.  Log on to your cloud solution.
 2.  Navigate to the *Communication Management* group and choose the *Communication Systems* tile.
 3.  Check if there is already a communication system for this SAP Cloud ALM tenant.
     1.  In the *Search* field, search for the endpoint host, for example, `eu10.alm.cloud.sap`.
@@ -62,7 +62,7 @@ You have a user with the role *SAP\_BR\_ADMINISTRATOR* in the SAP IBP tenant.
 
 The communication arrangement is necessary to schedule the collectors.
 
-1.  In SAP Integrated Business Planning for Supply Chain \(SAP IBP\), navigate to *Communication Management* and choose *Communication Arrangements*.
+1.  In your cloud solution, navigate to *Communication Management* and choose *Communication Arrangements*.
 2.  Check if there already is a communication arrangement for scenario *SAP\_COM\_0527* for this SAP Cloud ALM tenant: Enter `0527` in the *Search* field.
 
     If you find a communication arrangement, check if it uses the communication system for the SAP Cloud ALM tenant you want to connect.
@@ -99,4 +99,8 @@ You can adjust the monitoring setup within the monitoring app in SAP Cloud ALM. 
 ## Troubleshooting
 
 To troubleshoot any issues with the setup or the data collection for SAP BTP, ABAP environment, also refer to [Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md).
+
+-   **[Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-d181491.md "This page gives you some hints when you run into a problem for the communication
+		scenarios SAP_COM_0523 and SAP_COM_0527.")**  
+This page gives you some hints when you run into a problem for the communication scenarios SAP\_COM\_0523 and SAP\_COM\_0527.
 

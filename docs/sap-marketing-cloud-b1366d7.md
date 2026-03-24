@@ -91,3 +91,7 @@ When you have set up the monitoring push to SAP Cloud ALM in SAP BTP cockpit for
 
 You can adjust the monitoring setup within the monitoring app in SAP Cloud ALM. Find more information on the configuration for the apps under [SAP Cloud ALM for Operations](https://help.sap.com/docs/cloud-alm/applicationhelp/operations).
 
+-   **[Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-69c175d.md "This page gives you some hints when you run into a problem for the communication
+		scenarios SAP_COM_0523 and SAP_COM_0527.")**  
+This page gives you some hints when you run into a problem for the communication scenarios SAP\_COM\_0523 and SAP\_COM\_0527.
+

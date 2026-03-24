@@ -4,7 +4,7 @@
 
 This page explains how to connect SAP S/4HANA and SAP Business Suite 7 to SAP Cloud ALM to enable monitoring.
 
-Currently, SAP Intelligent Agriculture supports the following monitoring applications:
+Currently, SAP S/4HANA and SAP Business Suite 7 supports the following applications:
 
 -   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
@@ -12,10 +12,10 @@ Currently, SAP Intelligent Agriculture supports the following monitoring applica
 -   [Job & Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
 -   [Configuration & Security Analysis](https://help.sap.com/docs/cloud-alm/applicationhelp/configuration-security-analysis)
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
--   [Transport Management \(feature deployment in the Implementation area\)](https://help.sap.com/docs/cloud-alm/applicationhelp/working-with-transports)
+-   Transport management for Features in the implementation area. More about the setup in [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system).
 -   [SAP Business Transformation Center](https://help.sap.com/docs/btc/application-help/about-this-guide)
 
-The following video demonstrates the setup steps for Integration and Exception Monitoring for SAP Fieldglass. A textual step-by-step description of all setup steps is provided after the video on this site.
+The following video demonstrates the setup steps for integration and exception monitoring for SAP S/4HANA, SAP Business Suite, and SAP ECP. A textual step-by-step description of all setup steps is provided after the video on this site.
 
 
 
@@ -44,7 +44,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
 -   For Business Process Monitoring in SAP S/4HANA and SAP Business Suite 7, at least ST-A/PI version higher that 01U\_731 must be available. Always keep it up to date.
 
-    If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed here.
+    If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed on this page.
 
 -   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\).
 -   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
@@ -52,7 +52,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
-    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** for SAP Cloud ALM
+    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** for SAP Cloud ALM \(including SP33\)
     -   SAP Note [3575903](https://me.sap.com/notes/3575903) – Collective corrections as of ST-PI 7.40 **SP30** for SAP Cloud ALM \(including SP31\)
     -   SAP Note [3502641](https://me.sap.com/notes/3502641) – Collective corrections as of ST-PI 7.40 **SP28** for SAP Cloud ALM \(including SP29\)
     -   SAP Note [3421256](https://me.sap.com/notes/3421256) – Collective corrections as of ST-PI 7.40 **SP26** for SAP Cloud ALM \(including SP27\)
@@ -394,12 +394,12 @@ Save and restore the following tables:
 
 ## Troubleshooting
 
-To troubleshoot any issues with the setup or the data collection for SAP S/4HANA or SAP Business Suite 7, refer to [Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md).
+To troubleshoot any issues with the setup or the data collection for SAP S/4HANA or SAP Business Suite 7, refer to [Troubleshooting for ABAP Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/calm-op-troubleshooting/calm-troubleshooting-abap.html).
 
 -   **[Additional SAP HANA Database Health Monitoring Metrics for SAP S/4HANA](additional-sap-hana-database-health-monitoring-metrics-for-sap-s-4hana-c0cdef7.md "Learn how to get additional metrics for the health monitoring metrics of SAP
 		HANA.")**  
 Learn how to get additional metrics for the health monitoring metrics of SAP HANA.
--   **[Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-69c175d.md "This page gives you some hints when you run into a problem for the communication
-		scenarios SAP_COM_0523 and SAP_COM_0527.")**  
-This page gives you some hints when you run into a problem for the communication scenarios SAP\_COM\_0523 and SAP\_COM\_0527.
+-   **[Troubleshooting for ABAP Systems](troubleshooting-for-abap-systems-cb82fd2.md "This page provides guidance for resolving issues that may occur during the monitoring
+		setup of SAP Cloud ALM for ABAP on-premise systems.")**  
+This page provides guidance for resolving issues that may occur during the monitoring setup of SAP Cloud ALM for ABAP on-premise systems.
 

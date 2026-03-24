@@ -29,73 +29,61 @@ Solution
 <tr>
 <td valign="top">
 
-I can't create transports
+Can't create transports
 
 </td>
 <td valign="top">
 
 Go to the managed system:
 
-1.  Check if the service key is missing the following auth scopes.
+1.  Run the setup for the integration with SAP Cloud ALM with transaction `/n/SDF/ALM_SETUP`.
+
+2.  Open the destination you use for communicating with SAP Cloud ALM.
+
+3.  Check if the service key is missing the following auth scopes.
 
     -   `imp-cdm-feature-manage-ui`
     -   `imp-cdm-feature-display-ui`
 
     If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
 
-2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source system \(working client shouldn't be 000\).
+4.  Check if the use case task *Transports: Create & Export \(client-specific\)* is active in the source system \(working client shouldn't be 000\).
 
-3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source system.
+5.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source system.
 
-4.  Check if the job` /SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
+6.  Check if the job` /SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
 
-In SAP Cloud ALM check the following:
-
-Source system is in the system group and is assigned to the project through the deployment plan.
+In SAP Cloud ALM check if the source system is in the system group and is assigned to the project through the deployment plan.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-I can't release transports
+Can't release transports
 
 </td>
 <td valign="top">
 
 Go to the managed system:
 
-1.  Check if the service key is missing the auth scopes.
+1.  Run the setup for the integration with SAP Cloud ALM with transaction `/n/SDF/ALM_SETUP`.
 
-2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source system \(working client shouldn't be 000\).
+2.  Open the destination you use for communicating with SAP Cloud ALM.
 
-3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source system.
+3.  Check if the service key is missing the following auth scopes.
 
-4.  Check if the job `/SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
+    -   `imp-cdm-feature-manage-ui`
+    -   `imp-cdm-feature-display-ui`
 
+    If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
 
+4.  Check if the use case task *Transports: Create & Export \(client-specific\)* is active in the source system \(working client shouldn't be 000\).
 
+5.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source system.
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-I can't create Transport of Copies
-
-</td>
-<td valign="top">
-
-Go to the managed system:
-
-1.  Check if the service key is missing auth scopes.
-
-2.  Check if the use case Transports: Create & Export \(client-specific\) is active in the source system\(working client shouldn't be 000\).
-
-3.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released / and is running frequently in the source system.
-
-4.  Check if the job `/SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
+6.  Check if the job` /SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
 
 
@@ -105,20 +93,29 @@ Go to the managed system:
 <tr>
 <td valign="top">
 
-I can't deploy features
+Can't create Transport of Copies
 
 </td>
 <td valign="top">
 
 Go to the managed system:
 
-1.  Check if the service key is missing auth scopes.
+1.  Run the setup for the integration with SAP Cloud ALM with transaction `/n/SDF/ALM_SETUP`.
 
-2.  Check if the use case Transports: Import Transports
+2.  Open the destination you use for communicating with SAP Cloud ALM.
 
-    is active in target system client 000.
+3.  Check if the service key is missing the following auth scopes.
 
-3.  Check if the job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running in `client 000`.
+    -   `imp-cdm-feature-manage-ui`
+    -   `imp-cdm-feature-display-ui`
+
+    If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
+
+4.  Check if the use case task *Transports: Create & Export \(client-specific\)* is active in the source system \(working client shouldn't be 000\).
+
+5.  Check if the job `/SDF/CALM_CDM_TR_PROC_CL_DEP-100` is released and is running frequently in the source system.
+
+6.  Check if the job` /SDF/CALM_CDM_DIAGNOSTICS` is running in development system client 000.
 
 
 
@@ -128,19 +125,70 @@ Go to the managed system:
 <tr>
 <td valign="top">
 
-I can't assign transports
+Can't deploy features
 
 </td>
 <td valign="top">
 
 Go to the managed system:
 
-1.  Check if the service key is missing auth scopes.
+1.  Run the setup for the integration with SAP Cloud ALM with transaction `/n/SDF/ALM_SETUP`.
 
-2.  Check if the use case Transports: Read Transports is active in development client 000.
+2.  Open the destination you use for communicating with SAP Cloud ALM.
+
+3.  Check if the service key is missing the following auth scopes.
+
+    -   `imp-cdm-feature-manage-ui`
+    -   `imp-cdm-feature-display-ui`
+
+    If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
+
+4.  Check if the use case task *Transports: Import Transports* is active in target system client 000.
+
+5.  Check if the job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running in `client 000`.
 
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Can't assign transports
+
+</td>
+<td valign="top">
+
+Go to the managed system:
+
+1.  Run the setup for the integration with SAP Cloud ALM with transaction `/n/SDF/ALM_SETUP`.
+
+2.  Open the destination you use for communicating with SAP Cloud ALM.
+
+3.  Check if the service key is missing the following auth scopes.
+
+    -   `imp-cdm-feature-manage-ui`
+    -   `imp-cdm-feature-display-ui`
+
+    If it's missing, please follow the steps from step 4 \(Maintain HTTP Destination\) on in the *Procedure* section of the [SAP S/4HANA Cloud Private Edition and On-Premise Systems](https://help.sap.com/docs/cloud-alm/setup-administration/change-transport-system#procedure) guide.
+
+4.  Check if the use case task *Transports: Read Transports* is active in development client 000.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Can't approve feature for production
+
+</td>
+<td valign="top">
+
+Make sure that your system roles in your landscape are configured correctly. For more information, see [How the Features App Determines the Roles of Your Systems](https://help.sap.com/docs/cloud-alm/applicationhelp/features-status-flow#how-the-features-app-determines-the-roles-of-your-systems).
 
 </td>
 </tr>
@@ -154,9 +202,9 @@ Import jobs are stuck
 
 Go to the managed system:
 
-1.  The job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running.
+1.  Check if the job `/SDF/CALM_CDM_IMPORT_TRANSPORTS` is released and running.
 
-2.  The job log of `/SDF/CALM_CDM_IMPORT_TRANSPORTS` shows a component version mismatch. This job is only running when there is a request to deploy a transport from a feature. In case several features are deployed together, all the transports assigned are imported as an import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
+2.  Check if the job log of `/SDF/CALM_CDM_IMPORT_TRANSPORTS` shows a component version mismatch. This job is only running when there is a request to deploy a transport from a feature. In case several features are deployed together, all the transports assigned are imported as an import subset. If one transport request of the subset leads to a component mismatch situation, the import of all transports is blocked.
 
 
 To resolve the mismatch issue see SAP Note [1688610](https://me.sap.com/notes/1688610).
@@ -246,6 +294,18 @@ If you have transports with already scheduled deployments to virtual systems, do
 
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transport sequence order
+
+</td>
+<td valign="top">
+
+Make sure you're familiar with the transport sequence in the *Features* app. For more information about the transport sequence, see [Deploying Transports of a Feature](https://help.sap.com/docs/cloud-alm/applicationhelp/deploying-transports).
 
 </td>
 </tr>

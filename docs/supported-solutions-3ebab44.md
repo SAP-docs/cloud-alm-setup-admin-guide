@@ -287,7 +287,7 @@ SAP Best Practices for SAP Marketing Cloud
 <tr>
 <td valign="top">
 
-SAP Sales Cloud and SAP Service Cloud 
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -455,25 +455,17 @@ Process Management
 <td valign="top">
 
 -   Model Company for Aerospace and Defense
+-   Model Company for Agribusiness
+-   Model Company for Airline Backoffice
+-   Model Company for Environment, Health and Safety
 -   Model Company for Fashion and Vertical Business
--   SAP Services Content for Airline Backoffice
-
 -   SAP Services Content for Automotive
-
 -   SAP Services Content for Consumer Products
-
 -   SAP Services Content for Connected Assets
-
 -   SAP Services Content for Core Retail
-
--   SAP Services Content for Environment, Health and Safety
-
 -   SAP Services Content for Integrated Utilities
-
 -   SAP Services Content for Oil and Gas
-
 -   SAP Services Content for R&D/Engineering and Sustainability
-
 
 > ### Note:  
 > In the SAP Signavio Process Navigator, the scenarios listed above have been renamed to “Model Company for...”. These new names will only be visible in SAP Cloud ALM once the next available versions are published.
@@ -573,7 +565,7 @@ Find all task templates supported by SAP Cloud ALM under [https://me.sap.com/roa
 <tr>
 <td valign="top">
 
-SAP Sales Cloud and SAP Service Cloud 
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -881,7 +873,7 @@ More under [Documents](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0
 <tr>
 <td valign="top">
 
-SAP Sales Cloud and SAP Service Cloud 
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -1571,7 +1563,7 @@ More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b
 <tr>
 <td valign="top">
 
-SAP Sales Cloud and SAP Service Cloud 
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -1781,6 +1773,72 @@ Test Management
 
 
 More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b09ee0d0a64f7f4fef/cbb843cccd844362a2b4e8c65d8f91e1) and [Integrating Test Automation Providers](02_integration_and_config_options/integrating-test-automation-providers-82b04bb.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integration Suite \(Edge Integration Cell\)
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Integration Suite \(Edge Integration Cell\)](sap-integration-suite-edge-integration-cell-4e0cd5e.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Commodity Expense Management
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Commodity Expense Management](commodity-expense-management-7940f54.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Digital Currency Hub
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Digital Currency Hub](sap-digital-currency-hub-612dedf.md).
 
 </td>
 </tr>
@@ -2029,7 +2087,7 @@ More under [SAP S/4HANA and SAP Business Suite 7](sap-s-4hana-and-sap-business-s
 <tr>
 <td valign="top">
 
-SAP Sales Cloud and SAP Service Cloud 
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -3100,7 +3158,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-More under [SAP Sales Cloud and SAP Service Cloud version 2](sap-sales-cloud-and-sap-service-cloud-version-2-d412af0.md).
+More under [SAP Cloud for Customer version 2](sap-cloud-for-customer-version-2-d412af0.md).
 
 </td>
 </tr>
@@ -3261,6 +3319,50 @@ More under [Setup for SAP Integration Suite \(Trading Partner Management\)](http
 <tr>
 <td valign="top">
 
+SAP Complaint Handling
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Complaint Handling](sap-complaint-handling-f85cfd4.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP SuccessFactors Employee Central Payroll 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP SuccessFactors Employee Central Payroll](sap-successfactors-employee-central-payroll-ea4533a.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP S/4HANA Cloud Public Edition 
 
 </td>
@@ -3378,30 +3480,6 @@ More under [SAP SuccessFactors](sap-successfactors-7f91337.md).
 <tr>
 <td valign="top">
 
-SAP SuccessFactors Payroll 
-
-</td>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Business Process Monitoring
-
-</td>
-<td valign="top">
-
-Supported KPIs for the business scenario *Recruit to Retire*
-
-More under [SAP SuccessFactors Payroll](sap-successfactors-payroll-24a9a77.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SAP S/4HANA Cloud Private Edition 
 
 </td>
@@ -3433,7 +3511,7 @@ More under [SAP S/4HANA Cloud Private Edition](sap-s-4hana-cloud-private-edition
 <tr>
 <td valign="top">
 
-SAP Sales Cloud and SAP Service Cloud 
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -3450,7 +3528,7 @@ Business Process Monitoring
 
 Supported KPIs for the business scenario *Lead to Cash*
 
-More under [SAP Sales Cloud and SAP Service Cloud version 2](sap-sales-cloud-and-sap-service-cloud-version-2-d412af0.md).
+More under [SAP Cloud for Customer](sap-cloud-for-customer-99028f4.md).
 
 </td>
 </tr>
@@ -3481,6 +3559,30 @@ More under [SAP Entitlement Management](sap-entitlement-management-178b783.md).
 <tr>
 <td valign="top">
 
+SAP Complaint Handling 
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+Supported KPIs for the business scenarios *Lead to Cash* and *Source to Pay*.
+
+More under [SAP Complaint Handling](sap-complaint-handling-f85cfd4.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP BTP, Cloud Foundry environment 
 
 </td>
@@ -3505,7 +3607,7 @@ More under [Setting Up Custom KPIs](https://help.sap.com/viewer/877c96cf971648b0
 <tr>
 <td valign="top">
 
-Commodity expense management 
+Commodity Expense Management 
 
 </td>
 <td valign="top">
@@ -4481,6 +4583,50 @@ More under [SAP Datasphere](sap-datasphere-79f90c1.md).
 <tr>
 <td valign="top">
 
+SAP Returnable Packaging Management
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Returnable Packaging Management](sap-returnable-packaging-management-0342fac.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Watch List Screening
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Watch List Screening](sap-watch-list-screening-2bd6cf6.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP BTP, Neo environment
 
 </td>
@@ -4613,7 +4759,7 @@ More under [SAP Marketing Cloud](sap-marketing-cloud-b1366d7.md).
 <tr>
 <td valign="top">
 
-SAP Sales Cloud and SAP Service Cloud 
+SAP Cloud for Customer 
 
 </td>
 <td valign="top">
@@ -5340,6 +5486,50 @@ Real User Monitoring
 <td valign="top">
 
 More under [SAP Intelligent Asset Management](sap-intelligent-asset-management-153dd04.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP SuccessFactors Employee Central Payroll
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+More under [SAP SuccessFactors Employee Central Payroll](sap-successfactors-employee-central-payroll-ea4533a.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP SuccessFactors HCM
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+More under [SAP SuccessFactors HCM](sap-successfactors-hcm-a756eb8.md).
 
 </td>
 </tr>

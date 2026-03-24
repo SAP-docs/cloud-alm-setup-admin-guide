@@ -6,11 +6,13 @@
 
 This page explains how to connect SAP Cloud for Customer to SAP Cloud ALM to enable monitoring.
 
+This product has been renamed and was previously called SAP Sales & Services Cloud.
+
 Currently, SAP Cloud for Customer supports the following monitoring applications:
 
 -   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
--   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
--   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+-   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/im-configuring-services)
+-   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
 
@@ -223,4 +225,6 @@ After creating the endpoint in SAP Cloud ALM, perform the following steps to act
 
 -   [Activate the data collection for Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/configuring-integration-monitoring)
 -   [Activate the data collection in Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/rum-connecting-services#activate-real-user-monitoring-data-collection)
+
+-   [Activate the data collection for Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/bpmon-connecting-services#activating-the-data-collection)
 

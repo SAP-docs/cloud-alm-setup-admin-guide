@@ -183,7 +183,7 @@ After creating the endpoint in SAP Cloud ALM, you can activate the monitoring us
 
 <a name="loio44b06600374f4e4b9bd6569ddc3403eb__section_ad1_d4q_1fc"/>
 
-## Troubleshooting and Support
+## Troubleshooting
 
 Problems during the Cloud Connector setup:
 

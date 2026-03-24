@@ -43,7 +43,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
 -   For Business Process Monitoring in SAP S/4HANA and SAP Business Suite 7, at least ST-A/PI version higher that 01U\_731 must be available. Always keep it up to date.
 
-    If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed here.
+    If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed on this page.
 
 -   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\).
 -   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
@@ -51,7 +51,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
-    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** for SAP Cloud ALM
+    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** for SAP Cloud ALM \(including SP33\)
     -   SAP Note [3575903](https://me.sap.com/notes/3575903) – Collective corrections as of ST-PI 7.40 **SP30** for SAP Cloud ALM \(including SP31\)
     -   SAP Note [3502641](https://me.sap.com/notes/3502641) – Collective corrections as of ST-PI 7.40 **SP28** for SAP Cloud ALM \(including SP29\)
     -   SAP Note [3421256](https://me.sap.com/notes/3421256) – Collective corrections as of ST-PI 7.40 **SP26** for SAP Cloud ALM \(including SP27\)
@@ -399,4 +399,7 @@ Learn how to get additional metrics for the health monitoring metrics of SAP HAN
 -   **[Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-20701a2.md "This page gives you some hints when you run into a problem for the communication
 		scenarios SAP_COM_0523 and SAP_COM_0527.")**  
 This page gives you some hints when you run into a problem for the communication scenarios SAP\_COM\_0523 and SAP\_COM\_0527.
+-   **[Troubleshooting for ABAP Systems](troubleshooting-for-abap-systems-cb82fd2.md "This page provides guidance for resolving issues that may occur during the monitoring
+		setup of SAP Cloud ALM for ABAP on-premise systems.")**  
+This page provides guidance for resolving issues that may occur during the monitoring setup of SAP Cloud ALM for ABAP on-premise systems.
 

@@ -705,6 +705,24 @@ For more information, see the following blog post [Centralize Authorization Mana
 </tr>
 </table>
 
+<a name="loio6cc55cd5a1ed4af7b79d257688798e0e"/>
+
+<!-- loio6cc55cd5a1ed4af7b79d257688798e0e -->
+
+## Connecting Systems and Services
+
+This page provides troubleshooting information and frequently asked questions about connecting services and systems for monitoring with SAP Cloud ALM.
+
+-   [Troubleshooting for Landscape Management](https://help.sap.com/docs/cloud-alm/applicationhelp/troubleshooting-for-landscape-management)
+-   [Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md)
+-   [Troubleshooting for ABAP Systems](troubleshooting-for-abap-systems-cb82fd2.md)
+-   SAP SuccessFactors: [Troubleshooting](https://help.sap.com/docs/cloud-alm/setup-administration/sap-successfactors#troubleshooting)
+-   Cloud Connector: [Troubleshooting](https://help.sap.com/docs/cloud-alm/setup-administration/cloud-connector#troubleshooting-and-support)
+
+You can also find this information in the relevant sections of the navigation tree for the documentation for [Connecting Systems and Services](connecting-systems-and-services-31159aa.md):
+
+![Sidebar with "Troubleshooting for ABAP Cloud-Based Systems" highlighted and a page on connecting systems and services.](images/troubleshooting_setup_services_and_systems_976c24e.png)
+
 <a name="loio35cfa28f9832449aa7de09a8d16be694"/>
 
 <!-- loio35cfa28f9832449aa7de09a8d16be694 -->

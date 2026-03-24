@@ -9,7 +9,9 @@ Currently, SAP SuccessFactors supports the following monitoring applications:
 -   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
-The following video demonstrates the setup steps for Integration and Exception Monitoring for SAP SuccessFactors. A textual step-by-step description of all setup steps is provided after the video on this site.
+The following video demonstrates the setup steps for SAP SuccessFactors. A textual step-by-step description of all setup steps is provided after the video on this site.
+
+
 
 
 
@@ -126,12 +128,12 @@ The endpoint is only needed to support the PULL data collection for exceptions.
 If the endpoint *Root URL* field isn't filled automatically or if you want to still use BASIC authentication, find the correct API URL:
 
 1.  Select your SAP SuccessFactors service with the service type *SAP SuccessFactors HCM*.
-2.  Check the value for the field *System ID* in the properties, for example DC33STD or DC57PREV.
+2.  Check the value for the *System ID* field in the properties, for example DC33STD or DC57PREV.
 3.  Open [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/93f95815070049ebaaff042d8322d518/af2b8d5437494b12be88fe374eba75b6.html?locale=en-US) for different data centers.
 
     If the *System ID* value ends with *STD*, use the API Server for the *Production* environment.
 
-    If the "*System ID* value ends with *PREV*, use the API Server for the *Preview* environment.
+    If the *System ID* value ends with *PREV*, use the API Server for the *Preview* environment.
 
 
 
@@ -165,7 +167,7 @@ If the endpoint *Root URL* field isn't filled automatically or if you want to st
 
 
 
-### Activate the Data Colloection
+### Activate the Data Collection
 
 When you've created the endpoint in SAP Cloud ALM, activate the data collection for the monitoring use-cases:
 
@@ -189,9 +191,7 @@ When you've created the endpoint in SAP Cloud ALM, activate the data collection 
 2.  Enter the `username@<Company ID>` and the password that you want to use.
 3.  You get the following error: *\[LGN0015\]Authentication failed. You've entered an incorrect username or password \(status code = 4\).*
 
-**Solution**:
-
-Ensure that the correct password is defined in SAP SuccessFactors:
+**Solution**: Ensure that the correct password is defined in SAP SuccessFactors:
 
 1.  In SAP SuccessFactors, go to *Admin Center* \> *Tools* \> *Reset User Passwords*.
 2.  Find the SFAPI user that you want to use.
