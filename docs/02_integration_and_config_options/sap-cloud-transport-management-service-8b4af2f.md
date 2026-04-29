@@ -22,7 +22,13 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 > Currently, deleted CTMS transports can’t be removed from the *Features* app. However, you can unassign deleted transports from features.
 
 > ### Note:  
+> For the deployment of CTMS transports of content type BTP ABAP, it's not possible to use *Import Selected*. Make sure that you use *ImportUpTo*. This means that you have to assign all transports which are part of the CTMS import queue to the feature and then trigger the deployment.
+
+> ### Note:  
 > We recommend running SAP Cloud Transport Management service as shared service, by setting it up on a central administrative subaccount, to facilitate role management and allow strict access control.
+
+> ### Note:  
+> It's not possible to trigger imports for CTMS nodes which are controlled by SAP Solution Manager.
 
 
 

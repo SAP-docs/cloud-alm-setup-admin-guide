@@ -11,11 +11,11 @@ Currently, SAP Predictive Replenishment supports the following monitoring applic
 
 
 
-<a name="loiob15cd42f590b440aa7bdf0a3f69d43fe__section_rp3_gnt_bhc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Predictive Replenishment.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

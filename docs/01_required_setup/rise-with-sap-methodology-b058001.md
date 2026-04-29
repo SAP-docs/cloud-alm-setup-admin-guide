@@ -26,7 +26,119 @@ SAP makes no warranty, either expressed or implied, for the information provided
 
 
 
-<a name="loiob05800100570426a8f2de9dd80ac5adf__section_dh5_bld_kfc"/>
+<a name="loiob05800100570426a8f2de9dd80ac5adf__section_w5r_zkd_kfc"/>
+
+## Operations View
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Operations Dashboard Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Operations View
+
+</td>
+<td valign="top">
+
+View the RISE with SAP Methodology page
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations View
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations View
+
+</td>
+<td valign="top">
+
+Access the Operation Details view \(of a specific system\)
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations View
+
+</td>
+<td valign="top">
+
+Search and select for eligible systems
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations View
+
+</td>
+<td valign="top">
+
+View scores, KPIs, and metrics
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+</table>
+
+
 
 ## System View
 
@@ -317,120 +429,6 @@ Yes
 <td valign="top">
 
 No
-
-</td>
-</tr>
-</table>
-
-
-
-<a name="loiob05800100570426a8f2de9dd80ac5adf__section_w5r_zkd_kfc"/>
-
-## Operations View
-
-****
-
-
-<table>
-<tr>
-<th valign="top">
-
-App
-
-</th>
-<th valign="top">
-
-Action
-
-</th>
-<th valign="top">
-
-Operations Dashboard Viewer
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Operations View
-
-</td>
-<td valign="top">
-
-View the RISE with SAP Methodology page
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations View
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations View
-
-</td>
-<td valign="top">
-
-Access the Operation Details view \(of a specific system\)
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations View
-
-</td>
-<td valign="top">
-
-Search and select for eligible systems
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations View
-
-</td>
-<td valign="top">
-
-View scores, KPIs, and metrics
-
-</td>
-<td valign="top">
-
-Yes
 
 </td>
 </tr>

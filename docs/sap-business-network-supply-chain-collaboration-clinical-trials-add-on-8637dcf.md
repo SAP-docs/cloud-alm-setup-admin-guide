@@ -10,11 +10,13 @@ Currently, SAP Business Network Supply Chain Collaboration, clinical trials add-
 
 
 
-<a name="loio8637dcf3166f4621baaf36eec0deb556__section_hng_xsw_xgc"/>
+<a name="loio8637dcf3166f4621baaf36eec0deb556__section_a21_jzv_xgc"/>
 
 ## Prerequisites
 
 You have a subscription for SAP Business Network Supply Chain Collaboration, clinical trials add-on.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

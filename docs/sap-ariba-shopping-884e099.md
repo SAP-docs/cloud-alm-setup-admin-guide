@@ -10,11 +10,11 @@ Currently, SAP Ariba Shopping supports the following monitoring applications:
 
 
 
-<a name="loio884e09938d3f47309fcd3202819202e6__section_ijk_gk5_sgc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Ariba Shopping.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

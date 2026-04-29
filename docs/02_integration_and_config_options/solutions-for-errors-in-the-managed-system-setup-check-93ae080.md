@@ -1607,7 +1607,7 @@ SAP\_BASIS Version is lower than the minimum version ST740 SP13.
 </td>
 <td valign="top">
 
-SAP Basis version of the system does not meet the required version. For more information, [Prerequisites for Export Checks](https://help.sap.com/docs/cloud-alm/applicationhelp/transport-checks#prerequisites-for-export-checks).
+SAP Basis version of the system does not meet the required version. For more information, see [Prerequisites for Export Checks](https://help.sap.com/docs/cloud-alm/applicationhelp/transport-checks#prerequisites-for-export-checks).
 
 </td>
 </tr>
@@ -1638,12 +1638,18 @@ SAP Note for export check is not implemented in the system. See [Prerequisites f
 <tr>
 <td valign="top">
 
-Read ATC check flag failed. ATC is switched off.
+Read ATC check flag failed.
+
+ATC is switched off.
 
 </td>
 <td valign="top">
 
-ATC functionality does not exist in the system. For more information, [Quality Checking with the ABAP Test Cockpit \(ATC\)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/62c41ad841554516bb06fb3620540e47.html?version=202510.000).
+ATC functionality does not exist in the system. In the *Basic Settings* of ATC on your managed system, make sure that *Block for Findings* and *Inform for Findings* aren't set to *Never*.
+
+![](images/basic_86e3f7a.png)
+
+For more information, see also [Quality Checking with the ABAP Test Cockpit \(ATC\)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/62c41ad841554516bb06fb3620540e47.html?version=202510.000).
 
 </td>
 </tr>

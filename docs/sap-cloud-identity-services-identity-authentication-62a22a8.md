@@ -10,6 +10,14 @@ Currently, SAP Cloud Identity Services – Identity Authentication supports the 
 
 
 
+## Prerequisites
+
+You have a subscription for SAP Cloud Identity Services – Identity Authentication.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+
+
 <a name="loio62a22a8b36714d10b4f10e11d1965c96__section_l1r_crw_xgc"/>
 
 ## Setup in SAP Cloud ALM

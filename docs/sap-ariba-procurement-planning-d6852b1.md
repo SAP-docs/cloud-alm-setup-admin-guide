@@ -10,11 +10,11 @@ Currently, SAP Ariba Procurement Planning supports the following monitoring appl
 
 
 
-<a name="loiod6852b1ed5b74f329e5ab27a42bb518b__section_rcc_g4c_tgc"/>
-
 ## Prerequisites
 
-You have a subscription for the SAP Ariba Procurement Planning.
+You have a subscription for SAP Ariba Procurement Planning.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

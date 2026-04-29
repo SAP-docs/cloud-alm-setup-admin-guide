@@ -6,6 +6,116 @@
 
 In this document, you can find answers to some of the most common questions and issues that may arise while requesting and setting up SAP Cloud ALM.
 
+<a name="loiof7832265c60544ca84c502a51f07bf52"/>
+
+<!-- loiof7832265c60544ca84c502a51f07bf52 -->
+
+## SAP For Me
+
+
+
+
+<table>
+<tr>
+<th valign="top">
+
+Issue
+
+</th>
+<th valign="top">
+
+Resolution
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+You want to check if you have the required authorizations and an S-user with the role `Edit Cloud Data` on SAP for Me.
+
+</td>
+<td valign="top">
+
+On SAP for Me, select the user icon and open *My Settings*. On the *Authorizations and Functions* tab, you can check if you already have a user with the role `Edit Cloud Data`.
+
+Open the [Systems & Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me. If there's an entry under *Systems to be Provisioned* or *Provisioning Status* means that you have the required authorizations.
+
+![](images/sapfr_37589b3.jpg)
+
+In case of many available entries you can use the *Search* field to search for SAP Cloud ALM.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to request the role `Edit Cloud Data`.
+
+</td>
+<td valign="top">
+
+See [Access and Authorizations](https://support.sap.com/content/s4m/help/access.html) on how to request access.
+
+On SAP for Me, on the *Users & Contacts* tab, you find your responsible administrator.
+
+![](images/user_2dea9a6.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to request SAP Cloud ALM on SAP for Me, but you can't access the request dashboard.
+
+</td>
+<td valign="top">
+
+Make sure you fulfill the following prerequisites:
+
+-   Your company number has sufficient product and support contracts.
+
+-   You're assigned to the respective customer.
+
+-   You have an S-user with the role `Edit Cloud Data` on SAP for Me.
+
+
+For more information about users and authorizations, see [Access and Authorizations](https://support.sap.com/content/s4m/help/access.html).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You fulfill the prerequisites but still don't see any data in *Systems & Provisioning*.
+
+</td>
+<td valign="top">
+
+This means that there's an issue with your entitlements. You can check the *Usage Rights Scope* here [Usage Rights](https://support.sap.com/en/alm/usage-rights.html).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to determine if an SAP Cloud ALM tenant has already been provisioned for your customer number, or if it can still be provisioned.
+
+</td>
+<td valign="top">
+
+Open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me:
+
+-   If SAP Cloud ALM is available in the section *Products Available for Provisioning*, it hasn't been provisioned yet and you can request it.
+
+-   If SAP Cloud ALM is available in the section *Provisioning Status*, the provisioning is either in progress or completed.
+
+
+In case of many available entries you can use the *Search* field to search for SAP Cloud ALM.
+
+</td>
+</tr>
+</table>
+
 <a name="loiof345b25118b84bf185d374a577c4e579"/>
 
 <!-- loiof345b25118b84bf185d374a577c4e579 -->
@@ -41,46 +151,6 @@ You're looking for information about license details that entitle you to use SAP
 SAP Cloud ALM is part of SAP Enterprise Support and other contracts. To find out if you're entitled to provision SAP Cloud ALM, refer to [Availability](availability-288d15a.md). You can start the provisioning process [here](https://me.sap.com/systemsprovisioning/provisioning).
 
 SAP Cloud ALM options for which you may get charged are documented in our [Fair Use](fair-use-94cd95e.md) statement.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to request SAP Cloud ALM on SAP for Me, but you can't access the request dashboard.
-
-</td>
-<td valign="top">
-
-Make sure you fulfill the following prerequisites:
-
--   Your company number has sufficient product and support contracts.
-
--   You're assigned to the respective customer.
-
--   You have an S-user with the role `Edit Cloud Data` on SAP for Me.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-You want to determine if an SAP Cloud ALM tenant has already been provisioned for your customer number, or if it can still be provisioned.
-
-</td>
-<td valign="top">
-
-Open the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me:
-
--   If SAP Cloud ALM is available in the section *Products Available for Provisioning*, it hasn't been provisioned yet and you can request it.
-
--   If SAP Cloud ALM is available in the section *Provisioning Status*, the provisioning is either in progress or completed.
-
-
-
 
 </td>
 </tr>

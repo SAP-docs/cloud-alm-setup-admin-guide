@@ -16,6 +16,8 @@ Currently, SAP Master Data Integration supports the following monitoring applica
 
 You have a subscription for SAP Master Data Integration **Tenant**.
 
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
 You can only activate the integration monitoring for the subscription of type *Tenant* \(`one-mds-master`\), which you need in addition to your subscription for SAP Master Data Integration \(`one-mds`\). More under [Creating Tenants](https://help.sap.com/docs/master-data-integration/sap-master-data-integration-prod/creating-tenants).
 
 

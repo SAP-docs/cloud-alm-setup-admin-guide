@@ -10,6 +10,14 @@ Currently, SAP Subscription Billing supports the following monitoring applicatio
 
 
 
+## Prerequisites
+
+You have a subscription for SAP Subscription Billing.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+
+
 <a name="loio0490143e474e42fb9a42a73b0ce9eace__section_dq5_qhc_chc"/>
 
 ## Setup in SAP Cloud ALM

@@ -20,6 +20,17 @@ Here's what you get by purchasing a tenant extension:
 > 
 > Each additional SAP Cloud ALM tenant will be provisioned in its own dedicated SAP BTP global account.
 
+Each extension can be used either for a new SAP Cloud ALM tenant \(with 24 GB of SAP HANA memory usage, and 24 GB of outbound API data transfer per calendar month\), or as extension of these limits for an existing tenant. If you have multiple SAP Cloud ALM tenants, you are free to distribute your memory and outbound API data transfer limits across them to your own choice.
+
+> ### Example:  
+> If you are under a qualifying enterprise support agreement, you are entitled to one SAP Cloud ALM tenant, and in addition you have procured 2 tenant extension products. This means that you are granted:
+> 
+> -   The rights to provision 2 additional SAP Cloud ALM tenants
+> -   A total 72 GB of SAP HANA memory usage: 24 GB for the standard SAP Cloud ALM tenant and 2x24 GB for the extensions
+> -   72 GB of outbound API data transfer per calendar month
+> 
+> So, you can use one tenant with up to 72 GB of SAP HANA memory and outbound API data transfer, or use three tenants and distribute up to 72 GB across them.
+
 There's no restriction on the number of tenant extensions which you can subscribe to. You can get as many as you need for your organization and purposes.
 
 From a functional and technical point of view, the additional tenants are identical to your original SAP Cloud ALM tenant. Here's how you can benefit from requesting additional tenants:

@@ -41,13 +41,14 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
     If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed on this page.
 
--   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\).
+-   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\). Note that **no changes are necessary** if you are using the RISE with SAP default values.
 -   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
 -   [DigiCert Global Root G2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
-    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** for SAP Cloud ALM \(including SP33\)
+    -   SAP Note [3706830](https://me.sap.com/notes/3706830) – Collective corrections as of ST-PI 7.40 **SP34** and ST-PI 7.58 SP01 for SAP Cloud ALM
+    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** and ST-PI 7.58 SP00 for SAP Cloud ALM \(including SP33\)
     -   SAP Note [3575903](https://me.sap.com/notes/3575903) – Collective corrections as of ST-PI 7.40 **SP30** for SAP Cloud ALM \(including SP31\)
     -   SAP Note [3502641](https://me.sap.com/notes/3502641) – Collective corrections as of ST-PI 7.40 **SP28** for SAP Cloud ALM \(including SP29\)
     -   SAP Note [3421256](https://me.sap.com/notes/3421256) – Collective corrections as of ST-PI 7.40 **SP26** for SAP Cloud ALM \(including SP27\)
@@ -224,7 +225,7 @@ For the setup, consider two users in the managed ABAP system:
 > 
 > -   `BATCH_USER` is always available in the managed system and doesn't expire. You can also specify it as background user.
 
-You can also check the prerequisites for each managed system on the [Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html):
+You can also check the prerequisites for the connection of managed systems here:
 
 -   [SAP NetWeaver Application Server for ABAP \(7.40 and higher\), including SAP BW/4HANA](../sap-netweaver-application-server-for-abap-7-40-and-higher-including-sap-bw-4hana-14001e1.md)
 
@@ -410,7 +411,7 @@ For example:
 
 ## Activating the Use Case Transports
 
-To activate the use case *Transports* and the respective tasks, run transaction `/n/SDF/ALM_SETUP` and choose *Activate usescases*.
+To activate the use case *Transports* and the respective tasks, run transaction `/n/SDF/ALM_SETUP` and choose *Activate usecases*.
 
 ![](images/activate_b65b342.png)
 
@@ -565,7 +566,7 @@ You have to create an RFC connection from your production system to your source 
 
     1.  Download the `SAP_SDF_ALM_TRCHK.SAP` role template from the *Attachments* tab of SAP Note [2475591](https://me.sap.com/notes/2475591).
 
-    2.  In your source system, run transaction `PFCG` to upload the role template. Select *Role* \> *Upload* and choose the `SAP_SDF_ALM_TRCHK.SAP` role template.
+    2.  In the source system and client you're using to create transports, run transaction `PFCG` to upload the role template. Select *Role* \> *Upload* and choose the `SAP_SDF_ALM_TRCHK.SAP` role template.
 
         > ### Note:  
         > If you receive a message that roles already exist in the system, select *Transport* \> *Change* \> *Authorizations* \> *Change Authorization Data* \> *Generate* to overwrite the existing data.

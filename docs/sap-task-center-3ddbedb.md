@@ -11,6 +11,14 @@ Currently, SAP Task Center supports the following monitoring applications:
 
 
 
+## Prerequisites
+
+You have a subscription for SAP Task Center.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+
+
 <a name="loio3ddbedb6b10742d4a45542f6d51d2f73__section_yyw_yhc_chc"/>
 
 ## Setup in SAP Cloud ALM

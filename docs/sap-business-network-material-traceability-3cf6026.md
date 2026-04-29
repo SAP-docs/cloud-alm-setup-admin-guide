@@ -10,11 +10,13 @@ The following monitoring application is supported for SAP Business Network Mater
 
 
 
-<a name="loio3cf6026da6db4e668d2bfb4688381b7a__section_t2l_5q5_xgc"/>
+<a name="loio3cf6026da6db4e668d2bfb4688381b7a__section_a21_jzv_xgc"/>
 
 ## Prerequisites
 
 You have a subscription for SAP Business Network Material Traceability.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

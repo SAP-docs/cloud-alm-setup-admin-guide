@@ -114,7 +114,7 @@ The following steps must be performed on both master and shadow servers.
     -   *URL Path*: `/exposed with Access Policy: Path Only`
 
 7.  Choose *Save*.
-8.  For verification, choose *Check availability of internal host*.
+8.  Optional: For verification, you can choose *Check availability of internal host*.
 
     ![](images/CloudConnector_5_cebbeb2.png)
 

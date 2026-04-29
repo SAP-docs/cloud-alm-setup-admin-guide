@@ -10,11 +10,11 @@ Currently, SAP Automation Pilot supports the following monitoring applications:
 
 
 
-<a name="loio60f0977dd6b049d79e49aebc1cd0cd38__section_tdl_glg_vgc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Automation Pilot.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

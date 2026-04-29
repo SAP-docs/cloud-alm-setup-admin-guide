@@ -457,11 +457,11 @@ Process Management
 -   Model Company for Aerospace and Defense
 -   Model Company for Agribusiness
 -   Model Company for Airline Backoffice
+-   Model Company for Consumer Packaged Goods
+-   Model Company for Enterprise Asset Management
 -   Model Company for Environment, Health and Safety
 -   Model Company for Fashion and Vertical Business
 -   SAP Services Content for Automotive
--   SAP Services Content for Consumer Products
--   SAP Services Content for Connected Assets
 -   SAP Services Content for Core Retail
 -   SAP Services Content for Integrated Utilities
 -   SAP Services Content for Oil and Gas
@@ -4577,6 +4577,72 @@ Job & Automation Monitoring
 <td valign="top">
 
 More under [SAP Datasphere](sap-datasphere-79f90c1.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Complaint Handling
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+[SAP Complaint Handling](sap-complaint-handling-f85cfd4.md)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Project and Resource Management, project management capability
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+[SAP Project and Resource Management, project management capability](sap-project-and-resource-management-project-management-capability-b30d930.md)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Process Automation
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Build Process Automation](sap-build-process-automation-961dfa6.md).
 
 </td>
 </tr>

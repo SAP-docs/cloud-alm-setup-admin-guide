@@ -3151,7 +3151,7 @@ Documents
 </td>
 <td valign="top">
 
-Rework documents
+Create new document version
 
 </td>
 <td valign="top">
@@ -3247,7 +3247,7 @@ Documents
 </td>
 <td valign="top">
 
-Mark template for deletion
+Move templates to deleted items
 
 </td>
 <td valign="top">
@@ -3311,7 +3311,7 @@ Documents
 </td>
 <td valign="top">
 
-Restore documents marked for deletion
+Restore documents
 
 </td>
 <td valign="top">
@@ -3343,7 +3343,7 @@ Documents
 </td>
 <td valign="top">
 
-Restore templates marked for deletion
+Restore templates
 
 </td>
 <td valign="top">
@@ -10613,6 +10613,429 @@ Yes
 <td valign="top">
 
 No
+
+</td>
+</tr>
+</table>
+
+
+
+## Solution Documentation
+
+> ### Note:  
+> The permissions of users with this role additionally depend on the access level of the project and the team assignment. For more information, refer to [Configuring Project User Permissions](https://help.sap.com/docs/cloud-alm/setup-administration/project-user-permissions).
+> 
+> The information in the following table is based on a public project.
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Document Administrator
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+View created documents
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+View created templates
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Create and edit documents
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Create and edit templates
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Copy documents
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Copy templates
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Create and assign tags
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Assign and unassign relations
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Upload external files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Download external files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Upload XLSX-files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Download XLSX-files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Request approval
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Cancel approval request
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Approve or reject approval requests
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Create new document version
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Move documents to deleted items
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Delete documents
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Move templates to deleted items
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Delete template
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Restore documents
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+Restore templates
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>

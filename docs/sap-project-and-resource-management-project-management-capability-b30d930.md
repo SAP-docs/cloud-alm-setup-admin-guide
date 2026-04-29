@@ -1,24 +1,22 @@
-<!-- loio528b8fc04f6d46a4858fb4cc259e7b22 -->
+<!-- loiob30d93046be843cc9f183e7eab3db4fa -->
 
-# SAP Revenue Growth Optimization
+# SAP Project and Resource Management, project management capability
 
-This page explains how to connect SAP Revenue Growth Optimization to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP Project and Resource Management, project management capability to SAP Cloud ALM to enable monitoring.
 
-Currently, SAP Revenue Growth Optimization supports the following monitoring applications:
+Currently, SAP Project and Resource Management, project management capability supports the following monitoring applications:
 
--   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+-   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
 
 ## Prerequisites
 
-You have a subscription for SAP Revenue Growth Optimization.
+You have a subscription for SAP Project and Resource Management, project management capability.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
-
-<a name="loio528b8fc04f6d46a4858fb4cc259e7b22__section_gpg_rxt_bhc"/>
 
 ## Setup in SAP Cloud ALM
 
@@ -30,5 +28,5 @@ To activate the data collection, activate the monitoring in the respective SAP C
 
 For details, check the documentation for the supported use cases:
 
--   [Activate the data collection for Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/configuring-integration-monitoring)
+-   [Activate the data collection in Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/rum-connecting-services#activate-real-user-monitoring-data-collection)
 

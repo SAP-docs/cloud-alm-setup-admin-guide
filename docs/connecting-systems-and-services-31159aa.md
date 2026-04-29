@@ -77,10 +77,9 @@ This document provides guidance on connecting SAP BTP, Kyma runtime to SAP Cloud
 -   **[SAP BTP, Neo environment \(custom-built applications\)](sap-btp-neo-environment-custom-built-applications-5007389.md "This document provides guidance on connecting custom-built applications in the SAP BTP, Neo environment to SAP Cloud ALM for monitoring
 		purposes.")**  
 This document provides guidance on connecting custom-built applications in the SAP BTP, Neo environment to SAP Cloud ALM for monitoring purposes.
--   **[SAP Build Process Automation](sap-build-process-automation-961dfa6.md "This document provides guidance on connecting custom-built applications in the SAP BTP,
-		Neo environment to SAP Cloud ALM for
-		monitoring purposes.")**  
-This document provides guidance on connecting custom-built applications in the SAP BTP, Neo environment to SAP Cloud ALM for monitoring purposes.
+-   **[SAP Build Process Automation](sap-build-process-automation-961dfa6.md "This document provides guidance on connecting SAP Build Process Automation to SAP Cloud ALM for monitoring
+    purposes.")**  
+This document provides guidance on connecting SAP Build Process Automation to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Build Work Zone, standard edition](sap-build-work-zone-standard-edition-87894d0.md "This page explains how to connect products that are related SAP Build Work Zone in SAP BTP, Cloud
 			Foundry environment to SAP Cloud ALM to enable
 		monitoring.")**  
@@ -297,6 +296,11 @@ This page explains how to connect SAP Order Management foundation to SAP Cloud A
 -   **[SAP Predictive Replenishment](sap-predictive-replenishment-b15cd42.md "This page explains how to connect SAP Predictive Replenishment to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Predictive Replenishment to SAP Cloud ALM to enable monitoring.
+-   **[SAP Project and Resource Management, project management capability](sap-project-and-resource-management-project-management-capability-b30d930.md "This page explains how to connect SAP Project and Resource
+                                Management, project management capability
+		to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Project and Resource Management, project management capability to SAP Cloud ALM to enable monitoring.
 -   **[SAP Project and Resource Management, resource management capability](sap-project-and-resource-management-resource-management-capability-0cc213b.md "This page explains how to connect SAP Project and Resource
                                 Management, resource management capability to SAP Cloud ALM to enable
 		monitoring.")**  

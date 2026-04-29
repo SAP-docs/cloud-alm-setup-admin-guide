@@ -46,13 +46,14 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
     If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed on this page.
 
--   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\).
+-   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\). Note that **no changes are necessary** if you are using the RISE with SAP default values.
 -   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
 -   [DigiCert Global Root G2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
-    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** for SAP Cloud ALM \(including SP33\)
+    -   SAP Note [3706830](https://me.sap.com/notes/3706830) – Collective corrections as of ST-PI 7.40 **SP34** and ST-PI 7.58 SP01 for SAP Cloud ALM
+    -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** and ST-PI 7.58 SP00 for SAP Cloud ALM \(including SP33\)
     -   SAP Note [3575903](https://me.sap.com/notes/3575903) – Collective corrections as of ST-PI 7.40 **SP30** for SAP Cloud ALM \(including SP31\)
     -   SAP Note [3502641](https://me.sap.com/notes/3502641) – Collective corrections as of ST-PI 7.40 **SP28** for SAP Cloud ALM \(including SP29\)
     -   SAP Note [3421256](https://me.sap.com/notes/3421256) – Collective corrections as of ST-PI 7.40 **SP26** for SAP Cloud ALM \(including SP27\)
@@ -350,43 +351,6 @@ If PCA isn't used, two reports support your system copy and system refresh:
 
     To prepare a system refresh, you can execute this report. It creates a Transport of Copies \(ToC\) with the table content of the SAP Cloud ALM configuration. Export this request and save it. After the system refresh, you can import this transport request again.
 
-
-
-
-### Configuration Tables in SAP Cloud ALM
-
-Save and restore the following tables:
-
--   /SDF/DCOBQHDR
--   /SDF/DCRUNNING
--   /SDF/DCCCONFIG
--   /SDF/DCCLOGDET
--   /SDF/DCCLOGHDR
--   /SDF/DCKPICFG
--   /SDF/DCOBQDATA
--   /SDF/DCPARAMCFG
--   /SDF/AJM\_JOBS
--   /SDF/AJM\_SCHEDUL
--   /SDF/AJM\_SYNC\_PT
--   /SDF/AJM\_JOBS\_P
--   /SDF/AJM\_GRP\_JOB
--   /SDF/AJMF\_JOBS
--   /SDF/AJMF\_GR\_JOB
--   /SDF/AJMF\_JOBS\_P
--   /SDF/AJMF\_SCHEDU
--   /SDF/AJM\_PJOBS
--   /SDF/KPICINTRVL
--   /SDF/CALM\_CDMI
--   /SDF/CDM\_IMPORTS
--   /SDF/CDM\_CRT\_TR
--   /SDF/CALM\_SCHED
--   /SDF/CATEGORY
--   /SDF/IM\_PUSH\_ERR
--   /SDF/CALM\_ID
--   /SDF/CALM\_CONFIG
--   /SDF/CALM\_INST
--   /SDF/CALM\_QGROUP
--   /SDF/EXM\_EXT\_IDS
 
 
 

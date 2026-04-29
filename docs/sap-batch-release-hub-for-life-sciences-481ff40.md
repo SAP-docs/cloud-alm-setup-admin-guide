@@ -11,11 +11,11 @@ Currently, SAP Batch Release Hub for Life Sciences supports the following monito
 
 
 
-<a name="loio481ff40cd8174f8f90b5b10f0309e432__section_xhm_fmg_vgc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Batch Release Hub for Life Sciences.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

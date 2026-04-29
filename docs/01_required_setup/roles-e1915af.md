@@ -86,7 +86,7 @@ Cross Application
 </td>
 <td valign="top">
 
-Create and manage all SAP Cloud ALM objects, except for personal or sensitive data
+Create and manage all SAP Cloud ALM objects, except for personal or sensitive data and the RISE with SAP Methodology dashboard
 
 </td>
 <td valign="top">
@@ -654,6 +654,40 @@ Perform retrofit execution and administration
 <td valign="top">
 
 `imp_cdm_RetrofitPerformer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Documents
+
+</td>
+<td valign="top">
+
+*Documents Administrator*
+
+</td>
+<td valign="top">
+
+*Solution Documentation Document Administrator*
+
+</td>
+<td valign="top">
+
+Display, manage, and delete documents
+
+This role has to be combined with the *Project Viewer* role.
+
+</td>
+<td valign="top">
+
+`imp_sd_DocumentAdministrator` 
 
 </td>
 </tr>
@@ -1342,134 +1376,6 @@ View health overview and metrics of cloud services
 <td valign="top">
 
 `ops_hm_HealthMonitoringViewer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Viewer* 
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Viewer* 
-
-</td>
-<td valign="top">
-
-View health overview and metrics of cloud services
-
-</td>
-<td valign="top">
-
-`ops_hm_OperationsHealthMonitoringViewer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Processor* 
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Processor* 
-
-</td>
-<td valign="top">
-
-View health overview and metrics of cloud services, process alerts and perform follow-up actions
-
-</td>
-<td valign="top">
-
-`ops_hm_OperationsHealthMonitoringProcessor` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Configurator* 
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Configurator* 
-
-</td>
-<td valign="top">
-
-View health monitoring data and metrics of cloud services, maintain configuration for KPIs, filters, and events
-
-</td>
-<td valign="top">
-
-`ops_hm_OperationsHealthMonitoringConfigurator` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Health Monitoring
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Administrator* 
-
-</td>
-<td valign="top">
-
-*Operations Health Monitoring Administrator* 
-
-</td>
-<td valign="top">
-
-View health monitoring data and metrics of cloud services. Maintain configuration for KPIs, filters, and events. Maintain global configuration
-
-</td>
-<td valign="top">
-
-`ops_hm_OperationsHealthMonitoringAdministrator` 
 
 </td>
 </tr>

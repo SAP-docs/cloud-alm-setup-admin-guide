@@ -10,6 +10,14 @@ Currently, SAP Advanced Commodity Risk Analytics supports the following monitori
 
 
 
+## Prerequisites
+
+You have a subscription for SAP Advanced Commodity Risk Analytics.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+
+
 <a name="loio175ee8e057cc4d4b8cc22abed92095e9__section_tsh_lbc_fhc"/>
 
 ## Setup in SAP Cloud ALM

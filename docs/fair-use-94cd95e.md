@@ -22,7 +22,7 @@ You can monitor usage metrics related to your SAP Cloud ALM tenant, such as your
 ![](images/WN-TenantInfo_af0ab8a.jpg)
 
 > ### Note:  
-> If you've purchased the *SAP Cloud ALM, tenant extension* and used the additional memory and data transfer volume on your existing SAP Cloud ALM tenant, this is not reflected here.
+> If you've purchased the *SAP Cloud ALM, tenant extension* and used the additional memory and data transfer volume on your existing SAP Cloud ALM tenant, this is not reflected here. More under [Getting Additional SAP Cloud ALM Tenants](https://help.sap.com/docs/cloud-alm/setup-administration/getting-additional-tenants).
 > 
 > In that case, to get an overview of your current consumption, visit the [Finance & Legal](https://me.sap.com/financelegal) dashboard on SAP for Me. In the *Consumption* tab, you can find both the subscribed value and your current consumption.
 > 

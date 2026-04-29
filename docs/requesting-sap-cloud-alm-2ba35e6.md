@@ -14,16 +14,31 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 -   You have an S-user with the role `Edit Cloud Data` on SAP for Me.
 
-    You can manage your users and authorizations by following the steps described in [Manage User Authorizations](https://help.sap.com/docs/SAP_FOR_ME/758e7c8a7c5b4782bb78b17f8c7fbbda/d39d0e5f8478403c85e483b9493a7bd2.html).
+    For more information about users and authorizations, see [Access and Authorizations](https://support.sap.com/content/s4m/help/access.html).
+
+    If you encounter issues, see [SAP For Me](troubleshooting-and-faq-737bcf7.md#loiof7832265c60544ca84c502a51f07bf52).
 
 -   You're assigned to the customer number.
 
 
 
 
+## Related Troubleshooting and FAQ
+
+If you have questions or encounter issues before or after the provisioning, check our FAQs to find answers:
+
+-   [SAP For Me](troubleshooting-and-faq-737bcf7.md#loiof7832265c60544ca84c502a51f07bf52)
+
+-   [Before the Provisioning](troubleshooting-and-faq-737bcf7.md#loiof345b25118b84bf185d374a577c4e579)
+
+-   [After the Provisioning](troubleshooting-and-faq-737bcf7.md#loio96543ab033b143b29264c061c945a28b)
+
+
+
+
 <a name="loio2ba35e64569342f097b825275248f744__section_cxn_yp4_ytb"/>
 
-## Procedure
+## Start Provisioning
 
 1.  Open the [Systems & Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me.
 

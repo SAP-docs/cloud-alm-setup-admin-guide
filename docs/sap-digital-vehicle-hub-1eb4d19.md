@@ -33,6 +33,6 @@ To activate the data collection, activate the monitoring in the respective SAP C
 
 For details, check the documentation for the supported use cases:
 
--   [Activate data collection for Integration Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/int-mon-setup-support.html?anchorId=section_1683886374_c).
--   [Activate data collection in Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring/run-details.html?anchorId=section_194947898_co).
+-   [Activate data collection for Integration Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/im-configuring-services#activate-data-collection-for-a-service-or-system).
+-   [Activate data collection in Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/rum-activating-data-collection).
 

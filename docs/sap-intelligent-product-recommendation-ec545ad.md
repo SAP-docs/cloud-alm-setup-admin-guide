@@ -10,11 +10,11 @@ Currently, SAP Intelligent Product Recommendation supports the following monitor
 
 
 
-<a name="loioec545add8e0e4e41a99210c50972a5f0__section_v5k_4ff_bhc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Intelligent Product Recommendation.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

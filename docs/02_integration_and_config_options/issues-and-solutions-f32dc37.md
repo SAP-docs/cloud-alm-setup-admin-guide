@@ -93,10 +93,13 @@ Go to the managed system:
 <tr>
 <td valign="top">
 
-Can't create Transport of Copies
+Can't create transport of copies
 
 </td>
 <td valign="top">
+
+> ### Note:  
+> Transport of copies isn't available for two system landscapes. This is to prevent direct transport of copies into production.
 
 Go to the managed system:
 

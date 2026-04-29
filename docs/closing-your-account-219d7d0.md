@@ -2,7 +2,7 @@
 
 # Closing Your Account
 
-When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be deleted after a grace period has passed.
+When your SAP contracts expire, your SAP Cloud ALM tenant and all related data is deleted after a grace period has passed.
 
 > ### Tip:  
 > You can always check the contract end date on the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me, in the column *Contract Start*.

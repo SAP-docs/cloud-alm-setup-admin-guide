@@ -11,11 +11,11 @@ Currently, SAP Digital Manufacturing supports the following monitoring applicati
 
 
 
-<a name="loio11ca81a1d9d8425ea711e3de6e4aca1a__section_yny_fjx_ygc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Digital Manufacturing.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

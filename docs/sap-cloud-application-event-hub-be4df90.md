@@ -15,6 +15,8 @@ Currently, SAP Cloud Application Event Hub supports the following monitoring app
 
 ## Prerequisites
 
+You have a subscription for SAP Cloud Application Event Hub.
+
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 

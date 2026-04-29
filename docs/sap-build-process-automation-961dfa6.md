@@ -2,12 +2,14 @@
 
 # SAP Build Process Automation
 
-This document provides guidance on connecting custom-built applications in the SAP BTP, Neo environment to SAP Cloud ALM for monitoring purposes.
+This document provides guidance on connecting SAP Build Process Automation to SAP Cloud ALM for monitoring purposes.
 
 The following monitoring applications are supported for SAP Cloud ALM:
 
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
+-   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 -   [Job and Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
+-   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
 
@@ -46,7 +48,7 @@ The following monitoring applications are supported for SAP Cloud ALM:
 
 ### Activate Monitoring Use-Cases
 
-1.  Log on to SAP Build Process Automation.
+1.  Log on to SAP Build Process Automationn.
 2.  Choose the drop-down icon next to *Backend Configuration* and select SAP Cloud ALM.
 3.  Enter a service name, for example, the tenant ID of your SAP Build Process Automation.
 4.  Choose *Save*.

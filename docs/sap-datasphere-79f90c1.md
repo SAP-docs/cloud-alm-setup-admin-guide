@@ -12,13 +12,11 @@ Currently, SAP Datasphere supports the following monitoring applications:
 
 
 
-<a name="loio79f90c1d9aea4968b2034a9a3e006485__section_dbg_fhx_ygc"/>
-
 ## Prerequisites
 
-You have a subscription to SAP Datasphere.
+You have a subscription for SAP Datasphere.
 
-The information for your SAP Datasphere tenant has already been imported into SAP Cloud ALM and is available in the *Landscape Management* app. This happens automatically, once per day.
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

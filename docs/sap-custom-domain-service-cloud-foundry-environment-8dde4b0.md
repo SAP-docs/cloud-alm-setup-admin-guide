@@ -10,11 +10,11 @@ Currently, SAP Custom Domain service supports the following monitoring applicati
 
 
 
-<a name="loio8dde4b05acd84a698cf15377f1851c2a__section_khc_1ps_ygc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Custom Domain service, Cloud Foundry environment.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

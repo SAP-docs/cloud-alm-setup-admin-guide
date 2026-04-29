@@ -18,38 +18,47 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner. For more information, see SAP Note [3429058](https://me.sap.com/notes/3429058).
 
 > ### Note:  
-> It's mandatory to set **CTC=1** to enable the Export Transport Control for imports into different systems and clients other than the export system and client. For more information, see [Extended Transport Control](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html).
+> It's mandatory to set **CTC=1** to enable the Extended Transport Control for imports into different systems and clients other than the export system and client. For more information, see [Extended Transport Control](https://help.sap.com/docs/SAP_NETWEAVER_740/4a368c163b08418890a406d413933ba7/1b9dc2d6e59911d184810000e8a57770.html).
 > 
 > TMS transport groups are supported.
 > 
 > CTS+ is not supported.
 
 > ### Caution:  
-> If you want to implement landscape changes, please note the following:
+> If you want to implement landscape changes, please check what is supported and what isn't:
+> 
+> **Not supported:**
 > 
 > -   Identical SIDs are not supported.
 > 
 > -   TMS domains with the same domain name are not supported.
 > 
-> -   Adding new systems to a track is supported as long as no consolidation routes are changed. Mind that you need to adjust the transport buffers manually.
+> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature, *Transport Analysis* app, and *Feature Traceability* app.
 > 
-> -   Refreshing a \(test\) system is supported if the system ID stays the same. This still means, the transport buffers and imports need to be adjusted manually. For more information, see [System Refresh](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html?anchorId=section_copy_copy_co#section_copy).
+> -   Switching on or off client-specific transport routes isn't supported.
+> 
+> -   Do not perform buffer manipulations in CTS with transports managed by SAP Cloud ALM. There is no self-healing mechanism available.
+> 
+> -   We don't support client copies in the *Features* app. If you're creating a client copy, we suggest you first create a new client. Then, you should wait until you connect the newly created client using TMS transport routes, making it available in SAP Cloud ALM. Once you have completed the distribution into the production system of transport requests released before the client copy, you can activate the transport routes to make the new client available in SAP Cloud ALM. Mind that you need to adjust the transport buffers manually.
+> 
+> 
+> **Partially supported:**
 > 
 > -   Changing delivery routes is partly supported. This means, the transport buffers need to be adjusted manually and removed systems are still reported on in the feature traceability.
 > 
 > -   Deleting a system from a track is partly supported. This means, the transport buffers need to be adjusted manually and the deleted system is still reported on in the *Feature Traceability* app. Also, transport requests created in the deleted systems are still available in the transport assignment.
 > 
-> -   Replacing or deleting the development systems isn't supported. The transports of replaced or deleted development systems are still available in the assign pop-up, feature, *Transport Analysis* app, and *Feature Traceability* app.
 > 
-> -   Manually deleted transports in the managed system are still available in the assign pop-up, feature, *Transport Analysis* app, and *Feature Traceability* app.
+> **Only supported under specific conditions:**
 > 
-> -   Switching on or off client-specific transport routes isn't supported.
+> -   Adding new systems to a track is supported as long as no consolidation routes are changed. Mind that you need to adjust the transport buffers manually.
 > 
-> -   We recommend avoiding manual import activities in CTS with transports managed by SAP Cloud ALM.
+> -   Refreshing a \(test\) system is supported if the system ID stays the same. This still means, the transport buffers and imports need to be adjusted manually. For more information, see [System Refresh](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap-740.html?anchorId=section_copy_copy_co#section_copy).
 > 
-> -   Do not perform buffer manipulations in CTS with transports managed by SAP Cloud ALM. There is no self-healing mechanism available.
 > 
-> -   We don't support client copies in the *Features* app. If you're creating a client copy, we suggest you first create a new client. Then, you should wait until you connect the newly created client using TMS transport routes, making it available in SAP Cloud ALM. Once you have completed the distribution into the production system of transport requests released before the client copy, you can activate the transport routes to make the new client available in SAP Cloud ALM. Mind that you need to adjust the transport buffers manually.
+> Manually deleted transports in the managed system are still available in the assign pop-up, feature, *Transport Analysis* app, and *Feature Traceability* app.
+> 
+> We recommend avoiding manual import activities in CTS with transports managed by SAP Cloud ALM.
 
 The following steps show you how to create a test landscape to try out the SAP Cloud ALM Deployment Management scenario without interfering with the productive TMS landscapes. You can also follow the steps to create your productive landscape. For this, you just have to use your systems instead of the described test systems.
 

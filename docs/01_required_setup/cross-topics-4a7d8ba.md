@@ -2856,3 +2856,205 @@ No
 </tr>
 </table>
 
+
+
+## Self-Monitoring
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Self-Monitoring Viewer
+
+</th>
+<th valign="top">
+
+Self-Monitoring Processor
+
+</th>
+<th valign="top">
+
+Self-Monitoring Configurator
+
+</th>
+<th valign="top">
+
+Self-Monitoring Administrator
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+View app data
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+View alerts
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+Process alerts
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+Configure and modify metric settings
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+</table>
+

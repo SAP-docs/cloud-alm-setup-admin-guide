@@ -11,6 +11,14 @@ Currently, SAP Variant Configuration and Pricing supports the following monitori
 
 
 
+## Prerequisites
+
+You have a subscription for SAP Variant Configuration and Pricing.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+
+
 <a name="loio4697120bb5934e84a395d4708a2b3f32__section_amv_23c_chc"/>
 
 ## Setup in SAP Cloud ALM

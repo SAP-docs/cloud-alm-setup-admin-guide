@@ -35,9 +35,9 @@ The integration between SAP Cloud ALM and several SAP cloud services is orchestr
 -   **[Activating the SAP Audit Log Viewer Service](activating-the-sap-audit-log-viewer-service-59fd2a4.md "By using the SAP Audit Log Viewer service for SAP BTP, you can view the
 		audit logs to track the end user activity in SAP Cloud ALM.")**  
 By using the SAP Audit Log Viewer service for SAP BTP, you can view the audit logs to track the end user activity in SAP Cloud ALM.
--   **[Closing Your Account](closing-your-account-219d7d0.md "When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be
-		deleted after a grace period has passed.")**  
-When your SAP contracts expire, your SAP Cloud ALM tenant and all related data will be deleted after a grace period has passed.
+-   **[Closing Your Account](closing-your-account-219d7d0.md "When your SAP contracts expire, your SAP Cloud ALM tenant and all related data
+		is deleted after a grace period has passed.")**  
+When your SAP contracts expire, your SAP Cloud ALM tenant and all related data is deleted after a grace period has passed.
 
 **Related Information**  
 

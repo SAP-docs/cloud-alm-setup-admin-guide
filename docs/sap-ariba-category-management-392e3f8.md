@@ -10,11 +10,11 @@ Currently, SAP Ariba Category Management supports the following monitoring appli
 
 
 
-<a name="loio392e3f8306c349509fa5b15ad11e7b81__section_ilj_jpt_sgc"/>
-
 ## Prerequisites
 
 You have a subscription for SAP Ariba Category Management.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 

@@ -7,7 +7,6 @@ This page provides guidance for resolving issues that may occur during the monit
 The troubleshooting information on this page applies to the following products:
 
 -   [SAP NetWeaver Application Server for ABAP \(7.40 and higher\), including SAP BW/4HANA](sap-netweaver-application-server-for-abap-7-40-and-higher-including-sap-bw-4hana-14001e1.md)
--   SAP S/4HANA
 -   [SAP S/4HANA and SAP Business Suite 7](sap-s-4hana-and-sap-business-suite-7-87ec319.md)
 -   [SAP S/4HANA Cloud Private Edition](sap-s-4hana-cloud-private-edition-20bb800.md)
 -   [SAP SuccessFactors Employee Central Payroll](sap-successfactors-employee-central-payroll-ea4533a.md)

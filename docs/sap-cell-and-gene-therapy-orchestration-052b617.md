@@ -11,11 +11,13 @@ Currently, SAP Cell and Gene Therapy Orchestration supports the following monito
 
 
 
-<a name="loio052b6179e8f34149a50e498490e4261c__section_wtl_skv_xgc"/>
+<a name="loio052b6179e8f34149a50e498490e4261c__section_a21_jzv_xgc"/>
 
 ## Prerequisites
 
 You have a subscription for SAP Cell and Gene Therapy Orchestration.
+
+The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
 
 
