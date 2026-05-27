@@ -78,6 +78,57 @@ EU20
 <tr>
 <td valign="top">
 
+AB5
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AB7
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AE01
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 AM7
 
 </td>
@@ -89,6 +140,23 @@ EU10
 <td valign="top">
 
 EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AP01
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+JP10
 
 </td>
 </tr>
@@ -197,12 +265,63 @@ EU20
 <tr>
 <td valign="top">
 
+AP31
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 BR10
 
 </td>
 <td valign="top">
 
-US10
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+BR20
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+BR30
+
+</td>
+<td valign="top">
+
+US10-001
 
 </td>
 <td valign="top">
@@ -220,6 +339,40 @@ CA10
 <td valign="top">
 
 CA10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CA20
+
+</td>
+<td valign="top">
+
+CA10
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCB
+
+</td>
+<td valign="top">
+
+US10-001
 
 </td>
 <td valign="top">
@@ -248,7 +401,109 @@ CN20
 <tr>
 <td valign="top">
 
+CCD
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CCE
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCF
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCG
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCH
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCI
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCN
 
 </td>
 <td valign="top">
@@ -265,17 +520,85 @@ EU10
 <tr>
 <td valign="top">
 
-CH20
+CCS
 
 </td>
 <td valign="top">
 
-EU10
+JP10
 
 </td>
 <td valign="top">
 
 EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCT
+
+</td>
+<td valign="top">
+
+CA10
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CCU
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CH20
+
+</td>
+<td valign="top">
+
+EU11
+
+</td>
+<td valign="top">
+
+EU11
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CN01
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+<td valign="top">
+
+CN20
 
 </td>
 </tr>
@@ -300,6 +623,23 @@ CN20
 <td valign="top">
 
 CN40
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CN40-canary
 
 </td>
 <td valign="top">
@@ -401,6 +741,40 @@ EU10
 <tr>
 <td valign="top">
 
+DB3
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DB4
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DC4
 
 </td>
@@ -418,7 +792,7 @@ EU20
 <tr>
 <td valign="top">
 
-EU1
+DC5
 
 </td>
 <td valign="top">
@@ -435,7 +809,109 @@ EU10
 <tr>
 <td valign="top">
 
+DM1
+
+</td>
+<td valign="top">
+
 EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DU1
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU01
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU01-canary
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU02
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU10-canary
 
 </td>
 <td valign="top">
@@ -542,12 +1018,12 @@ EU11
 </td>
 <td valign="top">
 
-EU10
+EU11
 
 </td>
 <td valign="top">
 
-EU20
+EU11
 
 </td>
 </tr>
@@ -559,7 +1035,7 @@ EU12
 </td>
 <td valign="top">
 
-EU12
+EU10
 
 </td>
 <td valign="top">
@@ -576,7 +1052,7 @@ EU12-001
 </td>
 <td valign="top">
 
-EU12
+EU10
 
 </td>
 <td valign="top">
@@ -593,7 +1069,7 @@ EU12-002
 </td>
 <td valign="top">
 
-EU12
+EU10
 
 </td>
 <td valign="top">
@@ -639,12 +1115,80 @@ EU10
 <tr>
 <td valign="top">
 
+EU20-002
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU20-canary
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 EU21
 
 </td>
 <td valign="top">
 
 EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU22
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EU23-canary
+
+</td>
+<td valign="top">
+
+EU12
 
 </td>
 <td valign="top">
@@ -673,7 +1217,58 @@ EU10
 <tr>
 <td valign="top">
 
+EU31
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+FR3
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 FR4
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+FR6
 
 </td>
 <td valign="top">
@@ -713,6 +1308,23 @@ IN30
 <td valign="top">
 
 EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+JP01
+
+</td>
+<td valign="top">
+
+JP10
 
 </td>
 <td valign="top">
@@ -775,6 +1387,159 @@ EU20
 <tr>
 <td valign="top">
 
+JP31
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+KU1
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+KU2
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NSQ
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+OS2
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+OSA
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PA4
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PA5
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PH1
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 RI1
 
 </td>
@@ -786,6 +1551,74 @@ EU20
 <td valign="top">
 
 EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RO2
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ROT
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RS1
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SA1
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
 
 </td>
 </tr>
@@ -820,6 +1653,74 @@ EU10
 <td valign="top">
 
 EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SG5
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SG8
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SG9
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SH4
+
+</td>
+<td valign="top">
+
+CN20
+
+</td>
+<td valign="top">
+
+CN20
 
 </td>
 </tr>
@@ -877,6 +1778,40 @@ EU20
 <tr>
 <td valign="top">
 
+SY3
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TK2
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 TO2
 
 </td>
@@ -900,6 +1835,40 @@ TYO
 <td valign="top">
 
 JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UK20
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+US02
+
+</td>
+<td valign="top">
+
+US10-001
 
 </td>
 <td valign="top">
@@ -1047,7 +2016,381 @@ EU20
 <tr>
 <td valign="top">
 
+US32
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+VI2
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+VI3
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+WD1
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+WD3
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 WD4
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XC1
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XG7
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XG9
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XGB
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XGF
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XGH
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XGJ
+
+</td>
+<td valign="top">
+
+JP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XGR
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XM2
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XM3
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XMD
+
+</td>
+<td valign="top">
+
+CA10
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XME
+
+</td>
+<td valign="top">
+
+CA10
+
+</td>
+<td valign="top">
+
+US10-001
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XMF
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XMS
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XMT
+
+</td>
+<td valign="top">
+
+AP10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XSE
+
+</td>
+<td valign="top">
+
+EU10
+
+</td>
+<td valign="top">
+
+EU20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XSF
 
 </td>
 <td valign="top">

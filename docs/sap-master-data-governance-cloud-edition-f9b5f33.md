@@ -10,6 +10,9 @@ Currently, the following monitoring applications are supported for SAP Master Da
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Master Data Governance - cloud edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-mdg-cloud.html).
+
+
 
 
 <a name="loiof9b5f33244ca4600b911bda4e805ab0d__section_qp3_vtr_bhc"/>
@@ -25,6 +28,8 @@ You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM sys
 <a name="loiof9b5f33244ca4600b911bda4e805ab0d__section_xhb_ztr_bhc"/>
 
 ## Setup in SAP Master Data Governance, cloud edition
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Master Data Governance - cloud edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-mdg-cloud.html).
 
 
 

@@ -6,7 +6,7 @@ This document provides guidance on connecting SAP Business Network for Logistics
 
 The following monitoring application is supported for SAP Business Network for Logistics, shipper:
 
--   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+-   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)Specific setup information for Integration & Exception Monitoring: [SAP Business Network for Logistics](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-lbn.html).
 
 
 
@@ -20,6 +20,8 @@ Your user in SAP Business Network for Logistics, shipper, has a role collection 
 
 -   SystemConnectionsProcessTemplate
 
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Business Network for Logistics](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-lbn.html).
 
 
 

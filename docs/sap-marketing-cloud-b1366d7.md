@@ -9,6 +9,9 @@ This page explains how to connect SAP Marketing Cloud to SAP Cloud ALM to enable
 Currently, SAP Marketing Cloud supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Marketing Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-marketing.html).
+
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
 -   [Job & Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
@@ -26,6 +29,8 @@ The following video demonstrates the setup for application monitoring for SAP In
 You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 
 In SAP Marketing Cloud, you have a user with administrator authorization.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Marketing Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-marketing.html).
 
 
 

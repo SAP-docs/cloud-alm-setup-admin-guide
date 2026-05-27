@@ -8,7 +8,10 @@ This page explains how to connect SAP Fieldglass to SAP Cloud ALM to enable moni
 
 Currently, SAP Fieldglass supports the following monitoring applications:
 
--   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
+-   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Fieldglass](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-fg.html).
+
 
 The following video demonstrates the setup steps for Integration and Exception Monitoring for SAP Fieldglass. A textual step-by-step description of all setup steps is provided after the video on this site.
 
@@ -28,6 +31,8 @@ The following video demonstrates the setup steps for Integration and Exception M
 
     Do not use a personal user for this purpose.
 
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Fieldglass](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-fg.html).
 
 
 
@@ -96,5 +101,5 @@ The following video demonstrates the setup steps for Integration and Exception M
 
 After creating the endpoint in SAP Cloud ALM, you need to activate the monitoring use-cases:
 
--   [Activate the data collection in Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/rum-connecting-services#activate-real-user-monitoring-data-collection)
+-   [Activate the data collection for Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/configuring-integration-monitoring)
 

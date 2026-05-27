@@ -2,31 +2,15 @@
 
 # SAP SuccessFactors HCM
 
-This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable monitoring in SAP Cloud ALM.
 
 Currently, SAP SuccessFactors HCM supports the following monitoring applications:
 
--   [Configuration & Security Analysis](https://help.sap.com/docs/cloud-alm/applicationhelp/configuration-security-analysis)
+-   [Integration Monitoring and Configuration & Security Analysis](integration-monitoring-and-configuration-security-analysis-b3c0045.md) \(simple setup through SAP-managed connectivity\)
+-   [Business Process Monitoring and Exception Monitoring](business-process-monitoring-and-exception-monitoring-0b3356d.md) \(setup through SFAPI and certificate mapping with SAP Cloud ALM\)
 
-
-
-## Prerequisites
-
-You have a subscription for SAP SuccessFactors HCM.
-
-The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
-
-
-
-## Setup in SAP Cloud ALM
-
-The integration between SAP Cloud ALM and many SAP cloud services is orchestrated by [SAP-Managed Connectivity](https://help.sap.com/docs/cloud-alm/setup-administration/sap-managed-connectivity).
-
-SAP-managed connectivity uses SAP's infrastructure for OpenTelemetry-based data collection to report monitoring data to SAP Cloud ALM.
-
-To activate the data collection, activate the monitoring in the respective SAP Cloud ALM monitoring app. By activating the data collection, you also give consent for the data exchange.
-
-For details, check the documentation for the supported use cases:
-
--   [Activate the data collection for Configuration & Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis/csa-setup.html)
+-   **[Business Process Monitoring and Exception Monitoring](business-process-monitoring-and-exception-monitoring-0b3356d.md "This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable Business Process Monitoring and Exception Monitoring in SAP Cloud ALM.")**  
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable [Business Process Monitoring](../../../../../../../../https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring) and [Exception Monitoring](../../../../../../../../https://help.sap.com/docs/cloud-alm/applicationhelp/monitoring-exceptions) in SAP Cloud ALM.
+-   **[Integration Monitoring and Configuration & Security Analysis](integration-monitoring-and-configuration-security-analysis-b3c0045.md "This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable Configuration & Security Analysis and Integration Monitoring in SAP Cloud ALM.")**  
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable [Configuration & Security Analysis](../../../../../../../../https://help.sap.com/docs/cloud-alm/applicationhelp/configuration-security-analysis) and [Integration Monitoring](../../../../../../../../https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring) in SAP Cloud ALM.
 

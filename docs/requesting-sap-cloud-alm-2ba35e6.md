@@ -12,13 +12,13 @@ You can request SAP Cloud ALM on SAP for Me for yourself or for all entitled cus
 
 ## Prerequisites
 
+-   You're assigned to the customer number.
+
 -   You have an S-user with the role `Edit Cloud Data` on SAP for Me.
 
     For more information about users and authorizations, see [Access and Authorizations](https://support.sap.com/content/s4m/help/access.html).
 
     If you encounter issues, see [SAP For Me](troubleshooting-and-faq-737bcf7.md#loiof7832265c60544ca84c502a51f07bf52).
-
--   You're assigned to the customer number.
 
 
 

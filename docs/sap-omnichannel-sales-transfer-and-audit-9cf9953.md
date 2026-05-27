@@ -8,6 +8,9 @@ Currently, SAP Omnichannel Sales Transfer and Audit supports the following monit
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Omnichannel Sales Transfer and Audit](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-int-osta.html).
+
+
 
 
 <a name="loio9cf995375fc0434e8f44c952c89e607e__section_fbz_42t_bhc"/>
@@ -17,6 +20,8 @@ Currently, SAP Omnichannel Sales Transfer and Audit supports the following monit
 You have a subscription for SAP Omnichannel Sales Transfer and Audit.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Omnichannel Sales Transfer and Audit](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-int-osta.html).
 
 
 

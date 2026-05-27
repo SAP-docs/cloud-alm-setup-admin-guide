@@ -458,11 +458,11 @@ Process Management
 -   Model Company for Agribusiness
 -   Model Company for Airline Backoffice
 -   Model Company for Consumer Packaged Goods
+-   Model Company for Core Retail
 -   Model Company for Enterprise Asset Management
 -   Model Company for Environment, Health and Safety
 -   Model Company for Fashion and Vertical Business
 -   SAP Services Content for Automotive
--   SAP Services Content for Core Retail
 -   SAP Services Content for Integrated Utilities
 -   SAP Services Content for Oil and Gas
 -   SAP Services Content for R&D/Engineering and Sustainability
@@ -2212,7 +2212,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-More under [SAP SuccessFactors](sap-successfactors-7f91337.md).
+More under  <?sap-ot O2O class="- topic/xref " href="7f913374869247abae5a3ce78f70a3d5.xml" text="" desc="" xtrc="xref:89" xtrf="file:/home/builder/src/dita-all/nih1586262997200/loio0f341afe0f5e4107ad982c53bfc412dc_en-US/src/content/localization/en-us/3ebab44c25da4cc1997bad08cc00991c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 </tr>
@@ -2674,7 +2674,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-More under [Data ingestion for industry cloud solutions](data-ingestion-for-industry-cloud-solutions-4cbaec6.md) .
+More under [Data ingestion for industry cloud solutions](data-ingestion-for-industry-cloud-solutions-4cbaec6.md).
 
 </td>
 </tr>
@@ -3158,7 +3158,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-More under [SAP Cloud for Customer version 2](sap-cloud-for-customer-version-2-d412af0.md).
+More under [SAP Sales Cloud and SAP Service Cloud Version 2](sap-sales-cloud-and-sap-service-cloud-version-2-d412af0.md).
 
 </td>
 </tr>
@@ -3341,7 +3341,7 @@ More under [SAP Complaint Handling](sap-complaint-handling-f85cfd4.md).
 <tr>
 <td valign="top">
 
-SAP SuccessFactors Employee Central Payroll 
+SAP SuccessFactors Payroll 
 
 </td>
 <td valign="top">
@@ -3473,7 +3473,7 @@ Business Process Monitoring
 
 Supported KPIs for the business scenario *Recruit to Retire*
 
-More under [SAP SuccessFactors](sap-successfactors-7f91337.md).
+More under  <?sap-ot O2O class="- topic/xref " href="7f913374869247abae5a3ce78f70a3d5.xml" text="" desc="" xtrc="xref:147" xtrf="file:/home/builder/src/dita-all/nih1586262997200/loio0f341afe0f5e4107ad982c53bfc412dc_en-US/src/content/localization/en-us/3ebab44c25da4cc1997bad08cc00991c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 </tr>
@@ -5552,28 +5552,6 @@ Real User Monitoring
 <td valign="top">
 
 More under [SAP Intelligent Asset Management](sap-intelligent-asset-management-153dd04.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP SuccessFactors Employee Central Payroll
-
-</td>
-<td valign="top">
-
-Operations
-
-</td>
-<td valign="top">
-
-Configuration & Security Analysis
-
-</td>
-<td valign="top">
-
-More under [SAP SuccessFactors Employee Central Payroll](sap-successfactors-employee-central-payroll-ea4533a.md).
 
 </td>
 </tr>

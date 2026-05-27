@@ -7,6 +7,9 @@ This page explains how to connect SAP Intelligent Agriculture to SAP Cloud ALM t
 Currently, SAP Intelligent Agriculture supports the following monitoring applications:
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Intelligent Agriculture](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-int-agri.html).
+
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
@@ -18,6 +21,8 @@ Currently, SAP Intelligent Agriculture supports the following monitoring applica
 You have a subscription for SAP Intelligent Agriculture.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Intelligent Agriculture](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-int-agri.html).
 
 
 

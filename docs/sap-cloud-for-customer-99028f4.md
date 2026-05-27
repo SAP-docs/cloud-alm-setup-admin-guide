@@ -12,6 +12,9 @@ Currently, SAP Cloud for Customer supports the following monitoring applications
 
 -   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/im-configuring-services)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Cloud for Customer](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-c4c.html).
+
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
@@ -21,6 +24,8 @@ Currently, SAP Cloud for Customer supports the following monitoring applications
 ## Prerequisites
 
 You have a user with administrator authorizations in SAP Cloud for Customer.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Cloud for Customer](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-c4c.html).
 
 
 

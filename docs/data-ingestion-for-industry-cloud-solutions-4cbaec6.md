@@ -8,6 +8,9 @@ Currently, Data ingestion for industry cloud solutions supports the following mo
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [Data ingestion for industry cloud solutions](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-diics.html).
+
+
 
 
 <a name="loio4cbaec6a6af6471daa23aebde969df56__section_jmf_5ps_ygc"/>
@@ -17,6 +20,8 @@ Currently, Data ingestion for industry cloud solutions supports the following mo
 You have a user with the *Destination Administrator* authorization in the SAP BTP subaccount that holds the subscription for Data ingestion for industry cloud solutions.
 
 You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [Data ingestion for industry cloud solutions](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-diics.html).
 
 
 

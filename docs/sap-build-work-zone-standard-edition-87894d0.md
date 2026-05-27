@@ -17,36 +17,31 @@ Currently, products that are related to SAP Build Work Zone support the followin
 
 
 
-<a name="loio87894d0a78894afca956b24700faa1ad__d70e472"/>
+<a name="loio87894d0a78894afca956b24700faa1ad__d71e472"/>
 
 ## Setup in SAP Build Work Zone
 
-Enable the data collection for HTML5 apps and locally created HTML5 apps:
+Enable the data collection:
 
 1.  Access the SAP Build Work Zone.
 2.  Go to *Site Settings*.
-3.  Open the *Services*section.
+3.  Open the *Services* section.
 4.  Enable the *Statistical Data Collection* setting.
 
-More information:
+You can activate locally created **SAPUI5 applications** in the Content Manager from SAP Build Work Zone, for Real User Management.
 
--   [SAP Build Work Zone, standard edition\(opens in new tab\)](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/enable-statistical-data-for-your-apps)
--   [SAP Build Work Zone, advanced edition](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/enable-statistical-data-for-your-apps)
-
-**How data is collected and can be displayed:**
-
-You can activate the following applications from SAP Build Work Zone:
-
--   HTML5 apps from the HTML5 content provider.
-
--   Locally created SAPUI5 applications in the Content Manager.
-
+Real User Management doesn't support HTML5 apps.
 
 Iframe-embedded applications, such as SAP Fiori applications from on-premise systems, send the data to their backend system and need to be collected and displayed there.
 
+More information:
+
+-   [SAP Build Work Zone, standard edition](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/enable-statistical-data-for-your-apps)
+-   [SAP Build Work Zone, advanced edition](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/enable-statistical-data-for-your-apps)
 
 
-<a name="loio87894d0a78894afca956b24700faa1ad__d70e551"/>
+
+<a name="loio87894d0a78894afca956b24700faa1ad__d71e538"/>
 
 ## Setup in SAP Cloud ALM
 

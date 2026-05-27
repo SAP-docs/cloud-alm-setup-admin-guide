@@ -10,6 +10,9 @@ Currently, SAP Ariba Procurement supports the following monitoring applications:
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba.html).
+
+
 
 
 ## Setup in SAP Ariba

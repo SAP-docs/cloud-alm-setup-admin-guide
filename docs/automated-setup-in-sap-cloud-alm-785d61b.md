@@ -19,6 +19,8 @@ The fully automated setup for SAP S/4HANA Cloud public edition can be applied if
 -   The customer number for SAP S/4HANA Cloud public edition matches the customer number for the SAP Cloud ALM tenant.
 -   SAP Cloud ALM is not located in `eu10-004`.
 
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP S/4HANA Cloud Public Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-s4cloud.html).
+
 
 
 ## Procedure

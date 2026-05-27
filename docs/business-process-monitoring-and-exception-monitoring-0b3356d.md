@@ -1,13 +1,8 @@
-<!-- loio7f913374869247abae5a3ce78f70a3d5 -->
+<!-- loio0b3356d4f4194ae88eff663f2b1bc223 -->
 
-# SAP SuccessFactors
+# Business Process Monitoring and Exception Monitoring
 
-This page explains how to connect SAP SuccessFactors to SAP Cloud ALM to enable monitoring.
-
-Currently, SAP SuccessFactors supports the following monitoring applications:
-
--   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
--   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring) and [Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/monitoring-exceptions) in SAP Cloud ALM.
 
 The following video demonstrates the setup steps for SAP SuccessFactors. A textual step-by-step description of all setup steps is provided after the video on this site.
 
@@ -15,17 +10,15 @@ The following video demonstrates the setup steps for SAP SuccessFactors. A textu
 
 
 
-
-
-<a name="loio7f913374869247abae5a3ce78f70a3d5__section_thk_xh4_chc"/>
+<a name="loio0b3356d4f4194ae88eff663f2b1bc223__section_thk_xh4_chc"/>
 
 ## Prerequisites
 
 -   You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 
--   In SAP SuccessFactors, you've got an SFAPI user as described in [SAP SuccessFactors SFAPI User](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/sf-sfapi-user.html).
+-   In SAP SuccessFactors, create a technical user as described in [SAP SuccessFactors Technical User](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/sf-sfapi-user.html).
 
-    To use the SFAPI, SAP SuccessFactors must enable the API for your company instance. This is usually done during the initial implementation. If this wasn't done, contact your SAP SuccessFactors support representative to enable the SFAPI for your instance.
+    To use the technical user, SAP SuccessFactors must enable the API for your company instance. This is usually done during the initial implementation. If this wasn't done, contact your SAP SuccessFactors support representative to enable the API for your instance.
 
 -   In SAP SuccessFactors, your personal user needs the following permissions:
     -   *Manage Integration Tools* \> *Access to Integration Service Registration Center UI*
@@ -36,40 +29,17 @@ The following video demonstrates the setup steps for SAP SuccessFactors. A textu
     -   or *Landscape Management Security Viewer* \(to download an existing certificate\)
 
 
+Specific setup information for Integration & Exception Monitoring: [SAP SuccessFactors HCM](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-sf.html).
+
 
 
 ## Setup in SAP SuccessFactors
 
 
 
-### Enable the Monitoring Data PUSH to SAP Cloud ALM
-
-This step is only needed if you use integrations for which messages can be collected. You find supported scenarios in the table under [Available Monitoring Content](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-sf.html).
-
-1.  Go to the *Admin Center*.
-2.  Under *Tools Search*, search for *Integration Service Registration Center*.
-3.  Select SAP Cloud ALM.
-4.  Enter the following values:
-    1.  *System Type*: Enter the role of the SAP SuccessFactors system: `DEV`, `TEST`, or `PROD`. Use these specific values instead of other free-form role types.
-    2.  *Description*: Enter a description, such as `SAP SuccessFactors tenant XXX`.
-    3.  *Endpoint*: SAP Cloud ALM service key parameter `Api` without `/api`.
-    4.  *OAuth URL*: SAP Cloud ALM service key parameter `url` followed by `/oauth/token`.
-    5.  *Client ID*: SAP Cloud ALM service key parameter `clientid`.
-    6.  *Client Secret*: SAP Cloud ALM service key parameter `clientsecret`.
-
-5.  Choose *Register*.
-6.  Choose *OK*.
-
-    Note: To deactivate your instance again, you can choose *Deregister*.
-
-
-The registration creates an entry for your SAP SuccessFactors instance in the *Landscape Management* app of SAP Cloud ALM, if it doesn't exist already.
-
-
-
 ### Create an HTTP Endpoint
 
-Map theSAP Cloud ALM certificate in SAP SuccessFactors.
+Map the SAP Cloud ALM certificate in SAP SuccessFactors.
 
 To use X.509 certificate-based authentication for incoming calls to SAP SuccessFactors, you first have to map the public certificate of SAP Cloud ALM in SAP SuccessFactors.
 
@@ -93,7 +63,7 @@ Now, upload the certificate needs to SAP SuccessFactors:
     1.  *Configuration Name*: for example, `Cloud ALM Certificate Mapping`.
     2.  *Integration Name*: `Business Technology Platform`.
     3.  *Certificate File*: Upload the certificate `.pem` file that you downloaded from SAP Cloud ALM.
-    4.  *Login Name*: Enter the previously created user for the SFAPI.
+    4.  *Login Name*: Enter the previously created technical user.
 
 
 
@@ -171,8 +141,9 @@ If the endpoint *Root URL* field isn't filled automatically or if you want to st
 
 When you've created the endpoint in SAP Cloud ALM, activate the data collection for the monitoring use-cases:
 
--   Integration and Exception Monitoring: The data collection for SAP SuccessFactors messages is activated automatically, but you need to activate the data collection for SAP SuccessFactors exceptions:
 -   [Activate the data collection for Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/configuring-integration-monitoring)
+-   Specific setup information for Integration & Exception Monitoring: [SAP SuccessFactors HCM](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-sf.html).
+
 -   Business Process Monitoring: The data collection is activated automatically.
 
 
@@ -194,7 +165,7 @@ When you've created the endpoint in SAP Cloud ALM, activate the data collection 
 **Solution**: Ensure that the correct password is defined in SAP SuccessFactors:
 
 1.  In SAP SuccessFactors, go to *Admin Center* \> *Tools* \> *Reset User Passwords*.
-2.  Find the SFAPI user that you want to use.
+2.  Find the technical user that you want to use.
 3.  Reset the password to the password that you want to use.
 4.  Choose *Reset User Password*.
 5.  Try again to log on to the API URL.

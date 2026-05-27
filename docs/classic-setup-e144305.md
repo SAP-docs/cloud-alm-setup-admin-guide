@@ -22,6 +22,8 @@ You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM sys
 
 You have a user with administrator authorization \(for example, *SAP\_BR\_ADMINISTRATOR*\) in your SAP S/4HANA Cloud Public Edition tenant.
 
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP S/4HANA Cloud Public Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-s4cloud.html).
+
 
 
 <a name="loioe1443054d98d463cadbd8dc6c1cb92bc__section_vyt_335_bhc"/>

@@ -9,6 +9,9 @@ This document provides guidance on connecting SAP BTP, ABAP environment to SAP C
 Currently, the following monitoring applications are supported for the SAP BTP, ABAP environment:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP BTP, ABAP environment \(custom built applications\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-btp-abap.html).
+
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
 -   [Job and Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
@@ -20,6 +23,8 @@ Currently, the following monitoring applications are supported for the SAP BTP, 
 You have a user with administrator authorizations in SAP BTP, ABAP environment.
 
 You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP BTP, ABAP environment \(custom built applications\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-btp-abap.html).
 
 
 

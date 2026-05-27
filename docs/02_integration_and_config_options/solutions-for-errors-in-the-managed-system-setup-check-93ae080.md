@@ -567,6 +567,23 @@ Perform automatic retrofit
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+RETRO\_AUTO: RETRO\_REJECT
+
+</td>
+<td valign="top">
+
+Transports: Retrofit
+
+</td>
+<td valign="top">
+
+Perform transport of copies removal
+
+</td>
+</tr>
 </table>
 
 

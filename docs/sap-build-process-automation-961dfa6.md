@@ -8,6 +8,9 @@ The following monitoring applications are supported for SAP Cloud ALM:
 
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Build Process Automation](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-int-bpa.html).
+
 -   [Job and Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
@@ -18,6 +21,8 @@ The following monitoring applications are supported for SAP Cloud ALM:
 -   You have a user with *Destination Administrator* authorizations in the SAP BTP subaccount for your SAP Build Process Automation subscription.
 -   You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Build Process Automation](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-int-bpa.html).
 
 
 

@@ -10,3 +10,5 @@ Currently, the following monitoring applications in SAP Cloud ALM support non-SA
 
 Follow the instructions for [Adding Non-SAP Services and Systems](https://help.sap.com/docs/cloud-alm/applicationhelp/non-sap-services).
 
+Specific setup information for Integration & Exception Monitoring: [Non-SAP Services and Systems](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-non-sap.html).
+

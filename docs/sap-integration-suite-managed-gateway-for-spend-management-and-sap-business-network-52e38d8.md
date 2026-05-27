@@ -14,6 +14,9 @@ Currently, Managed Gateway for Spend&Network supports the following monitoring a
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba.html).
+
+
 
 
 ## Setup in Managed Gateway for Spend & Network

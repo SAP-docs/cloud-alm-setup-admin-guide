@@ -1,29 +1,18 @@
-<!-- loio884e09938d3f47309fcd3202819202e6 -->
+<!-- loiob3c00459040342edb502d854a78302f4 -->
 
-# SAP Ariba Shopping
+# Integration Monitoring and Configuration & Security Analysis
 
-This document provides guidance on connecting SAP Ariba Shopping to SAP Cloud ALM for monitoring purposes.
-
-Currently, SAP Ariba Shopping supports the following monitoring applications:
-
--   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
-
-    Specific setup information for Integration & Exception Monitoring: [SAP Ariba Shopping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba-mob.html).
-
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable [Configuration & Security Analysis](https://help.sap.com/docs/cloud-alm/applicationhelp/configuration-security-analysis) and [Integration Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring) in SAP Cloud ALM.
 
 
 
 ## Prerequisites
 
-You have a subscription for SAP Ariba Shopping.
+You have a subscription for SAP SuccessFactors HCM.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
-Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Ariba Shopping](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba-mob.html).
 
-
-
-<a name="loio884e09938d3f47309fcd3202819202e6__section_z4q_hk5_sgc"/>
 
 ## Setup in SAP Cloud ALM
 
@@ -34,6 +23,8 @@ SAP-managed connectivity uses SAP's infrastructure for OpenTelemetry-based data 
 To activate the data collection, activate the monitoring in the respective SAP Cloud ALM monitoring app. By activating the data collection, you also give consent for the data exchange.
 
 For details, check the documentation for the supported use cases:
+
+-   [Activate the data collection for Configuration & Security Analysis](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/configuration-security-analysis/csa-setup.html)
 
 -   [Activate the data collection for Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/configuring-integration-monitoring)
 

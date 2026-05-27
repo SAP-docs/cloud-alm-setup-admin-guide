@@ -41,8 +41,13 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
     If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed on this page.
 
--   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\). Note that **no changes are necessary** if you are using the RISE with SAP default values.
--   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
+-   Note that if you already use **RISE with SAP** default values in your system, **no changes are necessary**.
+
+    If you're **not** on RISE with SAP, the following general recommendations apply:
+
+    -   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\).
+    -   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
+
 -   [DigiCert Global Root G2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
@@ -691,7 +696,7 @@ This section is only relevant if you want to use retrofit.
 
 3.  Select *New Entries*.
 
-4.  Enter the retrofit target system with client in the *Target* field and the RFC destination in the *RFC Destination* field.
+4.  Enter the development system of your implementation track with client in the *Target* field and the RFC destination in the *RFC Destination* field.
 
 
 
@@ -764,6 +769,243 @@ This analysis period determines the time frame of the conflict determination for
 3.  Select *Activate use-cases*.
 
 4.  Activate the use case task *Transports: Retrofit \(client-specific\)* with your preferred interval.
+
+
+
+
+## Setting up Retrofit for SAP S/4HANA Conversion and Upgrade Scenario
+
+This setup is required if you want to perform a retrofit from ECC to S/4HANA conversion scenario or S/4HANA lower release to S/4HANA higher release upgrade scenario.
+
+In case you require support with the configuration of retrofit in SAP Cloud ALM or would like to benefit from SAP best practice recommendations to optimize the effective use of retrofit and improve operational efficiency, please contact SAP and book a Software Change Management Service.
+
+
+
+### Prerequisites
+
+-   You've installed at least ST-PI 740 SP33 or ST-PI 758 SP01 and implemented SAP Note [3734702](https://me.sap.com/notes/3734702) on your development system of your maintenance track.
+
+-   You've set up retrofit as described in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc).
+
+-   You've configured the ATC Hub as described in the *Custom Code Migration Guide for SAP S/4HANA* on the [SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE?version=2025#implement_task-conversion-&-upgrade-assets). Also, ensure that the ATC Hub is running correctly.
+
+-   You've configured the Simplification Database as described in the *Custom Code Migration Guide for SAP S/4HANA* on the [SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE?version=2025#implement_task-conversion-&-upgrade-assets).
+
+
+
+
+### 1. Uploading PFCG Role
+
+The PFCG role has to be uploaded on your development system and client of your implementation track. The PFCG role also has to be uploaded on your ATC Hub if it is on a different system than the development system and client of your implementation track.
+
+1.  Download the `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` role template from SAP Note [3734702](https://me.sap.com/notes/3734702).
+
+2.  Run transaction *PFCG*.
+
+3.  Select *Role Upload*.
+
+4.  Choose the `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` role template and select *Open*.
+
+5.  Select *Transfer*. If your ATC Hub is on a different system than the development system and client of your implementation track, you can ignore the red icon and message "Role already exists in the system".
+
+6.  Select *Change*. If your ATC Hub is on a different system than the development system and client of your implementation track, you receive a confirmation message: One role was uploaded from the file.
+
+7.  Select the *Authorizations* tab and then *Continue*.
+
+8.  Select *Change Authorization Data*.
+
+9.  Make sure that all authorization objects are green, then select *Generate*.
+
+10. Keep the default profile name and text, then select *Execute*.
+
+11. Check if the *Authorizations* tab is green.
+
+
+
+
+### 2. Creating an RFC User for ATC Hub Connection
+
+> ### Note:  
+> This is only required if the ATC Hub is a different system than the development system of your implementation track. You can skip the configuration if the ATC Hub is the same system as the development system of your implementation track.
+
+1.  On your development system and client of your implementation track, run transaction SU01.
+
+2.  Enter a user name and then select the *Technical User* or *User* button.
+
+3.  Select the *Logon Data* tab.
+
+4.  Select *User Type for System* and enter a password.
+
+5.  Select the *Roles* tab and assign `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` in the *Role* column.
+
+
+
+
+### 3. Creating an RFC Destination to ATC Hub
+
+> ### Note:  
+> This is only required if the ATC Hub is a different system than the development system of your implementation track. You can skip the configuration if the ATC Hub is the same system as the development system of your implementation track.
+
+1.  On your development system and client of your maintenance track, run transaction *SM59*.
+
+2.  Select *Create*.
+
+3.  Enter a destination name for RFC and select connection type *3 RFC Connection to ABAP System*.
+
+4.  On the *Technical Settings* tab, enter the ATC Hub system host in *Target Host*.
+
+5.  On the *Logon & Security*tab, enter the RFC user you created for ATC Hub. In *Client*, enter the client of your ATC Hub.
+
+6.  Perform a connection and authorization test via *Utilities* \> *Test*.
+
+
+
+
+### 4. Configuration Table in Your Development System of Your Maintenance Track
+
+1.  On your development system and client of your maintenance track, run transaction `SE16`.
+
+2.  Maintain the database table `/SDF/CMO_ATC`. This stores the remote ATC configuration.
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Field
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SYS\_ID
+    
+    </td>
+    <td valign="top">
+    
+    Development system of your maintenance track SID without client
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ATC\_HUB\_RFC
+
+    > ### Note:  
+    > This is only required when ATC Hub is in a different system than the development system of your implementation track.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    RFC destination to ATC Hub
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ATC\_VARIANT
+    
+    </td>
+    <td valign="top">
+    
+    ATC Check Variant
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    CUSTOMIZING
+    
+    </td>
+    <td valign="top">
+    
+    Enable customizing check.
+
+    Used for simplification scenario
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ATC\_CHECK
+    
+    </td>
+    <td valign="top">
+    
+    Enable ATC check
+
+    Used for ATC Hub scenario
+    
+    </td>
+    </tr>
+    </table>
+    
+
+> ### Note:  
+> If `ATC_HUB_RFC` is not maintained, it falls back to the retrofit target RFC maintained in customizing table /SDF/CMO\_TARGET. This means the development system of your implementation track has to be configured and act like the ATC Hub.
+> 
+> You can activate `CUSTOMIZING` and `ATC Check` either individually or both.
+
+
+
+### 5. Updating the Simplification Database
+
+If you have specified `ATC_HUB_RFC` and enabled `CUSTOMIZING` in database table `/SDF/CMO_ATC`, you must update the simplification database on your ATC Hub.
+
+If you haven’t specified `ATC_HUB_RFC` and enabled `CUSTOMIZING`, you must update the simplification database on the development system of your implementation track.
+
+See SAP Note [2241080](https://me.sap.com/notes/2241080) on how to update the Simplification Database.
+
+
+
+### 6. Exclude List
+
+Using the exclude list is optional. The exclude list is used to categorize incompatible objects for manual retrofit.
+
+1.  Run transaction *SM30* on your development system and client of your maintenance track.
+
+2.  Add any incompatible components to table `/SDF/S4EXCLUDE`:
+
+    1.  *PGMID*: Enter a program ID, for example R3TR.
+
+    2.  *OBJECT*: Enter a DDIC object type, for example TABL.
+
+    3.  *OBJ\_NAME*: Enter an object name.
+
+    4.  *SOFTWARE\_COMPONENT*: Enter a software component, for example S4CORE.
+
+    5.  *SAPRELEASE*: Specify the release with which the incompatible change was introduced, for example 102.
+
+    6.  *PATCH\_LEVEL*: Specify the SP level with which the incompatible change was introduced.
+
+    7.  *AS4TEXT*: Add a description.
+
+
+
+
+
+### 7. Include List
+
+Using the include list is optional. The include list allows automatic retrofit for objects that are listed in the simplification database.
+
+1.  Run transaction *SM30* on your development system and client of your maintenance track.
+
+2.  Add any compatible components to table `/SDF/S4INCLUDE`.
+
+    > ### Note:  
+    > The columns are the same as in the exclude list.
 
 
 

@@ -8,6 +8,9 @@ Currently, SAP Omnichannel Promotion Pricing supports the following monitoring a
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Omnichannel Promotion Pricing](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-opps.html).
+
+
 
 
 <a name="loio9840514de2194708902e9dbe07b36a84__section_llm_dqs_bhc"/>
@@ -17,6 +20,8 @@ Currently, SAP Omnichannel Promotion Pricing supports the following monitoring a
 You have a subscription for SAP Omnichannel Promotion Pricing.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Omnichannel Promotion Pricing](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-opps.html).
 
 
 

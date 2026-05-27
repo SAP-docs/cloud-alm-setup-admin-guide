@@ -1,12 +1,17 @@
 <!-- loiod412af0950ad43e183e6b03ab399e5d4 -->
 
-# SAP Cloud for Customer version 2
+# SAP Sales Cloud and SAP Service Cloud Version 2 
 
-This page explains how to connect SAP Cloud for Customer version 2 to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP Sales Cloud and SAP Service Cloud Version 2 to SAP Cloud ALM to enable monitoring.
 
-Currently, SAP Cloud for Customer supports the following monitoring applications:
+Note that SAP Sales Cloud and SAP Service Cloud Version 2 was previously named SAP Cloud for Customer version 2.
+
+Currently, SAP Sales Cloud and SAP Service Cloud Version 2 supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Sales Cloud and SAP Service Cloud Version 2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-sscv2.html).
+
 
 
 

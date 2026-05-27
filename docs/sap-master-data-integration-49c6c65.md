@@ -8,6 +8,9 @@ Currently, SAP Master Data Integration supports the following monitoring applica
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Master Data Integration](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-mdi.html).
+
+
 
 
 <a name="loio49c6c65ab94c43a8bd299c97b96bb453__section_mz4_mrr_bhc"/>

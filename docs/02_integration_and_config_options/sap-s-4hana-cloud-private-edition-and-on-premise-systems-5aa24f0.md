@@ -29,7 +29,10 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > 
 > **Not supported:**
 > 
-> -   Identical SIDs are not supported.
+> -   Identical SIDs are not supported. This also applies for systems with different service types with the same SID. SAP Cloud ALM is considering the SID as the leading identifier for transport management.
+> 
+>     > ### Note:  
+>     > For Managed Service Providers: This also applies for different customers using the same SIDs.
 > 
 > -   TMS domains with the same domain name are not supported.
 > 

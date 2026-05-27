@@ -9,6 +9,9 @@ Currently, SAP Entitlement Management supports the following monitoring applicat
 -   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Entitlement Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-entm.html).
+
+
 
 
 ## Prerequisites
@@ -16,6 +19,8 @@ Currently, SAP Entitlement Management supports the following monitoring applicat
 You have a user with *Destination Administrator* authorization in the SAP BTP subaccount that belongs to your subscription forSAP Entitlement Management.
 
 You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Entitlement Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-entm.html).
 
 
 

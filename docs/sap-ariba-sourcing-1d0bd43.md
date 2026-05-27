@@ -10,6 +10,9 @@ Currently, SAP Ariba Sourcing supports the following monitoring applications:
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba.html).
+
+
 
 
 <a name="loio1d0bd4335bd749f4aff17b7eeb7666e6__section_crb_4p4_tgc"/>

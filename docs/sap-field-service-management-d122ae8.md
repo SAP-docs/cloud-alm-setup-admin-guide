@@ -10,6 +10,9 @@ Currently, SAP Field Service Management supports the following monitoring applic
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Field Service Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-fsm.html).
+
+
 The following video demonstrates the setup steps for Integration and Exception Monitoring for SAP Field Service Management. A textual step-by-step description of all setup steps is provided after the video on this site.
 
 
@@ -23,6 +26,8 @@ The following video demonstrates the setup steps for Integration and Exception M
 You have a user with administrator authorizations on *account-level*.
 
 Log on to your SAP Field Service Management account with the option "Sign In with Account"
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Field Service Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-fsm.html).
 
 
 

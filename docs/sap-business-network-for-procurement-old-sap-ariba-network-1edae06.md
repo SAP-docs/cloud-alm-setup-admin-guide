@@ -12,6 +12,9 @@ Currently, SAP Business Network for Procurement supports the following monitorin
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Ariba](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ariba.html).
+
+
 
 
 ## Setup for SAP Business Network for Procurement

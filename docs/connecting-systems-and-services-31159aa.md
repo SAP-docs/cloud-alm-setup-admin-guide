@@ -194,10 +194,6 @@ This page explains how to connect SAP HANA Cloud, data lake to SAP Cloud ALM to 
 			SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP HANA Cloud SAP HANA database to SAP Cloud ALM to enable monitoring.
--   **[SAP Traceability Hub](sap-traceability-hub-6017bd9.md "This page explains how to connect SAP Traceability
-                        Hub to SAP Cloud ALM to enable
-		monitoring.")**  
-This page explains how to connect SAP Traceability Hub to SAP Cloud ALM to enable monitoring.
 -   **[Integration Hub for Life Sciences](integration-hub-for-life-sciences-27051d5.md "This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable monitoring.
@@ -325,15 +321,13 @@ This page explains how to connect SAP S/4HANA Cloud Private Edition to SAP Cloud
 -   **[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-84602a5.md "This page explains how to connect SAP S/4HANA Cloud Public Edition to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP S/4HANA Cloud Public Edition to SAP Cloud ALM to enable monitoring.
--   **[SAP Cloud for Customer version 2](sap-cloud-for-customer-version-2-d412af0.md "This page explains how to connect SAP Cloud for Customer version 2 to SAP Cloud ALM to enable
+-   **[SAP Sales Cloud and SAP Service Cloud Version 2](sap-sales-cloud-and-sap-service-cloud-version-2-d412af0.md "This page explains how to connect SAP Sales Cloud and SAP Service Cloud Version
+                        2 to SAP Cloud ALM to enable
 		monitoring.")**  
-This page explains how to connect SAP Cloud for Customer version 2 to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP Sales Cloud and SAP Service Cloud Version 2 to SAP Cloud ALM to enable monitoring.
 -   **[SAP Subscription Billing](sap-subscription-billing-0490143.md "This page explains how to connect SAP Subscription Billing to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Subscription Billing to SAP Cloud ALM to enable monitoring.
--   **[SAP SuccessFactors](sap-successfactors-7f91337.md "This page explains how to connect SAP SuccessFactors to SAP Cloud ALM to enable
-		monitoring.")**  
-This page explains how to connect SAP SuccessFactors to SAP Cloud ALM to enable monitoring.
 -   **[SAP SuccessFactors Agent Connection](sap-successfactors-agent-connection-8f53631.md "This page explains how to connect SAP SuccessFactors Agent
                                 Connection to
 			SAP Cloud ALM to enable
@@ -352,9 +346,8 @@ This page explains how to connect SAP SuccessFactors Agent Performance Managemen
                                 Central Payroll to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP SuccessFactors Employee Central Payroll to SAP Cloud ALM to enable monitoring.
--   **[SAP SuccessFactors HCM](sap-successfactors-hcm-a756eb8.md "This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable
-		monitoring.")**  
-This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable monitoring.
+-   **[SAP SuccessFactors HCM](sap-successfactors-hcm-a756eb8.md "This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable monitoring in SAP Cloud ALM.")**  
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable monitoring in SAP Cloud ALM.
 -   **[SAP SuccessFactors Incentive Management](sap-successfactors-incentive-management-734bb00.md "This page explains how to connect SAP SuccessFactors Incentive
                                 Management to SAP Cloud ALM to enable
 		monitoring.")**  
@@ -369,6 +362,10 @@ This page explains how to connect products that are related SAP Build Work Zone 
 -   **[SAP Task Center](sap-task-center-3ddbedb.md "This page explains how to connect SAP Task Center to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Task Center to SAP Cloud ALM to enable monitoring.
+-   **[SAP Traceability Hub](sap-traceability-hub-6017bd9.md "This page explains how to connect SAP Traceability
+                        Hub to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Traceability Hub to SAP Cloud ALM to enable monitoring.
 -   **[SAP Variant Configuration and Pricing](sap-variant-configuration-and-pricing-4697120.md "This page explains how to connect SAP Variant Configuration and
                         Pricing to SAP Cloud ALM to enable
 		monitoring.")**  

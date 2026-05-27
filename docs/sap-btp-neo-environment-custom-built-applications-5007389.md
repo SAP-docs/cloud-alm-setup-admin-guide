@@ -10,6 +10,9 @@ Currently, **custom-built applications** for SAP BTP, Neo environment supports t
 
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP BTP, Neo environment \(custom built applications\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-cp-neo.html).
+
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
@@ -25,6 +28,8 @@ You have a user with administrator authorizations in the subaccount of SAP BTP, 
 
 
 ## Setup in SAP BTP, Neo environment
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP BTP, Neo environment \(custom built applications\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-cp-neo.html).
 
 
 

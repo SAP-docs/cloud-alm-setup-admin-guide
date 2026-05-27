@@ -9,6 +9,9 @@ Currently, SAP Mobile Services supports the following monitoring applications:
 -   [Configuration & Security Analysis](https://help.sap.com/docs/cloud-alm/applicationhelp/configuration-security-analysis)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Mobile Services](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-mob-serv.html).
+
+
 
 
 <a name="loiod1ec9207c7604a9eb4a780797781ce1b__section_vdz_z5r_bhc"/>
@@ -18,6 +21,8 @@ Currently, SAP Mobile Services supports the following monitoring applications:
 You have a subscription for SAP Mobile Services.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Mobile Services](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-mob-serv.html).
 
 
 

@@ -8,6 +8,8 @@
 
 ## Issues and Solutions
 
+As a first step if you encounter issues, you can run transaction `/SDF/ALM_DIAGNOSTIC` in client 000 in all the systems included in the transport track and working client. With this, you can check if there are any errors in your systems.
+
 In this document, you find answers to some of the most common questions and issues that could arise during the setup of the transport management of SAP S/4HANA Cloud Private Edition, SAP S/4HANA and SAP Business Suite 7, and SAP NetWeaver Application Server for ABAP \(7.40 and higher\).
 
 ****

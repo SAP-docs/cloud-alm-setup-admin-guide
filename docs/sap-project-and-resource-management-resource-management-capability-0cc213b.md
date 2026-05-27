@@ -7,6 +7,9 @@ This page explains how to connect SAP Project and Resource Management, resource 
 Currently, SAP Project and Resource Management, resource management capability supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Project and Resource Management, resource management capability](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-s4hc-resman.html).
+
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
@@ -16,6 +19,8 @@ Currently, SAP Project and Resource Management, resource management capability s
 You have a subscription for SAP Project and Resource Management, resource management capability.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Project and Resource Management, resource management capability](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-s4hc-resman.html).
 
 
 

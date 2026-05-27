@@ -9,6 +9,9 @@ This page explains how to connect SAP Intelligent Asset Management to SAP Cloud 
 Currently, SAP Intelligent Asset Management database supports the following monitoring applications:
 
 -   [Integration & Exception Monitoring](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/86f2d8ccf28e44b39fa66b6fc7898bc0.html "The Integration & Exception Monitoring app provides insight into the data exchange processes between managed components.") :arrow_upper_right:
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Intelligent Asset Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ain.html).
+
 -   [Real User Monitoring](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/ebcd19104a714cc48ecccb15b177ebe1.html "The Real User Monitoring app permanently measures all real user requests from your managed SAP solutions. The monitored services and systems send monitoring data to SAP Cloud ALM covering performance, as well as utilization aspects. The Real User Monitoring app also offers drilldown possibilities from the global use of selected request types to single executions and execution details.") :arrow_upper_right:
 
 Monitoring is supported for the following solutions in SAP Intelligent Asset Management:
@@ -31,6 +34,8 @@ Integration Monitoring is **not** supported for SAP Intelligent Asset Management
 You have access to the sub-account for SAP Intelligent Asset Management.
 
 Your user in the SAP BTP cockpit is a member with the space role *Space Developer*.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Intelligent Asset Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-ain.html).
 
 
 

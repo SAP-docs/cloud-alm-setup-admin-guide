@@ -117,6 +117,23 @@ Europe \(Frankfurt\) EU Access – `cf-eu11`
 <tr>
 <td valign="top">
 
+Netherlands: Amsterdam
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\) – `cf-eu20` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Japan: Tokyo
 
 </td>

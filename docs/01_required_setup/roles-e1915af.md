@@ -1882,7 +1882,7 @@ System View
 </td>
 <td valign="top">
 
-View different KPIs related to the clean core compliance of your systems and customer object details
+View system-related clean core KPIs, access and review deep dive information
 
 </td>
 <td valign="top">

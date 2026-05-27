@@ -12,6 +12,9 @@ Currently, SAP NetWeaver AS for Java supports the following monitoring applicati
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP NetWeaver Application Server Java](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-pi-java.html).
+
+
 
 
 <a name="loio12379c4ab565457e87c70d8d2b6b2169__section_o3t_d4t_bhc"/>
@@ -23,6 +26,8 @@ We only support **PI message monitoring** for SAP NetWeaver AS Java systems.
 SAP Cloud ALM only support PI message monitoring for SAP NetWeaver AS Java systems. You can only connect your SAP NetWeaver AS Java systems to SAP Cloud ALM if they're systems for **SAP Process Integration** or **SAP Process Orchestration**.
 
 You've installed the Cloud Connector in your SAP NetWeaver AS Java system network as described under [Installation](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/LATEST/en-US/57ae3d62f63440f7952e57bfcef948d3.html).
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP NetWeaver Application Server Java](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-pi-java.html).
 
 
 

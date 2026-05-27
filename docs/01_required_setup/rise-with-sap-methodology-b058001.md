@@ -369,6 +369,28 @@ No
 <tr>
 <td valign="top">
 
+System View
+
+</td>
+<td valign="top">
+
+Navigate to the Data Volume Efficiency app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Customer Objects
 
 </td>
@@ -419,6 +441,72 @@ Customer Objects
 <td valign="top">
 
 View detailed information about a system's customer objects
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Data Volume Efficiency
+
+</td>
+<td valign="top">
+
+View the RISE with SAP Methodology page
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Data Volume Efficiency
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Data Volume Efficiency
+
+</td>
+<td valign="top">
+
+View detailed information about a system's data volume efficiency
 
 </td>
 <td valign="top">

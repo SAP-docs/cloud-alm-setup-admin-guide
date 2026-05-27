@@ -8,6 +8,9 @@ Currently, SAP Traceability Hub supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Traceability Hub](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-ich.html).
+
+
 
 
 ## Prerequisites
@@ -15,6 +18,8 @@ Currently, SAP Traceability Hub supports the following monitoring applications:
 You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 
 In SAP Traceability Hub, you have access to the *Integration Monitoring with SAP Cloud ALM* app. If you don't have access to the app, contact your organization's administrator.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Traceability Hub](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-ich.html).
 
 
 

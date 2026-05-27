@@ -7,6 +7,9 @@ This page explains how to connect SAP Digital Manufacturing to SAP Cloud ALM to 
 Currently, SAP Digital Manufacturing supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Digital Manufacturing](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-dmc.html).
+
 -   [Job and Automation Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/job-automation-monitoring)
 
 
@@ -16,6 +19,8 @@ Currently, SAP Digital Manufacturing supports the following monitoring applicati
 You have a subscription for SAP Digital Manufacturing.
 
 The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Digital Manufacturing](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-dmc.html).
 
 
 

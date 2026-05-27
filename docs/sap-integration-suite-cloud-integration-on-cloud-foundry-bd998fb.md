@@ -9,6 +9,9 @@ This page explains how to connect SAP Integration Suite \(Cloud Integration\) on
 Currently, SAP Integration Suite \(Cloud Integration\) supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Integration Suite \(Cloud Integration\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-cpi.html).
+
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
 
 The following video demonstrates the setup for application monitoring for SAP Integration Suite \(Cloud Integration\). A textual step-by-step description of all setup steps is provided after the video on this site.
@@ -24,6 +27,8 @@ The following video demonstrates the setup for application monitoring for SAP In
 You have access to the SAP BTP cockpit and an entitlement for the service *Process Integration Runtime* for the plan *api*. You can check this in the SAP BTP cockpit under *Subaccount for Integration Suite* \> *Entitlements*.
 
 Your user in the SAP BTP cockpit is a member with the space role *Space Developer*, for the space where you want to create the service instance.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Integration Suite \(Cloud Integration\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-cpi.html).
 
 
 

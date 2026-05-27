@@ -8,6 +8,9 @@ Currently, SAP Data Intelligence supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
+    Specific setup information for Integration & Exception Monitoring: [SAP Data Intelligence](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-di.html).
+
+
 
 
 <a name="loio63621904edcf4362967cf0dfc4383956__section_vxv_ldx_ygc"/>
@@ -15,6 +18,8 @@ Currently, SAP Data Intelligence supports the following monitoring applications:
 ## Prerequisites
 
 You can obtain the [SAP Cloud ALM Service Key](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-connect.html) to connect to the SAP Cloud ALM tenant.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Data Intelligence](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-di.html).
 
 
 

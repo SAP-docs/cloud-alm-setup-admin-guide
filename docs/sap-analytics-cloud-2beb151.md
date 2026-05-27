@@ -9,6 +9,9 @@ This document provides guidance on connecting SAP Analytics Cloud to SAP Cloud A
 Currently, SAP Analytics Cloud supports the following monitoring applications:
 
 -   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
+
+    Specific setup information for Integration & Exception Monitoring: [SAP Analytics Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-sap-analytics-cloud.html).
+
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 
@@ -16,6 +19,8 @@ Currently, SAP Analytics Cloud supports the following monitoring applications:
 ## Prerequisites
 
 To enable SAP Analytics Cloud for monitoring with SAP Cloud ALM, you need a user with administrator authorizations in SAP Analytics Cloud.
+
+Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Analytics Cloud](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-sap-analytics-cloud.html).
 
 
 

@@ -36,7 +36,7 @@ You want to check if you have the required authorizations and an S-user with the
 </td>
 <td valign="top">
 
-On SAP for Me, select the user icon and open *My Settings*. On the *Authorizations and Functions* tab, you can check if you already have a user with the role `Edit Cloud Data`.
+On SAP for Me, select the user icon and open *My Settings*. On the *Authorizations and Functions* tab under the *Available Authorizations* sub-tab, you can check if there's an entry with the role `Edit Cloud Data`.
 
 Open the [Systems & Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me. If there's an entry under *Systems to be Provisioned* or *Provisioning Status* means that you have the required authorizations.
 
@@ -187,20 +187,6 @@ In general, we recommend selecting a region that is close to your other main bus
 <tr>
 <td valign="top">
 
-You want to provision your SAP Cloud ALM tenant in the **Netherlands | Amsterdam** region.
-
-</td>
-<td valign="top">
-
-The **Netherlands | Amsterdam** region was available during the initial phase of the SAP Cloud ALM rollout, which is why it may still be listed at different places on SAP websites, for example, under [Data Center Locations](https://www.sap.com/about/trust-center/data-center.html?currentLevel=world&mode=solutions&solutionId=NZA842) under SAP Security and Trust.
-
-However, this region is no longer available for the provisioning of SAP Cloud ALM.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 You have questions about which subdomain name to use for your SAP Cloud ALM tenant.
 
 </td>
@@ -233,6 +219,36 @@ For more information and recommendations, take a look at the following resources
 
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Your recently created Identity Authentication tenant is not yet available in the provisioning dialog.
+
+</td>
+<td valign="top">
+
+Note that it can take some time for the productive IAS tenant to become available.
+
+For more information, see SAP Note [3754861](https://me.sap.com/notes/3754861) and [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Current limitation on not being able to change the Identity Authentication tenant after the provisioning.
+
+</td>
+<td valign="top">
+
+Currently, it is not possible to switch the Identity Authentication service tenant in the SAP BTP cockpit after successful provisioning.
+
+If you want to use a different Identity Authentication tenant for SAP Cloud ALM logon, consider adding it as a corporate identity provider.
+
+For more information, see [Recommended Setup: State A & State B](https://help.sap.com/docs/cloud-alm/applicationhelp/nicely-done#recommended-setup:-state-a-&-state-b).
 
 </td>
 </tr>
