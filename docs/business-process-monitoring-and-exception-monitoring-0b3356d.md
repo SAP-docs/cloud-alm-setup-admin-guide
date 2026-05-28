@@ -2,7 +2,7 @@
 
 # Business Process Monitoring and Exception Monitoring
 
-This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring) and [Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/monitoring-exceptions) in SAP Cloud ALM.
+This page explains how to connect SAP SuccessFactors HCM to SAP Cloud ALM to enable [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring) and [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring) in SAP Cloud ALM.
 
 The following video demonstrates the setup steps for SAP SuccessFactors. A textual step-by-step description of all setup steps is provided after the video on this site.
 
