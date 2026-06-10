@@ -2302,8 +2302,8 @@ In the following sections, you can find detailed breakdowns of all roles related
 -   **[Cross Topics](cross-topics-4a7d8ba.md "In the following sections, you can find detailed breakdowns of all cross-topic roles
 		in SAP Cloud ALM, mapped to the individual actions they allow users to perform.")**  
 In the following sections, you can find detailed breakdowns of all cross-topic roles in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
--   **[RISE with SAP Methodology](rise-with-sap-methodology-b058001.md "In the following sections, you can find detailed breakdowns of all roles related to RISE
-		with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to
-		perform.")**  
-In the following sections, you can find detailed breakdowns of all roles related to RISE with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
+-   **[RISE with SAP Methodology](rise-with-sap-methodology-b058001.md "In the following sections, you can find detailed breakdowns of all roles related to the
+		RISE with SAP Methodology dashboard in SAP Cloud ALM, mapped to the individual actions they
+		allow users to perform.")**  
+In the following sections, you can find detailed breakdowns of all roles related to the RISE with SAP Methodology dashboard in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
 

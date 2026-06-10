@@ -9,7 +9,7 @@ This information applies to the following setup scenarios:
 -   [SAP BTP, ABAP environment \(custom-built applications\)](sap-btp-abap-environment-custom-built-applications-a9abd7d.md)
 -   [SAP S/4HANA Cloud Private Edition](sap-s-4hana-cloud-private-edition-20bb800.md)
 -   [SAP Marketing Cloud](sap-marketing-cloud-b1366d7.md)
--   [SAP Integrated Business Planning for Supply Chain \(SAP IBP\)](sap-integrated-business-planning-for-supply-chain-sap-ibp-25dd0b7.md)
+-   [SAP Integrated Business Planning \(SAP IBP\)](sap-integrated-business-planning-sap-ibp-25dd0b7.md)
 
 -   **Error: Can't create HTTP Client: Error when setting oauth token**
 

@@ -180,9 +180,9 @@ This page explains how to connect SAP Entitlement Management to SAP Cloud ALM to
 -   **[SAP Fieldglass](sap-fieldglass-0eede18.md "This page explains how to connect SAP Fieldglass to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Fieldglass to SAP Cloud ALM to enable monitoring.
--   **[SAP Field Service Management](sap-field-service-management-d122ae8.md "This page explains how to connect SAP Field Service Management to SAP Cloud ALM to enable
+-   **[SAP Field Service and Asset Management](sap-field-service-and-asset-management-d122ae8.md "This page explains how to connect SAP Field Service and Asset Management to SAP Cloud ALM to enable
 		monitoring.")**  
-This page explains how to connect SAP Field Service Management to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP Field Service and Asset Management to SAP Cloud ALM to enable monitoring.
 -   **[Foreign exchange risk management for commodity businesses](foreign-exchange-risk-management-for-commodity-businesses-d4c7348.md "This page explains how to connect foreign exchange risk management for commodity
 			businesses  to SAP Cloud ALM to
 		enable monitoring.")**  
@@ -197,10 +197,9 @@ This page explains how to connect SAP HANA Cloud SAP HANA database to SAP Cloud 
 -   **[Integration Hub for Life Sciences](integration-hub-for-life-sciences-27051d5.md "This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect Integration Hub for Life Sciences to SAP Cloud ALM to enable monitoring.
--   **[SAP Integrated Business Planning for Supply Chain \(SAP IBP\)](sap-integrated-business-planning-for-supply-chain-sap-ibp-25dd0b7.md "This page explains how to connect SAP Integrated Business Planning for Supply Chain (SAP
-                        IBP) SAP HANA database to SAP Cloud ALM to enable
+-   **[SAP Integrated Business Planning \(SAP IBP\)](sap-integrated-business-planning-sap-ibp-25dd0b7.md "This page explains how to connect SAP Integrated Business Planning (SAP IBP) SAP HANA database to SAP Cloud ALM to enable
 		monitoring.")**  
-This page explains how to connect SAP Integrated Business Planning for Supply Chain \(SAP IBP\) SAP HANA database to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP Integrated Business Planning \(SAP IBP\) SAP HANA database to SAP Cloud ALM to enable monitoring.
 -   **[SAP Integration Suite, managed gateway for spend management and SAP Business Network](sap-integration-suite-managed-gateway-for-spend-management-and-sap-business-network-52e38d8.md "This document provides guidance on connecting SAP Integration Suite, managed gateway
                                 for spend management and SAP Business Network to
             SAP Cloud ALM for monitoring
@@ -272,9 +271,10 @@ This page explains how to connect SAP Mobile Services to SAP Cloud ALM to enable
                                 for ABAP (7.40 and higher) (7.40 or higher), including SAP BW/4HANA, to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP NetWeaver Application Server for ABAP \(7.40 and higher\) \(7.40 or higher\), including SAP BW/4HANA, to SAP Cloud ALM to enable monitoring.
--   **[SAP NetWeaver Application Server Java \(SAP Process Integration, PI\)](sap-netweaver-application-server-java-sap-process-integration-pi-12379c4.md "This page explains how to connect SAP NetWeaver Application Server Java to SAP Cloud ALM to enable
-		monitoring.")**  
-This page explains how to connect SAP NetWeaver Application Server Java to SAP Cloud ALM to enable monitoring.
+-   **[SAP NetWeaver Application Server Java for SAP Process Integration \(SAP PI\)](sap-netweaver-application-server-java-for-sap-process-integration-sap-pi-12379c4.md "This page explains how to connect SAP NetWeaver Application Server Java for SAP Process
+		Integration (SAP PI) to SAP Cloud ALM to
+		enable monitoring.")**  
+This page explains how to connect SAP NetWeaver Application Server Java for SAP Process Integration \(SAP PI\) to SAP Cloud ALM to enable monitoring.
 -   **[SAP Omnichannel Promotion Pricing](sap-omnichannel-promotion-pricing-9840514.md "This page explains how to connect SAP Omnichannel Promotion Pricing to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Omnichannel Promotion Pricing to SAP Cloud ALM to enable monitoring.

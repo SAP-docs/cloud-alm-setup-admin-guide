@@ -17,9 +17,9 @@ Sufficient resources for standard use are included, per default:
 
 
 
-You can monitor usage metrics related to your SAP Cloud ALM tenant, such as your memory consumption and your outbound API usage, in the *Tenant Information* app.
+You can monitor usage metrics related to your SAP Cloud ALM tenant, such as your memory consumption and your outbound API usage, in the *Self-Monitoring* app in SAP Cloud ALM:
 
-![](images/WN-TenantInfo_af0ab8a.jpg)
+![](images/Self_monitoring_consumption_462a058.jpg)
 
 > ### Note:  
 > If you've purchased the *SAP Cloud ALM, tenant extension* and used the additional memory and data transfer volume on your existing SAP Cloud ALM tenant, this is not reflected here. More under [Getting Additional SAP Cloud ALM Tenants](https://help.sap.com/docs/cloud-alm/setup-administration/getting-additional-tenants).

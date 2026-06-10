@@ -2,7 +2,7 @@
 
 # RISE with SAP Methodology
 
-In the following sections, you can find detailed breakdowns of all roles related to RISE with SAP in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
+In the following sections, you can find detailed breakdowns of all roles related to the RISE with SAP Methodology dashboard in SAP Cloud ALM, mapped to the individual actions they allow users to perform.
 
 
 

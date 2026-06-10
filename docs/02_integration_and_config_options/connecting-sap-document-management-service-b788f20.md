@@ -18,7 +18,7 @@ The following video guides you through the SAP BTP DMS onboarding process.
 > For more information, see [Repository Handling](https://help.sap.com/docs/cloud-alm/setup-administration/connecting-sap-document-management-service#repository-handling).
 
 > ### Note:  
-> Make sure you have an entitlement for both the [SAP Document Management Service, Repository Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/document-management-service-repository-option) and the [SAP Document Management Service, Integration Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/initial-setup-for-document-management-service-integration-option?version=Cloud).
+> Make sure you have an entitlement for both the [SAP Document Management Service, Repository Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/document-management-service-repository-option) and the [Document Management Service, Integration Option](https://help.sap.com/docs/document-management-service/sap-document-management-service-f6e70dd4bffa4b65965b43feed4c9429/initial-setup-for-document-management-service-integration-option?version=Cloud).
 
 
 
@@ -26,7 +26,7 @@ The following video guides you through the SAP BTP DMS onboarding process.
 
 ## Prerequisites
 
--   You need to provide your own SAP Document Management service instance and establish a connection to SAP Cloud ALM. You can use an existing service instance for SAP Cloud ALM use. For more information, see [Initial Setup for Document Management Service, Integration Option](https://help.sap.com/docs/document-management-service/sap-document-management-service/initial-setup-for-document-management-service-integration-option?version=Cloud).
+-   You need to provide your own SAP Document Management service instance and establish a connection to SAP Cloud ALM. You can use an existing service instance for SAP Cloud ALM use. For more information, see [Setting Up the Service Instance](https://help.sap.com/docs/document-management-service/sap-document-management-service-f6e70dd4bffa4b65965b43feed4c9429/initial-setup-for-document-management-service-integration-option?version=Cloud).
 
     > ### Note:  
     > Don't use your SAP Cloud ALM global account. Use your global account for SAP BTP DMS.

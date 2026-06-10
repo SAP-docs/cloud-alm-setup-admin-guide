@@ -570,7 +570,7 @@ Perform automatic retrofit
 <tr>
 <td valign="top">
 
-RETRO\_AUTO: RETRO\_REJECT
+RETRO\_REJECT
 
 </td>
 <td valign="top">

@@ -27,10 +27,10 @@ Specific prerequisites for the setup of Integration & Exception Monitoring under
 
 
 
-### Register in SAP Cloud ALM
+### Register for SAP Cloud ALM
 
-1.  In *SAP BTP Cockpit*, choose your subscription for SAP Traceability Hub and choose *Go to Application*.
-2.  Choose the *Integration Monitoring* tile.
+1.  Open the *SAP Traceability Hub* portal.
+2.  In the *General* section, choose the *Integration with SAP Cloud ALM* tile.
 3.  Under *Integration with SAP Cloud ALM*, enter the following:
     -   *Client ID*: SAP Cloud ALM service key parameter `<uaa>:<clientid>`
     -   *Client Secret*: SAP Cloud ALM service key parameter `uaa:clientsecret`
@@ -41,15 +41,14 @@ Specific prerequisites for the setup of Integration & Exception Monitoring under
 
 
 
-### Deregister in SAP Cloud ALM
+### Deregister for SAP Cloud ALM
 
-If you want to turn off the monitoring in the SAP Traceability Hub tenant, proceed as follows:
+If you want to turn off the monitoring in the *SAP Traceability Hub* portal, proceed as follows:
 
-1.  In *SAP BTP Cockpit*, choose your subscription for SAP Traceability Hub and choose *Go to Application*.
-2.  Choose the *Integration Monitoring* tile.
-3.  Choose *Edit* for the existing registration.
-4.  Choose *Subscribed* in the lower right corner.
-5.  Choose *Unsubscribe*.
+1.  In the *SAP Traceability Hub* portal, under *General*, select the *Integration Monitoring with SAP Cloud ALM* tile.
+2.  Choose *Edit* for the existing registration.
+3.  Choose *Subscribed* in the lower right corner.
+4.  Choose *Unsubscribe*.
 
 
 

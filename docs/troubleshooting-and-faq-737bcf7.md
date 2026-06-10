@@ -246,7 +246,7 @@ Current limitation on not being able to change the Identity Authentication tenan
 
 Currently, it is not possible to switch the Identity Authentication service tenant in the SAP BTP cockpit after successful provisioning.
 
-If you want to use a different Identity Authentication tenant for SAP Cloud ALM logon, consider adding it as a corporate identity provider.
+If you want to use a different Identity Authentication tenant for SAP Cloud ALM logon, consider adding it as a corporate identity provider. To configure this, one of the tenants has to be the corporate identity provider and the other the proxy. For more information, see [Configure Trust with SAML 2.0 Corporate Identity Provider](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/corp-idp-configure-trust-with-saml-2-0-corporate-identity-provider?version=Cloud).
 
 For more information, see [Recommended Setup: State A & State B](https://help.sap.com/docs/cloud-alm/applicationhelp/nicely-done#recommended-setup:-state-a-&-state-b).
 

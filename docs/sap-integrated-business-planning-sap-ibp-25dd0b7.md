@@ -2,11 +2,11 @@
 
 <link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
 
-# SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+# SAP Integrated Business Planning \(SAP IBP\)
 
-This page explains how to connect SAP Integrated Business Planning for Supply Chain \(SAP IBP\) SAP HANA database to SAP Cloud ALM to enable monitoring.
+This page explains how to connect SAP Integrated Business Planning \(SAP IBP\) SAP HANA database to SAP Cloud ALM to enable monitoring.
 
-Currently, the following monitoring applications are supported for SAP Integrated Business Planning for Supply Chain \(SAP IBP\):
+Currently, the following monitoring applications are supported for SAP Integrated Business Planning \(SAP IBP\):
 
 -   [Health Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/health-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
@@ -34,7 +34,7 @@ Specific prerequisites for the setup of Integration & Exception Monitoring under
 
 
 
-## Setup in SAP Integrated Business Planning for Supply Chain \(SAP IBP\)
+## Setup in SAP Integrated Business Planning \(SAP IBP\)
 
 
 

@@ -6,6 +6,8 @@ Learn how to enable the transport management of different transport environments
 
 In this section, you find the setup steps for the enablement of the transport management for different transport environments in SAP Cloud ALM.
 
+For information about enabling SAP Cloud ALM as the transport management tool for your Employee Central Payroll \(ECP\) landscape, see [Transport Management Setup for Employee Central Payroll](../transport-management-setup-for-employee-central-payroll-bd23fb3.md).
+
 -   **[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-a4238a9.md "Enable the transport management with Adaptation Transport Organizer.")**  
 Enable the transport management with Adaptation Transport Organizer.
 -   **[SAP S/4HANA Cloud Private Edition and On-Premise Systems](sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md "Learn how to configure your SAP Cloud ALM deployment scenario for CTS

@@ -37,7 +37,8 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
 -   SAP\_BASIS release:
     -   7.40 SP16 or higher \(accordingly 7.50 SP05\)
-    -   Or 7.40 SP09 - SP15 \(7.50 SP00 - 7.50 SP04\) with SAP Note [2283880](https://me.sap.com/notes/2283880) - Logon Username not used in RFC API
+    -   or 7.40 SP09 - SP15 \(7.50 SP00 - 7.50 SP04\) with SAP Note [2283880](https://me.sap.com/notes/2283880) - *Logon Username not used in RFC API*
+    -   or 7.58
 
 -   SAP\_UI version: SAP\_UI 740 SP15 or higher
 -   Implement ST-PI 7.40 support packages and keep them up to date, including the collective corrections suited for your ST-PI support package from the required SAP Notes listed after this.
@@ -87,11 +88,6 @@ To establish the connection from the ABAP system to SAP Cloud ALM:
     -   If you want to activate mTLS-based authentication, you also need the SAP Cloud ALM OAuth cert URL, service key `uaa:certurl` extended by `/oauth/token`. You find this URL in the X.509-enabled service key, which is created after the mTLS-based authentication has been activated in the next section, where the PUSH Data Provider is configured.
 
 -   If you use a proxy in your network, ensure it's configured to allow calls to these URLs. For more information, check the [Region-Specific IP Address Ranges](https://help.sap.com/docs/cloud-alm/setup-administration/region-specific-ip-address-ranges?locale=en-US&version=LATEST).
--   If your SAP ABAP system is hosted with SAP Enterprise Cloud Services \(ECS\), create a service request with SAP ECS to add the following URLs to the allowlist for your environment. This does not apply for SAP SuccessFactors Employee Central Payroll.
-    -   Root URL: SAP Cloud ALM service key parameter `endpoints:api` without `/api`.
-    -   OAuth URL: SAP Cloud ALM service key parameter `uaa:URL`.
-    -   If you want to activate mTLS-based authentication, you also need the OAuth Cert URL: SAP Cloud ALM service key parameter `uaa:certurl`. You find this URL in the X.509-enabled service key, which is created in the next section, where the PUSH Data Provider is configured.
-
 
 
 

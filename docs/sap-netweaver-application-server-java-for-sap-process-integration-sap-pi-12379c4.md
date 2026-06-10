@@ -2,11 +2,9 @@
 
 <link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
 
-# SAP NetWeaver Application Server Java \(SAP Process Integration, PI\)
+# SAP NetWeaver Application Server Java for SAP Process Integration \(SAP PI\)
 
-This page explains how to connect SAP NetWeaver Application Server Java to SAP Cloud ALM to enable monitoring.
-
-SAP NetWeaver AS Java was formerly known as SAP Process Integration \(PI\).
+This page explains how to connect SAP NetWeaver Application Server Java for SAP Process Integration \(SAP PI\) to SAP Cloud ALM to enable monitoring.
 
 Currently, SAP NetWeaver AS for Java supports the following monitoring applications:
 
