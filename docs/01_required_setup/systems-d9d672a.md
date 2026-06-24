@@ -19,7 +19,7 @@ Most systems are registered with an ABAP report.
 
 After you complete the registration in the system, the registered system appears automatically on the *Services & Systems* page. When you register a technical system, the system creates a default logical system \(client\) and displays it in the *System Details* section.
 
-For step-by-step guidance on registration, find your system in the Expert Portal linked above.
+For step-by-step guidance on registration, find your system in [Connecting Systems and Services](../connecting-systems-and-services-31159aa.md).
 
 
 

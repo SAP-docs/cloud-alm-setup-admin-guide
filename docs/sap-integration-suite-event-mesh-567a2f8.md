@@ -18,7 +18,6 @@ Currently, SAP Integration Suite \(Event Mesh\) supports the following monitorin
 
 -   The information for your system or service has been imported to the *Landscape Management* app in SAP Cloud ALM. This happens daily with an automatic landscape import job. After subscribing to SAP Cloud ALM, you need to wait up to 24 hours for the job to run, for the first time.
 
--   Currently, the following data centers for SAP Integration Suite \(Event Mesh\) are **not** supported: JP10 and CN10.
 
 
 

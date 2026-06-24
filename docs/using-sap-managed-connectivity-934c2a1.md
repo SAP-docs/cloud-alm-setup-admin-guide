@@ -1931,23 +1931,6 @@ EU20
 <tr>
 <td valign="top">
 
-US20
-
-</td>
-<td valign="top">
-
-US10
-
-</td>
-<td valign="top">
-
-EU20
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 US11
 
 </td>

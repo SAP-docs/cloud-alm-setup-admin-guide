@@ -17,8 +17,6 @@ Currently, SAP Edge Integration Cell supports the following monitoring applicati
 
 You have a subscription for SAP Edge Integration Cell.
 
-Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Integration Suite \(Edge Integration Cell\)](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-eic.html).
-
 
 
 ## Setup in SAP Integration Suite \(Edge Integration Cell\)

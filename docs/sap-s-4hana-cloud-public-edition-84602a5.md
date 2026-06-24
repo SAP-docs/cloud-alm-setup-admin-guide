@@ -24,7 +24,7 @@ Currently, SAP S/4HANA Cloud Public Edition supports the following monitoring ap
     -   The system information is automatically imported from the SAP backend \(SLIS\) to the Landscape Management app of SAP Cloud ALM.
     -   In the Landscape Management, the service has the status *New*.
     -   The customer number for SAP S/4HANA Cloud public edition matches the customer number for the SAP Cloud ALM tenant.
-    -   SAP Cloud ALM is not located in `eu10-004`.
+    -   SAP Cloud ALM is **not** located in `eu10-004` or `cn20`.
 
 -   [Automated Setup with Manual Preliminary Steps](automated-setup-with-manual-preliminary-steps-d5e097d.md)
 
@@ -32,7 +32,7 @@ Currently, SAP S/4HANA Cloud Public Edition supports the following monitoring ap
 
     -   The system information is automatically imported from the SAP backend \(SLIS\) to the Landscape Management app of SAP Cloud ALM.
     -   In the Landscape Management, the service has the status *New*.
-    -   SAP Cloud ALM is not located in `eu10-004`.
+    -   SAP Cloud ALM is **not** located in `eu10-004` or `cn20`.
 
 -   [Classic Setup](classic-setup-e144305.md)
 
@@ -40,7 +40,7 @@ Currently, SAP S/4HANA Cloud Public Edition supports the following monitoring ap
 
     -   You have manually created the system information for SAP S/4HANA Cloud public edition in the Landscape Management app of SAP Cloud ALM,
     -   or the service is in status *Active* or *Inactive* in the Landscape Management service,
-    -   or your SAP Cloud ALM tenant is in `eu10‑004`.
+    -   or your SAP Cloud ALM tenant **is** in `eu10‑004` and `cn20`.
 
 
 -   **[Automated Setup in SAP Cloud ALM](automated-setup-in-sap-cloud-alm-785d61b.md "An automated standard setup is available for SAP S/4HANA Cloud public edition

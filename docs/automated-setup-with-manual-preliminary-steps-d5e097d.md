@@ -14,7 +14,7 @@ In such cases, the SAP S/4HANA Cloud system doesn't appear automatically in the 
 
 -   The system information is automatically imported from the SAP backend \(SLIS\) to the Landscape Management app of SAP Cloud ALM.
 -   In the Landscape Management, the service has the status *New*.
--   SAP Cloud ALM is not located in `eu10-004`.
+-   SAP Cloud ALM is **not** located in `eu10-004` or `cn20`.
 
 Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP S/4HANA Cloud Public Edition](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-s4cloud.html).
 

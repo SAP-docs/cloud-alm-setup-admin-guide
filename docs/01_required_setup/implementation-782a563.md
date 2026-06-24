@@ -6965,6 +6965,8 @@ The roles listed in this section were created purely for Process Authoring tasks
 
 > ### Note:  
 > Permissions for these roles may also additionally depend on the access level of the project and the team assignment.
+> 
+> The new *Process Hierarchy Administrator* role exclusively allows users to unlock a locked subtree in the Process Hierarchy app. The table below will soon be updated accordingly.
 
 ****
 
@@ -8325,17 +8327,17 @@ Perform transport checks
 </td>
 <td valign="top">
 
-No
-
-</td>
-<td valign="top">
-
-No
+Yes
 
 </td>
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8372,7 +8374,7 @@ Yes
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">

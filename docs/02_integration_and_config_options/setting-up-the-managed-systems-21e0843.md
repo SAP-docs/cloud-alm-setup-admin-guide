@@ -256,6 +256,11 @@ The following list shows you the required SAP Notes. We recommend always install
 -   For ST-PI 740 SP 22, install [3310406](https://me.sap.com/notes/3310406) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
 
+> ### Note:  
+> We recommend implementing SAP Note [3747311](https://me.sap.com/notes/3747311) to avoid potential downgrades when deactivating the use case task *Transports: Import* while transport of copies are still in the import queue.
+> 
+> Transports and transport of copies \(ToCs\) are imported with the *Transports: Import* use case task. Deactivating the use case task while ToCs are still in the import queue can cause downgrades. This happens if you manually import the original transports via STMS and then reactivate the use case task later.
+
 
 
 <a name="loio21e0843b2009480282487a08044f3f34__section_hbq_rzy_kdc"/>
@@ -449,6 +454,9 @@ For each system you're using, you have to activate different tasks. For example,
 client 000: activate *Transports: Import*. You have to activate this task in all systems you want to import to as this triggers the import job `/SDF/CALM_CDM_IMPORT_TRANSPORTS`. This queries to-be-imported transports from SAP Cloud ALM and imports them.
 
 > ### Note:  
+> Note that transports and transport of copies \(ToCs\) are imported with the *Transports: Import* use case task. Deactivating the use case task while ToCs are still in the import queue can cause downgrades. This happens if you manually import the original transports via STMS and then reactivate the use case task later. To avoid this, implement SAP Note [3747311](https://me.sap.com/notes/3747311).
+
+> ### Note:  
 > Target systems include quality assurance, pre-production, and production systems from a system group, which are assigned to the project via the deployment plan. The deployment is performed using the landscape defined in TMS, not the one defined in the system groups. If your working client isn't available in LMS we recommend to activate the use case Health Monitoring in the needed working clients since they're part of the transport landscape and should be monitored. This is relevant for clients where you haven’t run transaction `/sdf/alm_setup` as these clients aren’t monitored and registered in Landscape Management.
 
 *PRD*
@@ -480,7 +488,7 @@ client 000: activate the following tasks:
 > For your test or productive landscape, set the collection interval to 1 min for these tasks if you want a quicker reaction to your testing of creating transport request, transport of copies, and triggering the deploy in the features.
 
 > ### Note:  
-> Once you've activated any of the tasks, the diagnostic job `/SDF/CALM_CDM_DIAGNOSTIC` is started. This job runs daily in the background and sends diagnostic data. It's only necessary to set up on one system per domain \(preferably the domain controller system\).
+> Once you've activated any of the tasks, the diagnostic job `/SDF/CALM_CDM_DIAGNOSTICS` is started. This job runs daily in the background and sends diagnostic data. It's only necessary to set up on one system per domain \(preferably the domain controller system\).
 
 > ### Note:  
 > With ST-PI 740 SP 27, the names of the tasks have been changed.
@@ -613,6 +621,8 @@ You can use the RFC destination for the same system across different clients as 
 ## Setting up Retrofit
 
 This section is only relevant if you want to use retrofit.
+
+For the setup of retrofit in the *Projects and Setup* app, see [Retrofit Landscape Configuration](https://help.sap.com/docs/cloud-alm/applicationhelp/retrofit-landscape-configuration).
 
 
 

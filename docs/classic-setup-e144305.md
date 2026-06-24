@@ -16,7 +16,7 @@ This setup is required if **any** of the following specifics applies:
 
 -   You have manually created the system information for SAP S/4HANA Cloud public edition in the Landscape Management app of SAP Cloud ALM,
 -   or the service is in status *Active* or *Inactive* in the Landscape Management service,
--   or your SAP Cloud ALM tenant is in `eu10‑004`.
+-   or your SAP Cloud ALM tenant **is** in `eu10‑004` or `cn20`.
 
 You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 

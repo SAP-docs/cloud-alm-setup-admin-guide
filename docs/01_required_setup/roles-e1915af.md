@@ -91,9 +91,7 @@ Create and manage all SAP Cloud ALM objects, except for personal or sensitive da
 </td>
 <td valign="top">
 
-`x_calm_GlobalAdministrator`
-
-`FlexOperator`
+`x_calm_GlobalAdministrator` 
 
 </td>
 </tr>
@@ -159,9 +157,7 @@ Create and manage users, assign and approve authorizations
 </td>
 <td valign="top">
 
-`x_uam_UserAdministrator`
-
-`FlexOperator` 
+`x_uam_UserAdministrator` 
 
 </td>
 </tr>
@@ -386,6 +382,38 @@ Display landscape objects
 <td valign="top">
 
 `x_landscape_Viewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
+<td valign="top">
+
+Landscape Design
+
+</td>
+<td valign="top">
+
+*Security Notes Viewer* 
+
+</td>
+<td valign="top">
+
+*Landscape Design Security Notes Viewer* 
+
+</td>
+<td valign="top">
+
+Allows you to calculate and access recommended security notes
+
+</td>
+<td valign="top">
+
+clm\_landscapedesign\_SecurityNotesViewer
 
 </td>
 </tr>
@@ -784,6 +812,38 @@ Create, edit, and delete process hierarchy nodes
 <td valign="top">
 
 `imp_pm_ProcessHierarchyAuthor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+*Process Hierarchy Administrator* 
+
+</td>
+<td valign="top">
+
+*Process Management Process Hierarchy Administrator* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete and unlock process hierarchy nodes
+
+</td>
+<td valign="top">
+
+`imp_pm_ProcessHierarchyAdministrator` 
 
 </td>
 </tr>
