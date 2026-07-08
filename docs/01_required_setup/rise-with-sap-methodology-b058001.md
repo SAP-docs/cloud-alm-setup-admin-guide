@@ -374,6 +374,28 @@ System View
 </td>
 <td valign="top">
 
+Navigate to the Business Modifications app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System View
+
+</td>
+<td valign="top">
+
 Navigate to the Data Volume Efficiency app
 
 </td>
@@ -441,6 +463,72 @@ Customer Objects
 <td valign="top">
 
 View detailed information about a system's customer objects
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Business Modifications
+
+</td>
+<td valign="top">
+
+View the RISE with SAP Methodology page
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Business Modifications
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Business Modifications
+
+</td>
+<td valign="top">
+
+View detailed information about a system's potential business modifications
 
 </td>
 <td valign="top">

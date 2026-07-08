@@ -8,7 +8,7 @@
 
 ## Usage Rights
 
-To find out if you're entitled to use SAP Cloud ALM, refer to [Usage Rights – SAP Cloud ALM](https://support.sap.com/en/alm/usage-rights.html) on SAP Support Portal.
+To find out if you're entitled to use SAP Cloud ALM, refer to [Fair Use](fair-use-94cd95e.md) and [Usage Rights – SAP Cloud ALM](https://support.sap.com/en/alm/usage-rights.html) \(SAP Support Portal\).
 
 For more details on licensing and for information related to RISE with SAP and GROW with SAP contracts specifically, take a look at [Questions and Answers](https://support.sap.com/content/dam/support/en_us/library/ssp/alm/QA_ALM.pdf).
 

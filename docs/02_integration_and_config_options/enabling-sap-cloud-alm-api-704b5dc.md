@@ -97,10 +97,10 @@ To consume the selected service plan, you need to create a service instance.
               "$XSMASTERAPPNAME.imp-cdm-feature-manage-ui"
             ],
             "oauth2-configuration": {
-                "credential-types": [
-                    "binding-secret"
-                ]
-            }
+              "credential-types": [
+                "binding-secret", "x509"
+               ]
+           }
         }
     }
     

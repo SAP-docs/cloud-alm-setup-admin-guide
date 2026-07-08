@@ -4605,6 +4605,50 @@ More under [SAP Datasphere](sap-datasphere-79f90c1.md).
 <tr>
 <td valign="top">
 
+SAP Traceability Hub Repository
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Traceability Hub Repository](sap-traceability-hub-repository-10556a2.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Utilities Customer Self-Service Agent
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+More under [Utilities Customer Self-Service Agent](utilities-customer-self-service-agent-86792d1.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Complaint Handling
 
 </td>

@@ -116,32 +116,51 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
         ![](images/Create_Outbound_User_474d537.png)
 
-    5.  To create a new outbound user, go to the *Users for Outbound Communication* section of the *Communication Systems* app and choose :heavy_plus_sign:.
+    5.  To create a new inbound user, go to the *Users for Inbound Communication* section of the *Communications Systems* app and choose *\+*.
+
+        ![](images/in_6f73cfc.png)
+
+    6.  As *Authentication Method*, choose *SSL Client Certificate* and enter a User Name/Client ID.
+
+    7.  Select *New User*.
+
+    8.  In the next dialog, upload your certificate.
+
+        > ### Note:  
+        > We recommend to deactivate the password of the user.
+
+    9.  To create a new outbound user, go to the *Users for Outbound Communication* section of the *Communication Systems* app and choose *\+*.
 
         ![](images/Create_Outbound_User_414da4f.png)
 
-    6.  Choose Oauth 2.0 in the *Authentication Method* dropdown and enter your credentials based on client ID and secret from your SAP Cloud ALM API instance in the *OAuth 2.0 Client ID* and *Client Secret* fields.
+    10. As *Authentication Method*, choose *OAuth 2.0*.
 
-        You can find the client ID and secret in the UAA section of the binding credential JSON and has a structure like in the following examples:`"clientid": "instance-name!b123456|sapcloudalm!b456789"` and `"clientsecret": "asdfasdfasdfasdfasdfasdf"`.
+    11. Enter your OAuth 2.0 Client ID based on the client ID from your SAP Cloud ALM API instance.
 
-        ![](images/Create_New_outbound_user_d68990b.png)
+        > ### Note:  
+        > You find the client ID in the UAA section of the binding credential JSON. The structure is the following: "clientid": "instance-name!b123456|sapcloudalm!b456789".
 
-    7.  Choose *Create*.
+    12. As *Client Authentication*, choose *mTLS*.
 
-        The entry now looks like this:
+    13. Upload your SSL Client Certificate.
 
-        ![](images/Users_for_Outbound_communcation_cc4e6ca.png)
-
-    8.  Choose *Save*.
+        ![](images/se_305f64a.png)
 
 
 2.  **Create a communication arrangement**:
 
-    1.  Create a communication arrangement in the *Communication Arrangement* app based on scenario SAP\_COM\_0690 and use the system that was created in step 2 of this guide.
+    1.  Create a communication arrangement in the *Communication Arrangement* app based on scenario SAP\_COM\_0690 and use the system that you created in step 1.
 
         ![](images/SAP_Calm_ATO_0690_740e224.png)
 
-    2.  Go to the *Outbound Services* section in the *Communication Arrangement* app. In this section you can find the following four outbound services.
+    2.  Assign the system that you created in step 1 of this guide.
+
+        > ### Note:  
+        > This automatically fills out the fields for Inbound Communication and Outbound Communication.
+
+        ![](images/com_e900977.png)
+
+    3.  Go to the *Outbound Services* section in the *Communication Arrangement* app. In this section you can find the following four outbound services.
 
         -   SAP Cloud ALM for implementation - Deployment Management Export
 
@@ -160,11 +179,11 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
         In the *Job Execution Details* section, the *Job Status* doesn't have to be checked as this will be scheduled automatically in the background.
 
-    3.  In the *Run Every* field, enter 5 minutes.
+    4.  In the *Run Every* field, enter 5 minutes.
 
         The *Package Size* entry can be ignored.
 
-    4.  Choose *Save*.
+    5.  Choose *Save*.
 
 
 

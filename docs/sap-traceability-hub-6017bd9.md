@@ -8,29 +8,30 @@ Currently, SAP Traceability Hub supports the following monitoring applications:
 
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
-    Specific setup information for Integration & Exception Monitoring: [SAP Traceability Hub](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-ich.html).
+    Specific information for Integration Exception Monitoring: [SAP Traceability Hub](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-ich.html).
 
 
 
 
 ## Prerequisites
 
+You have a subscription for SAP Traceability Hub.
+
 You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM system. More under [Managing Your Service Credentials](https://help.sap.com/docs/cloud-alm/setup-administration/service-key).
 
-In SAP Traceability Hub, you have access to the *Integration Monitoring with SAP Cloud ALM* app. If you don't have access to the app, contact your organization's administrator.
-
-Specific prerequisites for the setup of Integration & Exception Monitoring under [SAP Traceability Hub](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-im-ich.html).
 
 
-
-## Setup in SAP Traceability Hub
+## Setup of Integration and Exception Monitoring
 
 
 
-### Register for SAP Cloud ALM
+### Register SAP Cloud ALM in SAP Traceability Hub
 
 1.  Open the *SAP Traceability Hub* portal.
-2.  In the *General* section, choose the *Integration with SAP Cloud ALM* tile.
+2.  In the *General* section, choose the *Integration with SAP Cloud ALM* app.
+
+    If you don't have access to the app, contact your organization's administrator.
+
 3.  Under *Integration with SAP Cloud ALM*, enter the following:
     -   *Client ID*: SAP Cloud ALM service key parameter `<uaa>:<clientid>`
     -   *Client Secret*: SAP Cloud ALM service key parameter `uaa:clientsecret`
@@ -39,9 +40,7 @@ Specific prerequisites for the setup of Integration & Exception Monitoring under
 
 4.  Choose *Subscribe* in the lower right corner.
 
-
-
-### Deregister for SAP Cloud ALM
+**Deregister SAP Cloud ALM**
 
 If you want to turn off the monitoring in the *SAP Traceability Hub* portal, proceed as follows:
 
@@ -54,7 +53,7 @@ If you want to turn off the monitoring in the *SAP Traceability Hub* portal, pro
 
 ## Setup in SAP Cloud ALM
 
-After setting up the monitoring push to SAP Cloud ALM in the managed service, the data collection is active, with default monitoring configurations.
+After setting up the monitoring push to SAP Cloud ALM, the data collection is active, with default monitoring configurations.
 
 You can adjust the monitoring setup within the monitoring application in SAP Cloud ALM. Find more information in the configuration pages for the relevant monitoring apps, under [SAP Cloud ALM for Operations](https://help.sap.com/docs/cloud-alm/applicationhelp/operations).
 

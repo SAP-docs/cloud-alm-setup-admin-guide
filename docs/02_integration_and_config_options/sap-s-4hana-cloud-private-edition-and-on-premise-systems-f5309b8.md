@@ -6,6 +6,4 @@ In this documentation, you find answers and solutions to the most common problem
 
 -   **[Issues and Solutions](issues-and-solutions-f32dc37.md "")**  
 
--   **[Solutions for Errors in the Managed System Setup Check](solutions-for-errors-in-the-managed-system-setup-check-93ae080.md "")**  
-
 

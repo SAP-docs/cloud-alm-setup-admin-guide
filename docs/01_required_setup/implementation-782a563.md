@@ -6961,12 +6961,10 @@ No
 
 ## Process Management
 
-The roles listed in this section were created purely for Process Authoring tasks \(Process Administrator / Process Author\) and Process Hierarchy tasks \(Process Hierarchy Author\). Actions performed in the Processes and Manage Scopes apps are therefore governed by the roles listed in the [Project Management](implementation-782a563.md#loio782a5636ae874e53830d5198911bf794__section_tll_s4c_y2c) section of this page.
-
 > ### Note:  
 > Permissions for these roles may also additionally depend on the access level of the project and the team assignment.
 > 
-> The new *Process Hierarchy Administrator* role exclusively allows users to unlock a locked subtree in the Process Hierarchy app. The table below will soon be updated accordingly.
+> Note that to work with the *Scope Manager*, *Process Scoper* and *Process Contributor* roles successfully, you also need to assign the *Task Manager* role template \(*imp\_tkm\_TaskManager*\) to the user.
 
 ****
 
@@ -6995,7 +6993,27 @@ Process Author
 </th>
 <th valign="top">
 
+Scope Manager
+
+</th>
+<th valign="top">
+
+Process Scoper
+
+</th>
+<th valign="top">
+
+Process Contributor
+
+</th>
+<th valign="top">
+
 Process Hierarchy Author
+
+</th>
+<th valign="top">
+
+Process Hierarchy Administrator
 
 </th>
 </tr>
@@ -7008,6 +7026,26 @@ Process Hierarchy
 <td valign="top">
 
 Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -7052,6 +7090,26 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7076,6 +7134,26 @@ No
 </td>
 <td valign="top">
 
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
 Yes
 
 </td>
@@ -7089,6 +7167,73 @@ Process Hierarchy
 <td valign="top">
 
 Delete process hierarchy nodes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Process Hierarchy
+
+</td>
+<td valign="top">
+
+Unlock a locked subtree
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7126,6 +7271,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7160,6 +7325,449 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Scopes
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Scopes
+
+</td>
+<td valign="top">
+
+View scopes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Scopes
+
+</td>
+<td valign="top">
+
+Create, edit and delete scopes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Processes
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Processes
+
+</td>
+<td valign="top">
+
+View process content
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Processes
+
+</td>
+<td valign="top">
+
+Create, assign and unassign tags
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Processes
+
+</td>
+<td valign="top">
+
+Edit solution process scopes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Processes
+
+</td>
+<td valign="top">
+
+Edit solution process status
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Processes
+
+</td>
+<td valign="top">
+
+Edit process owner
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7180,6 +7788,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7214,6 +7842,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7234,6 +7882,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7268,6 +7936,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7288,6 +7976,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7322,6 +8030,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7337,6 +8065,26 @@ Unlock custom solution process diagrams
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7373,7 +8121,27 @@ Yes
 </td>
 <td valign="top">
 
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -7403,6 +8171,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7413,6 +8201,26 @@ Process Authoring
 <td valign="top">
 
 Assign solution activities to test cases and documents
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7457,6 +8265,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7477,6 +8305,26 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes \(Note: At least Process Author role level is needed\)
 
 </td>
 <td valign="top">
@@ -7511,6 +8359,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7531,6 +8399,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7565,6 +8453,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7585,6 +8493,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7619,6 +8547,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7639,6 +8587,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7673,6 +8641,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7693,6 +8681,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7727,6 +8735,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7754,6 +8782,26 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7774,6 +8822,26 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">

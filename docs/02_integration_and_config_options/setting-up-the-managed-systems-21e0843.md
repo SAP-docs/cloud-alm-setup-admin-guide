@@ -243,7 +243,15 @@ The following list shows you the required SAP Notes. We recommend always install
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI 740 SP 31 and SP 32, follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+-   For ST-PI SP 35 or ST-PI 758 SP 02, install [3639977](https://me.sap.com/notes/3639977) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+
+-   For ST-PI SP 34 or ST-PI 758 SP 01, install [3706830](https://me.sap.com/notes/3706830) and [3639977](https://me.sap.com/notes/3639977), and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+
+-   For ST-PI SP 33, install [3639977](https://me.sap.com/notes/3639977) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+
+-   For ST-PI 740 SP 32 or ST\_PI 758 SP 00, install [3639977](https://me.sap.com/notes/3639977) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+
+-   For ST-PI 740 SP 31, follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
 -   For ST-PI 740 SP 30, install [3575903](https://me.sap.com/notes/3575903) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
@@ -454,6 +462,9 @@ For each system you're using, you have to activate different tasks. For example,
 client 000: activate *Transports: Import*. You have to activate this task in all systems you want to import to as this triggers the import job `/SDF/CALM_CDM_IMPORT_TRANSPORTS`. This queries to-be-imported transports from SAP Cloud ALM and imports them.
 
 > ### Note:  
+> In case you deactivate the *Transports: Import* task, no import information is transferred. When you activate the task again, import information is transferred again.
+
+> ### Note:  
 > Note that transports and transport of copies \(ToCs\) are imported with the *Transports: Import* use case task. Deactivating the use case task while ToCs are still in the import queue can cause downgrades. This happens if you manually import the original transports via STMS and then reactivate the use case task later. To avoid this, implement SAP Note [3747311](https://me.sap.com/notes/3747311).
 
 > ### Note:  
@@ -503,7 +514,7 @@ client 000: activate the following tasks:
 
 It's only necessary to set up on one system per domain. In case you don't find these use cases in the list, try to rule out connection issues. For example, your service key could be outdated and has to be generated again, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md). For more solutions about connection problems, see [Issues and Solutions](issues-and-solutions-240043a.md).
 
-In case of issues, open the *Analyze Application Log* `SLG1`. This system log shows you details about the use cases and jobs. For example, a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level. For more information, see [Analyze Application Log](solutions-for-errors-in-the-managed-system-setup-check-93ae080.md#loio93ae080ec391461bb4d56579deaa0b00__section_uns_nj3_hdc).
+In case of issues, open the *Analyze Application Log* `SLG1`. This system log shows you details about the use cases and jobs. For example, a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level. For more information, see  <?sap-ot O2O class="- topic/xref " href="93ae080ec391461bb4d56579deaa0b00.xml" text="Analyze Application Log" desc="" xtrc="xref:10" xtrf="file:/home/builder/src/dita-all/nih1586262997200/loio0f341afe0f5e4107ad982c53bfc412dc_en-US/src/content/localization/en-us/21e0843b2009480282487a08044f3f34.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 In case of import issues, you can have a look at the job log. Sometimes a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level.
 
@@ -628,11 +639,11 @@ For the setup of retrofit in the *Projects and Setup* app, see [Retrofit Landsca
 
 ### Prerequisites
 
--   You've installed at least ST-PI 740 SP31 and implemented SAP Note [3688071](https://me.sap.com/notes/3688071) and [3639096](https://me.sap.com/notes/3639096) on your development systems of your implementation and maintenance track.
+-   If you installed ST-PI 740 SP31 or SP32, you have to implement SAP Note [3688071](https://me.sap.com/notes/3688071) and [3639096](https://me.sap.com/notes/3639096) on your development systems of your implementation and maintenance track. If you're using SP 33 or higher, you don't have to implement add
 
 -   Your development systems of your implementation and maintenance track have a domain link between their domain controllers or are in the same transport domain.
 
--   For automatic removal of transport of copies from the import queue of the target system, you have to implement SAP Note [3760887](https://me.sap.com/notes/3760887) and [3754982](https://me.sap.com/notes/3754982).
+-   For ST-PI 740 SP33 and higher you have to implement SAP Note [3760887](https://me.sap.com/notes/3760887) and [3754982](https://me.sap.com/notes/3754982) for automatic removal of transport of copies from the import queue of the target system.
 
 
 

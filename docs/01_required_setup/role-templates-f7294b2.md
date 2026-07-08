@@ -39,7 +39,7 @@ You have the role *Subaccount Administrator* in the subaccount that contains you
 
 <a name="loiof7294b2640b849d4adc7d43a30cf75dd__section_uxd_tkc_pdc"/>
 
-## Available Role Templates
+## Additional Role Templates
 
 > ### Note:  
 > This table only lists role templates that are not part of the predefined role collections. However, when creating your own custom role collections, you can also include role templates that are part of the predefined role collections.
@@ -69,50 +69,6 @@ Name
 Actions
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-**Task Management** 
-
-</td>
-<td valign="top">
-
-`imp_tkm_TaskViewer` 
-
-</td>
-<td valign="top">
-
-View tasks, defects, quality gates, requirements, and risks
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Implementation
-
-</td>
-<td valign="top">
-
-**Task Management** 
-
-</td>
-<td valign="top">
-
-`imp_tkm_TaskManager` 
-
-</td>
-<td valign="top">
-
-Manage tasks, defects, quality gates, requirements, risks, and test cases
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -429,6 +385,50 @@ Implementation
 <td valign="top">
 
 View solution processes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Task Management** 
+
+</td>
+<td valign="top">
+
+`imp_tkm_TaskManager` 
+
+</td>
+<td valign="top">
+
+Manage tasks, defects, quality gates, requirements, risks, and test cases
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Task Management** 
+
+</td>
+<td valign="top">
+
+`imp_tkm_TaskViewer` 
+
+</td>
+<td valign="top">
+
+View tasks, defects, quality gates, requirements, and risks
 
 </td>
 </tr>

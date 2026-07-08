@@ -855,6 +855,102 @@ Implementation
 </td>
 <td valign="top">
 
+Process Management
+
+</td>
+<td valign="top">
+
+*Scope Manager* 
+
+</td>
+<td valign="top">
+
+*Process Management Scope Manager* 
+
+</td>
+<td valign="top">
+
+Create, edit and delete scopes
+
+</td>
+<td valign="top">
+
+`imp_pm_ScopeManager` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+*Process Scoper* 
+
+</td>
+<td valign="top">
+
+*Process Management Process Scoper* 
+
+</td>
+<td valign="top">
+
+Scope solution processes and solution process flow diagrams, edit process statuses and process owners
+
+</td>
+<td valign="top">
+
+`imp_pm_ProcessScoper` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Process Management
+
+</td>
+<td valign="top">
+
+*Process Contributor* 
+
+</td>
+<td valign="top">
+
+*Process Management Process Contributor* 
+
+</td>
+<td valign="top">
+
+Create and maintain assignments in the solution process viewer
+
+</td>
+<td valign="top">
+
+`imp_pm_ProcessContributor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
 Project Management
 
 </td>
@@ -980,6 +1076,38 @@ The permissions of users with this role additionally depend on the access level 
 <td valign="top">
 
 `imp_pjm_ProjectViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+Project Management
+
+</td>
+<td valign="top">
+
+*Program Administrator* 
+
+</td>
+<td valign="top">
+
+*Project Management Program Administrator* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete, and archive programs. Assign and remove projects. Create and edit program teams. View program analytics.
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProgramManager` 
 
 </td>
 </tr>
@@ -1260,12 +1388,12 @@ Business Service Management
 </td>
 <td valign="top">
 
-*Business Service Management Administrator* 
+*Operations Business Service Management Administrator* 
 
 </td>
 <td valign="top">
 
-*Business Service Management Administrator* 
+*Operations Business Service Management Administrator* 
 
 </td>
 <td valign="top">
@@ -1292,12 +1420,12 @@ Business Service Management
 </td>
 <td valign="top">
 
-*Business Service Management Viewer* 
+*Operations Business Service Management Viewer* 
 
 </td>
 <td valign="top">
 
-*Business Service Management Viewer* 
+*Operations Business Service Management Viewer* 
 
 </td>
 <td valign="top">

@@ -366,6 +366,14 @@ This page explains how to connect SAP Task Center to SAP Cloud ALM to enable mon
                         Hub to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Traceability Hub to SAP Cloud ALM to enable monitoring.
+-   **[SAP Traceability Hub Repository](sap-traceability-hub-repository-10556a2.md "This page explains how to connect SAP Traceability Hub Repository to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Traceability Hub Repository to SAP Cloud ALM to enable monitoring.
+-   **[Utilities Customer Self-Service Agent](utilities-customer-self-service-agent-86792d1.md "This page explains how to connect Utilities Customer Self-Service
+                                Agent
+		to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect Utilities Customer Self-Service Agent to SAP Cloud ALM to enable monitoring.
 -   **[SAP Variant Configuration and Pricing](sap-variant-configuration-and-pricing-4697120.md "This page explains how to connect SAP Variant Configuration and
                         Pricing to SAP Cloud ALM to enable
 		monitoring.")**  
