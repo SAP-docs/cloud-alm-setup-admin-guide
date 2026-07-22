@@ -230,7 +230,7 @@ Your recently created Identity Authentication tenant is not yet available in the
 </td>
 <td valign="top">
 
-Note that it can take some time for the productive IAS tenant to become available.
+Note that it can take up to 2 hours for the productive IAS tenant to become available.
 
 For more information, see SAP Note [3754861](https://me.sap.com/notes/3754861) and [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud).
 
@@ -1137,6 +1137,18 @@ By purchasing the *SAP Cloud ALM, tenant extension*, you're entitled to request 
 There's no restriction on the number of tenants that you can purchase. You can get as many as you need for your organization and purposes.
 
 For more information, see [Getting Additional SAP Cloud ALM Tenants](getting-additional-sap-cloud-alm-tenants-29b6a05.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+You want to set up a DEV tenant, Development tenant, TDD tenant, or "Test, Demo & Development tenant".
+
+</td>
+<td valign="top">
+
+This type of tenant is not supported for SAP Cloud ALM. To get an additional tenant, refer to the above entry: You want to set up a second SAP Cloud ALM tenant.
 
 </td>
 </tr>

@@ -136,6 +136,23 @@ Yes
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Operations View
+
+</td>
+<td valign="top">
+
+AI-assisted analysis of scores
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
 </table>
 
 

@@ -2699,6 +2699,11 @@ Data Assessment Administrator
 Data Assessment Viewer
 
 </th>
+<th valign="top">
+
+Data Assessment Approver
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -2719,6 +2724,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -2743,6 +2753,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2758,6 +2773,11 @@ Create data assessments
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2787,6 +2807,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2807,6 +2832,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -2831,6 +2861,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2846,6 +2881,11 @@ Create quality check runs
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2875,6 +2915,38 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Runs
+
+</td>
+<td valign="top">
+
+Approve correction runs
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2897,6 +2969,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2917,6 +2994,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>

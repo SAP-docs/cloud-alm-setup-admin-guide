@@ -1388,17 +1388,17 @@ Business Service Management
 </td>
 <td valign="top">
 
-*Operations Business Service Management Administrator* 
+*Business Service Management Administrator* 
 
 </td>
 <td valign="top">
 
-*Operations Business Service Management Administrator* 
+*Business Service Management Administrator* 
 
 </td>
 <td valign="top">
 
-Create and manage business services, and plan events.
+Create and manage business services, and plan events
 
 </td>
 <td valign="top">
@@ -1410,27 +1410,27 @@ Create and manage business services, and plan events.
 <tr>
 <td valign="top">
 
-Operations
+ 
 
 </td>
 <td valign="top">
 
-Business Service Management
+ 
 
 </td>
 <td valign="top">
 
-*Operations Business Service Management Viewer* 
+*Business Service Management Viewer* 
 
 </td>
 <td valign="top">
 
-*Operations Business Service Management Viewer* 
+*Business Service Management Viewer* 
 
 </td>
 <td valign="top">
 
-View business services, their configuration, and the event calendar.
+View business services, their configuration, and the event calendar
 
 </td>
 <td valign="top">

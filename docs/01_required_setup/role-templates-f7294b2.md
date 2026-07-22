@@ -432,6 +432,72 @@ View tasks, defects, quality gates, requirements, and risks
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Project Management** 
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProgramManager` 
+
+</td>
+<td valign="top">
+
+Create, change, and delete programs, view program teams
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Project Management** 
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProgramTeamManager` 
+
+</td>
+<td valign="top">
+
+Create, change, copy, and delete program teams, view programs
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Project Management** 
+
+</td>
+<td valign="top">
+
+`imp_pjm_ProgramViewer` 
+
+</td>
+<td valign="top">
+
+View programs and program teams
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

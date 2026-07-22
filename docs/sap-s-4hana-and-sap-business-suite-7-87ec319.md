@@ -61,6 +61,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
+    -   SAP Note [3750110](https://me.sap.com/notes/3750110) – Collective corrections as of ST-PI 7.40 **SP35** and ST-PI 7.58 SP02 for SAP Cloud ALM
     -   SAP Note [3706830](https://me.sap.com/notes/3706830) – Collective corrections as of ST-PI 7.40 **SP34** and ST-PI 7.58 SP01 for SAP Cloud ALM
     -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** and ST-PI 7.58 SP00 for SAP Cloud ALM \(including SP33\)
     -   SAP Note [3575903](https://me.sap.com/notes/3575903) – Collective corrections as of ST-PI 7.40 **SP30** for SAP Cloud ALM \(including SP31\)

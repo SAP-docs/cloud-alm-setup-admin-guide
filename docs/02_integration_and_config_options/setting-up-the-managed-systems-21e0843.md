@@ -53,6 +53,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
+    -   SAP Note [3750110](https://me.sap.com/notes/3750110) – Collective corrections as of ST-PI 7.40 **SP35** and ST-PI 7.58 SP02 for SAP Cloud ALM
     -   SAP Note [3706830](https://me.sap.com/notes/3706830) – Collective corrections as of ST-PI 7.40 **SP34** and ST-PI 7.58 SP01 for SAP Cloud ALM
     -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** and ST-PI 7.58 SP00 for SAP Cloud ALM \(including SP33\)
     -   SAP Note [3575903](https://me.sap.com/notes/3575903) – Collective corrections as of ST-PI 7.40 **SP30** for SAP Cloud ALM \(including SP31\)
@@ -514,7 +515,7 @@ client 000: activate the following tasks:
 
 It's only necessary to set up on one system per domain. In case you don't find these use cases in the list, try to rule out connection issues. For example, your service key could be outdated and has to be generated again, as described in [Enabling SAP Cloud ALM API](enabling-sap-cloud-alm-api-704b5dc.md). For more solutions about connection problems, see [Issues and Solutions](issues-and-solutions-240043a.md).
 
-In case of issues, open the *Analyze Application Log* `SLG1`. This system log shows you details about the use cases and jobs. For example, a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level. For more information, see  <?sap-ot O2O class="- topic/xref " href="93ae080ec391461bb4d56579deaa0b00.xml" text="Analyze Application Log" desc="" xtrc="xref:10" xtrf="file:/home/builder/src/dita-all/nih1586262997200/loio0f341afe0f5e4107ad982c53bfc412dc_en-US/src/content/localization/en-us/21e0843b2009480282487a08044f3f34.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+In case of issues, open the *Analyze Application Log* `SLG1`. This system log shows you details about the use cases and jobs. For example, a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level. For more information, see [Analyze Application Log](solutions-for-errors-in-the-managed-system-setup-check-93ae080.md#loio93ae080ec391461bb4d56579deaa0b00__section_uns_nj3_hdc).
 
 In case of import issues, you can have a look at the job log. Sometimes a component version mismatch is detected. This blocks the import of all transports assigned to features if the mismatch situation isn't resolved manually at TMS level.
 

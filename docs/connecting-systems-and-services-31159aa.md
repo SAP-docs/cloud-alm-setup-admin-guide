@@ -225,6 +225,11 @@ This page explains how to connect SAP Integration Suite \(Edge Integration Cell\
 -   **[SAP Integration Suite \(Event Mesh\)](sap-integration-suite-event-mesh-567a2f8.md "This page explains how to connect SAP Integration Suite (Event Mesh) to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Integration Suite \(Event Mesh\) to SAP Cloud ALM to enable monitoring.
+-   **[SAP Integration Suite, advanced event mesh](sap-integration-suite-advanced-event-mesh-d4eb255.md "This page explains how to connect SAP Integration Suite, advanced
+                                event mesh
+		to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Integration Suite, advanced event mesh to SAP Cloud ALM to enable monitoring.
 -   **[SAP Integration Suite \(Trading Partner Management\)](sap-integration-suite-trading-partner-management-c714921.md "This page explains how to connect SAP Integration Suite (Trading
                                 Partner Management) to SAP Cloud ALM to enable
 		monitoring.")**  

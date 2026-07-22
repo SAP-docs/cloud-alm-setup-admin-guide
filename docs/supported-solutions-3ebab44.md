@@ -3495,7 +3495,7 @@ Business Process Monitoring
 
 Supported KPIs for the business scenario *Recruit to Retire*
 
-More under  <?sap-ot O2O class="- topic/xref " href="7f913374869247abae5a3ce78f70a3d5.xml" text="" desc="" xtrc="xref:147" xtrf="file:/home/builder/src/dita-all/nih1586262997200/loio0f341afe0f5e4107ad982c53bfc412dc_en-US/src/content/localization/en-us/3ebab44c25da4cc1997bad08cc00991c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+More under [SAP SuccessFactors HCM](sap-successfactors-hcm-a756eb8.md).
 
 </td>
 </tr>
@@ -3675,6 +3675,28 @@ More under [SAP Revenue Growth Management](sap-revenue-growth-management-e675e40
 > The KPIs belonging to this solution are not part of the standard end-to-end processes. To monitor these KPIs, you first need to create a custom process and assign them to it, as described in [Creating Custom Processes](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/372d08d908af48dd80d93cd5a202b3f6.html "If the predefined standard processes don't reflect your organization, you can create custom ones.") :arrow_upper_right:.
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integration Suite, advanced event mesh
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Integration Suite, advanced event mesh](sap-integration-suite-advanced-event-mesh-d4eb255.md).
 
 </td>
 </tr>
