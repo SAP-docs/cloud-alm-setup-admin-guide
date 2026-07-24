@@ -144,7 +144,7 @@ Operations View
 </td>
 <td valign="top">
 
-AI-assisted analysis of scores
+AI-assisted analysis of scores\*
 
 </td>
 <td valign="top">
@@ -154,6 +154,9 @@ Yes
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> To use the AI-assisted analysis feature, you first need to activate it in *SAP for Me*. For more information, refer to [AI-Assisted Analysis](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/bcfa3634a5814cbba5acc0d4f4908f37.html "") :arrow_upper_right: on the SAP Help Portal.
 
 
 

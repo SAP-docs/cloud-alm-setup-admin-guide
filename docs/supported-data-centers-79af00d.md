@@ -165,6 +165,23 @@ US East \(VA\) – `cf-us10`
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+USA: Quincy, WA
+
+</td>
+<td valign="top">
+
+US West \(WA\) – `cf-us20` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
 </table>
 
 To find out which data center locations are planned in the future, see [SAP Cloud ALM Data Centers](https://support.sap.com/en/alm/sap-cloud-alm.html?anchorId=section_1424572767_c) on SAP Support Portal.
