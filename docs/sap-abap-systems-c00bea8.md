@@ -18,8 +18,8 @@ Currently, the following monitoring applications are supported for SAP ABAP syst
 > **Data Protection and Privacy Notice**
 > 
 > User data from managed systems: If you've set up integrations with other SAP solutions or third-party applications, some user-related data from the managed systems might be stored in SAP Cloud ALM.
-> 
-> Please choose the product you want to connect to SAP Cloud ALM:
+
+Please choose the product you want to connect to SAP Cloud ALM:
 
 -   [SAP S/4HANA and SAP Business Suite 7](https://help.sap.com/docs/cloud-alm/setup-administration/sap-s4hana-and-sap-business-suite-7)
 -   [SAP S/4HANA Cloud Private Edition](https://help.sap.com/docs/cloud-alm/setup-administration/sap-s4hana-cloud-private-edition)

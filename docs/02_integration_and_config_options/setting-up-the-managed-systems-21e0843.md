@@ -38,10 +38,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
     Operate your ABAP managed system with at least the latest or second latest support package that's available on the SAP Support Portal.
 
--   For Business Process Monitoring in SAP S/4HANA and SAP Business Suite 7, at least ST-A/PI version higher that 01U\_731 must be available. Always keep it up to date.
-
-    If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed on this page.
-
+-   For Business Process Monitoring in SAP S/4HANA and SAP Business Suite 7, ST-A/PI version 01U\_731 or higher must be available. Always implement the latest corrections from the SAP Notes relevant to your ST-A/PI version. For more information, see [Connecting Services and Systems](https://help.sap.com/docs/cloud-alm/applicationhelp/bpmon-connecting-services) for Business Process Monitoring.
 -   Note that if you already use **RISE with SAP** default values in your system, **no changes are necessary**.
 
     If you're **not** on RISE with SAP, the following general recommendations apply:
@@ -244,7 +241,7 @@ The following list shows you the required SAP Notes. We recommend always install
 
 -   Install SAP\_BASIS 7.40 SP20 or higher \(accordingly 7.50 SP04\).
 
--   For ST-PI SP 35 or ST-PI 758 SP 02, install [3639977](https://me.sap.com/notes/3639977) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
+-   For ST-PI SP 35 or ST-PI 758 SP 02, install [3750110](https://me.sap.com/notes/3750110) and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
 -   For ST-PI SP 34 or ST-PI 758 SP 01, install [3706830](https://me.sap.com/notes/3706830) and [3639977](https://me.sap.com/notes/3639977), and follow SAP Note [3425282](https://me.sap.com/notes/3425282).
 
@@ -647,6 +644,9 @@ For the setup of retrofit in the *Projects and Setup* app, see [Retrofit Landsca
 -   For ST-PI 740 SP33 and higher you have to implement SAP Note [3760887](https://me.sap.com/notes/3760887) and [3754982](https://me.sap.com/notes/3754982) for automatic removal of transport of copies from the import queue of the target system.
 
 
+> ### Restriction:  
+> Identical SIDs are not supported. This also applies to systems with different service types with the same SID. SAP Cloud ALM is considering the SID as the leading identifier for transport management. For more information, see [SAP S/4HANA Cloud Private Edition and On-Premise Systems](sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md).
+
 
 
 ### 1. Upload PFCG Roles on Your Development System and Client of Your Implementation Track
@@ -807,7 +807,7 @@ In case you require support with the configuration of retrofit in SAP Cloud ALM 
 
 -   You've set up retrofit as described in [Setting up Retrofit](setting-up-the-managed-systems-21e0843.md#loio21e0843b2009480282487a08044f3f34__section_wcc_5cq_chc).
 
--   You've configured the ATC Hub as described in the *Custom Code Migration Guide for SAP S/4HANA* on the [SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE?version=2025#implement_task-conversion-&-upgrade-assets). Also, ensure that the ATC Hub is running correctly.
+-   You've configured the central ATC check system as described in the *Custom Code Migration Guide for SAP S/4HANA* on the [SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE?version=2025#implement_task-conversion-&-upgrade-assets). Also, ensure that the central ATC check system is running correctly.
 
 -   You've configured the Simplification Database as described in the *Custom Code Migration Guide for SAP S/4HANA* on the [SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE?version=2025#implement_task-conversion-&-upgrade-assets).
 
@@ -816,7 +816,12 @@ In case you require support with the configuration of retrofit in SAP Cloud ALM 
 
 ### 1. Uploading PFCG Role
 
-The PFCG role has to be uploaded on your development system and client of your implementation track. The PFCG role also has to be uploaded on your ATC Hub if it is on a different system than the development system and client of your implementation track.
+Depending on your central ATC check system setup, the PFCG role has to be updated or uploaded on different systems:
+
+-   if your central ATC check system is in the same system with the development system and client of your implementation track, this role only needs to be updated in this combined system.
+
+-   if your central ATC check system is in a standalone system, this role has to be updated on the development system and client of your implementation and uploaded on the central ATC check system.
+
 
 1.  Download the `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` role template from SAP Note [3734702](https://me.sap.com/notes/3734702).
 
@@ -826,9 +831,9 @@ The PFCG role has to be uploaded on your development system and client of your i
 
 4.  Choose the `SAP_SDF_CALM_CDM_RETROFIT_RFC.SAP` role template and select *Open*.
 
-5.  Select *Transfer*. If your ATC Hub is on a different system than the development system and client of your implementation track, you can ignore the red icon and message "Role already exists in the system".
+5.  Select *Transfer*. If you see a red icon and message "Role already exists in the system", you can ignore this.
 
-6.  Select *Change*. If your ATC Hub is on a different system than the development system and client of your implementation track, you receive a confirmation message: One role was uploaded from the file.
+6.  Select *Change*. If you see a confirmation message "One roles was uploaded from the file", you can ignore it.
 
 7.  Select the *Authorizations* tab and then *Continue*.
 
@@ -843,12 +848,12 @@ The PFCG role has to be uploaded on your development system and client of your i
 
 
 
-### 2. Creating an RFC User for ATC Hub Connection
+### 2. Creating an RFC User for Central ATC Check System Connection
 
 > ### Note:  
-> This is only required if the ATC Hub is a different system than the development system of your implementation track. You can skip the configuration if the ATC Hub is the same system as the development system of your implementation track.
+> This is only required if the central ATC check system is a different system than the development system of your implementation track. You can skip the configuration if the central ATC check system is the same system as the development system of your implementation track.
 
-1.  On your development system and client of your implementation track, run transaction SU01.
+1.  On your central ATC check system, run transaction SU01.
 
 2.  Enter a user name and then select the *Technical User* or *User* button.
 
@@ -861,10 +866,10 @@ The PFCG role has to be uploaded on your development system and client of your i
 
 
 
-### 3. Creating an RFC Destination to ATC Hub
+### 3. Creating an RFC Destination to Central ATC Check System
 
 > ### Note:  
-> This is only required if the ATC Hub is a different system than the development system of your implementation track. You can skip the configuration if the ATC Hub is the same system as the development system of your implementation track.
+> This is only required if the central ATC check system is a different system than the development system of your implementation track. You can skip the configuration if the central ATC check system is the same system as the development system of your implementation track.
 
 1.  On your development system and client of your maintenance track, run transaction *SM59*.
 
@@ -872,9 +877,9 @@ The PFCG role has to be uploaded on your development system and client of your i
 
 3.  Enter a destination name for RFC and select connection type *3 RFC Connection to ABAP System*.
 
-4.  On the *Technical Settings* tab, enter the ATC Hub system host in *Target Host*.
+4.  On the *Technical Settings* tab, enter the central ATC check system host in *Target Host*.
 
-5.  On the *Logon & Security*tab, enter the RFC user you created for ATC Hub. In *Client*, enter the client of your ATC Hub.
+5.  On the *Logon & Security*tab, enter the RFC user you created for the central ATC check system. In *Client*, enter the client of your central ATC check system.
 
 6.  Perform a connection and authorization test via *Utilities* \> *Test*.
 
@@ -919,14 +924,14 @@ The PFCG role has to be uploaded on your development system and client of your i
     ATC\_HUB\_RFC
 
     > ### Note:  
-    > This is only required when ATC Hub is in a different system than the development system of your implementation track.
+    > This is only required when the central ATC check system is in a different system than the development system of your implementation track.
 
 
     
     </td>
     <td valign="top">
     
-    RFC destination to ATC Hub
+    RFC destination to central ATC check system
     
     </td>
     </tr>
@@ -966,7 +971,7 @@ The PFCG role has to be uploaded on your development system and client of your i
     
     Enable ATC check
 
-    Used for ATC Hub scenario
+    Used for central ATC check system scenario
     
     </td>
     </tr>
@@ -974,7 +979,7 @@ The PFCG role has to be uploaded on your development system and client of your i
     
 
 > ### Note:  
-> If `ATC_HUB_RFC` is not maintained, it falls back to the retrofit target RFC maintained in customizing table /SDF/CMO\_TARGET. This means the development system of your implementation track has to be configured and act like the ATC Hub.
+> If `ATC_HUB_RFC` is not maintained, it falls back to the retrofit target RFC maintained in customizing table /SDF/CMO\_TARGET. This means the development system of your implementation track has to be configured and act like the central ATC check system.
 > 
 > You can activate `CUSTOMIZING` and `ATC Check` either individually or both.
 
@@ -982,7 +987,7 @@ The PFCG role has to be uploaded on your development system and client of your i
 
 ### 5. Updating the Simplification Database
 
-If you have specified `ATC_HUB_RFC` and enabled `CUSTOMIZING` in database table `/SDF/CMO_ATC`, you must update the simplification database on your ATC Hub.
+If you have specified `ATC_HUB_RFC` and enabled `CUSTOMIZING` in database table `/SDF/CMO_ATC`, you must update the simplification database on your central ATC check system.
 
 If you haven’t specified `ATC_HUB_RFC` and enabled `CUSTOMIZING`, you must update the simplification database on the development system of your implementation track.
 

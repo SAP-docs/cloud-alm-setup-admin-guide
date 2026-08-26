@@ -7,7 +7,7 @@ This page explains how to connect SAP Revenue Growth Management to SAP Cloud ALM
 Currently, SAP Revenue Growth Management supports the following monitoring applications:
 
 -   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
--   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)Specific setup information for Integration & Exception Monitoring: [SAP Revenue Growth Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-rgm.html).
+-   [Integration & Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring) Specific setup information for Integration & Exception Monitoring: [SAP Revenue Growth Management](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-rgm.html).
 -   [Real User Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/real-user-monitoring)
 
 

@@ -25,14 +25,19 @@ Currently any kind of consistent Transport Management System \(TMS\) landscape i
 > CTS+ is not supported.
 
 > ### Caution:  
+> Identical SIDs are not supported. This also applies to systems with different service types with the same SID. SAP Cloud ALM is considering the SID as the leading identifier for transport management.
+> 
+> > ### Note:  
+> > For Managed Service Providers: This also applies to different customers using the same SIDs.
+> 
+> TMS domains with the same domain name are not supported.
+
+> ### Caution:  
 > If you want to implement landscape changes, please check what is supported and what isn't:
 > 
 > **Not supported:**
 > 
-> -   Identical SIDs are not supported. This also applies for systems with different service types with the same SID. SAP Cloud ALM is considering the SID as the leading identifier for transport management.
-> 
->     > ### Note:  
->     > For Managed Service Providers: This also applies for different customers using the same SIDs.
+> -   Identical SIDs are not supported. For more information, see the caution above.
 > 
 > -   TMS domains with the same domain name are not supported.
 > 
@@ -91,7 +96,9 @@ Before you're using virtual systems, make sure to fulfill the following prerequi
 -   Diagnostic job `/SDF/CALM_CDM_DIAGNOSTIC` has run after implementing the note.
 
     > ### Note:  
-    > Diagnostic job `/SDF/CALM_CDM_DIAGNOSTIC` runs once a day. Check if it has run after the note implementation. If not, run it again.
+    > Check if it has run after the note implementation. If not, run it again.
+    > 
+    > If you installed ST-PI 740 SP33/34/35 or 758 SP01/02/03 and implemented SAP Note [3791730](https://me.sap.com/notes/3791730) or at least ST-PI 740 higher SP36 or 758 SP03, the `/SDF/CALM_CDM_DIAGNOSTIC` job runs every hour. Otherwise, the job runs once a day.
 
 
 When you've implemented SAP Note [3532762](https://me.sap.com/notes/3532762), virtual systems are detected and imports to virtual systems aren't scheduled. This means, if a virtual system is part of a CTS transport route, deployments to this virtual system aren’t scheduled.

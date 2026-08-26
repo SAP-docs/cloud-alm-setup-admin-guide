@@ -1,16 +1,16 @@
-<!-- loio03b2e1f875954ea5b9af658041c581f8 -->
+<!-- copy338a806878ff4070bddd8f472ee200cd -->
 
-# Additional SAP HANA Database Health Monitoring Metrics for SAP S/4HANA
+# Additional Setup for SAP HANA Database
 
-Learn how to get additional metrics for the health monitoring metrics of SAP HANA.
+Learn how to do additional setup for the health monitoring metrics of SAP HANA and for Configuration and Security Analysis \(CSA\).
 
 The following steps are only necessary if the database host isn't running directly on the application host.
 
 
 
-<a name="loio03b2e1f875954ea5b9af658041c581f8__section_gcx_rw3_hhc"/>
+<a name="copy338a806878ff4070bddd8f472ee200cd__section_gcx_rw3_hhc"/>
 
-## Prerequisites
+## Prerequisites for Health Monitoring
 
 -   You're using the latest host agent version with at least patch level \(67\). The versions on the database and on the application server must match.
 -   ST-PI 7.4 version 32 is installed and the packages are up to date.
@@ -18,9 +18,17 @@ The following steps are only necessary if the database host isn't running direct
 
 
 
-<a name="loio03b2e1f875954ea5b9af658041c581f8__section_s1w_vw3_hhc"/>
+## Prerequisites for Configuration and Security Analysis
 
-## Adding the Metrics
+-   You're using the latest host agent version with at least patch level \(67\). The versions on the database and on the application server must match.
+-   ST-PI 758 SP02 or ST-PI 740 SP35 is installed and the packages are up to date.
+-   You've implemented the steps from SAP Note [2023587](https://me.sap.com/notes/2023587) \(*Maintaining SAP HANA user store using SetDatabaseProperty for SAP Host Agent*\).
+
+
+
+<a name="copy338a806878ff4070bddd8f472ee200cd__section_s1w_vw3_hhc"/>
+
+## Adding Metrics for Health Monitoring
 
 1.  Before starting, disable the health monitoring on SAP HANA:
     1.  Start transaction `/n/SDF/ALM_SETUP`.

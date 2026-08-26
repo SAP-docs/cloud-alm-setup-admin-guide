@@ -487,9 +487,9 @@ Transformation Modeling Viewer
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="11">
 
-Manage Transformation Models
+Manage Transformation Models 
 
 </td>
 <td valign="top">
@@ -511,12 +511,7 @@ Yes
 <tr>
 <td valign="top">
 
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-View transformation Models
+View transformation models
 
 </td>
 <td valign="top">
@@ -531,11 +526,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
 <td valign="top">
 
 Create transformation models
@@ -555,11 +545,6 @@ No
 <tr>
 <td valign="top">
 
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
 Edit transformation models
 
 </td>
@@ -577,12 +562,7 @@ No
 <tr>
 <td valign="top">
 
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Mass edit transformation objects
+Edit custom transformation objects
 
 </td>
 <td valign="top">
@@ -599,12 +579,7 @@ No
 <tr>
 <td valign="top">
 
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Create a transformation model version
+Create transformation model versions
 
 </td>
 <td valign="top">
@@ -621,9 +596,72 @@ No
 <tr>
 <td valign="top">
 
-Manage Transformation Models
+Refresh and restart the data dictionary scan
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Update the content status
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Perform follow-up actions when transformation model readiness activities are completed
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Restart transformation model readiness activities
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 Delete transformation models
@@ -641,9 +679,9 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="4">
 
-Transformation Model Versions
+Transformation Model Versions 
 
 </td>
 <td valign="top">
@@ -665,11 +703,6 @@ Yes
 <tr>
 <td valign="top">
 
-Transformation Model Versions
-
-</td>
-<td valign="top">
-
 View transformation model versions
 
 </td>
@@ -685,11 +718,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Transformation Model Versions
-
-</td>
 <td valign="top">
 
 Create transformation model versions
@@ -709,12 +737,221 @@ No
 <tr>
 <td valign="top">
 
-Transformation Model Versions
+Delete transformation model versions
 
 </td>
 <td valign="top">
 
-Delete transformation model versions
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="9">
+
+Manage Value Mappings 
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+View mapping variants
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create mapping variants
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select a chart of accounts
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Edit mapping variants
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Maintain mapping values
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Import and export mapping values
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Validate value mappings
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create mapping variant versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="3">
+
+Value Mapping Versions 
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+View mapping variant versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create mapping variant versions
 
 </td>
 <td valign="top">
@@ -763,9 +1000,9 @@ Digital Blueprint Viewer
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="5">
 
-Manage Analysis Files
+Manage Analysis Files 
 
 </td>
 <td valign="top">
@@ -785,11 +1022,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage Analysis Files
-
-</td>
 <td valign="top">
 
 View analysis files
@@ -809,11 +1041,6 @@ Yes
 <tr>
 <td valign="top">
 
-Manage Analysis Files
-
-</td>
-<td valign="top">
-
 Create analysis files
 
 </td>
@@ -829,11 +1056,6 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage Analysis Files
-
-</td>
 <td valign="top">
 
 Edit analysis files
@@ -853,11 +1075,6 @@ No
 <tr>
 <td valign="top">
 
-Manage Analysis Files
-
-</td>
-<td valign="top">
-
 Delete analysis files
 
 </td>
@@ -873,7 +1090,7 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="6">
 
 Manage System Scans
 
@@ -895,11 +1112,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
 <td valign="top">
 
 View system scans
@@ -919,11 +1131,6 @@ Yes
 <tr>
 <td valign="top">
 
-Manage System Scans
-
-</td>
-<td valign="top">
-
 Create system scans
 
 </td>
@@ -939,11 +1146,6 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
 <td valign="top">
 
 Execute system scans
@@ -963,11 +1165,6 @@ No
 <tr>
 <td valign="top">
 
-Manage System Scans
-
-</td>
-<td valign="top">
-
 Edit system scans
 
 </td>
@@ -985,11 +1182,6 @@ No
 <tr>
 <td valign="top">
 
-Manage System Scans
-
-</td>
-<td valign="top">
-
 Delete system scans
 
 </td>
@@ -1005,7 +1197,7 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="7">
 
 Manage Digital Blueprints
 
@@ -1027,11 +1219,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
 <td valign="top">
 
 View digital blueprints
@@ -1051,11 +1238,6 @@ Yes
 <tr>
 <td valign="top">
 
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
 Create digital blueprints
 
 </td>
@@ -1071,11 +1253,6 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
 <td valign="top">
 
 Edit digital blueprints
@@ -1095,11 +1272,6 @@ No
 <tr>
 <td valign="top">
 
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
 Confirm digital blueprints
 
 </td>
@@ -1115,11 +1287,6 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
 <td valign="top">
 
 Create a transformation model
@@ -1139,11 +1306,6 @@ No
 <tr>
 <td valign="top">
 
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
 Delete digital blueprints
 
 </td>
@@ -1159,7 +1321,7 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="3">
 
 Select Company Codes
 
@@ -1181,11 +1343,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Select Company Codes
-
-</td>
 <td valign="top">
 
 View company codes scoping
@@ -1205,11 +1362,6 @@ Yes
 <tr>
 <td valign="top">
 
-Select Company Codes
-
-</td>
-<td valign="top">
-
 Edit company codes scoping
 
 </td>
@@ -1225,7 +1377,7 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="3">
 
 Select Transformation Objects
 
@@ -1247,11 +1399,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Select Transformation Objects
-
-</td>
 <td valign="top">
 
 View transformation objects scoping
@@ -1271,11 +1418,6 @@ Yes
 <tr>
 <td valign="top">
 
-Select Transformation Objects
-
-</td>
-<td valign="top">
-
 Edit transformation objects scoping
 
 </td>
@@ -1291,7 +1433,7 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="3">
 
 Select Scanned Tables
 
@@ -1313,11 +1455,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Select Scanned Tables
-
-</td>
 <td valign="top">
 
 View scanned tables scoping
@@ -1337,11 +1474,6 @@ Yes
 <tr>
 <td valign="top">
 
-Select Scanned Tables
-
-</td>
-<td valign="top">
-
 Edit scanned tables scoping
 
 </td>
@@ -1357,7 +1489,7 @@ No
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="3">
 
 Digital Blueprint Overview
 
@@ -1381,11 +1513,6 @@ Yes
 <tr>
 <td valign="top">
 
-Digital Blueprint Overview
-
-</td>
-<td valign="top">
-
 View a digital blueprint
 
 </td>
@@ -1401,11 +1528,6 @@ Yes
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Digital Blueprint Overview
-
-</td>
 <td valign="top">
 
 Create a new digital blueprint

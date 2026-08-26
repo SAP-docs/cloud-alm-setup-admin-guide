@@ -413,7 +413,7 @@ Allows you to calculate and access recommended security notes
 </td>
 <td valign="top">
 
-clm\_landscapedesign\_SecurityNotesViewer
+`clm_landscapedesign_SecurityNotesViewer` 
 
 </td>
 </tr>
@@ -510,6 +510,134 @@ View tenant details on memory consumption and outbound API usage
 <td valign="top">
 
 `x_tenantinfo_TenantInformationViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+View data in Self-Monitoring
+
+</td>
+<td valign="top">
+
+`ops_sm_OperationsSelfMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+View Self-Monitoring overview and metrics of SAP Cloud ALM, process alerts and perform follow-up actions
+
+</td>
+<td valign="top">
+
+`ops_sm_ops_sm_OperationsSelfMonitoringProcessor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cross Topics
+
+</td>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+View Self-Monitoring monitoring data and metrics of SAP Cloud ALM, maintain configuration for KPIs and events
+
+</td>
+<td valign="top">
+
+`ops_sm_OperationsSelfMonitoringConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Self-Monitoring
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+*Self-Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+View Self-Monitoring data and metrics of SAP Cloud ALM, maintain configuration for KPIs and events, maintain global configuration
+
+</td>
+<td valign="top">
+
+`ops_sm_OperationsSelfMonitoringAdministrator` 
 
 </td>
 </tr>
@@ -698,7 +826,7 @@ Documents
 </td>
 <td valign="top">
 
-*Documents Administrator*
+*Document Administrator*
 
 </td>
 <td valign="top">
@@ -1107,7 +1235,7 @@ Create, edit, delete, and archive programs. Assign and remove projects. Create a
 </td>
 <td valign="top">
 
-`imp_pjm_ProgramManager` 
+`imp_pjm_ProgramAdministrator` 
 
 </td>
 </tr>
@@ -1225,7 +1353,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Business Process Monitoring Administrator* 
+*Business Process Monitoring Administrator*
 
 </td>
 <td valign="top">
@@ -1257,7 +1385,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Business Process Monitoring Process Manager* 
+*Business Process Monitoring Process Manager*
 
 </td>
 <td valign="top">
@@ -1286,12 +1414,12 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Executor* 
+*Process Executor*
 
 </td>
 <td valign="top">
 
-*Business Process Monitoring Process Executor* 
+*Business Process Monitoring Process Executor*
 
 </td>
 <td valign="top">
@@ -1320,12 +1448,12 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Monitoring Consumer* 
+*Process Monitoring Consumer*
 
 </td>
 <td valign="top">
 
-*Business Process Monitoring Consumer* 
+*Business Process Monitoring Consumer*
 
 </td>
 <td valign="top">
@@ -1354,12 +1482,12 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Monitoring Viewer* 
+*Process Monitoring Viewer*
 
 </td>
 <td valign="top">
 
-*Business Process Monitoring Viewer* 
+*Business Process Monitoring Viewer*
 
 </td>
 <td valign="top">
@@ -2226,7 +2354,7 @@ Cycle & Monitoring
 </td>
 <td valign="top">
 
-*Cycle Administrator* 
+*Cycle & Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -2258,7 +2386,7 @@ Cycle & Monitoring
 </td>
 <td valign="top">
 
-*Cycle Viewer* 
+*Cycle & Monitoring Viewer* 
 
 </td>
 <td valign="top">

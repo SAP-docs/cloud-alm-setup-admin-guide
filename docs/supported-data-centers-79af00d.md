@@ -81,23 +81,6 @@ This region is only available for customers based in China.
 <tr>
 <td valign="top">
 
-Germany: Frankfurt
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\) – `cf-eu10` 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Germany: Frankfurt \(EU Access\)
 
 </td>

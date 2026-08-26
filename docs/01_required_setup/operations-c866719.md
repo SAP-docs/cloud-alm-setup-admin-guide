@@ -1665,7 +1665,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -1702,7 +1702,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -3210,7 +3210,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -3232,7 +3232,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -4324,7 +4324,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -4346,7 +4346,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -5326,7 +5326,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -5348,7 +5348,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -6681,7 +6681,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -6708,7 +6708,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -8128,7 +8128,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -8150,7 +8150,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -8635,6 +8635,475 @@ No
 
 
 
+## Monitoring Dashboards
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Operations Monitoring Dashboards Configurator
+
+</th>
+<th valign="top">
+
+Operations Monitoring Dashboards Administrator
+
+</th>
+<th valign="top">
+
+Operations Dashboards Monitoring Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Monitoring Dashboards
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Monitoring Dashboards
+
+</td>
+<td valign="top">
+
+Create and edit cards
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Monitoring Dashboards
+
+</td>
+<td valign="top">
+
+View Pages
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Monitoring Dashboards
+
+</td>
+<td valign="top">
+
+Create and publish pages
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View business services overview and details
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View service and system overview and details
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+Download instances
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+Download installed products
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View imported customer numbers
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View SAP corporate group S-user
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+Perform SAP corporate group S-user logon check
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View landscape synchronization
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View customer units
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View events and event properties
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Landscape Management
+
+</td>
+<td valign="top">
+
+View event action log
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loioc866719c92874776b40f0df4d20728d1__section_i2p_4vs_z2sc"/>
 
 ## Real User Monitoring
@@ -8922,33 +9391,6 @@ Real User Monitoring
 <td valign="top">
 
 Create, edit, and delete event definitions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Real User Monitoring
-
-</td>
-<td valign="top">
-
-Delete services and systems
 
 </td>
 <td valign="top">
@@ -9564,7 +10006,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -9591,7 +10033,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -10926,7 +11368,7 @@ No
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -10953,7 +11395,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">

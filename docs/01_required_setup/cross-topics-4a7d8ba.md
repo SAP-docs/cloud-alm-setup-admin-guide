@@ -1843,7 +1843,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">
@@ -1885,7 +1885,7 @@ Yes
 <tr>
 <td valign="top">
 
-Landscapes – Design and Visualization 
+Landscapes - Design & Visualization 
 
 </td>
 <td valign="top">

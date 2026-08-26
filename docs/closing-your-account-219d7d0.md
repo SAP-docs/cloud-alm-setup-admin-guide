@@ -7,6 +7,11 @@ When your SAP contracts expire, your SAP Cloud ALM tenant and all related data i
 > ### Tip:  
 > You can always check the contract end date on the [Provisioning](https://me.sap.com/systemsprovisioning/provisioning) dashboard on SAP for Me, in the column *Contract Start*.
 
+> ### Remember:  
+> Before closing your account, you have to deactivate and revoke all integrations and setups including managed systems with SAP Cloud ALM.
+> 
+> To do this, run transaction `n/SDF/ALM_SETUP`. Then, select your destination and choose *Delete destination* 
+
 The closing process starts with a notice period. The requester of the global account that contains your SAP Cloud ALM entitlement receives an email about the expiring contract, and a warning banner is displayed in the SAP BTP cockpit. If this happens, you can request an export of your data by opening a case on component SV-CLM-INF-ONB, if required.
 
 30 days after your contracts with SAP end, the SAP BTP global account is closed and access to your SAP Cloud ALM tenant is blocked. At this point, if you renew your SAP contracts, your account can still be restored to a fully active state without data loss.

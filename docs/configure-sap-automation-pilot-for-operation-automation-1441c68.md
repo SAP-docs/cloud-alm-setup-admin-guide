@@ -50,7 +50,7 @@ If the SAP Automation Pilot service is already known in the *Landscape Managemen
         Choose *API* in the left pane.
 
     -   *Connection Test Path*: Enter */api/v1/executions*.
-    -   *Authentication Type*: Select basic authentication.
+    -   *Authentication Type*: Select **basic authentication**.
     -   Enter the service user name including account prefix \(`T...`\) and the password.
 
 5.  Choose *Save*.

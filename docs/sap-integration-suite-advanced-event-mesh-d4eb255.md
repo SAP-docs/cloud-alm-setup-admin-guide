@@ -16,7 +16,7 @@ You can obtain the SAP Cloud ALM service key to connect to the SAP Cloud ALM sys
 
 
 
-## Setup in SAP Cloud ALM
+## Setup in SAP Integration Suite, advanced event mesh
 
 Please refer to [Forwarding Insights Metrics to SAP Cloud ALM](https://help.pubsub.em.services.cloud.sap/Cloud/Insights/insights-forward-SAP-CALM.htm).
 

@@ -45,10 +45,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 
     Operate your ABAP managed system with at least the latest or second latest support package that's available on the SAP Support Portal.
 
--   For Business Process Monitoring in SAP S/4HANA and SAP Business Suite 7, at least ST-A/PI version higher that 01U\_731 must be available. Always keep it up to date.
-
-    If using ST-A/PI version 01W, implement the latest versions of SAP Notes listed on this page.
-
+-   For Business Process Monitoring in SAP S/4HANA and SAP Business Suite 7, ST-A/PI version 01U\_731 or higher must be available. Always implement the latest corrections from the SAP Notes relevant to your ST-A/PI version. For more information, see [Connecting Services and Systems](https://help.sap.com/docs/cloud-alm/applicationhelp/bpmon-connecting-services) for Business Process Monitoring.
 -   Note that if you already use **RISE with SAP** default values in your system, **no changes are necessary**.
 
     If you're **not** on RISE with SAP, the following general recommendations apply:
@@ -306,7 +303,7 @@ The monitoring for SAP NetWeaver Application Server for ABAP \(7.40 and higher\)
 
 ## **Additional Health Monitoring Metrics for SAP HANA**
 
-If you are using *Health Monitoring* and the SAP HANA database host is not running directly on the application host, you can add metrics as described in [Additional SAP HANA Database Health Monitoring Metrics for SAP S/4HANA](additional-sap-hana-database-health-monitoring-metrics-for-sap-s-4hana-03b2e1f.md).
+If you are using *Health Monitoring* and the SAP HANA database host is not running directly on the application host, you can add metrics as described in [Additional Setup for SAP HANA Database](additional-setup-for-sap-hana-database-03b2e1f.md).
 
 
 
@@ -323,7 +320,7 @@ After the successful setup that's described in the previous section, the SAP S/4
 
 You can adjust the monitoring setup within the monitoring app in SAP Cloud ALM. Find more information on the configuration for the apps under [SAP Cloud ALM for Operations](https://help.sap.com/docs/cloud-alm/applicationhelp/operations).
 
-For SAP Health Monitoring, also refer to [Additional SAP HANA Database Health Monitoring Metrics for SAP S/4HANA](additional-sap-hana-database-health-monitoring-metrics-for-sap-s-4hana-03b2e1f.md).
+For SAP Health Monitoring, also refer to [Additional Setup for SAP HANA Database](additional-setup-for-sap-hana-database-03b2e1f.md).
 
 
 
@@ -364,9 +361,9 @@ If PCA isn't used, two reports support your system copy and system refresh:
 
 To troubleshoot any issues with the setup or the data collection for SAP S/4HANA or SAP Business Suite 7, refer to [Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-85d30d1.md).
 
--   **[Additional SAP HANA Database Health Monitoring Metrics for SAP S/4HANA](additional-sap-hana-database-health-monitoring-metrics-for-sap-s-4hana-e42c544.md "Learn how to get additional metrics for the health monitoring metrics of SAP
-		HANA.")**  
-Learn how to get additional metrics for the health monitoring metrics of SAP HANA.
+-   **[Additional Setup for SAP HANA Database](additional-setup-for-sap-hana-database-e42c544.md "Learn how to do additional setup for the health monitoring metrics of SAP HANA and for
+		Configuration and Security Analysis (CSA).")**  
+Learn how to do additional setup for the health monitoring metrics of SAP HANA and for Configuration and Security Analysis \(CSA\).
 -   **[Troubleshooting for ABAP Cloud-Based Systems](troubleshooting-for-abap-cloud-based-systems-20701a2.md "This page gives you some hints when you run into a problem for the communication
 		scenarios SAP_COM_0523 and SAP_COM_0527.")**  
 This page gives you some hints when you run into a problem for the communication scenarios SAP\_COM\_0523 and SAP\_COM\_0527.

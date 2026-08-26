@@ -18,6 +18,9 @@ This page explains how to connect SAP ABAP systems to SAP Cloud ALM to enable mo
 			SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Advanced Commodity Risk Analytics to SAP Cloud ALM to enable monitoring.
+-   **[Advanced Workflow](advanced-workflow-e64b637.md "This document provides guidance on connecting Advanced Workflow to SAP Cloud ALM for monitoring
+		purposes.")**  
+This document provides guidance on connecting Advanced Workflow to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Analytics Cloud](sap-analytics-cloud-2beb151.md "This document provides guidance on connecting SAP Analytics Cloud to SAP Cloud ALM for monitoring
         purposes.")**  
 This document provides guidance on connecting SAP Analytics Cloud to SAP Cloud ALM for monitoring purposes.
@@ -306,6 +309,9 @@ This page explains how to connect SAP Project and Resource Management, project m
                                 Management, resource management capability to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Project and Resource Management, resource management capability to SAP Cloud ALM to enable monitoring.
+-   **[Retail Intelligence](retail-intelligence-17b4af1.md "This page explains how to connect Retail Intelligence to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect Retail Intelligence to SAP Cloud ALM to enable monitoring.
 -   **[SAP Returnable Packaging Management](sap-returnable-packaging-management-0342fac.md "This page explains how to connect SAP Returnable Packaging
                         Management to
 			SAP Cloud ALM to enable
@@ -391,4 +397,6 @@ This page explains how SAP Workflow Management can be integrated with SAP Cloud 
 -   **[Non-SAP Services and Systems](non-sap-services-and-systems-506cd14.md "This page explains how to connect non-SAP services and systems to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect non-SAP services and systems to SAP Cloud ALM to enable monitoring.
+-   **[Web Dispatcher](web-dispatcher-4d7dff5.md "")**  
+
 

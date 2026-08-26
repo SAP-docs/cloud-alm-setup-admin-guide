@@ -234,6 +234,8 @@ Note that it can take up to 2 hours for the productive IAS tenant to become avai
 
 For more information, see SAP Note [3754861](https://me.sap.com/notes/3754861) and [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud).
 
+See [Getting Support](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/getting-support?ai=true&version=Cloud) on how to get support in case of issues.
+
 </td>
 </tr>
 <tr>

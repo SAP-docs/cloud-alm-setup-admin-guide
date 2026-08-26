@@ -101,7 +101,12 @@ Process Management
 </td>
 <td valign="top">
 
-SAP Logistics Management
+-   SAP Best Practices for SAP Integrated Business Planning
+
+-   SAP Logistics Management
+
+
+
 
 </td>
 </tr>
@@ -457,14 +462,14 @@ Process Management
 -   Model Company for Aerospace and Defense
 -   Model Company for Agribusiness
 -   Model Company for Airline Backoffice
+-   Model Company for Automotive
 -   Model Company for Consumer Packaged Goods
 -   Model Company for Core Retail
 -   Model Company for Enterprise Asset Management
 -   Model Company for Environment, Health and Safety
 -   Model Company for Fashion and Vertical Business
+-   Model Company for Integrated Utilities
 -   Model Company for Research, Development, and Engineering
--   SAP Services Content for Automotive
--   SAP Services Content for Integrated Utilities
 -   SAP Services Content for Oil and Gas
 
 > ### Note:  
@@ -1801,6 +1806,28 @@ More under [Test Preparation](https://help.sap.com/docs/CloudALM/877c96cf971648b
 <tr>
 <td valign="top">
 
+Retail Intelligence
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [Retail Intelligence](retail-intelligence-17b4af1.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Integration Suite \(Edge Integration Cell\)
 
 </td>
@@ -2234,7 +2261,7 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-More under  <?sap-ot O2O class="- topic/xref " href="7f913374869247abae5a3ce78f70a3d5.xml" text="" desc="" xtrc="xref:89" xtrf="file:/home/builder/src/dita-all/nih1586262997200/loio0f341afe0f5e4107ad982c53bfc412dc_en-US/src/content/localization/en-us/3ebab44c25da4cc1997bad08cc00991c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+More under  <?sap-ot O2O class="- topic/xref " href="7f913374869247abae5a3ce78f70a3d5.xml" text="" desc="" xtrc="xref:90" xtrf="file:/home/builder/src/dita-all/nih1586262997200/loio0f341afe0f5e4107ad982c53bfc412dc_en-US/src/content/localization/en-us/3ebab44c25da4cc1997bad08cc00991c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 </tr>
@@ -5662,6 +5689,28 @@ Configuration & Security Analysis
 <td valign="top">
 
 More under [SAP SuccessFactors HCM](sap-successfactors-hcm-a756eb8.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Advanced Workflow
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+More under [Advanced Workflow](advanced-workflow-e64b637.md).
 
 </td>
 </tr>
