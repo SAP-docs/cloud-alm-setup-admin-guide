@@ -13,7 +13,7 @@ In SAP Cloud ALM, the Identity Authentication service assumes the role of the id
 -   Deactivating or deleting a user in SAP Cloud ALM does not affect the user in your identity provider.
 
 
-For the actions below, the status of the user in SAP Cloud ALM is also important. These are displayed in the table column \(*Table View*\), on the user card \(*Card View*\), and in the user details.
+For the actions below, the status of the user in SAP Cloud ALM is also important. These are displayed in the table column and in the user details. 
 
 ****
 
@@ -220,7 +220,7 @@ For auditability reasons, you can still correlate the user to the performed acti
 <tr>
 <td valign="top">
 
-![](images/Deactivate_User_ec63331.gif)
+![](images/User_Management_Deactivate_User_0932503.gif)
 
 </td>
 <td valign="top">
@@ -257,7 +257,7 @@ If you want to delete a user who has logged into SAP Cloud ALM before, you have 
 <tr>
 <td valign="top">
 
-![](images/GIF_Delete_User_d821990.gif)
+![](images/GIF_Delete_User_New_beb09b8.gif)
 
 </td>
 <td valign="top">

@@ -8,9 +8,6 @@ Enable the transport management with Adaptation Transport Organizer.
 
 By enabling the transport management for SAP S/4HANA Cloud Public Edition with the Adaptation Transport Organizer \(ATO\), you can keep track of the deployment of transport requests through your implementation landscape.
 
-> ### Note:  
-> Only released transports can be assigned to features. For more information, see [Integration of Deployment Tools](https://help.sap.com/docs/cloud-alm/applicationhelp/deployment-tool-integration).
-
 To use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the ATO.
 
 > ### Note:  
@@ -221,11 +218,14 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
     2.  Select *Import* and upload your *pfx* certificate file.
 
+        > ### Note:  
+        > You can ignore the error "Failed to display certificate content". After you entered your password in step h, the certificate can be used.
+
     3.  Open the *Destinations* tab.
 
     4.  Create a destination for each system, for example, DEV and PROD.
 
-    5.  The destination *Name* has to start with `CALM_FTR_ATO_`. Then, you have to append your *Global Tenant ID* at the end of your destination name. For example, CALM\_FTR\_ATO\_38558820099.
+    5.  The destination *Name* has to start with `CALM_FTR_ATO_`. Then, you have to append your *Global Tenant ID* at the end of your destination name. For example, CALM\_FTR\_ATO\_74558820099.
 
         > ### Note:  
         > You can check the *System Number* which corresponds to the *Global Tenant ID* in the *Landscape Management* app.
@@ -261,10 +261,6 @@ The following list contains the currently available outbound services:
 
 > ### Note:  
 > The collector jobs can only react to future events once they are activated. Past actions before the activation are not collected.
-> 
-> The following list contains the currently available inbound services:
-> 
-> -   Create transports
 
 
 

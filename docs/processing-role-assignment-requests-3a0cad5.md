@@ -104,7 +104,7 @@ You can also navigate directly from this card to a list of users with pending ro
 -   Select any role assignment request from the list to display the complete details of the affected user including the roles already assigned to the user. You can also process the role assignment request in this user details screen.
 
 
-![](images/Role_Assignment_Requests_2d74aa9.png)
+![](images/Processing_Assignment_Requests_61888ca.png)
 
 > ### Note:  
 > If your identity provider does not use the email address as the user ID, you have to specify the user ID to approve the request.
