@@ -3653,7 +3653,7 @@ Business Process Monitoring
 
 Custom KPIs
 
-More under [Setting Up Custom KPIs](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/ebd1a39f66bf4780905ffd576435ea03.html "In addition to the predefined standard KPIs provided out of the box by business process monitoring, you can create up to 15 custom KPIs.") :arrow_upper_right:.
+More under [Setting Up Custom KPIs](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/ebd1a39f66bf4780905ffd576435ea03.html "In addition to the predefined standard KPIs provided out of the box by business process monitoring, you can create up to 50 custom KPIs.") :arrow_upper_right:.
 
 </td>
 </tr>

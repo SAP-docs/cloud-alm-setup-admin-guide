@@ -1353,7 +1353,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Business Process Monitoring Administrator*
+*Business Process Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -1385,7 +1385,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Business Process Monitoring Process Manager*
+*Business Process Monitoring Process Manager* 
 
 </td>
 <td valign="top">
@@ -1414,12 +1414,12 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Executor*
+*Process Executor* 
 
 </td>
 <td valign="top">
 
-*Business Process Monitoring Process Executor*
+*Business Process Monitoring Process Executor* 
 
 </td>
 <td valign="top">
@@ -1448,12 +1448,12 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Monitoring Consumer*
+*Process Monitoring Consumer* 
 
 </td>
 <td valign="top">
 
-*Business Process Monitoring Consumer*
+*Business Process Monitoring Consumer* 
 
 </td>
 <td valign="top">
@@ -1482,12 +1482,12 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Monitoring Viewer*
+*Process Monitoring Viewer* 
 
 </td>
 <td valign="top">
 
-*Business Process Monitoring Viewer*
+*Business Process Monitoring Viewer* 
 
 </td>
 <td valign="top">
@@ -1516,12 +1516,12 @@ Business Service Management
 </td>
 <td valign="top">
 
-*Business Service Management Administrator*
+*Business Service Management Administrator* 
 
 </td>
 <td valign="top">
 
-*Business Service Management Administrator*
+*Business Service Management Administrator* 
 
 </td>
 <td valign="top">
@@ -1548,12 +1548,12 @@ Business Service Management
 </td>
 <td valign="top">
 
-*Business Service Management Viewer*
+*Business Service Management Viewer* 
 
 </td>
 <td valign="top">
 
-*Business Service Management Viewer*
+*Business Service Management Viewer* 
 
 </td>
 <td valign="top">
@@ -1575,17 +1575,81 @@ Operations
 </td>
 <td valign="top">
 
+Business Service Management
+
+</td>
+<td valign="top">
+
+*Business Service Management Processor*
+
+</td>
+<td valign="top">
+
+*Operations Business Service Management Processor*
+
+</td>
+<td valign="top">
+
+View business services, their configuration, and the event calendar and maintain custom Status events.
+
+</td>
+<td valign="top">
+
+`ops_bsm_BusinessServiceManagementProcessor`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Service Management
+
+</td>
+<td valign="top">
+
+*Business Service Management Configurator*
+
+</td>
+<td valign="top">
+
+*Operations Business Service Management Configurator*
+
+</td>
+<td valign="top">
+
+Edit, create or delete business services, their configuration, and the event calendar and maintain custom Status events, event actions, service level objectives.
+
+</td>
+<td valign="top">
+
+`ops_bsm_BusinessServiceManagementConfigurator`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
 Configuration & Security Analysis
 
 </td>
 <td valign="top">
 
-*Configuration Monitoring Administrator*
+*Configuration Monitoring Administrator* 
 
 </td>
 <td valign="top">
 
-*Configuration Monitoring Administrator*
+*Configuration Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -1612,12 +1676,12 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
-*Configuration Monitoring Analyst*
+*Configuration Monitoring Analyst* 
 
 </td>
 <td valign="top">
 
-*Configuration Monitoring Analyst*
+*Configuration Monitoring Analyst* 
 
 </td>
 <td valign="top">
@@ -1644,12 +1708,12 @@ Health Monitoring
 </td>
 <td valign="top">
 
-*Health Monitoring Administrator*
+*Health Monitoring Administrator* 
 
 </td>
 <td valign="top">
 
-*Health Monitoring Administrator*
+*Health Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -1676,12 +1740,12 @@ Health Monitoring
 </td>
 <td valign="top">
 
-*Health Monitoring Viewer*
+*Health Monitoring Viewer* 
 
 </td>
 <td valign="top">
 
-*Health Monitoring Viewer*
+*Health Monitoring Viewer* 
 
 </td>
 <td valign="top">
@@ -1708,12 +1772,12 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-*Integration Architect*
+*Integration Architect* 
 
 </td>
 <td valign="top">
 
-*Integration Monitoring Integration Architect*
+*Integration Monitoring Integration Architect* 
 
 </td>
 <td valign="top">
@@ -1740,12 +1804,12 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-*Integration Owner*
+*Integration Owner* 
 
 </td>
 <td valign="top">
 
-*Integration Monitoring Integration Owner*
+*Integration Monitoring Integration Owner* 
 
 </td>
 <td valign="top">
@@ -1772,12 +1836,12 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-*Integration Owner Sensitive*
+*Integration Owner Sensitive* 
 
 </td>
 <td valign="top">
 
-*Integration Monitoring Integration Owner Sensitive*
+*Integration Monitoring Integration Owner Sensitive* 
 
 </td>
 <td valign="top">
@@ -1868,12 +1932,12 @@ Real User Monitoring
 </td>
 <td valign="top">
 
-*Real User Analyst Administrator*
+*Real User Analyst Administrator* 
 
 </td>
 <td valign="top">
 
-*Real User Monitoring Analyst Administrator*
+*Real User Monitoring Analyst Administrator* 
 
 </td>
 <td valign="top">
@@ -1900,12 +1964,12 @@ Real User Monitoring
 </td>
 <td valign="top">
 
-*Real User Analyst*
+*Real User Analyst* 
 
 </td>
 <td valign="top">
 
-*Real User Monitoring Analyst*
+*Real User Monitoring Analyst* 
 
 </td>
 <td valign="top">
@@ -1932,12 +1996,12 @@ Real User Monitoring
 </td>
 <td valign="top">
 
-*Real User Analyst Sensitive*
+*Real User Analyst Sensitive* 
 
 </td>
 <td valign="top">
 
-*Real User Monitoring Analyst Sensitive*
+*Real User Monitoring Analyst Sensitive* 
 
 </td>
 <td valign="top">
@@ -1964,12 +2028,12 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
-*Scenario Administrator*
+*Scenario Administrator* 
 
 </td>
 <td valign="top">
 
-*Synthetic User Monitoring Administrator*
+*Synthetic User Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -1996,12 +2060,12 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
-*Scenario Expert*
+*Scenario Expert* 
 
 </td>
 <td valign="top">
 
-*Synthetic User Monitoring Scenario Expert*
+*Synthetic User Monitoring Scenario Expert* 
 
 </td>
 <td valign="top">
@@ -2028,12 +2092,12 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
-*Scenario Viewer*
+*Scenario Viewer* 
 
 </td>
 <td valign="top">
 
-*Synthetic User Monitoring Scenario Viewer*
+*Synthetic User Monitoring Scenario Viewer* 
 
 </td>
 <td valign="top">

@@ -84,7 +84,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 > ### Caution:  
 > To enable the assignment of SAP S/4HANA Cloud Public Edition transports, you have to establish a communication arrangement for your development tenants and test tenants with SAP Cloud ALM. This is important as transports exported from your development system or imported to your test system only show the correct transport status after you’ve established the communication arrangement for **both** your development and test tenant.
 > 
-> In case you provision a production tenant later, make sure to establish the communication arrangement before the first import to production. Otherwise, you loose the transport status. There is no option to resynchronize the data.
+> In case you provision a production tenant later, make sure to establish the communication arrangement before the first import to production. Otherwise, you lose the transport status. There is no option to resynchronize the data.
 
 1.  Create a service key/service binding for mTLS authentication in your SAP Cloud ALM subaccount in the SAP BTP Cockpit as described in [Create a Service Key for mTLS Authentication](https://help.sap.com/docs/cloud-alm/apis/creating-service-keys-mtls?ai=true). This creates the two certificate files you need create inbound and outbound users.
 
@@ -93,18 +93,18 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
     > 
     > In case you don't have an existing service instance, create the instance as described here [Enabling SAP Cloud ALM API](https://help.sap.com/docs/cloud-alm/apis/enabling-sap-cloud-alm-apis?ai=true).
 
-2.  **Create communication system**: Create a communication system using the *Communication System* app that represents the SAP Cloud ALM tenant you want to communicate with.
+2.  Create a communication system in the *Communication System* app that represents the SAP Cloud ALM tenant you want to communicate with.
 
     For more information about communication systems in SAP S/4HANA Cloud context, see [Communication Management](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/2e84a10c430645a88bdbfaaa23ac9ff7.html?locale=en-US).
 
     > ### Note:  
-    > The following steps have to be performed for every tenant you want to establish.
+    > The following steps have to be performed for every tenant you want to establish a connection.
 
     1.  In the *Communication Systems* app, set up a new communication system by choosing *New*.
 
         Set up a communication system using any ID in the *System ID* field and with a reasonable name \(for example the tenant name, you want to communicate with\) in the *System Name* field.
 
-        ![](images/Create_New_System_2877b5c.png)
+        ![](images/com_40424c5.png)
 
     2.  Choose *Create*.
 
@@ -116,19 +116,22 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
     4.  Add a token URL based on the UAA url from your SAP Cloud ALM API instance in the *Token Endpoint* field and add `/oauth/token` at the end of the URL.
 
-        The token URL in the binding credential JSON file looks like the following example:`"url": "https://tenant-name.authentication.eu10.hana.ondemand.com"`
+        The token URL in the binding credential JSON file looks like the following example: `"url": "https://tenant-name.authentication.eu10.hana.ondemand.com"`
 
         ![](images/Create_Outbound_User_474d537.png)
 
-    5.  To create a new inbound user, go to the *Users for Inbound Communication* section of the *Communications Systems* app and choose *\+*.
+
+3.  Create a new inbound user.
+
+    1.  Go to the *Users for Inbound Communication* section in the *Communications Systems* app and choose *\+*.
 
         ![](images/in_6f73cfc.png)
 
-    6.  As *Authentication Method*, choose *SSL Client Certificate* and enter a User Name/Client ID.
+    2.  As *Authentication Method*, choose *SSL Client Certificate* and enter a User Name/Client ID.
 
-    7.  Select *New User*.
+    3.  Select *New User*.
 
-    8.  In the next dialog, upload your certificate.
+    4.  In the next dialog, upload your certificate.
 
         > ### Note:  
         > For this, you need the certificate-only file. The certificate file can be generated from the x509 service key using the special JSON. The certificate file then has to be modified to *.pem* format. For more information, see [Create a Service Key for mTLS Authentication](https://help.sap.com/docs/cloud-alm/apis/creating-service-keys-mtls?ai=true).
@@ -138,20 +141,23 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
         > ### Note:  
         > We recommend to deactivate the password of the user.
 
-    9.  To create a new outbound user, go to the *Users for Outbound Communication* section of the *Communication Systems* app and choose *\+*.
+
+4.  Create a new outbound user.
+
+    1.  Go to the *Users for Outbound Communication* section in the *Communication Systems* app and choose *\+*.
 
         ![](images/Create_Outbound_User_414da4f.png)
 
-    10. As *Authentication Method*, choose *OAuth 2.0*.
+    2.  As *Authentication Method*, choose *OAuth 2.0*.
 
-    11. Enter your OAuth 2.0 Client ID based on the client ID from your SAP Cloud ALM API instance.
+    3.  Enter your OAuth 2.0 Client ID based on the client ID from your SAP Cloud ALM API instance.
 
         > ### Note:  
         > You find the client ID in the UAA section of the binding credential JSON. The structure is the following: "clientid": "instance-name!b123456|sapcloudalm!b456789".
 
-    12. As *Client Authentication*, choose *mTLS*.
+    4.  As *Client Authentication*, choose *mTLS*.
 
-    13. Upload your SSL Client Certificate.
+    5.  Upload your SSL Client Certificate.
 
         ![](images/se_305f64a.png)
 
@@ -166,27 +172,24 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
         > 
         > `openssl pkcs12 -export -out certificate.pfx -in certificate.pem -inkey key.pem -passin pass:root -passout pass:root`
 
-        > ### Note:  
-        > After you uploaded the certificate, the dialog for the new outbound user is displayed again. Make sure that for the authentication method *OAuth 2.0* and for the client authentication *mTLS* are selected.
+    6.  After you uploaded the certificate, the dialog for the new outbound user is displayed again. Make sure that for the authentication method *OAuth 2.0* and for the client authentication *mTLS* are selected.
 
         > ### Tip:  
         > In the *Manage Client Certificates* app, you can check and manage your certificates.
 
 
-3.  **Create a communication arrangement**:
+5.  Create a communication arrangement in the *Communication Arrangement* app based on scenario SAP\_COM\_0690 and use the system that you created in step 1.
 
-    1.  Create a communication arrangement in the *Communication Arrangement* app based on scenario SAP\_COM\_0690 and use the system that you created in step 1.
+    ![](images/SAP_Calm_ATO_0690_740e224.png)
 
-        ![](images/SAP_Calm_ATO_0690_740e224.png)
-
-    2.  Assign the system that you created in step 1 of this guide.
+    1.  Assign the system that you created in step 1 of this guide.
 
         > ### Note:  
         > This automatically fills out the fields for Inbound Communication and Outbound Communication.
 
         ![](images/com_e900977.png)
 
-    3.  Go to the *Outbound Services* section in the *Communication Arrangement* app. In this section you can find the following four outbound services.
+    2.  Go to the *Outbound Services* section in the *Communication Arrangement* app. In this section you can find the following four outbound services.
 
         -   SAP Cloud ALM for implementation - Deployment Management Export
 
@@ -205,14 +208,14 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
         In the *Job Execution Details* section, the *Job Status* doesn't have to be checked as this will be scheduled automatically in the background.
 
-    4.  In the *Run Every* field, enter 5 minutes.
+    3.  In the *Run Every* field, enter 5 minutes.
 
         The *Package Size* entry can be ignored.
 
-    5.  Choose *Save*.
+    4.  Choose *Save*.
 
 
-4.  Create destinations in the SAP BTP Cockpit.
+6.  Create destinations in the SAP BTP Cockpit.
 
     1.  Go to the SAP BTP Cockpit and open the *Destination Certificates* tab.
 
