@@ -1348,7 +1348,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Monitoring Administrator* 
+*\[Deprecated\]**Process Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -1357,6 +1357,8 @@ Business Process Monitoring
 
 </td>
 <td valign="top">
+
+\[Deprecated\]
 
 Maintain global and specific configurations, consume KPIs and the respective process content \(including sensitive data\), and process alerts
 
@@ -1380,7 +1382,43 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Manager* 
+*Business Process Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+*Operations Business Process Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+Maintain system independent and system dependent configurations, consume KPIs and the respective process content.
+
+Details: Access the app and view non-sensitive monitoring data. Manage application settings. View memory consumption by service and system and export configuration data. Add data collection filters and view services, systems, and their statuses. Manage collection status of services and systems. Delete services and systems. Manage KPI collection status, access control and access groups, and custom KPIs and custom processes.
+
+In combination with the role *Business Process Monitoring Sensitive Viewer*: view alerts and event definitions, and create, edit, and delete event definitions.
+
+</td>
+<td valign="top">
+
+`ops_bm_OperationsBusinessProcessMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+*\[Deprecated\]**Process Manager* 
 
 </td>
 <td valign="top">
@@ -1389,6 +1427,8 @@ Business Process Monitoring
 
 </td>
 <td valign="top">
+
+\[Deprecated\]
 
 Consume KPIs and the respective process content \(including sensitive data\), process alerts, and maintain specific configurations
 
@@ -1414,7 +1454,43 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Executor* 
+*Business Process Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+*Operations Business Process Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+Consume KPIs and the respective process content, and maintain system dependent configurations.
+
+Details: Access the app and view non-sensitive monitoring data and application settings. Add data collection filters and view services and systems and their statuses. View KPI collection status and assigned access groups.
+
+In combination with the role *Business Process Monitoring Sensitive Viewer*: view alerts and event definitions, and create, edit, and delete event definitions.
+
+</td>
+<td valign="top">
+
+`ops_bm_OperationsBusinessProcessMonitoringConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+*\[Deprecated\]**Process Executor* 
 
 </td>
 <td valign="top">
@@ -1423,6 +1499,8 @@ Business Process Monitoring
 
 </td>
 <td valign="top">
+
+\[Deprecated\]
 
 Consume KPIs and the respective process content \(including sensitive data\), and process alerts
 
@@ -1448,7 +1526,43 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Monitoring Consumer* 
+*Business Process Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+*Operations Business Process Monitoring Processor*
+
+</td>
+<td valign="top">
+
+Consume KPIs and the respective process content, and process alerts.
+
+Details: Access the app and view non-sensitive monitoring data and application settings. View services and systems and their statuses. View KPI collection status and assigned access groups.
+
+In combination with the role *Business Process Monitoring Sensitive Viewer*: view and process alerts.
+
+</td>
+<td valign="top">
+
+`ops_bm_OperationsBusinessProcessMonitoringProcessor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+*\[Deprecated\]**Process Monitoring Consumer* 
 
 </td>
 <td valign="top">
@@ -1457,6 +1571,8 @@ Business Process Monitoring
 
 </td>
 <td valign="top">
+
+\[Deprecated\]
 
 Consume KPIs and the respective process content \(including sensitive data\), and view alerts
 
@@ -1482,7 +1598,7 @@ Business Process Monitoring
 </td>
 <td valign="top">
 
-*Process Monitoring Viewer* 
+*\[Deprecated\]**Process Monitoring Viewer* 
 
 </td>
 <td valign="top">
@@ -1491,6 +1607,8 @@ Business Process Monitoring
 
 </td>
 <td valign="top">
+
+\[Deprecated\]
 
 Consume KPIs and non-sensitive process content, without access to alert information
 
@@ -1511,12 +1629,84 @@ Operations
 </td>
 <td valign="top">
 
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+*Business Process Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Business Process Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+Consume KPIs and non-sensitive process content, with access to alert information.
+
+Details: Access the app and view non-sensitive monitoring data and application settings. View services and systems and their statuses. View KPI collection status and assigned access groups.
+
+In combination with the role *Business Process Monitoring Sensitive Viewer*: view alerts.
+
+</td>
+<td valign="top">
+
+`ops_bm_OperationsBusinessProcessMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Process Monitoring
+
+</td>
+<td valign="top">
+
+*Business Process Monitoring Sensitive Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Business Process Monitoring Sensitive Viewer* 
+
+</td>
+<td valign="top">
+
+Consume KPIs and process content, with access to sensitive information.
+
+Details: Access the app and view non-sensitive and sensitive monitoring data. View application settings, services and systems and their statuses, KPI collection status, and assigned access groups.
+
+In combination with other *Business Process Monitoring* roles: perform role-specific actions related to events and/or alerts.
+
+</td>
+<td valign="top">
+
+`ops_bm_OperationsBusinessProcessMonitoringSensitiveViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
 Business Service Management
 
 </td>
 <td valign="top">
 
-*Business Service Management Administrator* 
+*\[Deprecated\]**Business Service Management Administrator* 
 
 </td>
 <td valign="top">
@@ -1549,6 +1739,38 @@ Business Service Management
 <td valign="top">
 
 *Business Service Management Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Business Service Management Viewer* 
+
+</td>
+<td valign="top">
+
+View business services, their configuration, and the event calendar.
+
+</td>
+<td valign="top">
+
+`ops_bsm_BusinessServiceManagementViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Business Service Management
+
+</td>
+<td valign="top">
+
+*\[Deprecated\]**Business Service Management Viewer* 
 
 </td>
 <td valign="top">
@@ -1644,7 +1866,7 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
-*Configuration Monitoring Administrator* 
+*\[Deprecated\]**Configuration Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -1676,7 +1898,7 @@ Configuration & Security Analysis
 </td>
 <td valign="top">
 
-*Configuration Monitoring Analyst* 
+*\[Deprecated\]**Configuration Monitoring Analyst* 
 
 </td>
 <td valign="top">
@@ -1703,12 +1925,172 @@ Operations
 </td>
 <td valign="top">
 
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+*Configuration Security Analysis Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Configuration Security Analysis Viewer* 
+
+</td>
+<td valign="top">
+
+View the monitoring data of services/systems. View the validation application check results and configuration along with events.
+
+</td>
+<td valign="top">
+
+`ops_csa_OperationsConfigurationSecurityAnalysisViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+*Configuration Security Analysis Configurator* 
+
+</td>
+<td valign="top">
+
+*Operations Configuration Security Analysis Configurator* 
+
+</td>
+<td valign="top">
+
+View the monitoring data of services/systems. Maintain configuration for services/systems, filters, checks, policies and events.
+
+</td>
+<td valign="top">
+
+`ops_csa_OperationsConfigurationSecurityAnalysisConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+*Configuration Security Analysis Administrator* 
+
+</td>
+<td valign="top">
+
+*Operations Configuration Security Analysis Administrator* 
+
+</td>
+<td valign="top">
+
+View the monitoring data of services/systems. Maintain configuration for services/systems, filters, checks, policies and events, maintain global configuration.
+
+</td>
+<td valign="top">
+
+`ops_csa_OperationsConfigurationSecurityAnalysisAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+*Configuration Security Analysis Processor* 
+
+</td>
+<td valign="top">
+
+*Operations Configuration Security Analysis Processor* 
+
+</td>
+<td valign="top">
+
+View the monitoring data of services/systems. Process alerts and perform follow-up actions.
+
+</td>
+<td valign="top">
+
+`ops_csa_OperationsConfigurationSecurityAnalysisProcessor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Configuration & Security Analysis
+
+</td>
+<td valign="top">
+
+*Configuration Security Analysis Sensitive Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Configuration Security Analysis Sensitive Viewer* 
+
+</td>
+<td valign="top">
+
+View the monitoring data of services/systems, including data defined as sensitive.
+
+</td>
+<td valign="top">
+
+`ops_csa_OperationsConfigurationSecurityAnalysisSensitiveViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
 Health Monitoring
 
 </td>
 <td valign="top">
 
-*Health Monitoring Administrator* 
+*\[Deprecated\]**Health Monitoring Administrator* 
 
 </td>
 <td valign="top">
@@ -1740,7 +2122,7 @@ Health Monitoring
 </td>
 <td valign="top">
 
-*Health Monitoring Viewer* 
+*\[Deprecated\]**Health Monitoring Viewer* 
 
 </td>
 <td valign="top">
@@ -1767,12 +2149,140 @@ Operations
 </td>
 <td valign="top">
 
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Health Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+View health overview and metrics of cloud services
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Health Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+View health overview and metrics of cloud services, process alerts and perform follow-up actions
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringProcessor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Health Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+View health monitoring data and metrics of cloud services, maintain configuration for KPIs, filters, and events
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Health Monitoring
+
+</td>
+<td valign="top">
+
+*Health Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+*Operations Health Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+View health monitoring data and metrics of cloud services. Maintain configuration for KPIs, filters, and events. Maintain global configuration
+
+</td>
+<td valign="top">
+
+`ops_hm_OperationsHealthMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
 Integration & Exception Monitoring
 
 </td>
 <td valign="top">
 
-*Integration Architect* 
+*\[Deprecated\]**Integration Architect* 
 
 </td>
 <td valign="top">
@@ -1804,7 +2314,39 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-*Integration Owner* 
+*Integration & Exception Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+*Operations Integration & Exception Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+View the messages in integration monitoring, maintain configuration for business services, filters and events, maintain global configuration
+
+</td>
+<td valign="top">
+
+`ops_im_OperationsIntegrationMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*\[Deprecated\]**Integration Owner* 
 
 </td>
 <td valign="top">
@@ -1836,7 +2378,39 @@ Integration & Exception Monitoring
 </td>
 <td valign="top">
 
-*Integration Owner Sensitive* 
+*Integration & Exception Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Integration & Exception Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+View the messages in integration monitoring
+
+</td>
+<td valign="top">
+
+`ops_im_OperationsIntegrationMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*\[Deprecated\]**Integration Owner Sensitive* 
 
 </td>
 <td valign="top">
@@ -1852,6 +2426,102 @@ View the messages in integration monitoring, including data defined as sensitive
 <td valign="top">
 
 `ops_im_IntegrationOwnerSensitive` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*Integration & Exception Monitoring Sensitive Data Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Integration & Exception Monitoring Sensitive Data Viewer* 
+
+</td>
+<td valign="top">
+
+View the messages in integration monitoring, including data defined as sensitive
+
+</td>
+<td valign="top">
+
+`ops_im_OperationsIntegrationMonitoringSensitive` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*Integration & Exception Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+*Operations Integration & Exception Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+View the messages in integration monitoring, process alerts and perform follow-up actions
+
+</td>
+<td valign="top">
+
+`ops_im_OperationsIntegrationMonitoringProcessor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+*Integration & Exception Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+*Operations Integration & Exception Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+View the messages in integration monitoring, maintain configuration for Business Services, filters and events
+
+</td>
+<td valign="top">
+
+`ops_im_OperationsIntegrationMonitoringConfigurator` 
 
 </td>
 </tr>
@@ -1932,7 +2602,7 @@ Real User Monitoring
 </td>
 <td valign="top">
 
-*Real User Analyst Administrator* 
+*\[Deprecated\]**Real User Analyst Administrator* 
 
 </td>
 <td valign="top">
@@ -1964,7 +2634,7 @@ Real User Monitoring
 </td>
 <td valign="top">
 
-*Real User Analyst* 
+*\[Deprecated\]**Real User Analyst* 
 
 </td>
 <td valign="top">
@@ -1996,7 +2666,7 @@ Real User Monitoring
 </td>
 <td valign="top">
 
-*Real User Analyst Sensitive* 
+*\[Deprecated\]**Real User Analyst Sensitive* 
 
 </td>
 <td valign="top">
@@ -2023,12 +2693,172 @@ Operations
 </td>
 <td valign="top">
 
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+*Operations Real User Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests without sensitive data and administer the application
+
+</td>
+<td valign="top">
+
+`ops_rum_OperationsRealUserMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+*Operations Real User Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests and configure settings
+
+</td>
+<td valign="top">
+
+`ops_rum_OperationsRealUserMonitoringConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Real User Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests
+
+</td>
+<td valign="top">
+
+`ops_rum_OperationsRealUserMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+*Operations Real User Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests and process alerts
+
+</td>
+<td valign="top">
+
+`ops_rum_OperationsRealUserMonitoringProcessor` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Real User Monitoring
+
+</td>
+<td valign="top">
+
+*Real User Monitoring Sensitive* 
+
+</td>
+<td valign="top">
+
+*Operations Real User Monitoring Sensitive* 
+
+</td>
+<td valign="top">
+
+View utilization and performance of requests, for example user names or geolocation.
+
+</td>
+<td valign="top">
+
+`ops_rum_OperationsRealUserMonitoringSensitive` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
 Synthetic User Monitoring
 
 </td>
 <td valign="top">
 
-*Scenario Administrator* 
+*\[Deprecated\]**Scenario Administrator* 
 
 </td>
 <td valign="top">
@@ -2060,7 +2890,7 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
-*Scenario Expert* 
+*\[Deprecated\]**Scenario Expert* 
 
 </td>
 <td valign="top">
@@ -2092,7 +2922,7 @@ Synthetic User Monitoring
 </td>
 <td valign="top">
 
-*Scenario Viewer* 
+*\[Deprecated\]**Scenario Viewer* 
 
 </td>
 <td valign="top">
@@ -2108,6 +2938,134 @@ View performance and availability of scenario executions
 <td valign="top">
 
 `ops_sum_SyntheticUserMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring
+
+</td>
+<td valign="top">
+
+*Synthetic User Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+*Operations Synthetic User Monitoring Administrator* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete, manage configurations and manage global application settings. View performance and availability of scenario executions
+
+</td>
+<td valign="top">
+
+`ops_sum_OperationsSyntheticUserMonitoringAdministrator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring
+
+</td>
+<td valign="top">
+
+*Synthetic User Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+*Operations Synthetic User Monitoring Configurator* 
+
+</td>
+<td valign="top">
+
+Create, edit, delete, and manage configuration settings. View performance and availability of scenario executions
+
+</td>
+<td valign="top">
+
+`ops_sum_OperationsSyntheticUserMonitoringConfigurator` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring
+
+</td>
+<td valign="top">
+
+*Synthetic User Monitoring Viewer* 
+
+</td>
+<td valign="top">
+
+*Operations Synthetic User Monitoring Scenario Viewer* 
+
+</td>
+<td valign="top">
+
+View performance and availability of scenario executions
+
+</td>
+<td valign="top">
+
+`ops_sum_OperationsSyntheticUserMonitoringViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring
+
+</td>
+<td valign="top">
+
+*Synthetic User Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+*Operations Synthetic User Monitoring Processor* 
+
+</td>
+<td valign="top">
+
+Process alert, perform manual executions and view performance and availability of scenario executions
+
+</td>
+<td valign="top">
+
+`ops_sum_OperationsSyntheticUserMonitoringProcessor` 
 
 </td>
 </tr>

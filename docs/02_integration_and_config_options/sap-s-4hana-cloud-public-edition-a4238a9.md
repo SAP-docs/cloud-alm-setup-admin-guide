@@ -275,6 +275,10 @@ The following list contains the currently available inbound services:
 
 -   Create transports
 
+-   Assign transports
+
+-   Deploy transports
+
 
 
 
