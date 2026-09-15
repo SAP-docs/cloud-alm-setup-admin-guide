@@ -52,15 +52,3 @@ For details, check the documentation for the supported use cases:
 > 2.  Identify the service in the *Landscape Management* app of SAP Cloud ALM.
 > 3.  Activate the configuration in Integration and Exception Monitoring
 
-
-
-### Setup of Distribution Status Monitoring in SAP Master Data Orchestration
-
-You can monitor the distribution status of your messages with the *Display Distribution Status* app in *SAP Master Data Orchestration* itself.
-
-This setup step is **not** necessary to monitor SAP Master Data Integration in SAP Cloud ALM, but only if you want to use the *Display Distribution Status* app in *SAP Master Data Orchestration*.
-
-To enable the *Display Distribution Status* app to map the log information to the correct component, you have to maintain the destination mapping as described in
-
-[Configure Destination Mapping](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/a0a62b1be79549e681c5997f371b3095.html?locale=en-US)
-
