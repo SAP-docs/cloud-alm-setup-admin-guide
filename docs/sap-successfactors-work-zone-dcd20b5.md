@@ -17,7 +17,7 @@ Currently, products that are related to SAP Build Work Zone support the followin
 
 
 
-<a name="loiodcd20b57b7124f67a64e3dab44671893__d74e479"/>
+<a name="loiodcd20b57b7124f67a64e3dab44671893__d74e472"/>
 
 ## Setup in SAP Build Work Zone
 
@@ -41,7 +41,7 @@ More information:
 
 
 
-<a name="loiodcd20b57b7124f67a64e3dab44671893__d74e545"/>
+<a name="loiodcd20b57b7124f67a64e3dab44671893__d74e538"/>
 
 ## Setup in SAP Cloud ALM
 

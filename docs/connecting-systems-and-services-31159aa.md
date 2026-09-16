@@ -397,6 +397,4 @@ This page explains how SAP Workflow Management can be integrated with SAP Cloud 
 -   **[Non-SAP Services and Systems](non-sap-services-and-systems-506cd14.md "This page explains how to connect non-SAP services and systems to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect non-SAP services and systems to SAP Cloud ALM to enable monitoring.
--   **[Web Dispatcher](web-dispatcher-4d7dff5.md "")**  
-
 

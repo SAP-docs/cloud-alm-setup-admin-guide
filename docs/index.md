@@ -155,7 +155,6 @@
     -   [SAP Watch List Screening](sap-watch-list-screening-2bd6cf6.md)
     -   [SAP Workflow Management](sap-workflow-management-d3afdbc.md)
     -   [Non-SAP Services and Systems](non-sap-services-and-systems-506cd14.md)
-    -   [Web Dispatcher](web-dispatcher-4d7dff5.md)
 -   [Integration and Configuration Options](02_integration_and_config_options/integration-and-configuration-options-a4ea6fa.md)
     -   [Application Configuration](02_integration_and_config_options/application-configuration-ce08e9d.md)
     -   [Retrieving Service Credentials](02_integration_and_config_options/retrieving-service-credentials-448f9f1.md)
