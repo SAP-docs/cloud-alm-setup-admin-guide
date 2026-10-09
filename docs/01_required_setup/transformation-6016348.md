@@ -26,1717 +26,9 @@ SAP makes no warranty, either expressed or implied, for the information provided
 
 
 
-<a name="loio60163481d5af4e728dcd68c5ed3ab361__section_vbb_gvs_z2c"/>
-
-## Cycle & Monitoring
-
-****
-
-
-<table>
-<tr>
-<th valign="top">
-
-App
-
-</th>
-<th valign="top">
-
-Action
-
-</th>
-<th valign="top">
-
-Cycle & Monitoring Administrator
-
-</th>
-<th valign="top">
-
-Cycle & Monitoring Viewer
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Create a cycle
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Edit a cycle
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-View a cycle
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Run health check
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Run prevalidation
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Run preparation
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Restart preparation
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Cancel a cycle
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Cycles
-
-</td>
-<td valign="top">
-
-Refresh
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Run Cycles
-
-</td>
-<td valign="top">
-
-Run selected
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Run Cycles
-
-</td>
-<td valign="top">
-
-Run all
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Run Cycles
-
-</td>
-<td valign="top">
-
-Restart all
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Run Cycles
-
-</td>
-<td valign="top">
-
-View transformation objects
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Postprocess Cycles
-
-</td>
-<td valign="top">
-
-Run postprocess cycle
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Postprocess Cycles
-
-</td>
-<td valign="top">
-
-Resume postprocess cycle
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Postprocess Cycles
-
-</td>
-<td valign="top">
-
-View postprocess items
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Cycle Logs
-
-</td>
-<td valign="top">
-
-View cycle logs
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-</table>
-
-
-
-<a name="loio60163481d5af4e728dcd68c5ed3ab361__section_y3h_dvs_z2c"/>
-
-## Modeling
-
-****
-
-
-<table>
-<tr>
-<th valign="top">
-
-App
-
-</th>
-<th valign="top">
-
-Action
-
-</th>
-<th valign="top">
-
-Transformation Modeling Expert
-
-</th>
-<th valign="top">
-
-Transformation Modeling Viewer
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-View transformation models
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Create transformation models
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Edit transformation models
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Mass edit custom transformation objects
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Manage transformation model readiness activities
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Update the content status
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Create transformation model versions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Transformation Models
-
-</td>
-<td valign="top">
-
-Delete transformation models
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Transformation Model Versions
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Transformation Model Versions
-
-</td>
-<td valign="top">
-
-View transformation model versions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Transformation Model Versions
-
-</td>
-<td valign="top">
-
-Create transformation model versions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Transformation Model Versions
-
-</td>
-<td valign="top">
-
-Delete transformation model versions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-View mapping variants
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Create mapping variants
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Select a chart of accounts
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Edit mapping variants
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Maintain mapping values
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Import and export mapping values
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Validate value mappings
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Value Mappings
-
-</td>
-<td valign="top">
-
-Create mapping variant versions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Value Mapping Versions
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Value Mapping Versions
-
-</td>
-<td valign="top">
-
-View mapping variant versions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Value Mapping Versions
-
-</td>
-<td valign="top">
-
-Create mapping variant versions
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-</table>
-
-
-
-<a name="loio60163481d5af4e728dcd68c5ed3ab361__section_od5_dvs_z2c"/>
-
-## Scoping
-
-****
-
-
-<table>
-<tr>
-<th valign="top">
-
-App
-
-</th>
-<th valign="top">
-
-Action
-
-</th>
-<th valign="top">
-
-Digital Blueprint Administrator
-
-</th>
-<th valign="top">
-
-Digital Blueprint Viewer
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Analysis Files
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Analysis Files
-
-</td>
-<td valign="top">
-
-View analysis files
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Analysis Files
-
-</td>
-<td valign="top">
-
-Create analysis files
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Analysis Files
-
-</td>
-<td valign="top">
-
-Edit analysis files
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Analysis Files
-
-</td>
-<td valign="top">
-
-Delete analysis files
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
-<td valign="top">
-
-View system scans
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
-<td valign="top">
-
-Create system scans
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
-<td valign="top">
-
-Execute system scans
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
-<td valign="top">
-
-Edit system scans
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage System Scans
-
-</td>
-<td valign="top">
-
-Delete system scans
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
-View digital blueprints
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
-Create digital blueprints
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
-Edit digital blueprints
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
-Confirm digital blueprints
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
-Create a transformation model
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Manage Digital Blueprints
-
-</td>
-<td valign="top">
-
-Delete digital blueprints
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Company Codes
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Company Codes
-
-</td>
-<td valign="top">
-
-View company codes scoping
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Company Codes
-
-</td>
-<td valign="top">
-
-Edit company codes scoping
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Transformation Objects
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Transformation Objects
-
-</td>
-<td valign="top">
-
-View transformation objects scoping
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Transformation Objects
-
-</td>
-<td valign="top">
-
-Edit transformation objects scoping
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Scanned Tables
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Scanned Tables
-
-</td>
-<td valign="top">
-
-View scanned tables scoping
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Select Scanned Tables
-
-</td>
-<td valign="top">
-
-Edit scanned tables scoping
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Digital Blueprint Overview
-
-</td>
-<td valign="top">
-
-Access the app
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Digital Blueprint Overview
-
-</td>
-<td valign="top">
-
-View a digital blueprint
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Digital Blueprint Overview
-
-</td>
-<td valign="top">
-
-Create a new digital blueprint
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-</table>
-
-
-
 <a name="loio60163481d5af4e728dcd68c5ed3ab361__section_utn_pvb_1fc"/>
 
-## Transformation
+## Get Transformation Guidance
 
 ****
 
@@ -3307,6 +1599,1890 @@ Yes
 <td valign="top">
 
 No
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio60163481d5af4e728dcd68c5ed3ab361__section_od5_dvs_z2c"/>
+
+## Selective Data Transition: Define the Scope of Your Transformation
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Digital Blueprint Administrator
+
+</th>
+<th valign="top">
+
+Digital Blueprint Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Analysis Files
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Analysis Files
+
+</td>
+<td valign="top">
+
+View analysis files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Analysis Files
+
+</td>
+<td valign="top">
+
+Create analysis files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Analysis Files
+
+</td>
+<td valign="top">
+
+Edit analysis files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Analysis Files
+
+</td>
+<td valign="top">
+
+Delete analysis files
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+View system scans
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+Create system scans
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+Execute system scans
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+Refresh system scans
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+Cancel system scans
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+Edit system scans
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage System Scans
+
+</td>
+<td valign="top">
+
+Delete system scans
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+View digital blueprints
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Create digital blueprints
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Edit digital blueprints
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Validate transformation objects for the **New Implementation** scenario
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Confirm digital blueprints
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Create a transformation model for the **Selective Data Transition** scenario
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Create a migration project for the **New Implementation** scenario
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Copy digital blueprints
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Extract digital blueprints
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Digital Blueprints
+
+</td>
+<td valign="top">
+
+Delete digital blueprints
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Company Codes
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Company Codes
+
+</td>
+<td valign="top">
+
+View company codes scoping
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Company Codes
+
+</td>
+<td valign="top">
+
+Scope company codes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Transformation Objects
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Transformation Objects
+
+</td>
+<td valign="top">
+
+View transformation objects scoping
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Transformation Objects
+
+</td>
+<td valign="top">
+
+Scope transformation objects
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Transformation Objects
+
+</td>
+<td valign="top">
+
+Validate transformation objects for the **New Implementation** scenario
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Scanned Tables
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Scanned Tables
+
+</td>
+<td valign="top">
+
+View scanned tables scoping
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Select Scanned Tables
+
+</td>
+<td valign="top">
+
+Scope scanned tables for the **Selective Data Transition** scenario
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Digital Blueprint Overview
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Digital Blueprint Overview
+
+</td>
+<td valign="top">
+
+View a digital blueprint
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Digital Blueprint Overview
+
+</td>
+<td valign="top">
+
+Create a new digital blueprint
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio60163481d5af4e728dcd68c5ed3ab361__section_y3h_dvs_z2c"/>
+
+## Selective Data Transition: Model Your Transformation
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Transformation Modeling Expert
+
+</th>
+<th valign="top">
+
+Transformation Modeling Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+View transformation models
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Create transformation models
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Edit transformation models
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Mass edit custom transformation objects
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Manage transformation model readiness activities
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Update the content status
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Add a table to a transformation model
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Create transformation model versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Transformation Models
+
+</td>
+<td valign="top">
+
+Delete transformation models
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transformation Model Versions
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transformation Model Versions
+
+</td>
+<td valign="top">
+
+View transformation model versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transformation Model Versions
+
+</td>
+<td valign="top">
+
+Create transformation model versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Transformation Model Versions
+
+</td>
+<td valign="top">
+
+Delete transformation model versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+View mapping variants
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Create mapping variants
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Select a chart of accounts
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Edit mapping variants
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Maintain mapping values
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Import and export mapping values
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Validate value mappings
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Value Mappings
+
+</td>
+<td valign="top">
+
+Create mapping variant versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Value Mapping Versions
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Value Mapping Versions
+
+</td>
+<td valign="top">
+
+View mapping variant versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Value Mapping Versions
+
+</td>
+<td valign="top">
+
+Create mapping variant versions
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio60163481d5af4e728dcd68c5ed3ab361__section_vbb_gvs_z2c"/>
+
+## Selective Data Transition: Execute and Monitor Your Transformation
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Cycle & Monitoring Administrator
+
+</th>
+<th valign="top">
+
+Cycle & Monitoring Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Create a cycle
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Edit a cycle
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+View a cycle
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Run health check
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Run prevalidation
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Run preparation
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Restart preparation
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Cancel a cycle
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage Cycles
+
+</td>
+<td valign="top">
+
+Refresh
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Run Cycles
+
+</td>
+<td valign="top">
+
+Run selected
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Run Cycles
+
+</td>
+<td valign="top">
+
+Run all
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Run Cycles
+
+</td>
+<td valign="top">
+
+Restart all
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Run Cycles
+
+</td>
+<td valign="top">
+
+View transformation objects
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Postprocess Cycles
+
+</td>
+<td valign="top">
+
+Run postprocess cycle
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Postprocess Cycles
+
+</td>
+<td valign="top">
+
+Resume postprocess cycle
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Postprocess Cycles
+
+</td>
+<td valign="top">
+
+View postprocess items
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cycle Logs
+
+</td>
+<td valign="top">
+
+View cycle logs
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>

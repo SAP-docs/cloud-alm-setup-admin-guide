@@ -42,16 +42,15 @@ The following steps are only necessary if the database host isn't running direct
     1.  Select *Add New Federation Peer*.
     2.  Enter the host name. It should include the application server with the IP address.
     3.  Choose *Check Connection*. The check needs to be successful.
-    4.  Select *Continue* to go to *Confirm Peer Host*.
-    5.  Choose *Continue* to go to *Confirm Peer Host*.
 
         ![](images/HMmetrics_SAPHANA_1_f44d85a.png)
 
-    6.  Verify the fully qualified domain name.
-    7.  Check if the username is correct and enter the password.
-    8.  Choose *Continue* to go to *Discover Federation Network*.
-    9.  Ensure that the created host is added to the federation network.
-    10. Choose *Finish*.
+    4.  Choose *Continue* to go to *Confirm Peer Host*.
+    5.  Verify the fully qualified domain name.
+    6.  Check if the username is correct and enter the password.
+    7.  Choose *Continue* to go to *Discover Federation Network*.
+    8.  Ensure that the created host is added to the federation network.
+    9.  Choose *Finish*.
 
         ![](images/HMmetrics_SAPHANA_2_5a491d4.png)
 

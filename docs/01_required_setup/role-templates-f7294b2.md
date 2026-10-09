@@ -306,6 +306,256 @@ Implementation
 </td>
 <td valign="top">
 
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_ManageFeature` 
+
+</td>
+<td valign="top">
+
+Edit features
+
+Access to edit mode
+
+Edit descriptions
+
+Edit feature title
+
+Edit properties
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_DisplayFeature` 
+
+</td>
+<td valign="top">
+
+Display features
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_ConfirmDeployment` 
+
+</td>
+<td valign="top">
+
+Confirm deployment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_CreateTransport` 
+
+</td>
+<td valign="top">
+
+Create transports
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_AssignTransport` 
+
+</td>
+<td valign="top">
+
+Assign transports
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_CopyTransport` 
+
+</td>
+<td valign="top">
+
+Create transport of copies
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_ReleaseTransport` 
+
+</td>
+<td valign="top">
+
+Release transports
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_CreateFeature` 
+
+</td>
+<td valign="top">
+
+Create features
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_DeleteFeature` 
+
+</td>
+<td valign="top">
+
+Delete features
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_CreateTasks` 
+
+</td>
+<td valign="top">
+
+Create tasks
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
+**Change & Deployment Management** 
+
+</td>
+<td valign="top">
+
+`imp_cdm_AssignTasks` 
+
+</td>
+<td valign="top">
+
+Assign tasks
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Implementation
+
+</td>
+<td valign="top">
+
 **Library Management** 
 
 </td>

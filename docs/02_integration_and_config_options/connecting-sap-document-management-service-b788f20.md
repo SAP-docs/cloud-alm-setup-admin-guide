@@ -2,9 +2,9 @@
 
 # Connecting SAP Document Management Service
 
-You can integrate and activate the SAP Document Management service for document storage in SAP Cloud ALM.
+You can integrate and activate the SAP Document Management service service for document storage in SAP Cloud ALM.
 
-If you want to upload [External Files](https://help.sap.com/docs/cloud-alm/applicationhelp/external-files) in the *Documents* app of SAP Cloud ALM, first establish a connection between your SAP Document Management service \(SAP BTP DMS\) and your SAP Cloud ALM tenant.
+If you want to upload [External Files](https://help.sap.com/docs/cloud-alm/applicationhelp/external-files) in the *Documents* app of SAP Cloud ALM, first establish a connection between your SAP Document Management service service \(SAP BTP DMS\) and your SAP Cloud ALM tenant.
 
 The following video guides you through the SAP BTP DMS onboarding process.
 
@@ -26,12 +26,12 @@ The following video guides you through the SAP BTP DMS onboarding process.
 
 ## Prerequisites
 
--   You need to provide your own SAP Document Management service instance and establish a connection to SAP Cloud ALM. You can use an existing service instance for SAP Cloud ALM use. For more information, see [Setting Up the Service Instance](https://help.sap.com/docs/document-management-service/sap-document-management-service-f6e70dd4bffa4b65965b43feed4c9429/initial-setup-for-document-management-service-integration-option?version=Cloud).
+-   You need to provide your own SAP Document Management service service instance and establish a connection to SAP Cloud ALM. You can use an existing service instance for SAP Cloud ALM use. For more information, see [Setting Up the Service Instance](https://help.sap.com/docs/document-management-service/sap-document-management-service-f6e70dd4bffa4b65965b43feed4c9429/initial-setup-for-document-management-service-integration-option?version=Cloud).
 
     > ### Note:  
     > Don't use your SAP Cloud ALM global account. Use your global account for SAP BTP DMS.
 
--   You've done the initial setup for the SAP Document Management integration option and you've obtained all the necessary login data.
+-   You've done the initial setup for the SAP Document Management service integration option and you've obtained all the necessary login data.
 
 -   You're familiar with the [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/docs/btp?version=Cloud) cockpit, and the  [Account Administration](https://help.sap.com/docs/btp/sap-business-technology-platform/account-administration?version=Cloud) concepts.
 

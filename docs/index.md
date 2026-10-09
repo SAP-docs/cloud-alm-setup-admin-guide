@@ -77,6 +77,7 @@
     -   [SAP Digital Currency Hub](sap-digital-currency-hub-612dedf.md)
     -   [SAP Digital Manufacturing](sap-digital-manufacturing-11ca81a.md)
     -   [SAP Digital Vehicle Hub](sap-digital-vehicle-hub-1eb4d19.md)
+    -   [SAP Document Management service](sap-document-management-service-92e6714.md)
     -   [SAP Entitlement Management](sap-entitlement-management-178b783.md)
     -   [SAP Fieldglass](sap-fieldglass-0eede18.md)
     -   [SAP Field Service and Asset Management](sap-field-service-and-asset-management-d122ae8.md)

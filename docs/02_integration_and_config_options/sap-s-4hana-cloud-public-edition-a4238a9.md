@@ -82,7 +82,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 ## Procedure
 
 > ### Caution:  
-> To enable the assignment of SAP S/4HANA Cloud Public Edition transports, you have to establish a communication arrangement for your development tenants and test tenants with SAP Cloud ALM. This is important as transports exported from your development system or imported to your test system only show the correct transport status after you’ve established the communication arrangement for **both** your development and test tenant.
+> To enable the assignment of SAP S/4HANA Cloud Public Edition transports, you have to establish a communication arrangement for your development tenants and test tenants with SAP Cloud ALM. This is important as transports exported from your development system or imported to your test system only show the correct transport status after you’ve established the communication arrangement for **both** your development and test tenant. You can assign ATO transports of DEV tenants that were created up to one year before the first communication with SAP Cloud ALM.
 > 
 > In case you provision a production tenant later, make sure to establish the communication arrangement before the first import to production. Otherwise, you lose the transport status. There is no option to resynchronize the data.
 
@@ -91,7 +91,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
     > ### Note:  
     > We recommend to use an existing service instance with *SAP Cloud ALM API* as *Service* type to create your service keys.
     > 
-    > In case you don't have an existing service instance, create the instance as described here [Enabling SAP Cloud ALM API](https://help.sap.com/docs/cloud-alm/apis/enabling-sap-cloud-alm-apis?ai=true).
+    > In case you don't have an existing service instance or want to create a specific service instance for this setup, create the instance as described here [Enabling SAP Cloud ALM API](https://help.sap.com/docs/cloud-alm/setup-administration/enabling-sap-cloud-alm-api?locale=en-US). Also see SAP Note [3806018](https://me.sap.com/notes/3806018).
 
 2.  Create a communication system in the *Communication System* app that represents the SAP Cloud ALM tenant you want to communicate with.
 
@@ -108,17 +108,29 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
     2.  Choose *Create*.
 
-    3.  In the next view, add the root URL from the SAP Cloud ALM API \(see step 1 of this guide\) in the*Host Name* field and the port \(443\) into the *Port* field in the *Technical Data - General* section.
+    3.  In the *Host Name* field, add the root URL without `/api` from the SAP Cloud ALM API \(see step 1\). For example: eu10.alm.cloud.sap.
 
-        The relevant entry for the host name is like the following example: `{ “endpoints”: { “Api” . https://eu10.alm.cloud.sap/api }`. Enter the URL without the `/api` extension at the end, for example: eu10.alm.cloud.sap.
+        ![](images/host_d662475.png)
 
-        ![](images/Comm_arr_2_3e47062.png)
+        You can copy the root URL from the *Form* or *JSON* dialog of your instance in the SAP BTP Cockpit.
 
-    4.  Add a token URL based on the UAA url from your SAP Cloud ALM API instance in the *Token Endpoint* field and add `/oauth/token` at the end of the URL.
+        ![](images/from_6d14ae3.png)
+
+        ![](images/json_ab6d525.png)
+
+    4.  In the *Port* field, enter *443*.
+
+        ![](images/port_68249a8.png)
+
+    5.  In the *Token Endpoint* field, add a token URL based on the UAA url from your SAP Cloud ALM API instance and add `/oauth/token` at the end of the URL. For example: https://tenant-name.authentication.eu10.hana.ondemand.com/oauth/token.
 
         The token URL in the binding credential JSON file looks like the following example: `"url": "https://tenant-name.authentication.eu10.hana.ondemand.com"`
 
         ![](images/Create_Outbound_User_474d537.png)
+
+    6.  In the *mTLS Endpoint* field, add the certurl from the service binding you created and add `/oauth/token` at the end of the url. For example: https://tenant-name.authentication.**cert**.eu10.hana.ondemand.com/oauth/token
+
+        For more information about token endpoints, see [Implementing Custom Token Retrieval from SAP Authorization and Trust Management Service with mTLS](https://help.sap.com/docs/btp/sap-business-technology-platform/implementing-custom-token-retrieval-from-sap-authorization-and-trust-management-service-with-mtls?version=Cloud&ai=true).
 
 
 3.  Create a new inbound user.
@@ -178,11 +190,11 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
         > In the *Manage Client Certificates* app, you can check and manage your certificates.
 
 
-5.  Create a communication arrangement in the *Communication Arrangement* app based on scenario SAP\_COM\_0690 and use the system that you created in step 1.
+5.  Create a communication arrangement in the *Communication Arrangement* app based on scenario SAP\_COM\_0690 and use the system that you created in step 2.
 
     ![](images/SAP_Calm_ATO_0690_740e224.png)
 
-    1.  Assign the system that you created in step 1 of this guide.
+    1.  Assign the system that you created in step 2 of this guide.
 
         > ### Note:  
         > This automatically fills out the fields for Inbound Communication and Outbound Communication.
@@ -239,7 +251,10 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
     8.  Enter your *Key Store Password*.
 
-    9.  For *URL*, enter the *Service URL/Service Interface* URL from the *Communication Arrangements* app.
+    9.  For *URL*, enter the *Service URL/Service Interface* URL from the *Communication Arrangements* app without the final /.
+
+        > ### Caution:  
+        > You have to remove the **/** at the end of the URL.
 
     10. In the *Description*, we recommend to add the system for which you're using the destination.
 
@@ -276,8 +291,6 @@ The following list contains the currently available inbound services:
 -   Create transports
 
 -   Assign transports
-
--   Deploy transports
 
 
 

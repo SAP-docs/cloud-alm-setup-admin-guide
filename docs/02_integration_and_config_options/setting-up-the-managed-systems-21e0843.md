@@ -50,6 +50,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
 -   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
+    -   SAP Note [3795818](https://me.sap.com/notes/3795818) – Collective corrections as of ST-PI 7.40 **SP36** and ST-PI 7.58 SP03 for SAP Cloud ALM
     -   SAP Note [3750110](https://me.sap.com/notes/3750110) – Collective corrections as of ST-PI 7.40 **SP35** and ST-PI 7.58 SP02 for SAP Cloud ALM
     -   SAP Note [3706830](https://me.sap.com/notes/3706830) – Collective corrections as of ST-PI 7.40 **SP34** and ST-PI 7.58 SP01 for SAP Cloud ALM
     -   SAP Note [3639977](https://me.sap.com/notes/3639977) – Collective corrections as of ST-PI 7.40 **SP32** and ST-PI 7.58 SP00 for SAP Cloud ALM \(including SP33\)
@@ -89,6 +90,8 @@ For the setup, consider two users in the managed ABAP system:
 -   The user performing the setup: To run transaction */SDF/ALM\_SETUP*, your personal user needs the PFCG role *SAP\_SDF\_ALM\_SETUP*.
 
     **Note**: In this role, maintain the authorization field *S\_BTCH\_NAM \> BTCUNAME* either with an asterisk \(\*\) or with the user name of the user that you plan to use for the background job for the data collection.
+
+-   For transport management, the user you specify as background user for /SDF/ALM\_SETUP requires the PFCG role *SAP\_BC\_TRANSPORT\_ADMINISTRATOR* in all managed systems and client 000 and in the client of your development system where the target is created.
 
 -   The user to run the background job for the data collection: Assign the roles as described in the following table:
 
@@ -481,6 +484,13 @@ client 000: activate the following tasks:
     -   Client-specific transport routes \(TMS option CTC\) are recommended
 
     -   TMS transport groups are supported
+
+
+    This use case task creates the business service reflecting your STMS Landscape configuration in *Landscape Management* in SAP Cloud ALM. Based on the system relations within the business service you can maintain system groups in the *Projects and Setup* app. As a prerequisite, you have to implement SAP Note [3690700](https://me.sap.com/notes/3690700). The landscape information is synchronized to SAP Cloud ALM in the following cases:
+
+    -   When this use case is activated
+
+    -   When the TMS landscape is changed and activated
 
 
 -   *Transports: Check* This enables the *Transport Check* functionality to check a transport set before import to evaluate the impact on your production system.

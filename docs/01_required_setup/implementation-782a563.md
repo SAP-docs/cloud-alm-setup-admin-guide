@@ -70,6 +70,11 @@ Project Member
 Project Viewer
 
 </th>
+<th valign="top">
+
+Tester
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -80,6 +85,11 @@ Projects and Setup
 <td valign="top">
 
 Access the app
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -134,6 +144,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -154,6 +169,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -198,6 +218,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -230,6 +255,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -245,6 +275,11 @@ Delete teams
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -294,6 +329,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -314,6 +354,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -358,6 +403,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -388,6 +438,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -422,6 +477,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -447,6 +507,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -486,6 +551,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -518,6 +588,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -528,6 +603,11 @@ Process Hierarchy
 <td valign="top">
 
 Create, edit, and delete process hierarchy nodes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -565,6 +645,11 @@ Access the app
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -614,6 +699,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -644,6 +734,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -678,6 +773,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -710,6 +810,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -730,6 +835,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -774,6 +884,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -789,6 +904,11 @@ Delete libraries
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -838,6 +958,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -870,6 +995,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -900,6 +1030,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -934,6 +1069,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -964,6 +1104,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -998,6 +1143,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1028,6 +1178,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -1062,6 +1217,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1087,6 +1247,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1126,6 +1291,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1151,6 +1321,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1190,6 +1365,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1222,6 +1402,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1247,6 +1432,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1286,6 +1476,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1318,6 +1513,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1338,6 +1538,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1382,6 +1587,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1412,6 +1622,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -1446,6 +1661,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1471,6 +1691,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1510,6 +1735,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1535,6 +1765,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1574,6 +1809,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1599,6 +1839,11 @@ Yes \(Note: At least Process Author role level is needed\)
 <td valign="top">
 
 Yes \(Note: At least Process Author role level is needed\)
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1638,6 +1883,11 @@ Yes \(Note: At least Process Author role level is needed\)
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1670,6 +1920,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1695,6 +1950,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1734,6 +1994,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1759,6 +2024,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1798,6 +2068,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1823,6 +2098,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1862,6 +2142,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1887,6 +2172,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1926,6 +2216,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1946,6 +2241,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -1990,6 +2290,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2020,6 +2325,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -2054,6 +2364,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2086,6 +2401,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2096,6 +2416,11 @@ Process Authoring
 <td valign="top">
 
 Create, assign and unassign tags
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2150,6 +2475,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2160,6 +2490,11 @@ Process Authoring
 <td valign="top">
 
 Unlock custom solution process diagrams
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2214,6 +2549,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2244,6 +2584,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -2278,6 +2623,11 @@ Yes \(Note: At least Process Author role level is needed\)
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2288,6 +2638,11 @@ Process Authoring
 <td valign="top">
 
 Assign solution activities to configurations and applications
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2342,6 +2697,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2372,6 +2732,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -2406,6 +2771,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2431,6 +2801,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2470,6 +2845,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2495,6 +2875,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2534,6 +2919,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2559,6 +2949,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2598,6 +2993,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2623,6 +3023,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2662,6 +3067,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2692,6 +3102,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -2726,6 +3141,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2751,6 +3171,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2790,6 +3215,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2815,6 +3245,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2854,6 +3289,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2879,6 +3319,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2918,6 +3363,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2943,6 +3393,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -2982,6 +3437,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3007,6 +3467,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3046,6 +3511,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3071,6 +3541,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3110,6 +3585,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3135,6 +3615,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3174,6 +3659,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3206,6 +3696,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3226,6 +3721,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3270,6 +3770,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3290,6 +3795,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3334,6 +3844,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3366,6 +3881,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3376,6 +3896,11 @@ Test Preparation
 <td valign="top">
 
 Access the app
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -3430,6 +3955,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3462,6 +3992,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3482,6 +4017,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3526,6 +4066,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3546,6 +4091,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3590,6 +4140,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3600,6 +4155,11 @@ Test Plans
 <td valign="top">
 
 Access the app
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -3654,6 +4214,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3679,6 +4244,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3718,6 +4288,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3750,6 +4325,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3770,6 +4350,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3814,6 +4399,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3834,6 +4424,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -3878,6 +4473,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3888,6 +4488,11 @@ Test Execution
 <td valign="top">
 
 Access the app
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -3942,6 +4547,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3972,6 +4582,11 @@ Yes
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>
@@ -4006,6 +4621,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4016,6 +4636,11 @@ Defects
 <td valign="top">
 
 Access the app
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -4070,6 +4695,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4102,6 +4732,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4127,6 +4762,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4166,6 +4806,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4191,6 +4836,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4230,6 +4880,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4262,6 +4917,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4287,6 +4947,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4326,6 +4991,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4351,6 +5021,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4390,6 +5065,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4422,6 +5102,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4447,6 +5132,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4486,6 +5176,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4518,6 +5213,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4538,6 +5238,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4582,6 +5287,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4607,6 +5317,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4646,6 +5361,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4671,6 +5391,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4710,6 +5435,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4742,6 +5472,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4757,6 +5492,11 @@ Deploy transports
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4806,6 +5546,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4838,6 +5583,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4858,6 +5608,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4902,6 +5657,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4922,6 +5682,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -4966,6 +5731,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4981,6 +5751,11 @@ Approve for production
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5030,6 +5805,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5062,6 +5842,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5077,6 +5862,11 @@ Access the app
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5126,6 +5916,11 @@ No
  
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5141,6 +5936,11 @@ Create deployment schedule
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5190,6 +5990,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5205,6 +6010,11 @@ Delete deployment schedule
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5254,6 +6064,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5286,6 +6101,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5316,6 +6136,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -5350,6 +6175,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5382,6 +6212,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5392,6 +6227,11 @@ Analytics
 <td valign="top">
 
 Access and view all dashboards
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -5444,6 +6284,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -5478,6 +6323,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5493,6 +6343,11 @@ Create, edit, and delete analyses
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5542,6 +6397,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5557,6 +6417,11 @@ Access the app
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5606,6 +6471,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5638,6 +6508,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5653,6 +6528,11 @@ Access the app
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5702,6 +6582,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5717,6 +6602,11 @@ View tag groups
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5766,6 +6656,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5781,6 +6676,11 @@ Centrally create and edit tags
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5830,6 +6730,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5845,6 +6750,11 @@ Merge tags
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5894,6 +6804,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5909,6 +6824,11 @@ Organize tags into groups
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -5958,6 +6878,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5988,6 +6913,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -6022,6 +6952,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6037,6 +6972,11 @@ Add and delete services and systems
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6086,6 +7026,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6101,6 +7046,11 @@ Add and delete endpoints
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6150,6 +7100,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6182,6 +7137,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6197,6 +7157,11 @@ Create and assign tags
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6246,6 +7211,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6276,6 +7246,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -6310,6 +7285,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6325,6 +7305,11 @@ Delete imported customer numbers
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6374,6 +7359,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6389,6 +7379,11 @@ Edit and delete SAP corporate group S-user
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6438,6 +7433,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6470,6 +7470,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6485,6 +7490,11 @@ Start landscape synchronization
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6534,6 +7544,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6564,6 +7579,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -6598,6 +7618,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6613,6 +7638,11 @@ Edit event properties
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6660,6 +7690,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -6694,6 +7729,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6714,6 +7754,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6758,6 +7803,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6778,6 +7828,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6822,6 +7877,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6854,6 +7914,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6869,6 +7934,11 @@ Create, edit, and delete subscriptions
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -6918,6 +7988,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6933,6 +8008,11 @@ Create, edit, and delete mappings
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7016,6 +8096,11 @@ Process Hierarchy Author
 Process Hierarchy Administrator
 
 </th>
+<th valign="top">
+
+Tester
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -7061,6 +8146,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -7110,6 +8200,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7155,6 +8250,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -7204,6 +8304,11 @@ Yes
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7251,6 +8356,11 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7271,6 +8381,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7345,6 +8460,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7380,6 +8500,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7439,6 +8564,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7464,6 +8594,11 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7533,6 +8668,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7568,6 +8708,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7627,6 +8772,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7657,6 +8807,11 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7721,6 +8876,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7768,6 +8928,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7788,6 +8953,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7862,6 +9032,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7882,6 +9057,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -7956,6 +9136,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7976,6 +9161,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8050,6 +9240,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8065,6 +9260,11 @@ Unlock custom solution process diagrams
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8144,6 +9344,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8191,6 +9396,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8201,6 +9411,11 @@ Process Authoring
 <td valign="top">
 
 Assign solution activities to test cases and documents
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8285,6 +9500,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8332,6 +9552,11 @@ Yes \(Note: At least Process Author role level is needed\)
 Yes \(Note: At least Process Author role level is needed\)
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8352,6 +9577,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8426,6 +9656,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8446,6 +9681,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8520,6 +9760,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+No
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8540,6 +9785,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
@@ -8612,6 +9862,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>
@@ -8661,6 +9916,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8706,6 +9966,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>
@@ -8755,6 +10020,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8802,6 +10072,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+Yes
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8847,6 +10122,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>
@@ -8900,6 +10180,11 @@ Retrofit Configurator
 Retrofit Performer
 
 </th>
+<th valign="top">
+
+ 
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -8935,6 +10220,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -8974,6 +10264,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9009,6 +10304,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9048,6 +10348,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9083,6 +10388,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9122,6 +10432,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9157,6 +10472,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9196,6 +10516,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9231,6 +10556,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9270,6 +10600,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9305,6 +10640,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9344,6 +10684,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9379,6 +10724,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9418,6 +10768,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9453,6 +10808,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9492,6 +10852,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9527,6 +10892,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9566,6 +10936,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9601,6 +10976,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9640,6 +11020,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9675,6 +11060,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9714,6 +11104,11 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9749,6 +11144,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9788,6 +11188,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9823,6 +11228,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9862,6 +11272,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9897,6 +11312,11 @@ No
 <td valign="top">
 
 No
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -9936,6 +11356,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9973,6 +11398,11 @@ No
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -10008,6 +11438,11 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -10047,6 +11482,11 @@ Yes
 No
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -10082,6 +11522,11 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -10121,6 +11566,11 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -10156,6 +11606,11 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -10195,6 +11650,11 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -10232,6 +11692,11 @@ No
 Yes
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -10267,6 +11732,11 @@ No
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

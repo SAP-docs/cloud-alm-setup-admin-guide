@@ -6,6 +6,7 @@ This document provides guidance on connecting SAP Batch Release Hub for Life Sci
 
 Currently, SAP Batch Release Hub for Life Sciences supports the following monitoring applications:
 
+-   [Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/business-process-monitoring)
 -   [Integration and Exception Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/integration-exception-monitoring)
 
     Specific setup information for Integration & Exception Monitoring: [SAP Batch Release Hub for Life Sciences](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/calm-brh.html).
@@ -38,6 +39,7 @@ For details, check the documentation for the supported use cases:
 
 More:
 
+-   [Activate the data collection for Business Process Monitoring](https://help.sap.com/docs/cloud-alm/applicationhelp/bpmon-connecting-services#activating-the-data-collection)
 -   [Activate the Monitoring Data Collection for Integration and Exception Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/integration-monitoring/int-mon-setup-support.html?anchorId=section_1683886374_c)
 -   [Activate the Monitoring Data Collection for Real User Monitoring](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/real-user-monitoring/run-details.html)
 

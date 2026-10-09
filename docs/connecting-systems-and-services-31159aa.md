@@ -177,6 +177,9 @@ This page explains how to connect SAP Digital Manufacturing to SAP Cloud ALM to 
 -   **[SAP Digital Vehicle Hub](sap-digital-vehicle-hub-1eb4d19.md "This page explains how to connect SAP Digital Vehicle Hub to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Digital Vehicle Hub to SAP Cloud ALM to enable monitoring.
+-   **[SAP Document Management service](sap-document-management-service-92e6714.md "This page explains how to connect SAP Datasphere to SAP Cloud ALM to enable
+		monitoring.")**  
+This page explains how to connect SAP Datasphere to SAP Cloud ALM to enable monitoring.
 -   **[SAP Entitlement Management](sap-entitlement-management-178b783.md "This page explains how to connect SAP Entitlement Management to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Entitlement Management to SAP Cloud ALM to enable monitoring.

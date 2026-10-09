@@ -15,6 +15,9 @@ To use the Change and Transport System \(CTS\) for SAP S/4HANA Cloud Private Edi
 Currently any kind of consistent Transport Management System \(TMS\) landscape is supported. Please note that the *Features* app always considers the last system in your landscape configuration as the production system. For more information, see [How the Features App Determines the Roles of Your Systems](https://help.sap.com/docs/cloud-alm/applicationhelp/features-status-flow#how-the-features-app-determines-the-roles-of-your-systems).
 
 > ### Note:  
+> SAP CTS projects aren't supported. In the setup, ensure that the attribute `SAP_CTS_PROJECT` isn't set to mandatory.
+
+> ### Note:  
 > Transport-related data is pushed to SAP Cloud ALM from your managed systems by setting up the integration. This includes data of the transport owner. For more information, see SAP Note [3429058](https://me.sap.com/notes/3429058).
 
 > ### Note:  

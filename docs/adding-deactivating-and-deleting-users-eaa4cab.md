@@ -13,7 +13,7 @@ In SAP Cloud ALM, the Identity Authentication service assumes the role of the id
 -   Deactivating or deleting a user in SAP Cloud ALM does not affect the user in your identity provider.
 
 
-For the actions below, the status of the user in SAP Cloud ALM is also important. These are displayed in the table column and in the user details. 
+For the actions below, the status of the user in SAP Cloud ALM is also important. These are displayed in the table column and in the user details.
 
 ****
 
