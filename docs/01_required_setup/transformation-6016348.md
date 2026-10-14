@@ -1524,33 +1524,6 @@ No
 <tr>
 <td valign="top">
 
-Manage Runs
-
-</td>
-<td valign="top">
-
-Approve correction runs
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Analyze Data Quality
 
 </td>

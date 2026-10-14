@@ -3456,6 +3456,70 @@ Manage display of extensibility-related data
 <tr>
 <td valign="top">
 
+RISE with SAP Methodology
+
+</td>
+<td valign="top">
+
+Executive View
+
+</td>
+<td valign="top">
+
+*Executive Dashboard Viewer*
+
+</td>
+<td valign="top">
+
+*Executive Dashboard Viewer*
+
+</td>
+<td valign="top">
+
+View high-level summary of your organization's clean core progress and achievements
+
+</td>
+<td valign="top">
+
+`rdp_dashboard_ccExecutiveViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RISE with SAP Methodology
+
+</td>
+<td valign="top">
+
+Project View
+
+</td>
+<td valign="top">
+
+*Project Dashboard Viewer* 
+
+</td>
+<td valign="top">
+
+*Project Dashboard Viewer* 
+
+</td>
+<td valign="top">
+
+View quality gate assessment details of current clean core projects
+
+</td>
+<td valign="top">
+
+`rdp_dashboard_ccProjectViewer` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Service
 
 </td>

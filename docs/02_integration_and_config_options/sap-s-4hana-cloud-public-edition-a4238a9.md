@@ -292,6 +292,8 @@ The following list contains the currently available inbound services:
 
 -   Assign transports
 
+-   Deploy transports
+
 
 
 

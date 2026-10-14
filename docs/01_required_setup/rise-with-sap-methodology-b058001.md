@@ -26,6 +26,118 @@ SAP makes no warranty, either expressed or implied, for the information provided
 
 
 
+## Executive View
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Executive Dashboard Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Executive View
+
+</td>
+<td valign="top">
+
+View the RISE with SAP Methodology page
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Executive View
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Executive View
+
+</td>
+<td valign="top">
+
+View high-level summary of the latest quality gate data from current clean core projects
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Executive View
+
+</td>
+<td valign="top">
+
+View normalized data volume efficiency score of all productive systems
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Executive View
+
+</td>
+<td valign="top">
+
+View overall operations score of all productive systems
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loiob05800100570426a8f2de9dd80ac5adf__section_w5r_zkd_kfc"/>
 
 ## Operations View
@@ -157,6 +269,84 @@ Yes
 
 > ### Note:  
 > To use the AI-assisted analysis feature, you first need to activate it in *SAP for Me*. For more information, refer to [AI-Assisted Analysis](https://help.sap.com/viewer/877c96cf971648b09ee0d0a64f7f4fef/latest/en-US/bcfa3634a5814cbba5acc0d4f4908f37.html "The AI-assisted analysis helps you understand how your system's Operations Score and Area Scores are calculated.") :arrow_upper_right: on the SAP Help Portal.
+
+
+
+## Project View
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+App
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Project Dashboard Viewer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Project View
+
+</td>
+<td valign="top">
+
+View the RISE with SAP Methodology page
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Project View
+
+</td>
+<td valign="top">
+
+Access the app
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Project View
+
+</td>
+<td valign="top">
+
+View details about a project's quality gate assessment data
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+</table>
 
 
 
