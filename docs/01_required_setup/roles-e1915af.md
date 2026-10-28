@@ -521,38 +521,6 @@ Cross Topics
 </td>
 <td valign="top">
 
-Tenant Information
-
-</td>
-<td valign="top">
-
-*Tenant Information Viewer* 
-
-</td>
-<td valign="top">
-
-*Tenant Information Viewer* 
-
-</td>
-<td valign="top">
-
-View tenant details on memory consumption and outbound API usage
-
-</td>
-<td valign="top">
-
-`x_tenantinfo_TenantInformationViewer` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Cross Topics
-
-</td>
-<td valign="top">
-
 Self-Monitoring
 
 </td>

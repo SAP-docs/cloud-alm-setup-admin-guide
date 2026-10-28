@@ -138,7 +138,7 @@ Learn which prerequisites you have to fulfill for all systems you want to manage
 
 [SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-a4238a9.md "Enable the transport management with Adaptation Transport Organizer.")
 
-[SAP Cloud Transport Management Service](sap-cloud-transport-management-service-8b4af2f.md "Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM.")
+[SAP Cloud Transport Management Service](sap-cloud-transport-management-service-8b4af2f.md "Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM. For general information about CTMS, see What Is SAP Cloud Transport Management.")
 
 [Tips and Troubleshooting for Your Setups](tips-and-troubleshooting-for-your-setups-0fb29d9.md "Find information on how to fix issues.")
 

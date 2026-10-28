@@ -7,6 +7,460 @@ In the following sections, you can find detailed breakdowns of all roles related
 > ### Note:  
 > New roles were introduced to harmonize user roles across SAP Cloud ALM for operations apps. The previous roles are deprecated but remain active during a transition period. During this period, all users must be assigned to the new roles. The previous roles have the label \[Deprecated\].
 
+The following section provides recommendations for new roles to assign instead of the deprecated roles. Please note that the new role collections aren't identical to the deprecated roles. For example, the new role collections don't provide access to the *Landscape Management* app.
+
+As part of this harmonization, new role collections were also introduced that don't have comparable deprecated roles.
+
+
+
+## Recommendations for Deprecated Roles
+
+
+
+### Business Process Monitoring
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Process Monitoring Administrator
+
+</td>
+<td valign="top">
+
+Business Process Monitoring Administrator
+
+Business Process Monitoring Sensitive Viewer
+
+If the user processes alerts, the Business Process Monitoring Processor role is also required
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Process Manager
+
+</td>
+<td valign="top">
+
+Business Process Monitoring Configurator
+
+Business Process Monitoring Sensitive Viewer
+
+If the user processes alerts, the Business Process Monitoring Processor role is also required
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Process Executor
+
+</td>
+<td valign="top">
+
+Business Process Monitoring Processor
+
+Business Process Monitoring Sensitive Viewer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Process Monitoring Consumer
+
+</td>
+<td valign="top">
+
+Business Process Monitoring Sensitive Viewer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Process Monitoring Viewer
+
+</td>
+<td valign="top">
+
+Business Process Monitoring Viewer
+
+</td>
+</tr>
+</table>
+
+
+
+### Business Service Management
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Business Service Management Administrator
+
+</td>
+<td valign="top">
+
+Business Service Management Configurator
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Business Service Management Viewer
+
+</td>
+<td valign="top">
+
+Business Service Management Viewer
+
+</td>
+</tr>
+</table>
+
+
+
+### Configuration & Security Analysis
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Configuration Monitoring Administrator
+
+</td>
+<td valign="top">
+
+Configuration Security Analysis Administrator
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Configuration Monitoring Analyst
+
+</td>
+<td valign="top">
+
+Configuration Security Analysis Viewer
+
+</td>
+</tr>
+</table>
+
+
+
+### Health Monitoring
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Health Monitoring Administrator
+
+</td>
+<td valign="top">
+
+Health Monitoring Administrator
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Health Monitoring Viewer
+
+</td>
+<td valign="top">
+
+Health Monitoring Viewer
+
+</td>
+</tr>
+</table>
+
+
+
+### Integration & Exception Monitoring
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Integration Architect
+
+</td>
+<td valign="top">
+
+Integration Monitoring Administrator
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Integration Owner
+
+</td>
+<td valign="top">
+
+Integration Monitoring Viewer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Integration Owner Sensitive
+
+</td>
+<td valign="top">
+
+Integration Monitoring Sensitive Data Viewer
+
+</td>
+</tr>
+</table>
+
+
+
+### Job & Automation Monitoring
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Job Monitoring Administrator
+
+</td>
+<td valign="top">
+
+Job Monitoring Administrator
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Job Monitoring Consumer
+
+</td>
+<td valign="top">
+
+Job Monitoring Processor
+
+</td>
+</tr>
+</table>
+
+
+
+### Real User Monitoring
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Real User Analyst Administrator
+
+</td>
+<td valign="top">
+
+Real User Monitoring Administrator
+
+If the user processes alerts, the Real User Monitoring Processor role is also required
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Real User Analyst
+
+</td>
+<td valign="top">
+
+Real User Monitoring Viewer
+
+If the user processes alerts, the Real User Monitoring Processor role is also required
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Real User Analyst Sensitive
+
+</td>
+<td valign="top">
+
+Real User Monitoring Sensitive
+
+If the user processes alerts, the Real User Monitoring Processor role is also required
+
+</td>
+</tr>
+</table>
+
+
+
+### Synthetic User Monitoring
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Role
+
+</th>
+<th valign="top">
+
+Recommended New Role
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Scenario Administrator
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring Administrator
+
+If the user processes alerts, the Synthetic User Monitoring Processor role is also required
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Scenario Expert
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring Configurator
+
+If the user processes alerts, the Synthetic User Monitoring Processor role is also required
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\[Deprecated\] Scenario Viewer
+
+</td>
+<td valign="top">
+
+Synthetic User Monitoring Viewer
+
+If the user processes alerts, the Synthetic User Monitoring Processor role is also required
+
+</td>
+</tr>
+</table>
+
 
 
 
@@ -4492,7 +4946,7 @@ Business Service Management
 </td>
 <td valign="top">
 
-View Configuration \(List of Configured or Available Services\)
+View Configuration \(List of Configured or Available Business Services\)
 
 </td>
 <td valign="top">
@@ -4686,7 +5140,7 @@ Access the app
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
@@ -4713,7 +5167,7 @@ View event processing rules
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
@@ -4767,7 +5221,7 @@ View event action variants
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
@@ -4811,60 +5265,6 @@ Yes
 <tr>
 <td valign="top">
 
-Intelligent Event Processing
-
-</td>
-<td valign="top">
-
-View housekeeping and application settings
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Intelligent Event Processing
-
-</td>
-<td valign="top">
-
-Change housekeeping and application settings
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 External API Management
 
 </td>
@@ -4875,7 +5275,7 @@ Access the app
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
@@ -4902,7 +5302,7 @@ View subscriptions
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
@@ -4929,7 +5329,7 @@ View webhooks
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
@@ -4956,7 +5356,7 @@ View mappings
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">
@@ -4983,7 +5383,7 @@ View outbound calls
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 <td valign="top">

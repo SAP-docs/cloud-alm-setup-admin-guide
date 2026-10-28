@@ -6,9 +6,9 @@
 
 Enable the transport management with Adaptation Transport Organizer.
 
-By enabling the transport management for SAP S/4HANA Cloud Public Edition with the Adaptation Transport Organizer \(ATO\), you can keep track of the deployment of transport requests through your implementation landscape.
+By enabling transport management for SAP S/4HANA Cloud Public Edition with the Adaptation Transport Organizer \(ATO\), you can manage the deployment of transport requests through your implementation landscape.
 
-To use the ATO for SAP S/4HANA Cloud Public Edition in an SAP Cloud ALM environment, you have to establish a connection between SAP Cloud ALM and the ATO.
+To use the Adaptation Transport Organizer \(ATO\) in your SAP Cloud ALM environment, you have to establish a connection between your SAP Cloud ALM tenant and your SAP S/4HANA Cloud Public Edition landscape.
 
 > ### Note:  
 > If you have multiple SAP Cloud ALM tenants, you should only connect your SAP S/4HANA Cloud Public Edition tenants to your productive SAP Cloud ALM tenant.
@@ -81,12 +81,30 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
 ## Procedure
 
+The following steps establish a bidirectional mTLS connection between each of your SAP S/4HANA Cloud tenants and SAP Cloud ALM. The setup has two communication channels with different purposes:
+
+-   Outbound \(SAP S/4HANA → SAP Cloud ALM\): Your SAP S/4HANA Cloud tenants automatically push transport events \(exports, imports, retries, and status changes\) to SAP Cloud ALM.
+
+-   Inbound \(SAP Cloud ALM → SAP S/4HANA\): SAP Cloud ALM triggers transport actions directly on your SAP S/4HANA Cloud tenants via BTP destinations.
+
+
 > ### Caution:  
 > To enable the assignment of SAP S/4HANA Cloud Public Edition transports, you have to establish a communication arrangement for your development tenants and test tenants with SAP Cloud ALM. This is important as transports exported from your development system or imported to your test system only show the correct transport status after you’ve established the communication arrangement for **both** your development and test tenant. You can assign ATO transports of DEV tenants that were created up to one year before the first communication with SAP Cloud ALM.
 > 
 > In case you provision a production tenant later, make sure to establish the communication arrangement before the first import to production. Otherwise, you lose the transport status. There is no option to resynchronize the data.
 
-1.  Create a service key/service binding for mTLS authentication in your SAP Cloud ALM subaccount in the SAP BTP Cockpit as described in [Create a Service Key for mTLS Authentication](https://help.sap.com/docs/cloud-alm/apis/creating-service-keys-mtls?ai=true). This creates the two certificate files you need create inbound and outbound users.
+1.  Create a service key/service binding for mTLS authentication in your SAP Cloud ALM subaccount in the SAP BTP Cockpit as described in [Create a Service Key for mTLS Authentication](https://help.sap.com/docs/cloud-alm/apis/creating-service-keys-mtls?ai=true). This creates the binding credentials JSON with two certificate files you need create inbound and outbound users.
+
+    The binding credentials JSON you created contains all the values you need for the next steps. You need the following fields for the next steps:
+
+    -   endpoints.API: used as host name for the communication system
+
+    -   uaa.url: used to build the token endpoint for the communication system
+
+    -   uaa.certurl: used to created the mTLS endpoint for the communication system
+
+    -   uaa.clientid: used as the OAuth 2.0 Client ID for the outbound user
+
 
     > ### Note:  
     > We recommend to use an existing service instance with *SAP Cloud ALM API* as *Service* type to create your service keys.
@@ -133,7 +151,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
         For more information about token endpoints, see [Implementing Custom Token Retrieval from SAP Authorization and Trust Management Service with mTLS](https://help.sap.com/docs/btp/sap-business-technology-platform/implementing-custom-token-retrieval-from-sap-authorization-and-trust-management-service-with-mtls?version=Cloud&ai=true).
 
 
-3.  Create a new inbound user.
+3.  Create a new inbound user to allow the communication from SAP S/4HANA to SAP Cloud ALM.
 
     1.  Go to the *Users for Inbound Communication* section in the *Communications Systems* app and choose *\+*.
 
@@ -154,7 +172,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
         > We recommend to deactivate the password of the user.
 
 
-4.  Create a new outbound user.
+4.  Create a new outbound user to allow the communication from SAP Cloud ALM to SAP S/4HANA.
 
     1.  Go to the *Users for Outbound Communication* section in the *Communication Systems* app and choose *\+*.
 
@@ -192,6 +210,8 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
 5.  Create a communication arrangement in the *Communication Arrangement* app based on scenario SAP\_COM\_0690 and use the system that you created in step 2.
 
+    The communication arrangement activates the ATO integration. It links the communication system, inbound user, and outbound user to enable the outbound services that push transport events from SAP S/4HANA to SAP Cloud ALM.
+
     ![](images/SAP_Calm_ATO_0690_740e224.png)
 
     1.  Assign the system that you created in step 2 of this guide.
@@ -227,7 +247,7 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
     4.  Choose *Save*.
 
 
-6.  Create destinations in the SAP BTP Cockpit.
+6.  Create destinations in the SAP BTP Cockpit to complete the inbound channel from SAP Cloud ALM. This informs SAP Cloud ALM where to send transport actions and how to authenticate them.
 
     1.  Go to the SAP BTP Cockpit and open the *Destination Certificates* tab.
 
@@ -258,6 +278,13 @@ Example for the binding credential in the SAP BTP cockpit for SAP Cloud ALM subb
 
     10. In the *Description*, we recommend to add the system for which you're using the destination.
 
+
+
+What you have set up:
+
+-   Each S/4HANA Cloud tenant \(DEV, TEST, PROD\) has a communication arrangement \(SAP\_COM\_0690\) that pushes transport events to SAP Cloud ALM every 5 minutes via OAuth 2.0 + mTLS.
+
+-   SAP Cloud ALM has a BTP destination per tenant that allows deployment management to trigger transport actions back to SAP S/4HANA Cloud via SSL Client Certificate.
 
 
 
@@ -312,7 +339,7 @@ Create incidents for the *Features* app in [SAP for Me](https://me.sap.com/app/c
 
 [SAP S/4HANA Cloud Private Edition and On-Premise Systems](sap-s-4hana-cloud-private-edition-and-on-premise-systems-5aa24f0.md "Learn how to configure your SAP Cloud ALM deployment scenario for CTS integration.")
 
-[SAP Cloud Transport Management Service](sap-cloud-transport-management-service-8b4af2f.md "Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM.")
+[SAP Cloud Transport Management Service](sap-cloud-transport-management-service-8b4af2f.md "Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM. For general information about CTMS, see What Is SAP Cloud Transport Management.")
 
 [Tips and Troubleshooting for Your Setups](tips-and-troubleshooting-for-your-setups-0fb29d9.md "Find information on how to fix issues.")
 

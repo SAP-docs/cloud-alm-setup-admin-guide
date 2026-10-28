@@ -62,6 +62,9 @@ This document provides guidance on connecting SAP Business Network for Procureme
                                 Network Supply Chain Collaboration, clinical trials add-on to SAP Cloud ALM for monitoring
 		purposes.")**  
 This document provides guidance on connecting SAP Business Network Supply Chain Collaboration, clinical trials add-on to SAP Cloud ALM for monitoring purposes.
+-   **[business optical character recognition](business-optical-character-recognition-d49b6d2.md "This document provides guidance on connecting business optical character recognition to SAP Cloud ALM for monitoring
+		purposes.")**  
+This document provides guidance on connecting business optical character recognition to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Broker Reconciliation for Commodity Derivatives](sap-broker-reconciliation-for-commodity-derivatives-aca4a45.md "This document provides guidance on connecting SAP Broker Reconciliation for Commodity
                                 Derivatives to
 			SAP Cloud ALM for monitoring
@@ -177,6 +180,9 @@ This page explains how to connect SAP Digital Manufacturing to SAP Cloud ALM to 
 -   **[SAP Digital Vehicle Hub](sap-digital-vehicle-hub-1eb4d19.md "This page explains how to connect SAP Digital Vehicle Hub to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Digital Vehicle Hub to SAP Cloud ALM to enable monitoring.
+-   **[SAP Document AI](sap-document-ai-1e9c354.md "This document provides guidance on connecting SAP Document AI to SAP Cloud ALM for monitoring
+		purposes.")**  
+This document provides guidance on connecting SAP Document AI to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Document Management service](sap-document-management-service-92e6714.md "This page explains how to connect SAP Datasphere to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Datasphere to SAP Cloud ALM to enable monitoring.
@@ -339,6 +345,9 @@ This page explains how to connect SAP S/4HANA Cloud Public Edition to SAP Cloud 
                         2 to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Sales Cloud and SAP Service Cloud Version 2 to SAP Cloud ALM to enable monitoring.
+-   **[SAP Self-Billing Cockpit](sap-self-billing-cockpit-92e5549.md "This document provides guidance on connecting SAP Self-Billing Cockpit to SAP Cloud ALM for monitoring
+		purposes.")**  
+This document provides guidance on connecting SAP Self-Billing Cockpit to SAP Cloud ALM for monitoring purposes.
 -   **[SAP Subscription Billing](sap-subscription-billing-0490143.md "This page explains how to connect SAP Subscription Billing to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect SAP Subscription Billing to SAP Cloud ALM to enable monitoring.
@@ -400,4 +409,6 @@ This page explains how SAP Workflow Management can be integrated with SAP Cloud 
 -   **[Non-SAP Services and Systems](non-sap-services-and-systems-506cd14.md "This page explains how to connect non-SAP services and systems to SAP Cloud ALM to enable
 		monitoring.")**  
 This page explains how to connect non-SAP services and systems to SAP Cloud ALM to enable monitoring.
+-   **[Web Dispatcher](web-dispatcher-4d7dff5.md "")**  
+
 

@@ -2,14 +2,14 @@
 
 # SAP Cloud Transport Management Service
 
-Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM.
+Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM. For general information about CTMS, see [What Is SAP Cloud Transport Management](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/what-is-sap-cloud-transport-management?version=Cloud&ai=true).
 
 Several SAP Cloud Products use SAP Cloud Transport Management as environment for transporting their development artifacts and application-specific content. The transport nodes of SAP Cloud Transport Management represent the landscape of those SAP Cloud Products. Connecting SAP Cloud Transport Management to SAP Cloud ALM makes that landscape and the respective transports visible for SAP Cloud ALM. Then, you can orchestrate the deployment of those transports in SAP Cloud ALM.
 
 You can directly connect an SAP Cloud Transport Management service \(CTMS\) instance subscribed in your SAP BTP Global Account to SAP Cloud ALM.
 
 > ### Note:  
-> In case you've subscribed to several SAP Cloud Transport Management service instances, it's possible to connect all of them to the same SAP Cloud ALM.
+> In case you've subscribed to several SAP Cloud Transport Management service instances, it's possible to connect all of them to the same SAP Cloud ALM tenant.
 
 To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport Management service, you first have to establish a connection between them.
 
@@ -54,7 +54,7 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 -   You've created an instance of SAP Cloud Transport Management service in the central administrative subaccount.
 
     > ### Note:  
-    > It's not possible to do this in SAP Cloud ALM Global or Sub accounts.
+    > It's not possible to do this in SAP Cloud ALM Global or subaccounts.
 
 -   You've created a service key for SAP Cloud Transport Management service. For more information, see [Creating a Service Instance and a Service Key](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-service-instance-and-service-key?version=Cloud).
 
@@ -69,20 +69,20 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 
 1.  Set Up HTTP destinations.
 
-    SAP Cloud ALM requires a destination to the SAP Cloud Transport Management service. In the SAP BTP subaccount where your SAP Cloud ALM is hosted, create a destination targeted at the SAP Cloud Transport Management service.
+    SAP Cloud ALM requires a destination to the SAP Cloud Transport Management service. In the SAP BTP subaccount where your SAP Cloud ALM tenant is hosted, create a destination targeted at the SAP Cloud Transport Management service.
 
     > ### Note:  
-    > If you have multiple SAP Cloud ALM tenants, you need to have an SAP BTP destination pointing to the CTMS instance. Then, you need to decide which SAP Cloud ALM instance should point to the CTMS instance.
+    > If you have multiple SAP Cloud ALM tenants, you have to decide which SAP Cloud Alm tenant should point to the CTMS instance.
     > 
-    > Here's what we recommend:
+    > We recommend:
     > 
-    > -   only connect your productively used SAP Cloud Transport Manage service instance to your productive SAP Cloud ALM instance
+    > -   only connect your productively used SAP Cloud Transport Manage service instance to your productive SAP Cloud ALM tenant
     > 
-    > -   don't connect your productive environment to both SAP Cloud ALM instances
+    > -   don't connect your productive environment to multiple SAP Cloud ALM tenants
     > 
-    > -   only connect demo and sandbox SAP Cloud Transport Management service instances to your test SAP Cloud ALM instance
+    > -   only connect demo and sandbox SAP Cloud Transport Management service instances to your test SAP Cloud ALM tenant
 
-    1.  Go to your SAP BTP subaccount of your SAP Cloud ALM instance, choose *Connectivity*, then *Destinations*, then *Create*.
+    1.  Go to your SAP BTP subaccount of your SAP Cloud ALM tenant, choose *Connectivity*, then *Destinations*, then *Create*.
 
         ![](images/btp_a17b1b6.png)
 
@@ -229,7 +229,12 @@ To use the transport capabilities of SAP Cloud ALM with the SAP Cloud Transport 
 
 2.  After you've established the connection, it can take up to 5 minutes before the first transports appear in the *Features* app.
 
-    In the *Features* app, the transports appear in the transport list with the destination as a prefix to the transport ID. See screenshot below.![](images/Features_app_Transports_994cb27.png)
+    > ### Note:  
+    > If the transports don't show up in the assign dialog, check if your transport nodes are assigned to the systems in the system group. For more information, see [System Groups](https://help.sap.com/docs/cloud-alm/applicationhelp/system-groups-and-deployment-plans?ai=true).
+
+    In the *Features* app, the transports appear in the transport list with the destination as a prefix to the transport ID. See screenshot below.
+
+    ![](images/assign_079fe66.png)
 
 
 

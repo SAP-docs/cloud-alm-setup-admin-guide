@@ -155,3 +155,37 @@ When users select *Register*, the system makes a synchronous call to SAP Cloud A
     For more details, see [Cloud Connector FAQ](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector-faq) *Features* \> *Can I use the Cloud Connector from on-premise to cloud for any protocol?*.
 
 
+
+
+## Enabling Extended Logging for Health Monitoring
+
+By default, Health Monitoring writes only errors and warnings to the application log in transaction `SLG1`.
+
+If you need additional log entries for troubleshooting, you can use the report `/SDF/CALM_HM_LOG_CONFIG` to enable or disable extended logging. Extended logging includes informational and debug messages.
+
+**Enabling Extended Logging**
+
+To enable extended logging, run the report `/SDF/CALM_HM_LOG_CONFIG` in transaction `SE38` and select *Create*. You have the following options:
+
+-   If you leave the destination field empty, extended logging is enabled globally for all destinations.
+
+-   If you enter a specific destination, extended logging is enabled only for that destination.
+
+
+> ### Note:  
+> A global logging setting takes precedence over a destination-specific setting. To configure destination-specific logging, delete the global setting first.
+
+**Disabling Extended Logging**
+
+To disable extended logging, run the same report and select *Delete*. You have the following options:
+
+-   If you leave the destination field empty, global extended logging is disabled.
+
+-   If you enter a specific destination, extended logging is disabled only for that destination.
+
+
+All changes require confirmation and take effect immediately.
+
+> ### Note:  
+> Disable extended logging after troubleshooting to avoid unnecessary application log volume.
+

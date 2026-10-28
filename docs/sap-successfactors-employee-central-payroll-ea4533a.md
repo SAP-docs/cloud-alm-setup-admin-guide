@@ -53,8 +53,7 @@ Set up your ABAP system in transaction */SDF/ALM\_SETUP*, with the following req
     -   The profile parameter *icm/HTTPS/client\_sni\_enabled* is set to TRUE. See also SAP Note [510007](https://me.sap.com/notes/510007) \(Additional considerations for setting up SSL on Application Server ABAP\).
     -   Profile parameter *ssl/client\_ciphersuites* is defined as described in section 7 of SAP Note [510007](https://me.sap.com/notes/510007).
 
--   [DigiCert Global Root G2](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
--   [DigiCert TLS RSA4096 Root G5](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-abap/setup-strust.html) has been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*.
+-   **DigiCert Global Root G2**, **DigiCert Global Root G3**, and **DigiCert TLS RSA4096 Root G5** have been imported in *STRUST* under *SSL Client \(Anonymous\)* and *SSL Client \(Standard\)*. More in SAP Note [3566727](https://me.sap.com/notes/3566727).
 -   You've installed the latest version of the following SAP Notes for ST-PI:
 
     -   SAP Note [3795818](https://me.sap.com/notes/3795818) – Collective corrections as of ST-PI 7.40 **SP36** and ST-PI 7.58 SP03 for SAP Cloud ALM
@@ -289,7 +288,7 @@ If you are using *Health Monitoring* and the SAP HANA database host is not runni
 
 ## Setup in SAP Cloud ALM
 
-After the successful setup that's described in the previous section, the SAP S/4HANA Cloud Private Edition system appears as a registered service in the *Landscape Management* app of SAP Cloud ALM.
+After the successful setup that's described in the previous section, the system appears as a registered service in the *Landscape Management* app of SAP Cloud ALM.
 
 When you've set up the monitoring push to SAP Cloud ALM in SAP BTP Cockpit for your managed service, the data collection is active, with default monitoring configurations.
 

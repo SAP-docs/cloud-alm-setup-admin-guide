@@ -128,7 +128,12 @@ Process Management
 </td>
 <td valign="top">
 
-SAP Best Practices for analytics with SAP S/4HANA Cloud Private Edition
+-   SAP Best Practices for analytics with SAP S/4HANA Cloud Private Edition
+
+-   SAP Best Practices for SAP S/4HANA Cloud Private Edition
+
+
+
 
 </td>
 </tr>
@@ -473,6 +478,7 @@ Process Management
 -   Model Company for Environment, Health and Safety
 -   Model Company for Fashion and Vertical Business
 -   Model Company for Integrated Utilities
+-   Model Company for Mill Products
 -   Model Company for Research, Development, and Engineering
 -   SAP Services Content for Oil and Gas
 
@@ -1826,6 +1832,72 @@ Integration & Exception Monitoring
 <td valign="top">
 
 More under [Retail Intelligence](retail-intelligence-17b4af1.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+business optical character recognition
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [business optical character recognition](business-optical-character-recognition-d49b6d2.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Document AI
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Document AI](sap-document-ai-1e9c354.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Self-Billing Cockpit
+
+</td>
+<td valign="top">
+
+Operations
+
+</td>
+<td valign="top">
+
+Integration & Exception Monitoring
+
+</td>
+<td valign="top">
+
+More under [SAP Self-Billing Cockpit](sap-self-billing-cockpit-92e5549.md).
 
 </td>
 </tr>

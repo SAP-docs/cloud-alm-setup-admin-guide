@@ -14,8 +14,9 @@ Enable the transport management with Adaptation Transport Organizer.
 		integration.")**  
 Learn how to configure your SAP Cloud ALM deployment scenario for CTS integration.
 -   **[SAP Cloud Transport Management Service](sap-cloud-transport-management-service-8b4af2f.md "Enable the transport management for the SAP Cloud Transport Management service for SAP
-		Cloud ALM.")**  
-Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM.
+		Cloud ALM. For general information about CTMS, see What Is SAP Cloud Transport
+		Management.")**  
+Enable the transport management for the SAP Cloud Transport Management service for SAP Cloud ALM. For general information about CTMS, see [What Is SAP Cloud Transport Management](../../../../../../../../https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/what-is-sap-cloud-transport-management?version=Cloud&ai=true).
 -   **[Tips and Troubleshooting for Your Setups](tips-and-troubleshooting-for-your-setups-0fb29d9.md "Find information on how to fix issues.")**  
 Find information on how to fix issues.
 
